@@ -1,5 +1,5 @@
 {
-  "aktualisiert": "24.11.2026, 17:15 Uhr",
+  "aktualisiert": "24.11.2026, 18:03 Uhr",
   "maerkte": {
     "schlagzeilen": [
       {
@@ -88,14 +88,14 @@
       },
       {
         "tag": "Börse",
-        "titel": "Europas Börsen pausieren nach KI-Rally, Minenwerte brechen ein",
-        "warum": "Stoxx 600 leicht im Minus; Aixtron nach UBS-Abstufung rund −9 %, Anglo American und Antofagasta über −5 %.",
-        "quelle": "Reuters",
-        "url": "https://www.investing.com/news/stock-market-news/europes-stoxx-600-subdued-after-aidriven-rally-5047331",
-        "zeit": "24.11.",
+        "titel": "DAX fällt 1,3 % auf 25.018 Punkte – Nvidia-Schub verpufft",
+        "warum": "Nach der Tech-Rally vom Montag fehlen Anschlusskäufe; MDax −1,7 %, EuroStoxx 50 −1,2 %, der DAX liegt rund 8 % unter seinem Rekord von Mitte November.",
+        "quelle": "dpa",
+        "url": "https://www.finanzen.net/nachricht/aktien/aktien-frankfurt-schluss-rueckschlag-nach-tech-kursrally-fehlen-anschlusskaeufe-16084455",
+        "zeit": "24.11., 17:47",
         "medien": [
-          "Reuters",
-          "Handelsblatt"
+          "dpa",
+          "wallstreet-online"
         ]
       }
     ],
@@ -203,7 +203,7 @@
     ],
     "renditen_stand": "Stand 24.11. (Italien 23.11.), Quelle: Trading Economics",
     "watchlist": {
-      "stand": "Stand 24.11., 17:15 Uhr",
+      "stand": "Stand 24.11., 18:03 Uhr",
       "maerkte": [
         {
           "markt": "USA",
@@ -2766,7 +2766,7 @@
       ]
     },
     "indizes": {
-      "lage": "Nach dem Rekordtag am Montag geben Chipwerte nach; der DAX verliert nach dem Ifo-Plus rund 1 %. S&P 500 und Dow waren vergangene Woche in eine technische Korrektur gerutscht, Asiens Börsen feierten die Nvidia-Wende.",
+      "lage": "Nach dem Rekordtag am Montag geben Chipwerte wieder nach: Der DAX schloss 1,3 % tiefer bei 25.018 Punkten, das MDax verlor 1,7 %. S&P 500 und Dow waren vergangene Woche in eine technische Korrektur gerutscht, Asiens Börsen feierten die Nvidia-Wende.",
       "meldungen": [
         {
           "tag": "DAX",
