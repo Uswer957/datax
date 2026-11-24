@@ -259,13 +259,36 @@
   }
   let MAPS = null;
   const mapsReady = fetch("maps.json?v=1").then((r) => r.json()).then((m) => { MAPS = m; }).catch(() => {});
+  // Koalition "SPD–Grüne–Linke (Minderheit)" -> Parteifarben in Reihenfolge
+  function coalColors(l) {
+    const parts = String(l.koalition || "").replace(/\(.*?\)/g, "").split(/[–—\/,]| - /)
+      .map((x) => x.replace(/[„“"]/g, "").replace(/\b(allein|Minderheit)\b/gi, "").trim()).filter(Boolean);
+    const cols = [];
+    parts.forEach((x) => { const c = PARTY[x]; if (c && !cols.includes(c)) cols.push(c); });
+    if (!cols.length) cols.push(pc(l.partei));
+    return cols;
+  }
   function drawMap(boxId, which, fillFor, titleFor, dashed) {
     const box = $(boxId); box.textContent = "";
     if (!MAPS || !MAPS[which]) return;
     const M = MAPS[which];
     const svg = svgEl("svg", { viewBox: `0 0 ${M.w} ${M.h}`, role: "img" });
+    const defs = svgEl("defs", {}); svg.appendChild(defs);
+    const pats = {};
+    const paint = (f) => {
+      if (!Array.isArray(f)) return f;
+      if (f.length === 1) return f[0];
+      const key = f.join("|");
+      if (!pats[key]) {
+        const id = boxId + "-pat-" + Object.keys(pats).length, w = 9;
+        const pat = svgEl("pattern", { id, patternUnits: "userSpaceOnUse", width: w * f.length, height: w * f.length, patternTransform: "rotate(45)" });
+        f.forEach((c, i) => pat.appendChild(svgEl("rect", { x: i * w, y: 0, width: w, height: w * f.length, fill: c })));
+        defs.appendChild(pat); pats[key] = `url(#${id})`;
+      }
+      return pats[key];
+    };
     Object.entries(M.states).forEach(([code, st]) => {
-      const path = svgEl("path", { d: st.d, fill: fillFor(code) || "#2a2a2a" });
+      const path = svgEl("path", { d: st.d, fill: paint(fillFor(code)) || "#2a2a2a" });
       if (dashed && dashed(code)) path.setAttribute("class", "gf");
       const tt = svgEl("title", {}); tt.textContent = titleFor(code, st.name); path.appendChild(tt);
       svg.appendChild(path);
@@ -283,15 +306,16 @@
     hemicycle("pd-bt", "pd-bt-leg", (de.bundestag || {}).sitze);
     const L = de.laender || [];
     const byCode = {}; L.forEach((l) => { byCode[l.code] = l; });
-    drawMap("pd-map", "de", (c) => byCode[c] && pc(byCode[c].partei), (c, n) => { const l = byCode[c]; return l ? `${n}: ${l.regierungschef} (${l.partei}), ${l.koalition}${l.hinweis ? " – " + l.hinweis : ""}` : n; }, (c) => byCode[c] && byCode[c].hinweis);
+    drawMap("pd-map", "de", (c) => byCode[c] && coalColors(byCode[c]), (c, n) => { const l = byCode[c]; return l ? `${n}: ${l.regierungschef} (${l.partei}), ${l.koalition}${l.hinweis ? " – " + l.hinweis : ""}` : n; }, (c) => byCode[c] && byCode[c].hinweis);
     const cnt = {}; L.forEach((l) => { const k = l.partei === "CDU" || l.partei === "CSU" ? "CDU/CSU" : l.partei; cnt[k] = (cnt[k] || 0) + 1; });
     const ents = Object.entries(cnt).sort((a, b) => b[1] - a[1]).map(([p, n]) => [p, pc(p), n]);
+    if (L.some((l) => coalColors(l).length > 1)) ents.push(["gestreift: Koalition in Parteifarben", "repeating-linear-gradient(45deg,#e3000f 0 3px,#46962b 3px 6px)", null]);
     if (L.some((l) => l.hinweis)) ents.push(["gestrichelt: Regierungsbildung offen", "transparent", null]);
     legendFrom("pd-map-leg", ents);
     const tb = $("pd-laender").querySelector("tbody"); tb.textContent = "";
     L.forEach((l) => {
       const tr = document.createElement("tr");
-      const td1 = txt("td", "", ""); const d = txt("span", "pdot", ""); d.style.background = pc(l.partei); td1.appendChild(d); td1.appendChild(document.createTextNode(l.land));
+      const td1 = txt("td", "", ""); const d = txt("span", "pdot", ""); { const cc = coalColors(l); d.style.background = cc.length > 1 ? "linear-gradient(90deg," + cc.map((c, i) => `${c} ${(i * 100 / cc.length).toFixed(1)}% ${((i + 1) * 100 / cc.length).toFixed(1)}%`).join(",") + ")" : cc[0]; } td1.appendChild(d); td1.appendChild(document.createTextNode(l.land));
       tr.appendChild(td1); tr.appendChild(txt("td", "", l.regierungschef + " (" + l.partei + ")"));
       tr.appendChild(txt("td", "", l.koalition + (l.hinweis ? " · " + l.hinweis : ""))); tb.appendChild(tr);
     });
