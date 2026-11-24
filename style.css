@@ -49,6 +49,7 @@ h1{font:600 20px/1 var(--f-display);letter-spacing:.08em;text-transform:uppercas
 .tv-tape{margin-bottom:10px;min-height:46px}
 .tv-quotes{height:300px}
 .tv-cal{height:460px}
+.tv-bonds{height:170px;margin-top:10px}
 .tv .tradingview-widget-container{height:100%}
 .fallback{font-size:12px;color:var(--muted)}
 

@@ -4,7 +4,9 @@
     "schlagzeilen": [],
     "verschuldung": [],
     "verschuldung_quelle": "",
-    "termine": []
+    "termine": [],
+    "renditen": [],
+    "renditen_stand": ""
   },
   "politik": {
     "welt": [],
@@ -15,15 +17,64 @@
   },
   "sport": {
     "ligen": [
-      { "kurz": "CL", "name": "Champions League", "schlagzeilen": [], "tabellen": [] },
-      { "kurz": "BL", "name": "Bundesliga", "schlagzeilen": [], "tabellen": [] },
-      { "kurz": "PL", "name": "Premier League", "schlagzeilen": [], "tabellen": [] },
-      { "kurz": "LaLiga", "name": "LaLiga", "schlagzeilen": [], "tabellen": [] },
-      { "kurz": "Serie A", "name": "Serie A", "schlagzeilen": [], "tabellen": [] },
-      { "kurz": "NFL", "name": "NFL", "us": true, "schlagzeilen": [], "tabellen": [] },
-      { "kurz": "NBA", "name": "NBA", "us": true, "schlagzeilen": [], "tabellen": [] },
-      { "kurz": "NHL", "name": "NHL", "us": true, "schlagzeilen": [], "tabellen": [] },
-      { "kurz": "MLB", "name": "MLB", "us": true, "schlagzeilen": [], "tabellen": [] }
+      {
+        "kurz": "CL",
+        "name": "Champions League",
+        "schlagzeilen": [],
+        "tabellen": []
+      },
+      {
+        "kurz": "BL",
+        "name": "Bundesliga",
+        "schlagzeilen": [],
+        "tabellen": []
+      },
+      {
+        "kurz": "PL",
+        "name": "Premier League",
+        "schlagzeilen": [],
+        "tabellen": []
+      },
+      {
+        "kurz": "LaLiga",
+        "name": "LaLiga",
+        "schlagzeilen": [],
+        "tabellen": []
+      },
+      {
+        "kurz": "Serie A",
+        "name": "Serie A",
+        "schlagzeilen": [],
+        "tabellen": []
+      },
+      {
+        "kurz": "NFL",
+        "name": "NFL",
+        "us": true,
+        "schlagzeilen": [],
+        "tabellen": []
+      },
+      {
+        "kurz": "NBA",
+        "name": "NBA",
+        "us": true,
+        "schlagzeilen": [],
+        "tabellen": []
+      },
+      {
+        "kurz": "NHL",
+        "name": "NHL",
+        "us": true,
+        "schlagzeilen": [],
+        "tabellen": []
+      },
+      {
+        "kurz": "MLB",
+        "name": "MLB",
+        "us": true,
+        "schlagzeilen": [],
+        "tabellen": []
+      }
     ]
   },
   "sonstiges": {
@@ -43,9 +94,18 @@
     },
     "funfact": "Der Begriff „Bankrott“ kommt vom italienischen „banca rotta“, der zerbrochenen Bank: Zahlungsunfähigen Geldwechslern wurde der Tisch zerschlagen.",
     "wissen": [
-      { "bereich": "Geschichte", "fakt": "Die erste Börse im heutigen Sinn entstand 1602 in Amsterdam, als die Niederländische Ostindien-Kompanie ihre Anteile handelbar machte." },
-      { "bereich": "Wirtschaft", "fakt": "Das Gresham'sche Gesetz besagt: Schlechtes Geld verdrängt gutes, weil Menschen das wertvollere Geld horten und das schlechtere ausgeben." },
-      { "bereich": "Allgemeinwissen", "fakt": "Die Landebahnnummern geben die gerundete magnetische Richtung in Zehnergrad an; Bahn 25 zeigt also etwa auf 250 Grad." }
+      {
+        "bereich": "Geschichte",
+        "fakt": "Die erste Börse im heutigen Sinn entstand 1602 in Amsterdam, als die Niederländische Ostindien-Kompanie ihre Anteile handelbar machte."
+      },
+      {
+        "bereich": "Wirtschaft",
+        "fakt": "Das Gresham'sche Gesetz besagt: Schlechtes Geld verdrängt gutes, weil Menschen das wertvollere Geld horten und das schlechtere ausgeben."
+      },
+      {
+        "bereich": "Allgemeinwissen",
+        "fakt": "Die Landebahnnummern geben die gerundete magnetische Richtung in Zehnergrad an; Bahn 25 zeigt also etwa auf 250 Grad."
+      }
     ],
     "steuerrecht": {
       "frage": "Welche sieben Einkunftsarten kennt das Einkommensteuergesetz?",

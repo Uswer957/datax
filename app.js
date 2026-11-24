@@ -76,7 +76,7 @@
     const s = document.createElement("script");
     s.src = "https://s3.tradingview.com/external-embedding/embed-widget-" + kind + ".js";
     s.async = true;
-    s.textContent = JSON.stringify(Object.assign({ colorTheme: "dark", isTransparent: true, locale: "de_DE" }, config));
+    s.textContent = JSON.stringify(Object.assign({ colorTheme: "dark", isTransparent: false, backgroundColor: "#121922", locale: "de_DE" }, config));
     s.onerror = () => { box.innerHTML = '<p class="fallback">Live-Kurse konnten nicht geladen werden.</p>'; };
     box.appendChild(s);
   }
@@ -90,12 +90,12 @@
       { proName: "FOREXCOM:SPXUSD", title: "S&P 500" }, { proName: "INDEX:DEU40", title: "DAX" },
       { proName: "FX:EURUSD", title: "EUR/USD" }, { proName: "TVC:UKOIL", title: "Brent" },
       { proName: "TVC:GOLD", title: "Gold" }, { proName: "TVC:SILVER", title: "Silber" },
-      { proName: "TVC:US10Y", title: "US 10J" }, { proName: "BITSTAMP:BTCUSD", title: "Bitcoin" }
+      { proName: "OANDA:DE10YBEUR", title: "Bund" }, { proName: "BITSTAMP:BTCUSD", title: "Bitcoin" }
     ]
   });
   widget("w-fx", "market-quotes", quotes("Devisen", [["FX:EURUSD", "EUR/USD"], ["FX:EURGBP", "EUR/GBP"], ["FX:EURCHF", "EUR/CHF"], ["FX:USDJPY", "USD/JPY"], ["FX_IDC:USDCNY", "USD/CNY"], ["FX_IDC:EURCNY", "EUR/CNY"]]));
-  widget("w-cmd", "market-quotes", quotes("Rohstoffe", [["TVC:UKOIL", "Brent"], ["TVC:USOIL", "WTI"], ["TVC:GOLD", "Gold"], ["TVC:SILVER", "Silber"], ["TVC:PLATINUM", "Platin"], ["COMEX:HG1!", "Kupfer"]]));
-  widget("w-bonds", "market-quotes", quotes("Anleihen", [["TVC:DE10Y", "Deutschland"], ["TVC:US10Y", "USA"], ["TVC:GB10Y", "UK"], ["TVC:FR10Y", "Frankreich"], ["TVC:IT10Y", "Italien"], ["TVC:JP10Y", "Japan"], ["TVC:CN10Y", "China"]]));
+  widget("w-cmd", "market-quotes", quotes("Rohstoffe", [["TVC:UKOIL", "Brent"], ["TVC:USOIL", "WTI"], ["TVC:GOLD", "Gold"], ["TVC:SILVER", "Silber"], ["TVC:PLATINUM", "Platin"], ["CAPITALCOM:COPPER", "Kupfer"]]));
+  widget("w-bonds", "market-quotes", quotes("Anleihe-Kurse", [["OANDA:DE10YBEUR", "Bund 10J"], ["OANDA:USB10YUSD", "US T-Note 10J"], ["OANDA:UK10YBGBP", "UK Gilt 10J"]]));
   widget("w-idx", "market-quotes", quotes("Indizes", [["INDEX:DEU40", "DAX"], ["FOREXCOM:SPXUSD", "S&P 500"], ["FOREXCOM:NSXUSD", "Nasdaq 100"], ["INDEX:NKY", "Nikkei 225"], ["INDEX:HSI", "Hang Seng"], ["BITSTAMP:BTCUSD", "Bitcoin"], ["BITSTAMP:ETHUSD", "Ethereum"]]));
   widget("w-cal", "events", { width: "100%", height: "100%", importanceFilter: "0,1", countryFilter: "us,eu,de,cn,gb,jp" });
 
@@ -184,6 +184,8 @@
     newsList("m-headlines", m.schlagzeilen);
     rows("m-debt", m.verschuldung, [["land"], ["quote", "r"], ["absolut", "r"]]);
     $("m-debt-src").textContent = m.verschuldung_quelle || "";
+    rows("m-yields", m.renditen, [["land"], ["rendite", "r"]]);
+    $("m-yields-src").textContent = m.renditen_stand || "";
     rows("m-corp", m.termine, [["datum", "date"], ["was"]]);
     const p = d.politik || {};
     newsList("p-welt", p.welt); newsList("p-usa", p.usa); newsList("p-de", p.deutschland);
