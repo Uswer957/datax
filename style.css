@@ -1,7 +1,7 @@
 /* Layout: Kopfband mit Börsenuhren, Tab-Leiste, dichte Kachelraster je Tab */
 :root{
-  --bg:#0b1016; --panel:#121922; --panel2:#18212c; --line:#24303e; --fg:#e4e9f0; --muted:#8a97a8;
-  --accent:#e8a33d; --open:#37c07a; --closed:#5b6777; --down:#ef6a5a; --up:#37c07a;
+  --bg:#000; --panel:#0c0c0c; --panel2:#161616; --line:#2b2b2b; --fg:#f2f2f2; --muted:#8c8c8c;
+  --accent:#fff; --open:#fff; --closed:#444; --down:#f2f2f2; --up:#f2f2f2;
   --f-display:"IBM Plex Sans Condensed","Arial Narrow",system-ui,sans-serif;
   --f-body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
   --f-data:"IBM Plex Mono",ui-monospace,Menlo,monospace;
@@ -26,7 +26,8 @@ h1{font:600 20px/1 var(--f-display);letter-spacing:.08em;text-transform:uppercas
 .clock .t{font:500 13px var(--f-data);text-align:right;font-variant-numeric:tabular-nums}
 .clock .st{grid-column:1/-1;font:11px var(--f-data);display:flex;align-items:center;gap:5px}
 .dot{width:7px;height:7px;border-radius:50%;background:var(--closed)}
-.clock.open .dot{background:var(--open);box-shadow:0 0 6px var(--open)}
+.clock.open .dot{background:var(--open);box-shadow:0 0 0 2px #000,0 0 0 3px var(--open)}
+.clock.open{border-color:#555}
 .clock.open .st{color:var(--open)} .clock .st{color:var(--muted)}
 
 .tabs{display:flex;gap:2px;align-items:center;margin:12px 0;border-bottom:1px solid var(--line);overflow-x:auto}
@@ -55,7 +56,7 @@ h1{font:600 20px/1 var(--f-display);letter-spacing:.08em;text-transform:uppercas
 
 .news{list-style:none;margin:0;padding:0;display:grid;gap:10px;counter-reset:n}
 .news li{display:grid;grid-template-columns:22px 1fr;gap:2px 8px;counter-increment:n}
-.news li::before{content:counter(n);font:500 12px var(--f-data);color:var(--accent);grid-row:span 3;padding-top:2px}
+.news li::before{content:counter(n);font:500 12px var(--f-data);color:var(--muted);grid-row:span 3;padding-top:2px}
 .news .h{font-weight:500}
 .news .why{color:var(--muted);font-size:13px}
 .news .src{font-size:11px}

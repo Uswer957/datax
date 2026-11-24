@@ -76,7 +76,7 @@
     const s = document.createElement("script");
     s.src = "https://s3.tradingview.com/external-embedding/embed-widget-" + kind + ".js";
     s.async = true;
-    s.textContent = JSON.stringify(Object.assign({ colorTheme: "dark", isTransparent: false, backgroundColor: "#121922", locale: "de_DE" }, config));
+    s.textContent = JSON.stringify(Object.assign({ colorTheme: "dark", isTransparent: false, backgroundColor: "#0c0c0c", locale: "de_DE" }, config));
     s.onerror = () => { box.innerHTML = '<p class="fallback">Live-Kurse konnten nicht geladen werden.</p>'; };
     box.appendChild(s);
   }
