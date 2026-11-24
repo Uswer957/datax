@@ -7,7 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preload" href="fonts/GeneralSans-Variable.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap">
-<link rel="stylesheet" href="style.css?v=6">
+<link rel="stylesheet" href="style.css?v=7">
 </head>
 <body>
 <header class="top">
@@ -92,6 +92,28 @@
         <ol class="news" id="p-recht"></ol>
       </article>
     </div>
+    <div class="grid g-two parl">
+      <article class="card">
+        <h2><span>Deutschland · Bundestag &amp; Länder</span><span class="h2-note" id="pd-stand"></span></h2>
+        <div class="hemi" id="pd-bt"></div>
+        <div class="legend" id="pd-bt-leg"></div>
+        <div class="map" id="pd-map"></div>
+        <div class="legend" id="pd-map-leg"></div>
+        <table class="tbl compact" id="pd-laender"><thead><tr><th>Land</th><th>Regierungschef</th><th>Koalition</th></tr></thead><tbody></tbody></table>
+        <p class="src" id="pd-src"></p>
+      </article>
+      <article class="card">
+        <h2><span>USA · Kongress &amp; Gouverneure</span><span class="h2-note" id="pu-stand"></span></h2>
+        <div class="hemi2"><div><h3 class="sub">Repräsentantenhaus</h3><div class="hemi" id="pu-house"></div><div class="legend" id="pu-house-leg"></div></div>
+        <div><h3 class="sub">Senat</h3><div class="hemi" id="pu-senate"></div><div class="legend" id="pu-senate-leg"></div></div></div>
+        <p class="note" id="pu-note"></p>
+        <div class="map" id="pu-map"></div>
+        <div class="legend" id="pu-map-leg"></div>
+        <p class="note" id="pu-map-note"></p>
+        <p class="src" id="pu-src"></p>
+      </article>
+    </div>
+    <p class="src bias-note" id="bias-note"></p>
   </section>
 
   <!-- SPORT -->
@@ -132,6 +154,6 @@
   Kurse: TradingView-Widgets, teils verzögert. Texte: von Claude recherchiert und mehrmals täglich aktualisiert, mit Quellen. Keine Anlageberatung. Börsenzeiten ohne Feiertage.
 </footer>
 
-<script src="app.js?v=6"></script>
+<script src="app.js?v=7"></script>
 </body>
 </html>

@@ -417,7 +417,252 @@
         "quelle": "LTO",
         "url": "https://www.lto.de/recht/presseschau/p/2026-11-19-bverfg-bsw-wahlpruefung-kindschaftsrecht-gewalt-dazn-preiserhoehung"
       }
-    ]
+    ],
+    "parlamente": {
+      "deutschland": {
+        "stand": "Stand 24.11.2026",
+        "bundestag": {
+          "sitze": [
+            {
+              "partei": "Linke",
+              "sitze": 64
+            },
+            {
+              "partei": "SPD",
+              "sitze": 120
+            },
+            {
+              "partei": "Grüne",
+              "sitze": 85
+            },
+            {
+              "partei": "CDU/CSU",
+              "sitze": 208
+            },
+            {
+              "partei": "AfD",
+              "sitze": 150
+            },
+            {
+              "partei": "fraktionslos",
+              "sitze": 3
+            }
+          ]
+        },
+        "laender": [
+          {
+            "code": "BW",
+            "land": "Baden-Württemberg",
+            "regierungschef": "Cem Özdemir",
+            "partei": "Grüne",
+            "koalition": "Grüne–CDU"
+          },
+          {
+            "code": "BY",
+            "land": "Bayern",
+            "regierungschef": "Markus Söder",
+            "partei": "CSU",
+            "koalition": "CSU–Freie Wähler"
+          },
+          {
+            "code": "BE",
+            "land": "Berlin",
+            "regierungschef": "Kai Wegner",
+            "partei": "CDU",
+            "koalition": "CDU–SPD",
+            "hinweis": "geschäftsführend; nach der Wahl am 20.09. verhandeln Linke, SPD und Grüne"
+          },
+          {
+            "code": "BB",
+            "land": "Brandenburg",
+            "regierungschef": "Dietmar Woidke",
+            "partei": "SPD",
+            "koalition": "SPD–CDU"
+          },
+          {
+            "code": "HB",
+            "land": "Bremen",
+            "regierungschef": "Andreas Bovenschulte",
+            "partei": "SPD",
+            "koalition": "SPD–Grüne–Linke"
+          },
+          {
+            "code": "HH",
+            "land": "Hamburg",
+            "regierungschef": "Peter Tschentscher",
+            "partei": "SPD",
+            "koalition": "SPD–Grüne"
+          },
+          {
+            "code": "HE",
+            "land": "Hessen",
+            "regierungschef": "Boris Rhein",
+            "partei": "CDU",
+            "koalition": "CDU–SPD"
+          },
+          {
+            "code": "MV",
+            "land": "Mecklenburg-Vorpommern",
+            "regierungschef": "Manuela Schwesig",
+            "partei": "SPD",
+            "koalition": "SPD–Linke–Grüne"
+          },
+          {
+            "code": "NI",
+            "land": "Niedersachsen",
+            "regierungschef": "Olaf Lies",
+            "partei": "SPD",
+            "koalition": "SPD–Grüne"
+          },
+          {
+            "code": "NW",
+            "land": "Nordrhein-Westfalen",
+            "regierungschef": "Hendrik Wüst",
+            "partei": "CDU",
+            "koalition": "CDU–Grüne"
+          },
+          {
+            "code": "RP",
+            "land": "Rheinland-Pfalz",
+            "regierungschef": "Gordon Schnieder",
+            "partei": "CDU",
+            "koalition": "CDU–SPD"
+          },
+          {
+            "code": "SL",
+            "land": "Saarland",
+            "regierungschef": "Anke Rehlinger",
+            "partei": "SPD",
+            "koalition": "SPD allein"
+          },
+          {
+            "code": "SN",
+            "land": "Sachsen",
+            "regierungschef": "Michael Kretschmer",
+            "partei": "CDU",
+            "koalition": "CDU–SPD (Minderheit)"
+          },
+          {
+            "code": "ST",
+            "land": "Sachsen-Anhalt",
+            "regierungschef": "Sven Schulze",
+            "partei": "CDU",
+            "koalition": "CDU–SPD–FDP",
+            "hinweis": "geschäftsführend; AfD stärkste Kraft, Wahl des Ministerpräsidenten im Dezember geplant"
+          },
+          {
+            "code": "SH",
+            "land": "Schleswig-Holstein",
+            "regierungschef": "Daniel Günther",
+            "partei": "CDU",
+            "koalition": "CDU–Grüne"
+          },
+          {
+            "code": "TH",
+            "land": "Thüringen",
+            "regierungschef": "Mario Voigt",
+            "partei": "CDU",
+            "koalition": "CDU–SPD–„Thüringen gerecht“ (Minderheit)"
+          }
+        ],
+        "quelle": "Quellen: bundestagwahlumfrage.de (Sitzverteilung 21. Bundestag und Koalitionen in den Ländern, Stand 23.11.2026), news-7.de (Landtagswahlen 2026). Farbe = Partei des Regierungschefs."
+      },
+      "usa": {
+        "stand": "Stand 24.11.2026",
+        "repraesentantenhaus": {
+          "sitze": [
+            {
+              "partei": "Demokraten",
+              "sitze": 258
+            },
+            {
+              "partei": "offen",
+              "sitze": 4
+            },
+            {
+              "partei": "Republikaner",
+              "sitze": 173
+            }
+          ]
+        },
+        "senat": {
+          "sitze": [
+            {
+              "partei": "Demokraten",
+              "sitze": 56
+            },
+            {
+              "partei": "Republikaner",
+              "sitze": 44
+            }
+          ]
+        },
+        "kongress_hinweis": "Ergebnis der Kongresswahl vom 3.11.2026; der neue Kongress tritt am 3. Januar 2027 zusammen. 4 Sitze im Repräsentantenhaus noch offen (Stichwahlen in Louisiana, knappe Rennen in Tennessee und Minnesota).",
+        "gouverneure": {
+          "AZ": "D",
+          "CA": "D",
+          "CO": "D",
+          "CT": "D",
+          "DE": "D",
+          "HI": "D",
+          "IL": "D",
+          "KS": "D",
+          "KY": "D",
+          "ME": "D",
+          "MD": "D",
+          "MA": "D",
+          "MI": "D",
+          "MN": "D",
+          "NJ": "D",
+          "NM": "D",
+          "NY": "D",
+          "NC": "D",
+          "OR": "D",
+          "PA": "D",
+          "RI": "D",
+          "VA": "D",
+          "WA": "D",
+          "WI": "D",
+          "AL": "R",
+          "AK": "R",
+          "AR": "R",
+          "FL": "R",
+          "GA": "R",
+          "ID": "R",
+          "IN": "R",
+          "IA": "R",
+          "LA": "R",
+          "MS": "R",
+          "MO": "R",
+          "MT": "R",
+          "NE": "R",
+          "NV": "R",
+          "NH": "R",
+          "ND": "R",
+          "OH": "R",
+          "OK": "R",
+          "SC": "R",
+          "SD": "R",
+          "TN": "R",
+          "TX": "R",
+          "UT": "R",
+          "VT": "R",
+          "WV": "R",
+          "WY": "R"
+        },
+        "wechsel": {
+          "IA": "D",
+          "TX": "D",
+          "OH": "D",
+          "NV": "D",
+          "GA": "D",
+          "AK": "D"
+        },
+        "wechsel_ab": "Dez. 2026/Jan. 2027",
+        "gouverneure_hinweis": "Farbe = amtierender Gouverneur. Gestrichelt: bei der Wahl am 3.11. an die Demokraten gewechselt (Alaska ab 7.12.2026, übrige ab Januar 2027). Ab Januar: 30 Demokraten, 20 Republikaner.",
+        "quelle": "Quellen: Wikipedia (List of current United States governors), Governing.com, Yahoo News (Endergebnisse Midterms 2026, Stand 22.11.2026)."
+      }
+    }
   },
   "sport": {
     "ligen": [

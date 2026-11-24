@@ -150,19 +150,163 @@
     }
     return p;
   }
-  function newsList(id, items) {
+  /* ---------- Medien-Ausrichtung ---------- */
+  let BIAS = {};
+  const biasKey = (n) => String(n || "").trim().toLowerCase();
+  fetch("medien.json?v=1").then((r) => r.json()).then((m) => {
+    Object.entries(m.medien || {}).forEach(([k, v]) => { BIAS[biasKey(k)] = v; });
+    $("bias-note").textContent = "Medien-Ausrichtung: " + (m.hinweis || "");
+    if (lastData) render(lastData);
+  }).catch(() => {});
+  const SVGNS = "http://www.w3.org/2000/svg";
+  const svgEl = (tag, attrs) => { const e = document.createElementNS(SVGNS, tag); Object.entries(attrs || {}).forEach(([k, v]) => e.setAttribute(k, v)); return e; };
+  function leanWord(v, us) {
+    if (v <= -1.25) return us ? "deutlich demokratisch" : "deutlich links";
+    if (v < -0.4) return us ? "eher demokratisch" : "eher links";
+    if (v <= 0.4) return "ausgewogen / Mitte";
+    if (v < 1.25) return us ? "eher republikanisch" : "eher rechts";
+    return us ? "deutlich republikanisch" : "deutlich rechts";
+  }
+  function leanIcon(v, us, small) {
+    const w = small ? 22 : 30, h = 8;
+    const wrap = txt("span", "lean", "");
+    if (!small) wrap.appendChild(txt("span", "", us ? "D" : "L"));
+    const svg = svgEl("svg", { width: w, height: h, viewBox: `0 0 ${w} ${h}`, "aria-hidden": "true" });
+    svg.appendChild(svgEl("rect", { x: 0, y: h / 2 - 1, width: w, height: 2, fill: "#3a3a3a", rx: 1 }));
+    for (let i = 0; i < 5; i++) svg.appendChild(svgEl("rect", { x: (i * (w - 2)) / 4, y: h / 2 - 2, width: 2, height: 4, fill: "#3a3a3a" }));
+    const cx = ((v + 2) / 4) * (w - 6) + 3;
+    svg.appendChild(svgEl("circle", { cx, cy: h / 2, r: small ? 2.6 : 3.2, fill: "#f2f2f2" }));
+    wrap.appendChild(svg);
+    if (!small) wrap.appendChild(txt("span", "", "R"));
+    wrap.title = leanWord(v, us);
+    return wrap;
+  }
+  function newsList(id, items, us) {
     const ol = $(id); ol.textContent = "";
     if (!items || !items.length) { ol.appendChild(txt("li", "empty", "Wird beim nächsten Lauf gefüllt.")); return; }
     items.forEach((it) => {
       const li = document.createElement("li");
       const h = txt("span", "h", "");
+      const med = Array.isArray(it.medien) ? it.medien.filter((x) => typeof x === "string") : [];
+      const rated = med.map((n) => BIAS[biasKey(n)]).filter((v) => typeof v === "number");
+      if (rated.length) {
+        const avg = rated.reduce((a, b) => a + b, 0) / rated.length;
+        const ic = leanIcon(avg, us);
+        ic.title = "Berichterstattung " + leanWord(avg, us) + " (Ø aus " + rated.length + " eingestuften Medien)";
+        h.appendChild(ic);
+      }
       if (it.tag) h.appendChild(txt("span", "tag", it.tag));
       h.appendChild(document.createTextNode(it.titel || ""));
       li.appendChild(h);
       if (it.warum) li.appendChild(txt("span", "why", it.warum));
+      if (med.length) {
+        const m = txt("span", "medien", "");
+        med.forEach((n) => {
+          const e = txt("span", "", "");
+          const v = BIAS[biasKey(n)];
+          if (typeof v === "number") e.appendChild(leanIcon(v, us, true));
+          e.appendChild(document.createTextNode(n));
+          m.appendChild(e);
+        });
+        li.appendChild(m);
+      }
       li.appendChild(srcLine(it));
       ol.appendChild(li);
     });
+  }
+
+  /* ---------- Parlamente & Karten ---------- */
+  const PARTY = {
+    "CDU/CSU": "#6e6e6e", "CDU": "#6e6e6e", "CSU": "#6e6e6e", "SPD": "#e3000f", "Grüne": "#46962b", "AfD": "#009ee0",
+    "Linke": "#be3075", "Die Linke": "#be3075", "FDP": "#ffed00", "BSW": "#792351", "Freie Wähler": "#f39200", "FW": "#f39200",
+    "SSW": "#003c8f", "fraktionslos": "#bdbdbd", "Fraktionslos": "#bdbdbd",
+    "D": "#3b6fd8", "Demokraten": "#3b6fd8", "R": "#d8403b", "Republikaner": "#d8403b", "I": "#bdbdbd", "Unabhängige": "#bdbdbd", "offen": "#3a3a3a", "Offen": "#3a3a3a"
+  };
+  const pc = (p) => PARTY[p] || "#8c8c8c";
+  function hemicycle(boxId, legId, parts) {
+    const box = $(boxId), leg = $(legId); box.textContent = ""; leg.textContent = "";
+    parts = (parts || []).filter((p) => p && p.sitze > 0);
+    const total = parts.reduce((a, p) => a + p.sitze, 0);
+    if (!total) { box.appendChild(txt("p", "empty", "Wird beim nächsten Lauf gefüllt.")); return; }
+    const rows = Math.max(3, Math.round(Math.sqrt(total / 3.3)));
+    const R = 100, r0 = R * 0.38;
+    const radii = Array.from({ length: rows }, (_, i) => r0 + ((R - r0) * i) / (rows - 1 || 1));
+    const sumR = radii.reduce((a, b) => a + b, 0);
+    let counts = radii.map((rr) => Math.round((total * rr) / sumR));
+    let diff = total - counts.reduce((a, b) => a + b, 0);
+    counts[counts.length - 1] += diff;
+    const pts = [];
+    radii.forEach((rr, i) => {
+      const n = counts[i];
+      for (let j = 0; j < n; j++) {
+        const a = Math.PI - (n === 1 ? Math.PI / 2 : (Math.PI * j) / (n - 1));
+        pts.push({ a, x: 105 + rr * Math.cos(a), y: 105 - rr * Math.sin(a) });
+      }
+    });
+    pts.sort((p, q) => q.a - p.a);
+    const dot = Math.min(4.2, ((R - r0) / rows) * 0.42 + 0.6, (Math.PI * r0) / Math.max(1, counts[0]) * 0.42);
+    const svg = svgEl("svg", { viewBox: "0 0 210 112", role: "img" });
+    let k = 0;
+    parts.forEach((p) => {
+      for (let i = 0; i < p.sitze && k < pts.length; i++, k++) svg.appendChild(svgEl("circle", { cx: pts[k].x.toFixed(2), cy: pts[k].y.toFixed(2), r: dot.toFixed(2), fill: pc(p.partei) }));
+    });
+    const t = svgEl("text", { x: 105, y: 102, "text-anchor": "middle", fill: "#f2f2f2", "font-size": "15", "font-family": "IBM Plex Mono, monospace" });
+    t.textContent = String(total);
+    svg.appendChild(t);
+    svg.setAttribute("aria-label", parts.map((p) => p.partei + " " + p.sitze).join(", "));
+    box.appendChild(svg);
+    parts.forEach((p) => { const e = txt("span", "", ""); const i = document.createElement("i"); i.style.background = pc(p.partei); e.appendChild(i); e.appendChild(document.createTextNode(p.partei)); e.appendChild(txt("b", "", p.sitze)); leg.appendChild(e); });
+  }
+  let MAPS = null;
+  const mapsReady = fetch("maps.json?v=1").then((r) => r.json()).then((m) => { MAPS = m; }).catch(() => {});
+  function drawMap(boxId, which, fillFor, titleFor, dashed) {
+    const box = $(boxId); box.textContent = "";
+    if (!MAPS || !MAPS[which]) return;
+    const M = MAPS[which];
+    const svg = svgEl("svg", { viewBox: `0 0 ${M.w} ${M.h}`, role: "img" });
+    Object.entries(M.states).forEach(([code, st]) => {
+      const path = svgEl("path", { d: st.d, fill: fillFor(code) || "#2a2a2a" });
+      if (dashed && dashed(code)) path.setAttribute("class", "gf");
+      const tt = svgEl("title", {}); tt.textContent = titleFor(code, st.name); path.appendChild(tt);
+      svg.appendChild(path);
+    });
+    box.appendChild(svg);
+  }
+  function legendFrom(id, entries) {
+    const leg = $(id); leg.textContent = "";
+    entries.forEach(([label, color, n]) => { const e = txt("span", "", ""); const i = document.createElement("i"); i.style.background = color; e.appendChild(i); e.appendChild(document.createTextNode(label)); if (n != null) e.appendChild(txt("b", "", n)); leg.appendChild(e); });
+  }
+  function renderParl(P) {
+    P = P || {};
+    const de = P.deutschland || {}, us = P.usa || {};
+    $("pd-stand").textContent = de.stand || ""; $("pu-stand").textContent = us.stand || "";
+    hemicycle("pd-bt", "pd-bt-leg", (de.bundestag || {}).sitze);
+    const L = de.laender || [];
+    const byCode = {}; L.forEach((l) => { byCode[l.code] = l; });
+    drawMap("pd-map", "de", (c) => byCode[c] && pc(byCode[c].partei), (c, n) => { const l = byCode[c]; return l ? `${n}: ${l.regierungschef} (${l.partei}), ${l.koalition}${l.hinweis ? " – " + l.hinweis : ""}` : n; }, (c) => byCode[c] && byCode[c].hinweis);
+    const cnt = {}; L.forEach((l) => { const k = l.partei === "CDU" || l.partei === "CSU" ? "CDU/CSU" : l.partei; cnt[k] = (cnt[k] || 0) + 1; });
+    const ents = Object.entries(cnt).sort((a, b) => b[1] - a[1]).map(([p, n]) => [p, pc(p), n]);
+    if (L.some((l) => l.hinweis)) ents.push(["gestrichelt: Regierungsbildung offen", "transparent", null]);
+    legendFrom("pd-map-leg", ents);
+    const tb = $("pd-laender").querySelector("tbody"); tb.textContent = "";
+    L.forEach((l) => {
+      const tr = document.createElement("tr");
+      const td1 = txt("td", "", ""); const d = txt("span", "pdot", ""); d.style.background = pc(l.partei); td1.appendChild(d); td1.appendChild(document.createTextNode(l.land));
+      tr.appendChild(td1); tr.appendChild(txt("td", "", l.regierungschef + " (" + l.partei + ")"));
+      tr.appendChild(txt("td", "", l.koalition + (l.hinweis ? " · " + l.hinweis : ""))); tb.appendChild(tr);
+    });
+    $("pd-src").textContent = de.quelle || "";
+    hemicycle("pu-house", "pu-house-leg", (us.repraesentantenhaus || {}).sitze);
+    hemicycle("pu-senate", "pu-senate-leg", (us.senat || {}).sitze);
+    $("pu-note").textContent = us.kongress_hinweis || "";
+    const G = us.gouverneure || {}, W = us.wechsel || {};
+    drawMap("pu-map", "us", (c) => G[c] && pc(G[c]), (c, n) => n + ": Gouverneur " + (G[c] === "D" ? "Demokrat" : G[c] === "R" ? "Republikaner" : (G[c] || "?")) + (W[c] ? " – wechselt zu " + (W[c] === "D" ? "Demokraten" : "Republikanern") : ""), (c) => W[c]);
+    const gc = { D: 0, R: 0 }; Object.values(G).forEach((v) => { gc[v] = (gc[v] || 0) + 1; });
+    const ge = [["Demokraten", pc("D"), gc.D], ["Republikaner", pc("R"), gc.R]];
+    if (Object.keys(W).length) ge.push(["gestrichelt: Wechsel " + (us.wechsel_ab || ""), "transparent", null]);
+    legendFrom("pu-map-leg", ge);
+    $("pu-map-note").textContent = us.gouverneure_hinweis || "";
+    $("pu-src").textContent = us.quelle || "";
   }
   function rows(tableId, data, cols) {
     const tb = $(tableId).querySelector("tbody"); tb.textContent = "";
@@ -216,7 +360,9 @@
     draw();
   }
 
+  let lastData = null;
   function render(d) {
+    lastData = d;
     if (d.aktualisiert) $("updated").textContent = "Inhalte: " + d.aktualisiert;
     const m = d.maerkte || {};
     newsList("m-headlines", m.schlagzeilen);
@@ -227,9 +373,10 @@
     $("m-yields-src").textContent = m.renditen_stand || "";
     rows("m-corp", m.termine, [["datum", "date"], ["was"]]);
     const p = d.politik || {};
-    newsList("p-welt", p.welt); newsList("p-usa", p.usa); newsList("p-de", p.deutschland);
+    newsList("p-welt", p.welt); newsList("p-usa", p.usa, true); newsList("p-de", p.deutschland);
     rows("p-termine", p.termine, [["datum", "date"], ["was"], ["art"]]);
     newsList("p-recht", p.recht);
+    mapsReady.then(() => renderParl(p.parlamente));
     renderSport(d.sport);
     const s = d.sonstiges || {};
     const en = s.englisch || {}, zh = s.chinesisch || {};
