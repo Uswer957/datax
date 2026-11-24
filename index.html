@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Situation Room</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Sans+Condensed:wght@500;600&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <h1>Situation Room</h1>
+    <span class="now" id="now">–</span>
+  </div>
+  <div class="clocks" id="clocks" aria-label="Weltbörsen"></div>
+</header>
+
+<nav class="tabs" role="tablist" aria-label="Bereiche">
+  <button role="tab" id="tab-maerkte" aria-controls="p-maerkte" aria-selected="true">Märkte</button>
+  <button role="tab" id="tab-politik" aria-controls="p-politik" aria-selected="false">Politik</button>
+  <button role="tab" id="tab-sport" aria-controls="p-sport" aria-selected="false">Sport</button>
+  <button role="tab" id="tab-sonstiges" aria-controls="p-sonstiges" aria-selected="false">Sonstiges</button>
+  <span class="updated" id="updated"></span>
+</nav>
+
+<main>
+  <!-- MÄRKTE -->
+  <section class="panel-set" id="p-maerkte" role="tabpanel" aria-labelledby="tab-maerkte">
+    <div class="tv tv-tape"><div class="tradingview-widget-container" id="w-tape"></div></div>
+
+    <div class="grid g-markets">
+      <article class="card span2">
+        <h2>Top-Schlagzeilen heute</h2>
+        <ol class="news" id="m-headlines"></ol>
+      </article>
+      <article class="card">
+        <h2>Devisen</h2>
+        <div class="tv tv-quotes"><div class="tradingview-widget-container" id="w-fx"></div></div>
+      </article>
+      <article class="card">
+        <h2>Rohstoffe</h2>
+        <div class="tv tv-quotes"><div class="tradingview-widget-container" id="w-cmd"></div></div>
+      </article>
+      <article class="card">
+        <h2>Staatsanleihen · 10 J.</h2>
+        <div class="tv tv-quotes"><div class="tradingview-widget-container" id="w-bonds"></div></div>
+      </article>
+      <article class="card">
+        <h2>Indizes &amp; Krypto</h2>
+        <div class="tv tv-quotes"><div class="tradingview-widget-container" id="w-idx"></div></div>
+      </article>
+      <article class="card">
+        <h2>Staatsverschuldung</h2>
+        <table class="tbl" id="m-debt"><thead><tr><th>Land</th><th class="r">% BIP</th><th class="r">Absolut</th></tr></thead><tbody></tbody></table>
+        <p class="src" id="m-debt-src"></p>
+      </article>
+      <article class="card">
+        <h2>Unternehmenstermine</h2>
+        <table class="tbl" id="m-corp"><thead><tr><th>Datum</th><th>Termin</th></tr></thead><tbody></tbody></table>
+      </article>
+      <article class="card full">
+        <h2>Wirtschaftskalender</h2>
+        <div class="tv tv-cal"><div class="tradingview-widget-container" id="w-cal"></div></div>
+      </article>
+    </div>
+  </section>
+
+  <!-- POLITIK -->
+  <section class="panel-set" id="p-politik" role="tabpanel" aria-labelledby="tab-politik" hidden>
+    <div class="grid g-three">
+      <article class="card"><h2>Welt</h2><ol class="news" id="p-welt"></ol></article>
+      <article class="card"><h2>USA</h2><ol class="news" id="p-usa"></ol></article>
+      <article class="card"><h2>Deutschland</h2><ol class="news" id="p-de"></ol></article>
+      <article class="card span3">
+        <h2>Wichtige Termine</h2>
+        <table class="tbl" id="p-termine"><thead><tr><th>Datum</th><th>Was</th><th>Art</th></tr></thead><tbody></tbody></table>
+      </article>
+      <article class="card span3">
+        <h2>Gerichte &amp; Gesetzgebung</h2>
+        <ol class="news" id="p-recht"></ol>
+      </article>
+    </div>
+  </section>
+
+  <!-- SPORT -->
+  <section class="panel-set" id="p-sport" role="tabpanel" aria-labelledby="tab-sport" hidden>
+    <div class="league-nav" id="league-nav" role="group" aria-label="Liga wählen"></div>
+    <div class="grid g-sport" id="sport-body"></div>
+  </section>
+
+  <!-- SONSTIGES -->
+  <section class="panel-set" id="p-sonstiges" role="tabpanel" aria-labelledby="tab-sonstiges" hidden>
+    <div class="grid g-two">
+      <article class="card word">
+        <h2>Wort des Tages · Englisch</h2>
+        <p class="w-main" id="en-word"></p>
+        <p class="w-meta" id="en-meta"></p>
+        <p id="en-def"></p>
+        <p class="w-ex" id="en-ex"></p>
+      </article>
+      <article class="card word">
+        <h2>Wort des Tages · Chinesisch</h2>
+        <p class="w-main zh" id="zh-word"></p>
+        <p class="w-meta" id="zh-meta"></p>
+        <p id="zh-def"></p>
+        <p class="w-ex" id="zh-ex"></p>
+      </article>
+      <article class="card"><h2>Fun Fact</h2><p id="f-fun"></p></article>
+      <article class="card"><h2>Wissen</h2><dl class="facts" id="f-wissen"></dl></article>
+      <article class="card span2 tax">
+        <h2>Steuerrecht zum Wiederholen</h2>
+        <p class="q" id="t-q"></p>
+        <details><summary>Lösung zeigen</summary><p id="t-a"></p><p class="src" id="t-norm"></p></details>
+      </article>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  Kurse: TradingView-Widgets, teils verzögert. Texte: von Claude recherchiert und mehrmals täglich aktualisiert, mit Quellen. Keine Anlageberatung. Börsenzeiten ohne Feiertage.
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

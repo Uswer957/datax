@@ -1,0 +1,92 @@
+/* Layout: Kopfband mit Börsenuhren, Tab-Leiste, dichte Kachelraster je Tab */
+:root{
+  --bg:#0b1016; --panel:#121922; --panel2:#18212c; --line:#24303e; --fg:#e4e9f0; --muted:#8a97a8;
+  --accent:#e8a33d; --open:#37c07a; --closed:#5b6777; --down:#ef6a5a; --up:#37c07a;
+  --f-display:"IBM Plex Sans Condensed","Arial Narrow",system-ui,sans-serif;
+  --f-body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-data:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--fg);font:14px/1.45 var(--f-body);
+  padding:env(safe-area-inset-top,0) max(12px,env(safe-area-inset-right,0px)) env(safe-area-inset-bottom,0) max(12px,env(safe-area-inset-left,0px))}
+[hidden]{display:none!important}
+a{color:var(--fg)}
+a:hover{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+.top{display:flex;flex-wrap:wrap;gap:10px 24px;align-items:center;justify-content:space-between;padding:12px 0 10px;border-bottom:1px solid var(--line)}
+.brand{display:flex;align-items:baseline;gap:14px}
+h1{font:600 20px/1 var(--f-display);letter-spacing:.08em;text-transform:uppercase;margin:0}
+.now{font:13px var(--f-data);color:var(--muted)}
+.clocks{display:flex;flex-wrap:wrap;gap:6px}
+.clock{display:grid;grid-template-columns:auto auto;gap:0 8px;align-items:center;background:var(--panel);border:1px solid var(--line);border-radius:4px;padding:4px 8px;min-width:118px}
+.clock .ex{font:600 11px var(--f-display);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.clock .t{font:500 13px var(--f-data);text-align:right;font-variant-numeric:tabular-nums}
+.clock .st{grid-column:1/-1;font:11px var(--f-data);display:flex;align-items:center;gap:5px}
+.dot{width:7px;height:7px;border-radius:50%;background:var(--closed)}
+.clock.open .dot{background:var(--open);box-shadow:0 0 6px var(--open)}
+.clock.open .st{color:var(--open)} .clock .st{color:var(--muted)}
+
+.tabs{display:flex;gap:2px;align-items:center;margin:12px 0;border-bottom:1px solid var(--line);overflow-x:auto}
+.tabs button{font:600 13px var(--f-display);letter-spacing:.1em;text-transform:uppercase;background:none;border:0;color:var(--muted);padding:8px 14px;border-bottom:2px solid transparent;cursor:pointer;white-space:nowrap}
+.tabs button[aria-selected="true"]{color:var(--fg);border-bottom-color:var(--accent)}
+.updated{margin-left:auto;font:11px var(--f-data);color:var(--muted);white-space:nowrap;padding-left:12px}
+
+.grid{display:grid;gap:10px}
+.g-markets{grid-template-columns:repeat(4,minmax(0,1fr))}
+.g-three{grid-template-columns:repeat(3,minmax(0,1fr))}
+.g-two{grid-template-columns:repeat(2,minmax(0,1fr))}
+.g-sport{grid-template-columns:repeat(2,minmax(0,1fr))}
+.span2{grid-column:span 2}.span3{grid-column:span 3}.full{grid-column:1/-1}
+@media (max-width:1100px){.g-markets{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:720px){.g-markets,.g-three,.g-two,.g-sport{grid-template-columns:1fr}.span2,.span3{grid-column:auto}}
+
+.card{background:var(--panel);border:1px solid var(--line);border-radius:5px;padding:12px 14px;min-width:0}
+.card h2{font:600 12px var(--f-display);letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 10px;display:flex;justify-content:space-between;gap:8px}
+.tv{min-width:0}
+.tv-tape{margin-bottom:10px;min-height:46px}
+.tv-quotes{height:300px}
+.tv-cal{height:460px}
+.tv .tradingview-widget-container{height:100%}
+.fallback{font-size:12px;color:var(--muted)}
+
+.news{list-style:none;margin:0;padding:0;display:grid;gap:10px;counter-reset:n}
+.news li{display:grid;grid-template-columns:22px 1fr;gap:2px 8px;counter-increment:n}
+.news li::before{content:counter(n);font:500 12px var(--f-data);color:var(--accent);grid-row:span 3;padding-top:2px}
+.news .h{font-weight:500}
+.news .why{color:var(--muted);font-size:13px}
+.news .src{font-size:11px}
+.tag{font:11px var(--f-data);color:var(--muted);border:1px solid var(--line);border-radius:3px;padding:0 5px;margin-right:6px}
+.src{font:11px var(--f-data);color:var(--muted);margin:6px 0 0}
+.src a{color:var(--muted)}
+.empty{color:var(--muted);font-size:13px;font-style:italic}
+
+.tbl{width:100%;border-collapse:collapse;font-size:13px}
+.tbl th{font:500 11px var(--f-data);color:var(--muted);text-align:left;padding:4px 6px 4px 0;border-bottom:1px solid var(--line)}
+.tbl td{padding:5px 6px 5px 0;border-bottom:1px solid var(--line);vertical-align:top}
+.tbl tr:last-child td{border-bottom:0}
+.tbl .r{text-align:right}
+.tbl td.num,.tbl td.r{font-family:var(--f-data);font-variant-numeric:tabular-nums;white-space:nowrap}
+.tbl td.date{font-family:var(--f-data);white-space:nowrap;color:var(--accent)}
+.scroll{overflow-x:auto}
+
+.league-nav{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px}
+.league-nav button{font:500 12px var(--f-data);background:var(--panel);color:var(--muted);border:1px solid var(--line);border-radius:3px;padding:5px 10px;cursor:pointer}
+.league-nav button[aria-pressed="true"]{color:var(--bg);background:var(--accent);border-color:var(--accent)}
+.conf h3{font:600 11px var(--f-display);letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:12px 0 4px}
+.conf h3:first-child{margin-top:0}
+
+.word .w-main{font:600 30px/1.1 var(--f-display);margin:0 0 4px;color:var(--accent)}
+.word .w-main.zh{font-family:"PingFang SC","Noto Sans SC","Microsoft YaHei",var(--f-body);font-weight:500}
+.word .w-meta{font:12px var(--f-data);color:var(--muted);margin:0 0 8px}
+.word .w-ex{font-style:italic;color:var(--muted);border-left:2px solid var(--line);padding-left:10px}
+.facts{margin:0;display:grid;gap:10px}
+.facts dt{font:600 11px var(--f-display);letter-spacing:.1em;text-transform:uppercase;color:var(--accent)}
+.facts dd{margin:0}
+.tax .q{font-size:15px;font-weight:500}
+details summary{cursor:pointer;color:var(--accent);font:500 13px var(--f-data);margin-top:8px}
+
+.foot{font-size:11px;color:var(--muted);padding:18px 0 24px;border-top:1px solid var(--line);margin-top:16px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
