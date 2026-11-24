@@ -1,5 +1,5 @@
 {
-  "aktualisiert": "24.11.2026, 15:12 Uhr",
+  "aktualisiert": "24.11.2026, 17:15 Uhr",
   "maerkte": {
     "schlagzeilen": [
       {
@@ -11,6 +11,30 @@
         "zeit": "24.11.",
         "medien": [
           "Reuters",
+          "Bloomberg"
+        ]
+      },
+      {
+        "tag": "Unternehmen",
+        "titel": "HPE bricht trotz Zahlen-Beat und höherer Prognose um rund 12 % ein",
+        "warum": "Für 2027 erwartet HPE nur noch rund 14 % Marge im Cloud- und KI-Geschäft (zuvor 18,4 %); ein Warnsignal für die Margen der KI-Server-Hersteller vor den Dell-Zahlen.",
+        "quelle": "Reuters",
+        "url": "https://1027wbow.com/2026/11/24/hpe-shares-fall-as-margin-worries-overshadow-raised-outlook/",
+        "zeit": "24.11., 13:45",
+        "medien": [
+          "Reuters"
+        ]
+      },
+      {
+        "tag": "KI",
+        "titel": "Anthropic-Aktie rutscht unter den Ausgabepreis von 83 Dollar",
+        "warum": "Fünf Tage nach dem Rekord-Börsengang (81,3 Mrd. Dollar) dreht die Stimmung; Analysten verweisen auf Kapitalbedarf und Gewinnmitnahmen.",
+        "quelle": "Forbes",
+        "url": "https://www.forbes.com/sites/zacharyfolk/2026/11/24/anthropic-stock-falls-below-83-per-share-ipo-price/",
+        "zeit": "24.11., 15:06",
+        "medien": [
+          "Forbes",
+          "CNBC",
           "Bloomberg"
         ]
       },
@@ -72,29 +96,6 @@
         "medien": [
           "Reuters",
           "Handelsblatt"
-        ]
-      },
-      {
-        "tag": "Handel",
-        "titel": "USA setzen Singapurer Cloudfirma Megaspeed auf die Exportsperrliste",
-        "warum": "Washington will verhindern, dass Nvidia-Chips nach China umgeleitet werden, ausgerechnet am Tag von Huangs Rückkehr.",
-        "quelle": "Politico",
-        "url": "https://www.politico.com/news/2026/11/23/us-prepares-to-blacklist-megaspeed-as-huang-returns-to-nvidia-01180920",
-        "zeit": "23.11.",
-        "medien": [
-          "Politico"
-        ]
-      },
-      {
-        "tag": "Haushalt",
-        "titel": "Haushalt 2027: Neuverschuldung steigt auf 210 Mrd. Euro",
-        "warum": "Zweithöchster Wert der Geschichte; der Bundestag stimmt diese Woche endgültig ab, Kernhaushalt 560,9 Mrd. Euro.",
-        "quelle": "Börsen-Zeitung",
-        "url": "https://www.boersen-zeitung.de/konjunktur-politik/neuverschuldung-steigt-auf-210-mrd-euro",
-        "zeit": "13.11., 11:02",
-        "medien": [
-          "Reuters",
-          "ZDFheute"
         ]
       }
     ],
@@ -202,7 +203,7 @@
     ],
     "renditen_stand": "Stand 24.11. (Italien 23.11.), Quelle: Trading Economics",
     "watchlist": {
-      "stand": "Stand 24.11., 15:12 Uhr",
+      "stand": "Stand 24.11., 17:15 Uhr",
       "maerkte": [
         {
           "markt": "USA",
@@ -216,12 +217,12 @@
             {
               "name": "Dell",
               "symbol": "NYSE:DELL",
-              "grund": "Quartalszahlen heute nachbörslich, Gradmesser für KI-Server-Nachfrage."
+              "grund": "Quartalszahlen heute nachbörslich; vorbörslich rund −7 %, nachdem HPE schwächere KI-Margen angekündigt hat."
             },
             {
-              "name": "Medtronic",
-              "symbol": "NYSE:MDT",
-              "grund": "Zahlen zum zweiten Geschäftsquartal heute vorbörslich."
+              "name": "Hewlett Packard Enterprise",
+              "symbol": "NYSE:HPE",
+              "grund": "Rund −12 % trotz Zahlen-Beat: Prognose sieht nur noch ca. 14 % Marge im Cloud- und KI-Geschäft."
             },
             {
               "name": "CrowdStrike",
@@ -236,7 +237,7 @@
             {
               "name": "Anthropic",
               "symbol": "NASDAQ:ANT",
-              "grund": "Seit dem Rekord-Börsengang am 19.11. (Ausgabe 83 $) Stimmungsbarometer für KI-Werte."
+              "grund": "Fiel am Dienstag vorbörslich unter den Ausgabepreis von 83 $, fünf Tage nach dem Rekord-Börsengang."
             }
           ]
         },
@@ -2460,6 +2461,29 @@
       "meldungen": [
         {
           "tag": "Handel",
+          "titel": "USA setzen Singapurer Cloudfirma Megaspeed auf die Exportsperrliste",
+          "warum": "Washington will verhindern, dass Nvidia-Chips nach China umgeleitet werden, ausgerechnet am Tag von Huangs Rückkehr.",
+          "quelle": "Politico",
+          "url": "https://www.politico.com/news/2026/11/23/us-prepares-to-blacklist-megaspeed-as-huang-returns-to-nvidia-01180920",
+          "zeit": "23.11.",
+          "medien": [
+            "Politico"
+          ]
+        },
+        {
+          "tag": "Haushalt",
+          "titel": "Haushalt 2027: Neuverschuldung steigt auf 210 Mrd. Euro",
+          "warum": "Zweithöchster Wert der Geschichte; der Bundestag stimmt diese Woche endgültig ab, Kernhaushalt 560,9 Mrd. Euro.",
+          "quelle": "Börsen-Zeitung",
+          "url": "https://www.boersen-zeitung.de/konjunktur-politik/neuverschuldung-steigt-auf-210-mrd-euro",
+          "zeit": "13.11., 11:02",
+          "medien": [
+            "Reuters",
+            "ZDFheute"
+          ]
+        },
+        {
+          "tag": "Handel",
           "titel": "Trump erwartet weitere 250 Boeing-Bestellungen aus China",
           "warum": "Signal der Entspannung im Handelsstreit, wichtig für Boeing und US-Exporte.",
           "quelle": "Reuters",
@@ -2745,6 +2769,17 @@
       "lage": "Nach dem Rekordtag am Montag geben Chipwerte nach; der DAX verliert nach dem Ifo-Plus rund 1 %. S&P 500 und Dow waren vergangene Woche in eine technische Korrektur gerutscht, Asiens Börsen feierten die Nvidia-Wende.",
       "meldungen": [
         {
+          "tag": "DAX",
+          "titel": "DAX schließt rund 1,3 % tiefer knapp über 25.000 Punkten",
+          "warum": "Nach dem Nvidia-Schub vom Montag nehmen Anleger Gewinne mit; defensive Werte gefragt, Aixtron unter Druck, Ifo ohne Impuls.",
+          "quelle": "wallstreet-online",
+          "url": "https://www.wallstreet-online.de/nachricht/21742075-aktien-frankfurt-schluss-dax-konsolidiert-25-000-punkten-huang-zauber-verflogen",
+          "zeit": "24.11., 17:00",
+          "medien": [
+            "wallstreet-online"
+          ]
+        },
+        {
           "titel": "Chip- und KI-Aktien geben nach Rekordrally nach",
           "warum": "Nvidia vorbörslich rund −5 %.",
           "quelle": "Seeking Alpha",
@@ -2859,6 +2894,17 @@
     "unternehmen": {
       "lage": "Die Woche vor Thanksgiving bringt Zahlen von Dell, HP, Workday und Autodesk (heute) sowie Deere (Mittwoch). Daneben bestimmen Großdeals wie Sanofi/Insmed und Huangs Rückkehr zu Nvidia das Bild.",
       "meldungen": [
+        {
+          "tag": "Handel",
+          "titel": "Best Buy: stärkstes Umsatzplus auf vergleichbarer Fläche seit fünf Jahren, Prognose angehoben",
+          "warum": "Vergleichbare Umsätze +6,1 % im dritten Quartal, getrieben von KI-Brillen und Sammelkarten; Aktie vorbörslich rund +5 %.",
+          "quelle": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/24/best-buy-bby-q3-2027-earnings.html",
+          "zeit": "24.11.",
+          "medien": [
+            "CNBC"
+          ]
+        },
         {
           "titel": "Sanofi gewinnt nach Insmed-Kauf rund 5,6 %",
           "warum": "Der 41-Mrd.-Dollar-Deal stützt den Pharmasektor in Europa.",
