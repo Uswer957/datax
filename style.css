@@ -129,3 +129,17 @@ h3.sub{font:600 11px var(--f-display);letter-spacing:.1em;text-transform:upperca
 .bias-note{margin-top:10px}
 .foot{font-size:11px;color:var(--muted);padding:18px 0 24px;border-top:1px solid var(--line);margin-top:16px}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+
+/* Mehr zum Thema */
+.card h2.mehr-h{cursor:pointer}
+.card h2.mehr-h::after{content:"Mehr ›";font:11px var(--f-data);letter-spacing:0;text-transform:none;color:var(--muted);margin-left:auto;padding-left:8px;white-space:nowrap}
+.card h2.mehr-h:hover,.card h2.mehr-h:focus-visible{color:var(--fg);outline:none}
+.card h2.mehr-h:hover::after,.card h2.mehr-h:focus-visible::after{color:var(--fg)}
+.card h2.mehr-h .h2-note{margin-left:auto}
+dialog.mehr{background:var(--panel);color:var(--fg);border:1px solid var(--line);border-radius:6px;padding:20px 22px;width:min(680px,calc(100vw - 32px));max-height:calc(100vh - 48px);overflow:auto}
+dialog.mehr::backdrop{background:rgba(0,0,0,.72)}
+.mehr-head{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:10px}
+.mehr-head h3{margin:0;font:600 13px var(--f-display);letter-spacing:.12em;text-transform:uppercase}
+.mehr-x{background:none;border:1px solid var(--line);color:var(--fg);width:30px;height:30px;border-radius:4px;font-size:18px;line-height:1;cursor:pointer}
+.mehr-x:hover{border-color:var(--fg)}
+.mehr-lage{margin:0 0 14px;color:var(--fg);font-size:14px;line-height:1.5}

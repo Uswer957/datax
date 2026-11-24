@@ -7,7 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preload" href="fonts/GeneralSans-Variable.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap">
-<link rel="stylesheet" href="style.css?v=9">
+<link rel="stylesheet" href="style.css?v=10">
 </head>
 <body>
 <header class="top">
@@ -33,41 +33,41 @@
 
     <div class="grid g-markets">
       <article class="card full watch">
-        <h2><span>To Watch Today</span><span class="h2-note" id="m-watch-stand"></span></h2>
+        <h2 data-mehr="watch"><span>To Watch Today</span><span class="h2-note" id="m-watch-stand"></span></h2>
         <div class="watch-body">
           <div class="watch-list" id="m-watch"></div>
           <div class="tv tv-watch"><div class="tradingview-widget-container" id="w-watch"></div></div>
         </div>
       </article>
       <article class="card span2">
-        <h2>Top-Schlagzeilen heute</h2>
+        <h2 data-mehr="schlagzeilen">Top-Schlagzeilen heute</h2>
         <ol class="news" id="m-headlines"></ol>
       </article>
       <article class="card">
-        <h2>Devisen</h2>
+        <h2 data-mehr="devisen">Devisen</h2>
         <div class="tv tv-quotes"><div class="tradingview-widget-container" id="w-fx"></div></div>
       </article>
       <article class="card">
-        <h2>Rohstoffe</h2>
+        <h2 data-mehr="rohstoffe">Rohstoffe</h2>
         <div class="tv tv-quotes"><div class="tradingview-widget-container" id="w-cmd"></div></div>
       </article>
       <article class="card">
-        <h2>Staatsanleihen · 10 J.</h2>
+        <h2 data-mehr="anleihen">Staatsanleihen · 10 J.</h2>
         <table class="tbl" id="m-yields"><thead><tr><th>Land</th><th class="r">Rendite</th></tr></thead><tbody></tbody></table>
         <p class="src" id="m-yields-src"></p>
         <div class="tv tv-bonds"><div class="tradingview-widget-container" id="w-bonds"></div></div>
       </article>
       <article class="card">
-        <h2>Indizes &amp; Krypto</h2>
+        <h2 data-mehr="indizes">Indizes &amp; Krypto</h2>
         <div class="tv tv-quotes"><div class="tradingview-widget-container" id="w-idx"></div></div>
       </article>
       <article class="card">
-        <h2>Staatsverschuldung</h2>
+        <h2 data-mehr="verschuldung">Staatsverschuldung</h2>
         <table class="tbl" id="m-debt"><thead><tr><th>Land</th><th class="r">% BIP</th><th class="r">Absolut</th></tr></thead><tbody></tbody></table>
         <p class="src" id="m-debt-src"></p>
       </article>
       <article class="card">
-        <h2>Unternehmenstermine</h2>
+        <h2 data-mehr="unternehmen">Unternehmenstermine</h2>
         <table class="tbl" id="m-corp"><thead><tr><th>Datum</th><th>Termin</th></tr></thead><tbody></tbody></table>
       </article>
       <article class="card full">
@@ -80,15 +80,15 @@
   <!-- POLITIK -->
   <section class="panel-set" id="p-politik" role="tabpanel" aria-labelledby="tab-politik" hidden>
     <div class="grid g-three">
-      <article class="card"><h2>Welt</h2><ol class="news" id="p-welt"></ol></article>
-      <article class="card"><h2>USA</h2><ol class="news" id="p-usa"></ol></article>
-      <article class="card"><h2>Deutschland</h2><ol class="news" id="p-de"></ol></article>
+      <article class="card"><h2 data-mehr="welt">Welt</h2><ol class="news" id="p-welt"></ol></article>
+      <article class="card"><h2 data-mehr="usa">USA</h2><ol class="news" id="p-usa"></ol></article>
+      <article class="card"><h2 data-mehr="deutschland">Deutschland</h2><ol class="news" id="p-de"></ol></article>
       <article class="card span3">
-        <h2>Wichtige Termine</h2>
+        <h2 data-mehr="termine">Wichtige Termine</h2>
         <table class="tbl" id="p-termine"><thead><tr><th>Datum</th><th>Was</th><th>Art</th></tr></thead><tbody></tbody></table>
       </article>
       <article class="card span3">
-        <h2>Gerichte &amp; Gesetzgebung</h2>
+        <h2 data-mehr="recht">Gerichte &amp; Gesetzgebung</h2>
         <ol class="news" id="p-recht"></ol>
       </article>
     </div>
@@ -154,6 +154,13 @@
   Kurse: TradingView-Widgets, teils verzögert. Texte: von Claude recherchiert und mehrmals täglich aktualisiert, mit Quellen. Keine Anlageberatung. Börsenzeiten ohne Feiertage.
 </footer>
 
-<script src="app.js?v=9"></script>
+<dialog class="mehr" id="mehr" aria-labelledby="mehr-title">
+  <div class="mehr-head"><h3 id="mehr-title"></h3><button type="button" class="mehr-x" id="mehr-x" aria-label="Schließen">×</button></div>
+  <p class="mehr-lage" id="mehr-lage"></p>
+  <ol class="news" id="mehr-list"></ol>
+  <p class="src" id="mehr-stand"></p>
+</dialog>
+
+<script src="app.js?v=10"></script>
 </body>
 </html>

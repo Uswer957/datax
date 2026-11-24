@@ -394,6 +394,29 @@
     draw();
   }
 
+  /* ---------- Mehr zum Thema (Klick auf Kachelüberschrift) ---------- */
+  const dlg = $("mehr");
+  function openMehr(h) {
+    const key = h.dataset.mehr;
+    const all = (lastData && lastData.mehr) || {};
+    let e = all[key] || {};
+    if (Array.isArray(e)) e = { meldungen: e };
+    $("mehr-title").textContent = h.querySelector("span") ? h.querySelector("span").textContent : h.textContent;
+    $("mehr-lage").textContent = e.lage || "";
+    $("mehr-lage").hidden = !e.lage;
+    newsList("mehr-list", e.meldungen, key === "usa");
+    $("mehr-stand").textContent = lastData && lastData.aktualisiert ? "Gesammelt beim Lauf " + lastData.aktualisiert : "";
+    if (dlg.showModal) dlg.showModal(); else dlg.setAttribute("open", "");
+  }
+  document.querySelectorAll("h2[data-mehr]").forEach((h) => {
+    h.classList.add("mehr-h"); h.tabIndex = 0; h.setAttribute("role", "button");
+    h.title = "Mehr zum Thema";
+    h.addEventListener("click", () => openMehr(h));
+    h.addEventListener("keydown", (ev) => { if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); openMehr(h); } });
+  });
+  $("mehr-x").addEventListener("click", () => dlg.close());
+  dlg.addEventListener("click", (ev) => { if (ev.target === dlg) dlg.close(); });
+
   let lastData = null;
   function render(d) {
     lastData = d;
