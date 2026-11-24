@@ -1,0 +1,19 @@
+<!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Uhr</title><link rel="stylesheet" href="common.css?v=1">
+<style>
+.flip{display:flex;gap:8px;align-items:stretch;justify-content:center;flex:1;min-height:0}
+.tile{position:relative;flex:1;max-width:46%;background:#141414;border-radius:12px;display:flex;align-items:center;justify-content:center;font-weight:600;font-size:clamp(40px,22vw,120px);line-height:1;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.tile::after{content:"";position:absolute;left:0;right:0;top:50%;height:2px;background:#000}
+.meta{display:flex;justify-content:space-between;margin-top:10px;font-size:13px;color:#bdbdbd}
+.meta b{font-weight:600;color:#f2f2f2;text-transform:uppercase;letter-spacing:.12em;font-size:12px}
+</style></head><body>
+<div class="card"><div class="flip"><div class="tile" id="h">--</div><div class="tile" id="m">--</div></div>
+<div class="meta"><b id="wd"></b><span id="d"></span></div></div>
+<script>
+const tz="Europe/Berlin";
+function t(){const n=new Date();const p=new Intl.DateTimeFormat("de-DE",{timeZone:tz,hour:"2-digit",minute:"2-digit",hour12:false}).formatToParts(n);
+document.getElementById("h").textContent=p.find(x=>x.type=="hour").value;document.getElementById("m").textContent=p.find(x=>x.type=="minute").value;
+document.getElementById("wd").textContent=n.toLocaleDateString("de-DE",{timeZone:tz,weekday:"long"});
+document.getElementById("d").textContent=n.toLocaleDateString("de-DE",{timeZone:tz,day:"numeric",month:"long",year:"numeric"});}
+t();setInterval(t,1000);
+</script></body></html>

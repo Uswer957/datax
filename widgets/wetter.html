@@ -1,0 +1,36 @@
+<!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Wetter</title><link rel="stylesheet" href="common.css?v=1">
+<style>
+.now{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}
+.temp{font-size:44px;font-weight:600;line-height:1}
+.desc{font-size:14px;color:#bdbdbd}
+.days{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:4px;margin-top:14px;text-align:center}
+.day{font-size:12px;color:#bdbdbd}
+.day b{display:block;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#8c8c8c;margin-bottom:4px}
+.day .i{font-size:16px;display:block;margin:2px 0;filter:grayscale(1)}
+.day .hi{color:#f2f2f2;font-weight:600}
+.err{color:#8c8c8c;font-size:13px}
+</style></head><body>
+<div class="card"><div class="lbl" id="ort">Stuttgart · Wetter</div>
+<div class="now"><span class="temp" id="tmp">–</span><span class="desc" id="dsc"></span></div>
+<div class="days" id="days"></div></div>
+<script>
+const q=new URLSearchParams(location.search);
+const lat=q.get("lat")||"48.78",lon=q.get("lon")||"9.18",ort=q.get("ort")||"Stuttgart";
+document.getElementById("ort").textContent=ort+" · Wetter";
+const W={0:["klar","☀︎"],1:["überwiegend klar","☀︎"],2:["teils bewölkt","⛅︎"],3:["bedeckt","☁︎"],45:["Nebel","≋"],48:["Reifnebel","≋"],51:["Niesel","☂︎"],53:["Niesel","☂︎"],55:["Niesel","☂︎"],61:["leichter Regen","☂︎"],63:["Regen","☂︎"],65:["starker Regen","☂︎"],66:["Eisregen","☂︎"],67:["Eisregen","☂︎"],71:["leichter Schnee","❄︎"],73:["Schnee","❄︎"],75:["starker Schnee","❄︎"],77:["Schneegriesel","❄︎"],80:["Schauer","☂︎"],81:["Schauer","☂︎"],82:["heftige Schauer","☂︎"],85:["Schneeschauer","❄︎"],86:["Schneeschauer","❄︎"],95:["Gewitter","ϟ"],96:["Gewitter","ϟ"],99:["Gewitter","ϟ"]};
+const w=c=>W[c]||["–","·"];
+function load(){fetch(`https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current=temperature_2m,weather_code,wind_speed_10m&daily=weather_code,temperature_2m_max,temperature_2m_min&timezone=Europe%2FBerlin&forecast_days=7`)
+.then(r=>r.json()).then(d=>{
+document.getElementById("tmp").textContent=Math.round(d.current.temperature_2m)+"°";
+document.getElementById("dsc").textContent=w(d.current.weather_code)[0]+" · Wind "+Math.round(d.current.wind_speed_10m)+" km/h";
+const box=document.getElementById("days");box.textContent="";
+d.daily.time.forEach((t,i)=>{const e=document.createElement("div");e.className="day";
+const b=document.createElement("b");b.textContent=i==0?"Heute":new Date(t+"T12:00").toLocaleDateString("de-DE",{weekday:"short"}).replace(".","");
+const ic=document.createElement("span");ic.className="i";ic.textContent=w(d.daily.weather_code[i])[1];
+const hi=document.createElement("span");hi.className="hi";hi.textContent=Math.round(d.daily.temperature_2m_max[i])+"°";
+const lo=document.createElement("span");lo.textContent=" "+Math.round(d.daily.temperature_2m_min[i])+"°";
+e.append(b,ic,hi,lo);box.appendChild(e);});
+}).catch(()=>{document.getElementById("dsc").innerHTML='<span class="err">Wetter gerade nicht erreichbar</span>';});}
+load();setInterval(load,30*60*1000);
+</script></body></html>
