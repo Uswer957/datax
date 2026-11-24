@@ -1,14 +1,169 @@
 {
-  "aktualisiert": "Entwurf, noch nicht automatisch befüllt",
+  "aktualisiert": "24.11.2026, 14:09 Uhr",
   "maerkte": {
-    "schlagzeilen": [],
-    "verschuldung": [],
-    "verschuldung_quelle": "",
-    "termine": [],
-    "renditen": [],
-    "renditen_stand": "",
+    "schlagzeilen": [
+      {
+        "tag": "Unternehmen",
+        "titel": "Sanofi kauft Insmed für 41 Mrd. Dollar (175 $ je Aktie in bar)",
+        "warum": "Größter Pharma-Deal des Jahres: Sanofi sichert sich mit Brinsupri einen Blockbuster gegen das Dupixent-Patentende; Abschluss im 1. Halbjahr 2027 geplant.",
+        "quelle": "Sanofi / SEC",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001121404/000119312526473314/d130092dex991.htm"
+      },
+      {
+        "tag": "KI",
+        "titel": "Nvidia holt Jensen Huang als CEO zurück, Aktie am Montag rund +31 %",
+        "warum": "Der Comeback-Rally folgen heute Gewinnmitnahmen: Nvidia vorbörslich knapp −5 %, Nasdaq-Futures −1 %.",
+        "quelle": "Newsquawk",
+        "url": "https://www.newsquawk.com/headlines/newsquawk-daily-us-opening-news---24th-november-2026"
+      },
+      {
+        "tag": "Geldpolitik",
+        "titel": "Märkte preisen Fed-Zinserhöhung im Dezember als sicher ein",
+        "warum": "New-York-Fed-Chef Williams sieht Inflationsrisiken nach oben und schließt mehrere Erhöhungen in Folge nicht aus; US-Zehnjährige bei rund 4,9 %.",
+        "quelle": "Reuters via Yahoo Finance",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/asian-stocks-rally-huangs-nvidia-013042563.html"
+      },
+      {
+        "tag": "Konjunktur",
+        "titel": "Ifo-Index steigt auf 90,6, siebtes Plus in Folge – DAX trotzdem rund 1 % schwächer",
+        "warum": "Die Stimmung bessert sich langsam, doch nach der Montags-Rally überwiegen Gewinnmitnahmen; DAX mittags bei rund 25.160 Punkten.",
+        "quelle": "ad-hoc-news",
+        "url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/dax-gibt-am-dienstag-0-98-prozent-nach-ifo-ohne-schub/70549512"
+      },
+      {
+        "tag": "Handel",
+        "titel": "USA setzen Alibaba-Tochter Apex auf Exportsperrliste, China lockert Rohstoffsperren bis 27. Januar",
+        "warum": "Zweigleisiger Handelskonflikt: neue US-Sanktionen gegen chinesische Tech, zugleich befristete Entspannung bei kritischen Mineralien.",
+        "quelle": "Newsquawk",
+        "url": "https://www.newsquawk.com/headlines/newsquawk-daily-us-opening-news---24th-november-2026"
+      },
+      {
+        "tag": "Unternehmen",
+        "titel": "CrowdStrike will Zscaler für rund 44 Mrd. Dollar übernehmen",
+        "warum": "Konsolidierung im Cybersecurity-Markt: Zscaler sprang zweistellig, CrowdStrike-Aktie gab deutlich nach.",
+        "quelle": "Charles Schwab",
+        "url": "https://www.schwab.com/learn/story/stock-market-update-open"
+      },
+      {
+        "tag": "Asien",
+        "titel": "Taiwan +9 %, Kospi +7,5 %, Nikkei +3,9 %: Asiens Chipwerte feiern Huangs Rückkehr",
+        "warum": "Advantest (+12,5 %) und Tokyo Electron (+7,7 %) führen in Tokio; Hongkong bleibt wegen Alibaba und Tencent im Minus.",
+        "quelle": "Reuters via Yahoo Finance",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/asian-stocks-rally-huangs-nvidia-013042563.html"
+      },
+      {
+        "tag": "Energie",
+        "titel": "Brent fällt auf Drei-Monats-Tief, Kupfer bricht ein",
+        "warum": "Steigendes Angebot drückt den Ölpreis trotz Hormus-Sperre; Minen wie Anglo American und Antofagasta verlieren über 5 %.",
+        "quelle": "Reuters via Investing.com",
+        "url": "https://www.investing.com/news/stock-market-news/europes-stoxx-600-subdued-after-aidriven-rally-5047331"
+      }
+    ],
+    "verschuldung": [
+      {
+        "land": "Deutschland",
+        "quote": "63 %",
+        "absolut": "2,7 Bio. €"
+      },
+      {
+        "land": "USA",
+        "quote": "124 %",
+        "absolut": "40,1 Bio. $"
+      },
+      {
+        "land": "Japan",
+        "quote": "207 %",
+        "absolut": "1.347 Bio. ¥"
+      },
+      {
+        "land": "Italien",
+        "quote": "137 %",
+        "absolut": "–"
+      },
+      {
+        "land": "Frankreich",
+        "quote": "116 %",
+        "absolut": "3,5 Bio. €"
+      },
+      {
+        "land": "UK",
+        "quote": "102 %",
+        "absolut": "–"
+      },
+      {
+        "land": "China",
+        "quote": "99 %",
+        "absolut": "–"
+      }
+    ],
+    "verschuldung_quelle": "Quote: IWF Fiscal Monitor April 2026 (Stand 2025), via Analysis Atlas. Absolut: Destatis (DE, Q1 2026), US-Treasury (Sept. 2026), Japan Zentralregierung (Juni 2026), INSEE (März 2026).",
+    "termine": [
+      {
+        "datum": "24.11.",
+        "was": "Dell, HP, Workday, Autodesk: Quartalszahlen nachbörslich"
+      },
+      {
+        "datum": "25.11.",
+        "was": "Deere & Company: Quartalszahlen vorbörslich"
+      },
+      {
+        "datum": "01.12.",
+        "was": "KWS Saat: Hauptversammlung (Ex-Dividende 1,30 € am 02.12.)"
+      },
+      {
+        "datum": "02.12.",
+        "was": "Salesforce: Zahlen zum 3. Geschäftsquartal"
+      },
+      {
+        "datum": "09.12.",
+        "was": "Broadcom: Zahlen zum 4. Quartal und Geschäftsjahr 2026"
+      },
+      {
+        "datum": "10.12.",
+        "was": "Medtronic: Investorentag (bis 11.12.)"
+      },
+      {
+        "datum": "11.02.",
+        "was": "Siemens: Hauptversammlung 2027"
+      },
+      {
+        "datum": "18.02.",
+        "was": "Siemens Healthineers: Hauptversammlung 2027"
+      }
+    ],
+    "renditen": [
+      {
+        "land": "Deutschland",
+        "rendite": "3,28 %"
+      },
+      {
+        "land": "USA",
+        "rendite": "4,90 %"
+      },
+      {
+        "land": "UK",
+        "rendite": "5,19 %"
+      },
+      {
+        "land": "Frankreich",
+        "rendite": "4,77 %"
+      },
+      {
+        "land": "Italien",
+        "rendite": "4,35 %"
+      },
+      {
+        "land": "Japan",
+        "rendite": "2,72 %"
+      },
+      {
+        "land": "China",
+        "rendite": "1,61 %"
+      }
+    ],
+    "renditen_stand": "Stand 24.11. (Italien 23.11.), Quelle: Trading Economics",
     "watchlist": {
-      "stand": "Startliste: Index-Schwergewichte, Tagesgründe ab dem nächsten Lauf",
+      "stand": "Stand 24.11., 14:09 Uhr",
       "maerkte": [
         {
           "markt": "USA",
@@ -17,32 +172,32 @@
             {
               "name": "Nvidia",
               "symbol": "NASDAQ:NVDA",
-              "grund": "Größtes Gewicht im Index, Taktgeber für KI-Werte."
+              "grund": "Nach +31 % am Montag (Huang wieder CEO) vorbörslich knapp −5 %; größtes Indexgewicht."
             },
             {
-              "name": "Apple",
-              "symbol": "NASDAQ:AAPL",
-              "grund": "Index-Schwergewicht."
+              "name": "Dell",
+              "symbol": "NYSE:DELL",
+              "grund": "Quartalszahlen heute nachbörslich, Gradmesser für KI-Server-Nachfrage."
             },
             {
-              "name": "Microsoft",
-              "symbol": "NASDAQ:MSFT",
-              "grund": "Index-Schwergewicht, Cloud und KI."
+              "name": "Medtronic",
+              "symbol": "NYSE:MDT",
+              "grund": "Zahlen zum zweiten Geschäftsquartal heute vorbörslich."
             },
             {
-              "name": "Amazon",
-              "symbol": "NASDAQ:AMZN",
-              "grund": "Index-Schwergewicht, Handel und Cloud."
+              "name": "CrowdStrike",
+              "symbol": "NASDAQ:CRWD",
+              "grund": "Will Zscaler für rund 44 Mrd. Dollar kaufen, Aktie unter Druck."
             },
             {
-              "name": "Alphabet",
-              "symbol": "NASDAQ:GOOGL",
-              "grund": "Index-Schwergewicht."
+              "name": "Insmed",
+              "symbol": "NASDAQ:INSM",
+              "grund": "Übernahmeziel: Sanofi bietet 175 $ je Aktie in bar."
             },
             {
-              "name": "Broadcom",
-              "symbol": "NASDAQ:AVGO",
-              "grund": "Chips für KI-Rechenzentren."
+              "name": "Anthropic",
+              "symbol": "NASDAQ:ANT",
+              "grund": "Seit dem Rekord-Börsengang am 19.11. (Ausgabe 83 $) Stimmungsbarometer für KI-Werte."
             }
           ]
         },
@@ -51,24 +206,24 @@
           "gewicht": "ca. 13 %",
           "titel": [
             {
-              "name": "ASML",
-              "symbol": "EURONEXT:ASML",
-              "grund": "Größter Tech-Wert Europas."
+              "name": "Sanofi",
+              "symbol": "EURONEXT:SAN",
+              "grund": "Rund +5,6 % nach Ankündigung der 41-Mrd.-Dollar-Übernahme von Insmed."
             },
             {
-              "name": "SAP",
-              "symbol": "XETR:SAP",
-              "grund": "Schwergewicht im DAX."
+              "name": "Aixtron",
+              "symbol": "XETR:AIXA",
+              "grund": "Rund −9 % nach Abstufung auf „Sell“ durch UBS."
             },
             {
-              "name": "AstraZeneca",
-              "symbol": "NASDAQ:AZN",
-              "grund": "Größter Wert im FTSE 100 (US-Notierung)."
+              "name": "Infineon",
+              "symbol": "XETR:IFX",
+              "grund": "Über 2 % im Minus, Chipwerte geben nach der Montags-Rally nach."
             },
             {
-              "name": "Nestlé",
-              "symbol": "SIX:NESN",
-              "grund": "Schwergewicht der Schweiz."
+              "name": "ASM International",
+              "symbol": "EURONEXT:ASM",
+              "grund": "Über 2 % im Minus, Gewinnmitnahmen bei Halbleiterausrüstern."
             }
           ]
         },
@@ -79,7 +234,7 @@
             {
               "name": "Toyota",
               "symbol": "NYSE:TM",
-              "grund": "Größter Wert Japans (US-Notierung)."
+              "grund": "Größter Wert Japans (US-Notierung); Nikkei schloss +3,9 % auf 58.645 Punkte."
             },
             {
               "name": "Sony",
@@ -95,12 +250,12 @@
             {
               "name": "TSMC",
               "symbol": "NYSE:TSM",
-              "grund": "Größter Chipfertiger der Welt (US-Notierung)."
+              "grund": "Taiwan-Börse +9 %, TSMC legte fast zweistellig zu (Nvidia-Effekt)."
             },
             {
               "name": "Alibaba",
               "symbol": "NYSE:BABA",
-              "grund": "China-Barometer (US-Notierung)."
+              "grund": "USA setzen Singapur-Tochter Apex auf die Exportsperrliste; Alibaba will rechtlich vorgehen."
             }
           ]
         }
@@ -108,108 +263,1826 @@
     }
   },
   "politik": {
-    "welt": [],
-    "usa": [],
-    "deutschland": [],
-    "termine": [],
-    "recht": []
+    "welt": [
+      {
+        "titel": "Trump droht Iran mit neuen Angriffen nach Neujahr",
+        "warum": "Ohne langfristiges Abkommen zu Atomprogramm und Feindseligkeiten will Trump wieder angreifen; Irans Armeechef hält die Straße von Hormus weiter geschlossen.",
+        "quelle": "Everything Briefing (Fox News)",
+        "url": "https://everythingbriefing.substack.com/p/todays-news-history-and-thanksgiving"
+      },
+      {
+        "titel": "Katar vermittelt zwischen Iran und USA",
+        "warum": "Katars Premier traf Vizepräsident Vance und Außenminister Rubio, um Gespräche wiederzubeleben.",
+        "quelle": "Newsquawk",
+        "url": "https://www.newsquawk.com/headlines/newsquawk-daily-us-opening-news---24th-november-2026"
+      },
+      {
+        "titel": "EU legt 22. Sanktionspaket gegen Russland vor",
+        "warum": "Von der Leyen kündigte das Paket an; Selenskyj warnt vor neuen russischen Großangriffen.",
+        "quelle": "Everything Briefing",
+        "url": "https://everythingbriefing.substack.com/p/todays-news-history-and-thanksgiving"
+      },
+      {
+        "titel": "Estland will Grenze zu Russland schließen",
+        "warum": "Moskau wirft Tallinn feindselige Handlungen vor – neue Eskalationsstufe an der NATO-Ostflanke.",
+        "quelle": "Everything Briefing (Reuters/NBC)",
+        "url": "https://everythingbriefing.substack.com/p/todays-news-history-and-thanksgiving"
+      },
+      {
+        "titel": "USA verzögern laut FT rund 60 Patriot-Abfangraketen für die Ukraine",
+        "warum": "Lücke in der Luftverteidigung, während Russland neue Angriffe vorbereitet.",
+        "quelle": "Newsquawk (Financial Times)",
+        "url": "https://www.newsquawk.com/headlines/newsquawk-daily-us-opening-news---24th-november-2026"
+      }
+    ],
+    "usa": [
+      {
+        "titel": "Huang-Comeback bei Nvidia: Trump schaltete sich ein, Kongress empört",
+        "warum": "Trump unterstützte die Wiedereinsetzung und war bei der Vorstandssitzung zugeschaltet; Demokraten kündigen Untersuchungen und schärfere Exportkontrollen an.",
+        "quelle": "Everything Briefing (Axios/AP)",
+        "url": "https://everythingbriefing.substack.com/p/todays-news-history-and-thanksgiving"
+      },
+      {
+        "titel": "Berufungsgericht öffnet Trump Weg zur Tilgung der Schweigegeld-Verurteilung",
+        "warum": "Wichtige juristische Wende im New Yorker Strafverfahren.",
+        "quelle": "Everything Briefing (AP)",
+        "url": "https://everythingbriefing.substack.com/p/todays-news-history-and-thanksgiving"
+      },
+      {
+        "titel": "Bundesstaaten verklagen Wohnungsministerium HUD",
+        "warum": "Streit um Trumps Regel, Familien mit gemischtem Aufenthaltsstatus die Wohnhilfe zu streichen; auch New York City klagt.",
+        "quelle": "Everything Briefing (AP)",
+        "url": "https://everythingbriefing.substack.com/p/todays-news-history-and-thanksgiving"
+      },
+      {
+        "titel": "Demokraten planen 12 Vorwahl-Debatten für 2028 ab Juni 2027",
+        "warum": "Teilnehmer müssen sich von Dark Money distanzieren; der Wahlkampf um Trumps Nachfolge nimmt Form an.",
+        "quelle": "Everything Briefing (DNC)",
+        "url": "https://everythingbriefing.substack.com/p/todays-news-history-and-thanksgiving"
+      },
+      {
+        "titel": "Abgeordneter Gomez tritt nach Ethikbericht zurück",
+        "warum": "Der kalifornische Demokrat zieht Konsequenzen aus Vorwürfen sexuellen Fehlverhaltens.",
+        "quelle": "Everything Briefing (NPR)",
+        "url": "https://everythingbriefing.substack.com/p/todays-news-history-and-thanksgiving"
+      }
+    ],
+    "deutschland": [
+      {
+        "titel": "Haushaltswoche im Bundestag: Etat 2027 soll Freitag beschlossen werden",
+        "warum": "Finanzminister Klingbeil eröffnet die abschließenden Beratungen.",
+        "quelle": "news.de (dpa)",
+        "url": "https://www.news.de/panorama/860214085/24-november-2026-news-themen-des-tages-was-passiert-heute-in-deutschland-und-der-welt-das-ist-heute-am-24-11-2026-wichtig-in-den-nachrichten-aus-politik-wirtschaft-sport-und-co/1/"
+      },
+      {
+        "titel": "Merz: Verzicht auf NATO-Beitritt der Ukraine 2008 war schwerer Fehler",
+        "warum": "Bei einem Auftritt mit NATO-Generalsekretär Rutte; der betont, ein Beitritt bleibe eine ferne Perspektive.",
+        "quelle": "Euronews",
+        "url": "https://de.euronews.com/2026/11/24/merz-verzicht-auf-nato-beitritt-der-ukraine-2008-war-schwerer-fehler"
+      },
+      {
+        "titel": "Dobrindt, Prien und Hubig stellen Lagebild Gewalt gegen Frauen vor",
+        "warum": "Im Vorjahr wurden 308 Frauen und Mädchen getötet, 191 davon durch Partner, Ex-Partner oder Angehörige.",
+        "quelle": "news.de (dpa)",
+        "url": "https://www.news.de/panorama/860214085/24-november-2026-news-themen-des-tages-was-passiert-heute-in-deutschland-und-der-welt-das-ist-heute-am-24-11-2026-wichtig-in-den-nachrichten-aus-politik-wirtschaft-sport-und-co/1/"
+      },
+      {
+        "titel": "Berliner Linke stimmt über Ausschluss der Abgeordneten Vanessa Emde ab",
+        "warum": "Für den Ausschluss ist eine Zweidrittelmehrheit der Fraktion nötig.",
+        "quelle": "news.de (dpa)",
+        "url": "https://www.news.de/panorama/860214085/24-november-2026-news-themen-des-tages-was-passiert-heute-in-deutschland-und-der-welt-das-ist-heute-am-24-11-2026-wichtig-in-den-nachrichten-aus-politik-wirtschaft-sport-und-co/1/"
+      }
+    ],
+    "termine": [
+      {
+        "datum": "27.11.",
+        "was": "Bundestag: Schlussabstimmung Bundeshaushalt 2027",
+        "art": "Abstimmung"
+      },
+      {
+        "datum": "27.01.",
+        "was": "Ende der chinesischen Aussetzung von Rohstoffbeschränkungen gegenüber den USA",
+        "art": "Handel"
+      },
+      {
+        "datum": "30.01.",
+        "was": "Bundesversammlung wählt den Bundespräsidenten",
+        "art": "Wahl"
+      },
+      {
+        "datum": "18.04.",
+        "was": "Landtagswahl Saarland",
+        "art": "Landtagswahl"
+      },
+      {
+        "datum": "18.04.",
+        "was": "Landtagswahl Schleswig-Holstein",
+        "art": "Landtagswahl"
+      },
+      {
+        "datum": "25.04.",
+        "was": "Landtagswahl Nordrhein-Westfalen",
+        "art": "Landtagswahl"
+      },
+      {
+        "datum": "30.05.",
+        "was": "Bürgerschaftswahl Bremen",
+        "art": "Landtagswahl"
+      },
+      {
+        "datum": "26.09.",
+        "was": "Landtagswahl Niedersachsen",
+        "art": "Landtagswahl"
+      }
+    ],
+    "recht": [
+      {
+        "tag": "BVerfG",
+        "titel": "Wahlprüfungsbeschwerde des BSW gegen die Bundestagswahl 2025 unzulässig",
+        "warum": "Karlsruhe sah keinen konkreten, mandatsrelevanten Wahlfehler dargelegt; Nachzählungsstatistiken und Auffälligkeiten reichten nicht (2 BvC 4/26).",
+        "quelle": "LTO",
+        "url": "https://www.lto.de/recht/presseschau/p/2026-11-19-bverfg-bsw-wahlpruefung-kindschaftsrecht-gewalt-dazn-preiserhoehung"
+      },
+      {
+        "tag": "Gesetzgebung",
+        "titel": "Kabinett beschließt Reform des Kindschaftsrechts",
+        "warum": "Häusliche Gewalt wird erstmals im BGB definiert, Umgang gewalttätiger Eltern kann ausgeschlossen werden; automatisches gemeinsames Sorgerecht für Unverheiratete gestrichen.",
+        "quelle": "LTO",
+        "url": "https://www.lto.de/recht/presseschau/p/2026-11-19-bverfg-bsw-wahlpruefung-kindschaftsrecht-gewalt-dazn-preiserhoehung"
+      },
+      {
+        "tag": "OLG Hamm",
+        "titel": "DAZN-Preiserhöhungsklausel unwirksam",
+        "warum": "Erstes Abhilfegrundurteil nach dem neuen Verbandsklagegesetz: Preiserhöhungen von 11,99 auf 29,99 Euro unwirksam, rund 9.000 Kunden betroffen.",
+        "quelle": "LTO",
+        "url": "https://www.lto.de/recht/presseschau/p/2026-11-19-bverfg-bsw-wahlpruefung-kindschaftsrecht-gewalt-dazn-preiserhoehung"
+      }
+    ]
   },
   "sport": {
     "ligen": [
       {
         "kurz": "CL",
         "name": "Champions League",
-        "schlagzeilen": [],
-        "tabellen": []
+        "schlagzeilen": [
+          {
+            "titel": "5. Spieltag heute: Arsenal – Dortmund, Leipzig – Lens, Man City – Neapel",
+            "warum": "Für Leipzig (Platz 29) wird es im Kampf um die Play-off-Ränge eng.",
+            "quelle": "CBS Sports",
+            "url": "https://www.cbssports.com/soccer/news/2026-uefa-champions-league-schedule-results/"
+          },
+          {
+            "titel": "Mittwoch: Lille – Bayern, Inter – Stuttgart, PSG – Rom",
+            "warum": "Bayern (13.) und Stuttgart (14.) wollen in die Top 8.",
+            "quelle": "CBS Sports",
+            "url": "https://www.cbssports.com/soccer/news/2026-uefa-champions-league-schedule-results/"
+          },
+          {
+            "titel": "PSG und Real Madrid mit vier Siegen aus vier Spielen",
+            "warum": "Como überrascht als Vierter, unter anderem mit einem 9:1 gegen Lens.",
+            "quelle": "Wikipedia / CBS Sports",
+            "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_UEFA_Champions_League_league_phase"
+          }
+        ],
+        "tabellen": [
+          {
+            "spalten": [
+              "#",
+              "Verein",
+              "Sp",
+              "Diff",
+              "Pkt"
+            ],
+            "zeilen": [
+              [
+                "1",
+                "Paris Saint-Germain",
+                "4",
+                "+15",
+                "12"
+              ],
+              [
+                "2",
+                "Real Madrid",
+                "4",
+                "+6",
+                "12"
+              ],
+              [
+                "3",
+                "Arsenal",
+                "4",
+                "+5",
+                "10"
+              ],
+              [
+                "4",
+                "Como",
+                "4",
+                "+13",
+                "9"
+              ],
+              [
+                "5",
+                "FC Barcelona",
+                "4",
+                "+8",
+                "9"
+              ],
+              [
+                "6",
+                "Aston Villa",
+                "4",
+                "+6",
+                "9"
+              ],
+              [
+                "7",
+                "Manchester City",
+                "4",
+                "+5",
+                "9"
+              ],
+              [
+                "8",
+                "FC Liverpool",
+                "4",
+                "+4",
+                "9"
+              ],
+              [
+                "9",
+                "Club Brügge",
+                "4",
+                "+4",
+                "9"
+              ],
+              [
+                "10",
+                "Sporting CP",
+                "4",
+                "+4",
+                "9"
+              ],
+              [
+                "11",
+                "Real Betis",
+                "4",
+                "+2",
+                "9"
+              ],
+              [
+                "12",
+                "Borussia Dortmund",
+                "4",
+                "+2",
+                "9"
+              ],
+              [
+                "13",
+                "FC Bayern München",
+                "4",
+                "+7",
+                "8"
+              ],
+              [
+                "14",
+                "VfB Stuttgart",
+                "4",
+                "+3",
+                "7"
+              ],
+              [
+                "15",
+                "Inter Mailand",
+                "4",
+                "+2",
+                "6"
+              ],
+              [
+                "16",
+                "LASK",
+                "4",
+                "+1",
+                "6"
+              ],
+              [
+                "17",
+                "Manchester United",
+                "4",
+                "0",
+                "6"
+              ],
+              [
+                "18",
+                "Galatasaray",
+                "4",
+                "-1",
+                "6"
+              ],
+              [
+                "19",
+                "Fenerbahçe",
+                "4",
+                "-5",
+                "5"
+              ],
+              [
+                "20",
+                "AS Rom",
+                "4",
+                "+2",
+                "4"
+              ],
+              [
+                "21",
+                "Schachtar Donezk",
+                "4",
+                "0",
+                "4"
+              ],
+              [
+                "22",
+                "Viking FK",
+                "4",
+                "-1",
+                "4"
+              ],
+              [
+                "23",
+                "Atlético Madrid",
+                "4",
+                "-1",
+                "4"
+              ],
+              [
+                "24",
+                "PSV Eindhoven",
+                "4",
+                "-1",
+                "4"
+              ],
+              [
+                "25",
+                "Bodø/Glimt",
+                "4",
+                "-5",
+                "4"
+              ],
+              [
+                "26",
+                "FC Porto",
+                "4",
+                "-1",
+                "3"
+              ],
+              [
+                "27",
+                "SSC Neapel",
+                "4",
+                "-5",
+                "3"
+              ],
+              [
+                "28",
+                "Villarreal",
+                "4",
+                "-6",
+                "3"
+              ],
+              [
+                "29",
+                "AEK Athen",
+                "4",
+                "-6",
+                "3"
+              ],
+              [
+                "29",
+                "RB Leipzig",
+                "4",
+                "-6",
+                "3"
+              ],
+              [
+                "31",
+                "Sabah FK",
+                "4",
+                "-6",
+                "3"
+              ],
+              [
+                "32",
+                "Feyenoord",
+                "4",
+                "-7",
+                "3"
+              ],
+              [
+                "33",
+                "RC Lens",
+                "4",
+                "-12",
+                "3"
+              ],
+              [
+                "34",
+                "Slavia Prag",
+                "4",
+                "-4",
+                "1"
+              ],
+              [
+                "35",
+                "OSC Lille",
+                "4",
+                "-6",
+                "1"
+              ],
+              [
+                "36",
+                "Slovan Bratislava",
+                "4",
+                "-16",
+                "0"
+              ]
+            ]
+          }
+        ],
+        "stand": "4.11.2026, Ligaphase nach dem 4. Spieltag (Quelle: Wikipedia)"
       },
       {
         "kurz": "BL",
         "name": "Bundesliga",
-        "schlagzeilen": [],
-        "tabellen": []
+        "schlagzeilen": [
+          {
+            "titel": "Werder Bremen gewinnt Nordderby 4:0 gegen den HSV",
+            "warum": "Bremen klettert auf Rang 6, der HSV rutscht ins untere Mittelfeld.",
+            "quelle": "Sky Sport",
+            "url": "https://sport.sky.de/fussball/bremen-vs-hamburg/spielbericht/563398"
+          },
+          {
+            "titel": "Augsburg beendet Krise, Mainz stürzt ab",
+            "warum": "Sieg im direkten Duell, Mainz fällt auf Platz 13.",
+            "quelle": "Sky Sport",
+            "url": "https://sport.sky.de/fussball/augsburg-vs-mainz/spielbericht/563394"
+          },
+          {
+            "titel": "Torwart-Patzer macht Dortmund zum Spitzenreiter",
+            "warum": "Der BVB führt mit 24 Punkten zwei Zähler vor Bayern und Freiburg.",
+            "quelle": "Sky Sport",
+            "url": "https://sport.sky.de/fussball/artikel/highlights-kompakt-torwart-patzer-macht-dortmund-zum-spitzenreiter/13614841/34828"
+          }
+        ],
+        "tabellen": [
+          {
+            "spalten": [
+              "#",
+              "Verein",
+              "Sp",
+              "Diff",
+              "Pkt"
+            ],
+            "zeilen": [
+              [
+                "1",
+                "Borussia Dortmund",
+                "10",
+                "+10",
+                "24"
+              ],
+              [
+                "2",
+                "FC Bayern München",
+                "10",
+                "+20",
+                "22"
+              ],
+              [
+                "3",
+                "SC Freiburg",
+                "10",
+                "+11",
+                "22"
+              ],
+              [
+                "4",
+                "RB Leipzig",
+                "10",
+                "+18",
+                "21"
+              ],
+              [
+                "5",
+                "Bayer 04 Leverkusen",
+                "10",
+                "+7",
+                "19"
+              ],
+              [
+                "6",
+                "Werder Bremen",
+                "10",
+                "+6",
+                "18"
+              ],
+              [
+                "7",
+                "Eintracht Frankfurt",
+                "10",
+                "-4",
+                "15"
+              ],
+              [
+                "8",
+                "VfB Stuttgart",
+                "10",
+                "0",
+                "13"
+              ],
+              [
+                "9",
+                "SV Elversberg",
+                "10",
+                "-2",
+                "13"
+              ],
+              [
+                "10",
+                "FC Augsburg",
+                "10",
+                "+2",
+                "12"
+              ],
+              [
+                "11",
+                "TSG Hoffenheim",
+                "10",
+                "-2",
+                "12"
+              ],
+              [
+                "12",
+                "Hamburger SV",
+                "10",
+                "-14",
+                "12"
+              ],
+              [
+                "13",
+                "1. FSV Mainz 05",
+                "10",
+                "-3",
+                "10"
+              ],
+              [
+                "14",
+                "1. FC Köln",
+                "10",
+                "-4",
+                "10"
+              ],
+              [
+                "15",
+                "SC Paderborn 07",
+                "10",
+                "-7",
+                "10"
+              ],
+              [
+                "16",
+                "FC Schalke 04",
+                "10",
+                "-6",
+                "7"
+              ],
+              [
+                "17",
+                "1. FC Union Berlin",
+                "10",
+                "-18",
+                "7"
+              ],
+              [
+                "18",
+                "Borussia Mönchengladbach",
+                "10",
+                "-14",
+                "4"
+              ]
+            ]
+          }
+        ],
+        "stand": "22.11.2026, nach dem 10. Spieltag (Quelle: Sky Sport)"
       },
       {
         "kurz": "PL",
         "name": "Premier League",
-        "schlagzeilen": [],
-        "tabellen": []
+        "schlagzeilen": [
+          {
+            "titel": "Liverpool schlägt Manchester United 4:0",
+            "warum": "Bitteres Debüt für Pochettino, United auf Rang 19.",
+            "quelle": "Sky Sport",
+            "url": "https://sport.sky.de/fussball/liverpool-vs-man-united/spielbericht/559550"
+          },
+          {
+            "titel": "Hürzeler und Brighton verlieren überraschend bei Hull City",
+            "warum": "Arsenal baut die Führung auf sechs Punkte aus.",
+            "quelle": "Sky Sport",
+            "url": "https://sport.sky.de/fussball/artikel/fabian-huerzeler-und-brighton-verlieren-ueberraschend-bei-hull-city/13615320/34130"
+          },
+          {
+            "titel": "Leeds demontiert Chelsea",
+            "warum": "Aufsteiger-Erfolg bringt Leeds auf Rang 6.",
+            "quelle": "Sky Sport",
+            "url": "https://sport.sky.de/fussball/artikel/leeds-demontiert-chelsea/13614932/34357"
+          }
+        ],
+        "tabellen": [
+          {
+            "spalten": [
+              "#",
+              "Verein",
+              "Sp",
+              "Diff",
+              "Pkt"
+            ],
+            "zeilen": [
+              [
+                "1",
+                "Arsenal",
+                "11",
+                "+10",
+                "28"
+              ],
+              [
+                "2",
+                "Brighton & Hove Albion",
+                "11",
+                "+17",
+                "22"
+              ],
+              [
+                "3",
+                "Manchester City",
+                "11",
+                "+8",
+                "22"
+              ],
+              [
+                "4",
+                "Liverpool",
+                "11",
+                "+8",
+                "21"
+              ],
+              [
+                "5",
+                "Bournemouth",
+                "11",
+                "+4",
+                "18"
+              ],
+              [
+                "6",
+                "Leeds United",
+                "11",
+                "+5",
+                "17"
+              ],
+              [
+                "7",
+                "Everton",
+                "10",
+                "+2",
+                "16"
+              ],
+              [
+                "8",
+                "Chelsea",
+                "11",
+                "0",
+                "16"
+              ],
+              [
+                "9",
+                "Tottenham Hotspur",
+                "11",
+                "+1",
+                "15"
+              ],
+              [
+                "10",
+                "Brentford",
+                "10",
+                "+5",
+                "14"
+              ],
+              [
+                "11",
+                "Hull City",
+                "11",
+                "+2",
+                "14"
+              ],
+              [
+                "12",
+                "Aston Villa",
+                "11",
+                "-3",
+                "14"
+              ],
+              [
+                "13",
+                "Newcastle United",
+                "11",
+                "-3",
+                "13"
+              ],
+              [
+                "14",
+                "Coventry City",
+                "11",
+                "-8",
+                "12"
+              ],
+              [
+                "15",
+                "Fulham",
+                "11",
+                "-2",
+                "11"
+              ],
+              [
+                "16",
+                "Ipswich Town",
+                "11",
+                "-7",
+                "11"
+              ],
+              [
+                "17",
+                "Nottingham Forest",
+                "11",
+                "-6",
+                "9"
+              ],
+              [
+                "18",
+                "Sunderland",
+                "11",
+                "-9",
+                "9"
+              ],
+              [
+                "19",
+                "Manchester United",
+                "11",
+                "-9",
+                "8"
+              ],
+              [
+                "20",
+                "Crystal Palace",
+                "11",
+                "-15",
+                "7"
+              ]
+            ]
+          }
+        ],
+        "stand": "23.11.2026, 11. Spieltag (Everton – Brentford vom 23.11. noch nicht eingerechnet; Quelle: Standings Today)"
       },
       {
         "kurz": "LaLiga",
         "name": "LaLiga",
-        "schlagzeilen": [],
-        "tabellen": []
+        "schlagzeilen": [
+          {
+            "titel": "Barcelona schlägt Villarreal 3:2",
+            "warum": "Barça bleibt mit drei Punkten Vorsprung Tabellenführer; Raphinha führt mit 15 Toren die Torjägerliste an.",
+            "quelle": "Fútbol Total",
+            "url": "https://futboltotal.futbol/league/la-liga"
+          },
+          {
+            "titel": "Real Madrid gewinnt 2:1 gegen Celta Vigo",
+            "warum": "Real bleibt erster Verfolger.",
+            "quelle": "Fútbol Total",
+            "url": "https://futboltotal.futbol/league/la-liga"
+          },
+          {
+            "titel": "Atlético siegt 3:0 in Getafe",
+            "warum": "Atlético hält Anschluss an die Spitze, Platz 3.",
+            "quelle": "Fútbol Total",
+            "url": "https://futboltotal.futbol/league/la-liga"
+          }
+        ],
+        "tabellen": [
+          {
+            "spalten": [
+              "#",
+              "Verein",
+              "Sp",
+              "Diff",
+              "Pkt"
+            ],
+            "zeilen": [
+              [
+                "1",
+                "FC Barcelona",
+                "13",
+                "+36",
+                "36"
+              ],
+              [
+                "2",
+                "Real Madrid",
+                "13",
+                "+22",
+                "33"
+              ],
+              [
+                "3",
+                "Atlético Madrid",
+                "13",
+                "+16",
+                "31"
+              ],
+              [
+                "4",
+                "Real Betis",
+                "13",
+                "+5",
+                "27"
+              ],
+              [
+                "5",
+                "Real Sociedad",
+                "13",
+                "0",
+                "22"
+              ],
+              [
+                "6",
+                "Sevilla FC",
+                "13",
+                "-2",
+                "19"
+              ],
+              [
+                "7",
+                "Racing Santander",
+                "13",
+                "-12",
+                "17"
+              ],
+              [
+                "8",
+                "Athletic Club",
+                "12",
+                "+3",
+                "16"
+              ],
+              [
+                "9",
+                "Deportivo Alavés",
+                "13",
+                "0",
+                "16"
+              ],
+              [
+                "10",
+                "Villarreal CF",
+                "13",
+                "+1",
+                "15"
+              ],
+              [
+                "11",
+                "RCD Espanyol",
+                "13",
+                "0",
+                "15"
+              ],
+              [
+                "12",
+                "Deportivo La Coruña",
+                "13",
+                "-1",
+                "15"
+              ],
+              [
+                "13",
+                "CA Osasuna",
+                "13",
+                "-10",
+                "15"
+              ],
+              [
+                "14",
+                "Celta de Vigo",
+                "13",
+                "-1",
+                "13"
+              ],
+              [
+                "15",
+                "Levante UD",
+                "13",
+                "-5",
+                "12"
+              ],
+              [
+                "16",
+                "Rayo Vallecano",
+                "12",
+                "-7",
+                "12"
+              ],
+              [
+                "17",
+                "Valencia CF",
+                "13",
+                "-11",
+                "12"
+              ],
+              [
+                "18",
+                "Getafe CF",
+                "13",
+                "-13",
+                "12"
+              ],
+              [
+                "19",
+                "Elche CF",
+                "13",
+                "-6",
+                "11"
+              ],
+              [
+                "20",
+                "Málaga CF",
+                "13",
+                "-15",
+                "5"
+              ]
+            ]
+          }
+        ],
+        "stand": "23.11.2026, 13. Spieltag (Quelle: Fútbol Total)"
       },
       {
         "kurz": "Serie A",
         "name": "Serie A",
-        "schlagzeilen": [],
-        "tabellen": []
+        "schlagzeilen": [
+          {
+            "titel": "Spektakel in Bergamo: Atalanta – Inter 4:4",
+            "warum": "Inter verliert Boden auf Tabellenführer Lazio.",
+            "quelle": "bloooog.it",
+            "url": "https://www.bloooog.it/2026/11/21/serie-a-2026-27-12a-giornata-risultati-classifica-tabellini-e-statistiche/"
+          },
+          {
+            "titel": "Milan fertigt Frosinone 5:1 ab",
+            "warum": "Milan rückt auf Rang 4 vor.",
+            "quelle": "bloooog.it",
+            "url": "https://www.bloooog.it/2026/11/21/serie-a-2026-27-12a-giornata-risultati-classifica-tabellini-e-statistiche/"
+          },
+          {
+            "titel": "Juventus schlägt Venezia 4:0",
+            "warum": "Venezia bleibt Tabellenletzter.",
+            "quelle": "bloooog.it",
+            "url": "https://www.bloooog.it/2026/11/21/serie-a-2026-27-12a-giornata-risultati-classifica-tabellini-e-statistiche/"
+          }
+        ],
+        "tabellen": [
+          {
+            "spalten": [
+              "#",
+              "Verein",
+              "Sp",
+              "Diff",
+              "Pkt"
+            ],
+            "zeilen": [
+              [
+                "1",
+                "Lazio",
+                "12",
+                "+19",
+                "32"
+              ],
+              [
+                "2",
+                "Roma",
+                "12",
+                "+25",
+                "30"
+              ],
+              [
+                "3",
+                "Inter",
+                "12",
+                "+15",
+                "29"
+              ],
+              [
+                "4",
+                "Milan",
+                "12",
+                "+14",
+                "27"
+              ],
+              [
+                "5",
+                "Como",
+                "12",
+                "+10",
+                "26"
+              ],
+              [
+                "6",
+                "Juventus",
+                "12",
+                "+7",
+                "21"
+              ],
+              [
+                "7",
+                "Frosinone",
+                "12",
+                "+5",
+                "20"
+              ],
+              [
+                "8",
+                "Napoli",
+                "12",
+                "+5",
+                "18"
+              ],
+              [
+                "9",
+                "Bologna",
+                "12",
+                "+2",
+                "18"
+              ],
+              [
+                "10",
+                "Genoa",
+                "12",
+                "-3",
+                "16"
+              ],
+              [
+                "11",
+                "Cagliari",
+                "12",
+                "-7",
+                "16"
+              ],
+              [
+                "12",
+                "Atalanta",
+                "12",
+                "-3",
+                "15"
+              ],
+              [
+                "13",
+                "Torino",
+                "12",
+                "-3",
+                "14"
+              ],
+              [
+                "14",
+                "Monza",
+                "12",
+                "-5",
+                "10"
+              ],
+              [
+                "15",
+                "Lecce",
+                "12",
+                "-13",
+                "10"
+              ],
+              [
+                "16",
+                "Fiorentina",
+                "12",
+                "-11",
+                "9"
+              ],
+              [
+                "17",
+                "Parma",
+                "12",
+                "-12",
+                "8"
+              ],
+              [
+                "18",
+                "Sassuolo",
+                "12",
+                "-15",
+                "8"
+              ],
+              [
+                "19",
+                "Udinese",
+                "12",
+                "-13",
+                "6"
+              ],
+              [
+                "20",
+                "Venezia",
+                "12",
+                "-17",
+                "6"
+              ]
+            ]
+          }
+        ],
+        "stand": "23.11.2026, nach dem 12. Spieltag"
       },
       {
         "kurz": "NFL",
         "name": "NFL",
         "us": true,
-        "schlagzeilen": [],
-        "tabellen": []
+        "schlagzeilen": [
+          {
+            "titel": "49ers schlagen Vikings und führen die NFC an",
+            "warum": "Mit 9-1 gelten die Niners als Super-Bowl-Favorit.",
+            "quelle": "Bleacher Report",
+            "url": "https://bleacherreport.com/articles/25536762-nfl-playoff-picture-2026-week-12-wild-card-bracket-hunt-standings-super-bowl-odds"
+          },
+          {
+            "titel": "Jaguars verlieren gegen die Giants",
+            "warum": "Rückschlag im Rennen um Platz 1 der AFC.",
+            "quelle": "Bleacher Report",
+            "url": "https://bleacherreport.com/articles/25536762-nfl-playoff-picture-2026-week-12-wild-card-bracket-hunt-standings-super-bowl-odds"
+          },
+          {
+            "titel": "Bills mit 9-1 an der AFC-Spitze",
+            "warum": "Broncos und Chiefs folgen mit 8-2.",
+            "quelle": "CBS Sports",
+            "url": "https://www.cbssports.com/nfl/news/2026-nfl-playoff-picture-standings-49ers-reign-over-nfc-jaguars-slip-in-afc/"
+          }
+        ],
+        "tabellen": [
+          {
+            "titel": "AFC",
+            "spalten": [
+              "#",
+              "Team",
+              "W",
+              "L",
+              "Pct"
+            ],
+            "zeilen": [
+              [
+                "1",
+                "Buffalo Bills",
+                "9",
+                "1",
+                ".900"
+              ],
+              [
+                "2",
+                "Denver Broncos",
+                "8",
+                "2",
+                ".800"
+              ],
+              [
+                "3",
+                "Kansas City Chiefs",
+                "8",
+                "2",
+                ".800"
+              ],
+              [
+                "4",
+                "Cincinnati Bengals",
+                "7",
+                "2",
+                ".778"
+              ],
+              [
+                "5",
+                "Jacksonville Jaguars",
+                "7",
+                "3",
+                ".700"
+              ],
+              [
+                "6",
+                "Cleveland Browns",
+                "6",
+                "4",
+                ".600"
+              ],
+              [
+                "7",
+                "Pittsburgh Steelers",
+                "6",
+                "4",
+                ".600"
+              ],
+              [
+                "8",
+                "New England Patriots",
+                "5",
+                "5",
+                ".500"
+              ]
+            ]
+          },
+          {
+            "titel": "NFC",
+            "spalten": [
+              "#",
+              "Team",
+              "W",
+              "L",
+              "Pct"
+            ],
+            "zeilen": [
+              [
+                "1",
+                "San Francisco 49ers",
+                "9",
+                "1",
+                ".900"
+              ],
+              [
+                "2",
+                "Detroit Lions",
+                "8",
+                "2",
+                ".800"
+              ],
+              [
+                "3",
+                "Chicago Bears",
+                "8",
+                "2",
+                ".800"
+              ],
+              [
+                "4",
+                "Minnesota Vikings",
+                "7",
+                "3",
+                ".700"
+              ],
+              [
+                "5",
+                "New York Giants",
+                "6",
+                "3",
+                ".650"
+              ],
+              [
+                "6",
+                "Green Bay Packers",
+                "6",
+                "4",
+                ".600"
+              ],
+              [
+                "7",
+                "Seattle Seahawks",
+                "6",
+                "4",
+                ".600"
+              ],
+              [
+                "8",
+                "Los Angeles Rams",
+                "6",
+                "4",
+                ".600"
+              ]
+            ]
+          }
+        ],
+        "stand": "23.11.2026, nach Woche 11 (Giants 6-3-1)"
       },
       {
         "kurz": "NBA",
         "name": "NBA",
         "us": true,
-        "schlagzeilen": [],
-        "tabellen": []
+        "schlagzeilen": [
+          {
+            "titel": "Spurs und Lakers teilen sich mit 15-3 die Spitze im Westen",
+            "warum": "San Antonio hat die beste Punktedifferenz der Liga (+219).",
+            "quelle": "Standings Today",
+            "url": "https://standingstoday.com/nba/"
+          },
+          {
+            "titel": "76ers führen den Osten mit 14-4 an",
+            "warum": "Drei Spiele Vorsprung auf Boston, New York und Atlanta.",
+            "quelle": "Standings Today",
+            "url": "https://standingstoday.com/nba/"
+          },
+          {
+            "titel": "Miami Heat mit sieben Siegen in Folge",
+            "warum": "Längste aktuelle Siegesserie, Miami auf Rang 6 im Osten.",
+            "quelle": "Standings Today",
+            "url": "https://standingstoday.com/nba/"
+          }
+        ],
+        "tabellen": [
+          {
+            "titel": "Eastern Conference",
+            "spalten": [
+              "#",
+              "Team",
+              "W",
+              "L",
+              "Pct"
+            ],
+            "zeilen": [
+              [
+                "1",
+                "Philadelphia 76ers",
+                "14",
+                "4",
+                ".778"
+              ],
+              [
+                "2",
+                "Boston Celtics",
+                "11",
+                "6",
+                ".647"
+              ],
+              [
+                "3",
+                "New York Knicks",
+                "11",
+                "6",
+                ".647"
+              ],
+              [
+                "4",
+                "Atlanta Hawks",
+                "11",
+                "6",
+                ".647"
+              ],
+              [
+                "5",
+                "Detroit Pistons",
+                "10",
+                "6",
+                ".625"
+              ],
+              [
+                "6",
+                "Miami Heat",
+                "10",
+                "6",
+                ".625"
+              ],
+              [
+                "7",
+                "Cleveland Cavaliers",
+                "9",
+                "9",
+                ".500"
+              ],
+              [
+                "8",
+                "Orlando Magic",
+                "7",
+                "9",
+                ".438"
+              ]
+            ]
+          },
+          {
+            "titel": "Western Conference",
+            "spalten": [
+              "#",
+              "Team",
+              "W",
+              "L",
+              "Pct"
+            ],
+            "zeilen": [
+              [
+                "1",
+                "San Antonio Spurs",
+                "15",
+                "3",
+                ".833"
+              ],
+              [
+                "2",
+                "Los Angeles Lakers",
+                "15",
+                "3",
+                ".833"
+              ],
+              [
+                "3",
+                "Minnesota Timberwolves",
+                "13",
+                "5",
+                ".722"
+              ],
+              [
+                "4",
+                "Memphis Grizzlies",
+                "13",
+                "5",
+                ".722"
+              ],
+              [
+                "5",
+                "Houston Rockets",
+                "13",
+                "5",
+                ".722"
+              ],
+              [
+                "6",
+                "Denver Nuggets",
+                "10",
+                "5",
+                ".667"
+              ],
+              [
+                "7",
+                "Portland Trail Blazers",
+                "11",
+                "6",
+                ".647"
+              ],
+              [
+                "8",
+                "Dallas Mavericks",
+                "10",
+                "7",
+                ".588"
+              ]
+            ]
+          }
+        ],
+        "stand": "24.11.2026 (Spiele bis 23.11.)"
       },
       {
         "kurz": "NHL",
         "name": "NHL",
         "us": true,
-        "schlagzeilen": [],
-        "tabellen": []
+        "schlagzeilen": [
+          {
+            "titel": "Minnesota Wild führen die Liga mit 41 Punkten an",
+            "warum": "Drei Zähler vor Edmonton im Westen.",
+            "quelle": "daily.hockey",
+            "url": "https://daily.hockey/standings"
+          },
+          {
+            "titel": "Carolina Hurricanes vorn im Osten",
+            "warum": "39 Punkte aus 24 Spielen, vier vor Ottawa.",
+            "quelle": "daily.hockey",
+            "url": "https://daily.hockey/standings"
+          },
+          {
+            "titel": "Dylan Larkin wechselt von Detroit nach Montreal",
+            "warum": "Der Trade um den Red-Wings-Kapitän ist abgeschlossen.",
+            "quelle": "Bleacher Report",
+            "url": "https://bleacherreport.com/articles/25434044-dylan-larkin-traded-canadiens-red-wings-full-details-nhl-draft-picks-involved-revealed"
+          }
+        ],
+        "tabellen": [
+          {
+            "titel": "Eastern Conference",
+            "spalten": [
+              "#",
+              "Team",
+              "GP",
+              "Pkt"
+            ],
+            "zeilen": [
+              [
+                "1",
+                "Carolina Hurricanes",
+                "24",
+                "39"
+              ],
+              [
+                "2",
+                "Ottawa Senators",
+                "25",
+                "35"
+              ],
+              [
+                "3",
+                "Tampa Bay Lightning",
+                "23",
+                "32"
+              ],
+              [
+                "4",
+                "Montreal Canadiens",
+                "25",
+                "32"
+              ],
+              [
+                "5",
+                "New Jersey Devils",
+                "24",
+                "32"
+              ],
+              [
+                "6",
+                "Boston Bruins",
+                "23",
+                "31"
+              ],
+              [
+                "7",
+                "Florida Panthers",
+                "24",
+                "29"
+              ],
+              [
+                "8",
+                "New York Rangers",
+                "23",
+                "27"
+              ]
+            ]
+          },
+          {
+            "titel": "Western Conference",
+            "spalten": [
+              "#",
+              "Team",
+              "GP",
+              "Pkt"
+            ],
+            "zeilen": [
+              [
+                "1",
+                "Minnesota Wild",
+                "26",
+                "41"
+              ],
+              [
+                "2",
+                "Edmonton Oilers",
+                "26",
+                "38"
+              ],
+              [
+                "3",
+                "Vegas Golden Knights",
+                "25",
+                "33"
+              ],
+              [
+                "4",
+                "Dallas Stars",
+                "23",
+                "32"
+              ],
+              [
+                "5",
+                "Nashville Predators",
+                "23",
+                "29"
+              ],
+              [
+                "6",
+                "Colorado Avalanche",
+                "23",
+                "29"
+              ],
+              [
+                "7",
+                "St. Louis Blues",
+                "24",
+                "28"
+              ],
+              [
+                "8",
+                "Winnipeg Jets",
+                "25",
+                "28"
+              ]
+            ]
+          }
+        ],
+        "stand": "23.11.2026"
       },
       {
         "kurz": "MLB",
         "name": "MLB",
         "us": true,
-        "schlagzeilen": [],
-        "tabellen": []
+        "schlagzeilen": [
+          {
+            "titel": "Milwaukee Brewers gewinnen erstmals die World Series",
+            "warum": "4:1-Siege gegen die Tampa Bay Rays, entschieden am 28. Oktober.",
+            "quelle": "CBS Sports",
+            "url": "https://www.cbssports.com/mlb/news/2026-mlb-playoff-bracket-schedule-scores-results-how-to-watch/"
+          },
+          {
+            "titel": "Mets geben Tarik Skubal 450 Mio. Dollar",
+            "warum": "Neunjahresvertrag für den zweifachen Cy-Young-Sieger.",
+            "quelle": "Bleacher Report",
+            "url": "https://bleacherreport.com/articles/25460837-tarik-skubal-mets-agree-historic-450m-contract-after-dodgers-stint-mlb-rumors-reveal-details"
+          },
+          {
+            "titel": "Bericht: Dodgers boten Skubal nie einen Vertrag an",
+            "warum": "Hintergründe zum Rekorddeal der Mets.",
+            "quelle": "Bleacher Report",
+            "url": "https://bleacherreport.com/articles/25536598-new-tarik-skubal-rumors-reveal-dodgers-concerns-stars-historic-450m-mets-contract"
+          }
+        ],
+        "tabellen": [
+          {
+            "titel": "American League",
+            "spalten": [
+              "#",
+              "Team",
+              "W",
+              "L",
+              "Pct"
+            ],
+            "zeilen": [
+              [
+                "1",
+                "Tampa Bay Rays",
+                "98",
+                "64",
+                ".605"
+              ],
+              [
+                "2",
+                "New York Yankees",
+                "93",
+                "68",
+                ".578"
+              ],
+              [
+                "3",
+                "Boston Red Sox",
+                "87",
+                "75",
+                ".537"
+              ],
+              [
+                "4",
+                "Cleveland Guardians",
+                "85",
+                "77",
+                ".525"
+              ],
+              [
+                "5",
+                "Chicago White Sox",
+                "84",
+                "78",
+                ".519"
+              ],
+              [
+                "6",
+                "Houston Astros",
+                "81",
+                "81",
+                ".500"
+              ],
+              [
+                "7",
+                "Texas Rangers",
+                "80",
+                "82",
+                ".494"
+              ],
+              [
+                "8",
+                "Baltimore Orioles",
+                "79",
+                "82",
+                ".491"
+              ]
+            ]
+          },
+          {
+            "titel": "National League",
+            "spalten": [
+              "#",
+              "Team",
+              "W",
+              "L",
+              "Pct"
+            ],
+            "zeilen": [
+              [
+                "1",
+                "Milwaukee Brewers",
+                "103",
+                "59",
+                ".636"
+              ],
+              [
+                "2",
+                "Los Angeles Dodgers",
+                "100",
+                "62",
+                ".617"
+              ],
+              [
+                "3",
+                "Atlanta Braves",
+                "94",
+                "68",
+                ".580"
+              ],
+              [
+                "4",
+                "San Diego Padres",
+                "91",
+                "71",
+                ".562"
+              ],
+              [
+                "5",
+                "Chicago Cubs",
+                "89",
+                "73",
+                ".549"
+              ],
+              [
+                "6",
+                "Philadelphia Phillies",
+                "88",
+                "74",
+                ".543"
+              ],
+              [
+                "7",
+                "Arizona Diamondbacks",
+                "86",
+                "76",
+                ".531"
+              ],
+              [
+                "8",
+                "Pittsburgh Pirates",
+                "82",
+                "80",
+                ".506"
+              ]
+            ]
+          }
+        ],
+        "stand": "Saisonpause: Abschlusstabelle der regulären Saison 2026"
       }
     ]
   },
   "sonstiges": {
     "englisch": {
-      "wort": "perspicacious",
-      "aussprache": "/ˌpɜː.spɪˈkeɪ.ʃəs/",
-      "wortart": "Adjektiv",
-      "bedeutung": "scharfsinnig; jemand, der Zusammenhänge schnell und genau durchschaut.",
-      "beispiel": "A perspicacious investor had sold well before the bubble burst."
+      "wort": "recrudescence",
+      "aussprache": "/ˌriː.kruːˈdes.əns/",
+      "wortart": "Substantiv",
+      "bedeutung": "Wiederaufflammen von etwas Unerwünschtem (Krankheit, Gewalt, Inflation) nach einer Phase der Ruhe.",
+      "beispiel": "Central bankers fear a recrudescence of inflation should energy prices spike again."
     },
     "chinesisch": {
-      "zeichen": "未雨绸缪",
-      "pinyin": "wèi yǔ chóu móu",
+      "zeichen": "举一反三",
+      "pinyin": "jǔ yī fǎn sān",
       "wortart": "Chengyu (Redewendung)",
-      "bedeutung": "Vor dem Regen das Dach ausbessern: sich rechtzeitig vorbereiten.",
-      "beispiel": "我们应该未雨绸缪，提前做好准备。 (Wir sollten vorsorgen und uns rechtzeitig vorbereiten.)"
+      "bedeutung": "Eine Ecke zeigen, die anderen drei erschließen: aus einem Beispiel auf Ähnliches schließen, Gelerntes übertragen.",
+      "beispiel": "学习要举一反三，不能死记硬背。 (Beim Lernen soll man Gelerntes übertragen, statt stur auswendig zu lernen.)"
     },
-    "funfact": "Der Begriff „Bankrott“ kommt vom italienischen „banca rotta“, der zerbrochenen Bank: Zahlungsunfähigen Geldwechslern wurde der Tisch zerschlagen.",
+    "funfact": "Ein Tag auf der Venus dauert länger als ein Venusjahr: Für eine Drehung um sich selbst braucht sie rund 243 Erdtage, für eine Runde um die Sonne nur rund 225.",
     "wissen": [
       {
         "bereich": "Geschichte",
-        "fakt": "Die erste Börse im heutigen Sinn entstand 1602 in Amsterdam, als die Niederländische Ostindien-Kompanie ihre Anteile handelbar machte."
+        "fakt": "Der Westfälische Friede von 1648 beendete den Dreißigjährigen Krieg und gilt als Grundstein des modernen Systems souveräner Staaten."
       },
       {
         "bereich": "Wirtschaft",
-        "fakt": "Das Gresham'sche Gesetz besagt: Schlechtes Geld verdrängt gutes, weil Menschen das wertvollere Geld horten und das schlechtere ausgeben."
+        "fakt": "Das Triffin-Dilemma (Robert Triffin, 1960): Ein Land mit Weltreservewährung muss Defizite gegenüber dem Ausland fahren, um die Welt mit Liquidität zu versorgen, und untergräbt damit langfristig das Vertrauen in seine Währung."
       },
       {
         "bereich": "Allgemeinwissen",
-        "fakt": "Die Landebahnnummern geben die gerundete magnetische Richtung in Zehnergrad an; Bahn 25 zeigt also etwa auf 250 Grad."
+        "fakt": "Seit 2019 ist das Kilogramm über die Planck-Konstante definiert; vorher galt ein Platin-Iridium-Zylinder in Sèvres bei Paris als Urkilogramm."
       }
     ],
     "steuerrecht": {
-      "frage": "Welche sieben Einkunftsarten kennt das Einkommensteuergesetz?",
-      "antwort": "Land- und Forstwirtschaft, Gewerbebetrieb, selbständige Arbeit (Gewinneinkünfte) sowie nichtselbständige Arbeit, Kapitalvermögen, Vermietung und Verpachtung und sonstige Einkünfte (Überschusseinkünfte).",
-      "norm": "§ 2 Abs. 1 und 2 EStG"
+      "frage": "Wann sind regelmäßig wiederkehrende Ausgaben abzuziehen, die kurz vor oder nach dem Jahreswechsel gezahlt werden?",
+      "antwort": "Grundsätzlich gilt das Abflussprinzip: Abzug im Jahr der Zahlung. Regelmäßig wiederkehrende Ausgaben, die innerhalb kurzer Zeit (nach der Rechtsprechung bis zu 10 Tage) vor Beginn oder nach Ende des Kalenderjahres gezahlt werden, gelten jedoch als in dem Jahr abgeflossen, zu dem sie wirtschaftlich gehören.",
+      "norm": "§ 11 Abs. 2 Satz 1 und 2 i. V. m. Abs. 1 Satz 2 EStG"
     }
   }
 }
