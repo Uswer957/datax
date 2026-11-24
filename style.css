@@ -1,9 +1,11 @@
 /* Layout: Kopfband mit Börsenuhren, Tab-Leiste, dichte Kachelraster je Tab */
+@font-face{font-family:"General Sans";src:url("fonts/GeneralSans-Variable.woff2") format("woff2");font-weight:200 700;font-style:normal;font-display:swap}
+@font-face{font-family:"General Sans";src:url("fonts/GeneralSans-VariableItalic.woff2") format("woff2");font-weight:200 700;font-style:italic;font-display:swap}
 :root{
   --bg:#000; --panel:#0c0c0c; --panel2:#161616; --line:#2b2b2b; --fg:#f2f2f2; --muted:#8c8c8c;
   --accent:#fff; --open:#fff; --closed:#444; --down:#f2f2f2; --up:#f2f2f2;
-  --f-display:"IBM Plex Sans Condensed","Arial Narrow",system-ui,sans-serif;
-  --f-body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-display:"General Sans",system-ui,sans-serif;
+  --f-body:"General Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
   --f-data:"IBM Plex Mono",ui-monospace,Menlo,monospace;
   color-scheme:dark;
 }
