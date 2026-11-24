@@ -1,62 +1,101 @@
 {
-  "aktualisiert": "24.11.2026, 14:09 Uhr",
+  "aktualisiert": "24.11.2026, 15:12 Uhr",
   "maerkte": {
     "schlagzeilen": [
       {
         "tag": "Unternehmen",
         "titel": "Sanofi kauft Insmed für 41 Mrd. Dollar (175 $ je Aktie in bar)",
-        "warum": "Größter Pharma-Deal des Jahres: Sanofi sichert sich mit Brinsupri einen Blockbuster gegen das Dupixent-Patentende; Abschluss im 1. Halbjahr 2027 geplant.",
-        "quelle": "Sanofi / SEC",
-        "url": "https://www.sec.gov/Archives/edgar/data/0001121404/000119312526473314/d130092dex991.htm"
+        "warum": "Größter Pharma-Deal des Jahres: Sanofi sichert sich mit Brinsupri einen Blockbuster gegen das Dupixent-Patentende; Sanofi-Aktie in Paris rund +5,6 %.",
+        "quelle": "Reuters",
+        "url": "https://www.investing.com/news/stock-market-news/europes-stoxx-600-subdued-after-aidriven-rally-5047331",
+        "zeit": "24.11.",
+        "medien": [
+          "Reuters",
+          "Bloomberg"
+        ]
       },
       {
         "tag": "KI",
-        "titel": "Nvidia holt Jensen Huang als CEO zurück, Aktie am Montag rund +31 %",
-        "warum": "Der Comeback-Rally folgen heute Gewinnmitnahmen: Nvidia vorbörslich knapp −5 %, Nasdaq-Futures −1 %.",
-        "quelle": "Newsquawk",
-        "url": "https://www.newsquawk.com/headlines/newsquawk-daily-us-opening-news---24th-november-2026"
+        "titel": "Nvidia nach +31 %-Rally vorbörslich rund −5 %",
+        "warum": "Nach Jensen Huangs Rückkehr als CEO (über 1 Billion Dollar Börsenwert an einem Tag) folgen Gewinnmitnahmen bei Chip- und KI-Werten.",
+        "quelle": "Seeking Alpha",
+        "url": "https://seekingalpha.com/news/4676053-chip-ai-stocks-retreat-after-record-breaking-rally-on-huangs-return",
+        "zeit": "24.11., 14:19",
+        "medien": [
+          "CNBC",
+          "Reuters"
+        ]
       },
       {
         "tag": "Geldpolitik",
-        "titel": "Märkte preisen Fed-Zinserhöhung im Dezember als sicher ein",
-        "warum": "New-York-Fed-Chef Williams sieht Inflationsrisiken nach oben und schließt mehrere Erhöhungen in Folge nicht aus; US-Zehnjährige bei rund 4,9 %.",
-        "quelle": "Reuters via Yahoo Finance",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/asian-stocks-rally-huangs-nvidia-013042563.html"
+        "titel": "Märkte preisen Fed-Zinserhöhung im Dezember vollständig ein",
+        "warum": "Laut CME FedWatch ist ein Schritt um 25 Basispunkte sicher eingepreist; der Euro fiel nahe an ein 18-Monats-Tief bei 1,0907 Dollar.",
+        "quelle": "Reuters (Business Recorder)",
+        "url": "https://www.brecorder.com/news/40450476/dollar-climbs-as-renewed-ai-euphoria-fuels-fed-hike-bets",
+        "zeit": "24.11., 03:58",
+        "medien": [
+          "Reuters",
+          "Axios"
+        ]
       },
       {
         "tag": "Konjunktur",
-        "titel": "Ifo-Index steigt auf 90,6, siebtes Plus in Folge – DAX trotzdem rund 1 % schwächer",
-        "warum": "Die Stimmung bessert sich langsam, doch nach der Montags-Rally überwiegen Gewinnmitnahmen; DAX mittags bei rund 25.160 Punkten.",
-        "quelle": "ad-hoc-news",
-        "url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/dax-gibt-am-dienstag-0-98-prozent-nach-ifo-ohne-schub/70549512"
-      },
-      {
-        "tag": "Handel",
-        "titel": "USA setzen Alibaba-Tochter Apex auf Exportsperrliste, China lockert Rohstoffsperren bis 27. Januar",
-        "warum": "Zweigleisiger Handelskonflikt: neue US-Sanktionen gegen chinesische Tech, zugleich befristete Entspannung bei kritischen Mineralien.",
-        "quelle": "Newsquawk",
-        "url": "https://www.newsquawk.com/headlines/newsquawk-daily-us-opening-news---24th-november-2026"
-      },
-      {
-        "tag": "Unternehmen",
-        "titel": "CrowdStrike will Zscaler für rund 44 Mrd. Dollar übernehmen",
-        "warum": "Konsolidierung im Cybersecurity-Markt: Zscaler sprang zweistellig, CrowdStrike-Aktie gab deutlich nach.",
-        "quelle": "Charles Schwab",
-        "url": "https://www.schwab.com/learn/story/stock-market-update-open"
-      },
-      {
-        "tag": "Asien",
-        "titel": "Taiwan +9 %, Kospi +7,5 %, Nikkei +3,9 %: Asiens Chipwerte feiern Huangs Rückkehr",
-        "warum": "Advantest (+12,5 %) und Tokyo Electron (+7,7 %) führen in Tokio; Hongkong bleibt wegen Alibaba und Tencent im Minus.",
-        "quelle": "Reuters via Yahoo Finance",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/asian-stocks-rally-huangs-nvidia-013042563.html"
+        "titel": "Ifo-Geschäftsklima steigt auf 90,6 – höchster Stand seit Frühjahr 2023",
+        "warum": "Siebtes Plus in Folge, getragen von Dienstleistern und Handel; Industrie und Bau trüben sich dagegen ein.",
+        "quelle": "Handelsblatt",
+        "url": "https://www.handelsblatt.com/politik/deutschland/konjunktur-ifo-geschaeftsklima-steigt-auf-hoechststand-seit-fruehjahr-2023/100272331.html",
+        "zeit": "24.11., 11:22",
+        "medien": [
+          "Handelsblatt",
+          "dpa"
+        ]
       },
       {
         "tag": "Energie",
-        "titel": "Brent fällt auf Drei-Monats-Tief, Kupfer bricht ein",
-        "warum": "Steigendes Angebot drückt den Ölpreis trotz Hormus-Sperre; Minen wie Anglo American und Antofagasta verlieren über 5 %.",
-        "quelle": "Reuters via Investing.com",
-        "url": "https://www.investing.com/news/stock-market-news/europes-stoxx-600-subdued-after-aidriven-rally-5047331"
+        "titel": "Brent fällt auf Drei-Monats-Tief bei rund 88,60 Dollar",
+        "warum": "Steigendes Angebot wiegt die Hormus-Sperre auf; Deutsche Bank schätzt das Überangebot im Oktober auf 1,7 Mio. Barrel pro Tag.",
+        "quelle": "Reuters (Business Recorder)",
+        "url": "https://www.brecorder.com/news/40450477/oil-touches-three-month-lows-as-rising-supply-offsets-hormuz-threat",
+        "zeit": "24.11., 04:04",
+        "medien": [
+          "Reuters",
+          "Wall Street Journal"
+        ]
+      },
+      {
+        "tag": "Börse",
+        "titel": "Europas Börsen pausieren nach KI-Rally, Minenwerte brechen ein",
+        "warum": "Stoxx 600 leicht im Minus; Aixtron nach UBS-Abstufung rund −9 %, Anglo American und Antofagasta über −5 %.",
+        "quelle": "Reuters",
+        "url": "https://www.investing.com/news/stock-market-news/europes-stoxx-600-subdued-after-aidriven-rally-5047331",
+        "zeit": "24.11.",
+        "medien": [
+          "Reuters",
+          "Handelsblatt"
+        ]
+      },
+      {
+        "tag": "Handel",
+        "titel": "USA setzen Singapurer Cloudfirma Megaspeed auf die Exportsperrliste",
+        "warum": "Washington will verhindern, dass Nvidia-Chips nach China umgeleitet werden, ausgerechnet am Tag von Huangs Rückkehr.",
+        "quelle": "Politico",
+        "url": "https://www.politico.com/news/2026/11/23/us-prepares-to-blacklist-megaspeed-as-huang-returns-to-nvidia-01180920",
+        "zeit": "23.11.",
+        "medien": [
+          "Politico"
+        ]
+      },
+      {
+        "tag": "Haushalt",
+        "titel": "Haushalt 2027: Neuverschuldung steigt auf 210 Mrd. Euro",
+        "warum": "Zweithöchster Wert der Geschichte; der Bundestag stimmt diese Woche endgültig ab, Kernhaushalt 560,9 Mrd. Euro.",
+        "quelle": "Börsen-Zeitung",
+        "url": "https://www.boersen-zeitung.de/konjunktur-politik/neuverschuldung-steigt-auf-210-mrd-euro",
+        "zeit": "13.11., 11:02",
+        "medien": [
+          "Reuters",
+          "ZDFheute"
+        ]
       }
     ],
     "verschuldung": [
@@ -163,7 +202,7 @@
     ],
     "renditen_stand": "Stand 24.11. (Italien 23.11.), Quelle: Trading Economics",
     "watchlist": {
-      "stand": "Stand 24.11., 14:09 Uhr",
+      "stand": "Stand 24.11., 15:12 Uhr",
       "maerkte": [
         {
           "markt": "USA",
@@ -172,7 +211,7 @@
             {
               "name": "Nvidia",
               "symbol": "NASDAQ:NVDA",
-              "grund": "Nach +31 % am Montag (Huang wieder CEO) vorbörslich knapp −5 %; größtes Indexgewicht."
+              "grund": "Nach +31 % am Montag (Huang wieder CEO) vorbörslich rund −5 %; größtes Indexgewicht."
             },
             {
               "name": "Dell",
@@ -255,7 +294,7 @@
             {
               "name": "Alibaba",
               "symbol": "NYSE:BABA",
-              "grund": "USA setzen Singapur-Tochter Apex auf die Exportsperrliste; Alibaba will rechtlich vorgehen."
+              "grund": "Wehrt sich gegen neue US-Strafmaßnahmen, Aktie gibt nach; Washington verschärft die Chip-Exportkontrollen."
             }
           ]
         }
@@ -266,91 +305,164 @@
     "welt": [
       {
         "titel": "Trump droht Iran mit neuen Angriffen nach Neujahr",
-        "warum": "Ohne langfristiges Abkommen zu Atomprogramm und Feindseligkeiten will Trump wieder angreifen; Irans Armeechef hält die Straße von Hormus weiter geschlossen.",
-        "quelle": "Everything Briefing (Fox News)",
-        "url": "https://everythingbriefing.substack.com/p/todays-news-history-and-thanksgiving"
+        "warum": "Ohne langfristiges Abkommen will Trump wieder angreifen lassen; Teheran kündigt an, mit allen Mitteln gegen die seit Juli wieder verhängte US-Seeblockade vorzugehen.",
+        "quelle": "Fox News",
+        "url": "https://www.foxnews.com/politics/trump-warns-new-strikes-against-iran-after-new-year-calls-negotiators-professional-tap-dancers",
+        "zeit": "22.11., 18:52",
+        "medien": [
+          "Fox News",
+          "Reuters"
+        ]
       },
       {
-        "titel": "Katar vermittelt zwischen Iran und USA",
-        "warum": "Katars Premier traf Vizepräsident Vance und Außenminister Rubio, um Gespräche wiederzubeleben.",
-        "quelle": "Newsquawk",
-        "url": "https://www.newsquawk.com/headlines/newsquawk-daily-us-opening-news---24th-november-2026"
+        "titel": "Vance und Rubio empfangen Katars Premier im Weißen Haus",
+        "warum": "Katar vermittelt weiter zwischen Washington und Teheran; ein Durchbruch ist nicht in Sicht.",
+        "quelle": "AP",
+        "url": "https://apnews.com/article/vance-rubio-qatar-iran-war-16e0c2cb05347cfcac068ec4aebb363f",
+        "zeit": "23.11.",
+        "medien": [
+          "AP"
+        ]
+      },
+      {
+        "titel": "Moskau wirft Estland Handlungen „am Rande eines offenen Krieges“ vor",
+        "warum": "Estland schließt nach einem mutmaßlichen GRU-Sabotageplan gegen einen Drohnenhersteller seine Grenzübergänge; Russland spricht vom „neuen Eisernen Vorhang“.",
+        "quelle": "Reuters",
+        "url": "https://www.reuters.com/world/moscow-accuses-estonia-hostile-actions-verge-triggering-open-war-2026-11-23/",
+        "zeit": "23.11.",
+        "medien": [
+          "Reuters",
+          "NBC News",
+          "Al Jazeera"
+        ]
       },
       {
         "titel": "EU legt 22. Sanktionspaket gegen Russland vor",
-        "warum": "Von der Leyen kündigte das Paket an; Selenskyj warnt vor neuen russischen Großangriffen.",
-        "quelle": "Everything Briefing",
-        "url": "https://everythingbriefing.substack.com/p/todays-news-history-and-thanksgiving"
+        "warum": "Von der Leyen stellte das Paket vor; Selenskyj warnt zugleich vor neuen russischen Großangriffen, in Saporischschja starben in der Nacht zwei Menschen.",
+        "quelle": "Reuters",
+        "url": "https://www.reuters.com/world/russian-attack-kills-2-people-wounds-22-ukraines-zaporizhzhia-official-says-2026-11-24/",
+        "zeit": "24.11.",
+        "medien": [
+          "Reuters",
+          "Euronews"
+        ]
       },
       {
-        "titel": "Estland will Grenze zu Russland schließen",
-        "warum": "Moskau wirft Tallinn feindselige Handlungen vor – neue Eskalationsstufe an der NATO-Ostflanke.",
-        "quelle": "Everything Briefing (Reuters/NBC)",
-        "url": "https://everythingbriefing.substack.com/p/todays-news-history-and-thanksgiving"
-      },
-      {
-        "titel": "USA verzögern laut FT rund 60 Patriot-Abfangraketen für die Ukraine",
-        "warum": "Lücke in der Luftverteidigung, während Russland neue Angriffe vorbereitet.",
-        "quelle": "Newsquawk (Financial Times)",
-        "url": "https://www.newsquawk.com/headlines/newsquawk-daily-us-opening-news---24th-november-2026"
+        "titel": "Analyse: über 700.000 russische Soldaten in der Ukraine getötet",
+        "warum": "Die Verluste übersteigen alle bisherigen Schätzungen; Lettlands Präsident sieht 2027 einen möglichen Kipppunkt des Krieges.",
+        "quelle": "New York Times",
+        "url": "https://www.nytimes.com/2026/11/23/world/europe/russia-ukraine-war-deaths.html",
+        "zeit": "23.11.",
+        "medien": [
+          "New York Times",
+          "Reuters"
+        ]
       }
     ],
     "usa": [
       {
-        "titel": "Huang-Comeback bei Nvidia: Trump schaltete sich ein, Kongress empört",
-        "warum": "Trump unterstützte die Wiedereinsetzung und war bei der Vorstandssitzung zugeschaltet; Demokraten kündigen Untersuchungen und schärfere Exportkontrollen an.",
-        "quelle": "Everything Briefing (Axios/AP)",
-        "url": "https://everythingbriefing.substack.com/p/todays-news-history-and-thanksgiving"
+        "titel": "Huang-Comeback bei Nvidia: Trump und Vance machten Druck, Republikaner gehen auf Distanz",
+        "warum": "Trump war bei der Vorstandssitzung zugeschaltet; parteiübergreifend wächst der Widerstand, Schumer und mehrere Republikaner warnen vor Sicherheitsrisiken.",
+        "quelle": "Axios",
+        "url": "https://www.axios.com/2026/11/23/jensen-huang-nvidia-congress-dc-reaction",
+        "zeit": "23.11.",
+        "medien": [
+          "Axios",
+          "New York Times",
+          "Politico",
+          "AP",
+          "CNBC"
+        ]
       },
       {
         "titel": "Berufungsgericht öffnet Trump Weg zur Tilgung der Schweigegeld-Verurteilung",
-        "warum": "Wichtige juristische Wende im New Yorker Strafverfahren.",
-        "quelle": "Everything Briefing (AP)",
-        "url": "https://everythingbriefing.substack.com/p/todays-news-history-and-thanksgiving"
+        "warum": "Das Bundesberufungsgericht ermöglicht die Verlagerung des Falls an ein Bundesgericht, wo Trump sich auf Immunität berufen kann.",
+        "quelle": "New York Times",
+        "url": "https://www.nytimes.com/2026/11/23/nyregion/trump-conviction-appeal-federal-court.html",
+        "zeit": "23.11.",
+        "medien": [
+          "New York Times",
+          "AP"
+        ]
       },
       {
-        "titel": "Bundesstaaten verklagen Wohnungsministerium HUD",
-        "warum": "Streit um Trumps Regel, Familien mit gemischtem Aufenthaltsstatus die Wohnhilfe zu streichen; auch New York City klagt.",
-        "quelle": "Everything Briefing (AP)",
-        "url": "https://everythingbriefing.substack.com/p/todays-news-history-and-thanksgiving"
+        "titel": "Durchsuchungsakten zu Ilhan Omar entsiegelt",
+        "warum": "Die Ermittlungen gegen die demokratische Abgeordnete reichen bis 1980 zurück und umfassen große Teile ihres Lebens.",
+        "quelle": "Politico",
+        "url": "https://www.politico.com/news/2026/11/24/ilhan-omar-search-warrant-records",
+        "zeit": "24.11.",
+        "medien": [
+          "Politico",
+          "Wall Street Journal",
+          "The Hill"
+        ]
       },
       {
-        "titel": "Demokraten planen 12 Vorwahl-Debatten für 2028 ab Juni 2027",
-        "warum": "Teilnehmer müssen sich von Dark Money distanzieren; der Wahlkampf um Trumps Nachfolge nimmt Form an.",
-        "quelle": "Everything Briefing (DNC)",
-        "url": "https://everythingbriefing.substack.com/p/todays-news-history-and-thanksgiving"
+        "titel": "Republikaner erwägen Deal: Geld fürs Militär, Grenzen für den Iran-Krieg",
+        "warum": "Nach den verlorenen Midterms wächst in der eigenen Partei der Druck, Trumps Iran-Einsatz zu begrenzen.",
+        "quelle": "CNN",
+        "url": "https://www.cnn.com/2026/11/23/politics/republicans-deal-iran-war",
+        "zeit": "23.11.",
+        "medien": [
+          "CNN"
+        ]
       },
       {
         "titel": "Abgeordneter Gomez tritt nach Ethikbericht zurück",
-        "warum": "Der kalifornische Demokrat zieht Konsequenzen aus Vorwürfen sexuellen Fehlverhaltens.",
-        "quelle": "Everything Briefing (NPR)",
-        "url": "https://everythingbriefing.substack.com/p/todays-news-history-and-thanksgiving"
+        "warum": "Der kalifornische Demokrat zieht Konsequenzen aus einem Bericht über sexuelles Fehlverhalten.",
+        "quelle": "NPR",
+        "url": "https://www.npr.org/2026/11/23/g-s1-155142/california-democrat-rep-gomez-resigns-following-ethics-report-on-sexual-misconduct-allegations",
+        "zeit": "23.11.",
+        "medien": [
+          "NPR",
+          "New York Times"
+        ]
       }
     ],
     "deutschland": [
       {
-        "titel": "Haushaltswoche im Bundestag: Etat 2027 soll Freitag beschlossen werden",
-        "warum": "Finanzminister Klingbeil eröffnet die abschließenden Beratungen.",
-        "quelle": "news.de (dpa)",
-        "url": "https://www.news.de/panorama/860214085/24-november-2026-news-themen-des-tages-was-passiert-heute-in-deutschland-und-der-welt-das-ist-heute-am-24-11-2026-wichtig-in-den-nachrichten-aus-politik-wirtschaft-sport-und-co/1/"
+        "titel": "Bundestag beschließt diese Woche den Haushalt 2027",
+        "warum": "Kernhaushalt 560,9 Mrd. Euro, rund 123 Mrd. Euro neue Kernschulden; offen ist, ob die Koalition eine allgemeine Stromsteuersenkung finanzieren kann.",
+        "quelle": "ZDFheute",
+        "url": "https://www.zdfheute.de/politik/deutschland/haushalt-haushaltsausschuss-bundestag-union-spd-100.html",
+        "zeit": "13.11., 10:04",
+        "medien": [
+          "ZDFheute",
+          "Reuters"
+        ]
       },
       {
         "titel": "Merz: Verzicht auf NATO-Beitritt der Ukraine 2008 war schwerer Fehler",
-        "warum": "Bei einem Auftritt mit NATO-Generalsekretär Rutte; der betont, ein Beitritt bleibe eine ferne Perspektive.",
+        "warum": "Mit einem Beitritt wäre Russlands Großangriff wohl verhindert worden, so der Kanzler; Rutte nennt eine Mitgliedschaft eine ferne Perspektive.",
         "quelle": "Euronews",
-        "url": "https://de.euronews.com/2026/11/24/merz-verzicht-auf-nato-beitritt-der-ukraine-2008-war-schwerer-fehler"
+        "url": "https://de.euronews.com/2026/11/24/merz-verzicht-auf-nato-beitritt-der-ukraine-2008-war-schwerer-fehler",
+        "zeit": "24.11., 06:38",
+        "medien": [
+          "Euronews",
+          "dpa"
+        ]
       },
       {
-        "titel": "Dobrindt, Prien und Hubig stellen Lagebild Gewalt gegen Frauen vor",
-        "warum": "Im Vorjahr wurden 308 Frauen und Mädchen getötet, 191 davon durch Partner, Ex-Partner oder Angehörige.",
-        "quelle": "news.de (dpa)",
-        "url": "https://www.news.de/panorama/860214085/24-november-2026-news-themen-des-tages-was-passiert-heute-in-deutschland-und-der-welt-das-ist-heute-am-24-11-2026-wichtig-in-den-nachrichten-aus-politik-wirtschaft-sport-und-co/1/"
+        "titel": "Berliner Linke stimmt über Ausschluss von Vanessa Emde ab",
+        "warum": "Die Fraktionsspitze beantragt den Rauswurf der Neuköllner Abgeordneten; nötig ist eine Zweidrittelmehrheit, der Streit belastet die rot-grün-roten Koalitionsverhandlungen.",
+        "quelle": "Stuttgarter Zeitung",
+        "url": "https://www.stuttgarter-zeitung.de/politik/regierungsbildung-in-berlin-berliner-linke-fraktionsspitze-beantragt-ausschluss-emdes-79714088.html",
+        "zeit": "17.11., 17:21",
+        "medien": [
+          "Stuttgarter Zeitung",
+          "dpa"
+        ]
       },
       {
-        "titel": "Berliner Linke stimmt über Ausschluss der Abgeordneten Vanessa Emde ab",
-        "warum": "Für den Ausschluss ist eine Zweidrittelmehrheit der Fraktion nötig.",
-        "quelle": "news.de (dpa)",
-        "url": "https://www.news.de/panorama/860214085/24-november-2026-news-themen-des-tages-was-passiert-heute-in-deutschland-und-der-welt-das-ist-heute-am-24-11-2026-wichtig-in-den-nachrichten-aus-politik-wirtschaft-sport-und-co/1/"
+        "titel": "Ifo-Index auf höchstem Stand seit Frühjahr 2023",
+        "warum": "Siebtes Plus in Folge: Dienstleister und Handel schöpfen Hoffnung, die Industrie bleibt skeptisch.",
+        "quelle": "Handelsblatt",
+        "url": "https://www.handelsblatt.com/politik/deutschland/konjunktur-ifo-geschaeftsklima-steigt-auf-hoechststand-seit-fruehjahr-2023/100272331.html",
+        "zeit": "24.11., 11:22",
+        "medien": [
+          "Handelsblatt",
+          "dpa"
+        ]
       }
     ],
     "termine": [
@@ -401,21 +513,33 @@
         "titel": "Wahlprüfungsbeschwerde des BSW gegen die Bundestagswahl 2025 unzulässig",
         "warum": "Karlsruhe sah keinen konkreten, mandatsrelevanten Wahlfehler dargelegt; Nachzählungsstatistiken und Auffälligkeiten reichten nicht (2 BvC 4/26).",
         "quelle": "LTO",
-        "url": "https://www.lto.de/recht/presseschau/p/2026-11-19-bverfg-bsw-wahlpruefung-kindschaftsrecht-gewalt-dazn-preiserhoehung"
+        "url": "https://www.lto.de/recht/presseschau/p/2026-11-19-bverfg-bsw-wahlpruefung-kindschaftsrecht-gewalt-dazn-preiserhoehung",
+        "zeit": "19.11.",
+        "medien": [
+          "LTO"
+        ]
       },
       {
         "tag": "Gesetzgebung",
         "titel": "Kabinett beschließt Reform des Kindschaftsrechts",
         "warum": "Häusliche Gewalt wird erstmals im BGB definiert, Umgang gewalttätiger Eltern kann ausgeschlossen werden; automatisches gemeinsames Sorgerecht für Unverheiratete gestrichen.",
         "quelle": "LTO",
-        "url": "https://www.lto.de/recht/presseschau/p/2026-11-19-bverfg-bsw-wahlpruefung-kindschaftsrecht-gewalt-dazn-preiserhoehung"
+        "url": "https://www.lto.de/recht/presseschau/p/2026-11-19-bverfg-bsw-wahlpruefung-kindschaftsrecht-gewalt-dazn-preiserhoehung",
+        "zeit": "19.11.",
+        "medien": [
+          "LTO"
+        ]
       },
       {
         "tag": "OLG Hamm",
         "titel": "DAZN-Preiserhöhungsklausel unwirksam",
         "warum": "Erstes Abhilfegrundurteil nach dem neuen Verbandsklagegesetz: Preiserhöhungen von 11,99 auf 29,99 Euro unwirksam, rund 9.000 Kunden betroffen.",
         "quelle": "LTO",
-        "url": "https://www.lto.de/recht/presseschau/p/2026-11-19-bverfg-bsw-wahlpruefung-kindschaftsrecht-gewalt-dazn-preiserhoehung"
+        "url": "https://www.lto.de/recht/presseschau/p/2026-11-19-bverfg-bsw-wahlpruefung-kindschaftsrecht-gewalt-dazn-preiserhoehung",
+        "zeit": "19.11.",
+        "medien": [
+          "LTO"
+        ]
       }
     ],
     "parlamente": {
@@ -2328,6 +2452,762 @@
       "frage": "Wann sind regelmäßig wiederkehrende Ausgaben abzuziehen, die kurz vor oder nach dem Jahreswechsel gezahlt werden?",
       "antwort": "Grundsätzlich gilt das Abflussprinzip: Abzug im Jahr der Zahlung. Regelmäßig wiederkehrende Ausgaben, die innerhalb kurzer Zeit (nach der Rechtsprechung bis zu 10 Tage) vor Beginn oder nach Ende des Kalenderjahres gezahlt werden, gelten jedoch als in dem Jahr abgeflossen, zu dem sie wirtschaftlich gehören.",
       "norm": "§ 11 Abs. 2 Satz 1 und 2 i. V. m. Abs. 1 Satz 2 EStG"
+    }
+  },
+  "mehr": {
+    "schlagzeilen": {
+      "lage": "Der Markt schwankt zwischen KI-Euphorie und Zinssorgen: Nvidias Huang-Comeback treibt die Bewertungen, zugleich gilt eine Fed-Zinserhöhung im Dezember als sicher. Entscheidend ist, ob die Inflation über Energie und Zölle hartnäckig bleibt.",
+      "meldungen": [
+        {
+          "tag": "Handel",
+          "titel": "Trump erwartet weitere 250 Boeing-Bestellungen aus China",
+          "warum": "Signal der Entspannung im Handelsstreit, wichtig für Boeing und US-Exporte.",
+          "quelle": "Reuters",
+          "url": "https://www.reuters.com/business/aerospace-defense/trump-thinks-china-will-buy-another-250-boeing-airplanes-2026-11-23/",
+          "zeit": "23.11.",
+          "medien": [
+            "Reuters"
+          ]
+        },
+        {
+          "tag": "Konjunktur",
+          "titel": "Mexikos Wirtschaft wächst im 3. Quartal um 3,3 %",
+          "warum": "Bestes Jahreswachstum seit 2023 laut INEGI, trotz US-Zöllen.",
+          "quelle": "Mexico News Daily",
+          "url": "https://www.mexiconewsdaily.com/news/q3-growth-up-3-3-percent-over-2025/",
+          "zeit": "23.11., 23:57",
+          "medien": [
+            "Mexico News Daily"
+          ]
+        },
+        {
+          "tag": "Schwellenländer",
+          "titel": "Brasiliens Analysten heben Zins- und Inflationsprognosen für 2027 erneut an",
+          "warum": "Schwellenländer spüren den Druck hoher US-Zinsen.",
+          "quelle": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-23/brazil-analysts-lift-2027-key-rate-and-inflation-forecasts-again",
+          "zeit": "23.11.",
+          "medien": [
+            "Bloomberg"
+          ]
+        },
+        {
+          "tag": "Handel",
+          "titel": "Chinesische Hersteller setzen stärker auf Afrika",
+          "warum": "Verlagerung von Produktion und Absatz als Antwort auf westliche Handelsbarrieren.",
+          "quelle": "Semafor",
+          "url": "https://www.semafor.com/article/11/23/2026/chinese-manufacturers-are-making-bigger-bets-on-africa",
+          "zeit": "23.11.",
+          "medien": [
+            "Semafor"
+          ]
+        },
+        {
+          "tag": "Unternehmen",
+          "titel": "Dell muss zeigen, dass der KI-Auftragsbestand von 95 Mrd. Dollar zu Umsatz wird",
+          "warum": "Zahlen heute Abend: Erwartet werden 6,63 $ Gewinn je Aktie bei 50,6 Mrd. $ Umsatz; Speicherkosten drücken die Marge.",
+          "quelle": "Earnings Whispers (Finviz)",
+          "url": "https://finviz.com/news/423394/dell-must-prove-its-95-billion-ai-backlog-can-convert-despite-memory-constraints",
+          "zeit": "16.11.",
+          "medien": [
+            "Earnings Whispers"
+          ]
+        }
+      ]
+    },
+    "watch": {
+      "lage": "Nvidia bleibt der Taktgeber: Nach der Rekordrally auf Huangs Rückkehr wächst in Washington der politische Gegenwind. Heute Abend liefern Dell, HP und Workday Hinweise auf die KI-Nachfrage.",
+      "meldungen": [
+        {
+          "titel": "Nvidia-Aktie springt nach Huangs Rückkehr als CEO",
+          "warum": "Der Vorstand setzte Huang knapp zwei Wochen nach seinem Rücktritt wieder ein; der Börsenwert stieg an einem Tag um rund eine Billion Dollar.",
+          "quelle": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
+          "zeit": "23.11.",
+          "medien": [
+            "CNBC",
+            "AP"
+          ]
+        },
+        {
+          "titel": "Republikaner brechen beim Thema Huang mit Trump",
+          "warum": "Sicherheitspolitiker sehen Risiken wegen Huangs Kontakt zu einer mutmaßlichen chinesischen Agentin.",
+          "quelle": "New York Times",
+          "url": "https://www.nytimes.com/2026/11/23/technology/republicans-trump-jensen-huang-nvidia.html",
+          "zeit": "23.11.",
+          "medien": [
+            "New York Times",
+            "Axios"
+          ]
+        },
+        {
+          "titel": "Vance spielte laut Vertrauten zentrale Rolle bei Huangs Rückkehr",
+          "warum": "Das Weiße Haus mischt sich ungewöhnlich direkt in die Führung des wertvollsten Konzerns ein.",
+          "quelle": "Politico",
+          "url": "https://www.politico.com/news/2026/11/23/white-house-allies-credit-vance-not-just-trump-for-huangs-return-01180872",
+          "zeit": "23.11.",
+          "medien": [
+            "Politico",
+            "Axios"
+          ]
+        },
+        {
+          "titel": "Schumer kritisiert Trumps Rolle bei Nvidia",
+          "warum": "Demokraten kündigen Untersuchungen und schärfere Exportkontrollen an.",
+          "quelle": "Axios",
+          "url": "https://www.axios.com/2026/11/23/schumer-trump-nvidia-huang-reinstated",
+          "zeit": "23.11.",
+          "medien": [
+            "Axios",
+            "Politico"
+          ]
+        },
+        {
+          "titel": "Dell: Quartalszahlen als KI-Test",
+          "warum": "Rekord-Auftragsbestand von 95 Mrd. Dollar, aber die Aktie liegt rund 25 % unter dem Hoch.",
+          "quelle": "Earnings Whispers (Finviz)",
+          "url": "https://finviz.com/news/423394/dell-must-prove-its-95-billion-ai-backlog-can-convert-despite-memory-constraints",
+          "zeit": "16.11.",
+          "medien": [
+            "Earnings Whispers"
+          ]
+        }
+      ]
+    },
+    "devisen": {
+      "lage": "Der Dollar profitiert von der sicher eingepreisten Fed-Zinserhöhung: Der Euro notiert nahe einem 18-Monats-Tief um 1,09 Dollar, der Yen nahe 160 je Dollar. Tokio droht erneut mit Interventionen.",
+      "meldungen": [
+        {
+          "titel": "Euro unter Druck, weil Wetten auf Fed-Zinserhöhung den Dollar stärken",
+          "warum": "Zinsdifferenz zugunsten des Dollar weitet sich aus.",
+          "quelle": "FXStreet",
+          "url": "https://www.fxstreet.com/news/euro-faces-pressure-as-fed-rate-hike-bets-strengthen-us-dollar-202611200114",
+          "zeit": "20.11.",
+          "medien": [
+            "FXStreet"
+          ]
+        },
+        {
+          "titel": "EUR/USD: Käufer verteidigen die Marke von 1,0950",
+          "warum": "Technische Unterstützung vor dem Rutsch auf 1,09.",
+          "quelle": "FXStreet",
+          "url": "https://www.fxstreet.com/news/eur-usd-price-forecast-bulls-continue-to-defend-10950-202611230623",
+          "zeit": "23.11.",
+          "medien": [
+            "FXStreet"
+          ]
+        },
+        {
+          "titel": "Japans Währungshüter Mimura warnt vor Interventionsrisiken",
+          "warum": "Der Dollar stieg auf 159,94 Yen; im Sommer hatte Tokio bereits Yen gekauft.",
+          "quelle": "New Straits Times (Reuters)",
+          "url": "https://www.nst.com.my/amp/business/economy/2026/11/1575983/japans-mimura-says-markets-shouldnt-forget-intervention-risks-yen",
+          "zeit": "12.11.",
+          "medien": [
+            "Reuters"
+          ]
+        },
+        {
+          "titel": "Takaichi warnt vor Spekulation gegen den Yen",
+          "warum": "Premierministerin droht mit Eingriffen am Devisenmarkt.",
+          "quelle": "TMGM",
+          "url": "https://www.tmgm.com/en-in/analysis/market-news/article/japanese-yen-ticks-up-from-16000-as-pm-takaichi-warns-of-intervention-202611130736",
+          "zeit": "13.11.",
+          "medien": [
+            "TMGM"
+          ]
+        },
+        {
+          "titel": "Fed-Zinserhöhung im Dezember voll eingepreist",
+          "warum": "CME FedWatch zeigt sicheren 25-Basispunkte-Schritt, kleine Chance auf 50.",
+          "quelle": "Reuters (Business Recorder)",
+          "url": "https://www.brecorder.com/news/40450476/dollar-climbs-as-renewed-ai-euphoria-fuels-fed-hike-bets",
+          "zeit": "24.11., 03:58",
+          "medien": [
+            "Reuters"
+          ]
+        }
+      ]
+    },
+    "rohstoffe": {
+      "lage": "Öl fällt trotz geschlossener Straße von Hormus, weil das Angebot anderswo steigt; Brent liegt auf Drei-Monats-Tief. Gold leidet unter den Zinserhöhungserwartungen und notiert nahe einem Jahrestief.",
+      "meldungen": [
+        {
+          "titel": "Brent auf Drei-Monats-Tief bei 88,62 Dollar",
+          "warum": "Deutsche Bank schätzt das Überangebot im Oktober auf 1,7 Mio. Barrel pro Tag.",
+          "quelle": "Reuters (Business Recorder)",
+          "url": "https://www.brecorder.com/news/40450477/oil-touches-three-month-lows-as-rising-supply-offsets-hormuz-threat",
+          "zeit": "24.11., 04:04",
+          "medien": [
+            "Reuters",
+            "Wall Street Journal"
+          ]
+        },
+        {
+          "titel": "Gefälschter iranischer Tanker zeigt Unsicherheit in Hormus",
+          "warum": "Schiffsverkehr in der Meerenge bleibt schwer zu überblicken.",
+          "quelle": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-23/fake-iran-tanker-highlights-uncertainty-around-hormuz-traffic",
+          "zeit": "23.11.",
+          "medien": [
+            "Bloomberg"
+          ]
+        },
+        {
+          "titel": "Iran will mit allen Mitteln gegen US-Seeblockade vorgehen",
+          "warum": "Risiko für Öltransporte bleibt trotz fallender Preise.",
+          "quelle": "Reuters",
+          "url": "https://www.reuters.com/world/middle-east/iran-says-it-will-use-all-available-tools-confront-us-naval-blockade-2026-11-23/",
+          "zeit": "23.11.",
+          "medien": [
+            "Reuters"
+          ]
+        },
+        {
+          "titel": "Gold erholt sich leicht von Jahrestief, Fed-Ausblick bremst",
+          "warum": "Spotpreis um 3.870 Dollar je Unze; Zinserhöhungen belasten das zinslose Metall.",
+          "quelle": "Khaleej Times (Reuters)",
+          "url": "https://www.khaleejtimes.com/gold-inches-up-from-over-one-year-low-fed-outlook-caps-gains",
+          "zeit": "17.11.",
+          "medien": [
+            "Reuters"
+          ]
+        },
+        {
+          "titel": "Minenwerte brechen in Europa ein",
+          "warum": "Anglo American und Antofagasta verlieren über 5 % bei fallenden Metallpreisen.",
+          "quelle": "Reuters",
+          "url": "https://www.investing.com/news/stock-market-news/europes-stoxx-600-subdued-after-aidriven-rally-5047331",
+          "zeit": "24.11.",
+          "medien": [
+            "Reuters"
+          ]
+        }
+      ]
+    },
+    "anleihen": {
+      "lage": "Die Renditen bleiben hoch: US-Zehnjährige nahe 4,9 %, Bund bei rund 3,3 %. Der Markt rechnet mit weiteren Fed-Erhöhungen; Deutschland finanziert 2027 eine Rekord-Neuverschuldung nahe 210 Mrd. Euro.",
+      "meldungen": [
+        {
+          "titel": "Die nächsten Schritte der Fed werden klarer",
+          "warum": "New-York-Fed-Chef Williams signalisiert weitere Zinserhöhungen.",
+          "quelle": "Axios",
+          "url": "https://axios.com/2026/11/18/interest-rates-new-york-fed",
+          "zeit": "18.11.",
+          "medien": [
+            "Axios"
+          ]
+        },
+        {
+          "titel": "Rendite der 10-jährigen US-Anleihe fällt auf 5,051 %",
+          "warum": "Die Fünf-Prozent-Marke bleibt umkämpft.",
+          "quelle": "Dow Jones (Morningstar)",
+          "url": "https://www.morningstar.com/news/dow-jones/202611198503/10-year-treasury-yield-falls-to-5051-data-talk",
+          "zeit": "19.11.",
+          "medien": [
+            "Wall Street Journal"
+          ]
+        },
+        {
+          "titel": "Neuverschuldung im Bund steigt auf 210 Mrd. Euro",
+          "warum": "Zweithöchster Wert der Geschichte, mehr Angebot an Bundesanleihen.",
+          "quelle": "Börsen-Zeitung",
+          "url": "https://www.boersen-zeitung.de/konjunktur-politik/neuverschuldung-steigt-auf-210-mrd-euro",
+          "zeit": "13.11., 11:02",
+          "medien": [
+            "Reuters",
+            "ZDFheute"
+          ]
+        },
+        {
+          "titel": "Brasilien: Prognosen für Leitzins und Inflation 2027 steigen",
+          "warum": "Hohe US-Zinsen setzen Schwellenländer unter Druck.",
+          "quelle": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-23/brazil-analysts-lift-2027-key-rate-and-inflation-forecasts-again",
+          "zeit": "23.11.",
+          "medien": [
+            "Bloomberg"
+          ]
+        },
+        {
+          "titel": "Fed-Zinserhöhung im Dezember gilt als sicher",
+          "warum": "Dollar steigt, Euro nahe 18-Monats-Tief.",
+          "quelle": "Reuters (Business Recorder)",
+          "url": "https://www.brecorder.com/news/40450476/dollar-climbs-as-renewed-ai-euphoria-fuels-fed-hike-bets",
+          "zeit": "24.11., 03:58",
+          "medien": [
+            "Reuters"
+          ]
+        }
+      ]
+    },
+    "indizes": {
+      "lage": "Nach dem Rekordtag am Montag geben Chipwerte nach; der DAX verliert nach dem Ifo-Plus rund 1 %. S&P 500 und Dow waren vergangene Woche in eine technische Korrektur gerutscht, Asiens Börsen feierten die Nvidia-Wende.",
+      "meldungen": [
+        {
+          "titel": "Chip- und KI-Aktien geben nach Rekordrally nach",
+          "warum": "Nvidia vorbörslich rund −5 %.",
+          "quelle": "Seeking Alpha",
+          "url": "https://seekingalpha.com/news/4676053-chip-ai-stocks-retreat-after-record-breaking-rally-on-huangs-return",
+          "zeit": "24.11., 14:19",
+          "medien": [
+            "CNBC",
+            "Reuters"
+          ]
+        },
+        {
+          "titel": "Europas Börsen pausieren nach KI-Rally",
+          "warum": "Stoxx 600 bei rund 636 Punkten; Tech-Sektor hatte am Montag über 4 % gewonnen.",
+          "quelle": "Reuters",
+          "url": "https://www.investing.com/news/stock-market-news/europes-stoxx-600-subdued-after-aidriven-rally-5047331",
+          "zeit": "24.11.",
+          "medien": [
+            "Reuters"
+          ]
+        },
+        {
+          "titel": "Nvidia-Aktie springt nach Huangs Rückkehr",
+          "warum": "Treiber der globalen Tech-Rally vom Montag.",
+          "quelle": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
+          "zeit": "23.11.",
+          "medien": [
+            "CNBC",
+            "AP"
+          ]
+        },
+        {
+          "titel": "Wall Street stürzt wegen KI-Sorgen ab",
+          "warum": "Der Einbruch vom 16.11. leitete die Korrektur ein.",
+          "quelle": "AP (Star-Advertiser)",
+          "url": "https://www.staradvertiser.com/2026/11/16/breaking-news/wall-street-tumbles-as-ai-jitters-hit-tech-stocks/",
+          "zeit": "16.11.",
+          "medien": [
+            "AP"
+          ]
+        },
+        {
+          "titel": "Warum Bitcoin fällt",
+          "warum": "Kryptowährungen leiden unter steigenden Zinserwartungen.",
+          "quelle": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/11/13/why-bitcoin-is-falling-today/",
+          "zeit": "13.11.",
+          "medien": [
+            "Motley Fool"
+          ]
+        }
+      ]
+    },
+    "verschuldung": {
+      "lage": "Deutschland steuert 2027 auf die zweithöchste Neuverschuldung seiner Geschichte zu; die Schlussabstimmung im Bundestag ist am Freitag. In den USA treiben hohe Zinsen die Finanzierungskosten, Japan kämpft mit Yen-Schwäche und hohen Anleiherenditen.",
+      "meldungen": [
+        {
+          "titel": "Haushaltsausschuss billigt Etat 2027",
+          "warum": "Kernhaushalt 560,9 Mrd. Euro, rund 123 Mrd. Euro neue Kernschulden.",
+          "quelle": "ZDFheute",
+          "url": "https://www.zdfheute.de/politik/deutschland/haushalt-haushaltsausschuss-bundestag-union-spd-100.html",
+          "zeit": "13.11., 10:04",
+          "medien": [
+            "ZDFheute",
+            "Reuters"
+          ]
+        },
+        {
+          "titel": "Neuverschuldung steigt auf 210 Mrd. Euro",
+          "warum": "Mit Sondervermögen knapp unter dem Rekord von 2021.",
+          "quelle": "Börsen-Zeitung",
+          "url": "https://www.boersen-zeitung.de/konjunktur-politik/neuverschuldung-steigt-auf-210-mrd-euro",
+          "zeit": "13.11., 11:02",
+          "medien": [
+            "Reuters",
+            "ZDFheute"
+          ]
+        },
+        {
+          "titel": "Klingbeil: Gerechtigkeit muss Maßstab für Reformen sein",
+          "warum": "Der Finanzminister warnte zum Auftakt der Etatberatungen vor Sozialabbau.",
+          "quelle": "ZDFheute",
+          "url": "https://www.zdfheute.de/politik/deutschland/haushalt-2027-bundestag-beratungen-klingbeil-100.html",
+          "zeit": "08.09., 12:07",
+          "medien": [
+            "ZDFheute",
+            "Reuters"
+          ]
+        },
+        {
+          "titel": "Republikaner erwägen Deal: Militärfinanzierung gegen Grenzen im Iran-Krieg",
+          "warum": "Haushaltsstreit im Kongress verknüpft sich mit der Kriegsfrage.",
+          "quelle": "CNN",
+          "url": "https://www.cnn.com/2026/11/23/politics/republicans-deal-iran-war",
+          "zeit": "23.11.",
+          "medien": [
+            "CNN"
+          ]
+        },
+        {
+          "titel": "US-Zehnjährige um 5 %",
+          "warum": "Hohe Renditen verteuern die Refinanzierung der US-Schulden.",
+          "quelle": "Dow Jones (Morningstar)",
+          "url": "https://www.morningstar.com/news/dow-jones/202611198503/10-year-treasury-yield-falls-to-5051-data-talk",
+          "zeit": "19.11.",
+          "medien": [
+            "Wall Street Journal"
+          ]
+        }
+      ]
+    },
+    "unternehmen": {
+      "lage": "Die Woche vor Thanksgiving bringt Zahlen von Dell, HP, Workday und Autodesk (heute) sowie Deere (Mittwoch). Daneben bestimmen Großdeals wie Sanofi/Insmed und Huangs Rückkehr zu Nvidia das Bild.",
+      "meldungen": [
+        {
+          "titel": "Sanofi gewinnt nach Insmed-Kauf rund 5,6 %",
+          "warum": "Der 41-Mrd.-Dollar-Deal stützt den Pharmasektor in Europa.",
+          "quelle": "Reuters",
+          "url": "https://www.investing.com/news/stock-market-news/europes-stoxx-600-subdued-after-aidriven-rally-5047331",
+          "zeit": "24.11.",
+          "medien": [
+            "Reuters",
+            "Bloomberg"
+          ]
+        },
+        {
+          "titel": "Dell: KI-Backlog muss sich in Cash verwandeln",
+          "warum": "Zahlen heute nachbörslich.",
+          "quelle": "Earnings Whispers (Finviz)",
+          "url": "https://finviz.com/news/423394/dell-must-prove-its-95-billion-ai-backlog-can-convert-despite-memory-constraints",
+          "zeit": "16.11.",
+          "medien": [
+            "Earnings Whispers"
+          ]
+        },
+        {
+          "titel": "Trump: China kauft weitere 250 Boeing-Flugzeuge",
+          "warum": "Möglicher Großauftrag für den US-Flugzeugbauer.",
+          "quelle": "Reuters",
+          "url": "https://www.reuters.com/business/aerospace-defense/trump-thinks-china-will-buy-another-250-boeing-airplanes-2026-11-23/",
+          "zeit": "23.11.",
+          "medien": [
+            "Reuters"
+          ]
+        },
+        {
+          "titel": "USA setzen Megaspeed auf die Exportsperrliste",
+          "warum": "Schärfere Kontrollen gegen Umleitung von KI-Chips nach China.",
+          "quelle": "Politico",
+          "url": "https://www.politico.com/news/2026/11/23/us-prepares-to-blacklist-megaspeed-as-huang-returns-to-nvidia-01180920",
+          "zeit": "23.11.",
+          "medien": [
+            "Politico"
+          ]
+        },
+        {
+          "titel": "Chinesische Hersteller expandieren nach Afrika",
+          "warum": "Neue Fabriken und Absatzmärkte jenseits der USA.",
+          "quelle": "Semafor",
+          "url": "https://www.semafor.com/article/11/23/2026/chinese-manufacturers-are-making-bigger-bets-on-africa",
+          "zeit": "23.11.",
+          "medien": [
+            "Semafor"
+          ]
+        }
+      ]
+    },
+    "welt": {
+      "lage": "Der Iran-Konflikt bleibt ungelöst: Die Straße von Hormus ist zu, Katar vermittelt, Trump droht mit Angriffen nach Neujahr. An der NATO-Ostflanke eskaliert der Streit zwischen Estland und Russland, im Gazastreifen gehen die Angriffe weiter.",
+      "meldungen": [
+        {
+          "titel": "Israelischer Luftangriff tötet Hamas-Sicherheitschef in Gaza",
+          "warum": "Bei dem Angriff starben mindestens sieben Menschen.",
+          "quelle": "Reuters",
+          "url": "https://www.reuters.com/world/middle-east/israeli-airstrike-kills-least-three-palestinians-southern-gaza-medics-say-2026-11-24/",
+          "zeit": "24.11.",
+          "medien": [
+            "Reuters"
+          ]
+        },
+        {
+          "titel": "Lettlands Präsident sieht 2027 möglichen Kipppunkt im Ukraine-Krieg",
+          "warum": "Rinkevics hält eine russische Niederlage für denkbar.",
+          "quelle": "Reuters",
+          "url": "https://www.reuters.com/world/asia-pacific/latvian-president-sees-possible-tipping-point-ukraine-war-next-year-2026-11-24/",
+          "zeit": "24.11.",
+          "medien": [
+            "Reuters"
+          ]
+        },
+        {
+          "titel": "Japan zahlt ICC-Beitrag 2027 vorzeitig",
+          "warum": "Tokio kommt drohenden US-Sanktionen gegen den Strafgerichtshof zuvor.",
+          "quelle": "Reuters",
+          "url": "https://www.reuters.com/world/americas/japan-accelerates-icc-funding-us-sanctions-threaten-court-2026-11-24/",
+          "zeit": "24.11.",
+          "medien": [
+            "Reuters"
+          ]
+        },
+        {
+          "titel": "Chinas vierter Flugzeugträger fast fertig",
+          "warum": "Der atomgetriebene Typ 004 könnte 75 bis 90 Flugzeuge tragen und 2027 vom Stapel laufen.",
+          "quelle": "Defense News",
+          "url": "https://www.defensenews.com/global/asia-pacific/2026/11/23/chinas-fourth-aircraft-carrier-bigger-than-others-and-nuclear-powered-nears-completion/",
+          "zeit": "23.11., 15:42",
+          "medien": [
+            "Defense News"
+          ]
+        },
+        {
+          "titel": "Weltklimakonferenz COP31 scheitert am Streit über fossile Energien",
+          "warum": "Die Gespräche in der Türkei endeten ohne Einigung.",
+          "quelle": "New York Times",
+          "url": "https://www.nytimes.com/2026/11/22/climate/cop31-climate-summit-ends-climate.html",
+          "zeit": "22.11.",
+          "medien": [
+            "New York Times"
+          ]
+        },
+        {
+          "titel": "Sheikh Hasina will am 16. Dezember nach Bangladesch zurückkehren",
+          "warum": "Die gestürzte Ex-Premierministerin plant ihre Rückkehr mit der Staatsairline.",
+          "quelle": "Reuters",
+          "url": "https://www.reuters.com/world/asia-pacific/sheikh-hasina-seeks-return-bangladesh-december-16-state-carrier-2026-11-24/",
+          "zeit": "24.11.",
+          "medien": [
+            "Reuters"
+          ]
+        }
+      ]
+    },
+    "usa": {
+      "lage": "Nach den verlorenen Midterms ringt Trump mit wachsendem Widerstand, auch aus der eigenen Partei: Nvidia, Iran-Krieg und Justiz dominieren. Ab dem 3. Januar regieren die Demokraten in beiden Kammern.",
+      "meldungen": [
+        {
+          "titel": "Senatsausschuss prüft Vances Verbindung zu Venezuela-Ölvertrag",
+          "warum": "Es geht um einen lukrativen Auftrag für den Händler Vitol.",
+          "quelle": "Reuters",
+          "url": "https://www.reuters.com/business/energy/exclusive-jd-vances-ties-prized-venezuelan-oil-contract-under-investigation-by-2026-11-23/",
+          "zeit": "23.11.",
+          "medien": [
+            "Reuters"
+          ]
+        },
+        {
+          "titel": "Hegseths früherer Stabschef fordert dessen Rücktritt",
+          "warum": "Neue Unruhe an der Spitze des Pentagons.",
+          "quelle": "Politico",
+          "url": "https://www.politico.com/news/2026/11/23/joe-kasper-hegseth-criticism-pentagon-01180149",
+          "zeit": "23.11.",
+          "medien": [
+            "Politico"
+          ]
+        },
+        {
+          "titel": "FBI-Vizechef Raia geht in den Ruhestand",
+          "warum": "Weiterer Abgang an der Spitze der Bundespolizei.",
+          "quelle": "New York Times",
+          "url": "https://www.nytimes.com/2026/11/23/us/politics/fbi-raia-retiring.html",
+          "zeit": "23.11.",
+          "medien": [
+            "New York Times"
+          ]
+        },
+        {
+          "titel": "Armee will zerfallenden Sprengstoff in Iowa sprengen",
+          "warum": "Trump hatte die Sprengung zunächst gestoppt, ein Berufungsgericht gab sie frei.",
+          "quelle": "New York Times",
+          "url": "https://www.nytimes.com/2026/11/23/climate/iowa-army-ammunition-explosion.html",
+          "zeit": "23.11.",
+          "medien": [
+            "New York Times",
+            "AP",
+            "ABC News"
+          ]
+        },
+        {
+          "titel": "Neuer Abgeordneter Constantino wirbt um homosexuelle Wähler für die GOP",
+          "warum": "Die Republikaner suchen nach der Wahlniederlage neue Wählergruppen.",
+          "quelle": "New York Post",
+          "url": "https://nypost.com/2026/11/22/us-news/incoming-ny-rep-anthony-constantino-says-he-wants-every-gay-american-to-join-the-gop/",
+          "zeit": "22.11.",
+          "medien": [
+            "New York Post"
+          ]
+        }
+      ]
+    },
+    "deutschland": {
+      "lage": "Im Bundestag läuft die Haushaltswoche, am Freitag wird der Etat 2027 beschlossen. In Berlin verhandeln Linke, SPD und Grüne über eine Koalition bis Januar; der Streit um die Abgeordnete Emde belastet die knappe Mehrheit.",
+      "meldungen": [
+        {
+          "titel": "Berlin: Erste Entscheidungen bei Koalitionsgesprächen",
+          "warum": "Rund 300 Menschen arbeiten in 14 Fachgruppen, der Vertrag soll Anfang Januar stehen.",
+          "quelle": "Volksstimme (dpa)",
+          "url": "https://www.volksstimme.de/panorama/erste-entscheidungen-bei-koalitionsgesprachen-nachste-woche-4354484",
+          "zeit": "11.11., 13:49",
+          "medien": [
+            "dpa"
+          ]
+        },
+        {
+          "titel": "Haushaltsausschuss billigt Etat 2027",
+          "warum": "Offen bleibt die Finanzierung einer allgemeinen Stromsteuersenkung.",
+          "quelle": "ZDFheute",
+          "url": "https://www.zdfheute.de/politik/deutschland/haushalt-haushaltsausschuss-bundestag-union-spd-100.html",
+          "zeit": "13.11., 10:04",
+          "medien": [
+            "ZDFheute",
+            "Reuters"
+          ]
+        },
+        {
+          "titel": "Neuverschuldung steigt auf 210 Mrd. Euro",
+          "warum": "Zweithöchster Wert der Geschichte.",
+          "quelle": "Börsen-Zeitung",
+          "url": "https://www.boersen-zeitung.de/konjunktur-politik/neuverschuldung-steigt-auf-210-mrd-euro",
+          "zeit": "13.11., 11:02",
+          "medien": [
+            "Reuters",
+            "ZDFheute"
+          ]
+        },
+        {
+          "titel": "Klingbeil: Gerechtigkeit muss Maßstab für Reformen sein",
+          "warum": "Grundsatzrede zum Auftakt der Haushaltsberatungen.",
+          "quelle": "ZDFheute",
+          "url": "https://www.zdfheute.de/politik/deutschland/haushalt-2027-bundestag-beratungen-klingbeil-100.html",
+          "zeit": "08.09., 12:07",
+          "medien": [
+            "ZDFheute",
+            "Reuters"
+          ]
+        },
+        {
+          "titel": "Estland schließt Grenzübergänge zu Russland",
+          "warum": "Auch für Deutschland als NATO-Partner an der Ostflanke relevant.",
+          "quelle": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/15/estonia-to-close-border-crossings-with-russia-after-attack-on-drone-maker",
+          "zeit": "15.11.",
+          "medien": [
+            "Al Jazeera",
+            "Reuters"
+          ]
+        }
+      ]
+    },
+    "termine": {
+      "lage": "Kurzfristig zählt der Bundestagsbeschluss zum Haushalt am Freitag. Danach rücken Trumps Iran-Frist nach Neujahr, der Amtsantritt des neuen Kongresses am 3. Januar und die Wahl des Bundespräsidenten am 30. Januar in den Blick.",
+      "meldungen": [
+        {
+          "titel": "Bundestag stimmt diese Woche über den Haushalt 2027 ab",
+          "warum": "Schlussabstimmung in der Sitzungswoche vom 24. bis 27. November.",
+          "quelle": "ZDFheute",
+          "url": "https://www.zdfheute.de/politik/deutschland/haushalt-haushaltsausschuss-bundestag-union-spd-100.html",
+          "zeit": "13.11., 10:04",
+          "medien": [
+            "ZDFheute",
+            "Reuters"
+          ]
+        },
+        {
+          "titel": "Trump droht Iran mit Angriffen nach Neujahr",
+          "warum": "Ohne Abkommen bis dahin will er wieder angreifen lassen.",
+          "quelle": "Fox News",
+          "url": "https://www.foxnews.com/politics/trump-warns-new-strikes-against-iran-after-new-year-calls-negotiators-professional-tap-dancers",
+          "zeit": "22.11., 18:52",
+          "medien": [
+            "Fox News",
+            "Reuters"
+          ]
+        },
+        {
+          "titel": "Hasina will am 16. Dezember nach Bangladesch zurückkehren",
+          "warum": "Potenziell destabilisierend für das Land.",
+          "quelle": "Reuters",
+          "url": "https://www.reuters.com/world/asia-pacific/sheikh-hasina-seeks-return-bangladesh-december-16-state-carrier-2026-11-24/",
+          "zeit": "24.11.",
+          "medien": [
+            "Reuters"
+          ]
+        },
+        {
+          "titel": "Berliner Koalitionsvertrag soll Anfang Januar stehen",
+          "warum": "Danach Wahl eines neuen Regierenden Bürgermeisters.",
+          "quelle": "Volksstimme (dpa)",
+          "url": "https://www.volksstimme.de/panorama/erste-entscheidungen-bei-koalitionsgesprachen-nachste-woche-4354484",
+          "zeit": "11.11., 13:49",
+          "medien": [
+            "dpa"
+          ]
+        },
+        {
+          "titel": "Estland schließt Grenzübergänge zu Russland ab 1. Dezember",
+          "warum": "Tallinn reagiert auf einen mutmaßlichen GRU-Sabotageplan.",
+          "quelle": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/15/estonia-to-close-border-crossings-with-russia-after-attack-on-drone-maker",
+          "zeit": "15.11.",
+          "medien": [
+            "Al Jazeera",
+            "Reuters"
+          ]
+        }
+      ]
+    },
+    "recht": {
+      "lage": "In den USA dominiert Trumps Versuch, die Schweigegeld-Verurteilung loszuwerden; die Ermittlungen gegen Ilhan Omar sorgen für Debatten. In Deutschland stehen in Karlsruhe noch Entscheidungen zur Erbschaftsteuer und zum Klimaschutzgesetz aus.",
+      "meldungen": [
+        {
+          "titel": "Berufungsgericht öffnet Weg zur Verlagerung des Trump-Verfahrens",
+          "warum": "Ein Bundesgericht könnte über Immunität entscheiden.",
+          "quelle": "New York Times",
+          "url": "https://www.nytimes.com/2026/11/23/nyregion/trump-conviction-appeal-federal-court.html",
+          "zeit": "23.11.",
+          "medien": [
+            "New York Times",
+            "AP"
+          ]
+        },
+        {
+          "titel": "Trump zieht vor Staats- und Bundesgerichte gegen Verurteilung",
+          "warum": "Anhörung vor dem 2nd Circuit am 16. November.",
+          "quelle": "AP (AJC)",
+          "url": "https://www.ajc.com/news/2026/11/trump-appeals-to-state-and-federal-courts-to-erase-hush-money-conviction/",
+          "zeit": "16.11.",
+          "medien": [
+            "AP"
+          ]
+        },
+        {
+          "titel": "Durchsuchungsakten zu Ilhan Omar entsiegelt",
+          "warum": "Ermittlungen reichen bis 1980 zurück.",
+          "quelle": "Wall Street Journal",
+          "url": "https://www.wsj.com/politics/policy/ilhan-omar-investigation-covers-most-of-her-life-unsealed-records-show-a914232c",
+          "zeit": "24.11.",
+          "medien": [
+            "Wall Street Journal",
+            "Politico",
+            "The Hill"
+          ]
+        },
+        {
+          "titel": "China verurteilt Beamten wegen Spionage zum Tode",
+          "warum": "Signal der Härte im Spionagekonflikt mit dem Westen.",
+          "quelle": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-23/china-sentences-official-death-spying-ma-state-secret-protection-espionage",
+          "zeit": "23.11.",
+          "medien": [
+            "Bloomberg"
+          ]
+        },
+        {
+          "titel": "Was in Karlsruhe 2026 noch ansteht",
+          "warum": "Erbschaftsteuer-Privilegien, Klimaschutzgesetz und Co-Mutterschaft sind anhängig.",
+          "quelle": "ZDFheute",
+          "url": "https://www.zdfheute.de/politik/deutschland/bundesverfassungsgericht-urteile-2026-bsw-erbschaftssteuer-100.html",
+          "zeit": "12.03., 17:15",
+          "medien": [
+            "ZDFheute"
+          ]
+        }
+      ]
     }
   }
 }
