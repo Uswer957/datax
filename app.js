@@ -143,6 +143,7 @@
   const safeUrl = (u) => (typeof u === "string" && u.startsWith("https://") ? u : null);
   function srcLine(item) {
     const p = txt("span", "src", "");
+    if (item.zeit) { p.appendChild(txt("time", "zeit", item.zeit)); if (item.quelle) p.appendChild(document.createTextNode(" · ")); }
     if (item.quelle) {
       const u = safeUrl(item.url);
       if (u) { const a = txt("a", "", item.quelle); a.href = u; a.target = "_blank"; a.rel = "noopener"; p.appendChild(a); }
@@ -187,7 +188,13 @@
     items.forEach((it) => {
       const li = document.createElement("li");
       const h = txt("span", "h", "");
-      const med = Array.isArray(it.medien) ? it.medien.filter((x) => typeof x === "string") : [];
+      let med = Array.isArray(it.medien) ? it.medien.filter((x) => typeof x === "string") : [];
+      if (!med.length && it.quelle) {
+        // Fallback: Quelle selbst (und Medium in Klammern, z. B. "Briefing (Fox News)") einordnen
+        const q = String(it.quelle), cand = [q.replace(/\s*\(.*\)\s*/, "").trim()];
+        (q.match(/\(([^)]+)\)/g) || []).forEach((m) => m.slice(1, -1).split(/[,/]/).forEach((x) => cand.push(x.trim())));
+        med = cand.filter((n) => typeof BIAS[biasKey(n)] === "number");
+      }
       const rated = med.map((n) => BIAS[biasKey(n)]).filter((v) => typeof v === "number");
       if (rated.length) {
         const avg = rated.reduce((a, b) => a + b, 0) / rated.length;

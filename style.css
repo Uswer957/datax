@@ -143,3 +143,4 @@ dialog.mehr::backdrop{background:rgba(0,0,0,.72)}
 .mehr-x{background:none;border:1px solid var(--line);color:var(--fg);width:30px;height:30px;border-radius:4px;font-size:18px;line-height:1;cursor:pointer}
 .mehr-x:hover{border-color:var(--fg)}
 .mehr-lage{margin:0 0 14px;color:var(--fg);font-size:14px;line-height:1.5}
+.src .zeit{color:var(--fg);opacity:.75}
