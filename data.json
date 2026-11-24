@@ -62,8 +62,8 @@
             },
             {
               "name": "AstraZeneca",
-              "symbol": "LSE:AZN",
-              "grund": "Größter Wert im FTSE 100."
+              "symbol": "NASDAQ:AZN",
+              "grund": "Größter Wert im FTSE 100 (US-Notierung)."
             },
             {
               "name": "Nestlé",
