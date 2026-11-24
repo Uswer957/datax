@@ -100,6 +100,44 @@
   widget("w-cal", "events", { width: "100%", height: "100%", importanceFilter: "0,1", countryFilter: "us,eu,de,cn,gb,jp" });
 
   /* ---------- Inhalte von Claude (data.json) ---------- */
+  let watchSig = "";
+  function watchWidget(groups) {
+    const valid = (groups || []).map((g) => ({
+      name: g.markt,
+      symbols: (g.titel || []).filter((t) => typeof t.symbol === "string" && /^[A-Z0-9_]+:[A-Z0-9._!-]+$/i.test(t.symbol))
+        .map((t) => ({ name: t.symbol, displayName: t.name }))
+    })).filter((g) => g.symbols.length);
+    const sig = JSON.stringify(valid);
+    if (!valid.length || sig === watchSig) return;
+    watchSig = sig;
+    $("w-watch").textContent = "";
+    widget("w-watch", "market-quotes", { width: "100%", height: "100%", showSymbolLogo: false, symbolsGroups: valid });
+  }
+  function renderWatch(w) {
+    const box = $("m-watch"); box.textContent = "";
+    w = w || {};
+    $("m-watch-stand").textContent = w.stand || "";
+    const groups = w.maerkte || [];
+    if (!groups.length) { box.appendChild(txt("p", "empty", "Wird beim nächsten Lauf gefüllt.")); return; }
+    groups.forEach((g) => {
+      const sec = txt("section", "wgroup", "");
+      const h = txt("h3", "", g.markt);
+      if (g.gewicht) h.appendChild(txt("span", "w", g.gewicht));
+      sec.appendChild(h);
+      const ul = document.createElement("ul");
+      (g.titel || []).forEach((t) => {
+        const li = document.createElement("li");
+        const n = txt("span", "n", t.name);
+        if (t.symbol) n.appendChild(txt("span", "sym", String(t.symbol).split(":").pop()));
+        li.appendChild(n);
+        if (t.grund) li.appendChild(txt("span", "g", t.grund));
+        ul.appendChild(li);
+      });
+      sec.appendChild(ul);
+      box.appendChild(sec);
+    });
+    watchWidget(groups);
+  }
   const $ = (id) => document.getElementById(id);
   const txt = (tag, cls, t) => { const e = document.createElement(tag); if (cls) e.className = cls; e.textContent = t == null ? "" : String(t); return e; };
   const safeUrl = (u) => (typeof u === "string" && u.startsWith("https://") ? u : null);
@@ -182,6 +220,7 @@
     if (d.aktualisiert) $("updated").textContent = "Inhalte: " + d.aktualisiert;
     const m = d.maerkte || {};
     newsList("m-headlines", m.schlagzeilen);
+    renderWatch(m.watchlist);
     rows("m-debt", m.verschuldung, [["land"], ["quote", "r"], ["absolut", "r"]]);
     $("m-debt-src").textContent = m.verschuldung_quelle || "";
     rows("m-yields", m.renditen, [["land"], ["rendite", "r"]]);

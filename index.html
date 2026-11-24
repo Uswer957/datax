@@ -7,7 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preload" href="fonts/GeneralSans-Variable.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap">
-<link rel="stylesheet" href="style.css?v=5">
+<link rel="stylesheet" href="style.css?v=6">
 </head>
 <body>
 <header class="top">
@@ -32,6 +32,13 @@
     <div class="tv tv-tape"><div class="tradingview-widget-container" id="w-tape"></div></div>
 
     <div class="grid g-markets">
+      <article class="card full watch">
+        <h2><span>To Watch Today</span><span class="h2-note" id="m-watch-stand"></span></h2>
+        <div class="watch-body">
+          <div class="watch-list" id="m-watch"></div>
+          <div class="tv tv-watch"><div class="tradingview-widget-container" id="w-watch"></div></div>
+        </div>
+      </article>
       <article class="card span2">
         <h2>Top-Schlagzeilen heute</h2>
         <ol class="news" id="m-headlines"></ol>
@@ -125,6 +132,6 @@
   Kurse: TradingView-Widgets, teils verzögert. Texte: von Claude recherchiert und mehrmals täglich aktualisiert, mit Quellen. Keine Anlageberatung. Börsenzeiten ohne Feiertage.
 </footer>
 
-<script src="app.js?v=5"></script>
+<script src="app.js?v=6"></script>
 </body>
 </html>

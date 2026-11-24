@@ -54,6 +54,19 @@ h1{font:600 20px/1 var(--f-display);letter-spacing:.08em;text-transform:uppercas
 .tv-cal{height:460px}
 .tv-bonds{height:170px;margin-top:10px}
 .tv .tradingview-widget-container{height:100%}
+.tv-watch{height:440px}
+.watch-body{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:16px}
+@media (max-width:900px){.watch-body{grid-template-columns:1fr}}
+.watch-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:4px 18px;align-content:start}
+@media (max-width:620px){.watch-list{grid-template-columns:1fr}}
+.wgroup h3{font:600 11px var(--f-display);letter-spacing:.1em;text-transform:uppercase;color:var(--fg);margin:8px 0 4px;display:flex;justify-content:space-between;border-bottom:1px solid var(--line);padding-bottom:3px}
+.wgroup h3 .w{font:11px var(--f-data);color:var(--muted);letter-spacing:0;text-transform:none}
+.wgroup ul{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+.wgroup li{display:grid;gap:1px}
+.wgroup .n{font-weight:600}
+.wgroup .n .sym{font:11px var(--f-data);color:var(--muted);font-weight:400;margin-left:6px}
+.wgroup .g{font-size:12.5px;color:var(--muted)}
+.h2-note{font:11px var(--f-data);letter-spacing:0;text-transform:none}
 .fallback{font-size:12px;color:var(--muted)}
 
 .news{list-style:none;margin:0;padding:0;display:grid;gap:10px;counter-reset:n}

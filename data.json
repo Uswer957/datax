@@ -6,7 +6,106 @@
     "verschuldung_quelle": "",
     "termine": [],
     "renditen": [],
-    "renditen_stand": ""
+    "renditen_stand": "",
+    "watchlist": {
+      "stand": "Startliste: Index-Schwergewichte, Tagesgründe ab dem nächsten Lauf",
+      "maerkte": [
+        {
+          "markt": "USA",
+          "gewicht": "ca. 60 %",
+          "titel": [
+            {
+              "name": "Nvidia",
+              "symbol": "NASDAQ:NVDA",
+              "grund": "Größtes Gewicht im Index, Taktgeber für KI-Werte."
+            },
+            {
+              "name": "Apple",
+              "symbol": "NASDAQ:AAPL",
+              "grund": "Index-Schwergewicht."
+            },
+            {
+              "name": "Microsoft",
+              "symbol": "NASDAQ:MSFT",
+              "grund": "Index-Schwergewicht, Cloud und KI."
+            },
+            {
+              "name": "Amazon",
+              "symbol": "NASDAQ:AMZN",
+              "grund": "Index-Schwergewicht, Handel und Cloud."
+            },
+            {
+              "name": "Alphabet",
+              "symbol": "NASDAQ:GOOGL",
+              "grund": "Index-Schwergewicht."
+            },
+            {
+              "name": "Broadcom",
+              "symbol": "NASDAQ:AVGO",
+              "grund": "Chips für KI-Rechenzentren."
+            }
+          ]
+        },
+        {
+          "markt": "Europa",
+          "gewicht": "ca. 13 %",
+          "titel": [
+            {
+              "name": "ASML",
+              "symbol": "EURONEXT:ASML",
+              "grund": "Größter Tech-Wert Europas."
+            },
+            {
+              "name": "SAP",
+              "symbol": "XETR:SAP",
+              "grund": "Schwergewicht im DAX."
+            },
+            {
+              "name": "AstraZeneca",
+              "symbol": "LSE:AZN",
+              "grund": "Größter Wert im FTSE 100."
+            },
+            {
+              "name": "Nestlé",
+              "symbol": "SIX:NESN",
+              "grund": "Schwergewicht der Schweiz."
+            }
+          ]
+        },
+        {
+          "markt": "Japan",
+          "gewicht": "ca. 5 %",
+          "titel": [
+            {
+              "name": "Toyota",
+              "symbol": "NYSE:TM",
+              "grund": "Größter Wert Japans (US-Notierung)."
+            },
+            {
+              "name": "Sony",
+              "symbol": "NYSE:SONY",
+              "grund": "Japanisches Schwergewicht (US-Notierung)."
+            }
+          ]
+        },
+        {
+          "markt": "Asien & Schwellenländer",
+          "gewicht": "ca. 10 %",
+          "titel": [
+            {
+              "name": "TSMC",
+              "symbol": "NYSE:TSM",
+              "grund": "Größter Chipfertiger der Welt (US-Notierung)."
+            },
+            {
+              "name": "Alibaba",
+              "symbol": "NYSE:BABA",
+              "grund": "China-Barometer (US-Notierung)."
+            }
+          ]
+        }
+      ]
+    }
   },
   "politik": {
     "welt": [],
