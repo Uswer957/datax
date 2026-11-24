@@ -268,7 +268,7 @@
     if (!cols.length) cols.push(pc(l.partei));
     return cols;
   }
-  function drawMap(boxId, which, fillFor, titleFor, dashed) {
+  function drawMap(boxId, which, fillFor, titleFor, dashed, dotted) {
     const box = $(boxId); box.textContent = "";
     if (!MAPS || !MAPS[which]) return;
     const M = MAPS[which];
@@ -292,6 +292,16 @@
       if (dashed && dashed(code)) path.setAttribute("class", "gf");
       const tt = svgEl("title", {}); tt.textContent = titleFor(code, st.name); path.appendChild(tt);
       svg.appendChild(path);
+      if (dotted && dotted(code)) {
+        const did = boxId + "-dots";
+        if (!defs.querySelector("#" + did)) {
+          const pat = svgEl("pattern", { id: did, patternUnits: "userSpaceOnUse", width: 7, height: 7 });
+          pat.appendChild(svgEl("circle", { cx: 3.5, cy: 3.5, r: 1.6, fill: "#b4b4b4" }));
+          defs.appendChild(pat);
+        }
+        const ov = svgEl("path", { d: st.d, fill: `url(#${did})`, "pointer-events": "none" });
+        svg.appendChild(ov);
+      }
     });
     box.appendChild(svg);
   }
@@ -306,11 +316,11 @@
     hemicycle("pd-bt", "pd-bt-leg", (de.bundestag || {}).sitze);
     const L = de.laender || [];
     const byCode = {}; L.forEach((l) => { byCode[l.code] = l; });
-    drawMap("pd-map", "de", (c) => byCode[c] && coalColors(byCode[c]), (c, n) => { const l = byCode[c]; return l ? `${n}: ${l.regierungschef} (${l.partei}), ${l.koalition}${l.hinweis ? " – " + l.hinweis : ""}` : n; }, (c) => byCode[c] && byCode[c].hinweis);
+    drawMap("pd-map", "de", (c) => byCode[c] && coalColors(byCode[c]), (c, n) => { const l = byCode[c]; return l ? `${n}: ${l.regierungschef} (${l.partei}), ${l.koalition}${l.hinweis ? " – " + l.hinweis : ""}` : n; }, null, (c) => byCode[c] && byCode[c].hinweis);
     const cnt = {}; L.forEach((l) => { const k = l.partei === "CDU" || l.partei === "CSU" ? "CDU/CSU" : l.partei; cnt[k] = (cnt[k] || 0) + 1; });
     const ents = Object.entries(cnt).sort((a, b) => b[1] - a[1]).map(([p, n]) => [p, pc(p), n]);
     if (L.some((l) => coalColors(l).length > 1)) ents.push(["gestreift: Koalition in Parteifarben", "repeating-linear-gradient(45deg,#e3000f 0 3px,#46962b 3px 6px)", null]);
-    if (L.some((l) => l.hinweis)) ents.push(["gestrichelt: Regierungsbildung offen", "transparent", null]);
+    if (L.some((l) => l.hinweis)) ents.push(["gepunktet: Regierungsbildung ausstehend", "radial-gradient(circle,#b4b4b4 1.2px,#3a3a3a 1.4px) 0 0/4px 4px", null]);
     legendFrom("pd-map-leg", ents);
     const tb = $("pd-laender").querySelector("tbody"); tb.textContent = "";
     L.forEach((l) => {
