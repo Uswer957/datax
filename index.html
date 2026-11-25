@@ -7,7 +7,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preload" href="fonts/GeneralSans-Variable.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap">
-<link rel="stylesheet" href="style.css?v=15">
+<link rel="stylesheet" href="style.css?v=16">
+<link rel="stylesheet" href="energie.css?v=1">
 </head>
 <body>
 <header class="top">
@@ -27,6 +28,7 @@
   <button role="tab" id="tab-maerkte" aria-controls="p-maerkte" aria-selected="true">Märkte</button>
   <button role="tab" id="tab-politik" aria-controls="p-politik" aria-selected="false">Politik</button>
   <button role="tab" id="tab-konflikte" aria-controls="p-konflikte" aria-selected="false">Konflikte</button>
+  <button role="tab" id="tab-energie" aria-controls="p-energie" aria-selected="false">Energie</button>
   <button role="tab" id="tab-sport" aria-controls="p-sport" aria-selected="false">Sport</button>
   <button role="tab" id="tab-sonstiges" aria-controls="p-sonstiges" aria-selected="false">Sonstiges</button>
   <span class="updated" id="updated"></span>
@@ -191,6 +193,84 @@
     </div>
   </section>
 
+  <!-- ENERGIE -->
+  <section class="panel-set" id="p-energie" role="tabpanel" aria-labelledby="tab-energie" hidden>
+    <div class="grid g-three">
+      <article class="card span2" id="e-oel">
+        <h2 data-mehr="energie_oel"><span class="kt">Ölmarkt<button type="button" class="info" aria-label="Erklärung" data-tip="Live-Kurse: Brent (Nordsee, Weltleitsorte) und WTI (USA) sowie Benzin und Heizöl (US-Terminkontrakte), über TradingView. Die Grafik zeigt die Tagesschlusskurse des letzten Jahres (FRED/EIA, einige Tage verzögert). Darunter: größte Förderländer und Verbraucher in Millionen Barrel pro Tag (1 Barrel = 159 Liter).">?</button></span><span class="h2-note" id="e-oel-stand"></span></h2>
+        <div class="e-oel-top">
+          <div class="tv tv-energy"><div class="tradingview-widget-container" id="w-energy"></div></div>
+          <div id="e-oel-chart"></div>
+        </div>
+        <p class="k-lage" id="e-oel-lage"></p>
+        <div class="e-two">
+          <div><h3 class="sub">Größte Förderer</h3><table class="tbl compact" id="e-foerder"><thead><tr><th>Land</th><th class="r">Mio. b/d</th><th class="r">Anteil</th></tr></thead><tbody></tbody></table></div>
+          <div><h3 class="sub">Größte Verbraucher</h3><table class="tbl compact" id="e-verbrauch"><thead><tr><th>Land</th><th class="r">Mio. b/d</th><th class="r">Anteil</th></tr></thead><tbody></tbody></table></div>
+        </div>
+        <p class="src" id="e-oel-src"></p>
+      </article>
+      <article class="card" id="e-opec">
+        <h2 data-mehr="energie_opec"><span class="kt">OPEC+ &amp; Lager<button type="button" class="info" aria-label="Erklärung" data-tip="OPEC+ legt Förderquoten fest. Die Tabelle zeigt die geforderte Fördermenge der Länder, die noch monatlich über Mengen entscheiden. Darunter die US-Lagerbestände aus dem wöchentlichen EIA-Bericht (mittwochs): Steigen die Lager stärker als erwartet, drückt das meist auf den Ölpreis. SPR = staatliche strategische Reserve.">?</button></span><span class="h2-note" id="e-opec-stand"></span></h2>
+        <p class="k-lage" id="e-opec-lage"></p>
+        <table class="tbl compact" id="e-quoten"><thead><tr><th>Land</th><th class="r">Quote</th></tr></thead><tbody></tbody></table>
+        <h3 class="sub e-gap">US-Lager (EIA) <span class="h2-note" id="e-lager-stand"></span></h3>
+        <table class="tbl compact" id="e-lager"><thead><tr><th>Mio. Barrel</th><th class="r">Stand</th><th class="r">Woche</th><th class="r">Jahr</th></tr></thead><tbody></tbody></table>
+      </article>
+
+      <article class="card" id="e-gas">
+        <h2 data-mehr="energie_gas"><span class="kt">Gas<button type="button" class="info" aria-label="Erklärung" data-tip="Füllstand der Gasspeicher in der EU und in Deutschland (GIE AGSI+, täglich, live geladen), gestrichelt der Vorjahresverlauf. TTF ist der europäische Großhandelspreis für Erdgas (Amsterdam), Henry Hub der US-Preis. Unten: woher Europa sein Flüssiggas (LNG) bezieht.">?</button></span><span class="h2-note" id="e-gas-stand"></span></h2>
+        <div class="e-gauges" id="e-speicher"></div>
+        <div id="e-gas-chart"></div>
+        <div class="e-kpis" id="e-gas-preise"></div>
+        <p class="k-lage" id="e-gas-lage"></p>
+        <table class="tbl compact" id="e-lng"><thead><tr><th>LNG-Herkunft (EU)</th><th class="r">Anteil</th></tr></thead><tbody></tbody></table>
+        <p class="src" id="e-gas-src"></p>
+      </article>
+      <article class="card span2" id="e-mix">
+        <h2 data-mehr="energie_strom"><span class="kt">Strommix<button type="button" class="info" aria-label="Erklärung" data-tip="Woraus der Strom gerade erzeugt wird (öffentliche Nettostromerzeugung, Energy-Charts/Fraunhofer ISE). Balken: Durchschnitt der letzten 24 Stunden. Erneuerbare = Wind, Solar, Biomasse, Wasser. Die Grafik zeigt den täglichen Erneuerbaren-Anteil an der Last im letzten Jahr (7-Tage-Schnitt). Ganz unten der Vergleich auf Jahresbasis (Ember).">?</button></span><span class="h2-note" id="e-mix-stand"></span></h2>
+        <div class="ktabs" role="tablist" id="e-mix-tabs"><button type="button" role="tab" aria-selected="true" data-k="de">Deutschland</button><button type="button" role="tab" aria-selected="false" data-k="eu">EU</button></div>
+        <div class="e-kpis" id="e-mix-kpis"></div>
+        <div class="e-bar" id="e-mix-bar"></div>
+        <div class="legend" id="e-mix-leg"></div>
+        <div id="e-mix-chart"></div>
+        <h3 class="sub e-gap">Anteil Erneuerbare am Strom, Jahresvergleich</h3>
+        <div id="e-welt"></div>
+        <p class="src" id="e-mix-src"></p>
+      </article>
+
+      <article class="card span2" id="e-preis">
+        <h2 data-mehr="energie_preise"><span class="kt">Strompreise<button type="button" class="info" aria-label="Erklärung" data-tip="Großhandelspreise am Day-Ahead-Markt (EPEX Spot) in Euro je Megawattstunde (100 €/MWh = 10 ct/kWh, ohne Netzentgelte, Steuern und Abgaben). Die Preise für morgen stehen ab etwa 13 Uhr fest. Die Grafik zeigt Deutschland heute und morgen im Viertelstundentakt bzw. die Tagesmittel der letzten 90 Tage.">?</button></span><span class="h2-note" id="e-preis-stand"></span></h2>
+        <div class="ktabs" role="tablist" id="e-preis-tabs"><button type="button" role="tab" aria-selected="true" data-k="kurve">DE heute &amp; morgen</button><button type="button" role="tab" aria-selected="false" data-k="tage">DE 90 Tage</button></div>
+        <div id="e-preis-chart"></div>
+        <div class="scroll"><table class="tbl compact" id="e-zonen"><thead><tr><th>Land / Zone</th><th class="r">Gestern</th><th class="r">Heute</th><th class="r">Morgen</th></tr></thead><tbody></tbody></table></div>
+        <p class="src">Quelle: Energy-Charts (Fraunhofer ISE), Daten von EPEX Spot/Bundesnetzagentur | SMARD.de, CC BY 4.0</p>
+      </article>
+      <article class="card" id="e-routen-card">
+        <h2 data-mehr="energie_routen"><span class="kt">Exportrouten<button type="button" class="info" aria-label="Erklärung" data-tip="Die wichtigsten Seewege für Öl und Flüssiggas. Vor dem Iran-Krieg liefen rund ein Fünftel des weltweiten Ölverbrauchs durch die Straße von Hormus. Angegeben ist jeweils der Normalwert und die aktuelle Lage.">?</button></span><span class="h2-note" id="e-routen-stand"></span></h2>
+        <table class="tbl compact" id="e-routen"><thead><tr><th>Route</th><th class="r">Normal</th><th>Lage</th></tr></thead><tbody></tbody></table>
+        <p class="src" id="e-routen-src"></p>
+      </article>
+
+      <article class="card span2" id="e-klima">
+        <h2 data-mehr="energie_klima"><span class="kt">Klimaziele<button type="button" class="info" aria-label="Erklärung" data-tip="Offizielle Treibhausgas-Ziele großer Emittenten (Basisjahr in Klammern) und wo sie stehen. Die Einschätzung ist grob: auf Kurs, knapp daneben oder deutlich verfehlt, nach Projektionen der jeweiligen Behörden bzw. des Climate Action Tracker.">?</button></span><span class="h2-note" id="e-klima-stand"></span></h2>
+        <p class="k-lage" id="e-klima-lage"></p>
+        <div class="scroll"><table class="tbl compact" id="e-ziele"><thead><tr><th>Land</th><th>Ziel 2030</th><th>Stand</th><th>Netto-null</th><th>Kurs</th></tr></thead><tbody></tbody></table></div>
+        <p class="src" id="e-klima-src"></p>
+      </article>
+      <article class="card" id="e-co2">
+        <h2 data-mehr="energie_co2"><span class="kt">CO₂-Preis &amp; Termine<button type="button" class="info" aria-label="Erklärung" data-tip="Preis für ein EU-Emissionszertifikat (EUA, berechtigt zum Ausstoß einer Tonne CO₂) aus den täglichen Primärauktionen der EEX. Kraftwerke und Industrie in der EU müssen für jede Tonne ein Zertifikat abgeben. Darunter wichtige Termine zu Energie und Klima.">?</button></span><span class="h2-note" id="e-co2-stand"></span></h2>
+        <div class="e-kpis" id="e-co2-kpis"></div>
+        <div id="e-co2-chart"></div>
+        <table class="tbl compact" id="e-termine"><thead><tr><th>Datum</th><th>Was</th></tr></thead><tbody></tbody></table>
+      </article>
+
+      <article class="card span3">
+        <h2 data-mehr="energie_news">Energiewende-News</h2>
+        <ol class="news" id="e-news"></ol>
+      </article>
+    </div>
+  </section>
+
   <!-- SPORT -->
   <section class="panel-set" id="p-sport" role="tabpanel" aria-labelledby="tab-sport" hidden>
     <div class="league-nav" id="league-nav" role="group" aria-label="Liga wählen"></div>
@@ -236,6 +316,7 @@
   <p class="src" id="mehr-stand"></p>
 </dialog>
 
-<script src="app.js?v=15"></script>
+<script src="app.js?v=16"></script>
+<script src="energie.js?v=1"></script>
 </body>
 </html>

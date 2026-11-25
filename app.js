@@ -54,7 +54,7 @@
   setInterval(tick, 1000);
 
   /* ---------- Tabs ---------- */
-  const TABS = ["maerkte", "politik", "konflikte", "sport", "sonstiges"];
+  const TABS = ["maerkte", "politik", "konflikte", "energie", "sport", "sonstiges"];
   function show(name) {
     if (!TABS.includes(name)) name = "maerkte";
     TABS.forEach((t) => {
@@ -545,7 +545,7 @@
     const all = (lastData && lastData.mehr) || {};
     let e = all[key] || {};
     if (Array.isArray(e)) e = { meldungen: e };
-    $("mehr-title").textContent = h.querySelector("span") ? h.querySelector("span").textContent : h.textContent;
+    $("mehr-title").textContent = (h.querySelector("span") ? h.querySelector("span").textContent : h.textContent).replace(/\?$/, "");
     $("mehr-lage").textContent = e.lage || "";
     $("mehr-lage").hidden = !e.lage;
     newsList("mehr-list", e.meldungen, key === "usa");
@@ -670,6 +670,7 @@
   let lastData = null;
   function render(d) {
     lastData = d;
+    if (window.DataX) { window.DataX.data = d; document.dispatchEvent(new CustomEvent("datax:data", { detail: d })); }
     if (d.aktualisiert) $("updated").textContent = "Inhalte: " + d.aktualisiert;
     const m = d.maerkte || {};
     newsList("m-headlines", m.schlagzeilen);
@@ -956,6 +957,8 @@
       .then(render)
       .catch(() => { $("updated").textContent = "Inhalte konnten nicht geladen werden"; });
   }
+  // Helfer für energie.js
+  window.DataX = { widget, txt, svgEl, newsList, lineChart, niceTicks, legend, monthLabels, rows, nf, sg, dDE, $, data: lastData };
   load();
   setInterval(load, 10 * 60 * 1000);
 })();
