@@ -1328,7 +1328,118 @@
             ]
           }
         ],
-        "stand": "25.11.2026, Ligaphase während des 5. Spieltags (Dienstagsspiele vom 24.11. eingerechnet, Mittwochsspiele folgen; bei Gleichstand ohne Tore-Kriterium; Basis: Wikipedia, Ergebnisse: Dave.Sport)"
+        "stand": "25.11.2026, Ligaphase während des 5. Spieltags (Dienstagsspiele vom 24.11. eingerechnet, Mittwochsspiele folgen; bei Gleichstand ohne Tore-Kriterium; Basis: Wikipedia, Ergebnisse: Dave.Sport)",
+        "spiele": {
+          "naechste": [
+            {
+              "datum": "Mi 25.11.",
+              "zeit": "18:45",
+              "heim": "Sabah FK",
+              "gast": "FC Barcelona",
+              "info": "5. Spieltag"
+            },
+            {
+              "datum": "Mi 25.11.",
+              "zeit": "18:45",
+              "heim": "Slavia Prag",
+              "gast": "Villarreal",
+              "info": "5. Spieltag"
+            },
+            {
+              "datum": "Mi 25.11.",
+              "zeit": "21:00",
+              "heim": "Atlético Madrid",
+              "gast": "Viking FK",
+              "info": "5. Spieltag"
+            },
+            {
+              "datum": "Mi 25.11.",
+              "zeit": "21:00",
+              "heim": "Club Brügge",
+              "gast": "FC Liverpool",
+              "info": "5. Spieltag"
+            },
+            {
+              "datum": "Mi 25.11.",
+              "zeit": "21:00",
+              "heim": "Inter Mailand",
+              "gast": "VfB Stuttgart",
+              "info": "5. Spieltag"
+            },
+            {
+              "datum": "Mi 25.11.",
+              "zeit": "21:00",
+              "heim": "Lille",
+              "gast": "FC Bayern München",
+              "info": "5. Spieltag"
+            },
+            {
+              "datum": "Mi 25.11.",
+              "zeit": "21:00",
+              "heim": "Paris Saint-Germain",
+              "gast": "AS Rom",
+              "info": "5. Spieltag"
+            },
+            {
+              "datum": "Mi 25.11.",
+              "zeit": "21:00",
+              "heim": "Sporting CP",
+              "gast": "Manchester United",
+              "info": "5. Spieltag"
+            }
+          ],
+          "letzte": [
+            {
+              "datum": "Di 24.11.",
+              "heim": "Real Madrid",
+              "gast": "PSV Eindhoven",
+              "ergebnis": "5:1"
+            },
+            {
+              "datum": "Di 24.11.",
+              "heim": "Arsenal",
+              "gast": "Borussia Dortmund",
+              "ergebnis": "1:1"
+            },
+            {
+              "datum": "Di 24.11.",
+              "heim": "Manchester City",
+              "gast": "SSC Neapel",
+              "ergebnis": "2:2"
+            },
+            {
+              "datum": "Di 24.11.",
+              "heim": "RB Leipzig",
+              "gast": "RC Lens",
+              "ergebnis": "3:1"
+            },
+            {
+              "datum": "Di 24.11.",
+              "heim": "Galatasaray",
+              "gast": "Aston Villa",
+              "ergebnis": "1:0"
+            },
+            {
+              "datum": "Di 24.11.",
+              "heim": "Como",
+              "gast": "AEK Athen",
+              "ergebnis": "1:0"
+            },
+            {
+              "datum": "Di 24.11.",
+              "heim": "Feyenoord",
+              "gast": "FC Porto",
+              "ergebnis": "0:1"
+            },
+            {
+              "datum": "Di 24.11.",
+              "heim": "Slovan Bratislava",
+              "gast": "Real Betis",
+              "ergebnis": "0:2"
+            }
+          ],
+          "hinweis": "Mi 25.11. außerdem Schachtar Donezk – Fenerbahçe (21:00) · Di 24.11. außerdem Bodø/Glimt – LASK 1:0"
+        }
       },
       {
         "kurz": "BL",
@@ -1492,7 +1603,126 @@
             ]
           }
         ],
-        "stand": "22.11.2026, nach dem 10. Spieltag (Quelle: Sky Sport)"
+        "stand": "22.11.2026, nach dem 10. Spieltag (Quelle: Sky Sport)",
+        "spiele": {
+          "naechste": [
+            {
+              "datum": "Fr 27.11.",
+              "zeit": "20:30",
+              "heim": "Werder Bremen",
+              "gast": "Borussia Mönchengladbach",
+              "info": "11. Spieltag"
+            },
+            {
+              "datum": "Sa 28.11.",
+              "zeit": "15:30",
+              "heim": "Hamburger SV",
+              "gast": "FC Bayern München",
+              "info": "11. Spieltag"
+            },
+            {
+              "datum": "Sa 28.11.",
+              "zeit": "15:30",
+              "heim": "1. FSV Mainz 05",
+              "gast": "1. FC Union Berlin",
+              "info": "11. Spieltag"
+            },
+            {
+              "datum": "Sa 28.11.",
+              "zeit": "15:30",
+              "heim": "1. FC Köln",
+              "gast": "SV Elversberg",
+              "info": "11. Spieltag"
+            },
+            {
+              "datum": "Sa 28.11.",
+              "zeit": "15:30",
+              "heim": "SC Paderborn 07",
+              "gast": "FC Schalke 04",
+              "info": "11. Spieltag"
+            },
+            {
+              "datum": "Sa 28.11.",
+              "zeit": "18:30",
+              "heim": "VfB Stuttgart",
+              "gast": "Eintracht Frankfurt",
+              "info": "11. Spieltag"
+            },
+            {
+              "datum": "So 29.11.",
+              "zeit": "15:30",
+              "heim": "SC Freiburg",
+              "gast": "RB Leipzig",
+              "info": "11. Spieltag"
+            },
+            {
+              "datum": "So 29.11.",
+              "zeit": "19:30",
+              "heim": "Borussia Dortmund",
+              "gast": "Bayer 04 Leverkusen",
+              "info": "11. Spieltag"
+            }
+          ],
+          "letzte": [
+            {
+              "datum": "So 22.11.",
+              "heim": "Werder Bremen",
+              "gast": "Hamburger SV",
+              "ergebnis": "4:0",
+              "info": "10. Spieltag"
+            },
+            {
+              "datum": "So 22.11.",
+              "heim": "FC Augsburg",
+              "gast": "1. FSV Mainz 05",
+              "ergebnis": "3:1",
+              "info": "10. Spieltag"
+            },
+            {
+              "datum": "Sa 21.11.",
+              "heim": "Bayer 04 Leverkusen",
+              "gast": "SC Paderborn 07",
+              "ergebnis": "4:0",
+              "info": "10. Spieltag"
+            },
+            {
+              "datum": "Sa 21.11.",
+              "heim": "Eintracht Frankfurt",
+              "gast": "TSG Hoffenheim",
+              "ergebnis": "1:0",
+              "info": "10. Spieltag"
+            },
+            {
+              "datum": "Sa 21.11.",
+              "heim": "1. FC Union Berlin",
+              "gast": "RB Leipzig",
+              "ergebnis": "1:5",
+              "info": "10. Spieltag"
+            },
+            {
+              "datum": "Sa 21.11.",
+              "heim": "Borussia Mönchengladbach",
+              "gast": "Borussia Dortmund",
+              "ergebnis": "0:1",
+              "info": "10. Spieltag"
+            },
+            {
+              "datum": "Sa 21.11.",
+              "heim": "SV Elversberg",
+              "gast": "SC Freiburg",
+              "ergebnis": "0:1",
+              "info": "10. Spieltag"
+            },
+            {
+              "datum": "Sa 21.11.",
+              "heim": "FC Schalke 04",
+              "gast": "VfB Stuttgart",
+              "ergebnis": "0:0",
+              "info": "10. Spieltag"
+            }
+          ],
+          "hinweis": "Außerdem So 29.11., 17:30: TSG Hoffenheim – FC Augsburg"
+        }
       },
       {
         "kurz": "PL",
@@ -1670,7 +1900,126 @@
             ]
           }
         ],
-        "stand": "23.11.2026, 11. Spieltag (Everton – Brentford vom 23.11. noch nicht eingerechnet; Quelle: Standings Today)"
+        "stand": "23.11.2026, 11. Spieltag (Everton – Brentford vom 23.11. noch nicht eingerechnet; Quelle: Standings Today)",
+        "spiele": {
+          "naechste": [
+            {
+              "datum": "Fr 27.11.",
+              "zeit": "21:00",
+              "heim": "Nottingham Forest",
+              "gast": "FC Chelsea",
+              "info": "12. Spieltag"
+            },
+            {
+              "datum": "Sa 28.11.",
+              "zeit": "16:00",
+              "heim": "Manchester United",
+              "gast": "Brentford",
+              "info": "12. Spieltag"
+            },
+            {
+              "datum": "Sa 28.11.",
+              "zeit": "16:00",
+              "heim": "Leeds United",
+              "gast": "Coventry City",
+              "info": "12. Spieltag"
+            },
+            {
+              "datum": "Sa 28.11.",
+              "zeit": "18:30",
+              "heim": "Ipswich Town",
+              "gast": "Aston Villa",
+              "info": "12. Spieltag"
+            },
+            {
+              "datum": "So 29.11.",
+              "zeit": "13:00",
+              "heim": "FC Everton",
+              "gast": "FC Liverpool",
+              "info": "12. Spieltag"
+            },
+            {
+              "datum": "So 29.11.",
+              "zeit": "15:05",
+              "heim": "Sunderland",
+              "gast": "Tottenham Hotspur",
+              "info": "12. Spieltag"
+            },
+            {
+              "datum": "So 29.11.",
+              "zeit": "15:05",
+              "heim": "FC Fulham",
+              "gast": "AFC Bournemouth",
+              "info": "12. Spieltag"
+            },
+            {
+              "datum": "So 29.11.",
+              "zeit": "15:05",
+              "heim": "Crystal Palace",
+              "gast": "Hull City",
+              "info": "12. Spieltag"
+            }
+          ],
+          "letzte": [
+            {
+              "datum": "So 22.11.",
+              "heim": "FC Liverpool",
+              "gast": "Manchester United",
+              "ergebnis": "4:0",
+              "info": "11. Spieltag"
+            },
+            {
+              "datum": "So 22.11.",
+              "heim": "Hull City",
+              "gast": "Brighton & Hove Albion",
+              "ergebnis": "2:0",
+              "info": "11. Spieltag"
+            },
+            {
+              "datum": "Sa 21.11.",
+              "heim": "Newcastle United",
+              "gast": "FC Arsenal",
+              "ergebnis": "2:2",
+              "info": "11. Spieltag"
+            },
+            {
+              "datum": "Sa 21.11.",
+              "heim": "Tottenham Hotspur",
+              "gast": "Ipswich Town",
+              "ergebnis": "2:0",
+              "info": "11. Spieltag"
+            },
+            {
+              "datum": "Sa 21.11.",
+              "heim": "FC Chelsea",
+              "gast": "Leeds United",
+              "ergebnis": "1:4",
+              "info": "11. Spieltag"
+            },
+            {
+              "datum": "Sa 21.11.",
+              "heim": "Coventry City",
+              "gast": "Crystal Palace",
+              "ergebnis": "3:2",
+              "info": "11. Spieltag"
+            },
+            {
+              "datum": "Sa 21.11.",
+              "heim": "AFC Bournemouth",
+              "gast": "Nottingham Forest",
+              "ergebnis": "2:0",
+              "info": "11. Spieltag"
+            },
+            {
+              "datum": "Sa 21.11.",
+              "heim": "Manchester City",
+              "gast": "FC Fulham",
+              "ergebnis": "1:1",
+              "info": "11. Spieltag"
+            }
+          ],
+          "hinweis": "Everton – Brentford (Mo 23.11.) noch ohne bestätigtes Ergebnis."
+        }
       },
       {
         "kurz": "LaLiga",
@@ -1848,7 +2197,125 @@
             ]
           }
         ],
-        "stand": "23.11.2026, 13. Spieltag (Quelle: Fútbol Total)"
+        "stand": "23.11.2026, 13. Spieltag (Quelle: Fútbol Total)",
+        "spiele": {
+          "naechste": [
+            {
+              "datum": "Fr 27.11.",
+              "zeit": "21:00",
+              "heim": "Levante UD",
+              "gast": "Racing Santander",
+              "info": "14. Spieltag"
+            },
+            {
+              "datum": "Sa 28.11.",
+              "zeit": "14:00",
+              "heim": "Real Betis",
+              "gast": "Rayo Vallecano",
+              "info": "14. Spieltag"
+            },
+            {
+              "datum": "Sa 28.11.",
+              "zeit": "16:15",
+              "heim": "Málaga CF",
+              "gast": "Athletic Bilbao",
+              "info": "14. Spieltag"
+            },
+            {
+              "datum": "Sa 28.11.",
+              "zeit": "18:30",
+              "heim": "Elche CF",
+              "gast": "Atlético Madrid",
+              "info": "14. Spieltag"
+            },
+            {
+              "datum": "Sa 28.11.",
+              "zeit": "21:00",
+              "heim": "Real Madrid",
+              "gast": "Deportivo Alavés",
+              "info": "14. Spieltag"
+            },
+            {
+              "datum": "So 29.11.",
+              "zeit": "14:00",
+              "heim": "FC Valencia",
+              "gast": "CA Osasuna",
+              "info": "14. Spieltag"
+            },
+            {
+              "datum": "So 29.11.",
+              "zeit": "16:15",
+              "heim": "Deportivo La Coruña",
+              "gast": "FC Barcelona",
+              "info": "14. Spieltag"
+            },
+            {
+              "datum": "So 29.11.",
+              "zeit": "18:30",
+              "heim": "Celta Vigo",
+              "gast": "FC Villarreal",
+              "info": "14. Spieltag"
+            }
+          ],
+          "letzte": [
+            {
+              "datum": "Mo 23.11.",
+              "heim": "Levante UD",
+              "gast": "Elche CF",
+              "ergebnis": "1:1",
+              "info": "13. Spieltag"
+            },
+            {
+              "datum": "So 22.11.",
+              "heim": "Getafe CF",
+              "gast": "Atlético Madrid",
+              "ergebnis": "0:3",
+              "info": "13. Spieltag"
+            },
+            {
+              "datum": "So 22.11.",
+              "heim": "CA Osasuna",
+              "gast": "Málaga CF",
+              "ergebnis": "1:0",
+              "info": "13. Spieltag"
+            },
+            {
+              "datum": "So 22.11.",
+              "heim": "Racing Santander",
+              "gast": "Real Sociedad",
+              "ergebnis": "3:2",
+              "info": "13. Spieltag"
+            },
+            {
+              "datum": "So 22.11.",
+              "heim": "FC Barcelona",
+              "gast": "FC Villarreal",
+              "ergebnis": "3:2",
+              "info": "13. Spieltag"
+            },
+            {
+              "datum": "Sa 21.11.",
+              "heim": "Real Madrid",
+              "gast": "Celta Vigo",
+              "ergebnis": "2:1",
+              "info": "13. Spieltag"
+            },
+            {
+              "datum": "Sa 21.11.",
+              "heim": "Sevilla FC",
+              "gast": "Real Betis",
+              "ergebnis": "1:1",
+              "info": "13. Spieltag"
+            },
+            {
+              "datum": "Sa 21.11.",
+              "heim": "Rayo Vallecano",
+              "gast": "FC Valencia",
+              "ergebnis": "0:1",
+              "info": "13. Spieltag"
+            }
+          ]
+        }
       },
       {
         "kurz": "Serie A",
@@ -2026,7 +2493,125 @@
             ]
           }
         ],
-        "stand": "23.11.2026, nach dem 12. Spieltag"
+        "stand": "23.11.2026, nach dem 12. Spieltag",
+        "spiele": {
+          "naechste": [
+            {
+              "datum": "Fr 27.11.",
+              "zeit": "20:45",
+              "heim": "Venezia",
+              "gast": "Bologna",
+              "info": "13. Spieltag"
+            },
+            {
+              "datum": "Sa 28.11.",
+              "zeit": "15:00",
+              "heim": "Frosinone",
+              "gast": "Parma",
+              "info": "13. Spieltag"
+            },
+            {
+              "datum": "Sa 28.11.",
+              "zeit": "18:00",
+              "heim": "Torino",
+              "gast": "Lazio Rom",
+              "info": "13. Spieltag"
+            },
+            {
+              "datum": "Sa 28.11.",
+              "zeit": "20:45",
+              "heim": "Inter Mailand",
+              "gast": "CFC Genua",
+              "info": "13. Spieltag"
+            },
+            {
+              "datum": "So 29.11.",
+              "zeit": "12:30",
+              "heim": "Udinese",
+              "gast": "AC Florenz",
+              "info": "13. Spieltag"
+            },
+            {
+              "datum": "So 29.11.",
+              "zeit": "15:00",
+              "heim": "Sassuolo",
+              "gast": "SSC Neapel",
+              "info": "13. Spieltag"
+            },
+            {
+              "datum": "So 29.11.",
+              "zeit": "18:00",
+              "heim": "AS Rom",
+              "gast": "Monza",
+              "info": "13. Spieltag"
+            },
+            {
+              "datum": "So 29.11.",
+              "zeit": "20:45",
+              "heim": "Como",
+              "gast": "Juventus Turin",
+              "info": "13. Spieltag"
+            }
+          ],
+          "letzte": [
+            {
+              "datum": "Mo 23.11.",
+              "heim": "Monza",
+              "gast": "AC Florenz",
+              "ergebnis": "3:0",
+              "info": "12. Spieltag"
+            },
+            {
+              "datum": "So 22.11.",
+              "heim": "Atalanta Bergamo",
+              "gast": "Inter Mailand",
+              "ergebnis": "4:4",
+              "info": "12. Spieltag"
+            },
+            {
+              "datum": "So 22.11.",
+              "heim": "AC Mailand",
+              "gast": "Frosinone",
+              "ergebnis": "5:1",
+              "info": "12. Spieltag"
+            },
+            {
+              "datum": "So 22.11.",
+              "heim": "Sassuolo",
+              "gast": "CFC Genua",
+              "ergebnis": "0:2",
+              "info": "12. Spieltag"
+            },
+            {
+              "datum": "So 22.11.",
+              "heim": "Bologna",
+              "gast": "Udinese",
+              "ergebnis": "1:1",
+              "info": "12. Spieltag"
+            },
+            {
+              "datum": "So 22.11.",
+              "heim": "Juventus Turin",
+              "gast": "Venezia",
+              "ergebnis": "4:0",
+              "info": "12. Spieltag"
+            },
+            {
+              "datum": "Sa 21.11.",
+              "heim": "SSC Neapel",
+              "gast": "Torino",
+              "ergebnis": "1:0",
+              "info": "12. Spieltag"
+            },
+            {
+              "datum": "Sa 21.11.",
+              "heim": "Parma",
+              "gast": "AS Rom",
+              "ergebnis": "1:5",
+              "info": "12. Spieltag"
+            }
+          ]
+        }
       },
       {
         "kurz": "NFL",
@@ -2190,7 +2775,122 @@
             ]
           }
         ],
-        "stand": "23.11.2026, nach Woche 11 (Giants 6-3-1)"
+        "stand": "23.11.2026, nach Woche 11 (Giants 6-3-1)",
+        "spiele": {
+          "naechste": [
+            {
+              "datum": "Do 26.11.",
+              "zeit": "02:00",
+              "heim": "Los Angeles Rams",
+              "gast": "Green Bay Packers",
+              "info": "Week 12"
+            },
+            {
+              "datum": "Do 26.11.",
+              "zeit": "19:00",
+              "heim": "Detroit Lions",
+              "gast": "Chicago Bears",
+              "info": "Week 12, Thanksgiving"
+            },
+            {
+              "datum": "Do 26.11.",
+              "zeit": "22:30",
+              "heim": "Dallas Cowboys",
+              "gast": "Philadelphia Eagles",
+              "info": "Week 12, Thanksgiving"
+            },
+            {
+              "datum": "Fr 27.11.",
+              "zeit": "02:20",
+              "heim": "Buffalo Bills",
+              "gast": "Kansas City Chiefs",
+              "info": "Week 12, Thanksgiving"
+            },
+            {
+              "datum": "Fr 27.11.",
+              "zeit": "21:00",
+              "heim": "Pittsburgh Steelers",
+              "gast": "Denver Broncos",
+              "info": "Week 12, Black Friday"
+            },
+            {
+              "datum": "So 29.11.",
+              "heim": "Cincinnati Bengals",
+              "gast": "New Orleans Saints",
+              "info": "Week 12"
+            },
+            {
+              "datum": "So 29.11.",
+              "heim": "Indianapolis Colts",
+              "gast": "New York Giants",
+              "info": "Week 12"
+            },
+            {
+              "datum": "So 29.11.",
+              "heim": "Miami Dolphins",
+              "gast": "New York Jets",
+              "info": "Week 12"
+            }
+          ],
+          "letzte": [
+            {
+              "datum": "Di 24.11.",
+              "heim": "Washington Commanders",
+              "gast": "Cincinnati Bengals",
+              "ergebnis": "22:20",
+              "info": "Week 11, Monday Night"
+            },
+            {
+              "datum": "So 22.11.",
+              "heim": "Chicago Bears",
+              "gast": "New Orleans Saints",
+              "ergebnis": "21:13",
+              "info": "Week 11"
+            },
+            {
+              "datum": "So 22.11.",
+              "heim": "Detroit Lions",
+              "gast": "Tampa Bay Buccaneers",
+              "ergebnis": "31:21",
+              "info": "Week 11"
+            },
+            {
+              "datum": "So 22.11.",
+              "heim": "Dallas Cowboys",
+              "gast": "Tennessee Titans",
+              "ergebnis": "51:30",
+              "info": "Week 11"
+            },
+            {
+              "datum": "So 22.11.",
+              "heim": "Carolina Panthers",
+              "gast": "Baltimore Ravens",
+              "ergebnis": "35:33",
+              "info": "Week 11"
+            },
+            {
+              "datum": "So 22.11.",
+              "heim": "Buffalo Bills",
+              "gast": "Miami Dolphins",
+              "ergebnis": "26:9",
+              "info": "Week 11"
+            },
+            {
+              "datum": "So 22.11.",
+              "heim": "Kansas City Chiefs",
+              "gast": "Arizona Cardinals",
+              "ergebnis": "34:7",
+              "info": "Week 11"
+            },
+            {
+              "datum": "So 22.11.",
+              "heim": "Philadelphia Eagles",
+              "gast": "Pittsburgh Steelers",
+              "ergebnis": "19:16",
+              "info": "Week 11"
+            }
+          ]
+        }
       },
       {
         "kurz": "NBA",
@@ -2366,7 +3066,109 @@
             ]
           }
         ],
-        "stand": "25.11.2026 (Spiele bis 24.11.; Mavericks – Nuggets noch nicht eingerechnet)"
+        "stand": "25.11.2026 (Spiele bis 24.11.; Mavericks – Nuggets noch nicht eingerechnet)",
+        "spiele": {
+          "naechste": [
+            {
+              "datum": "Mi 25.11.",
+              "zeit": "23:00",
+              "heim": "76ers",
+              "gast": "Heat"
+            },
+            {
+              "datum": "Do 26.11.",
+              "zeit": "01:00",
+              "heim": "Hornets",
+              "gast": "Bulls"
+            },
+            {
+              "datum": "Do 26.11.",
+              "zeit": "01:30",
+              "heim": "Knicks",
+              "gast": "Cavaliers"
+            },
+            {
+              "datum": "Do 26.11.",
+              "zeit": "01:30",
+              "heim": "Thunder",
+              "gast": "Timberwolves"
+            },
+            {
+              "datum": "Do 26.11.",
+              "zeit": "02:00",
+              "heim": "Bucks",
+              "gast": "Nets"
+            },
+            {
+              "datum": "Do 26.11.",
+              "zeit": "02:00",
+              "heim": "Grizzlies",
+              "gast": "Clippers"
+            },
+            {
+              "datum": "Do 26.11.",
+              "zeit": "02:30",
+              "heim": "Rockets",
+              "gast": "Suns"
+            },
+            {
+              "datum": "Do 26.11.",
+              "zeit": "04:00",
+              "heim": "Warriors",
+              "gast": "Kings"
+            }
+          ],
+          "letzte": [
+            {
+              "datum": "Mi 25.11.",
+              "heim": "Wizards",
+              "gast": "Celtics",
+              "ergebnis": "116:131"
+            },
+            {
+              "datum": "Mi 25.11.",
+              "heim": "Nuggets",
+              "gast": "Mavericks",
+              "ergebnis": "101:120"
+            },
+            {
+              "datum": "Mi 25.11.",
+              "heim": "Magic",
+              "gast": "Pistons",
+              "ergebnis": "86:104"
+            },
+            {
+              "datum": "Di 24.11.",
+              "heim": "76ers",
+              "gast": "Trail Blazers",
+              "ergebnis": "111:128"
+            },
+            {
+              "datum": "Di 24.11.",
+              "heim": "Hornets",
+              "gast": "Grizzlies",
+              "ergebnis": "111:117"
+            },
+            {
+              "datum": "Di 24.11.",
+              "heim": "Pacers",
+              "gast": "Thunder",
+              "ergebnis": "125:120"
+            },
+            {
+              "datum": "Di 24.11.",
+              "heim": "Timberwolves",
+              "gast": "Nets",
+              "ergebnis": "142:116"
+            },
+            {
+              "datum": "Di 24.11.",
+              "heim": "Raptors",
+              "gast": "Bucks",
+              "ergebnis": "111:116"
+            }
+          ]
+        }
       },
       {
         "kurz": "NHL",
@@ -2512,7 +3314,61 @@
             ]
           }
         ],
-        "stand": "23.11.2026"
+        "stand": "23.11.2026",
+        "spiele": {
+          "naechste": [],
+          "letzte": [
+            {
+              "datum": "Mi 25.11.",
+              "heim": "Oilers",
+              "gast": "Golden Knights",
+              "ergebnis": "3:5"
+            },
+            {
+              "datum": "Di 24.11.",
+              "heim": "Canadiens",
+              "gast": "Kings",
+              "ergebnis": "1:2"
+            },
+            {
+              "datum": "Di 24.11.",
+              "heim": "Devils",
+              "gast": "Blue Jackets",
+              "ergebnis": "3:2"
+            },
+            {
+              "datum": "Di 24.11.",
+              "heim": "Islanders",
+              "gast": "Maple Leafs",
+              "ergebnis": "2:4"
+            },
+            {
+              "datum": "Di 24.11.",
+              "heim": "Senators",
+              "gast": "Flames",
+              "ergebnis": "2:1"
+            },
+            {
+              "datum": "Di 24.11.",
+              "heim": "Kraken",
+              "gast": "Ducks",
+              "ergebnis": "3:2"
+            },
+            {
+              "datum": "Di 24.11.",
+              "heim": "Sharks",
+              "gast": "Wild",
+              "ergebnis": "2:5"
+            },
+            {
+              "datum": "Di 24.11.",
+              "heim": "Jets",
+              "gast": "Mammoth",
+              "ergebnis": "4:2"
+            }
+          ],
+          "hinweis": "Heute Nacht (Mi 25.11., US-Zeit) 14 Spiele vor Thanksgiving; Ansetzungen folgen beim nächsten Lauf."
+        }
       },
       {
         "kurz": "MLB",
@@ -2676,7 +3532,48 @@
             ]
           }
         ],
-        "stand": "Saisonpause: Abschlusstabelle der regulären Saison 2026"
+        "stand": "Saisonpause: Abschlusstabelle der regulären Saison 2026",
+        "spiele": {
+          "naechste": [],
+          "letzte": [
+            {
+              "datum": "Do 29.10.",
+              "heim": "Tampa Bay Rays",
+              "gast": "Milwaukee Brewers",
+              "ergebnis": "1:4",
+              "info": "World Series, Spiel 5 – Brewers Champion (4:1)"
+            },
+            {
+              "datum": "Mi 28.10.",
+              "heim": "Tampa Bay Rays",
+              "gast": "Milwaukee Brewers",
+              "ergebnis": "4:3",
+              "info": "World Series, Spiel 4, Extra Innings"
+            },
+            {
+              "datum": "Di 27.10.",
+              "heim": "Tampa Bay Rays",
+              "gast": "Milwaukee Brewers",
+              "ergebnis": "1:10",
+              "info": "World Series, Spiel 3"
+            },
+            {
+              "datum": "So 25.10.",
+              "heim": "Milwaukee Brewers",
+              "gast": "Tampa Bay Rays",
+              "ergebnis": "5:4",
+              "info": "World Series, Spiel 2"
+            },
+            {
+              "datum": "Sa 24.10.",
+              "heim": "Milwaukee Brewers",
+              "gast": "Tampa Bay Rays",
+              "ergebnis": "3:2",
+              "info": "World Series, Spiel 1"
+            }
+          ],
+          "hinweis": "Saisonpause. Saisonstart 2027: Eröffnungsspiel Mi 24.03.2027, Opening Day Do 25.03.2027."
+        }
       }
     ]
   },
