@@ -1,5 +1,5 @@
 {
-  "aktualisiert": "25.11.2026, 12:15 Uhr",
+  "aktualisiert": "25.11.2026, 12:35 Uhr",
   "maerkte": {
     "schlagzeilen": [
       {
@@ -538,6 +538,129 @@
           "ist": null
         }
       ]
+    },
+    "unternehmenskalender": {
+      "stand": "25.11., 12:35 Uhr",
+      "termine": [
+        {
+          "zeit": "2026-11-24T22:05:00+01:00",
+          "zeit_text": "nb.",
+          "land": "US",
+          "wichtig": 3,
+          "was": "Dell: Zahlen Q3 GJ 2027",
+          "prognose": "EPS 6,59 $",
+          "vorher": "EPS 2,59 $",
+          "ist": "EPS 9,45 $",
+          "abweichung": "hoeher",
+          "lesart": "Umsatz +103 % auf 54,9 Mrd. $ dank KI-Servern; Jahresprognose auf 202 Mrd. $ Umsatz angehoben, dazu 25 Mrd. $ zusätzliche Rückkäufe."
+        },
+        {
+          "zeit": "2026-11-25T12:00:00+01:00",
+          "ohne_zeit": true,
+          "zeit_text": "vb.",
+          "land": "US",
+          "wichtig": 2,
+          "was": "Deere: Zahlen Q4 GJ 2026",
+          "prognose": "EPS 4,03 $",
+          "vorher": "EPS 3,93 $",
+          "ist": null,
+          "lesart": "Entscheidend ist der erste Ausblick auf das Geschäftsjahr 2027 (Telefonkonferenz 16:00 Uhr); Konsens-Umsatz 10,4 Mrd. $."
+        },
+        {
+          "zeit": "2026-11-26T12:00:00+01:00",
+          "ohne_zeit": true,
+          "zeit_text": "ganztägig",
+          "land": "US",
+          "wichtig": 2,
+          "was": "US-Börsen: Thanksgiving, geschlossen",
+          "prognose": null,
+          "vorher": null,
+          "ist": null
+        },
+        {
+          "zeit": "2026-11-27T19:00:00+01:00",
+          "land": "US",
+          "wichtig": 1,
+          "was": "US-Börsen: Black Friday, verkürzter Handel bis 19:00 Uhr",
+          "prognose": null,
+          "vorher": null,
+          "ist": null
+        },
+        {
+          "zeit": "2026-12-01T12:00:00+01:00",
+          "ohne_zeit": true,
+          "land": "DE",
+          "wichtig": 1,
+          "was": "KWS Saat: Hauptversammlung",
+          "prognose": "Dividende 1,30 €",
+          "vorher": null,
+          "ist": null
+        },
+        {
+          "zeit": "2026-12-01T22:05:00+01:00",
+          "zeit_text": "nb.",
+          "land": "US",
+          "wichtig": 3,
+          "was": "CrowdStrike: Zahlen Q3 GJ 2027",
+          "prognose": null,
+          "vorher": null,
+          "ist": null,
+          "lesart": "Telefonkonferenz 23:00 Uhr."
+        },
+        {
+          "zeit": "2026-12-02T12:00:00+01:00",
+          "ohne_zeit": true,
+          "land": "DE",
+          "wichtig": 1,
+          "was": "KWS Saat: Ex-Dividende",
+          "prognose": "1,30 €",
+          "vorher": null,
+          "ist": null
+        },
+        {
+          "zeit": "2026-12-02T22:05:00+01:00",
+          "zeit_text": "nb.",
+          "land": "US",
+          "wichtig": 3,
+          "was": "Salesforce: Zahlen Q3 GJ 2027",
+          "prognose": null,
+          "vorher": null,
+          "ist": null,
+          "lesart": "Telefonkonferenz 23:00 Uhr; Gradmesser für Software-Nachfrage und KI-Agenten."
+        },
+        {
+          "zeit": "2026-12-02T22:05:00+01:00",
+          "zeit_text": "nb.",
+          "land": "US",
+          "wichtig": 2,
+          "was": "Snowflake: Zahlen Q3 GJ 2027 (Termin erwartet, nicht bestätigt)",
+          "prognose": "EPS 0,60 $",
+          "vorher": "EPS 0,35 $",
+          "ist": null
+        },
+        {
+          "zeit": "2026-12-09T22:05:00+01:00",
+          "zeit_text": "nb.",
+          "land": "US",
+          "wichtig": 3,
+          "was": "Broadcom: Zahlen Q4 und Geschäftsjahr 2026",
+          "prognose": null,
+          "vorher": null,
+          "ist": null,
+          "lesart": "Telefonkonferenz 23:00 Uhr; wichtiger Test für KI-Netzwerk- und Chip-Nachfrage."
+        },
+        {
+          "zeit": "2026-12-10T12:00:00+01:00",
+          "ohne_zeit": true,
+          "zeit_text": "ganztägig",
+          "land": "US",
+          "wichtig": 1,
+          "was": "Medtronic: Investorentag (bis 11.12.)",
+          "prognose": null,
+          "vorher": null,
+          "ist": null
+        }
+      ]
     }
   },
   "politik": {
@@ -1035,7 +1158,68 @@
         "gouverneure_hinweis": "Farbe = amtierender Gouverneur. Gestrichelt: bei der Wahl am 3.11. an die Demokraten gewechselt (Alaska ab 7.12.2026, übrige ab Januar 2027). Ab Januar: 30 Demokraten, 20 Republikaner.",
         "quelle": "Quellen: Wikipedia (List of current United States governors), Governing.com, Yahoo News (Endergebnisse Midterms 2026, Stand 22.11.2026)."
       }
-    }
+    },
+    "recht_eu": [
+      {
+        "tag": "EuGH",
+        "titel": "EuGH bestätigt Corona-Staatshilfen für KLM und Condor",
+        "warum": "Das Gericht hob zwei Urteile des EuG auf: Die 3,4 Mrd. € niederländische Hilfe für KLM und 321 Mio. € für Condor bleiben genehmigt; der KLM-Fall geht zur Prüfung der übrigen Ryanair-Rügen zurück ans EuG.",
+        "quelle": "ch-aviation",
+        "url": "https://www.ch-aviation.com/news/173648-eu-court-upholds-covid-state-aid-to-klm-condor",
+        "zeit": "05.11.",
+        "medien": [
+          "ch-aviation",
+          "MLex"
+        ]
+      },
+      {
+        "tag": "Kommission",
+        "titel": "890 Mio. € DMA-Strafe gegen Google",
+        "warum": "Erste große DMA-Geldbußen: 460 Mio. € für Selbstbevorzugung in der Google-Suche und 430 Mio. € für Steering-Beschränkungen im Play Store.",
+        "quelle": "EU-Kommission",
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1670",
+        "zeit": "07.2026",
+        "medien": [
+          "EU-Kommission",
+          "EU Perspectives"
+        ]
+      }
+    ],
+    "recht_usa": [
+      {
+        "tag": "Supreme Court",
+        "titel": "Supreme Court vertagt Entscheidung über Abweisung des großen Waffenrechtsfalls",
+        "warum": "Der Antrag von Cook County, den Fall Khaya als erledigt abzuweisen, wird erst nach der mündlichen Verhandlung am 2. Dezember entschieden – der Zweite-Zusatzartikel-Fall bleibt vorerst auf der Agenda.",
+        "quelle": "SCOTUSblog",
+        "url": "https://www.scotusblog.com/2026/11/supreme-court-defers-decision-on-whether-to-dismiss-major-gun-case/",
+        "zeit": "24.11.",
+        "medien": [
+          "SCOTUSblog"
+        ]
+      },
+      {
+        "tag": "Supreme Court",
+        "titel": "Klimazuschüsse: Regierung zieht Eilantrag zurück",
+        "warum": "Die Trump-Regierung hatte den Streit um gestrichene Klima-Fördergelder nach Washington gebracht, zog den Antrag auf Eilentscheidung dann aber zurück.",
+        "quelle": "SCOTUSblog",
+        "url": "https://www.scotusblog.com/2026/11/trump-administration-brings-climate-grant-dispute-to-scotus/",
+        "zeit": "20.11.",
+        "medien": [
+          "SCOTUSblog"
+        ]
+      },
+      {
+        "tag": "Supreme Court",
+        "titel": "Supreme Court nimmt Fall zum Asylstopp an der Grenze an",
+        "warum": "Das Gericht prüft, ob der Präsident Asylanträge an der Südgrenze per Proklamation aussetzen darf – ein Kernstück der Migrationspolitik.",
+        "quelle": "SCOTUSblog",
+        "url": "https://www.scotusblog.com/2026/11/scotus-grants-asylum-ban-case/",
+        "zeit": "16.11.",
+        "medien": [
+          "SCOTUSblog"
+        ]
+      }
+    ]
   },
   "sport": {
     "ligen": [
@@ -5005,8 +5189,20 @@
       ]
     },
     "energie_co2": {
-      "lage": "",
+      "lage": "Der EUA-Dezemberkontrakt erlebte die schärfste Wochenkorrektur seit Februar (−7,8 % auf 81 €/t), erholte sich aber auf 83,75 €. Kälte und Kohleverstromung stützen, fehlende Compliance-Nachfrage bremst.",
       "meldungen": [
+        {
+          "tag": "CO₂",
+          "titel": "EU-CO₂-Preis erholt sich auf 83,75 €/t",
+          "warum": "Kältere Wetterprognosen hoben den Dezember-Future am Montag um 3,1 %.",
+          "quelle": "CBAM News",
+          "url": "https://cbam.news/eu-carbon-rebounds-to-e83-75-as-colder-forecasts-and-policy-uncertainty-reshape-balkan-export-costs/",
+          "zeit": "24.11., 14:12",
+          "medien": [
+            "CBAM News",
+            "Emba Power"
+          ]
+        },
         {
           "tag": "CO₂",
           "titel": "EU-CO₂-Preis wieder über 90 €/t",
@@ -5031,7 +5227,7 @@
       ]
     },
     "energie_strom": {
-      "lage": "",
+      "lage": "Erneuerbare deckten im ersten Halbjahr 2026 einen Rekordanteil von 58 % des deutschen Stromverbrauchs, getrieben vom Offshore-Wind. Die Debatte dreht sich nun um Netzausbau und dessen Kosten.",
       "meldungen": [
         {
           "tag": "Strom",
@@ -5040,6 +5236,99 @@
           "quelle": "Clean Energy Wire",
           "url": "https://www.cleanenergywire.org/news/renewables-covered-record-58-german-electricity-consumption-first-half-2026",
           "zeit": "01.07."
+        }
+      ]
+    },
+    "energie_news": {
+      "lage": "Öl fällt trotz Hormus, weil der Markt ein Überangebot erwartet; Gas ist wegen leerer Speicher, Kälte und der Katar-Force-Majeure teuer. Der CO₂-Preis hat nach einem scharfen Wochenverlust wieder angezogen.",
+      "meldungen": [
+        {
+          "tag": "Öl",
+          "titel": "Brent fällt unter 91 $ trotz neuer Angriffe in Hormus",
+          "warum": "Mehr Angebot außerhalb des Golfs wiegt schwerer als die Minen-Angriffe; WTI bei rund 81,65 $.",
+          "quelle": "Free Press Journal",
+          "url": "https://www.freepressjournal.in/business/crude-oil-prices-slip-as-brent-falls-below-91-amid-rising-supply-strait-of-hormuz-attacks-and-us-iran-tensions",
+          "zeit": "25.11."
+        },
+        {
+          "tag": "Seewege",
+          "titel": "Containerreedereien kehren in den Suezkanal zurück",
+          "warum": "Mit der Ever Gifted (16.11.) haben alle großen Linien wieder den Suezkanal genutzt; der Verkehr liegt bei rund zwei Dritteln des Vorkrisenniveaus.",
+          "quelle": "VesselTrackr",
+          "url": "https://www.vesseltrackr.com/red-sea-shipping-update/",
+          "zeit": "22.11.",
+          "medien": [
+            "Lloyd's List",
+            "Freightos"
+          ]
+        }
+      ]
+    },
+    "energie_routen": {
+      "lage": "Hormus bleibt der Engpass: Minen und die US-Blockade iranischer Häfen drücken den Tankerverkehr um über 40 %. Im Roten Meer normalisiert sich die Lage dagegen, Suez-Transits erreichen Rekordwerte seit Krisenbeginn, während Ausweichrouten über das Kap an Bedeutung verlieren.",
+      "meldungen": [
+        {
+          "tag": "Suez",
+          "titel": "Suezkanal: Oktober mit 1.490 Durchfahrten, Einnahmen +94 %",
+          "warum": "Fünfter Rekordmonat in Folge seit Krisenbeginn; Gemini-Dienste kehren ab 4.12. zurück, Hapag-Lloyd plant die volle Rückkehr Anfang 2027.",
+          "quelle": "VesselTrackr",
+          "url": "https://www.vesseltrackr.com/red-sea-shipping-update/",
+          "zeit": "22.11.",
+          "medien": [
+            "Lloyd's List",
+            "Freightos"
+          ]
+        },
+        {
+          "tag": "Hormus",
+          "titel": "Hormus-Verkehr binnen zwei Wochen um mehr als 40 % eingebrochen",
+          "warum": "Laut MarineTraffic passierten vom 17. bis 23.11. nur 125 Schiffe die Meerenge nach 226 in der ersten Novemberwoche; vor dem Krieg waren es 125 bis 140 pro Tag.",
+          "quelle": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/24/hormuz-oil-traffic-is-down-40-percent-are-irans-tanker-attacks-working",
+          "zeit": "24.11.",
+          "medien": [
+            "Al Jazeera"
+          ]
+        },
+        {
+          "tag": "Hormus",
+          "titel": "Iran meldet Minentreffer: Mehrere Öltanker in der Straße von Hormus in Brand",
+          "warum": "Teheran erklärt, die Meerenge bleibe zu, bis seine Bedingungen erfüllt sind – das verschärft das Risiko für ein Fünftel des seeweiten Ölhandels.",
+          "quelle": "The Tribune",
+          "url": "https://www.tribuneindia.com/news/iran/four-oil-tankers-explode-catch-fire-after-hitting-naval-mines-in-hormuz-irans-navy",
+          "zeit": "24.11., 17:47",
+          "medien": [
+            "The Tribune",
+            "Middle East Monitor",
+            "Epoch Times"
+          ]
+        },
+        {
+          "tag": "Iran",
+          "titel": "Iran erwägt Tanker-Konvoi nach China, um die US-Blockade zu durchbrechen",
+          "warum": "Bei 88,7 % Inflation drängt die Wirtschaftslage Teheran zu riskanten Exportversuchen; das Staatsfernsehen dementiert, dass ein Konvoi schon ausgelaufen ist.",
+          "quelle": "The National",
+          "url": "https://www.thenationalnews.com/news/gulf/2026/11/24/is-iran-weighing-tanker-convoy-to-break-us-blockade/",
+          "zeit": "24.11., 11:05",
+          "medien": [
+            "The National"
+          ]
+        }
+      ]
+    },
+    "energie_preise": {
+      "lage": "Im Haushaltsentwurf 2027 sind erstmals 2,4 Mrd. € für einen Industriestrompreis vorgesehen, der Zuschuss zu den Übertragungsnetzentgelten sinkt dagegen von 6,5 auf 5,5 Mrd. €. Der Bundestag schließt die Haushaltsberatungen in dieser Woche ab.",
+      "meldungen": [
+        {
+          "tag": "Strompreis",
+          "titel": "Haushalt 2027: 2,4 Mrd. € für Industriestrompreis, weniger Netzentgelt-Zuschuss",
+          "warum": "Entwurf (Drucksache 21/7300): neuer Titel Industriestrompreis 2,445 Mrd. €, Übertragungsnetzzuschuss 5,525 Mrd. € (−975 Mio. €) – Netzentgelte könnten 2027 weniger stark gedämpft werden.",
+          "quelle": "Severint",
+          "url": "https://www.severint.net/2026/11/09/haushalt-2027-industriestrompreis-uebertragungsnetzzuschuss/",
+          "zeit": "09.11.",
+          "medien": [
+            "Severint"
+          ]
         }
       ]
     }
@@ -5721,7 +6010,7 @@
     "humanitaer_quelle": "UN-Menschenrechtsmission Ukraine (16.11.), OCHA, WFP, Al Jazeera (2. und 14.11.), CBS News (24.11.); Stand 25.11."
   },
   "briefing": {
-    "stand": "25.11., 12:15 Uhr",
+    "stand": "25.11., 12:35 Uhr",
     "saetze": [
       {
         "tag": "Märkte",
@@ -5958,9 +6247,9 @@
     ]
   },
   "energie": {
-    "stand": "25.11. 12:15",
+    "stand": "25.11. 12:35",
     "oel": {
-      "lage": "Die Straße von Hormus ist seit Kriegsbeginn am 28.2. nur eingeschränkt passierbar, Minen trafen zuletzt einen vierten Tanker. Trotzdem fällt Brent auf rund 88–91 $, weil die Förderung außerhalb des Golfs steigt und die IEA für dieses Quartal ein Überangebot erwartet.",
+      "lage": "Die Straße von Hormus ist seit Kriegsbeginn am 28.2. nur eingeschränkt passierbar, Minen trafen zuletzt weitere Tanker. Trotzdem rutscht Brent am Mittwoch von gut 91 $ in Richtung 87–88 $, weil die IEA für dieses Quartal ein Überangebot erwartet und Libyens Sharara-Pipeline wieder liefert; am 29.11. berät OPEC+ über die Quoten 2027.",
       "foerderung": [
         {
           "land": "USA",
@@ -6208,8 +6497,8 @@
       "quelle": "UBA, EEA, UNFCCC-NDCs, Climate Action Tracker; Stände gerundet"
     },
     "eua": {
-      "wert": null,
-      "datum": null
+      "wert": 83.75,
+      "datum": "23.11."
     },
     "termine": [
       {
@@ -6236,11 +6525,27 @@
     "news": [
       {
         "tag": "Öl",
-        "titel": "Brent fällt unter 91 $ trotz neuer Angriffe in Hormus",
-        "warum": "Mehr Angebot außerhalb des Golfs wiegt schwerer als die Minen-Angriffe; WTI bei rund 81,65 $.",
-        "quelle": "Free Press Journal",
-        "url": "https://www.freepressjournal.in/business/crude-oil-prices-slip-as-brent-falls-below-91-amid-rising-supply-strait-of-hormuz-attacks-and-us-iran-tensions",
-        "zeit": "25.11."
+        "titel": "Ölpreise fallen: Überangebot wiegt schwerer als Hormus-Risiko",
+        "warum": "Brent gab früh auf 90,97 $ nach, WTI auf 81,58 $; die IEA-Prognose eines Überschusses dämpft, OPEC+ trifft sich am 29.11.",
+        "quelle": "Reuters",
+        "url": "https://www.brecorder.com/news/40450651/oil-prices-fall-as-supply-glut-concerns-offset-middle-east-disruption-fears",
+        "zeit": "25.11., 03:49",
+        "medien": [
+          "Reuters",
+          "CNBC"
+        ]
+      },
+      {
+        "tag": "CO₂",
+        "titel": "CO₂-Preis mit größtem Wochenverlust seit Februar",
+        "warum": "Der EUA-Dezemberkontrakt fiel um 7,8 % auf 81,26 €/t (kurz 80,03 €, tiefster Stand seit Juli), bevor kältere Prognosen ihn am Montag auf 83,75 € hoben.",
+        "quelle": "Emba Power",
+        "url": "https://www.embapower.ro/2026/11/23/european-carbon-market-post-its-biggest-weekly-decline-in-9-months/",
+        "zeit": "23.11.",
+        "medien": [
+          "Emba Power",
+          "CBAM News"
+        ]
       },
       {
         "tag": "Gas",
