@@ -6,15 +6,9 @@ jobs:
   p:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python scripts/probe_energie.py
       - run: |
           t() { echo "=== $1"; curl -sL --http1.1 -m 25 -D /tmp/h -o /tmp/o "$@"; grep -iE "^HTTP|content-type" /tmp/h; head -c 500 /tmp/o; echo; }
-          t "https://ir.eia.gov/wpsr/table1.csv"
-          t "https://ir.eia.gov/wpsr/table4.csv"
-          for s in WCESTUS1 WCSSTUS1 WGTSTUS1 WDISTUS1 DCOILWTICO DHHNGSP; do echo "-- $s"; curl -s --http1.1 -m 30 "https://fred.stlouisfed.org/graph/fredgraph.csv?id=$s" | tail -2; done
-          t "https://public.eex-group.com/eex/eua-auction-report/emission-spot-primary-market-auction-report-2026-data.xlsx"
-          t "https://api.energy-charts.info/ren_share_daily_avg?country=eu"
-          t "https://api.energy-charts.info/public_power?country=eu"
-          t "https://api.energy-charts.info/price?bzn=PL"
-          t "https://api.energy-charts.info/openapi.json"
-          t "https://www.finanzen.net/rohstoffe/co2-emissionsrechte"
-          t "https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=@LCO.1&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json"
