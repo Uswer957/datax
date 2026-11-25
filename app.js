@@ -743,7 +743,7 @@
     const w = txt("div", "stress", ""), a = txt("div", "", "");
     a.appendChild(txt("div", "note", "US Financial Stress"));
     const big = txt("div", "big", nf(s.wert, 2)); big.style.color = col; a.appendChild(big);
-    const lv = txt("div", "lvl", s.stufe); lv.style.color = col; a.appendChild(lv);
+    const lv = txt("div", "slvl", s.stufe); lv.style.color = col; a.appendChild(lv);
     const g = txt("div", "gauge", ""); const mk = txt("span", "mk", ""); mk.style.left = Math.max(0, Math.min(100, s.perzentil)) + "%"; g.appendChild(mk); a.appendChild(g);
     const gl = txt("div", "gauge-l", ""); gl.appendChild(txt("span", "", "Hoher Stress")); gl.appendChild(txt("span", "", "Entspannt")); a.appendChild(gl);
     a.appendChild(txt("p", "note", `Perzentil ${s.perzentil} der letzten 2 Jahre (Spanne ${nf(s.min, 2)} – ${nf(s.max, 2)}, Median ${nf(s.median, 2)})`));
