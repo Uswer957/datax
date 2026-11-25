@@ -1,65 +1,89 @@
 {
-  "aktualisiert": "24.11.2026, 18:03 Uhr",
+  "aktualisiert": "25.11.2026, 05:12 Uhr",
   "maerkte": {
     "schlagzeilen": [
       {
-        "tag": "Unternehmen",
-        "titel": "Sanofi kauft Insmed für 41 Mrd. Dollar (175 $ je Aktie in bar)",
-        "warum": "Größter Pharma-Deal des Jahres: Sanofi sichert sich mit Brinsupri einen Blockbuster gegen das Dupixent-Patentende; Sanofi-Aktie in Paris rund +5,6 %.",
-        "quelle": "Reuters",
-        "url": "https://www.investing.com/news/stock-market-news/europes-stoxx-600-subdued-after-aidriven-rally-5047331",
-        "zeit": "24.11.",
+        "tag": "Märkte",
+        "titel": "Asiens Börsen brechen ein: Kospi über −6 %, Taiex zeitweise −7,9 %, Nikkei −3,6 %",
+        "warum": "Die Huang-Rally kehrt sich um: Zweifel, ob Big Tech die Billionen-Ausgaben für KI durchhält; Tokyo Electron −13,5 %, Advantest −14,5 %, TSMC und Samsung rund −9 %. Nur Hongkong legt zu.",
+        "quelle": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/11/25/asias-stock-markets-dive-as-doubts-to-swirl-over-ai-boom",
+        "zeit": "25.11.",
         "medien": [
-          "Reuters",
-          "Bloomberg"
-        ]
-      },
-      {
-        "tag": "Unternehmen",
-        "titel": "HPE bricht trotz Zahlen-Beat und höherer Prognose um rund 12 % ein",
-        "warum": "Für 2027 erwartet HPE nur noch rund 14 % Marge im Cloud- und KI-Geschäft (zuvor 18,4 %); ein Warnsignal für die Margen der KI-Server-Hersteller vor den Dell-Zahlen.",
-        "quelle": "Reuters",
-        "url": "https://1027wbow.com/2026/11/24/hpe-shares-fall-as-margin-worries-overshadow-raised-outlook/",
-        "zeit": "24.11., 13:45",
-        "medien": [
+          "Al Jazeera",
           "Reuters"
         ]
       },
       {
-        "tag": "KI",
-        "titel": "Anthropic-Aktie rutscht unter den Ausgabepreis von 83 Dollar",
-        "warum": "Fünf Tage nach dem Rekord-Börsengang (81,3 Mrd. Dollar) dreht die Stimmung; Analysten verweisen auf Kapitalbedarf und Gewinnmitnahmen.",
-        "quelle": "Forbes",
-        "url": "https://www.forbes.com/sites/zacharyfolk/2026/11/24/anthropic-stock-falls-below-83-per-share-ipo-price/",
-        "zeit": "24.11., 15:06",
+        "tag": "Märkte",
+        "titel": "Nasdaq −1,5 %, S&P 500 −0,5 % – Dow schließt erstmals über 50.000",
+        "warum": "Chipindex −7,9 % einen Tag nach dem Nvidia-Rekordsprung; Anleger schichten in Standardwerte um.",
+        "quelle": "Reuters",
+        "url": "https://www.investing.com/news/economy-news/wall-st-futures-dip-as-chip-stocks-cool-after-nvidiafueled-rally-5047567",
+        "zeit": "24.11.",
         "medien": [
-          "Forbes",
-          "CNBC",
-          "Bloomberg"
+          "Reuters",
+          "CNBC"
         ]
       },
       {
-        "tag": "KI",
-        "titel": "Nvidia nach +31 %-Rally vorbörslich rund −5 %",
-        "warum": "Nach Jensen Huangs Rückkehr als CEO (über 1 Billion Dollar Börsenwert an einem Tag) folgen Gewinnmitnahmen bei Chip- und KI-Werten.",
-        "quelle": "Seeking Alpha",
-        "url": "https://seekingalpha.com/news/4676053-chip-ai-stocks-retreat-after-record-breaking-rally-on-huangs-return",
-        "zeit": "24.11., 14:19",
+        "tag": "Unternehmen",
+        "titel": "Dell nachbörslich +4 %, HP +9 % nach starken Zahlen",
+        "warum": "Dell mit 54,9 Mrd. $ Umsatz (erwartet 49,2) und Jahresprognose 202 Mrd. $; Workday und Autodesk trotz Beat rund −4 %.",
+        "quelle": "Investing.com",
+        "url": "https://www.investing.com/news/stock-market-news/afterhours-movers-dell-hpq-adsk-wday-ntnx-urbn-clsk-432SI-5049079",
+        "zeit": "24.11.",
         "medien": [
-          "CNBC",
+          "Investing.com",
+          "CNBC"
+        ]
+      },
+      {
+        "tag": "Unternehmen",
+        "titel": "Nvidia gibt 240 Mrd. $ Börsenwert wieder ab",
+        "warum": "−5,9 % auf 155,38 $ nach dem +31-%-Tag; Bernstein stuft auf Outperform hoch (Ziel 200 $).",
+        "quelle": "Motley Fool",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/11/24/stock-market-today-nov-24-nvidia-gives-back-usd240-billion-in-market-value-despite-wall-street-upgrade-signaling-29-upside/",
+        "zeit": "24.11., 22:29",
+        "medien": [
+          "Motley Fool",
           "Reuters"
         ]
       },
       {
         "tag": "Geldpolitik",
-        "titel": "Märkte preisen Fed-Zinserhöhung im Dezember vollständig ein",
-        "warum": "Laut CME FedWatch ist ein Schritt um 25 Basispunkte sicher eingepreist; der Euro fiel nahe an ein 18-Monats-Tief bei 1,0907 Dollar.",
-        "quelle": "Reuters (Business Recorder)",
-        "url": "https://www.brecorder.com/news/40450476/dollar-climbs-as-renewed-ai-euphoria-fuels-fed-hike-bets",
-        "zeit": "24.11., 03:58",
+        "titel": "Gold fällt vor PCE-Daten, Fed-Zinserhöhung im Dezember zu 96 % eingepreist",
+        "warum": "Spot-Gold bei rund 3.545 $ nach −2 % am Vortag; die PCE-Inflation (14:30 Uhr MEZ) ist der letzte große Preisdatenpunkt vor der Fed-Sitzung am 9.12.",
+        "quelle": "Reuters",
+        "url": "https://www.brecorder.com/news/40450657/gold-ticks-lower-ahead-of-us-inflation-data",
+        "zeit": "25.11., 04:13",
         "medien": [
           "Reuters",
-          "Axios"
+          "CNBC"
+        ]
+      },
+      {
+        "tag": "Energie",
+        "titel": "Brent um 90 Dollar – tiefster Stand seit Ende August",
+        "warum": "Trotz Iran-Blockade fließt laut CENTCOM mehr Öl durch Hormus (108 Mio. Barrel letzte Woche); der November-Abverkauf beträgt rund 20 %.",
+        "quelle": "CBS News",
+        "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-blockade-strait-of-hormuz-ship-attacks/",
+        "zeit": "24.11., 19:42",
+        "medien": [
+          "CBS News",
+          "Reuters"
+        ]
+      },
+      {
+        "tag": "Recht",
+        "titel": "Huawei in Brooklyn in 10 von 12 Anklagepunkten schuldig gesprochen",
+        "warum": "Geschworene sehen Iran-Sanktionsverstöße und Betrug belegt; Strafmaß im September 2027 – neuer Stresstest für die US-China-Beziehungen.",
+        "quelle": "CBS News",
+        "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-blockade-strait-of-hormuz-ship-attacks/",
+        "zeit": "25.11., 00:33",
+        "medien": [
+          "CBS News",
+          "AP"
         ]
       },
       {
@@ -72,30 +96,6 @@
         "medien": [
           "Handelsblatt",
           "dpa"
-        ]
-      },
-      {
-        "tag": "Energie",
-        "titel": "Brent fällt auf Drei-Monats-Tief bei rund 88,60 Dollar",
-        "warum": "Steigendes Angebot wiegt die Hormus-Sperre auf; Deutsche Bank schätzt das Überangebot im Oktober auf 1,7 Mio. Barrel pro Tag.",
-        "quelle": "Reuters (Business Recorder)",
-        "url": "https://www.brecorder.com/news/40450477/oil-touches-three-month-lows-as-rising-supply-offsets-hormuz-threat",
-        "zeit": "24.11., 04:04",
-        "medien": [
-          "Reuters",
-          "Wall Street Journal"
-        ]
-      },
-      {
-        "tag": "Börse",
-        "titel": "DAX fällt 1,3 % auf 25.018 Punkte – Nvidia-Schub verpufft",
-        "warum": "Nach der Tech-Rally vom Montag fehlen Anschlusskäufe; MDax −1,7 %, EuroStoxx 50 −1,2 %, der DAX liegt rund 8 % unter seinem Rekord von Mitte November.",
-        "quelle": "dpa",
-        "url": "https://www.finanzen.net/nachricht/aktien/aktien-frankfurt-schluss-rueckschlag-nach-tech-kursrally-fehlen-anschlusskaeufe-16084455",
-        "zeit": "24.11., 17:47",
-        "medien": [
-          "dpa",
-          "wallstreet-online"
         ]
       }
     ],
@@ -139,12 +139,12 @@
     "verschuldung_quelle": "Quote: IWF Fiscal Monitor April 2026 (Stand 2025), via Analysis Atlas. Absolut: Destatis (DE, Q1 2026), US-Treasury (Sept. 2026), Japan Zentralregierung (Juni 2026), INSEE (März 2026).",
     "termine": [
       {
-        "datum": "24.11.",
-        "was": "Dell, HP, Workday, Autodesk: Quartalszahlen nachbörslich"
-      },
-      {
         "datum": "25.11.",
         "was": "Deere & Company: Quartalszahlen vorbörslich"
+      },
+      {
+        "datum": "26.11.",
+        "was": "US-Börsen wegen Thanksgiving geschlossen"
       },
       {
         "datum": "01.12.",
@@ -174,7 +174,7 @@
     "renditen": [
       {
         "land": "Deutschland",
-        "rendite": "3,28 %"
+        "rendite": "3,26 %"
       },
       {
         "land": "USA",
@@ -186,24 +186,24 @@
       },
       {
         "land": "Frankreich",
-        "rendite": "4,77 %"
+        "rendite": "4,78 %"
       },
       {
         "land": "Italien",
-        "rendite": "4,35 %"
+        "rendite": "4,36 %"
       },
       {
         "land": "Japan",
-        "rendite": "2,72 %"
+        "rendite": "2,68 %"
       },
       {
         "land": "China",
-        "rendite": "1,61 %"
+        "rendite": "1,60 %"
       }
     ],
-    "renditen_stand": "Stand 24.11. (Italien 23.11.), Quelle: Trading Economics",
+    "renditen_stand": "Stand 25.11., 05:00 Uhr (Schlusskurse 24./25.11.), Quelle: Trading Economics",
     "watchlist": {
-      "stand": "Stand 24.11., 18:03 Uhr",
+      "stand": "Stand 25.11., 05:30 Uhr",
       "maerkte": [
         {
           "markt": "USA",
@@ -212,32 +212,32 @@
             {
               "name": "Nvidia",
               "symbol": "NASDAQ:NVDA",
-              "grund": "Nach +31 % am Montag (Huang wieder CEO) vorbörslich rund −5 %; größtes Indexgewicht."
+              "grund": "−5,9 % am Dienstag nach dem +31-%-Rekordtag; Bernstein stuft auf Outperform (Ziel 200 $), Asiens Chipwerte brechen heute ein."
             },
             {
               "name": "Dell",
               "symbol": "NYSE:DELL",
-              "grund": "Quartalszahlen heute nachbörslich; vorbörslich rund −7 %, nachdem HPE schwächere KI-Margen angekündigt hat."
+              "grund": "Nachbörslich rund +4 %: Umsatz 54,9 Mrd. $ statt erwarteter 49,2 Mrd., Jahresprognose auf 202 Mrd. $ angehoben."
             },
             {
-              "name": "Hewlett Packard Enterprise",
-              "symbol": "NYSE:HPE",
-              "grund": "Rund −12 % trotz Zahlen-Beat: Prognose sieht nur noch ca. 14 % Marge im Cloud- und KI-Geschäft."
+              "name": "HP Inc.",
+              "symbol": "NYSE:HPQ",
+              "grund": "Nachbörslich rund +9 % nach Zahlen über den Erwartungen (EPS 0,83 $) und Prognose 3,15–3,45 $ für 2027."
             },
             {
-              "name": "CrowdStrike",
-              "symbol": "NASDAQ:CRWD",
-              "grund": "Will Zscaler für rund 44 Mrd. Dollar kaufen, Aktie unter Druck."
+              "name": "Workday",
+              "symbol": "NASDAQ:WDAY",
+              "grund": "Nachbörslich rund −4 %: Abo-Umsatzprognose knapp unter den Erwartungen."
             },
             {
-              "name": "Insmed",
-              "symbol": "NASDAQ:INSM",
-              "grund": "Übernahmeziel: Sanofi bietet 175 $ je Aktie in bar."
+              "name": "Deere & Company",
+              "symbol": "NYSE:DE",
+              "grund": "Legt heute vor US-Börsenstart Quartalszahlen vor."
             },
             {
               "name": "Anthropic",
               "symbol": "NASDAQ:ANT",
-              "grund": "Fiel am Dienstag vorbörslich unter den Ausgabepreis von 83 $, fünf Tage nach dem Rekord-Börsengang."
+              "grund": "Schloss am Dienstag −6,5 % bei 81,90 $ und damit unter dem Ausgabepreis von 83 $."
             }
           ]
         },
@@ -246,24 +246,24 @@
           "gewicht": "ca. 13 %",
           "titel": [
             {
-              "name": "Sanofi",
-              "symbol": "EURONEXT:SAN",
-              "grund": "Rund +5,6 % nach Ankündigung der 41-Mrd.-Dollar-Übernahme von Insmed."
-            },
-            {
-              "name": "Aixtron",
-              "symbol": "XETR:AIXA",
-              "grund": "Rund −9 % nach Abstufung auf „Sell“ durch UBS."
-            },
-            {
               "name": "Infineon",
               "symbol": "XETR:IFX",
-              "grund": "Über 2 % im Minus, Chipwerte geben nach der Montags-Rally nach."
+              "grund": "Brach am Dienstag um rund 9,7 % ein, größter DAX-Verlierer; heute droht weiterer Druck vom Chip-Ausverkauf in Asien."
+            },
+            {
+              "name": "ASML",
+              "symbol": "EURONEXT:ASML",
+              "grund": "Asiens Chipausrüster stürzen ab (Tokyo Electron −13,5 %, Advantest −14,5 %) – Europas größter Tech-Wert im Fokus."
             },
             {
               "name": "ASM International",
               "symbol": "EURONEXT:ASM",
-              "grund": "Über 2 % im Minus, Gewinnmitnahmen bei Halbleiterausrüstern."
+              "grund": "Halbleiterausrüster, ebenfalls vom KI-Ausverkauf in Asien betroffen."
+            },
+            {
+              "name": "Sanofi",
+              "symbol": "EURONEXT:SAN",
+              "grund": "Nach der 41-Mrd.-Dollar-Übernahme von Insmed im Fokus; defensiver Pharmawert in schwachem Tech-Umfeld."
             }
           ]
         },
@@ -274,12 +274,12 @@
             {
               "name": "Toyota",
               "symbol": "NYSE:TM",
-              "grund": "Größter Wert Japans (US-Notierung); Nikkei schloss +3,9 % auf 58.645 Punkte."
+              "grund": "Größter Wert Japans (US-Notierung); der Nikkei fällt am Mittwoch um rund 3,6 %."
             },
             {
               "name": "Sony",
               "symbol": "NYSE:SONY",
-              "grund": "Japanisches Schwergewicht (US-Notierung)."
+              "grund": "Japanisches Schwergewicht (US-Notierung) im schwachen Tokioter Markt."
             }
           ]
         },
@@ -290,12 +290,12 @@
             {
               "name": "TSMC",
               "symbol": "NYSE:TSM",
-              "grund": "Taiwan-Börse +9 %, TSMC legte fast zweistellig zu (Nvidia-Effekt)."
+              "grund": "Fällt am Mittwoch um mehr als 9 %, Taiex zeitweise −7,9 %: Zweifel am KI-Investitionsboom."
             },
             {
               "name": "Alibaba",
               "symbol": "NYSE:BABA",
-              "grund": "Wehrt sich gegen neue US-Strafmaßnahmen, Aktie gibt nach; Washington verschärft die Chip-Exportkontrollen."
+              "grund": "Hang-Seng-Schwergewicht; Hongkong stemmt sich mit rund +1 % gegen den Ausverkauf in Asien."
             }
           ]
         }
@@ -305,36 +305,47 @@
   "politik": {
     "welt": [
       {
-        "titel": "Trump droht Iran mit neuen Angriffen nach Neujahr",
-        "warum": "Ohne langfristiges Abkommen will Trump wieder angreifen lassen; Teheran kündigt an, mit allen Mitteln gegen die seit Juli wieder verhängte US-Seeblockade vorzugehen.",
-        "quelle": "Fox News",
-        "url": "https://www.foxnews.com/politics/trump-warns-new-strikes-against-iran-after-new-year-calls-negotiators-professional-tap-dancers",
-        "zeit": "22.11., 18:52",
+        "titel": "Houthi-Angriff auf Hochhaus im Finanzviertel von Riad, 11 Verletzte",
+        "warum": "Der Krieg greift auf Saudi-Arabien über; die saudische Koalition reagiert mit Angriffen auf Hodeida, Rubio verurteilt die Houthi-Attacken.",
+        "quelle": "CBS News",
+        "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-blockade-strait-of-hormuz-ship-attacks/",
+        "zeit": "24.11., 16:55",
         "medien": [
-          "Fox News",
+          "CBS News",
           "Reuters"
         ]
       },
       {
-        "titel": "Vance und Rubio empfangen Katars Premier im Weißen Haus",
-        "warum": "Katar vermittelt weiter zwischen Washington und Teheran; ein Durchbruch ist nicht in Sicht.",
-        "quelle": "AP",
-        "url": "https://apnews.com/article/vance-rubio-qatar-iran-war-16e0c2cb05347cfcac068ec4aebb363f",
-        "zeit": "23.11.",
+        "titel": "Trump: Sturz des Iran-Regimes „wohl machbar“, aber nicht sein Kriegsziel",
+        "warum": "Kriegsfinanzierung reiche bis etwa Ende Januar; der ab Januar demokratische Kongress könnte seine Optionen einschränken.",
+        "quelle": "Jerusalem Post",
+        "url": "https://www.jpost.com/middle-east/iran-news/article-916036",
+        "zeit": "25.11.",
         "medien": [
-          "AP"
+          "Jerusalem Post",
+          "New York Post"
         ]
       },
       {
-        "titel": "Moskau wirft Estland Handlungen „am Rande eines offenen Krieges“ vor",
-        "warum": "Estland schließt nach einem mutmaßlichen GRU-Sabotageplan gegen einen Drohnenhersteller seine Grenzübergänge; Russland spricht vom „neuen Eisernen Vorhang“.",
+        "titel": "Israels Verteidigungsminister: Iran entwickelt Chemiewaffen",
+        "warum": "Katz bringt einen Präventivschlag ins Spiel; Teheran will die Straße von Hormus weiter abriegeln.",
+        "quelle": "CBS News",
+        "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-blockade-strait-of-hormuz-ship-attacks/",
+        "zeit": "24.11., 19:20",
+        "medien": [
+          "CBS News",
+          "Reuters"
+        ]
+      },
+      {
+        "titel": "Russischer Angriff auf Saporischschja: 2 Tote, Dutzende Verletzte",
+        "warum": "Lettlands Präsident Rinkēvičs sieht 2027 einen möglichen Wendepunkt im Krieg.",
         "quelle": "Reuters",
-        "url": "https://www.reuters.com/world/moscow-accuses-estonia-hostile-actions-verge-triggering-open-war-2026-11-23/",
-        "zeit": "23.11.",
+        "url": "https://www.reuters.com/world/russian-attack-kills-2-people-wounds-22-ukraines-zaporizhzhia-official-says-2026-11-24/",
+        "zeit": "24.11.",
         "medien": [
           "Reuters",
-          "NBC News",
-          "Al Jazeera"
+          "Politico Europe"
         ]
       },
       {
@@ -347,20 +358,29 @@
           "Reuters",
           "Euronews"
         ]
-      },
-      {
-        "titel": "Analyse: über 700.000 russische Soldaten in der Ukraine getötet",
-        "warum": "Die Verluste übersteigen alle bisherigen Schätzungen; Lettlands Präsident sieht 2027 einen möglichen Kipppunkt des Krieges.",
-        "quelle": "New York Times",
-        "url": "https://www.nytimes.com/2026/11/23/world/europe/russia-ukraine-war-deaths.html",
-        "zeit": "23.11.",
-        "medien": [
-          "New York Times",
-          "Reuters"
-        ]
       }
     ],
     "usa": [
+      {
+        "titel": "Senat prüft Vances Rolle bei Venezuela-Ölvertrag für Vitol",
+        "warum": "Exklusiv: Ein Senatsausschuss untersucht, ob der Vizepräsident dem Rohstoffhändler zu einem begehrten Vertrag verhalf.",
+        "quelle": "Reuters",
+        "url": "https://www.reuters.com/business/energy/exclusive-jd-vances-ties-prized-venezuelan-oil-contract-under-investigation-by-2026-11-23/",
+        "zeit": "23.11.",
+        "medien": [
+          "Reuters"
+        ]
+      },
+      {
+        "titel": "Hegseths früherer Stabschef fordert dessen Rücktritt",
+        "warum": "Joe Kasper wirft dem Verteidigungsminister Führungsversagen vor – neuer Druck mitten im Iran-Krieg.",
+        "quelle": "Politico",
+        "url": "https://www.politico.com/news/2026/11/23/joe-kasper-hegseth-criticism-pentagon-01180149",
+        "zeit": "23.11.",
+        "medien": [
+          "Politico"
+        ]
+      },
       {
         "titel": "Huang-Comeback bei Nvidia: Trump und Vance machten Druck, Republikaner gehen auf Distanz",
         "warum": "Trump war bei der Vorstandssitzung zugeschaltet; parteiübergreifend wächst der Widerstand, Schumer und mehrere Republikaner warnen vor Sicherheitsrisiken.",
@@ -369,10 +389,8 @@
         "zeit": "23.11.",
         "medien": [
           "Axios",
-          "New York Times",
           "Politico",
-          "AP",
-          "CNBC"
+          "BBC"
         ]
       },
       {
@@ -397,39 +415,19 @@
           "Wall Street Journal",
           "The Hill"
         ]
-      },
-      {
-        "titel": "Republikaner erwägen Deal: Geld fürs Militär, Grenzen für den Iran-Krieg",
-        "warum": "Nach den verlorenen Midterms wächst in der eigenen Partei der Druck, Trumps Iran-Einsatz zu begrenzen.",
-        "quelle": "CNN",
-        "url": "https://www.cnn.com/2026/11/23/politics/republicans-deal-iran-war",
-        "zeit": "23.11.",
-        "medien": [
-          "CNN"
-        ]
-      },
-      {
-        "titel": "Abgeordneter Gomez tritt nach Ethikbericht zurück",
-        "warum": "Der kalifornische Demokrat zieht Konsequenzen aus einem Bericht über sexuelles Fehlverhalten.",
-        "quelle": "NPR",
-        "url": "https://www.npr.org/2026/11/23/g-s1-155142/california-democrat-rep-gomez-resigns-following-ethics-report-on-sexual-misconduct-allegations",
-        "zeit": "23.11.",
-        "medien": [
-          "NPR",
-          "New York Times"
-        ]
       }
     ],
     "deutschland": [
       {
-        "titel": "Bundestag beschließt diese Woche den Haushalt 2027",
-        "warum": "Kernhaushalt 560,9 Mrd. Euro, rund 123 Mrd. Euro neue Kernschulden; offen ist, ob die Koalition eine allgemeine Stromsteuersenkung finanzieren kann.",
+        "titel": "Haushaltswoche: Bund will 2027 so viel ausgeben wie nie",
+        "warum": "Kernhaushalt rund 560 Mrd. Euro (+36 Mrd.), Verteidigung rund 140 Mrd., insgesamt rund 210 Mrd. Euro neue Schulden inklusive Sondervermögen; Stromsteuersenkung für alle kostet 5,4 Mrd. Schlussabstimmung am Freitag.",
         "quelle": "ZDFheute",
-        "url": "https://www.zdfheute.de/politik/deutschland/haushalt-haushaltsausschuss-bundestag-union-spd-100.html",
-        "zeit": "13.11., 10:04",
+        "url": "https://www.zdfheute.de/politik/deutschland/bundestagswoche-haushalt-2027-100.html",
+        "zeit": "24.11., 09:13",
         "medien": [
           "ZDFheute",
-          "Reuters"
+          "t-online",
+          "dpa"
         ]
       },
       {
@@ -796,22 +794,36 @@
         "name": "Champions League",
         "schlagzeilen": [
           {
-            "titel": "5. Spieltag heute: Arsenal – Dortmund, Leipzig – Lens, Man City – Neapel",
-            "warum": "Für Leipzig (Platz 29) wird es im Kampf um die Play-off-Ränge eng.",
-            "quelle": "CBS Sports",
-            "url": "https://www.cbssports.com/soccer/news/2026-uefa-champions-league-schedule-results/"
+            "titel": "Real Madrid dreht Spiel gegen PSV und gewinnt 5:1",
+            "warum": "Mbappé trifft doppelt, Bellingham und Vinícius ebenfalls – Real bleibt mit 15 Punkten ungeschlagen.",
+            "quelle": "Dave.Sport",
+            "url": "https://dave.sport/news/champions-league-results-24-november-2026/",
+            "zeit": "24.11., 23:27",
+            "medien": [
+              "France 24",
+              "Flashscore"
+            ]
           },
           {
-            "titel": "Mittwoch: Lille – Bayern, Inter – Stuttgart, PSG – Rom",
-            "warum": "Bayern (13.) und Stuttgart (14.) wollen in die Top 8.",
-            "quelle": "CBS Sports",
-            "url": "https://www.cbssports.com/soccer/news/2026-uefa-champions-league-schedule-results/"
+            "titel": "Arsenal nur 1:1 gegen Dortmund, Man City rettet 2:2 gegen Neapel",
+            "warum": "Gyökeres trifft früh, Beier gleicht für den BVB aus; Cherki sichert City in der 86. Minute einen Punkt.",
+            "quelle": "Irish Times",
+            "url": "https://www.irishtimes.com/sport/soccer/2026/11/24/champions-league-wrap-arsenal-held-by-dortmund-after-failing-to-hold-lead/",
+            "zeit": "24.11.",
+            "medien": [
+              "Irish Times",
+              "Flashscore"
+            ]
           },
           {
-            "titel": "PSG und Real Madrid mit vier Siegen aus vier Spielen",
-            "warum": "Como überrascht als Vierter, unter anderem mit einem 9:1 gegen Lens.",
-            "quelle": "Wikipedia / CBS Sports",
-            "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_UEFA_Champions_League_league_phase"
+            "titel": "Leipzig schlägt Lens 3:1, heute Lille – Bayern und Inter – Stuttgart",
+            "warum": "Nusa trifft doppelt, Leipzig klettert aus der Abstiegszone der Ligaphase; Bayern und Stuttgart wollen am Mittwoch Richtung Top 8.",
+            "quelle": "Dave.Sport",
+            "url": "https://dave.sport/news/champions-league-results-24-november-2026/",
+            "zeit": "24.11., 23:27",
+            "medien": [
+              "Flashscore"
+            ]
           }
         ],
         "tabellen": [
@@ -826,233 +838,233 @@
             "zeilen": [
               [
                 "1",
+                "Real Madrid",
+                "5",
+                "+10",
+                "15"
+              ],
+              [
+                "2",
                 "Paris Saint-Germain",
                 "4",
                 "+15",
                 "12"
               ],
               [
-                "2",
-                "Real Madrid",
-                "4",
-                "+6",
+                "3",
+                "Como",
+                "5",
+                "+14",
                 "12"
               ],
               [
-                "3",
-                "Arsenal",
                 "4",
+                "Real Betis",
+                "5",
+                "+4",
+                "12"
+              ],
+              [
+                "5",
+                "Arsenal",
+                "5",
+                "+5",
+                "11"
+              ],
+              [
+                "6",
+                "Manchester City",
+                "5",
                 "+5",
                 "10"
               ],
               [
-                "4",
-                "Como",
-                "4",
-                "+13",
-                "9"
+                "7",
+                "Borussia Dortmund",
+                "5",
+                "+2",
+                "10"
               ],
               [
-                "5",
+                "8",
                 "FC Barcelona",
                 "4",
                 "+8",
                 "9"
               ],
               [
-                "6",
+                "9",
                 "Aston Villa",
-                "4",
-                "+6",
-                "9"
-              ],
-              [
-                "7",
-                "Manchester City",
-                "4",
+                "5",
                 "+5",
                 "9"
               ],
               [
-                "8",
+                "10",
                 "FC Liverpool",
                 "4",
                 "+4",
                 "9"
               ],
               [
-                "9",
+                "11",
                 "Club Brügge",
                 "4",
                 "+4",
                 "9"
               ],
               [
-                "10",
+                "12",
                 "Sporting CP",
                 "4",
                 "+4",
                 "9"
               ],
               [
-                "11",
-                "Real Betis",
-                "4",
-                "+2",
-                "9"
-              ],
-              [
-                "12",
-                "Borussia Dortmund",
-                "4",
-                "+2",
-                "9"
-              ],
-              [
                 "13",
+                "Galatasaray",
+                "5",
+                "0",
+                "9"
+              ],
+              [
+                "14",
                 "FC Bayern München",
                 "4",
                 "+7",
                 "8"
               ],
               [
-                "14",
+                "15",
                 "VfB Stuttgart",
                 "4",
                 "+3",
                 "7"
               ],
               [
-                "15",
+                "16",
+                "Bodø/Glimt",
+                "5",
+                "-4",
+                "7"
+              ],
+              [
+                "17",
                 "Inter Mailand",
                 "4",
                 "+2",
                 "6"
               ],
               [
-                "16",
+                "18",
                 "LASK",
-                "4",
-                "+1",
+                "5",
+                "0",
                 "6"
               ],
               [
-                "17",
+                "19",
                 "Manchester United",
                 "4",
                 "0",
                 "6"
               ],
               [
-                "18",
-                "Galatasaray",
-                "4",
-                "-1",
+                "20",
+                "FC Porto",
+                "5",
+                "0",
                 "6"
               ],
               [
-                "19",
+                "21",
+                "RB Leipzig",
+                "5",
+                "-4",
+                "6"
+              ],
+              [
+                "22",
                 "Fenerbahçe",
                 "4",
                 "-5",
                 "5"
               ],
               [
-                "20",
+                "23",
                 "AS Rom",
                 "4",
                 "+2",
                 "4"
               ],
               [
-                "21",
+                "24",
                 "Schachtar Donezk",
                 "4",
                 "0",
                 "4"
               ],
               [
-                "22",
+                "25",
                 "Viking FK",
                 "4",
                 "-1",
                 "4"
               ],
               [
-                "23",
+                "26",
                 "Atlético Madrid",
                 "4",
                 "-1",
                 "4"
               ],
               [
-                "24",
-                "PSV Eindhoven",
-                "4",
-                "-1",
-                "4"
-              ],
-              [
-                "25",
-                "Bodø/Glimt",
-                "4",
-                "-5",
-                "4"
-              ],
-              [
-                "26",
-                "FC Porto",
-                "4",
-                "-1",
-                "3"
-              ],
-              [
                 "27",
-                "SSC Neapel",
-                "4",
+                "PSV Eindhoven",
+                "5",
                 "-5",
-                "3"
+                "4"
               ],
               [
                 "28",
+                "SSC Neapel",
+                "5",
+                "-5",
+                "4"
+              ],
+              [
+                "29",
                 "Villarreal",
                 "4",
                 "-6",
                 "3"
               ],
               [
-                "29",
-                "AEK Athen",
-                "4",
-                "-6",
-                "3"
-              ],
-              [
-                "29",
-                "RB Leipzig",
-                "4",
-                "-6",
-                "3"
-              ],
-              [
-                "31",
+                "30",
                 "Sabah FK",
                 "4",
                 "-6",
                 "3"
               ],
               [
+                "31",
+                "AEK Athen",
+                "5",
+                "-7",
+                "3"
+              ],
+              [
                 "32",
                 "Feyenoord",
-                "4",
-                "-7",
+                "5",
+                "-8",
                 "3"
               ],
               [
                 "33",
                 "RC Lens",
-                "4",
-                "-12",
+                "5",
+                "-14",
                 "3"
               ],
               [
@@ -1072,14 +1084,14 @@
               [
                 "36",
                 "Slovan Bratislava",
-                "4",
-                "-16",
+                "5",
+                "-18",
                 "0"
               ]
             ]
           }
         ],
-        "stand": "4.11.2026, Ligaphase nach dem 4. Spieltag (Quelle: Wikipedia)"
+        "stand": "25.11.2026, Ligaphase während des 5. Spieltags (Dienstagsspiele vom 24.11. eingerechnet, Mittwochsspiele folgen; bei Gleichstand ohne Tore-Kriterium; Basis: Wikipedia, Ergebnisse: Dave.Sport)"
       },
       {
         "kurz": "BL",
@@ -1949,22 +1961,34 @@
         "us": true,
         "schlagzeilen": [
           {
+            "titel": "Tatum mit 41 Punkten: Celtics schlagen Wizards 131:116",
+            "warum": "Boston ist im NBA Cup mit 3-0 Spitzenreiter der East Group C.",
+            "quelle": "NBA.com",
+            "url": "https://www.nba.com/news/emirates-nba-cup-2026-live-updates-november-24",
+            "zeit": "25.11.",
+            "medien": [
+              "ESPN"
+            ]
+          },
+          {
+            "titel": "Pistons schlagen Magic 104:86 ohne Cade Cunningham",
+            "warum": "Detroit mit der besten Punktedifferenz der East Group A (+31), Orlando muss im Cup auf Hilfe hoffen.",
+            "quelle": "NBA.com",
+            "url": "https://www.nba.com/news/emirates-nba-cup-2026-live-updates-november-24",
+            "zeit": "25.11.",
+            "medien": [
+              "ESPN"
+            ]
+          },
+          {
             "titel": "Spurs und Lakers teilen sich mit 15-3 die Spitze im Westen",
-            "warum": "San Antonio hat die beste Punktedifferenz der Liga (+219).",
-            "quelle": "Standings Today",
-            "url": "https://standingstoday.com/nba/"
-          },
-          {
-            "titel": "76ers führen den Osten mit 14-4 an",
-            "warum": "Drei Spiele Vorsprung auf Boston, New York und Atlanta.",
-            "quelle": "Standings Today",
-            "url": "https://standingstoday.com/nba/"
-          },
-          {
-            "titel": "Miami Heat mit sieben Siegen in Folge",
-            "warum": "Längste aktuelle Siegesserie, Miami auf Rang 6 im Osten.",
-            "quelle": "Standings Today",
-            "url": "https://standingstoday.com/nba/"
+            "warum": "San Antonio hat die beste Punktedifferenz der Liga.",
+            "quelle": "ESPN",
+            "url": "https://www.espn.com/nba/standings",
+            "zeit": "24.11.",
+            "medien": [
+              "ESPN"
+            ]
           }
         ],
         "tabellen": [
@@ -1988,9 +2012,9 @@
               [
                 "2",
                 "Boston Celtics",
-                "11",
+                "12",
                 "6",
-                ".647"
+                ".667"
               ],
               [
                 "3",
@@ -2009,9 +2033,9 @@
               [
                 "5",
                 "Detroit Pistons",
-                "10",
+                "11",
                 "6",
-                ".625"
+                ".647"
               ],
               [
                 "6",
@@ -2031,8 +2055,8 @@
                 "8",
                 "Orlando Magic",
                 "7",
-                "9",
-                ".438"
+                "10",
+                ".412"
               ]
             ]
           },
@@ -2105,7 +2129,7 @@
             ]
           }
         ],
-        "stand": "24.11.2026 (Spiele bis 23.11.)"
+        "stand": "25.11.2026 (Spiele bis 24.11.; Mavericks – Nuggets noch nicht eingerechnet)"
       },
       {
         "kurz": "NHL",
@@ -2421,44 +2445,80 @@
   },
   "sonstiges": {
     "englisch": {
-      "wort": "recrudescence",
-      "aussprache": "/ˌriː.kruːˈdes.əns/",
-      "wortart": "Substantiv",
-      "bedeutung": "Wiederaufflammen von etwas Unerwünschtem (Krankheit, Gewalt, Inflation) nach einer Phase der Ruhe.",
-      "beispiel": "Central bankers fear a recrudescence of inflation should energy prices spike again."
+      "wort": "pusillanimous",
+      "aussprache": "/ˌpjuː.sɪˈlæn.ɪ.məs/",
+      "wortart": "Adjektiv",
+      "bedeutung": "Kleinmütig, verzagt; ohne den Mut, Risiken einzugehen oder klar Stellung zu beziehen.",
+      "beispiel": "The board’s pusillanimous response to the crisis only emboldened the activist investors."
     },
     "chinesisch": {
-      "zeichen": "举一反三",
-      "pinyin": "jǔ yī fǎn sān",
+      "zeichen": "未雨绸缪",
+      "pinyin": "wèi yǔ chóu móu",
       "wortart": "Chengyu (Redewendung)",
-      "bedeutung": "Eine Ecke zeigen, die anderen drei erschließen: aus einem Beispiel auf Ähnliches schließen, Gelerntes übertragen.",
-      "beispiel": "学习要举一反三，不能死记硬背。 (Beim Lernen soll man Gelerntes übertragen, statt stur auswendig zu lernen.)"
+      "bedeutung": "Vor dem Regen das Dach ausbessern: rechtzeitig Vorsorge treffen, bevor Probleme entstehen.",
+      "beispiel": "公司未雨绸缪，提前做好了应对市场下跌的准备。 (Das Unternehmen hat vorgesorgt und sich rechtzeitig auf einen Marktrückgang vorbereitet.)"
     },
-    "funfact": "Ein Tag auf der Venus dauert länger als ein Venusjahr: Für eine Drehung um sich selbst braucht sie rund 243 Erdtage, für eine Runde um die Sonne nur rund 225.",
+    "funfact": "Kraken haben drei Herzen und blaues Blut: Zwei Herzen pumpen Blut durch die Kiemen, eines durch den Körper; die Farbe kommt vom kupferhaltigen Hämocyanin statt eisenhaltigem Hämoglobin.",
     "wissen": [
       {
         "bereich": "Geschichte",
-        "fakt": "Der Westfälische Friede von 1648 beendete den Dreißigjährigen Krieg und gilt als Grundstein des modernen Systems souveräner Staaten."
+        "fakt": "Mit dem Edikt von Nantes gewährte Heinrich IV. 1598 den französischen Hugenotten Glaubensfreiheit; Ludwig XIV. widerrief es 1685, worauf Zehntausende Hugenotten u. a. nach Brandenburg-Preußen flohen."
       },
       {
         "bereich": "Wirtschaft",
-        "fakt": "Das Triffin-Dilemma (Robert Triffin, 1960): Ein Land mit Weltreservewährung muss Defizite gegenüber dem Ausland fahren, um die Welt mit Liquidität zu versorgen, und untergräbt damit langfristig das Vertrauen in seine Währung."
+        "fakt": "Das Greshamsche Gesetz besagt: „Schlechtes Geld verdrängt gutes.“ Haben zwei Münzen denselben Nennwert, aber unterschiedlichen Metallwert, wird die wertvollere gehortet und nur die minderwertige zirkuliert."
       },
       {
         "bereich": "Allgemeinwissen",
-        "fakt": "Seit 2019 ist das Kilogramm über die Planck-Konstante definiert; vorher galt ein Platin-Iridium-Zylinder in Sèvres bei Paris als Urkilogramm."
+        "fakt": "Für den Obersee des Bodensees haben Deutschland, Österreich und die Schweiz nie einen gemeinsamen Grenzverlauf vertraglich festgelegt."
       }
     ],
     "steuerrecht": {
-      "frage": "Wann sind regelmäßig wiederkehrende Ausgaben abzuziehen, die kurz vor oder nach dem Jahreswechsel gezahlt werden?",
-      "antwort": "Grundsätzlich gilt das Abflussprinzip: Abzug im Jahr der Zahlung. Regelmäßig wiederkehrende Ausgaben, die innerhalb kurzer Zeit (nach der Rechtsprechung bis zu 10 Tage) vor Beginn oder nach Ende des Kalenderjahres gezahlt werden, gelten jedoch als in dem Jahr abgeflossen, zu dem sie wirtschaftlich gehören.",
-      "norm": "§ 11 Abs. 2 Satz 1 und 2 i. V. m. Abs. 1 Satz 2 EStG"
+      "frage": "Bis zu welcher Höhe bleiben Sachbezüge an Arbeitnehmer (z. B. Tankgutschein) steuerfrei, und was passiert bei Überschreiten?",
+      "antwort": "Sachbezüge bleiben außer Ansatz, wenn sie insgesamt 50 € im Kalendermonat nicht übersteigen. Es handelt sich um eine Freigrenze, keinen Freibetrag: Wird sie auch nur um einen Cent überschritten, ist der gesamte Betrag steuerpflichtig.",
+      "norm": "§ 8 Abs. 2 Satz 11 EStG"
     }
   },
   "mehr": {
     "schlagzeilen": {
-      "lage": "Der Markt schwankt zwischen KI-Euphorie und Zinssorgen: Nvidias Huang-Comeback treibt die Bewertungen, zugleich gilt eine Fed-Zinserhöhung im Dezember als sicher. Entscheidend ist, ob die Inflation über Energie und Zölle hartnäckig bleibt.",
+      "lage": "Nach dem historischen Nvidia-Tag schlägt das Pendel zurück: Chipwerte fallen weltweit, Asien erlebt einen KI-Ausverkauf. Gleichzeitig gilt eine Fed-Zinserhöhung im Dezember als sicher; die PCE-Inflation heute entscheidet, ob der Markt noch mehr Straffung einpreist.",
       "meldungen": [
+        {
+          "tag": "Unternehmen",
+          "titel": "Sanofi kauft Insmed für 41 Mrd. Dollar (175 $ je Aktie in bar)",
+          "warum": "Größter Pharma-Deal des Jahres: Sanofi sichert sich mit Brinsupri einen Blockbuster gegen das Dupixent-Patentende; Sanofi-Aktie in Paris rund +5,6 %.",
+          "quelle": "Reuters",
+          "url": "https://www.investing.com/news/stock-market-news/europes-stoxx-600-subdued-after-aidriven-rally-5047331",
+          "zeit": "24.11.",
+          "medien": [
+            "Reuters",
+            "Bloomberg"
+          ]
+        },
+        {
+          "tag": "Unternehmen",
+          "titel": "HPE bricht trotz Zahlen-Beat und höherer Prognose um rund 12 % ein",
+          "warum": "Für 2027 erwartet HPE nur noch rund 14 % Marge im Cloud- und KI-Geschäft (zuvor 18,4 %); ein Warnsignal für die Margen der KI-Server-Hersteller vor den Dell-Zahlen.",
+          "quelle": "Reuters",
+          "url": "https://1027wbow.com/2026/11/24/hpe-shares-fall-as-margin-worries-overshadow-raised-outlook/",
+          "zeit": "24.11., 13:45",
+          "medien": [
+            "Reuters"
+          ]
+        },
+        {
+          "tag": "KI",
+          "titel": "Anthropic-Aktie rutscht unter den Ausgabepreis von 83 Dollar",
+          "warum": "Fünf Tage nach dem Rekord-Börsengang (81,3 Mrd. Dollar) dreht die Stimmung; Analysten verweisen auf Kapitalbedarf und Gewinnmitnahmen.",
+          "quelle": "Forbes",
+          "url": "https://www.forbes.com/sites/zacharyfolk/2026/11/24/anthropic-stock-falls-below-83-per-share-ipo-price/",
+          "zeit": "24.11., 15:06",
+          "medien": [
+            "Forbes",
+            "CNBC",
+            "Bloomberg"
+          ]
+        },
         {
           "tag": "Handel",
           "titel": "USA setzen Singapurer Cloudfirma Megaspeed auf die Exportsperrliste",
@@ -2514,34 +2574,48 @@
           "medien": [
             "Bloomberg"
           ]
-        },
-        {
-          "tag": "Handel",
-          "titel": "Chinesische Hersteller setzen stärker auf Afrika",
-          "warum": "Verlagerung von Produktion und Absatz als Antwort auf westliche Handelsbarrieren.",
-          "quelle": "Semafor",
-          "url": "https://www.semafor.com/article/11/23/2026/chinese-manufacturers-are-making-bigger-bets-on-africa",
-          "zeit": "23.11.",
-          "medien": [
-            "Semafor"
-          ]
-        },
-        {
-          "tag": "Unternehmen",
-          "titel": "Dell muss zeigen, dass der KI-Auftragsbestand von 95 Mrd. Dollar zu Umsatz wird",
-          "warum": "Zahlen heute Abend: Erwartet werden 6,63 $ Gewinn je Aktie bei 50,6 Mrd. $ Umsatz; Speicherkosten drücken die Marge.",
-          "quelle": "Earnings Whispers (Finviz)",
-          "url": "https://finviz.com/news/423394/dell-must-prove-its-95-billion-ai-backlog-can-convert-despite-memory-constraints",
-          "zeit": "16.11.",
-          "medien": [
-            "Earnings Whispers"
-          ]
         }
       ]
     },
     "watch": {
-      "lage": "Nvidia bleibt der Taktgeber: Nach der Rekordrally auf Huangs Rückkehr wächst in Washington der politische Gegenwind. Heute Abend liefern Dell, HP und Workday Hinweise auf die KI-Nachfrage.",
+      "lage": "Nvidia bleibt der Taktgeber: Nach dem Rekordtag gab die Aktie fast 6 % ab, heute folgt Asiens Chipsektor mit Einbrüchen von 9 bis 15 %. Bei Dell und HP zeigen die Zahlen, dass die KI-Server-Nachfrage real ist; die Margen bleiben die offene Frage.",
       "meldungen": [
+        {
+          "tag": "Halbleiter",
+          "titel": "Tokyo Electron −13,5 %, SK Hynix −9,9 %: Chipwerte in Asien im freien Fall",
+          "warum": "Auslöser sind Zweifel an den KI-Ausgaben und erwartete strengere KI-Regulierung durch den neuen demokratischen Kongress.",
+          "quelle": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/25/asias-stock-markets-dive-as-doubts-to-swirl-over-ai-boom",
+          "zeit": "25.11.",
+          "medien": [
+            "Al Jazeera",
+            "Reuters"
+          ]
+        },
+        {
+          "tag": "KI",
+          "titel": "Anthropic schließt unter Ausgabepreis",
+          "warum": "Die Aktie fiel am Dienstag um 6,5 % auf 81,90 $; Nvidia −5,9 %, Chipindex −7,9 %.",
+          "quelle": "Reuters",
+          "url": "https://www.investing.com/news/economy-news/wall-st-futures-dip-as-chip-stocks-cool-after-nvidiafueled-rally-5047567",
+          "zeit": "24.11.",
+          "medien": [
+            "Reuters",
+            "CNBC"
+          ]
+        },
+        {
+          "tag": "Hardware",
+          "titel": "Nutanix und Urban Outfitters nachbörslich zweistellig unter Druck",
+          "warum": "Nutanix −9 % nach vorsichtiger Prognose, Urban Outfitters −11 % trotz erfüllter Erwartungen.",
+          "quelle": "Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/afterhours-movers-dell-hpq-adsk-wday-ntnx-urbn-clsk-432SI-5049079",
+          "zeit": "24.11.",
+          "medien": [
+            "Investing.com",
+            "CNBC"
+          ]
+        },
         {
           "titel": "Nvidia-Aktie springt nach Huangs Rückkehr als CEO",
           "warum": "Der Vorstand setzte Huang knapp zwei Wochen nach seinem Rücktritt wieder ein; der Börsenwert stieg an einem Tag um rund eine Billion Dollar.",
@@ -2584,16 +2658,6 @@
           "medien": [
             "Axios",
             "Politico"
-          ]
-        },
-        {
-          "titel": "Dell: Quartalszahlen als KI-Test",
-          "warum": "Rekord-Auftragsbestand von 95 Mrd. Dollar, aber die Aktie liegt rund 25 % unter dem Hoch.",
-          "quelle": "Earnings Whispers (Finviz)",
-          "url": "https://finviz.com/news/423394/dell-must-prove-its-95-billion-ai-backlog-can-convert-despite-memory-constraints",
-          "zeit": "16.11.",
-          "medien": [
-            "Earnings Whispers"
           ]
         }
       ]
@@ -2657,6 +2721,30 @@
       "lage": "Öl fällt trotz geschlossener Straße von Hormus, weil das Angebot anderswo steigt; Brent liegt auf Drei-Monats-Tief. Gold leidet unter den Zinserhöhungserwartungen und notiert nahe einem Jahrestief.",
       "meldungen": [
         {
+          "tag": "Gold",
+          "titel": "Gold bei 3.545 $, Silber 40,79 $",
+          "warum": "Nach −2 % am Vortag weiter leicht schwächer; steigende US-Zinsen belasten die zinslosen Metalle.",
+          "quelle": "Reuters",
+          "url": "https://www.brecorder.com/news/40450657/gold-ticks-lower-ahead-of-us-inflation-data",
+          "zeit": "25.11., 04:13",
+          "medien": [
+            "Reuters",
+            "CNBC"
+          ]
+        },
+        {
+          "tag": "Öl",
+          "titel": "Iran-Armeechef: Hormus soll „Tag für Tag“ dichter werden",
+          "warum": "Trump hält dagegen, es fließe mehr Öl als vor dem Krieg; seit der Waffenruhe vom 7. April passierten über 8.000 Handelsschiffe.",
+          "quelle": "CBS News",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-blockade-strait-of-hormuz-ship-attacks/",
+          "zeit": "24.11., 18:20",
+          "medien": [
+            "CBS News",
+            "Reuters"
+          ]
+        },
+        {
           "titel": "Brent auf Drei-Monats-Tief bei 88,62 Dollar",
           "warum": "Deutsche Bank schätzt das Überangebot im Oktober auf 1,7 Mio. Barrel pro Tag.",
           "quelle": "Reuters (Business Recorder)",
@@ -2713,6 +2801,18 @@
       "lage": "Die Renditen bleiben hoch: US-Zehnjährige nahe 4,9 %, Bund bei rund 3,3 %. Der Markt rechnet mit weiteren Fed-Erhöhungen; Deutschland finanziert 2027 eine Rekord-Neuverschuldung nahe 210 Mrd. Euro.",
       "meldungen": [
         {
+          "tag": "Fed",
+          "titel": "Terminmarkt: 97 % für Zinserhöhung im Dezember, 66 % für weitere im Januar",
+          "warum": "Die Fed entscheidet am 9.12.; PCE heute ist der letzte große Inflationswert davor.",
+          "quelle": "Reuters",
+          "url": "https://www.investing.com/news/economy-news/wall-st-futures-dip-as-chip-stocks-cool-after-nvidiafueled-rally-5047567",
+          "zeit": "24.11.",
+          "medien": [
+            "Reuters",
+            "CNBC"
+          ]
+        },
+        {
           "titel": "Die nächsten Schritte der Fed werden klarer",
           "warum": "New-York-Fed-Chef Williams signalisiert weitere Zinserhöhungen.",
           "quelle": "Axios",
@@ -2766,8 +2866,32 @@
       ]
     },
     "indizes": {
-      "lage": "Nach dem Rekordtag am Montag geben Chipwerte wieder nach: Der DAX schloss 1,3 % tiefer bei 25.018 Punkten, das MDax verlor 1,7 %. S&P 500 und Dow waren vergangene Woche in eine technische Korrektur gerutscht, Asiens Börsen feierten die Nvidia-Wende.",
+      "lage": "Der KI-Handel dreht: Nach Nvidias Rekordtag fiel die Nasdaq um 1,5 %, während der Dow erstmals über 50.000 Punkte schloss. Heute früh brechen Kospi, Taiex und Nikkei ein; für den DAX droht ein schwacher Start, die PCE-Daten am Nachmittag geben die Richtung vor.",
       "meldungen": [
+        {
+          "tag": "Asien",
+          "titel": "Nikkei −3 % auf rund 56.660, Kospi fast −6 % auf rund 4.710",
+          "warum": "Nasdaq-100-Futures rund −1 %; Brent nahe 88 $, Yen bei rund 159 je Dollar.",
+          "quelle": "investingLive",
+          "url": "https://investinglive.com/stock-market-update/asian-stocks-slide-as-ai-doubts-return-kospi-down-nearly-6-and-nikkei-more-than-3/",
+          "zeit": "25.11., 03:56",
+          "medien": [
+            "investingLive",
+            "Reuters"
+          ]
+        },
+        {
+          "tag": "USA",
+          "titel": "Dow +0,85 % auf 50.018 Punkte, S&P 500 −0,5 % auf 7.201",
+          "warum": "Rotation aus Technologie in Value-Titel; Handelsvolumen unter dem 20-Tage-Schnitt.",
+          "quelle": "Reuters",
+          "url": "https://www.investing.com/news/economy-news/wall-st-futures-dip-as-chip-stocks-cool-after-nvidiafueled-rally-5047567",
+          "zeit": "24.11.",
+          "medien": [
+            "Reuters",
+            "CNBC"
+          ]
+        },
         {
           "tag": "DAX",
           "titel": "DAX schließt rund 1,3 % tiefer knapp über 25.000 Punkten",
@@ -2820,22 +2944,24 @@
           "medien": [
             "AP"
           ]
-        },
-        {
-          "titel": "Warum Bitcoin fällt",
-          "warum": "Kryptowährungen leiden unter steigenden Zinserwartungen.",
-          "quelle": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/11/13/why-bitcoin-is-falling-today/",
-          "zeit": "13.11.",
-          "medien": [
-            "Motley Fool"
-          ]
         }
       ]
     },
     "verschuldung": {
       "lage": "Deutschland steuert 2027 auf die zweithöchste Neuverschuldung seiner Geschichte zu; die Schlussabstimmung im Bundestag ist am Freitag. In den USA treiben hohe Zinsen die Finanzierungskosten, Japan kämpft mit Yen-Schwäche und hohen Anleiherenditen.",
       "meldungen": [
+        {
+          "titel": "Was am Etat 2027 so besonders ist",
+          "warum": "Zum Start der Haushaltswoche war der Etat noch nicht fertig, weil der Stromsteuer-Kompromiss eingearbeitet werden musste; AfD spricht von 400.000 Euro neuen Schulden pro Minute.",
+          "quelle": "t-online",
+          "url": "https://www.t-online.de/nachrichten/deutschland/id_101543158/haushaltswoche-im-bundestag-was-am-etat-2027-so-besonders-ist.html",
+          "zeit": "24.11., 04:33",
+          "medien": [
+            "t-online",
+            "dpa",
+            "ZDFheute"
+          ]
+        },
         {
           "titel": "Haushaltsausschuss billigt Etat 2027",
           "warum": "Kernhaushalt 560,9 Mrd. Euro, rund 123 Mrd. Euro neue Kernschulden.",
@@ -2892,8 +3018,20 @@
       ]
     },
     "unternehmen": {
-      "lage": "Die Woche vor Thanksgiving bringt Zahlen von Dell, HP, Workday und Autodesk (heute) sowie Deere (Mittwoch). Daneben bestimmen Großdeals wie Sanofi/Insmed und Huangs Rückkehr zu Nvidia das Bild.",
+      "lage": "Die Thanksgiving-Woche ist fast durch: Dell und HP überzeugten nachbörslich, Workday, Autodesk und Nutanix enttäuschten trotz solider Zahlen. Heute legt Deere vor, am Donnerstag ruht der US-Handel; Anfang Dezember folgen Salesforce und Broadcom.",
       "meldungen": [
+        {
+          "tag": "Zahlen",
+          "titel": "Autodesk −4 % trotz Beat, CleanSpark +3 %",
+          "warum": "Autodesk mit EPS 3,20 $ (erwartet 3,07); CleanSpark überraschend mit Gewinn.",
+          "quelle": "Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/afterhours-movers-dell-hpq-adsk-wday-ntnx-urbn-clsk-432SI-5049079",
+          "zeit": "24.11.",
+          "medien": [
+            "Investing.com",
+            "CNBC"
+          ]
+        },
         {
           "tag": "Handel",
           "titel": "Best Buy: stärkstes Umsatzplus auf vergleichbarer Fläche seit fünf Jahren, Prognose angehoben",
@@ -2959,66 +3097,83 @@
       ]
     },
     "welt": {
-      "lage": "Der Iran-Konflikt bleibt ungelöst: Die Straße von Hormus ist zu, Katar vermittelt, Trump droht mit Angriffen nach Neujahr. An der NATO-Ostflanke eskaliert der Streit zwischen Estland und Russland, im Gazastreifen gehen die Angriffe weiter.",
+      "lage": "Der Iran-Konflikt weitet sich aus: Die Houthis greifen Saudi-Arabien an, Israel spricht von iranischen Chemiewaffen, Hormus bleibt umkämpft. Trump setzt auf die Seeblockade und deutet Angriffe nach Neujahr an, sein Spielraum schrumpft aber mit dem neuen Kongress im Januar.",
       "meldungen": [
         {
-          "titel": "Israelischer Luftangriff tötet Hamas-Sicherheitschef in Gaza",
-          "warum": "Bei dem Angriff starben mindestens sieben Menschen.",
-          "quelle": "Reuters",
-          "url": "https://www.reuters.com/world/middle-east/israeli-airstrike-kills-least-three-palestinians-southern-gaza-medics-say-2026-11-24/",
-          "zeit": "24.11.",
+          "titel": "Trump droht Iran mit neuen Angriffen nach Neujahr",
+          "warum": "Ohne langfristiges Abkommen will Trump wieder angreifen lassen; Teheran kündigt an, mit allen Mitteln gegen die seit Juli wieder verhängte US-Seeblockade vorzugehen.",
+          "quelle": "Fox News",
+          "url": "https://www.foxnews.com/politics/trump-warns-new-strikes-against-iran-after-new-year-calls-negotiators-professional-tap-dancers",
+          "zeit": "22.11., 18:52",
           "medien": [
+            "Fox News",
             "Reuters"
           ]
         },
         {
-          "titel": "Lettlands Präsident sieht 2027 möglichen Kipppunkt im Ukraine-Krieg",
-          "warum": "Rinkevics hält eine russische Niederlage für denkbar.",
-          "quelle": "Reuters",
-          "url": "https://www.reuters.com/world/asia-pacific/latvian-president-sees-possible-tipping-point-ukraine-war-next-year-2026-11-24/",
-          "zeit": "24.11.",
+          "titel": "Vance und Rubio empfangen Katars Premier im Weißen Haus",
+          "warum": "Katar vermittelt weiter zwischen Washington und Teheran; ein Durchbruch ist nicht in Sicht.",
+          "quelle": "AP",
+          "url": "https://apnews.com/article/vance-rubio-qatar-iran-war-16e0c2cb05347cfcac068ec4aebb363f",
+          "zeit": "23.11.",
           "medien": [
+            "AP"
+          ]
+        },
+        {
+          "titel": "Moskau wirft Estland Handlungen „am Rande eines offenen Krieges“ vor",
+          "warum": "Estland schließt nach einem mutmaßlichen GRU-Sabotageplan gegen einen Drohnenhersteller seine Grenzübergänge; Russland spricht vom „neuen Eisernen Vorhang“.",
+          "quelle": "Reuters",
+          "url": "https://www.reuters.com/world/moscow-accuses-estonia-hostile-actions-verge-triggering-open-war-2026-11-23/",
+          "zeit": "23.11.",
+          "medien": [
+            "Reuters",
+            "NBC News",
+            "Al Jazeera"
+          ]
+        },
+        {
+          "titel": "Saudi-Koalition greift Hodeida an, Houthis drohen saudischen Häfen",
+          "warum": "Zivilisten wurden vorab zur Evakuierung aufgefordert.",
+          "quelle": "CBS News",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-blockade-strait-of-hormuz-ship-attacks/",
+          "zeit": "25.11., 03:14",
+          "medien": [
+            "CBS News",
             "Reuters"
           ]
         },
         {
-          "titel": "Japan zahlt ICC-Beitrag 2027 vorzeitig",
-          "warum": "Tokio kommt drohenden US-Sanktionen gegen den Strafgerichtshof zuvor.",
-          "quelle": "Reuters",
-          "url": "https://www.reuters.com/world/americas/japan-accelerates-icc-funding-us-sanctions-threaten-court-2026-11-24/",
+          "titel": "Polen: Frieden in der Ukraine beendet Russlands Sabotage in Europa nicht",
+          "warum": "Innenminister Siemoniak warnt vor anhaltender hybrider Bedrohung.",
+          "quelle": "Politico Europe",
+          "url": "https://www.politico.eu/article/ukraine-peace-wont-end-russian-sabotage-in-europe-poland-warns/",
           "zeit": "24.11.",
           "medien": [
+            "Politico Europe",
             "Reuters"
           ]
         },
         {
-          "titel": "Chinas vierter Flugzeugträger fast fertig",
-          "warum": "Der atomgetriebene Typ 004 könnte 75 bis 90 Flugzeuge tragen und 2027 vom Stapel laufen.",
-          "quelle": "Defense News",
-          "url": "https://www.defensenews.com/global/asia-pacific/2026/11/23/chinas-fourth-aircraft-carrier-bigger-than-others-and-nuclear-powered-nears-completion/",
-          "zeit": "23.11., 15:42",
+          "titel": "Rutte: NATO verteidigt sich auch gegen Bedrohungen im All",
+          "warum": "Reaktion auf Berichte über einen russischen nuklear bewaffneten Satelliten.",
+          "quelle": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c9x2er1ry2mzo",
+          "zeit": "24.11.",
           "medien": [
-            "Defense News"
-          ]
-        },
-        {
-          "titel": "Weltklimakonferenz COP31 scheitert am Streit über fossile Energien",
-          "warum": "Die Gespräche in der Türkei endeten ohne Einigung.",
-          "quelle": "New York Times",
-          "url": "https://www.nytimes.com/2026/11/22/climate/cop31-climate-summit-ends-climate.html",
-          "zeit": "22.11.",
-          "medien": [
-            "New York Times"
+            "BBC",
+            "Reuters"
           ]
         },
         {
           "titel": "Sheikh Hasina will am 16. Dezember nach Bangladesch zurückkehren",
-          "warum": "Die gestürzte Ex-Premierministerin plant ihre Rückkehr mit der Staatsairline.",
+          "warum": "Die gestürzte Regierungschefin plant die Rückkehr mit der staatlichen Airline.",
           "quelle": "Reuters",
           "url": "https://www.reuters.com/world/asia-pacific/sheikh-hasina-seeks-return-bangladesh-december-16-state-carrier-2026-11-24/",
           "zeit": "24.11.",
           "medien": [
-            "Reuters"
+            "Reuters",
+            "BBC"
           ]
         }
       ]
@@ -3026,6 +3181,57 @@
     "usa": {
       "lage": "Nach den verlorenen Midterms ringt Trump mit wachsendem Widerstand, auch aus der eigenen Partei: Nvidia, Iran-Krieg und Justiz dominieren. Ab dem 3. Januar regieren die Demokraten in beiden Kammern.",
       "meldungen": [
+        {
+          "titel": "Republikaner erwägen Deal: Geld fürs Militär, Grenzen für den Iran-Krieg",
+          "warum": "Nach den verlorenen Midterms wächst in der eigenen Partei der Druck, Trumps Iran-Einsatz zu begrenzen.",
+          "quelle": "CNN",
+          "url": "https://www.cnn.com/2026/11/23/politics/republicans-deal-iran-war",
+          "zeit": "23.11.",
+          "medien": [
+            "CNN"
+          ]
+        },
+        {
+          "titel": "Abgeordneter Gomez tritt nach Ethikbericht zurück",
+          "warum": "Der kalifornische Demokrat zieht Konsequenzen aus einem Bericht über sexuelles Fehlverhalten.",
+          "quelle": "NPR",
+          "url": "https://www.npr.org/2026/11/23/g-s1-155142/california-democrat-rep-gomez-resigns-following-ethics-report-on-sexual-misconduct-allegations",
+          "zeit": "23.11.",
+          "medien": [
+            "NPR",
+            "New York Times"
+          ]
+        },
+        {
+          "titel": "Pentagon wirft Kanada mangelnde Verteidigung Nordamerikas vor",
+          "warum": "Hegseths Ministerium erhöht den Druck auf Ottawa bei den Verteidigungsausgaben.",
+          "quelle": "AP",
+          "url": "https://apnews.com/article/canada-us-defense-spending-hegseth-pentagon-2ce983323fc56d21db88db5401422fde",
+          "zeit": "24.11.",
+          "medien": [
+            "AP"
+          ]
+        },
+        {
+          "titel": "FBI-Vizedirektor Raia geht zum Jahresende",
+          "warum": "Weiterer Abgang an der FBI-Spitze.",
+          "quelle": "New York Times",
+          "url": "https://www.nytimes.com/2026/11/23/us/politics/fbi-raia-retiring.html",
+          "zeit": "23.11.",
+          "medien": [
+            "New York Times"
+          ]
+        },
+        {
+          "titel": "Botschafter Huckabee zweifelt am Ende der US-Militärhilfe für Israel",
+          "warum": "Trump hatte ein Auslaufen noch in diesem Jahr versprochen.",
+          "quelle": "Reuters",
+          "url": "https://www.reuters.com/world/us/us-envoy-not-certain-military-aid-israel-will-end-this-year-trump-promised-2026-11-24/",
+          "zeit": "24.11.",
+          "medien": [
+            "Reuters"
+          ]
+        },
         {
           "titel": "Senatsausschuss prüft Vances Verbindung zu Venezuela-Ölvertrag",
           "warum": "Es geht um einen lukrativen Auftrag für den Händler Vitol.",
@@ -3055,34 +3261,23 @@
           "medien": [
             "New York Times"
           ]
-        },
-        {
-          "titel": "Armee will zerfallenden Sprengstoff in Iowa sprengen",
-          "warum": "Trump hatte die Sprengung zunächst gestoppt, ein Berufungsgericht gab sie frei.",
-          "quelle": "New York Times",
-          "url": "https://www.nytimes.com/2026/11/23/climate/iowa-army-ammunition-explosion.html",
-          "zeit": "23.11.",
-          "medien": [
-            "New York Times",
-            "AP",
-            "ABC News"
-          ]
-        },
-        {
-          "titel": "Neuer Abgeordneter Constantino wirbt um homosexuelle Wähler für die GOP",
-          "warum": "Die Republikaner suchen nach der Wahlniederlage neue Wählergruppen.",
-          "quelle": "New York Post",
-          "url": "https://nypost.com/2026/11/22/us-news/incoming-ny-rep-anthony-constantino-says-he-wants-every-gay-american-to-join-the-gop/",
-          "zeit": "22.11.",
-          "medien": [
-            "New York Post"
-          ]
         }
       ]
     },
     "deutschland": {
       "lage": "Im Bundestag läuft die Haushaltswoche, am Freitag wird der Etat 2027 beschlossen. In Berlin verhandeln Linke, SPD und Grüne über eine Koalition bis Januar; der Streit um die Abgeordnete Emde belastet die knappe Mehrheit.",
       "meldungen": [
+        {
+          "titel": "Bundestag beschließt diese Woche den Haushalt 2027",
+          "warum": "Kernhaushalt 560,9 Mrd. Euro, rund 123 Mrd. Euro neue Kernschulden; offen ist, ob die Koalition eine allgemeine Stromsteuersenkung finanzieren kann.",
+          "quelle": "ZDFheute",
+          "url": "https://www.zdfheute.de/politik/deutschland/haushalt-haushaltsausschuss-bundestag-union-spd-100.html",
+          "zeit": "13.11., 10:04",
+          "medien": [
+            "ZDFheute",
+            "Reuters"
+          ]
+        },
         {
           "titel": "Berlin: Erste Entscheidungen bei Koalitionsgesprächen",
           "warum": "Rund 300 Menschen arbeiten in 14 Fachgruppen, der Vertrag soll Anfang Januar stehen.",
