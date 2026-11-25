@@ -212,3 +212,46 @@ dialog.mehr::backdrop{background:rgba(0,0,0,.72)}
 .lvl-erhöht{color:#d08a4e;border-color:#a0522d}
 .tv-kmarkt{height:330px}
 #k-routen{margin-top:4px}
+/* Briefing des Tages */
+.briefing{margin:12px 0 0;border:1px solid var(--line);border-left:3px solid var(--fg);border-radius:5px;background:var(--panel);padding:12px 14px}
+.briefing h2{font:600 12px var(--f-display);letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 8px;display:flex;justify-content:space-between;gap:8px}
+.br-list{margin:0;padding-left:20px;display:grid;gap:5px;font-size:14.5px;line-height:1.5}
+.br-list li::marker{font:500 12px var(--f-data);color:var(--muted)}
+.br-tag{font:600 10.5px var(--f-display);letter-spacing:.1em;text-transform:uppercase;color:var(--muted);border:1px solid var(--line);border-radius:3px;padding:1px 5px;margin-right:7px;vertical-align:1px}
+/* Notenbank-Uhr */
+.nb-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+@media (max-width:1100px){.nb-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:520px){.nb-grid{grid-template-columns:1fr}}
+.nb{border:1px solid var(--line);border-radius:4px;padding:10px 12px;background:var(--panel2);display:flex;flex-direction:column;gap:4px;min-width:0}
+.nb-h{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.nb-k{font:600 15px var(--f-display);letter-spacing:.04em}
+.nb-z{font:12px var(--f-data);color:var(--muted);white-space:nowrap}
+.nb-cd{font:500 22px/1.2 var(--f-data);font-variant-numeric:tabular-nums}
+.nb-d{font:12px var(--f-data);color:var(--muted)}
+.nb-sz{display:grid;gap:4px;margin-top:6px}
+.nb-r{display:grid;grid-template-columns:62px 1fr 54px;gap:8px;align-items:center;font:12px var(--f-data);color:var(--muted)}
+.nb-r.top{color:var(--fg)}
+.nb-bar{height:6px;background:#262626;border-radius:3px;overflow:hidden}
+.nb-bar i{display:block;height:100%;background:#666}
+.nb-r.top .nb-bar i{background:var(--fg)}
+.nb-p{text-align:right;font-variant-numeric:tabular-nums}
+.nb-n{margin:6px 0 0;font-size:12.5px;color:var(--muted);line-height:1.45}
+/* Wirtschaftskalender */
+.tbl.wk td{vertical-align:baseline}
+.wk tr.wk-day td{font:600 11px var(--f-display);letter-spacing:.1em;text-transform:uppercase;color:var(--muted);padding-top:12px;border-bottom:1px solid #444}
+.wk tr.wk-day:first-child td{padding-top:4px}
+.wk tr.wk-day.today td{color:var(--fg)}
+.wk td.date{color:var(--fg)}
+.wk .wk-l{font:500 12px var(--f-data);color:var(--muted)}
+.wk .wk-w{min-width:220px}
+.wk-imp{font-size:8px;letter-spacing:1px;color:var(--muted);margin-right:7px;vertical-align:2px}
+.wk-les{display:block;font-size:12px;color:var(--muted);margin-top:1px}
+.wk td.muted{color:var(--muted)}
+.wk td.ist{font-weight:500}
+.wk tr.done td.ist{color:var(--fg)}
+.wk tr.due td.ist::after{content:"ausstehend";font:11px var(--f-data);color:var(--muted)}
+.wk-a{font-size:11px}
+.wk-full{margin-top:10px}
+.wk-full summary{cursor:pointer;font:12px var(--f-data);color:var(--muted)}
+.wk-full summary:hover{color:var(--fg)}
+.wk-full .tv-cal{margin-top:8px}
