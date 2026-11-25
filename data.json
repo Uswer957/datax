@@ -1,14 +1,14 @@
 {
-  "aktualisiert": "25.11.2026, 17:05 Uhr",
+  "aktualisiert": "25.11.2026, 18:04 Uhr",
   "maerkte": {
     "schlagzeilen": [
       {
         "tag": "Märkte",
-        "titel": "Wall Street eröffnet tief im Minus: Nasdaq −3,75 %, Dow −864 Punkte",
-        "warum": "Heiße Inflationsdaten, neue US-Zolldrohungen und der anhaltende KI-Ausverkauf drücken die Indizes am Tag vor Thanksgiving gleichzeitig nach unten.",
-        "quelle": "Fox Business",
-        "url": "https://www.foxbusiness.com/markets/stocks-11-25-2026",
-        "zeit": "25.11., 15:38",
+        "titel": "Nvidia −8 %, Nasdaq rund −3,3 %: Nasdaq-100 vor dem Bärenmarkt",
+        "warum": "Heiße PCE-Daten, neue Zolldrohungen und KI-Skepsis treffen die Chipwerte; der VIX steigt auf fast 34, die 10-jährige US-Rendite sinkt auf 4,82 % – Anleger flüchten in Anleihen.",
+        "quelle": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html",
+        "zeit": "25.11., 17:31",
         "medien": [
           "Fox Business",
           "Yahoo Finance",
@@ -6083,7 +6083,7 @@
     "humanitaer_quelle": "UN-Menschenrechtsmission Ukraine (16.11.), OCHA, WFP, Al Jazeera (2. und 14.11.), CBS News (24.11.); Stand 25.11."
   },
   "briefing": {
-    "stand": "25.11., 17:05 Uhr",
+    "stand": "25.11., 18:04 Uhr",
     "saetze": [
       {
         "tag": "Daten",
@@ -6099,9 +6099,9 @@
       },
       {
         "tag": "Märkte",
-        "text": "Die Wall Street bricht zur Eröffnung ein: Nasdaq −3,75 %, S&P 500 −2,5 %, Dow −864 Punkte; Nvidia, AMD und Micron fallen um 5 bis 6,5 % – heißes PCE, neue Zolldrohungen und die KI-Skepsis treffen zusammen.",
-        "quelle": "Fox Business",
-        "url": "https://www.foxbusiness.com/markets/stocks-11-25-2026"
+        "text": "Der Ausverkauf an der Wall Street hält am Mittag an: Nasdaq rund −3,3 %, S&P 500 −2,1 %, Nvidia fällt um rund 8 %, der Chipindex SOX um über 6 % – der Nasdaq-100 steuert auf einen Bärenmarkt (−20 % vom Hoch) zu, der VIX springt auf fast 34.",
+        "quelle": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html"
       },
       {
         "tag": "Konflikte",
@@ -6326,7 +6326,7 @@
     ]
   },
   "energie": {
-    "stand": "25.11. 12:35",
+    "stand": "25.11. 18:04",
     "oel": {
       "lage": "Die Straße von Hormus ist seit Kriegsbeginn am 28.2. nur eingeschränkt passierbar, Minen trafen zuletzt weitere Tanker. Trotzdem rutscht Brent am Mittwoch von gut 91 $ in Richtung 87–88 $, weil die IEA für dieses Quartal ein Überangebot erwartet und Libyens Sharara-Pipeline wieder liefert; am 29.11. berät OPEC+ über die Quoten 2027.",
       "foerderung": [
@@ -6436,19 +6436,36 @@
       }
     },
     "gas": {
-      "lage": "Die EU-Speicher sind so leer wie seit über zehn Jahren nicht zu dieser Jahreszeit; Kälte ab dieser Woche und die Force Majeure von QatarEnergy (bis Ende Dezember) treiben TTF. Ab Januar gilt das EU-Importverbot für russisches Gas.",
+      "lage": "Die EU-Speicher sind so leer wie seit über zehn Jahren nicht zu dieser Jahreszeit, LNG aus Nahost bleibt durch den Iran-Krieg knapp. Mildere Wetterprognosen und mehr Lieferungen aus Norwegen drücken TTF am Mittwoch aber um 4,2 % auf 87,80 €/MWh; ab Januar gilt das EU-Importverbot für russisches Gas.",
       "ttf": {
-        "wert": 96.08,
-        "datum": "24.11.",
-        "veraenderung": 8.6
+        "wert": 87.8,
+        "datum": "25.11.",
+        "veraenderung": -4.2
       },
       "speicher": {
         "eu": 68.4,
         "de": 55.9,
         "datum": "23.11."
       },
-      "lng": [],
-      "quelle": "TTF: ICE Endex Frontmonat (Bloomberg)"
+      "lng": [
+        {
+          "herkunft": "USA",
+          "anteil": 63
+        },
+        {
+          "herkunft": "Russland",
+          "anteil": 13
+        },
+        {
+          "herkunft": "Katar",
+          "anteil": 6
+        },
+        {
+          "herkunft": "Übrige (u. a. Nigeria, Algerien)",
+          "anteil": 18
+        }
+      ],
+      "quelle": "TTF: ICE Endex Frontmonat (Reuters/Investing.com); LNG-Herkunft: IEEFA European LNG Tracker, Europa Q1 2026"
     },
     "strom": {
       "welt": [
@@ -6603,6 +6620,18 @@
     ],
     "news": [
       {
+        "tag": "Gas",
+        "titel": "TTF fällt um 4,2 % auf 87,80 €/MWh – mildere Prognosen",
+        "warum": "Nach dem Sprung vom Dienstag nehmen mildere Wetterprognosen und 167 GWh/Tag mehr Norwegen-Gas Druck aus dem Markt; die niedrigen Speicher bleiben das Risiko.",
+        "quelle": "Investing.com",
+        "url": "https://www.investing.com/news/commodities-news/european-natural-gas-prices-drop-amid-forecasts-for-milder-temperatures-5050476",
+        "zeit": "25.11., 13:04",
+        "medien": [
+          "Investing.com",
+          "Tradingpedia"
+        ]
+      },
+      {
         "tag": "Öl",
         "titel": "Ölpreise fallen: Überangebot wiegt schwerer als Hormus-Risiko",
         "warum": "Brent gab früh auf 90,97 $ nach, WTI auf 81,58 $; die IEA-Prognose eines Überschusses dämpft, OPEC+ trifft sich am 29.11.",
@@ -6663,14 +6692,6 @@
         "quelle": "Energy News Beat",
         "url": "https://energynewsbeat.co/climate-crisis-op-ed/cop31-in-antalya-ended-without-a-major-deal-after-the-longest-climate-summit-on-record/",
         "zeit": "Nov."
-      },
-      {
-        "tag": "Strom",
-        "titel": "Erneuerbare decken 58 % des deutschen Stroms im ersten Halbjahr",
-        "warum": "Rekord: Offshore-Wind +28 %, Onshore +7 %, Solar +4 %.",
-        "quelle": "Clean Energy Wire",
-        "url": "https://www.cleanenergywire.org/news/renewables-covered-record-58-german-electricity-consumption-first-half-2026",
-        "zeit": "01.07."
       }
     ]
   }
