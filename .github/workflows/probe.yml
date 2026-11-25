@@ -1,0 +1,31 @@
+name: Probe Energie
+on:
+  push:
+    branches: [claude/project-thread-vxlhm0]
+jobs:
+  p:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          t() { echo "=== $1"; curl -s --http1.1 -m 25 -D /tmp/h -o /tmp/o "$1" -H "Origin: https://uswer957.github.io"; grep -iE "^HTTP|access-control-allow-origin|content-type" /tmp/h; head -c 600 /tmp/o; echo; }
+          t "https://api.energy-charts.info/price?bzn=DE-LU"
+          t "https://api.energy-charts.info/ren_share_daily_avg?country=de"
+          t "https://api.energy-charts.info/public_power?country=de"
+          t "https://api.energy-charts.info/total_power?country=de"
+          t "https://api.energy-charts.info/price?bzn=FR"
+          t "https://agsi.gie.eu/api?type=eu"
+          t "https://agsi.gie.eu/api?country=de"
+          t "https://alsi.gie.eu/api?type=eu"
+          t "https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=@LCO.1|@CL.1|@NG.1|@TFM.1|@TTF.1|@CFI2.1|@EUA.1|@CKZ.1|@MO.1|@RB.1|@HO.1|ICE.EUA&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json"
+          curl -s --http1.1 -m 25 "https://fred.stlouisfed.org/graph/fredgraph.csv?id=WCESTUS1" | tail -3
+          curl -s --http1.1 -m 25 "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DCOILBRENTEU" | tail -3
+          t "https://ir.eia.gov/wpsr/table1.csv"
+          t "https://www.eia.gov/dnav/pet/hist_xls/WCESTUS1w.xls"
+          t "https://www.investing.com/commodities/carbon-emissions"
+          t "https://api.ember-energy.org/v1/electricity-generation/monthly?entity=Germany"
+          t "https://ember-energy.org/"
+          t "https://www.eex.com/en/market-data/environmental-markets/eua-primary-auction-spot-download"
+          t "https://query1.finance.yahoo.com/v8/finance/chart/CO2.L"
+          t "https://stooq.com/q/l/?s=cb.f&f=sd2t2ohlcv&h&e=csv"
+          t "https://www.boerse-frankfurt.de/"
+          t "https://api.energy-charts.info/co2eq?country=de"
