@@ -279,3 +279,9 @@ h3.sub.br-lit-h{margin:22px 0 8px;padding-top:12px;border-top:1px solid var(--li
 .br-lt{font-weight:600}
 .br-la{color:var(--muted)}
 .br-lw{display:block;color:var(--muted);font-size:12.5px;margin-top:1px}
+.br-dir.up{color:var(--gain)}.br-dir.dn{color:var(--loss)}
+.br-wirk li:has(.br-dir.up) .br-m{color:var(--gain)}
+.br-wirk li:has(.br-dir.dn) .br-m{color:var(--loss)}
+a.br-link{color:inherit;text-decoration:none;border-bottom:1px solid #444}
+a.br-link:hover{border-bottom-color:var(--fg)}
+a.br-link::after{content:" ↗";font-size:.8em;color:var(--muted)}

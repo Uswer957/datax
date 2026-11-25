@@ -562,7 +562,12 @@
       if (typeof x === "string") li.textContent = x;
       else {
         if (x.tag) li.appendChild(txt("span", "br-tag", x.tag));
-        li.appendChild(document.createTextNode(x.text || ""));
+        // Ziel: eigene url, sonst Quelle des passenden Detail-Themas (gleicher tag)
+        const d = (b.details || []).find((e) => e.tag && e.tag === x.tag);
+        const u = safeUrl(x.url) || (d && safeUrl(d.url));
+        const a = txt(u ? "a" : "span", "br-link", x.text || "");
+        if (u) { a.href = u; a.target = "_blank"; a.rel = "noopener"; a.title = "Zur Quelle" + (x.quelle || (d && d.quelle) ? ": " + (x.quelle || d.quelle) : ""); }
+        li.appendChild(a);
       }
       ol.appendChild(li);
     });
@@ -573,7 +578,10 @@
       const sec = txt("section", "br-d", "");
       const h = txt("h3", "", "");
       if (d.tag) h.appendChild(txt("span", "br-tag", d.tag));
-      h.appendChild(document.createTextNode(d.titel || ""));
+      const du = safeUrl(d.url);
+      const ht = txt(du ? "a" : "span", "br-link", d.titel || "");
+      if (du) { ht.href = du; ht.target = "_blank"; ht.rel = "noopener"; ht.title = "Zur Quelle" + (d.quelle ? ": " + d.quelle : ""); }
+      h.appendChild(ht);
       sec.appendChild(h);
       String(d.text || "").split(/\n\n+/).filter(Boolean).forEach((p) => sec.appendChild(txt("p", "", p)));
       if (d.wirkung && d.wirkung.length) {
