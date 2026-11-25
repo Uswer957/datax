@@ -548,7 +548,7 @@
     if (p.chg != null) {
       const t = txt("div", "t spx", ""); t.appendChild(txt("div", "s", "SPY")); t.appendChild(txt("div", "c " + (p.chg >= 0 ? "up" : "dn"), sg(p.chg, 2) + "%")); t.appendChild(txt("div", "n", "S&P 500 gesamt")); g.appendChild(t);
     }
-    $("k-sek-src").textContent = `Handelstag ${dDE(p.datum)} · ${s.quelle === "Yahoo" ? "Yahoo Finance" : "Cboe"}, ca. 15 Min. verzögert`;
+    $("k-sek-src").textContent = `Handelstag ${dDE(p.datum)} · ${s.quelle || "CNBC"}`;
   }
 
   const LZX = { "1M": 1 / 12, "3M": 0.25, "6M": 0.5, "1J": 1, "2J": 2, "5J": 5, "10J": 10, "30J": 30 };
@@ -621,9 +621,9 @@
       .forEach(([n, v]) => { const tr = document.createElement("tr"); tr.appendChild(txt("td", "", n)); tr.appendChild(txt("td", "r", v)); body.appendChild(tr); });
     tb.appendChild(body); r.appendChild(tb);
     if (s.verlauf && s.verlauf.length > 20) {
-      const v = s.verlauf;
+      const v = s.verlauf.slice(-252);
       r.appendChild(lineChart([{ pts: v.map((x, i) => [i, x[1]]), color: "#d0d0d0", w: 1.4 }], { w: CWh(), h: 130, xlabels: monthLabels(v.map((x) => x[0])), yfmt: (x) => nf(x, 1), label: "Verlauf 1 Jahr" }));
-      r.appendChild(txt("p", "src", "Verlauf 1 Jahr · Kurse Cboe/Yahoo, HY-Spread FRED (ICE BofA)"));
+      r.appendChild(txt("p", "src", "Verlauf 1 Jahr · Kurse CNBC, HY-Spread FRED (ICE BofA, Vortag)"));
     }
     w.appendChild(r); b.appendChild(w);
   }
@@ -647,7 +647,7 @@
       b.appendChild(lineChart(ser, { w: $("k-breadth-body").clientWidth || CW(), h: 180, ymin: 0, ymax: 100, yticks: [25, 50, 75, 100], yfmt: (x) => x + "%", xlabels: monthLabels(V.d), label: "Market-Breadth-Verlauf" }));
       b.appendChild(legend([["20 Tage", BCOL[20]], ["50 Tage", BCOL[50]], ["200 Tage", BCOL[200]]]));
     }
-    b.appendChild(txt("p", "src", `${s.titel} S&P-500-Werte · Schlusskurse bis ${dDE(s.datum)} · Cboe/Yahoo`));
+    b.appendChild(txt("p", "src", `${s.titel} S&P-500-Werte · Schlusskurse bis ${dDE(s.datum)} · CNBC`));
   }
 
   let lastK = null, rz = 0;
@@ -656,14 +656,52 @@
     lastK = k;
     renderSek(k.sektoren); renderZins(k.us_kurve, k.ezb); renderStress(k.stress); renderBreadth(k.breadth);
   }
+  // Live-Kurse direkt im Browser (CNBC erlaubt CORS); Datei-Stand bleibt Rückfallebene
+  const LIVE_SYMS = ["XLK", "XLF", "XLV", "XLY", "XLC", "XLI", "XLP", "XLE", "XLU", "XLRE", "XLB", "SPY", "HYG", "TLT", ".VIX"];
+  const pnum = (v) => { const n = parseFloat(String(v == null ? "" : v).replace(/[,%+]/g, "")); return isNaN(n) ? null : n; };
+  function applyLive(k, q) {
+    const now = new Intl.DateTimeFormat("de-DE", { timeZone: "Europe/Berlin", day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit" }).format(new Date()).replace(" ", " ");
+    const S = k.sektoren && k.sektoren.liste ? JSON.parse(JSON.stringify(k.sektoren)) : null;
+    if (S) {
+      let n = 0;
+      S.liste.concat([S.spx]).forEach((x) => { const z = q[x.sym]; if (z && z.chg != null) { x.chg = z.chg; x.kurs = z.px; x.datum = z.datum || x.datum; n++; } });
+      if (n) { S.liste.sort((a, b) => (b.chg ?? -99) - (a.chg ?? -99)); S.stand = "live · " + now; S.quelle = "CNBC"; k.sektoren = S; }
+    }
+    const T = k.stress && k.stress.komponenten ? JSON.parse(JSON.stringify(k.stress)) : null;
+    if (T && q.HYG && q.TLT && q[".VIX"] && q.HYG.px && q.TLT.px && q[".VIX"].px) {
+      const K = T.komponenten; K.HYG = q.HYG.px; K.TLT = q.TLT.px; K.VIX = q[".VIX"].px;
+      T.wert = (K.HYG / K.TLT) / (K.VIX * K.HY / 100);
+      const hist = (T.verlauf || []).map((x) => x[1]);
+      if (hist.length) {
+        T.perzentil = Math.round((100 * hist.filter((v) => v < T.wert).length) / hist.length);
+        T.stufe = T.perzentil < 10 ? "Hoher Stress" : T.perzentil < 30 ? "Erhöhter Stress" : T.perzentil < 70 ? "Moderat" : "Entspannt";
+      }
+      T.stand = "live · " + now; k.stress = T;
+    }
+    return k;
+  }
+  let fileK = null, liveQ = null;
+  function loadLive() {
+    const url = "https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=" + encodeURIComponent(LIVE_SYMS.join("|")) + "&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json";
+    fetch(url).then((r) => r.json()).then((j) => {
+      const q = {};
+      ((j.FormattedQuoteResult || {}).FormattedQuote || []).forEach((x) => {
+        q[x.symbol] = { px: pnum(x.last), chg: pnum(x.change_pct), datum: String(x.last_time || "").slice(0, 10) || null };
+      });
+      liveQ = q;
+      if (fileK) renderKacheln(applyLive(Object.assign({}, fileK), q));
+    }).catch(() => {});
+  }
   function loadK() {
     fetch("kacheln.json?ts=" + Date.now(), { cache: "no-store" })
       .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
-      .then(renderKacheln)
+      .then((k) => { fileK = k; renderKacheln(liveQ ? applyLive(Object.assign({}, k), liveQ) : k); })
       .catch(() => renderKacheln({}));
   }
   loadK();
+  loadLive();
   setInterval(loadK, 5 * 60 * 1000);
+  setInterval(loadLive, 60 * 1000);
 
   function load() {
     fetch("data.json?ts=" + Date.now(), { cache: "no-store" })

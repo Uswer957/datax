@@ -171,7 +171,7 @@ def fred(ids, start):
     import subprocess
     txt = ""
     for i in range(3):
-        r = subprocess.run(["curl", "-sS", "--http1.1", "-m", "90", "-A", UA,
+        r = subprocess.run(["curl", "-sS", "--http1.1", "-m", "90",
                             f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={','.join(ids)}"],
                            capture_output=True, text=True)
         if r.returncode == 0 and r.stdout.startswith("observation_date"):
@@ -224,7 +224,7 @@ def stress():
         stufe = "Moderat"
     else:
         stufe = "Entspannt"
-    last_year = [(d, round(v, 3)) for d, v in verlauf][-252:]
+    last_year = [(d, round(v, 3)) for d, v in verlauf]
     return {
         "stand": now_str(), "wert": round(wert, 3), "perzentil": round(pct), "stufe": stufe,
         "min": round(min(hist), 3), "max": round(max(hist), 3), "median": round(sorted(hist)[len(hist) // 2], 3),
