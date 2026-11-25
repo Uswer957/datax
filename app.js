@@ -887,6 +887,7 @@
 
   const REG = [["us", "USA"], ["eu", "Europa"], ["de", "Deutschland"], ["asien", "Asien"]];
   const SKEY = { us: "stress", eu: "stress_eu", de: "stress_de", asien: "stress_asien" };
+  const OCOL = { Niedrig: "var(--gain)", Normal: "#b5c45a", "Erhöht": "#f0883e", Hoch: "var(--loss)" };
   const stressCol = (p) => (p < 10 ? "var(--loss)" : p < 30 ? "#f0883e" : p < 70 ? "var(--warn)" : "var(--gain)");
   let stressReg = "us";
   try { const r = localStorage.getItem("stressReg"); if (SKEY[r]) stressReg = r; } catch (e) {}
@@ -904,7 +905,11 @@
     REG.forEach(([key, lab]) => {
       const x = all[key];
       const bt = txt("button", "", ""); bt.type = "button"; bt.setAttribute("role", "tab"); bt.setAttribute("aria-selected", String(key === stressReg));
-      if (x && x.wert != null) { const d = txt("span", "ldot rdot", ""); d.style.background = stressCol(x.perzentil); bt.appendChild(d); bt.title = lab + ": " + x.stufe; }
+      if (x && x.wert != null) {
+        const r0 = (x.referenz || [])[0];
+        const d = txt("span", "ldot rdot", ""); d.style.background = r0 ? (OCOL[r0.stufe] || "#888") : stressCol(x.perzentil); bt.appendChild(d);
+        bt.title = lab + ": " + (r0 ? r0.name + " " + r0.stufe + " · " : "") + "Marktbarometer " + x.stufe;
+      }
       bt.appendChild(document.createTextNode(lab));
       if (!x || x.wert == null) bt.disabled = true;
       bt.addEventListener("click", () => { stressReg = key; try { localStorage.setItem("stressReg", key); } catch (e) {} renderStress(all); });
@@ -914,13 +919,33 @@
     const s = all[stressReg];
     $("k-stress-stand").textContent = s.stand || "";
     const col = stressCol(s.perzentil);
+    const ref = Array.isArray(s.referenz) ? s.referenz : [];
     const w = txt("div", "stress", ""), a = txt("div", "", "");
-    a.appendChild(txt("div", "note", (REG.find((r) => r[0] === stressReg) || [])[1] + " · Financial Stress"));
-    const big = txt("div", "big", nf(s.wert, 2)); big.style.color = col; a.appendChild(big);
-    const lv = txt("div", "slvl", s.stufe); lv.style.color = col; a.appendChild(lv);
+    const regName = (REG.find((r) => r[0] === stressReg) || [])[1];
+    if (ref.length) {
+      a.appendChild(txt("div", "note", regName + " · Gesamtlage laut offiziellem Index"));
+      const hl = txt("div", "big bigw", ref[0].stufe); hl.style.color = OCOL[ref[0].stufe] || "var(--fg)"; a.appendChild(hl);
+      const rl = txt("div", "refl", "");
+      ref.forEach((x) => {
+        const row = txt("div", "refr", "");
+        const nm = txt("span", "", x.name); row.appendChild(nm);
+        row.appendChild(txt("span", "rv", nf(x.wert, Math.abs(x.wert) < 1 ? 3 : 2)));
+        const bd = txt("span", "badge", x.stufe); bd.style.background = OCOL[x.stufe] || "#888"; row.appendChild(bd);
+        row.appendChild(txt("span", "rn", `Stand ${dDE(x.datum)} · höher als an ${x.perz_lang} % der Tage seit ${x.seit}`));
+        rl.appendChild(row);
+      });
+      a.appendChild(rl);
+      a.appendChild(txt("h3", "sub mb-h", "Marktbarometer (tagesaktuell, eigene Formel)"));
+    } else {
+      a.appendChild(txt("div", "note", regName + " · Marktbarometer"));
+    }
+    const mb = txt("div", "mbar", "");
+    const big = txt("div", ref.length ? "mid" : "big", nf(s.wert, 2)); big.style.color = col; mb.appendChild(big);
+    const lv = txt("div", "slvl", s.stufe); lv.style.color = col; mb.appendChild(lv);
+    a.appendChild(mb);
     const g = txt("div", "gauge", ""); const mk = txt("span", "mk", ""); mk.style.left = Math.max(0, Math.min(100, s.perzentil)) + "%"; g.appendChild(mk); a.appendChild(g);
-    const gl = txt("div", "gauge-l", ""); gl.appendChild(txt("span", "", "Hoher Stress")); gl.appendChild(txt("span", "", "Entspannt")); a.appendChild(gl);
-    a.appendChild(txt("p", "note", `Perzentil ${s.perzentil} der letzten 2 Jahre (Spanne ${nf(s.min, 2)} – ${nf(s.max, 2)}, Median ${nf(s.median, 2)}). Werte je Region nur mit der eigenen Historie vergleichbar.`));
+    const gl = txt("div", "gauge-l", ""); gl.appendChild(txt("span", "", "angespannter")); gl.appendChild(txt("span", "", "ruhiger als üblich")); a.appendChild(gl);
+    a.appendChild(txt("p", "note", `Perzentil ${s.perzentil} der letzten ${nf(s.jahre || 2, 0)} Jahre (Median ${nf(s.median, 2)}). Reagiert schneller als die offiziellen Indizes, misst aber nur relativ zur jüngeren Vergangenheit.`));
     w.appendChild(a);
     const r = txt("div", "", "");
     const tb = document.createElement("table"); tb.className = "tbl compact"; const body = document.createElement("tbody");
@@ -933,7 +958,7 @@
     if (s.verlauf && s.verlauf.length > 20) {
       const v = s.verlauf.slice(-252);
       r.appendChild(lineChart([{ pts: v.map((x, i) => [i, x[1]]), color: "#d0d0d0", w: 1.4 }], { w: CWh(), h: 130, xlabels: monthLabels(v.map((x) => x[0])), yfmt: (x) => nf(x, 1), label: "Verlauf 1 Jahr" }));
-      r.appendChild(txt("p", "src", "Verlauf 1 Jahr · Kurse CNBC, Spread FRED (ICE BofA, Vortag)"));
+      r.appendChild(txt("p", "src", "Marktbarometer, Verlauf 1 Jahr · Kurse CNBC, Spread FRED (ICE BofA) · Referenzen: St. Louis Fed, OFR, EZB"));
     }
     w.appendChild(r); b.appendChild(w);
   }
@@ -988,7 +1013,7 @@
       T.wert = (P.risk / P.safe) / (P.vol * P.spread / 100);
       const hist = T.verlauf.map((x) => x[1]);
       T.perzentil = Math.round((100 * hist.filter((v) => v < T.wert).length) / hist.length);
-      T.stufe = T.perzentil < 10 ? "Hoher Stress" : T.perzentil < 30 ? "Erhöhter Stress" : T.perzentil < 70 ? "Moderat" : "Entspannt";
+      T.stufe = T.perzentil < 10 ? "Deutlich angespannter als üblich" : T.perzentil < 30 ? "Angespannter als üblich" : T.perzentil < 70 ? "Im üblichen Rahmen" : "Ruhiger als üblich";
       T.stand = "live · " + now; k[key] = T;
     });
     return k;
