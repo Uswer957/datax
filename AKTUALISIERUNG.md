@@ -11,6 +11,8 @@ Diese Datei ist die verbindliche Anleitung für die geplanten Läufe, die `data.
 
 Ziel des Schnelllaufs: in wenigen Minuten fertig sein. Nur ändern, was sich seit dem letzten Lauf tatsächlich bewegt hat; Unverändertes stehen lassen. Keine Abschnitte „zur Sicherheit“ neu recherchieren.
 
+**Vorrang in JEDEM Lauf (auch Schnelllauf): Fehlt ein in dieser Datei beschriebenes Feld in data.json oder ist es leer (leere Liste, null, fehlender Schlüssel), wird es in diesem Lauf sofort vollständig und belegt angelegt – nicht auf den Morgenlauf warten.** Das gilt auch für Abschnitte mit [Morgenlauf]. Vor dem Push kurz prüfen, dass kein beschriebenes Feld mehr fehlt oder leer ist.
+
 Meldungen, die im Schnelllauf aus einer Kachel verdrängt werden, dürfen statt gelöscht an den Anfang von `mehr.<passender Schlüssel>.meldungen` wandern (dann dort die älteste entfernen, max. 8).
 
 ## Ablauf
@@ -66,7 +68,7 @@ Schnelllauf: Wahrscheinlichkeiten nur prüfen, wenn Daten oder Notenbank-Reden s
 ### maerkte.unternehmenskalender („Unternehmenskalender“) — [jeder Lauf]
 
 Gleiches Format wie maerkte.kalender: {"stand": "TT.MM., HH:MM Uhr", "termine": [...]}. Termine von gestern bis 14 Tage voraus, 10 bis 16 Einträge: Quartalszahlen von DAX-Werten, US-Megacaps und den größten Werten Europas und Asiens, außerdem wichtige Hauptversammlungen, Ex-Dividenden-Tage, Investorentage und Börsenfeiertage (z. B. Thanksgiving). Je {"zeit": ISO-Zeitpunkt mit Berliner Offset, z. B. "2026-12-02T22:05:00+01:00" (bei Zahlen die angekündigte Veröffentlichungszeit; ist keine Uhrzeit bekannt, "zeit" auf 12:00 Uhr des Tages setzen und "ohne_zeit": true), "zeit_text": optional "vb." (vorbörslich), "nb." (nachbörslich) oder "ganztägig", "land": "US"/"DE"/"EZ"/"FR"/"NL"/"UK"/"CH"/"JP"/"CN" usw., "wichtig": 1 bis 3 (3 = marktbewegend, z. B. Nvidia, Apple, SAP), "was": "Unternehmen: Ereignis", z. B. "Salesforce: Zahlen Q3 GJ 2027", "prognose": bei Zahlen der Analystenkonsens für den Gewinn je Aktie, z. B. "EPS 3,05 $" (bei HV/Dividende z. B. die vorgeschlagene Dividende; unbekannt → null), "vorher": EPS des Vorjahresquartals bzw. Vorjahresdividende, "ist": tatsächliches EPS, solange nicht veröffentlicht null (Ereignisse ohne Zahl nach Stattfinden: "erledigt"), "abweichung": nur wenn ist gesetzt, "hoeher"/"tiefer"/"gleich" gegenüber Konsens, "lesart": ein kurzer Satz zu Umsatz, Ausblick und Kursreaktion (nach Veröffentlichung immer, vorher optional, was der Markt erwartet)}. Konsens nur aus seriösen Quellen (LSEG/Reuters, FactSet, Zacks, Bloomberg, Nasdaq.com, Unternehmensangaben); weichen sie ab, LSEG/Reuters bevorzugen. Termine älter als gestern entfernen.
-Schnelllauf: nur Ergebnisse (ist/abweichung/lesart) seit dem letzten Lauf eintragen. Morgenlauf: neue Termine für die nächsten 14 Tage ergänzen.
+Schnelllauf: Ist-Werte (ist/abweichung/lesart) aller seit dem letzten Lauf veröffentlichten Zahlen eintragen (z. B. US-Zahlen nachbörslich am Vorabend, Europa vorbörslich) und Termine älter als gestern entfernen. Fehlt maerkte.unternehmenskalender oder hat es weniger als 10 Termine, sofort vollständig anlegen bzw. auffüllen. Morgenlauf: neue Termine für die nächsten 14 Tage ergänzen.
 
 ### maerkte.watchlist („To Watch Today“) — [Morgenlauf]
 
@@ -98,13 +100,13 @@ Je 4 bis 5 wichtigste Meldungen (Felder wie Schlagzeilen: tag optional, titel, w
 
 Nächste 8 große politische Termine (Wahlen, Landtagswahlen, Gipfel, wichtige Abstimmungen). Felder datum, was, art.
 
-### politik.recht / politik.recht_eu / politik.recht_usa — [Morgenlauf]
+### politik.recht / politik.recht_eu / politik.recht_usa — [jeder Lauf, bei neuen Entscheidungen]
 
 Kachel „Gerichte & Gesetzgebung“ mit Umschalter Deutschland / EU / USA. Je Liste 2 bis 4 wirklich wichtige aktuelle Entscheidungen, Verfahren oder Gesetzgebungsschritte, nur das Wichtigste (Felder wie Schlagzeilen: tag, titel, warum, quelle, url, zeit, medien; Pflichtfelder inkl. zeit und medien). tag nennt das Organ.
 - recht (Deutschland): BVerfG, BGH, BFH, BVerwG, BAG, große Bundesgesetzgebung (Kabinett, Bundestag, Bundesrat).
 - recht_eu (EU): EuGH und EuG (Urteile, Schlussanträge), EU-Gesetzgebung (Kommissionsvorschläge, Trilog-Einigungen, Abstimmungen in Parlament und Rat, Inkrafttreten von Verordnungen und Richtlinien), große Kartell- und DMA-Entscheidungen der Kommission. tag z. B. „EuGH“, „EU-Parlament“, „Rat“, „Kommission“.
 - recht_usa (USA): Supreme Court (Urteile, angenommene Fälle, Eilentscheidungen), wichtige Bundesgerichtsurteile, Gesetze im Kongress (Verabschiedung, Abstimmungen), Executive Orders des Präsidenten. tag z. B. „Supreme Court“, „Kongress“, „Executive Order“, „Bundesgericht“. Medien möglichst aus beiden Lagern.
-Schnelllauf nur bei einer großen Entscheidung am selben Tag. Ist recht_eu oder recht_usa leer oder fehlt, im nächsten Lauf (auch Schnelllauf) einmal füllen.
+Schnelllauf: kurz prüfen, ob es seit dem letzten Lauf neue Entscheidungen oder Gesetzgebungsschritte in Deutschland, der EU oder den USA gibt (z. B. Urteilsverkündungen BVerfG/EuGH am Vormittag, Supreme-Court-Orders am Nachmittag/Abend Berliner Zeit, Abstimmungen in Bundestag, EU-Parlament, Kongress), und diese vorne einfügen (älteste entfernen, max. 4). Ist recht, recht_eu oder recht_usa leer oder fehlt, sofort füllen (siehe Vorrang oben).
 
 ### politik.parlamente — [Morgenlauf]
 
