@@ -180,3 +180,35 @@ dialog.mehr::backdrop{background:rgba(0,0,0,.72)}
 .brow{display:grid;grid-template-columns:auto 1fr auto;gap:8px;align-items:center;padding:5px 0;border-bottom:1px solid var(--line);font-size:13px}
 .brow .v{font:500 15px var(--f-data);border-radius:3px;padding:2px 8px;min-width:70px;text-align:right}
 .ldot{width:8px;height:8px;border-radius:50%}
+/* Sport: Spiele */
+.games{display:grid;grid-template-columns:1fr 1fr;gap:6px 24px}
+@media (max-width:720px){.games{grid-template-columns:1fr}}
+.games h3{font:600 11px var(--f-display);letter-spacing:.1em;text-transform:uppercase;color:var(--fg);margin:2px 0 4px;border-bottom:1px solid var(--line);padding-bottom:3px}
+.gl{list-style:none;margin:0;padding:0}
+.gl li{display:grid;grid-template-columns:108px 1fr auto;gap:8px;align-items:baseline;padding:5px 0;border-bottom:1px solid var(--line);font-size:13px}
+.gl li:last-child{border-bottom:0}
+.gl .gd{font:11px var(--f-data);color:var(--muted);white-space:nowrap}
+.gl .gm{min-width:0;color:var(--muted)}
+.gl .gm>span:not(.gi){color:var(--fg)}
+.gl .gm .w{font-weight:600}
+.gl .gi{display:block;font:11px var(--f-data);color:var(--muted)}
+.gl .gr{font:500 13px var(--f-data);font-variant-numeric:tabular-nums;white-space:nowrap;text-align:right}
+/* Konflikte */
+.wmap{max-width:none;margin:4px 0}
+.wmap path{stroke:#000;stroke-width:.5}
+.wmap path.hit{cursor:pointer}
+.k-nav{margin-bottom:12px}
+.k-head{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;margin-bottom:6px}
+.k-head h3{margin:0;font:600 15px var(--f-display)}
+.stufe{font:11px var(--f-data);border:1px solid;border-radius:3px;padding:0 6px}
+.k-seit{font:11px var(--f-data);color:var(--muted)}
+.k-lage{margin:0 0 12px;font-size:13.5px;line-height:1.5}
+.radar{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.radar li{display:grid;gap:2px}
+.radar .h{font-weight:500}
+.radar .why{color:var(--muted);font-size:13px}
+.lvl{display:inline-block;font:10.5px var(--f-data);text-transform:uppercase;letter-spacing:.06em;border:1px solid var(--line);border-radius:3px;padding:0 5px;margin-right:7px;color:var(--muted);vertical-align:1px}
+.lvl-hoch{color:#d64541;border-color:#d64541}
+.lvl-erhöht{color:#d08a4e;border-color:#a0522d}
+.tv-kmarkt{height:330px}
+#k-routen{margin-top:4px}
