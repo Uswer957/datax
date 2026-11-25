@@ -3869,6 +3869,194 @@
         "tag": "Deutschland",
         "text": "Destatis senkt das BIP-Wachstum im dritten Quartal auf +0,1 %, während der Bundestag diese Woche einen Rekordhaushalt für 2027 berät."
       }
+    ],
+    "details": [
+      {
+        "tag": "Märkte",
+        "titel": "KI-Rally kippt: Chipwerte weltweit unter Druck",
+        "text": "Einen Tag nach dem Nvidia-Rekordsprung verlor der US-Halbleiterindex 7,9 %, heute folgen Asiens Chipwerte: Kospi über −6 %, Tokyo Electron −13,5 %, Advantest −14,5 %, TSMC und Samsung rund −9 %. Auslöser sind Zweifel, ob Big Tech die Billionen-Investitionen in KI-Rechenzentren durchhält.\n\nGleichzeitig schichten Anleger in Standardwerte um: Der Dow schloss erstmals über 50.000 Punkten. Das ist typisch für eine Rotation, nicht für einen breiten Ausverkauf.",
+        "wirkung": [
+          {
+            "markt": "Halbleiter (Nasdaq, Infineon, ASML)",
+            "richtung": "faellt",
+            "warum": "Der Druck aus Asien dürfte zum Handelsstart in Europa und den USA nachwirken; Infineon und ASML sind direkt betroffen."
+          },
+          {
+            "markt": "Dow, Value-Werte",
+            "richtung": "seitwaerts",
+            "warum": "Profitieren von der Umschichtung, solange der Ausverkauf auf Tech begrenzt bleibt."
+          },
+          {
+            "markt": "VIX (Volatilität)",
+            "richtung": "steigt",
+            "warum": "Schwankungen bei Schwergewichten heben die Absicherungskosten; der VIX lag zuletzt um 28."
+          }
+        ],
+        "quelle": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/11/25/asias-stock-markets-dive-as-doubts-to-swirl-over-ai-boom",
+        "zeit": "25.11."
+      },
+      {
+        "tag": "Daten",
+        "titel": "14:30 Uhr: PCE, BIP und Arbeitsmarkt im Paket vor Thanksgiving",
+        "text": "Wegen des Feiertags am Donnerstag kommen die wichtigsten US-Daten gebündelt: Der Konsens erwartet bei der PCE-Kerninflation 3,2 % zum Vorjahr (Vormonat 3,1 %) und 0,3 % zum Vormonat, beim BIP für das dritte Quartal 3,5 % annualisiert und 201.000 Erstanträge auf Arbeitslosenhilfe.\n\nPCE ist das Inflationsmaß, auf das die Fed schaut. Es ist der letzte große Preisdatenpunkt vor der Sitzung am 9. Dezember.",
+        "wirkung": [
+          {
+            "markt": "US-Renditen 10 J.",
+            "richtung": "unsicher",
+            "warum": "Kernrate über 3,2 %: Renditen steigen, weil weitere Erhöhungen 2027 wahrscheinlicher werden. Darunter: Renditen fallen."
+          },
+          {
+            "markt": "US-Dollar (EUR/USD)",
+            "richtung": "unsicher",
+            "warum": "Heißere Inflation stützt den Dollar, schwächere Daten drücken ihn."
+          },
+          {
+            "markt": "Gold",
+            "richtung": "unsicher",
+            "warum": "Gold reagiert gegenläufig zu Realzinsen: steigende Renditen belasten, fallende stützen."
+          },
+          {
+            "markt": "Fed-Erhöhung 9.12.",
+            "richtung": "seitwaerts",
+            "warum": "Mit rund 95 % schon fast voll eingepreist; die Daten bewegen eher die Erwartung für 2027."
+          }
+        ],
+        "quelle": "Investing.com",
+        "url": "https://www.investing.com/news/stock-market-news/gdp-jobless-claims-and-pce-among-key-data-due-wednesday-93CH-5048884",
+        "zeit": "24.11."
+      },
+      {
+        "tag": "Zinsen",
+        "titel": "Notenbanken auf Erhöhungskurs",
+        "text": "Die Märkte rechnen im Dezember mit Zinserhöhungen bei Fed (rund 95 %), EZB (82 %) und Bank of England (80 %); bei der Bank of Japan sind die Signale gemischt. Hintergrund ist eine hartnäckige Inflation: Die PCE-Rate liegt nahe 3,6 %, die Fed hatte im September bereits auf 3,75–4,00 % erhöht.",
+        "wirkung": [
+          {
+            "markt": "Bund-Rendite 10 J.",
+            "richtung": "steigt",
+            "warum": "Eine EZB-Erhöhung auf 2,75 % zieht auch lange Laufzeiten nach oben."
+          },
+          {
+            "markt": "EUR/USD",
+            "richtung": "seitwaerts",
+            "warum": "Beide Notenbanken erhöhen, der Zinsabstand bleibt ähnlich."
+          },
+          {
+            "markt": "Banken (Deutsche Bank, Commerzbank)",
+            "richtung": "steigt",
+            "warum": "Höhere Zinsen verbessern die Zinsmarge."
+          },
+          {
+            "markt": "Immobilienaktien (Vonovia)",
+            "richtung": "faellt",
+            "warum": "Höhere Finanzierungskosten belasten Bewertung und Refinanzierung."
+          }
+        ],
+        "quelle": "TheStreet",
+        "url": "https://www.thestreet.com/fed/nvidia-rally-fed-rate-hike-bets-december-2026",
+        "zeit": "24.11."
+      },
+      {
+        "tag": "Handel",
+        "titel": "Neue US-Zölle gegen China, EU und 14 weitere Länder in Vorbereitung",
+        "text": "Über Section-301-Verfahren zu Industriesubventionen will Washington die vom Supreme Court gekippten Zölle ersetzen, zusätzlich zu den bestehenden 10 bis 12,5 %. Höhe und Termin sind offen.",
+        "wirkung": [
+          {
+            "markt": "DAX-Exporteure (Autos, Maschinenbau)",
+            "richtung": "faellt",
+            "warum": "Die EU ist ausdrücklich betroffen; Autobauer reagieren auf Zollmeldungen besonders stark."
+          },
+          {
+            "markt": "Euro",
+            "richtung": "faellt",
+            "warum": "Handelsrisiken für die Eurozone belasten die Währung leicht."
+          },
+          {
+            "markt": "Chinesische Aktien (Hang Seng)",
+            "richtung": "unsicher",
+            "warum": "Hongkong hielt sich heute stabil; konkrete Zollsätze stehen noch aus."
+          }
+        ],
+        "quelle": "AP",
+        "url": "https://www.ksat.com/news/politics/2026/11/25/us-ready-to-slap-tariffs-on-china-eu-and-others-over-subsidized-production-ap-sources-say/",
+        "zeit": "25.11., 01:52"
+      },
+      {
+        "tag": "Deutschland",
+        "titel": "Wachstum fast bei null: BIP im dritten Quartal nur +0,1 %",
+        "text": "Destatis senkt die Schnellschätzung von +0,2 % auf +0,1 %. Ausrüstungsinvestitionen (−3,5 %) und Exporte (−1,0 %) bremsen, nur der Staatskonsum (+0,3 %) stützt. Parallel berät der Bundestag den Haushalt 2027 mit Rekordausgaben.",
+        "wirkung": [
+          {
+            "markt": "Bund-Renditen kurz",
+            "richtung": "unsicher",
+            "warum": "Schwaches Wachstum spricht gegen schnelle EZB-Erhöhungen, die Inflation dafür."
+          },
+          {
+            "markt": "DAX-Binnenwerte",
+            "richtung": "faellt",
+            "warum": "Schwache Investitionen dämpfen die Gewinnerwartungen."
+          }
+        ]
+      }
+    ],
+    "begriffe": [
+      {
+        "begriff": "PCE-Preisindex",
+        "erklaerung": "Inflationsmaß aus den privaten Konsumausgaben (Personal Consumption Expenditures). Die Fed bevorzugt es gegenüber dem CPI, weil es mehr Güter erfasst und Ausweichreaktionen der Verbraucher berücksichtigt."
+      },
+      {
+        "begriff": "Kernrate",
+        "erklaerung": "Inflation ohne die schwankenden Preise für Energie und Lebensmittel. Zeigt den zugrunde liegenden Preistrend und ist für Notenbanken aussagekräftiger."
+      },
+      {
+        "begriff": "Konsens",
+        "erklaerung": "Durchschnitt der Prognosen von Analysten für einen Datenpunkt. Märkte reagieren nicht auf die Zahl selbst, sondern auf die Abweichung vom Konsens."
+      },
+      {
+        "begriff": "Basispunkt (bp)",
+        "erklaerung": "Ein Hundertstel Prozentpunkt. 25 bp = 0,25 Prozentpunkte, der übliche Schritt bei Zinsentscheidungen."
+      },
+      {
+        "begriff": "Eingepreist",
+        "erklaerung": "Eine Erwartung steckt schon in den Kursen. Aus Zinsfutures (z. B. CME FedWatch) lässt sich ablesen, mit welcher Wahrscheinlichkeit der Markt einen Zinsschritt erwartet. Ist ein Schritt voll eingepreist, bewegt erst eine Überraschung die Kurse."
+      },
+      {
+        "begriff": "Section 301",
+        "erklaerung": "Vorschrift im US-Handelsgesetz von 1974, mit der der Handelsbeauftragte unfaire Praktiken anderer Länder untersuchen und Zölle verhängen kann, ohne dass der Kongress zustimmen muss."
+      },
+      {
+        "begriff": "Rotation",
+        "erklaerung": "Anleger schichten Geld von einer Branche oder einem Stil in einen anderen um, etwa von Tech-Wachstumswerten in Value-Aktien. Der Gesamtmarkt kann dabei stabil bleiben."
+      }
+    ],
+    "literatur": [
+      {
+        "titel": "21st Century Monetary Policy",
+        "autor": "Ben S. Bernanke (2022)",
+        "warum": "Der frühere Fed-Chef erklärt, wie die Fed Inflation und Zinsen steuert, von Volcker bis zur Pandemie."
+      },
+      {
+        "titel": "Chip War",
+        "autor": "Chris Miller (2022)",
+        "warum": "Warum Halbleiter das Öl des 21. Jahrhunderts sind und wie TSMC, ASML und Nvidia zusammenhängen."
+      },
+      {
+        "titel": "Makroökonomik",
+        "autor": "N. Gregory Mankiw",
+        "warum": "Standardlehrbuch zu Inflation, Geldpolitik und Konjunktur, auch auf Deutsch; passt zum RSW-Studium."
+      },
+      {
+        "titel": "PCE-Preisindex: Erklärung und Daten",
+        "autor": "U.S. Bureau of Economic Analysis",
+        "url": "https://www.bea.gov/data/personal-consumption-expenditures-price-index",
+        "warum": "Offizielle Quelle für die heutigen Zahlen."
+      },
+      {
+        "titel": "CME FedWatch Tool",
+        "autor": "CME Group",
+        "url": "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html",
+        "warum": "Hier entstehen die Fed-Wahrscheinlichkeiten der Notenbank-Uhr."
+      }
     ]
   }
 }

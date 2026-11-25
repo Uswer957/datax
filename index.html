@@ -7,7 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preload" href="fonts/GeneralSans-Variable.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap">
-<link rel="stylesheet" href="style.css?v=15">
+<link rel="stylesheet" href="style.css?v=16">
 </head>
 <body>
 <header class="top">
@@ -18,13 +18,9 @@
   <div class="clocks" id="clocks" aria-label="Weltbörsen"></div>
 </header>
 
-<section class="briefing" id="briefing" aria-labelledby="br-h" hidden>
-  <h2 id="br-h"><span>Briefing des Tages</span><span class="h2-note" id="br-stand"></span></h2>
-  <ol class="br-list" id="br-list"></ol>
-</section>
-
 <nav class="tabs" role="tablist" aria-label="Bereiche">
-  <button role="tab" id="tab-maerkte" aria-controls="p-maerkte" aria-selected="true">Märkte</button>
+  <button role="tab" id="tab-briefing" aria-controls="p-briefing" aria-selected="true">Briefing</button>
+  <button role="tab" id="tab-maerkte" aria-controls="p-maerkte" aria-selected="false">Märkte</button>
   <button role="tab" id="tab-politik" aria-controls="p-politik" aria-selected="false">Politik</button>
   <button role="tab" id="tab-konflikte" aria-controls="p-konflikte" aria-selected="false">Konflikte</button>
   <button role="tab" id="tab-sport" aria-controls="p-sport" aria-selected="false">Sport</button>
@@ -33,8 +29,28 @@
 </nav>
 
 <main>
+  <!-- BRIEFING -->
+  <section class="panel-set" id="p-briefing" role="tabpanel" aria-labelledby="tab-briefing">
+    <article class="card briefing">
+      <h2><span>Das Wichtigste in Kürze</span><span class="h2-note" id="br-stand"></span></h2>
+      <ol class="br-list" id="br-list"></ol>
+    </article>
+    <div class="grid g-brief">
+      <article class="card">
+        <h2><span class="kt">Ausführlich &amp; Ausblick<button type="button" class="info" aria-label="Erklärung" data-tip="Die wichtigsten Themen des Tages ausführlich eingeordnet. Unter „Erwartete Wirkung“ steht, wie sich die Nachricht nach Einschätzung von Claude voraussichtlich auf Kurse, Renditen, Währungen oder anstehende Daten auswirkt, mit Begründung. Das ist eine Einschätzung auf Basis der Nachrichtenlage, keine Anlageberatung und keine Garantie.">?</button></span></h2>
+        <div class="br-detail" id="br-detail"></div>
+      </article>
+      <article class="card">
+        <h2>Was man wissen muss</h2>
+        <dl class="br-wissen" id="br-wissen"></dl>
+        <h3 class="sub br-lit-h">Zum Weiterlesen</h3>
+        <ul class="br-lit" id="br-lit"></ul>
+      </article>
+    </div>
+  </section>
+
   <!-- MÄRKTE -->
-  <section class="panel-set" id="p-maerkte" role="tabpanel" aria-labelledby="tab-maerkte">
+  <section class="panel-set" id="p-maerkte" role="tabpanel" aria-labelledby="tab-maerkte" hidden>
     <div class="tv tv-tape"><div class="tradingview-widget-container" id="w-tape"></div></div>
 
     <div class="grid g-markets">
@@ -236,6 +252,6 @@
   <p class="src" id="mehr-stand"></p>
 </dialog>
 
-<script src="app.js?v=15"></script>
+<script src="app.js?v=16"></script>
 </body>
 </html>
