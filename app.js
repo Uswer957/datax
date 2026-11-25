@@ -67,16 +67,20 @@
   show(location.hash.slice(1));
 
   /* ---------- TradingView-Widgets (live) ---------- */
-  function widget(id, kind, config) {
+  const TVW = [];
+  document.addEventListener("datax:theme", () => TVW.forEach((w) => { const b = document.getElementById(w[0]); if (b) { b.innerHTML = ""; widget(w[0], w[1], w[2], true); } }));
+  function widget(id, kind, config, again) {
     const box = document.getElementById(id);
     if (!box) return;
+    if (!again) TVW.push([id, kind, config]);
+    const light = document.documentElement.dataset.theme === "light";
     const inner = document.createElement("div");
     inner.className = "tradingview-widget-container__widget";
     box.appendChild(inner);
     const s = document.createElement("script");
     s.src = "https://s3.tradingview.com/external-embedding/embed-widget-" + kind + ".js";
     s.async = true;
-    s.textContent = JSON.stringify(Object.assign({ colorTheme: "dark", isTransparent: false, backgroundColor: "#0c0c0c", locale: "de_DE" }, config));
+    s.textContent = JSON.stringify(Object.assign({ colorTheme: light ? "light" : "dark", isTransparent: false, backgroundColor: light ? "#fbf8f2" : "#0c0c0c", locale: "de_DE" }, config));
     s.onerror = () => { box.innerHTML = '<p class="fallback">Live-Kurse konnten nicht geladen werden.</p>'; };
     box.appendChild(s);
   }
@@ -729,7 +733,16 @@
     const p = d.politik || {};
     newsList("p-welt", p.welt); newsList("p-usa", p.usa, true); newsList("p-de", p.deutschland);
     rows("p-termine", p.termine, [["datum", "date"], ["was"], ["art"]]);
-    newsList("p-recht", p.recht);
+    // Gerichte & Gesetzgebung: Umschalter Deutschland / EU / USA
+    const RECHT = { de: [p.recht, false], eu: [p.recht_eu, false], usa: [p.recht_usa, true] };
+    let rk = "de";
+    try { const r = localStorage.getItem("rechtReg"); if (RECHT[r]) rk = r; } catch (e) {}
+    const drawRecht = () => {
+      document.querySelectorAll("#p-recht-tabs button").forEach((b) => b.setAttribute("aria-selected", String(b.dataset.k === rk)));
+      newsList("p-recht", RECHT[rk][0], RECHT[rk][1]);
+    };
+    document.querySelectorAll("#p-recht-tabs button").forEach((b) => { b.onclick = () => { rk = b.dataset.k; try { localStorage.setItem("rechtReg", rk); } catch (e) {} drawRecht(); }; });
+    drawRecht();
     mapsReady.then(() => renderParl(p.parlamente));
     renderKonflikte(d.konflikte);
     renderSport(d.sport);

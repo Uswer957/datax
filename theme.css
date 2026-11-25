@@ -1,0 +1,64 @@
+/* Logo + Schalter (beide Modi) */
+.brand h1 a.logo{color:inherit;text-decoration:none;cursor:pointer;-webkit-tap-highlight-color:transparent}
+.brand h1 a.logo:hover{opacity:.75}
+.theme-btn{position:relative;align-self:center;display:inline-flex;align-items:center;justify-content:center;width:18px;height:18px;margin-left:-6px;padding:0;border:0;background:none;color:var(--muted);cursor:pointer;-webkit-tap-highlight-color:transparent}
+.theme-btn::after{content:"";position:absolute;inset:-11px}
+.theme-btn:hover{color:var(--fg)}
+.theme-btn svg{width:13px;height:13px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.theme-btn .moon{display:none}
+[data-theme="light"] .theme-btn .sun{display:none}
+[data-theme="light"] .theme-btn .moon{display:block}
+
+/* ---------- Heller Modus: beige-weiß ---------- */
+:root[data-theme="light"]{
+  --bg:#f4efe6; --panel:#fbf8f2; --panel2:#ebe4d6; --line:#ddd4c3; --fg:#1d1b17; --muted:#6d665a;
+  --accent:#1d1b17; --open:#1d1b17; --closed:#bdb4a3; --down:#1d1b17; --up:#1d1b17;
+  --gain:#1a7f37; --loss:#c8312b; --warn:#b7791f;
+  color-scheme:light;
+}
+[data-theme="light"] .clock.open .dot{box-shadow:0 0 0 2px var(--bg),0 0 0 3px var(--open)}
+[data-theme="light"] .clock.open{border-color:#a99f8c}
+[data-theme="light"] .map path,[data-theme="light"] .wmap path{stroke:var(--bg)}
+[data-theme="light"] .map path.gf{stroke:#1d1b17}
+[data-theme="light"] dialog.mehr::backdrop{background:rgba(60,50,35,.45)}
+[data-theme="light"] .info{border-color:#a99f8c}
+[data-theme="light"] .tip{background:#fffdf8;border-color:#cfc5b2;box-shadow:0 8px 24px rgba(60,50,35,.18)}
+[data-theme="light"] .heat .t{border-color:#e6dece}
+[data-theme="light"] .heat .t.spx{background:#ebe4d6;border-color:#cfc5b2}
+[data-theme="light"] .badge{color:#fff}
+[data-theme="light"] .gauge .mk{box-shadow:0 0 0 2px var(--bg)}
+[data-theme="light"] .nb-bar{background:#e6dece}
+[data-theme="light"] .nb-bar i{background:#a99f8c}
+[data-theme="light"] .wk tr.wk-day td{border-bottom-color:#cfc5b2}
+[data-theme="light"] a.br-link{border-bottom-color:#bdb4a3}
+[data-theme="light"] .m-jump a:hover{border-color:#a99f8c}
+[data-theme="light"] .stt-t{background:#e6dece}
+[data-theme="light"] .b-d{background:#8a8273}
+[data-theme="light"] .qc.up,[data-theme="light"] .wq-c.up{background:rgba(26,127,55,.12)}
+[data-theme="light"] .qc.dn,[data-theme="light"] .wq-c.dn{background:rgba(200,49,43,.11)}
+[data-theme="light"] .e-up{color:var(--gain)}
+[data-theme="light"] .e-dn{color:var(--loss)}
+[data-theme="light"] .e-kurs.ok{color:var(--gain);border-color:rgba(26,127,55,.5)}
+[data-theme="light"] .e-kurs.knapp{color:#9a6a00;border-color:rgba(154,106,0,.5)}
+[data-theme="light"] .e-kurs.nein{color:var(--loss);border-color:rgba(200,49,43,.5)}
+[data-theme="light"] .lvl-hoch{color:#b8322c;border-color:#b8322c}
+[data-theme="light"] .lvl-erhöht{color:#9a5a24;border-color:#9a5a24}
+[data-theme="light"] .tabs{background:none}
+@media (max-width:720px){[data-theme="light"] .tabs{background:rgba(244,239,230,.9)}}
+
+/* Grafiken, die per JS feste Dunkel-Farben bekommen (CSS schlägt SVG-Attribute) */
+[data-theme="light"] svg [fill="#3a3a3a"]{fill:#cfc5b2}
+[data-theme="light"] svg [fill="#f2f2f2"]{fill:#1d1b17}
+[data-theme="light"] svg [fill="#2a2a2a"],[data-theme="light"] svg [fill="#232323"]{fill:#e3dbcb}
+[data-theme="light"] svg [fill="#b4b4b4"]{fill:#8a8273}
+[data-theme="light"] svg [stroke="#222"]{stroke:#e6dece}
+[data-theme="light"] svg [stroke="#555"]{stroke:#a99f8c}
+[data-theme="light"] svg [stroke="#3a3a3a"]{stroke:#cfc5b2}
+[data-theme="light"] svg [stroke="#d0d0d0"],[data-theme="light"] svg [stroke="#f2f2f2"]{stroke:#3d3830}
+[data-theme="light"] svg [stroke="#9a9a9a"]{stroke:#8a8273}
+[data-theme="light"] svg [stroke="#5fd08a"]{stroke:#1f9a50}
+[data-theme="light"] svg [fill="#5fd08a"]{fill:#1f9a50}
+[data-theme="light"] svg [stroke="#3fb950"],[data-theme="light"] svg [stroke="rgb(63,185,80)"]{stroke:#1a7f37}
+[data-theme="light"] svg [stroke="#f85149"],[data-theme="light"] svg [stroke="rgb(248,81,73)"]{stroke:#c8312b}
+[data-theme="light"] svg [fill="#3fb950"],[data-theme="light"] svg [fill="rgb(63,185,80)"]{fill:#1a7f37}
+[data-theme="light"] svg [fill="#f85149"],[data-theme="light"] svg [fill="rgb(248,81,73)"]{fill:#c8312b}
