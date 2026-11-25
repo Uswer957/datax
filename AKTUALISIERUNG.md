@@ -23,7 +23,7 @@ Meldungen, die im Schnelllauf aus einer Kachel verdrängt werden, dürfen statt 
 
 ## Pflichtfelder jeder Meldung
 
-Gilt für maerkte.schlagzeilen, politik.welt, politik.usa, politik.deutschland, politik.recht, sport-Schlagzeilen, alle Meldungslisten unter konflikte und energie.news sowie alle mehr.*.meldungen:
+Gilt für maerkte.schlagzeilen, politik.welt, politik.usa, politik.deutschland, politik.recht, politik.recht_eu, politik.recht_usa, sport-Schlagzeilen, alle Meldungslisten unter konflikte und energie.news sowie alle mehr.*.meldungen:
 
 - `"quelle"`: das ORIGINALE Medium, das die Meldung veröffentlicht hat (z. B. "Reuters", "Tagesschau", "Handelsblatt", "Fox News"), und `"url"`: https-Link direkt auf den Artikel dieses Mediums. KEINE Aggregatoren, Newsletter oder Ticker als Quelle (z. B. nicht „Everything Briefing“, „Newsquawk“, Substack-Newsletter, news.de, MSN, Yahoo-Zusammenfassungen, Google News). Findest du eine Meldung nur über einen Aggregator, das Originalmedium suchen und dessen Artikel verlinken; gelingt das nicht, die Meldung weglassen.
 - `"zeit"`: Veröffentlichungszeitpunkt des verlinkten Artikels in Berliner Zeit im Format "TT.MM., HH:MM" (z. B. "24.11., 13:20"); ist nur das Datum bekannt, "TT.MM.". Nicht schätzen. Ältere Meldungen behalten ihr ursprüngliches Datum.
@@ -98,9 +98,13 @@ Je 4 bis 5 wichtigste Meldungen (Felder wie Schlagzeilen: tag optional, titel, w
 
 Nächste 8 große politische Termine (Wahlen, Landtagswahlen, Gipfel, wichtige Abstimmungen). Felder datum, was, art.
 
-### politik.recht — [Morgenlauf]
+### politik.recht / politik.recht_eu / politik.recht_usa — [Morgenlauf]
 
-2 bis 4 wirklich wichtige aktuelle Entscheidungen oder Verfahren von BVerfG, BFH oder große Gesetzgebung, nur das Wichtigste (Pflichtfelder inkl. zeit und medien). Schnelllauf nur bei einer großen Entscheidung am selben Tag.
+Kachel „Gerichte & Gesetzgebung“ mit Umschalter Deutschland / EU / USA. Je Liste 2 bis 4 wirklich wichtige aktuelle Entscheidungen, Verfahren oder Gesetzgebungsschritte, nur das Wichtigste (Felder wie Schlagzeilen: tag, titel, warum, quelle, url, zeit, medien; Pflichtfelder inkl. zeit und medien). tag nennt das Organ.
+- recht (Deutschland): BVerfG, BGH, BFH, BVerwG, BAG, große Bundesgesetzgebung (Kabinett, Bundestag, Bundesrat).
+- recht_eu (EU): EuGH und EuG (Urteile, Schlussanträge), EU-Gesetzgebung (Kommissionsvorschläge, Trilog-Einigungen, Abstimmungen in Parlament und Rat, Inkrafttreten von Verordnungen und Richtlinien), große Kartell- und DMA-Entscheidungen der Kommission. tag z. B. „EuGH“, „EU-Parlament“, „Rat“, „Kommission“.
+- recht_usa (USA): Supreme Court (Urteile, angenommene Fälle, Eilentscheidungen), wichtige Bundesgerichtsurteile, Gesetze im Kongress (Verabschiedung, Abstimmungen), Executive Orders des Präsidenten. tag z. B. „Supreme Court“, „Kongress“, „Executive Order“, „Bundesgericht“. Medien möglichst aus beiden Lagern.
+Schnelllauf nur bei einer großen Entscheidung am selben Tag. Ist recht_eu oder recht_usa leer oder fehlt, im nächsten Lauf (auch Schnelllauf) einmal füllen.
 
 ### politik.parlamente — [Morgenlauf]
 
@@ -181,7 +185,7 @@ Schnelllauf: Tabelle einer Liga nur nachziehen, wenn dort seit dem letzten Lauf 
 
 ## Mehr zum Thema (`mehr`) — [Morgenlauf]
 
-Öffnet sich auf der Seite beim Klick auf eine Kachelüberschrift. Objekt auf oberster Ebene von data.json mit diesen Schlüsseln: schlagzeilen, watch, devisen, rohstoffe, anleihen, indizes, verschuldung, unternehmen (Märkte), welt, usa, deutschland, termine, recht (Politik) sowie konflikte, radar, front, diplomatie, ruestung, konfliktmarkt, humanitaer (Konflikte) sowie energie_oel, energie_opec, energie_gas, energie_strom, energie_preise, energie_routen, energie_klima, energie_co2, energie_news (Energie).
+Öffnet sich auf der Seite beim Klick auf eine Kachelüberschrift. Objekt auf oberster Ebene von data.json mit diesen Schlüsseln: schlagzeilen, watch, devisen, rohstoffe, anleihen, indizes, verschuldung, unternehmen (Märkte), welt, usa, deutschland, termine, recht (Politik; deckt Deutschland, EU und USA ab) sowie konflikte, radar, front, diplomatie, ruestung, konfliktmarkt, humanitaer (Konflikte) sowie energie_oel, energie_opec, energie_gas, energie_strom, energie_preise, energie_routen, energie_klima, energie_co2, energie_news (Energie).
 
 Jeder Eintrag: {"lage": "2 bis 3 Sätze, wie die Lage in diesem Thema gerade ist und worauf es ankommt", "meldungen": [5 bis 8 Meldungen mit tag (optional), titel, warum, quelle, url, zeit, medien]}. Es sollen WEITERE Meldungen sein, die nicht schon in der Kachel selbst stehen, gern mit Hintergrund und Analyse (auch Handelsblatt, Zeit, FT, Bloomberg, Economist, wenn frei lesbar).
 

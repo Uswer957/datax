@@ -733,7 +733,16 @@
     const p = d.politik || {};
     newsList("p-welt", p.welt); newsList("p-usa", p.usa, true); newsList("p-de", p.deutschland);
     rows("p-termine", p.termine, [["datum", "date"], ["was"], ["art"]]);
-    newsList("p-recht", p.recht);
+    // Gerichte & Gesetzgebung: Umschalter Deutschland / EU / USA
+    const RECHT = { de: [p.recht, false], eu: [p.recht_eu, false], usa: [p.recht_usa, true] };
+    let rk = "de";
+    try { const r = localStorage.getItem("rechtReg"); if (RECHT[r]) rk = r; } catch (e) {}
+    const drawRecht = () => {
+      document.querySelectorAll("#p-recht-tabs button").forEach((b) => b.setAttribute("aria-selected", String(b.dataset.k === rk)));
+      newsList("p-recht", RECHT[rk][0], RECHT[rk][1]);
+    };
+    document.querySelectorAll("#p-recht-tabs button").forEach((b) => { b.onclick = () => { rk = b.dataset.k; try { localStorage.setItem("rechtReg", rk); } catch (e) {} drawRecht(); }; });
+    drawRecht();
     mapsReady.then(() => renderParl(p.parlamente));
     renderKonflikte(d.konflikte);
     renderSport(d.sport);
