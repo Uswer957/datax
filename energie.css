@@ -1,8 +1,9 @@
 /* Energie-Tab */
-.e-oel-top{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.4fr);gap:12px;align-items:start;margin-bottom:10px}
+.e-oel-top{display:grid;grid-template-columns:minmax(360px,1fr) minmax(0,1.3fr);gap:12px;align-items:start;margin-bottom:10px}
+@media (max-width:1180px){.e-oel-top{grid-template-columns:1fr}.tv-energy{height:230px}}
 .tv-energy{height:260px}
 .e-two{display:grid;grid-template-columns:1fr 1fr;gap:14px}
-.e-gap{margin-top:14px}
+.e-gap{margin-top:18px}
 .e-kpis{display:flex;flex-wrap:wrap;gap:8px 22px;margin:2px 0 10px}
 .e-kpi .v{font:500 22px/1.1 var(--f-data);font-variant-numeric:tabular-nums;color:var(--fg)}
 .e-kpi .v small{font-size:12px;color:var(--muted);margin-left:3px}
