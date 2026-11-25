@@ -1,5 +1,5 @@
 {
-  "aktualisiert": "25.11.2026, 10:12 Uhr",
+  "aktualisiert": "25.11.2026, 10:09 Uhr",
   "maerkte": {
     "schlagzeilen": [
       {
@@ -386,7 +386,7 @@
       ]
     },
     "kalender": {
-      "stand": "25.11., 10:10 Uhr",
+      "stand": "25.11., 10:09 Uhr",
       "termine": [
         {
           "zeit": "2026-11-23T15:45:00+01:00",
@@ -4027,7 +4027,7 @@
     }
   },
   "konflikte": {
-    "stand": "Stand 25.11., 10:10 Uhr",
+    "stand": "Stand 25.11., 10:09 Uhr",
     "karte": [
       {
         "code": "UKR",
@@ -4701,7 +4701,7 @@
     "humanitaer_quelle": "UN-Menschenrechtsmission Ukraine (16.11.), OCHA, WFP, Al Jazeera (2. und 14.11.), CBS News (24.11.); Stand 25.11."
   },
   "briefing": {
-    "stand": "25.11., 10:10 Uhr",
+    "stand": "25.11., 10:09 Uhr",
     "saetze": [
       {
         "tag": "Märkte",
@@ -4834,6 +4834,26 @@
         "quelle": "AP",
         "url": "https://www.ksat.com/news/politics/2026/11/25/us-ready-to-slap-tariffs-on-china-eu-and-others-over-subsidized-production-ap-sources-say/",
         "zeit": "25.11., 01:52"
+      },
+      {
+        "tag": "Konflikte",
+        "titel": "Hormus: Minentreffer, Verkehr −40 %, Öl bleibt gelassen",
+        "text": "Irans Marine meldet, dass Tanker östlich der Straße von Hormus nach Minentreffern in Brand geraten sind; Teheran erklärt, die Meerenge bleibe geschlossen, bis seine Bedingungen erfüllt sind. Laut MarineTraffic passierten vom 17. bis 23.11. nur noch 125 Schiffe nach 226 in der ersten Novemberwoche.\n\nTrotzdem fiel Brent über Nacht um rund 1,5 % auf etwa 90 $. Der Markt gewichtet schwache Nachfrage und Zinsangst derzeit stärker als das Angebotsrisiko – vom Kriegshoch über 120 $ ist Öl weit entfernt.",
+        "wirkung": [
+          {
+            "markt": "Brent / WTI",
+            "richtung": "unsicher",
+            "warum": "Bestätigte Minen oder ein Tanker-Konvoi Irans würden die Risikoprämie schnell zurückbringen; sonst dominiert die Nachfrageschwäche."
+          },
+          {
+            "markt": "Tankerraten, Versicherer",
+            "richtung": "steigt",
+            "warum": "Weniger Passagen und Minengefahr verteuern Fracht und Kriegsrisiko-Prämien im Golf."
+          }
+        ],
+        "quelle": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/11/24/hormuz-oil-traffic-is-down-40-percent-are-irans-tanker-attacks-working",
+        "zeit": "24.11."
       },
       {
         "tag": "Deutschland",
