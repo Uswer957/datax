@@ -15,6 +15,7 @@ import os
 import re
 import subprocess
 import sys
+import urllib.error
 import urllib.request
 import zipfile
 from zoneinfo import ZoneInfo
@@ -36,8 +37,23 @@ def curl(url):
     return subprocess.run(["curl", "-sL", "--http1.1", "-m", "60", url], capture_output=True, check=True).stdout
 
 
+_last_ec = [0.0]
+
+
 def ecj(path):
-    return json.loads(get(EC + path))
+    # Energy-Charts drosselt (HTTP 429): Abstand halten und bei 429 warten
+    import time
+    for i in range(5):
+        wait = 2.0 - (time.time() - _last_ec[0])
+        if wait > 0:
+            time.sleep(wait)
+        _last_ec[0] = time.time()
+        try:
+            return json.loads(get(EC + path))
+        except urllib.error.HTTPError as e:
+            if e.code != 429 or i == 4:
+                raise
+            time.sleep(10 * (i + 1))
 
 
 def stamp():
@@ -147,29 +163,27 @@ def day_avgs(j):
 
 def preise():
     heute, morgen = NOW.date(), NOW.date() + dt.timedelta(days=1)
-    zonen = []
+    gestern = heute - dt.timedelta(days=1)
+    zonen, de = [], {}
     for code, land in ZONEN:
         try:
-            j = ecj(f"/price?bzn={code}&start={heute - dt.timedelta(days=1)}&end={morgen + dt.timedelta(days=1)}")
-            a = day_avgs(j)
-            zonen.append({"code": code, "land": land, "gestern": r1(a.get(str(heute - dt.timedelta(days=1))), 2),
+            if code == "DE-LU":
+                j = ecj(f"/price?bzn={code}&start={heute - dt.timedelta(days=90)}&end={morgen + dt.timedelta(days=1)}")
+                kurve = []
+                for t, p in zip(j["unix_seconds"], j["price"]):
+                    x = dt.datetime.fromtimestamp(t, BER)
+                    if p is not None and x.date() >= heute:
+                        kurve.append([x.strftime("%Y-%m-%d %H:%M"), r1(p, 2)])
+                a = day_avgs(j)
+                de = {"kurve": kurve, "tage": [[d, r1(v, 2)] for d, v in sorted(a.items())]}
+            else:
+                a = day_avgs(ecj(f"/price?bzn={code}&start={gestern}&end={morgen + dt.timedelta(days=1)}"))
+            zonen.append({"code": code, "land": land, "gestern": r1(a.get(str(gestern)), 2),
                           "heute": r1(a.get(str(heute)), 2), "morgen": r1(a.get(str(morgen)), 2)})
         except Exception as e:  # noqa: BLE001
             print("preis", code, e, file=sys.stderr)
-    de = {}
-    try:
-        j = ecj(f"/price?bzn=DE-LU&start={heute}&end={morgen + dt.timedelta(days=1)}")
-        kurve = []
-        for t, p in zip(j["unix_seconds"], j["price"]):
-            if p is None:
-                continue
-            x = dt.datetime.fromtimestamp(t, BER)
-            kurve.append([x.strftime("%Y-%m-%d %H:%M"), r1(p, 2)])
-        de["kurve"] = kurve
-        h = ecj(f"/price?bzn=DE-LU&start={heute - dt.timedelta(days=90)}&end={morgen + dt.timedelta(days=1)}")
-        de["tage"] = [[d, r1(v, 2)] for d, v in sorted(day_avgs(h).items())]
-    except Exception as e:  # noqa: BLE001
-        print("preis DE", e, file=sys.stderr)
+    if not zonen:
+        raise ValueError("keine Preise")
     return {"stand": stamp(), "einheit": "€/MWh", "zonen": zonen, "de": de}
 
 
