@@ -3452,5 +3452,163 @@
         }
       ]
     }
+  },
+  "konflikte": {
+    "stand": "Stand 25.11., 09:50 Uhr",
+    "karte": [
+      {
+        "code": "UKR",
+        "stufe": 3,
+        "konflikt": "ukraine",
+        "hinweis": "Russischer Angriffskrieg"
+      },
+      {
+        "code": "RUS",
+        "stufe": 3,
+        "konflikt": "ukraine",
+        "hinweis": "Kriegspartei gegen die Ukraine"
+      },
+      {
+        "code": "IRN",
+        "stufe": 3,
+        "konflikt": "iran",
+        "hinweis": "Krieg mit USA und Israel, US-Seeblockade"
+      },
+      {
+        "code": "ISR",
+        "stufe": 3,
+        "konflikt": "iran",
+        "hinweis": "Kriegspartei gegen Iran"
+      },
+      {
+        "code": "YEM",
+        "stufe": 3,
+        "konflikt": "iran",
+        "hinweis": "Houthis, saudische Angriffe auf Hodeida"
+      },
+      {
+        "code": "SAU",
+        "stufe": 2,
+        "konflikt": "iran",
+        "hinweis": "Houthi-Angriffe auf Riad"
+      },
+      {
+        "code": "BHR",
+        "stufe": 2,
+        "konflikt": "iran",
+        "hinweis": "Iranische Angriffe auf US-Basen"
+      },
+      {
+        "code": "SDN",
+        "stufe": 3,
+        "konflikt": "sudan",
+        "hinweis": "Krieg Armee (SAF) gegen RSF"
+      },
+      {
+        "code": "MMR",
+        "stufe": 3,
+        "hinweis": "Bürgerkrieg"
+      },
+      {
+        "code": "COD",
+        "stufe": 2,
+        "hinweis": "Kämpfe im Osten (M23)"
+      },
+      {
+        "code": "SSD",
+        "stufe": 2,
+        "hinweis": "Instabil, Gefechte"
+      },
+      {
+        "code": "SOM",
+        "stufe": 2,
+        "hinweis": "Al-Shabaab"
+      },
+      {
+        "code": "MLI",
+        "stufe": 2,
+        "hinweis": "Dschihadisten im Sahel"
+      },
+      {
+        "code": "BFA",
+        "stufe": 2,
+        "hinweis": "Dschihadisten im Sahel"
+      },
+      {
+        "code": "NER",
+        "stufe": 2,
+        "hinweis": "Dschihadisten im Sahel"
+      },
+      {
+        "code": "NGA",
+        "stufe": 2,
+        "hinweis": "Boko Haram, ISWAP"
+      },
+      {
+        "code": "HTI",
+        "stufe": 2,
+        "hinweis": "Bandengewalt"
+      },
+      {
+        "code": "PSE",
+        "stufe": 2,
+        "hinweis": "Gaza und Westjordanland"
+      },
+      {
+        "code": "LBN",
+        "stufe": 2,
+        "hinweis": "Hisbollah, israelische Angriffe"
+      },
+      {
+        "code": "TWN",
+        "stufe": 1,
+        "hinweis": "Chinesischer Druck"
+      },
+      {
+        "code": "PRK",
+        "stufe": 1,
+        "hinweis": "Raketentests"
+      },
+      {
+        "code": "EST",
+        "stufe": 1,
+        "hinweis": "Spannungen mit Russland"
+      }
+    ],
+    "liste": [
+      {
+        "id": "ukraine",
+        "kurz": "Ukraine",
+        "name": "Russland – Ukraine",
+        "stufe": 3,
+        "seit": "24.02.2022",
+        "lage": "",
+        "meldungen": []
+      },
+      {
+        "id": "iran",
+        "kurz": "Iran / Golf",
+        "name": "Iran-Krieg und Straße von Hormus",
+        "stufe": 3,
+        "seit": "2026",
+        "lage": "",
+        "meldungen": []
+      },
+      {
+        "id": "sudan",
+        "kurz": "Sudan",
+        "name": "Sudan: Armee gegen RSF",
+        "stufe": 3,
+        "seit": "15.04.2023",
+        "lage": "",
+        "meldungen": []
+      }
+    ],
+    "front": {},
+    "diplomatie": [],
+    "ruestung": [],
+    "markt": {},
+    "humanitaer": [],
+    "radar": []
   }
 }

@@ -54,7 +54,7 @@
   setInterval(tick, 1000);
 
   /* ---------- Tabs ---------- */
-  const TABS = ["maerkte", "politik", "sport", "sonstiges"];
+  const TABS = ["maerkte", "politik", "konflikte", "sport", "sonstiges"];
   function show(name) {
     if (!TABS.includes(name)) name = "maerkte";
     TABS.forEach((t) => {
@@ -97,6 +97,7 @@
   widget("w-cmd", "market-quotes", quotes("Rohstoffe", [["TVC:UKOIL", "Brent"], ["TVC:USOIL", "WTI"], ["TVC:GOLD", "Gold"], ["TVC:SILVER", "Silber"], ["TVC:PLATINUM", "Platin"], ["CAPITALCOM:COPPER", "Kupfer"]]));
   widget("w-bonds", "market-quotes", quotes("Anleihe-Kurse", [["OANDA:DE10YBEUR", "Bund 10J"], ["OANDA:USB10YUSD", "US T-Note 10J"], ["OANDA:UK10YBGBP", "UK Gilt 10J"]]));
   widget("w-idx", "market-quotes", quotes("Indizes", [["INDEX:DEU40", "DAX"], ["FOREXCOM:SPXUSD", "S&P 500"], ["FOREXCOM:NSXUSD", "Nasdaq 100"], ["INDEX:NKY", "Nikkei 225"], ["INDEX:HSI", "Hang Seng"], ["BITSTAMP:BTCUSD", "Bitcoin"], ["BITSTAMP:ETHUSD", "Ethereum"]]));
+  widget("w-kmarkt", "market-quotes", quotes("Konflikt-Barometer", [["TVC:UKOIL", "Brent"], ["TVC:GOLD", "Gold"], ["XETR:RHM", "Rheinmetall"], ["XETR:HAG", "Hensoldt"], ["NYSE:LMT", "Lockheed Martin"], ["XETR:HLAG", "Hapag-Lloyd"], ["NYSE:FRO", "Frontline (Tanker)"]]));
   widget("w-cal", "events", { width: "100%", height: "100%", importanceFilter: "0,1", countryFilter: "us,eu,de,cn,gb,jp" });
 
   /* ---------- Inhalte von Claude (data.json) ---------- */
@@ -438,6 +439,100 @@
     draw();
   }
 
+
+  /* ---------- Konflikte ---------- */
+  const STUFE = { 3: ["Krieg", "#d64541"], 2: ["Bewaffneter Konflikt", "#a0522d"], 1: ["Angespannt", "#6b5a35"] };
+  let WELT = null;
+  const weltReady = fetch("welt.json?v=1").then((r) => r.json()).then((m) => { WELT = m; }).catch(() => {});
+  let kActive = null;
+  function stufeBadge(n) {
+    const s = STUFE[n]; if (!s) return null;
+    const b = txt("span", "stufe", s[0]); b.style.borderColor = s[1]; b.style.color = s[1] === "#6b5a35" ? "#b9a36a" : s[1];
+    return b;
+  }
+  function renderKonflikte(K) {
+    K = K || {};
+    $("k-stand").textContent = K.stand || "";
+    const liste = (K.liste || []).filter((c) => c && c.id);
+    // Karte
+    weltReady.then(() => {
+      const box = $("k-map"); box.textContent = "";
+      if (!WELT) return;
+      const by = {}; (K.karte || []).forEach((e) => { if (e && e.code) by[e.code] = e; });
+      const svg = svgEl("svg", { viewBox: `0 0 ${WELT.w} ${WELT.h}`, role: "img", "aria-label": "Weltkarte der Konflikte" });
+      Object.entries(WELT.states).forEach(([code, st]) => {
+        const e = by[code];
+        const path = svgEl("path", { d: st.d, fill: e && STUFE[e.stufe] ? STUFE[e.stufe][1] : "#232323" });
+        const tt = svgEl("title", {});
+        tt.textContent = e ? st.name + ": " + (STUFE[e.stufe] ? STUFE[e.stufe][0] : "") + (e.hinweis ? " – " + e.hinweis : "") : st.name;
+        path.appendChild(tt);
+        if (e && e.konflikt && liste.some((c) => c.id === e.konflikt)) {
+          path.classList.add("hit");
+          path.addEventListener("click", () => { kActive = e.konflikt; drawLage(liste); $("k-lage-card").scrollIntoView({ behavior: "smooth", block: "start" }); });
+        }
+        svg.appendChild(path);
+      });
+      box.appendChild(svg);
+      legendFrom("k-map-leg", [3, 2, 1].map((n) => [STUFE[n][0], STUFE[n][1], (K.karte || []).filter((e) => e.stufe === n).length || null]).concat([["Land anklicken: Lage", "transparent", null]]));
+    });
+    // Lage je Konflikt
+    const nav = $("k-nav"); nav.textContent = "";
+    if (!liste.some((c) => c.id === kActive)) {
+      kActive = null;
+      try { const s = localStorage.getItem("konflikt"); if (liste.some((c) => c.id === s)) kActive = s; } catch (e) {}
+      if (!kActive && liste.length) kActive = liste[0].id;
+    }
+    liste.forEach((c) => {
+      const b = txt("button", "", c.kurz || c.name); b.type = "button"; b.dataset.id = c.id;
+      b.addEventListener("click", () => { kActive = c.id; try { localStorage.setItem("konflikt", c.id); } catch (e) {} drawLage(liste); });
+      nav.appendChild(b);
+    });
+    drawLage(liste);
+    // Front
+    const F = K.front || {};
+    $("k-front-stand").textContent = F.stand || "";
+    $("k-front-lage").textContent = F.lage || "";
+    newsList("k-front", F.punkte);
+    const fs = $("k-front-src"); fs.textContent = "";
+    (F.karten || []).forEach((k, i) => { const u = safeUrl(k.url); if (!u) return; if (fs.childNodes.length) fs.appendChild(document.createTextNode(" · ")); const a = txt("a", "", k.name); a.href = u; a.target = "_blank"; a.rel = "noopener"; fs.appendChild(a); });
+    if (fs.childNodes.length) fs.insertBefore(document.createTextNode("Karten: "), fs.firstChild);
+    newsList("k-dipl", K.diplomatie);
+    newsList("k-ruest", K.ruestung);
+    const M = K.markt || {};
+    $("k-markt-lage").textContent = M.lage || "";
+    rows("k-routen", M.routen, [["route"], ["status"]]);
+    rows("k-hum", K.humanitaer, [["konflikt"], ["tote"], ["vertriebene"], ["zugang"]]);
+    $("k-hum-src").textContent = K.humanitaer_quelle || "";
+    // Radar
+    const rl = $("k-radar"); rl.textContent = "";
+    const R = K.radar || [];
+    if (!R.length) rl.appendChild(txt("li", "empty", "Wird beim nächsten Lauf gefüllt."));
+    R.forEach((r) => {
+      const li = document.createElement("li");
+      const h = txt("span", "h", "");
+      const lv = txt("span", "lvl lvl-" + biasKey(r.stufe).replace(/[^a-zäöü]/g, ""), r.stufe || "");
+      h.appendChild(lv); h.appendChild(document.createTextNode(r.ort || ""));
+      li.appendChild(h);
+      if (r.warum) li.appendChild(txt("span", "why", r.warum));
+      if (r.quelle || r.zeit) li.appendChild(srcLine(r));
+      rl.appendChild(li);
+    });
+  }
+  function drawLage(liste) {
+    const body = $("k-lage"); body.textContent = "";
+    [...$("k-nav").children].forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.id === kActive)));
+    const c = liste.find((x) => x.id === kActive);
+    if (!c) { body.appendChild(txt("p", "empty", "Wird beim nächsten Lauf gefüllt.")); return; }
+    const head = txt("div", "k-head", "");
+    head.appendChild(txt("h3", "", c.name));
+    const sb = stufeBadge(c.stufe); if (sb) head.appendChild(sb);
+    if (c.seit) head.appendChild(txt("span", "k-seit", "seit " + c.seit));
+    body.appendChild(head);
+    if (c.lage) body.appendChild(txt("p", "k-lage", c.lage));
+    const ol = document.createElement("ol"); ol.className = "news"; ol.id = "k-lage-news"; body.appendChild(ol);
+    newsList("k-lage-news", c.meldungen);
+  }
+
   /* ---------- Mehr zum Thema (Klick auf Kachelüberschrift) ---------- */
   const dlg = $("mehr");
   function openMehr(h) {
@@ -478,6 +573,7 @@
     rows("p-termine", p.termine, [["datum", "date"], ["was"], ["art"]]);
     newsList("p-recht", p.recht);
     mapsReady.then(() => renderParl(p.parlamente));
+    renderKonflikte(d.konflikte);
     renderSport(d.sport);
     const s = d.sonstiges || {};
     const en = s.englisch || {}, zh = s.chinesisch || {};
