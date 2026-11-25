@@ -7,8 +7,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preload" href="fonts/GeneralSans-Variable.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap">
-<link rel="stylesheet" href="style.css?v=17">
+<link rel="stylesheet" href="style.css?v=18">
 <link rel="stylesheet" href="energie.css?v=2">
+<link rel="stylesheet" href="maerkte.css?v=1">
 </head>
 <body>
 <header class="top">
@@ -54,23 +55,13 @@
   <!-- MÄRKTE -->
   <section class="panel-set" id="p-maerkte" role="tabpanel" aria-labelledby="tab-maerkte" hidden>
     <div class="tv tv-tape"><div class="tradingview-widget-container" id="w-tape"></div></div>
+    <nav class="m-jump" aria-label="Abschnitte"><a href="#m-s1">Überblick</a><a href="#m-s2">Devisen · Rohstoffe · Krypto</a><a href="#m-s3">Zinsen &amp; Staaten</a><a href="#m-s4">Kalender</a><a href="#m-s5">Unternehmen</a></nav>
 
+    <h2 class="m-sec" id="m-s1"><span>1</span>Überblick</h2>
     <div class="grid g-markets">
-      <article class="card full watch">
-        <h2 data-mehr="watch"><span>To Watch Today</span><span class="h2-note" id="m-watch-stand"></span></h2>
-        <div class="watch-body">
-          <div class="watch-list" id="m-watch"></div>
-          <div class="tv tv-watch"><div class="tradingview-widget-container" id="w-watch"></div></div>
-        </div>
-      </article>
-      <article class="card full" id="nb-card">
-        <h2><span class="kt">Notenbank-Uhr<button type="button" class="info" aria-label="Erklärung" data-tip="Nächste Zinsentscheidung von Fed, EZB, Bank of England und Bank of Japan mit Countdown (Berliner Zeit). Die Balken zeigen, mit welcher Wahrscheinlichkeit der Markt welches Ergebnis einpreist, abgeleitet aus Zinsfutures und Swaps (z. B. CME FedWatch). Das ist eine Markterwartung, keine Prognose der Notenbank. Werte werden bei den Läufen aktualisiert.">?</button></span><span class="h2-note" id="nb-stand"></span></h2>
-        <div class="nb-grid" id="nb-grid"></div>
-      </article>
-      <article class="card full" id="wk-card">
-        <h2><span class="kt">Wirtschaftskalender<button type="button" class="info" aria-label="Erklärung" data-tip="Die wichtigsten Konjunkturdaten der Woche mit Konsens (Erwartung der Analysten), Vorwert und tatsächlichem Ergebnis. Der Pfeil zeigt, ob das Ergebnis über oder unter dem Konsens lag; die Lesart sagt, was das für Zinsen und Märkte bedeutet. Zeiten in Berliner Zeit. Den vollständigen Kalender gibt es darunter zum Aufklappen.">?</button></span><span class="h2-note" id="wk-stand"></span></h2>
-        <div class="scroll"><table class="tbl wk" id="wk"><thead><tr><th>Zeit</th><th>Land</th><th>Termin</th><th class="r">Konsens</th><th class="r">Vorher</th><th class="r">Ist</th></tr></thead><tbody></tbody></table></div>
-        <details class="wk-full" id="wk-full"><summary>Vollständiger Kalender (TradingView)</summary><div class="tv tv-cal"><div class="tradingview-widget-container" id="w-cal"></div></div></details>
+      <article class="card span2 qcard" id="q-indizes-card">
+        <h2 data-mehr="indizes"><span class="kt">Indizes<button type="button" class="info" aria-label="Erklärung" data-tip="Kurs, Veränderung zum Vortagesschluss und die Entwicklung der letzten drei Monate (Linie und Prozentwert rechts). Kurse kommen live von CNBC und werden jede Minute erneuert, teils leicht verzögert. Bei Rohstoffen ist es der jeweils nächste Terminkontrakt.">?</button></span><span class="h2-note" id="q-indizes-stand"></span></h2>
+        <div class="ql" id="q-indizes"></div>
       </article>
       <article class="card span2 kx" id="k-sek">
         <h2><span class="kt">Sector Heatmap<button type="button" class="info" aria-label="Erklärung" data-tip="S&amp;P-500-Sektoren auf einen Blick, gemessen an den SPDR-Sektor-ETFs (XLK, XLF …). Angezeigt ist die Kursänderung seit dem letzten Schlusskurs. Je kräftiger die Farbe, desto größer die Bewegung: grün = Gewinn, rot = Verlust. Sortiert vom stärksten zum schwächsten Sektor.">?</button></span><span class="h2-note" id="k-sek-stand"></span></h2>
@@ -81,46 +72,69 @@
         <h2><span class="kt">Financial Stress Indicator<button type="button" class="info" aria-label="Erklärung" data-tip="Verhältnis von Hochzinsanleihen (HYG) zu langen US-Staatsanleihen (TLT), bereinigt um Aktienvolatilität (VIX) und den Hochzins-Risikoaufschlag (ICE BofA HY-Spread): (HYG / TLT) / (VIX × HY-Spread / 100). Niedriger Wert = mehr Stress: Anleger flüchten in sichere Anleihen, Volatilität und Spreads steigen. Die Skala ordnet den heutigen Wert in die letzten zwei Jahre ein (Perzentil). Eigener Indikator, nicht der offizielle Kansas City Fed Financial Stress Index.">?</button></span><span class="h2-note" id="k-stress-stand"></span></h2>
         <div id="k-stress-body"></div>
       </article>
+      <article class="card span2 kx" id="k-breadth">
+        <h2><span class="kt">Market Breadth<button type="button" class="info" aria-label="Erklärung" data-tip="Anteil der S&amp;P-500-Aktien, die über ihrem gleitenden Durchschnitt der letzten 20, 50 bzw. 200 Handelstage schließen. Zeigt, wie breit eine Bewegung getragen wird: Steigt der Index, aber immer weniger Aktien liegen über ihrem Schnitt, wird der Anstieg von wenigen Schwergewichten getragen. Über 70 % gilt als überkauft, unter 30 % als überverkauft. Grafik: letztes Jahr.">?</button></span><span class="h2-note" id="k-breadth-stand"></span></h2>
+        <div id="k-breadth-body"></div>
+      </article>
+    </div>
+
+    <h2 class="m-sec" id="m-s2"><span>2</span>Devisen, Rohstoffe &amp; Krypto</h2>
+    <div class="grid g-three">
+      <article class="card qcard" id="q-devisen-card">
+        <h2 data-mehr="devisen"><span class="kt">Devisen<button type="button" class="info" aria-label="Erklärung" data-tip="Wechselkurse: EUR/USD = wie viele US-Dollar ein Euro kostet. Steigt der Kurs, wird der Euro stärker. Der Dollar-Index misst den Dollar gegen sechs große Währungen. Kurs, Veränderung zum Vortagesschluss und die Entwicklung der letzten drei Monate (Linie und Prozentwert rechts). Kurse kommen live von CNBC und werden jede Minute erneuert, teils leicht verzögert. Bei Rohstoffen ist es der jeweils nächste Terminkontrakt.">?</button></span><span class="h2-note" id="q-devisen-stand"></span></h2>
+        <div class="ql" id="q-devisen"></div>
+      </article>
+      <article class="card qcard" id="q-rohstoffe-card">
+        <h2 data-mehr="rohstoffe"><span class="kt">Rohstoffe<button type="button" class="info" aria-label="Erklärung" data-tip="Brent und WTI in US-Dollar je Barrel, Erdgas (Henry Hub) je MMBtu, Gold, Silber und Platin je Feinunze, Kupfer je Pfund. Kurs, Veränderung zum Vortagesschluss und die Entwicklung der letzten drei Monate (Linie und Prozentwert rechts). Kurse kommen live von CNBC und werden jede Minute erneuert, teils leicht verzögert. Bei Rohstoffen ist es der jeweils nächste Terminkontrakt.">?</button></span><span class="h2-note" id="q-rohstoffe-stand"></span></h2>
+        <div class="ql" id="q-rohstoffe"></div>
+      </article>
+      <article class="card qcard" id="q-krypto-card">
+        <h2><span class="kt">Krypto<button type="button" class="info" aria-label="Erklärung" data-tip="Kryptowährungen in US-Dollar. Handel rund um die Uhr, daher gilt als Tagesveränderung die Bewegung seit Mitternacht US-Ostküste. Kurs, Veränderung zum Vortagesschluss und die Entwicklung der letzten drei Monate (Linie und Prozentwert rechts). Kurse kommen live von CNBC und werden jede Minute erneuert, teils leicht verzögert. Bei Rohstoffen ist es der jeweils nächste Terminkontrakt.">?</button></span><span class="h2-note" id="q-krypto-stand"></span></h2>
+        <div class="ql" id="q-krypto"></div>
+      </article>
+    </div>
+
+    <h2 class="m-sec" id="m-s3"><span>3</span>Zinsen &amp; Staaten</h2>
+    <div class="grid g-markets">
+      <article class="card full" id="nb-card">
+        <h2><span class="kt">Notenbank-Uhr<button type="button" class="info" aria-label="Erklärung" data-tip="Nächste Zinsentscheidung von Fed, EZB, Bank of England und Bank of Japan mit Countdown (Berliner Zeit). Die Balken zeigen, mit welcher Wahrscheinlichkeit der Markt welches Ergebnis einpreist, abgeleitet aus Zinsfutures und Swaps (z. B. CME FedWatch). Das ist eine Markterwartung, keine Prognose der Notenbank. Werte werden bei den Läufen aktualisiert.">?</button></span><span class="h2-note" id="nb-stand"></span></h2>
+        <div class="nb-grid" id="nb-grid"></div>
+      </article>
       <article class="card span2 kx" id="k-zins">
         <h2><span class="kt">Zinskurve &amp; Leitzinsen<button type="button" class="info" aria-label="Erklärung" data-tip="US-Kurve: Renditen von US-Staatsanleihen nach Laufzeit (1 Monat bis 30 Jahre), dazu gestrichelt die Kurve von vor einem Monat und vor einem Jahr. Der 2J-10J-Spread ist die Differenz zwischen 10- und 2-jähriger Rendite in Basispunkten. Normal = lange Laufzeiten rentieren höher. Invers (negativer Spread) gilt historisch als Rezessionssignal. EZB: die drei Leitzinsen, der Tagesgeldsatz €STR und die Zinskurve für Euro-Staatsanleihen mit AAA-Rating.">?</button></span><span class="h2-note" id="k-zins-stand"></span></h2>
         <div class="ktabs" role="tablist"><button type="button" role="tab" aria-selected="true" data-k="us">US-Kurve</button><button type="button" role="tab" aria-selected="false" data-k="ezb">EZB-Zinsen</button></div>
         <div id="k-zins-us"></div>
         <div id="k-zins-ezb" hidden></div>
       </article>
-      <article class="card span2 kx" id="k-breadth">
-        <h2><span class="kt">Market Breadth<button type="button" class="info" aria-label="Erklärung" data-tip="Anteil der S&amp;P-500-Aktien, die über ihrem gleitenden Durchschnitt der letzten 20, 50 bzw. 200 Handelstage schließen. Zeigt, wie breit eine Bewegung getragen wird: Steigt der Index, aber immer weniger Aktien liegen über ihrem Schnitt, wird der Anstieg von wenigen Schwergewichten getragen. Über 70 % gilt als überkauft, unter 30 % als überverkauft. Grafik: letztes Jahr.">?</button></span><span class="h2-note" id="k-breadth-stand"></span></h2>
-        <div id="k-breadth-body"></div>
+      <article class="card span2" id="m-staaten-card">
+        <h2 data-mehr="anleihen"><span class="kt">Anleihen &amp; Verschuldung<button type="button" class="info" aria-label="Erklärung" data-tip="Pro Land oben die Rendite zehnjähriger Staatsanleihen (live, CNBC) mit Veränderung zum Vortag in Basispunkten (1 bp = 0,01 Prozentpunkte) und dem Abstand zu deutschen Bundesanleihen (Spread). Darunter die Staatsverschuldung in Prozent der Wirtschaftsleistung (BIP) laut IWF. Hohe Schulden und hohe Renditen zusammen bedeuten teure Refinanzierung; ein steigender Spread zeigt, dass Anleger mehr Risikoaufschlag verlangen.">?</button></span><span class="h2-note" id="m-staaten-stand"></span></h2>
+        <div class="stt" id="m-staaten"></div>
+        <p class="src" id="m-staaten-src"></p>
       </article>
-      <article class="card span2">
+    </div>
+
+    <h2 class="m-sec" id="m-s4"><span>4</span>Kalender</h2>
+    <div class="grid g-markets">
+      <article class="card full" id="wk-card">
+        <h2><span class="kt">Wirtschaftskalender<button type="button" class="info" aria-label="Erklärung" data-tip="Die wichtigsten Konjunkturdaten der Woche mit Konsens (Erwartung der Analysten), Vorwert und tatsächlichem Ergebnis. Der Pfeil zeigt, ob das Ergebnis über oder unter dem Konsens lag; die Lesart sagt, was das für Zinsen und Märkte bedeutet. Zeiten in Berliner Zeit. Den vollständigen Kalender gibt es darunter zum Aufklappen.">?</button></span><span class="h2-note" id="wk-stand"></span></h2>
+        <div class="scroll"><table class="tbl wk" id="wk"><thead><tr><th>Zeit</th><th>Land</th><th>Termin</th><th class="r">Konsens</th><th class="r">Vorher</th><th class="r">Ist</th></tr></thead><tbody></tbody></table></div>
+        <details class="wk-full" id="wk-full"><summary>Vollständiger Kalender (TradingView)</summary><div class="tv tv-cal"><div class="tradingview-widget-container" id="w-cal"></div></div></details>
+      </article>
+      <article class="card full" id="uk-card">
+        <h2 data-mehr="unternehmen"><span class="kt">Unternehmenskalender<button type="button" class="info" aria-label="Erklärung" data-tip="Quartalszahlen, Hauptversammlungen, Dividenden und Investorentage wichtiger Unternehmen. Bei Quartalszahlen steht unter Konsens der erwartete Gewinn je Aktie (EPS) laut Analysten, unter Vorher der Wert des Vorjahresquartals, unter Ist das Ergebnis. Der Pfeil zeigt, ob das Ergebnis über oder unter dem Konsens lag; die Lesart ordnet es ein. vb. = vorbörslich, nb. = nachbörslich. Zeiten in Berliner Zeit.">?</button></span><span class="h2-note" id="uk-stand"></span></h2>
+        <div class="scroll"><table class="tbl wk" id="uk"><thead><tr><th>Zeit</th><th>Land</th><th>Unternehmen &amp; Termin</th><th class="r">Konsens</th><th class="r">Vorher</th><th class="r">Ist</th></tr></thead><tbody></tbody></table></div>
+      </article>
+    </div>
+
+    <h2 class="m-sec" id="m-s5"><span>5</span>Unternehmen</h2>
+    <div class="grid g-markets">
+      <article class="card full watch">
+        <h2 data-mehr="watch"><span>To Watch Today</span><span class="h2-note" id="m-watch-stand"></span></h2>
+        <div class="watch-list" id="m-watch"></div>
+      </article>
+      <article class="card full">
         <h2 data-mehr="schlagzeilen">Top-Schlagzeilen heute</h2>
         <ol class="news" id="m-headlines"></ol>
-      </article>
-      <article class="card">
-        <h2 data-mehr="devisen">Devisen</h2>
-        <div class="tv tv-quotes"><div class="tradingview-widget-container" id="w-fx"></div></div>
-      </article>
-      <article class="card">
-        <h2 data-mehr="rohstoffe">Rohstoffe</h2>
-        <div class="tv tv-quotes"><div class="tradingview-widget-container" id="w-cmd"></div></div>
-      </article>
-      <article class="card">
-        <h2 data-mehr="anleihen">Staatsanleihen · 10 J.</h2>
-        <table class="tbl" id="m-yields"><thead><tr><th>Land</th><th class="r">Rendite</th></tr></thead><tbody></tbody></table>
-        <p class="src" id="m-yields-src"></p>
-        <div class="tv tv-bonds"><div class="tradingview-widget-container" id="w-bonds"></div></div>
-      </article>
-      <article class="card">
-        <h2 data-mehr="indizes">Indizes &amp; Krypto</h2>
-        <div class="tv tv-quotes"><div class="tradingview-widget-container" id="w-idx"></div></div>
-      </article>
-      <article class="card">
-        <h2 data-mehr="verschuldung">Staatsverschuldung</h2>
-        <table class="tbl" id="m-debt"><thead><tr><th>Land</th><th class="r">% BIP</th><th class="r">Absolut</th></tr></thead><tbody></tbody></table>
-        <p class="src" id="m-debt-src"></p>
-      </article>
-      <article class="card">
-        <h2 data-mehr="unternehmen">Unternehmenstermine</h2>
-        <table class="tbl" id="m-corp"><thead><tr><th>Datum</th><th>Termin</th></tr></thead><tbody></tbody></table>
       </article>
     </div>
   </section>
@@ -322,7 +336,7 @@
 </main>
 
 <footer class="foot">
-  Kurse: TradingView-Widgets, teils verzögert. Sektoren und Stress-Indikator: live im Browser (CNBC); Breadth, HY-Spread und Zinskurven (CNBC, FRED, U.S. Treasury, EZB) alle 30 Min. zur US-Handelszeit. Energie: Strommix und Strompreise (Energy-Charts), Öl (FRED, EIA) und CO₂-Auktionen (EEX) stündlich, Gasspeicher live (GIE AGSI+). Texte: von Claude recherchiert, mit Quellen. Aktualisierung täglich um 5, 6, 7, 8, 9, 10, 12, 15, 17 und 18 Uhr (Berliner Zeit). Keine Anlageberatung. Börsenzeiten ohne Feiertage.
+  Kurse: CNBC (live im Browser, teils verzögert) und TradingView-Laufband. Sektoren und Stress-Indikator: live im Browser (CNBC); Breadth, HY-Spread und Zinskurven (CNBC, FRED, U.S. Treasury, EZB) alle 30 Min. zur US-Handelszeit. Energie: Strommix und Strompreise (Energy-Charts), Öl (FRED, EIA) und CO₂-Auktionen (EEX) stündlich, Gasspeicher live (GIE AGSI+). Texte: von Claude recherchiert, mit Quellen. Aktualisierung täglich um 5, 6, 7, 8, 9, 10, 12, 15, 17 und 18 Uhr (Berliner Zeit). Keine Anlageberatung. Börsenzeiten ohne Feiertage.
 </footer>
 
 <dialog class="mehr" id="mehr" aria-labelledby="mehr-title">
@@ -332,7 +346,8 @@
   <p class="src" id="mehr-stand"></p>
 </dialog>
 
-<script src="app.js?v=17"></script>
+<script src="app.js?v=18"></script>
 <script src="energie.js?v=1"></script>
+<script src="maerkte.js?v=1"></script>
 </body>
 </html>
