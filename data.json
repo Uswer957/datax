@@ -1,5 +1,5 @@
 {
-  "aktualisiert": "25.11.2026, 09:12 Uhr",
+  "aktualisiert": "25.11.2026, 10:12 Uhr",
   "maerkte": {
     "schlagzeilen": [
       {
@@ -12,6 +12,19 @@
         "medien": [
           "Al Jazeera",
           "Reuters"
+        ]
+      },
+      {
+        "tag": "Energie",
+        "titel": "Minentreffer und −40 % Tankerverkehr in Hormus – Brent dennoch nur bei rund 90 $",
+        "warum": "Iran meldet brennende Tanker nach Minentreffern; der Ölpreis fiel über Nacht trotzdem um etwa 1,5 %, weil der Markt mehr auf Nachfrage und Zinsen schaut.",
+        "quelle": "The Tribune",
+        "url": "https://www.tribuneindia.com/news/iran/four-oil-tankers-explode-catch-fire-after-hitting-naval-mines-in-hormuz-irans-navy",
+        "zeit": "24.11., 17:47",
+        "medien": [
+          "The Tribune",
+          "Al Jazeera",
+          "Middle East Monitor"
         ]
       },
       {
@@ -61,18 +74,6 @@
         "medien": [
           "Reuters",
           "CNBC"
-        ]
-      },
-      {
-        "tag": "Energie",
-        "titel": "Brent um 90 Dollar – tiefster Stand seit Ende August",
-        "warum": "Trotz Iran-Blockade fließt laut CENTCOM mehr Öl durch Hormus (108 Mio. Barrel letzte Woche); der November-Abverkauf beträgt rund 20 %.",
-        "quelle": "CBS News",
-        "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-blockade-strait-of-hormuz-ship-attacks/",
-        "zeit": "24.11., 19:42",
-        "medien": [
-          "CBS News",
-          "Reuters"
         ]
       },
       {
@@ -385,7 +386,7 @@
       ]
     },
     "kalender": {
-      "stand": "25.11., 10:00 Uhr",
+      "stand": "25.11., 10:10 Uhr",
       "termine": [
         {
           "zeit": "2026-11-23T15:45:00+01:00",
@@ -3686,10 +3687,347 @@
           ]
         }
       ]
+    },
+    "konflikte": {
+      "lage": "Drei Großkonflikte bestimmen die Lage: der Luft- und Raffineriekrieg zwischen Russland und der Ukraine, der Iran-Krieg mit Blockade und Tankerangriffen in Hormus und der Sudan-Krieg mit der weltweit größten Hungerkrise. Hinzu kommen Drohnenvorfälle an der NATO-Ostflanke.",
+      "meldungen": [
+        {
+          "tag": "Ukraine",
+          "titel": "UN: Höchste Zahl ziviler Opfer in einem Oktober seit Kriegsbeginn",
+          "warum": "372 Tote und 1.981 Verletzte im Oktober, 55 % durch Langstreckenraketen und Drohnen.",
+          "quelle": "OHCHR",
+          "url": "https://ukraine.ohchr.org/en/Protection-of-Civilians-in-Armed-Conflict-October-2026",
+          "zeit": "16.11.",
+          "medien": [
+            "OHCHR"
+          ]
+        },
+        {
+          "tag": "Sanktionen",
+          "titel": "USA verhängen neue Sanktionen gegen Irans Schattenbanken-Netz",
+          "warum": "OFAC listet 22 Firmen und acht Personen; FinCEN beziffert möglicherweise iranbezogene Finanzströme auf 14,7 Mrd. $. Zugleich prüft Washington Cyberangriffe auf bis zu 50 Schiffe.",
+          "quelle": "CBS News",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-blockade-strait-of-hormuz-ship-attacks/",
+          "zeit": "24.11., 13:00",
+          "medien": [
+            "CBS News",
+            "Gulf News",
+            "Wall Street Journal"
+          ]
+        },
+        {
+          "tag": "Ukraine",
+          "titel": "Online-Runde mit Witkoff, Kushner und Europäern bringt keinen Durchbruch",
+          "warum": "Russland lehnt eine Ausweitung der Gespräche und eine befristete Waffenruhe ab; die Runde in Abu Dhabi brachte nur einen Gefangenenaustausch.",
+          "quelle": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/17/ukraine-holds-peace-talks-with-us-europe-as-conflict-escalates",
+          "zeit": "17.11.",
+          "medien": [
+            "Al Jazeera",
+            "Reuters"
+          ]
+        },
+        {
+          "tag": "Ostsee",
+          "titel": "Explosionen am russischen Flottenstützpunkt Baltijsk gemeldet",
+          "warum": "Zugleich brannte das russische Containerschiff Sparta II nach Drohnentreffern im Finnischen Meerbusen.",
+          "quelle": "Euromaidan Press",
+          "url": "https://euromaidanpress.com/2026/11/22/explosions-reported-at-russias-baltic-fleet-base-in-kaliningrad/",
+          "zeit": "21.11., 23:47",
+          "medien": [
+            "Euromaidan Press",
+            "Yle"
+          ]
+        }
+      ]
+    },
+    "radar": {
+      "lage": "Die meisten Spannungsherde liegen an der NATO-Ostflanke, wo Drohnen regelmäßig Luftraum verletzen. In Asien testen China und Nordkorea mit Manövern und Raketen die Reaktion der USA.",
+      "meldungen": [
+        {
+          "tag": "Baltikum",
+          "titel": "NATO-Jets scheitern zweimal am Abschuss einer Drohne über Litauen",
+          "warum": "Estland, Lettland und Litauen gaben Schutzwarnungen aus – die Luftverteidigung im Baltikum zeigt Lücken.",
+          "quelle": "Defence Matters",
+          "url": "https://defencematters.eu/nato-baltic-air-defence-drone-interception-november-2026/",
+          "zeit": "12.11., 23:19",
+          "medien": [
+            "Defence Matters",
+            "Reuters",
+            "Euronews"
+          ]
+        },
+        {
+          "tag": "Ostsee",
+          "titel": "Explosionen am russischen Flottenstützpunkt Baltijsk gemeldet",
+          "warum": "Zugleich brannte das russische Containerschiff Sparta II nach Drohnentreffern im Finnischen Meerbusen.",
+          "quelle": "Euromaidan Press",
+          "url": "https://euromaidanpress.com/2026/11/22/explosions-reported-at-russias-baltic-fleet-base-in-kaliningrad/",
+          "zeit": "21.11., 23:47",
+          "medien": [
+            "Euromaidan Press",
+            "Yle"
+          ]
+        },
+        {
+          "tag": "Korea",
+          "titel": "Nordkorea: vierter Raketenstart binnen eines Monats",
+          "warum": "Kim Yo Jong schließt Gespräche mit den USA aus, solange Washington an seiner „feindseligen Politik“ festhält.",
+          "quelle": "Reuters",
+          "url": "https://www.thestar.com.my/news/world/2026/11/04/north-korea-fires-multiple-missiles-in-fourth-weapons-launch-in-a-month-seoul-says",
+          "zeit": "04.11., 06:39",
+          "medien": [
+            "Reuters",
+            "AP"
+          ]
+        },
+        {
+          "tag": "Venezuela",
+          "titel": "USA und Venezuela nehmen Militärkooperation nach 21 Jahren wieder auf",
+          "warum": "Hegseths Besuch in Caracas markiert die Wende vom Regimewechsel zur Partnerschaft.",
+          "quelle": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/19/why-is-pete-hegseth-strengthening-us-military-ties-with-venezuela",
+          "zeit": "19.11.",
+          "medien": [
+            "Al Jazeera",
+            "Washington Post"
+          ]
+        },
+        {
+          "tag": "Taiwan",
+          "titel": "Taipeh: Pekings Manöver sind „stille Einschüchterung“",
+          "warum": "Taiwan wertet die Übung als Test für eine Blockade, ohne dass China sie offiziell ankündigt.",
+          "quelle": "Taipei Times",
+          "url": "https://www.taipeitimes.com/News/front/archives/2026/11/14/2003867710",
+          "zeit": "14.11.",
+          "medien": [
+            "Taipei Times",
+            "Reuters"
+          ]
+        }
+      ]
+    },
+    "front": {
+      "lage": "Am Boden bewegt sich wenig, entscheidend ist der Luftkrieg: Russland zielt auf Energie und Städte, die Ukraine auf Raffinerien. Kiew fehlen Abfangraketen.",
+      "meldungen": [
+        {
+          "tag": "Ukraine",
+          "titel": "UN: Höchste Zahl ziviler Opfer in einem Oktober seit Kriegsbeginn",
+          "warum": "372 Tote und 1.981 Verletzte im Oktober, 55 % durch Langstreckenraketen und Drohnen.",
+          "quelle": "OHCHR",
+          "url": "https://ukraine.ohchr.org/en/Protection-of-Civilians-in-Armed-Conflict-October-2026",
+          "zeit": "16.11.",
+          "medien": [
+            "OHCHR"
+          ]
+        },
+        {
+          "tag": "Luftkrieg",
+          "titel": "Russland greift mit 96 Drohnen an, eine davon verletzt polnischen Luftraum",
+          "warum": "Auch Moldau meldet eine Luftraumverletzung – der Luftkrieg strahlt auf NATO-Gebiet aus.",
+          "quelle": "Kyiv Post",
+          "url": "https://www.kyivpost.com/post/91108",
+          "zeit": "25.11.",
+          "medien": [
+            "Kyiv Post"
+          ]
+        },
+        {
+          "tag": "Deutschland",
+          "titel": "Pistorius und Chmara einigen sich vorläufig auf weitere Abfangraketen",
+          "warum": "Aus eigenen Patriot-Beständen kann Deutschland nicht mehr liefern; besprochen wurde auch der Drohnenkauf für 2027.",
+          "quelle": "European Pravda",
+          "url": "https://www.eurointegration.com.ua/eng/news/2026/11/24/7250656/",
+          "zeit": "24.11.",
+          "medien": [
+            "European Pravda"
+          ]
+        }
+      ]
+    },
+    "diplomatie": {
+      "lage": "Bei der Ukraine drängen die US-Gesandten auf einen Deal bis Januar, Moskau lehnt eine Waffenruhe ab. Beim Iran setzt Washington auf Sanktionen und Blockade, Teheran stellt Vorbedingungen.",
+      "meldungen": [
+        {
+          "tag": "Deutschland",
+          "titel": "Pistorius und Chmara einigen sich vorläufig auf weitere Abfangraketen",
+          "warum": "Aus eigenen Patriot-Beständen kann Deutschland nicht mehr liefern; besprochen wurde auch der Drohnenkauf für 2027.",
+          "quelle": "European Pravda",
+          "url": "https://www.eurointegration.com.ua/eng/news/2026/11/24/7250656/",
+          "zeit": "24.11.",
+          "medien": [
+            "European Pravda"
+          ]
+        },
+        {
+          "tag": "Iran",
+          "titel": "Iran erwägt Tanker-Konvoi nach China, um die US-Blockade zu durchbrechen",
+          "warum": "Bei 88,7 % Inflation drängt die Wirtschaftslage Teheran zu riskanten Exportversuchen; das Staatsfernsehen dementiert, dass ein Konvoi schon ausgelaufen ist.",
+          "quelle": "The National",
+          "url": "https://www.thenationalnews.com/news/gulf/2026/11/24/is-iran-weighing-tanker-convoy-to-break-us-blockade/",
+          "zeit": "24.11., 11:05",
+          "medien": [
+            "The National"
+          ]
+        },
+        {
+          "tag": "Jemen",
+          "titel": "Houthis treffen Hochhaus in Riad, saudische Koalition fliegt Hunderte Angriffe im Jemen",
+          "warum": "Der Iran-Krieg greift endgültig auf die Arabische Halbinsel über; Houthi-Medien melden 25 Tote oder Vermisste in Lahj.",
+          "quelle": "CBS News",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-blockade-strait-of-hormuz-ship-attacks/",
+          "zeit": "24.11., 13:00",
+          "medien": [
+            "CBS News",
+            "Reuters"
+          ]
+        }
+      ]
+    },
+    "ruestung": {
+      "lage": "Europa finanziert über PURL US-Waffen für die Ukraine, kann aber kaum noch aus eigenen Beständen liefern. Rheinmetall leidet trotz Rekordumsätzen unter verzögerten Aufträgen.",
+      "meldungen": [
+        {
+          "tag": "Industrie",
+          "titel": "Rumänien bestellt bei Rheinmetall für 5,7 Mrd. € Lynx, Skyranger und Schiffe",
+          "warum": "Größter Auftrag aus dem EU-Programm SAFE; über die Hälfte soll in Rumänien gefertigt werden.",
+          "quelle": "Asia Pacific Defence Reporter",
+          "url": "https://asiapacificdefencereporter.com/rheinmetall-wins-5-7-billion-euro-order-for-multiple-defence-systems/",
+          "zeit": "08.06.",
+          "medien": [
+            "Asia Pacific Defence Reporter",
+            "Reuters"
+          ]
+        },
+        {
+          "tag": "Militärhilfe",
+          "titel": "Selenskyj: 48 bereits bezahlte Patriot-Raketen liegen ungezeichnet im Pentagon",
+          "warum": "Die über die NATO-Initiative PURL finanzierten Abfangraketen fehlen, während Russland die Luftangriffe ausweitet; Lizenzen zur eigenen Fertigung gibt es weiter nicht.",
+          "quelle": "Kyiv Post",
+          "url": "https://kyivpost.com/post/91107",
+          "zeit": "25.11.",
+          "medien": [
+            "Kyiv Post"
+          ]
+        }
+      ]
+    },
+    "konfliktmarkt": {
+      "lage": "Öl reagiert erstaunlich gelassen auf Hormus: Brent liegt um 90 $, weit unter dem Kriegshoch. Rüstungsaktien sind nach der Rally stark gefallen.",
+      "meldungen": [
+        {
+          "tag": "Hormus",
+          "titel": "Hormus-Verkehr binnen zwei Wochen um mehr als 40 % eingebrochen",
+          "warum": "Laut MarineTraffic passierten vom 17. bis 23.11. nur 125 Schiffe die Meerenge nach 226 in der ersten Novemberwoche; vor dem Krieg waren es 125 bis 140 pro Tag.",
+          "quelle": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/24/hormuz-oil-traffic-is-down-40-percent-are-irans-tanker-attacks-working",
+          "zeit": "24.11.",
+          "medien": [
+            "Al Jazeera"
+          ]
+        },
+        {
+          "tag": "Hormus",
+          "titel": "Iran meldet Minentreffer: Mehrere Öltanker in der Straße von Hormus in Brand",
+          "warum": "Teheran erklärt, die Meerenge bleibe zu, bis seine Bedingungen erfüllt sind – das verschärft das Risiko für ein Fünftel des seeweiten Ölhandels.",
+          "quelle": "The Tribune",
+          "url": "https://www.tribuneindia.com/news/iran/four-oil-tankers-explode-catch-fire-after-hitting-naval-mines-in-hormuz-irans-navy",
+          "zeit": "24.11., 17:47",
+          "medien": [
+            "The Tribune",
+            "Middle East Monitor",
+            "Epoch Times"
+          ]
+        },
+        {
+          "tag": "Iran",
+          "titel": "Iran erwägt Tanker-Konvoi nach China, um die US-Blockade zu durchbrechen",
+          "warum": "Bei 88,7 % Inflation drängt die Wirtschaftslage Teheran zu riskanten Exportversuchen; das Staatsfernsehen dementiert, dass ein Konvoi schon ausgelaufen ist.",
+          "quelle": "The National",
+          "url": "https://www.thenationalnews.com/news/gulf/2026/11/24/is-iran-weighing-tanker-convoy-to-break-us-blockade/",
+          "zeit": "24.11., 11:05",
+          "medien": [
+            "The National"
+          ]
+        },
+        {
+          "tag": "Luftkrieg",
+          "titel": "Ukrainische Drohnen treffen zwei Rosneft-Raffinerien in Samara",
+          "warum": "Syzran und Kuibyshew brennen; seit Anfang November wurden 16 russische Raffinerien getroffen, die Verarbeitung soll um 45 % gefallen sein.",
+          "quelle": "Kyiv Post",
+          "url": "https://kyivpost.com/post/91110",
+          "zeit": "25.11.",
+          "medien": [
+            "Kyiv Post"
+          ]
+        },
+        {
+          "tag": "Börse",
+          "titel": "Dax startet kaum bewegt bei rund 25.010 Punkten",
+          "warum": "Europa hält sich trotz Chip-Ausverkauf in Asien und neuer US-Zolldrohungen; Anleger warten auf die US-Daten um 14:30 Uhr.",
+          "quelle": "dpa",
+          "url": "https://www.onvista.de/news/2026/11-25-aktien-frankfurt-eroeffnung-dax-startet-kaum-bewegt-0-10-26580303",
+          "zeit": "25.11., 08:16",
+          "medien": [
+            "dpa",
+            "Handelsblatt"
+          ]
+        }
+      ]
+    },
+    "humanitaer": {
+      "lage": "Sudan bleibt die größte humanitäre Krise der Welt, Hilfsprogramme schrumpfen wegen fehlender Mittel. In der Ukraine steigt die Zahl ziviler Opfer durch Luftangriffe vor dem Winter.",
+      "meldungen": [
+        {
+          "tag": "Ukraine",
+          "titel": "UN: Höchste Zahl ziviler Opfer in einem Oktober seit Kriegsbeginn",
+          "warum": "372 Tote und 1.981 Verletzte im Oktober, 55 % durch Langstreckenraketen und Drohnen.",
+          "quelle": "OHCHR",
+          "url": "https://ukraine.ohchr.org/en/Protection-of-Civilians-in-Armed-Conflict-October-2026",
+          "zeit": "16.11.",
+          "medien": [
+            "OHCHR"
+          ]
+        },
+        {
+          "tag": "Hunger",
+          "titel": "WFP kürzt Nahrungshilfe für 900.000 Vertriebene, 19,5 Mio. Menschen hungern",
+          "warum": "Fünf Millionen Menschen sind auf Notfallstufe; Finanzierungslücken verschärfen die Hungersnot.",
+          "quelle": "Al Jazeera",
+          "url": "https://www.aljazeera.com/features/2026/11/2/as-aid-situation-worsens-displaced-sudanese-worry-about-warnings-of-famine",
+          "zeit": "02.11.",
+          "medien": [
+            "Al Jazeera"
+          ]
+        },
+        {
+          "tag": "Sudan",
+          "titel": "Drohnenangriffe töten vier Menschen in Khartum und beschädigen UN-Gebäude",
+          "warum": "Die Armee macht die RSF verantwortlich und sagt, die Drohnen seien aus Äthiopien gestartet; laut OHCHR starben 2026 bis Ende Oktober über 1.630 Zivilisten durch Drohnen.",
+          "quelle": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-11-23/deadly-drone-strikes-in-khartoum-sudan-war/107415908",
+          "zeit": "23.11., 01:46",
+          "medien": [
+            "ABC Australia",
+            "Al Jazeera"
+          ]
+        },
+        {
+          "tag": "Libanon",
+          "titel": "Libanon: Mehr als 4.300 Tote durch israelische Angriffe seit März",
+          "warum": "Die Zahl des libanesischen Gesundheitsministeriums zeigt, dass der Nebenkriegsschauplatz des Iran-Kriegs nicht zur Ruhe kommt.",
+          "quelle": "CBS News",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-blockade-strait-of-hormuz-ship-attacks/",
+          "zeit": "24.11., 13:00",
+          "medien": [
+            "CBS News"
+          ]
+        }
+      ]
     }
   },
   "konflikte": {
-    "stand": "Stand 25.11., 09:50 Uhr",
+    "stand": "Stand 25.11., 10:10 Uhr",
     "karte": [
       {
         "code": "UKR",
@@ -3792,12 +4130,14 @@
       {
         "code": "LBN",
         "stufe": 2,
-        "hinweis": "Hisbollah, israelische Angriffe"
+        "hinweis": "Hisbollah, israelische Angriffe",
+        "konflikt": "libanon"
       },
       {
         "code": "TWN",
         "stufe": 1,
-        "hinweis": "Chinesischer Druck"
+        "hinweis": "Chinesischer Druck",
+        "konflikt": "taiwan"
       },
       {
         "code": "PRK",
@@ -3817,8 +4157,54 @@
         "name": "Russland – Ukraine",
         "stufe": 3,
         "seit": "24.02.2022",
-        "lage": "",
-        "meldungen": []
+        "lage": "Russland setzt auf massive Drohnen- und Raketenangriffe auf Energie und Städte; im Oktober starben laut UN 372 Zivilisten, so viele wie in keinem Oktober seit 2022. Die Ukraine trifft im Gegenzug russische Raffinerien in Serie. Gespräche unter US-Vermittlung stocken, Washington will bis Januar einen Deal.",
+        "meldungen": [
+          {
+            "tag": "Luftkrieg",
+            "titel": "Ukrainische Drohnen treffen zwei Rosneft-Raffinerien in Samara",
+            "warum": "Syzran und Kuibyshew brennen; seit Anfang November wurden 16 russische Raffinerien getroffen, die Verarbeitung soll um 45 % gefallen sein.",
+            "quelle": "Kyiv Post",
+            "url": "https://kyivpost.com/post/91110",
+            "zeit": "25.11.",
+            "medien": [
+              "Kyiv Post"
+            ]
+          },
+          {
+            "tag": "Lage",
+            "titel": "ISW: Keine Geländegewinne am 24.11., Putin räumt Kosten der Raffinerie-Angriffe ein",
+            "warum": "Russland griff in der Nacht mit 96 Drohnen an; ein russischer Gouverneur (Murmansk) wurde erstmals seit Kriegsbeginn im Amt verhaftet.",
+            "quelle": "Kyiv Post",
+            "url": "https://www.kyivpost.com/post/91108",
+            "zeit": "25.11.",
+            "medien": [
+              "Kyiv Post",
+              "ISW"
+            ]
+          },
+          {
+            "tag": "Militärhilfe",
+            "titel": "Selenskyj: 48 bereits bezahlte Patriot-Raketen liegen ungezeichnet im Pentagon",
+            "warum": "Die über die NATO-Initiative PURL finanzierten Abfangraketen fehlen, während Russland die Luftangriffe ausweitet; Lizenzen zur eigenen Fertigung gibt es weiter nicht.",
+            "quelle": "Kyiv Post",
+            "url": "https://kyivpost.com/post/91107",
+            "zeit": "25.11.",
+            "medien": [
+              "Kyiv Post"
+            ]
+          },
+          {
+            "tag": "Ukraine",
+            "titel": "US-Gesandte wollen bis Januar einen Ukraine-Deal, Kiew setzt sonst auf neuen Kongress",
+            "warum": "Selenskyj will im Januar oder Februar ein großes Hilfspaket und härtere Sanktionen beim neuen Kongress suchen, falls Trumps Diplomatie scheitert.",
+            "quelle": "Kyiv Post",
+            "url": "https://kyivpost.com/post/91107",
+            "zeit": "25.11.",
+            "medien": [
+              "Kyiv Post"
+            ]
+          }
+        ]
       },
       {
         "id": "iran",
@@ -3826,8 +4212,68 @@
         "name": "Iran-Krieg und Straße von Hormus",
         "stufe": 3,
         "seit": "2026",
-        "lage": "",
-        "meldungen": []
+        "lage": "Seit dem Zusammenbruch der Waffenruhe im Juli blockieren die USA Irans Häfen, Iran greift Tanker an und meldet nun Minentreffer in der Straße von Hormus. Der Verkehr durch die Meerenge ist binnen zwei Wochen um über 40 % gefallen. Teheran lehnt Gespräche ab, die Houthis tragen den Krieg nach Saudi-Arabien.",
+        "meldungen": [
+          {
+            "tag": "Hormus",
+            "titel": "Iran meldet Minentreffer: Mehrere Öltanker in der Straße von Hormus in Brand",
+            "warum": "Teheran erklärt, die Meerenge bleibe zu, bis seine Bedingungen erfüllt sind – das verschärft das Risiko für ein Fünftel des seeweiten Ölhandels.",
+            "quelle": "The Tribune",
+            "url": "https://www.tribuneindia.com/news/iran/four-oil-tankers-explode-catch-fire-after-hitting-naval-mines-in-hormuz-irans-navy",
+            "zeit": "24.11., 17:47",
+            "medien": [
+              "The Tribune",
+              "Middle East Monitor",
+              "Epoch Times"
+            ]
+          },
+          {
+            "tag": "Hormus",
+            "titel": "Hormus-Verkehr binnen zwei Wochen um mehr als 40 % eingebrochen",
+            "warum": "Laut MarineTraffic passierten vom 17. bis 23.11. nur 125 Schiffe die Meerenge nach 226 in der ersten Novemberwoche; vor dem Krieg waren es 125 bis 140 pro Tag.",
+            "quelle": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/24/hormuz-oil-traffic-is-down-40-percent-are-irans-tanker-attacks-working",
+            "zeit": "24.11.",
+            "medien": [
+              "Al Jazeera"
+            ]
+          },
+          {
+            "tag": "Jemen",
+            "titel": "Houthis treffen Hochhaus in Riad, saudische Koalition fliegt Hunderte Angriffe im Jemen",
+            "warum": "Der Iran-Krieg greift endgültig auf die Arabische Halbinsel über; Houthi-Medien melden 25 Tote oder Vermisste in Lahj.",
+            "quelle": "CBS News",
+            "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-blockade-strait-of-hormuz-ship-attacks/",
+            "zeit": "24.11., 13:00",
+            "medien": [
+              "CBS News",
+              "Reuters"
+            ]
+          },
+          {
+            "tag": "Iran",
+            "titel": "Iran erwägt Tanker-Konvoi nach China, um die US-Blockade zu durchbrechen",
+            "warum": "Bei 88,7 % Inflation drängt die Wirtschaftslage Teheran zu riskanten Exportversuchen; das Staatsfernsehen dementiert, dass ein Konvoi schon ausgelaufen ist.",
+            "quelle": "The National",
+            "url": "https://www.thenationalnews.com/news/gulf/2026/11/24/is-iran-weighing-tanker-convoy-to-break-us-blockade/",
+            "zeit": "24.11., 11:05",
+            "medien": [
+              "The National"
+            ]
+          },
+          {
+            "tag": "Iran",
+            "titel": "Iran schließt Gespräche mit den USA bis zur Erfüllung von sieben Bedingungen aus",
+            "warum": "Parlamentschef Ghalibaf blockt Verhandlungen; Katar vermittelt, ein Ende der Blockade ist damit vorerst nicht in Sicht.",
+            "quelle": "Gulf News",
+            "url": "https://gulfnews.com/world/mena/middle-east-conflict-us-investigates-iran-over-cyberattacks-on-50-ships-as-fresh-sanctions-target-irans-shadow-banking-network-1.500758688",
+            "zeit": "24.11.",
+            "medien": [
+              "Gulf News",
+              "CBS News"
+            ]
+          }
+        ]
       },
       {
         "id": "sudan",
@@ -3835,35 +4281,443 @@
         "name": "Sudan: Armee gegen RSF",
         "stufe": 3,
         "seit": "15.04.2023",
-        "lage": "",
-        "meldungen": []
+        "lage": "Die Armee gewinnt in Kordofan an Boden und hat die Belagerung von al-Obeid gebrochen, mehrere RSF-Kommandeure sind übergelaufen. Die RSF hält Darfur und greift Khartum mit Drohnen an. Rund 19,5 Mio. Menschen hungern, das WFP muss Hilfe kürzen.",
+        "meldungen": [
+          {
+            "tag": "Sudan",
+            "titel": "Drohnenangriffe töten vier Menschen in Khartum und beschädigen UN-Gebäude",
+            "warum": "Die Armee macht die RSF verantwortlich und sagt, die Drohnen seien aus Äthiopien gestartet; laut OHCHR starben 2026 bis Ende Oktober über 1.630 Zivilisten durch Drohnen.",
+            "quelle": "ABC Australia",
+            "url": "https://www.abc.net.au/news/2026-11-23/deadly-drone-strikes-in-khartoum-sudan-war/107415908",
+            "zeit": "23.11., 01:46",
+            "medien": [
+              "ABC Australia",
+              "Al Jazeera"
+            ]
+          },
+          {
+            "tag": "Sudan",
+            "titel": "RSF-Generalmajor läuft mit acht Kommandeuren zur Armee über",
+            "warum": "Es ist bereits der vierte große Überläufer in diesem Monat – ein Zeichen, dass die RSF in Kordofan unter Druck gerät.",
+            "quelle": "The New Arab",
+            "url": "https://www.newarab.com/news/sudan-rsf-commander-defects-says-israelis-training-militia",
+            "zeit": "24.11., 15:54",
+            "medien": [
+              "The New Arab"
+            ]
+          },
+          {
+            "tag": "Sudan",
+            "titel": "Armee durchbricht Belagerung von al-Obeid und nimmt al-Khuwai ein",
+            "warum": "Die Erfolge in Kordofan könnten den Krieg wenden; die RSF hält aber Darfur und Teile Süd-Kordofans, wo 90 % des Öls gefördert werden.",
+            "quelle": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/14/how-saf-successes-in-sudans-kordofan-could-turn-tide-against-the-rsf",
+            "zeit": "14.11.",
+            "medien": [
+              "Al Jazeera"
+            ]
+          },
+          {
+            "tag": "Hunger",
+            "titel": "WFP kürzt Nahrungshilfe für 900.000 Vertriebene, 19,5 Mio. Menschen hungern",
+            "warum": "Fünf Millionen Menschen sind auf Notfallstufe; Finanzierungslücken verschärfen die Hungersnot.",
+            "quelle": "Al Jazeera",
+            "url": "https://www.aljazeera.com/features/2026/11/2/as-aid-situation-worsens-displaced-sudanese-worry-about-warnings-of-famine",
+            "zeit": "02.11.",
+            "medien": [
+              "Al Jazeera"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "libanon",
+        "kurz": "Libanon",
+        "name": "Israel – Hisbollah (Libanon)",
+        "stufe": 2,
+        "seit": "02.03.2026",
+        "lage": "Seit April gilt formal eine Waffenruhe, doch Israel hält eine rund 10 km tiefe Pufferzone im Südlibanon und greift weiter an. Libanon zählt seit März mehr als 4.300 Tote.",
+        "meldungen": [
+          {
+            "tag": "Libanon",
+            "titel": "Israelische Angriffe in der Pufferzone im Südlibanon",
+            "warum": "Libanesische Medien melden Explosionen in mehreren Dörfern der rund 10 km tiefen Zone, trotz formaler Waffenruhe seit April.",
+            "quelle": "Times of Israel",
+            "url": "https://www.timesofisrael.com/liveblog-november-24-2026/",
+            "zeit": "24.11.",
+            "medien": [
+              "Times of Israel"
+            ]
+          },
+          {
+            "tag": "Libanon",
+            "titel": "Libanon: Mehr als 4.300 Tote durch israelische Angriffe seit März",
+            "warum": "Die Zahl des libanesischen Gesundheitsministeriums zeigt, dass der Nebenkriegsschauplatz des Iran-Kriegs nicht zur Ruhe kommt.",
+            "quelle": "CBS News",
+            "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-blockade-strait-of-hormuz-ship-attacks/",
+            "zeit": "24.11., 13:00",
+            "medien": [
+              "CBS News"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "taiwan",
+        "kurz": "Taiwan",
+        "name": "Taiwanstraße",
+        "stufe": 1,
+        "seit": "1949",
+        "lage": "China hat Anfang November mehr als 100 Marine- und Küstenwachschiffe rund um Taiwan und im Westpazifik zusammengezogen, ohne Manöver anzukündigen. Taipeh wertet das als Blockade-Probe vor seinen Kommunalwahlen Ende November.",
+        "meldungen": [
+          {
+            "tag": "Taiwan",
+            "titel": "Taiwan: China übt mit über 100 Schiffen „Gebietsverweigerung“ im Westpazifik",
+            "warum": "Verteidigungsminister Koo nennt die Liaoning-Trägergruppe; die Manöver liegen vor dem APEC-Gipfel in Shenzhen und Taiwans Kommunalwahlen Ende November.",
+            "quelle": "ThePrint",
+            "url": "https://theprint.in/world/taiwan-says-china-is-conducting-area-denial-drills-in-western-pacific/3094717/",
+            "zeit": "10.11., 03:30",
+            "medien": [
+              "Reuters",
+              "ThePrint"
+            ]
+          },
+          {
+            "tag": "Taiwan",
+            "titel": "„Stille Einschüchterung“: Unangekündigte chinesische Manöver größer als 2025",
+            "warum": "Rund 70 Schiffe blieben in der ersten Inselkette; ein Sicherheitsbeamter spricht von einem U-Boot-Raketentest im Gelben Meer (unbestätigt).",
+            "quelle": "LBC",
+            "url": "https://www.lbc.co.uk/world-news/china-taiwan-pacific-drills/",
+            "zeit": "13.11., 08:21",
+            "medien": [
+              "LBC",
+              "Reuters",
+              "Taipei Times"
+            ]
+          },
+          {
+            "tag": "Taiwan",
+            "titel": "Taipeh: Pekings Manöver sind „stille Einschüchterung“",
+            "warum": "Taiwan wertet die Übung als Test für eine Blockade, ohne dass China sie offiziell ankündigt.",
+            "quelle": "Taipei Times",
+            "url": "https://www.taipeitimes.com/News/front/archives/2026/11/14/2003867710",
+            "zeit": "14.11.",
+            "medien": [
+              "Taipei Times",
+              "Reuters"
+            ]
+          }
+        ]
       }
     ],
-    "front": {},
-    "diplomatie": [],
-    "ruestung": [],
-    "markt": {},
-    "humanitaer": [],
-    "radar": []
+    "front": {
+      "stand": "ISW-Bewertung vom 24.11.",
+      "lage": "Laut ISW gab es am 24.11. weder russische noch ukrainische Geländegewinne; der Krieg verlagert sich in die Luft. Russland greift nachts mit Dutzenden Drohnen an, die Ukraine trifft systematisch russische Raffinerien (16 seit Anfang November).",
+      "punkte": [
+        {
+          "tag": "Lage",
+          "titel": "ISW: Keine Geländegewinne am 24.11., Putin räumt Kosten der Raffinerie-Angriffe ein",
+          "warum": "Russland griff in der Nacht mit 96 Drohnen an; ein russischer Gouverneur (Murmansk) wurde erstmals seit Kriegsbeginn im Amt verhaftet.",
+          "quelle": "Kyiv Post",
+          "url": "https://www.kyivpost.com/post/91108",
+          "zeit": "25.11.",
+          "medien": [
+            "Kyiv Post",
+            "ISW"
+          ]
+        },
+        {
+          "tag": "Luftkrieg",
+          "titel": "Ukrainische Drohnen treffen zwei Rosneft-Raffinerien in Samara",
+          "warum": "Syzran und Kuibyshew brennen; seit Anfang November wurden 16 russische Raffinerien getroffen, die Verarbeitung soll um 45 % gefallen sein.",
+          "quelle": "Kyiv Post",
+          "url": "https://kyivpost.com/post/91110",
+          "zeit": "25.11.",
+          "medien": [
+            "Kyiv Post"
+          ]
+        },
+        {
+          "tag": "Luftkrieg",
+          "titel": "Russland greift mit 96 Drohnen an, eine davon verletzt polnischen Luftraum",
+          "warum": "Auch Moldau meldet eine Luftraumverletzung – der Luftkrieg strahlt auf NATO-Gebiet aus.",
+          "quelle": "Kyiv Post",
+          "url": "https://www.kyivpost.com/post/91108",
+          "zeit": "25.11.",
+          "medien": [
+            "Kyiv Post"
+          ]
+        },
+        {
+          "tag": "Militärhilfe",
+          "titel": "Selenskyj: 48 bereits bezahlte Patriot-Raketen liegen ungezeichnet im Pentagon",
+          "warum": "Die über die NATO-Initiative PURL finanzierten Abfangraketen fehlen, während Russland die Luftangriffe ausweitet; Lizenzen zur eigenen Fertigung gibt es weiter nicht.",
+          "quelle": "Kyiv Post",
+          "url": "https://kyivpost.com/post/91107",
+          "zeit": "25.11.",
+          "medien": [
+            "Kyiv Post"
+          ]
+        }
+      ],
+      "karten": [
+        {
+          "name": "ISW-Karte",
+          "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-november-24-2026/"
+        },
+        {
+          "name": "DeepStateMap",
+          "url": "https://deepstatemap.live/en"
+        }
+      ]
+    },
+    "diplomatie": [
+      {
+        "tag": "Ukraine",
+        "titel": "US-Gesandte wollen bis Januar einen Ukraine-Deal, Kiew setzt sonst auf neuen Kongress",
+        "warum": "Selenskyj will im Januar oder Februar ein großes Hilfspaket und härtere Sanktionen beim neuen Kongress suchen, falls Trumps Diplomatie scheitert.",
+        "quelle": "Kyiv Post",
+        "url": "https://kyivpost.com/post/91107",
+        "zeit": "25.11.",
+        "medien": [
+          "Kyiv Post"
+        ]
+      },
+      {
+        "tag": "Ukraine",
+        "titel": "Online-Runde mit Witkoff, Kushner und Europäern bringt keinen Durchbruch",
+        "warum": "Russland lehnt eine Ausweitung der Gespräche und eine befristete Waffenruhe ab; die Runde in Abu Dhabi brachte nur einen Gefangenenaustausch.",
+        "quelle": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/11/17/ukraine-holds-peace-talks-with-us-europe-as-conflict-escalates",
+        "zeit": "17.11.",
+        "medien": [
+          "Al Jazeera",
+          "Reuters"
+        ]
+      },
+      {
+        "tag": "Iran",
+        "titel": "Iran schließt Gespräche mit den USA bis zur Erfüllung von sieben Bedingungen aus",
+        "warum": "Parlamentschef Ghalibaf blockt Verhandlungen; Katar vermittelt, ein Ende der Blockade ist damit vorerst nicht in Sicht.",
+        "quelle": "Gulf News",
+        "url": "https://gulfnews.com/world/mena/middle-east-conflict-us-investigates-iran-over-cyberattacks-on-50-ships-as-fresh-sanctions-target-irans-shadow-banking-network-1.500758688",
+        "zeit": "24.11.",
+        "medien": [
+          "Gulf News",
+          "CBS News"
+        ]
+      },
+      {
+        "tag": "Sanktionen",
+        "titel": "USA verhängen neue Sanktionen gegen Irans Schattenbanken-Netz",
+        "warum": "OFAC listet 22 Firmen und acht Personen; FinCEN beziffert möglicherweise iranbezogene Finanzströme auf 14,7 Mrd. $. Zugleich prüft Washington Cyberangriffe auf bis zu 50 Schiffe.",
+        "quelle": "CBS News",
+        "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-blockade-strait-of-hormuz-ship-attacks/",
+        "zeit": "24.11., 13:00",
+        "medien": [
+          "CBS News",
+          "Gulf News",
+          "Wall Street Journal"
+        ]
+      },
+      {
+        "tag": "Iran",
+        "titel": "Iran erwägt Tanker-Konvoi nach China, um die US-Blockade zu durchbrechen",
+        "warum": "Bei 88,7 % Inflation drängt die Wirtschaftslage Teheran zu riskanten Exportversuchen; das Staatsfernsehen dementiert, dass ein Konvoi schon ausgelaufen ist.",
+        "quelle": "The National",
+        "url": "https://www.thenationalnews.com/news/gulf/2026/11/24/is-iran-weighing-tanker-convoy-to-break-us-blockade/",
+        "zeit": "24.11., 11:05",
+        "medien": [
+          "The National"
+        ]
+      }
+    ],
+    "ruestung": [
+      {
+        "tag": "Deutschland",
+        "titel": "Pistorius und Chmara einigen sich vorläufig auf weitere Abfangraketen",
+        "warum": "Aus eigenen Patriot-Beständen kann Deutschland nicht mehr liefern; besprochen wurde auch der Drohnenkauf für 2027.",
+        "quelle": "European Pravda",
+        "url": "https://www.eurointegration.com.ua/eng/news/2026/11/24/7250656/",
+        "zeit": "24.11.",
+        "medien": [
+          "European Pravda"
+        ]
+      },
+      {
+        "tag": "Ukraine",
+        "titel": "Deutschland und Norwegen finanzieren Patriot-Raketen für die Ukraine",
+        "warum": "Berlin gibt 300 Mio. $ für PAC-2/PAC-3 über die NATO-Initiative PURL – das fünfte deutsche PURL-Paket.",
+        "quelle": "Ukrainska Pravda",
+        "url": "https://www.pravda.com.ua/eng/news/2026/11/17/8063227/",
+        "zeit": "17.11.",
+        "medien": [
+          "Ukrainska Pravda",
+          "European Pravda"
+        ]
+      },
+      {
+        "tag": "Ukraine",
+        "titel": "Ramstein: Zehn F-16 aus Belgien und zwei Mirage aus Frankreich bis Jahresende",
+        "warum": "Dänemark legt 645 Mio. € nach, Norwegen rund 800 Mio. $, Großbritannien 240 Mio. £ für Luftabwehr.",
+        "quelle": "Ukrainska Pravda",
+        "url": "https://www.pravda.com.ua/eng/news/2026/11/18/8063389/",
+        "zeit": "18.11.",
+        "medien": [
+          "Ukrainska Pravda"
+        ]
+      },
+      {
+        "tag": "Industrie",
+        "titel": "Rheinmetall senkt Prognose, Aktie bricht um 17 % ein",
+        "warum": "Der Boxer-Großauftrag „Arminius“ rutscht wohl nach 2027; seit Jahresbeginn hat die Aktie fast die Hälfte verloren.",
+        "quelle": "Euronews",
+        "url": "https://www.euronews.com/2026/11/05/rheinmetall-shares-plunge-more-than-17-after-profit-warning-over-order-delays",
+        "zeit": "05.11., 11:21",
+        "medien": [
+          "Euronews",
+          "Reuters"
+        ]
+      },
+      {
+        "tag": "Deutschland",
+        "titel": "Haushaltsausschuss: Sieben neue 25-Mio.-Vorlagen, u. a. Eurofighter und SPIKE-Raketen",
+        "warum": "Bis Jahresende sollen noch 38 weitere Beschaffungsvorlagen folgen – Tempo der Zeitenwende-Beschaffung.",
+        "quelle": "ESUT",
+        "url": "https://esut.de/2026/11/meldungen/76427/bundeswehr-7-ruestungsvorhaben-ent/",
+        "zeit": "01.11., 21:15",
+        "medien": [
+          "ESUT"
+        ]
+      }
+    ],
+    "markt": {
+      "lage": "Brent fiel über Nacht um rund 1,5 % auf etwa 90 $ – trotz der Minentreffer in Hormus, weil der Markt auf schwache Nachfrage und Waffenruhe-Hoffnungen schaut; vom Kriegshoch über 120 $ ist Öl weit entfernt. Gold verlor am Dienstag rund 2 % auf 3.557 $, Rheinmetall liegt seit Jahresbeginn rund 48 % im Minus.",
+      "routen": [
+        {
+          "route": "Straße von Hormus",
+          "status": "Verkehr −40 % (17.–23.11. ggü. Anfang Nov.), US-Blockade, Iran meldet Minen"
+        },
+        {
+          "route": "Rotes Meer / Bab al-Mandab",
+          "status": "Houthis im Krieg mit Saudi-Arabien, Schifffahrt meidet die Route weitgehend"
+        },
+        {
+          "route": "Suezkanal",
+          "status": "weiter deutlich unter Vorkrisenniveau"
+        },
+        {
+          "route": "Ostsee / Schwarzes Meer",
+          "status": "ukrainische Drohnenangriffe auf russische Schiffe, Containerschiff Sparta II brannte im Finnischen Meerbusen"
+        },
+        {
+          "route": "Taiwanstraße",
+          "status": "über 100 chinesische Schiffe Anfang Nov., unangekündigte Manöver"
+        }
+      ]
+    },
+    "humanitaer": [
+      {
+        "konflikt": "Ukraine",
+        "tote": "2.957 Zivilisten 2026 (Jan.–Okt., UN), 372 allein im Oktober",
+        "vertriebene": "keine aktuelle UN-Zahl geprüft",
+        "zugang": "Angriffe auf Energienetz vor dem Winter"
+      },
+      {
+        "konflikt": "Iran / Golf",
+        "tote": "über 3.400 Zivilisten in Iran (OCHA); Iran nennt 3.528 Tote",
+        "vertriebene": "keine belastbare Zahl",
+        "zugang": "US-Seeblockade, Inflation 88,7 %"
+      },
+      {
+        "konflikt": "Sudan",
+        "tote": "ca. 150.000 (Schätzung)",
+        "vertriebene": "über 14 Mio., davon ca. 4,5 Mio. im Ausland",
+        "zugang": "stark eingeschränkt, 19,5 Mio. in akuter Hungersnot, WFP kürzt Hilfe"
+      },
+      {
+        "konflikt": "Libanon",
+        "tote": "über 4.300 seit März (libanes. Gesundheitsministerium)",
+        "vertriebene": "über 1 Mio. (Stand Frühjahr)",
+        "zugang": "israelische Pufferzone im Süden"
+      },
+      {
+        "konflikt": "Taiwan",
+        "tote": "–",
+        "vertriebene": "–",
+        "zugang": "keine Kämpfe"
+      }
+    ],
+    "radar": [
+      {
+        "ort": "Baltikum / Ostsee",
+        "stufe": "hoch",
+        "warum": "Drohnen drangen am 10./11.11. in den baltischen Luftraum ein, NATO-Jets scheiterten beim Abschuss; dazu Explosionen am Flottenstützpunkt Baltijsk.",
+        "quelle": "Defence Matters",
+        "url": "https://defencematters.eu/nato-baltic-air-defence-drone-interception-november-2026/",
+        "zeit": "12.11., 23:19"
+      },
+      {
+        "ort": "Polen / Moldau",
+        "stufe": "erhöht",
+        "warum": "Am 23.11. verletzten russische Drohnen polnischen und moldauischen Luftraum.",
+        "quelle": "Kyiv Post",
+        "url": "https://www.kyivpost.com/post/91108",
+        "zeit": "25.11."
+      },
+      {
+        "ort": "Kaliningrad",
+        "stufe": "erhöht",
+        "warum": "Erstmals mutmaßlicher Drohnenangriff auf den Stützpunkt der Baltischen Flotte, Schäden unbestätigt.",
+        "quelle": "Euromaidan Press",
+        "url": "https://euromaidanpress.com/2026/11/22/explosions-reported-at-russias-baltic-fleet-base-in-kaliningrad/",
+        "zeit": "21.11., 23:47"
+      },
+      {
+        "ort": "Taiwanstraße",
+        "stufe": "erhöht",
+        "warum": "Über 100 chinesische Schiffe in unangekündigten Manövern vor Taiwans Kommunalwahlen.",
+        "quelle": "LBC",
+        "url": "https://www.lbc.co.uk/world-news/china-taiwan-pacific-drills/",
+        "zeit": "13.11., 08:21"
+      },
+      {
+        "ort": "Korea",
+        "stufe": "beobachten",
+        "warum": "Nordkorea feuerte am 4.11. zum vierten Mal binnen eines Monats Raketen ab und lehnt Gespräche mit Washington ab.",
+        "quelle": "Reuters",
+        "url": "https://www.thestar.com.my/news/world/2026/11/04/north-korea-fires-multiple-missiles-in-fourth-weapons-launch-in-a-month-seoul-says",
+        "zeit": "04.11., 06:39"
+      },
+      {
+        "ort": "Venezuela",
+        "stufe": "beobachten",
+        "warum": "Hegseth schloss am 18.11. in Caracas ein Militärabkommen; die USA kontrollieren Venezuelas Öleinnahmen.",
+        "quelle": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/11/19/why-is-pete-hegseth-strengthening-us-military-ties-with-venezuela",
+        "zeit": "19.11."
+      }
+    ],
+    "humanitaer_quelle": "UN-Menschenrechtsmission Ukraine (16.11.), OCHA, WFP, Al Jazeera (2. und 14.11.), CBS News (24.11.); Stand 25.11."
   },
   "briefing": {
-    "stand": "25.11., 10:00 Uhr",
+    "stand": "25.11., 10:10 Uhr",
     "saetze": [
       {
         "tag": "Märkte",
-        "text": "Die KI-Rally kippt: Asiens Chipwerte brechen ein (Kospi über −6 %, Tokyo Electron −13,5 %), nachdem schon der US-Chipindex −7,9 % verlor – der Dow hielt dagegen erstmals über 50.000."
+        "text": "Nach dem Chip-Einbruch in Asien (Kospi über −6 %, Tokyo Electron −13,5 %) startet der Dax kaum bewegt bei rund 25.010 Punkten; Belastung droht von neuen US-Zöllen gegen China, die EU und 14 weitere Länder."
       },
       {
         "tag": "Daten",
-        "text": "Um 14:30 Uhr kommen PCE-Inflation, US-BIP und Arbeitsmarktdaten gebündelt vor Thanksgiving – der Konsens erwartet eine Kernrate von 3,2 %, jede Abweichung verschiebt die Zinswetten."
+        "text": "Um 14:30 Uhr kommen PCE-Inflation, US-BIP und Erstanträge gebündelt vor Thanksgiving – der Konsens erwartet eine Kernrate von 3,2 %, um 20:00 Uhr folgt das Beige Book."
       },
       {
         "tag": "Zinsen",
-        "text": "Die Fed-Erhöhung am 9. Dezember gilt mit rund 95 % als ausgemacht; auch EZB und Bank of England sollen am 17. Dezember nachziehen."
+        "text": "Eine Fed-Erhöhung am 9. Dezember ist laut CME FedWatch zu rund 96 % eingepreist; auch EZB und Bank of England sollen am 17. Dezember nachziehen."
       },
       {
-        "tag": "Handel",
-        "text": "Washington bereitet neue Zölle gegen China, die EU und 14 weitere Länder vor, um die vom Supreme Court gekippten Zölle zu ersetzen – Höhe und Termin sind noch offen."
+        "tag": "Konflikte",
+        "text": "Iran meldet brennende Tanker nach Minentreffern in Hormus, der Verkehr dort ist binnen zwei Wochen um über 40 % gefallen – Brent hält sich trotzdem bei etwa 90 $."
       },
       {
         "tag": "Deutschland",
