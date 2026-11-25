@@ -1,7 +1,20 @@
 {
-  "aktualisiert": "25.11.2026, 15:10 Uhr",
+  "aktualisiert": "25.11.2026, 17:05 Uhr",
   "maerkte": {
     "schlagzeilen": [
+      {
+        "tag": "Märkte",
+        "titel": "Wall Street eröffnet tief im Minus: Nasdaq −3,75 %, Dow −864 Punkte",
+        "warum": "Heiße Inflationsdaten, neue US-Zolldrohungen und der anhaltende KI-Ausverkauf drücken die Indizes am Tag vor Thanksgiving gleichzeitig nach unten.",
+        "quelle": "Fox Business",
+        "url": "https://www.foxbusiness.com/markets/stocks-11-25-2026",
+        "zeit": "25.11., 15:38",
+        "medien": [
+          "Fox Business",
+          "Yahoo Finance",
+          "Benzinga"
+        ]
+      },
       {
         "tag": "Konjunktur",
         "titel": "US-Kerninflation PCE steigt auf 3,3 %, BIP auf 4,3 % hochrevidiert",
@@ -25,19 +38,6 @@
         "medien": [
           "Seeking Alpha",
           "Benzinga"
-        ]
-      },
-      {
-        "tag": "Märkte",
-        "titel": "Nvidia vorbörslich −5 % – Huang-Rally weitgehend verpufft, Dax rutscht kurz unter 25.000",
-        "warum": "Der zweite Verlusttag in Folge zeigt, wie nervös der Markt bei KI-Werten ist; Infineon und ASML stehen in Europa mit unter Druck.",
-        "quelle": "Investing.com",
-        "url": "https://www.investing.com/news/stock-market-news/nvidia-shares-fall-5-premarket-after-huang-return-rally-wanes-5050114",
-        "zeit": "25.11.",
-        "medien": [
-          "Investing.com",
-          "Seeking Alpha",
-          "Handelsblatt"
         ]
       },
       {
@@ -388,7 +388,7 @@
       ]
     },
     "kalender": {
-      "stand": "25.11., 15:10 Uhr",
+      "stand": "25.11., 17:05 Uhr",
       "termine": [
         {
           "zeit": "2026-11-23T15:45:00+01:00",
@@ -472,7 +472,9 @@
           "was": "Auftragseingang langlebige Güter Okt. (M/M)",
           "prognose": "0,7 %",
           "vorher": "1,8 %",
-          "ist": null
+          "ist": "0,2 %",
+          "abweichung": "tiefer",
+          "lesart": "Schwächer als erwartet, ohne Transport aber +0,5 %: die Investitionsnachfrage hält, ändert an der Fed-Erwartung wenig."
         },
         {
           "zeit": "2026-11-25T14:30:00+01:00",
@@ -3525,7 +3527,64 @@
         ],
         "stand": "23.11.2026",
         "spiele": {
-          "naechste": [],
+          "naechste": [
+            {
+              "datum": "Fr 27.11.",
+              "zeit": "19:00",
+              "heim": "Bruins",
+              "gast": "Maple Leafs",
+              "info": "Black Friday"
+            },
+            {
+              "datum": "Fr 27.11.",
+              "zeit": "19:00",
+              "heim": "Predators",
+              "gast": "Mammoth",
+              "info": "Black Friday"
+            },
+            {
+              "datum": "Fr 27.11.",
+              "zeit": "19:00",
+              "heim": "Devils",
+              "gast": "Flames",
+              "info": "Black Friday"
+            },
+            {
+              "datum": "Fr 27.11.",
+              "zeit": "20:00",
+              "heim": "Blues",
+              "gast": "Stars",
+              "info": "Black Friday"
+            },
+            {
+              "datum": "Fr 27.11.",
+              "zeit": "21:00",
+              "heim": "Blue Jackets",
+              "gast": "Red Wings",
+              "info": "Black Friday"
+            },
+            {
+              "datum": "Fr 27.11.",
+              "zeit": "21:00",
+              "heim": "Flyers",
+              "gast": "Canucks",
+              "info": "Black Friday"
+            },
+            {
+              "datum": "Fr 27.11.",
+              "zeit": "21:00",
+              "heim": "Capitals",
+              "gast": "Panthers",
+              "info": "Black Friday"
+            },
+            {
+              "datum": "Fr 27.11.",
+              "zeit": "21:00",
+              "heim": "Lightning",
+              "gast": "Senators",
+              "info": "Black Friday"
+            }
+          ],
           "letzte": [
             {
               "datum": "Mi 25.11.",
@@ -3576,7 +3635,7 @@
               "ergebnis": "4:2"
             }
           ],
-          "hinweis": "Heute Nacht (Mi 25.11., US-Zeit) 14 Spiele vor Thanksgiving; Ansetzungen folgen beim nächsten Lauf."
+          "hinweis": "Am Freitag (Black Friday) 15 Spiele, hier die ersten acht; Spiele der Nacht zu Donnerstag folgen beim nächsten Lauf."
         }
       },
       {
@@ -3827,6 +3886,19 @@
       "lage": "Nach dem historischen Nvidia-Tag schlägt das Pendel zurück: Chipwerte fallen weltweit, Asien erlebt einen KI-Ausverkauf. Dazu kehrt die Zollangst zurück, weil die USA neue Strafzölle gegen China, die EU und 14 weitere Länder vorbereiten. Eine Fed-Zinserhöhung im Dezember gilt als sicher; die PCE-Inflation heute um 14:30 Uhr entscheidet, ob der Markt noch mehr Straffung einpreist.",
       "meldungen": [
         {
+          "tag": "Märkte",
+          "titel": "Nvidia vorbörslich −5 % – Huang-Rally weitgehend verpufft, Dax rutscht kurz unter 25.000",
+          "warum": "Der zweite Verlusttag in Folge zeigt, wie nervös der Markt bei KI-Werten ist; Infineon und ASML stehen in Europa mit unter Druck.",
+          "quelle": "Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/nvidia-shares-fall-5-premarket-after-huang-return-rally-wanes-5050114",
+          "zeit": "25.11.",
+          "medien": [
+            "Investing.com",
+            "Seeking Alpha",
+            "Handelsblatt"
+          ]
+        },
+        {
           "tag": "Unternehmen",
           "titel": "Dell nachbörslich +4 %, HP +9 % nach starken Zahlen",
           "warum": "Dell mit 54,9 Mrd. $ Umsatz (erwartet 49,2) und Jahresprognose 202 Mrd. $; Workday und Autodesk trotz Beat rund −4 %.",
@@ -3907,17 +3979,6 @@
           "medien": [
             "Reuters",
             "ZDFheute"
-          ]
-        },
-        {
-          "tag": "Handel",
-          "titel": "Trump erwartet weitere 250 Boeing-Bestellungen aus China",
-          "warum": "Signal der Entspannung im Handelsstreit, wichtig für Boeing und US-Exporte.",
-          "quelle": "Reuters",
-          "url": "https://www.reuters.com/business/aerospace-defense/trump-thinks-china-will-buy-another-250-boeing-airplanes-2026-11-23/",
-          "zeit": "23.11.",
-          "medien": [
-            "Reuters"
           ]
         }
       ]
@@ -6022,7 +6083,7 @@
     "humanitaer_quelle": "UN-Menschenrechtsmission Ukraine (16.11.), OCHA, WFP, Al Jazeera (2. und 14.11.), CBS News (24.11.); Stand 25.11."
   },
   "briefing": {
-    "stand": "25.11., 15:10 Uhr",
+    "stand": "25.11., 17:05 Uhr",
     "saetze": [
       {
         "tag": "Daten",
@@ -6038,9 +6099,9 @@
       },
       {
         "tag": "Märkte",
-        "text": "Nasdaq-Futures liegen vor der Eröffnung rund 3 % im Minus, Nvidia verliert weitere 6 %; der Dax hält sich dank Autowerten knapp über 25.000 Punkten, während Infineon auf ein Tief seit April fällt.",
-        "quelle": "dpa-AFX",
-        "url": "https://www.ariva.de/news/aktien-frankfurt-dax-kaum-bewegt-autowerte-stark-12220063"
+        "text": "Die Wall Street bricht zur Eröffnung ein: Nasdaq −3,75 %, S&P 500 −2,5 %, Dow −864 Punkte; Nvidia, AMD und Micron fallen um 5 bis 6,5 % – heißes PCE, neue Zolldrohungen und die KI-Skepsis treffen zusammen.",
+        "quelle": "Fox Business",
+        "url": "https://www.foxbusiness.com/markets/stocks-11-25-2026"
       },
       {
         "tag": "Konflikte",
