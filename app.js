@@ -359,6 +359,42 @@
     });
   }
 
+  /* Nächste Spiele / letzte Ergebnisse je Liga (data.json: sport.ligen[].spiele) */
+  function gamesCard(L) {
+    const sp = L.spiele || {};
+    const card = document.createElement("article"); card.className = "card span2";
+    card.appendChild(txt("h2", "", "Spiele · " + L.name));
+    const cols = document.createElement("div"); cols.className = "games";
+    function list(title, items, done) {
+      const col = document.createElement("div");
+      col.appendChild(txt("h3", "", title));
+      if (!items || !items.length) { col.appendChild(txt("p", "empty", done ? "Wird beim nächsten Lauf gefüllt." : (sp.hinweis || "Wird beim nächsten Lauf gefüllt."))); return col; }
+      const ul = document.createElement("ul"); ul.className = "gl";
+      items.forEach((g) => {
+        const li = document.createElement("li");
+        li.appendChild(txt("span", "gd", (g.datum || "") + (g.zeit ? " " + g.zeit : "")));
+        const m = document.createElement("span"); m.className = "gm";
+        let hw = null;
+        if (done && g.ergebnis) { const p = String(g.ergebnis).split(/[:\-–]/).map((x) => parseFloat(x)); if (p.length === 2 && !isNaN(p[0]) && !isNaN(p[1]) && p[0] !== p[1]) hw = p[0] > p[1]; }
+        const home = txt("span", hw === true ? "w" : "", g.heim || "?"), away = txt("span", hw === false ? "w" : "", g.gast || "?");
+        if (L.us) { m.appendChild(away); m.appendChild(document.createTextNode(" @ ")); m.appendChild(home); }
+        else { m.appendChild(home); m.appendChild(document.createTextNode(" – ")); m.appendChild(away); }
+        if (g.info) m.appendChild(txt("span", "gi", g.info));
+        li.appendChild(m);
+        let res = done ? (g.ergebnis || "") : "";
+        if (done && L.us && g.ergebnis) { const p = String(g.ergebnis).split(":"); if (p.length === 2) res = p[1] + ":" + p[0]; }
+        li.appendChild(txt("span", "gr", res));
+        ul.appendChild(li);
+      });
+      col.appendChild(ul); return col;
+    }
+    cols.appendChild(list("Als Nächstes", sp.naechste, false));
+    cols.appendChild(list("Letzte Ergebnisse", sp.letzte, true));
+    card.appendChild(cols);
+    if (sp.hinweis && sp.naechste && sp.naechste.length) card.appendChild(txt("p", "src", sp.hinweis));
+    return card;
+  }
+
   function renderSport(sport) {
     const nav = $("league-nav"), body = $("sport-body");
     const leagues = (sport && sport.ligen) || [];
@@ -370,6 +406,7 @@
       body.textContent = "";
       [...nav.children].forEach((b, i) => b.setAttribute("aria-pressed", String(i === active)));
       const L = leagues[active];
+      body.appendChild(gamesCard(L));
       const news = document.createElement("article"); news.className = "card";
       news.appendChild(txt("h2", "", "Schlagzeilen · " + L.name));
       const ol = document.createElement("ol"); ol.className = "news"; ol.id = "sport-news"; news.appendChild(ol);
