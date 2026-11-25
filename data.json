@@ -1,7 +1,32 @@
 {
-  "aktualisiert": "25.11.2026, 12:35 Uhr",
+  "aktualisiert": "25.11.2026, 15:10 Uhr",
   "maerkte": {
     "schlagzeilen": [
+      {
+        "tag": "Konjunktur",
+        "titel": "US-Kerninflation PCE steigt auf 3,3 %, BIP auf 4,3 % hochrevidiert",
+        "warum": "Heiße Inflation plus starkes Wachstum zementieren die Fed-Erhöhung im Dezember und erhöhen das Risiko weiterer Schritte 2027.",
+        "quelle": "Benzinga",
+        "url": "https://www.benzinga.com/markets/economic-data/26/11/63619838/pce-inflation-october-gdp-second-estimate",
+        "zeit": "25.11., 14:30",
+        "medien": [
+          "Benzinga",
+          "Seeking Alpha",
+          "Investing.com"
+        ]
+      },
+      {
+        "tag": "Unternehmen",
+        "titel": "Deere verfehlt Gewinnerwartung, Ausblick 2027 enttäuscht",
+        "warum": "Der Agrarmaschinenzyklus bleibt schwach; die Prognose von 4,5–5,25 Mrd. $ Nettogewinn liegt klar unter dem Konsens von 5,91 Mrd. $.",
+        "quelle": "Seeking Alpha",
+        "url": "https://seekingalpha.com/news/4676550-deere-profit-misses-estimates-as-farm-weakness-persists",
+        "zeit": "25.11., 14:03",
+        "medien": [
+          "Seeking Alpha",
+          "Benzinga"
+        ]
+      },
       {
         "tag": "Märkte",
         "titel": "Nvidia vorbörslich −5 % – Huang-Rally weitgehend verpufft, Dax rutscht kurz unter 25.000",
@@ -75,30 +100,6 @@
         "medien": [
           "Reuters",
           "CNBC"
-        ]
-      },
-      {
-        "tag": "Recht",
-        "titel": "Huawei in Brooklyn in 10 von 12 Anklagepunkten schuldig gesprochen",
-        "warum": "Geschworene sehen Iran-Sanktionsverstöße und Betrug belegt; Strafmaß im September 2027 – neuer Stresstest für die US-China-Beziehungen.",
-        "quelle": "CBS News",
-        "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-blockade-strait-of-hormuz-ship-attacks/",
-        "zeit": "25.11., 00:33",
-        "medien": [
-          "CBS News",
-          "AP"
-        ]
-      },
-      {
-        "tag": "Konjunktur",
-        "titel": "Deutsches BIP im dritten Quartal nur +0,1 % – Destatis senkt Schnellschätzung",
-        "warum": "Zuvor waren +0,2 % gemeldet; Ausrüstungsinvestitionen (−3,5 %) und Exporte (−1,0 %) bremsen, nur der Staatskonsum (+0,3 %) stützt. Zum Vorjahr +1,1 % (kalenderbereinigt).",
-        "quelle": "Statistisches Bundesamt",
-        "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_409_811.html",
-        "zeit": "25.11., 08:00",
-        "medien": [
-          "Statistisches Bundesamt",
-          "Dow Jones"
         ]
       }
     ],
@@ -305,7 +306,7 @@
       ]
     },
     "notenbanken": {
-      "stand": "Markterwartung 23.–24.11.",
+      "stand": "Markterwartung 25.11., 15:00 Uhr",
       "banken": [
         {
           "kuerzel": "Fed",
@@ -315,16 +316,16 @@
           "szenarien": [
             {
               "was": "+25 bp",
-              "p": 95.3
+              "p": 98
             },
             {
               "was": "Halten",
-              "p": 4.7
+              "p": 2
             }
           ],
-          "notiz": "PCE heute und der Arbeitsmarktbericht am 4.12. sind die letzten großen Daten vor der Sitzung; eine Erhöhung um 50 bp ist ausgepreist.",
-          "quelle": "CME FedWatch via TheStreet, 24.11.",
-          "url": "https://www.thestreet.com/fed/nvidia-rally-fed-rate-hike-bets-december-2026"
+          "notiz": "Nach Kern-PCE 3,3 %, BIP 4,3 % und nur 189.000 Erstanträgen ist die Erhöhung fast voll eingepreist; als letzter großer Datenpunkt folgt der Arbeitsmarktbericht am 4.12.",
+          "quelle": "CME FedWatch via Benzinga, 25.11.",
+          "url": "https://www.benzinga.com/markets/economic-data/26/11/63619838/pce-inflation-october-gdp-second-estimate"
         },
         {
           "kuerzel": "EZB",
@@ -387,7 +388,7 @@
       ]
     },
     "kalender": {
-      "stand": "25.11., 10:09 Uhr",
+      "stand": "25.11., 15:10 Uhr",
       "termine": [
         {
           "zeit": "2026-11-23T15:45:00+01:00",
@@ -417,8 +418,9 @@
           "was": "PCE-Kerninflation Okt. (J/J)",
           "prognose": "3,2 %",
           "vorher": "3,1 %",
-          "ist": null,
-          "lesart": "Bevorzugtes Inflationsmaß der Fed – letzter Preisdatenpunkt vor dem 9.12."
+          "ist": "3,3 %",
+          "lesart": "Höchste Kernrate seit Monaten: stützt die Fed-Erhöhung am 9.12. und weitere Schritte 2027.",
+          "abweichung": "hoeher"
         },
         {
           "zeit": "2026-11-25T14:30:00+01:00",
@@ -427,7 +429,8 @@
           "was": "PCE-Kerninflation Okt. (M/M)",
           "prognose": "0,3 %",
           "vorher": "0,3 %",
-          "ist": null
+          "ist": "0,3 %",
+          "abweichung": "gleich"
         },
         {
           "zeit": "2026-11-25T14:30:00+01:00",
@@ -436,7 +439,9 @@
           "was": "PCE-Inflation Okt. (J/J)",
           "prognose": "3,8 %",
           "vorher": "3,6 %",
-          "ist": null
+          "ist": "3,8 %",
+          "abweichung": "gleich",
+          "lesart": "Höchster Stand seit 2023."
         },
         {
           "zeit": "2026-11-25T14:30:00+01:00",
@@ -445,16 +450,20 @@
           "was": "BIP Q3, 2. Schätzung (annualisiert)",
           "prognose": "3,5 %",
           "vorher": "3,4 %",
-          "ist": null
+          "ist": "4,3 %",
+          "abweichung": "hoeher",
+          "lesart": "Kräftige Aufwärtsrevision von 3,4 %: Die Wirtschaft verträgt höhere Zinsen."
         },
         {
           "zeit": "2026-11-25T14:30:00+01:00",
           "land": "US",
           "wichtig": 2,
           "was": "Erstanträge Arbeitslosenhilfe",
-          "prognose": "201 Tsd.",
+          "prognose": "200 Tsd.",
           "vorher": "203 Tsd.",
-          "ist": null
+          "ist": "189 Tsd.",
+          "abweichung": "tiefer",
+          "lesart": "Jahrestief: Der Arbeitsmarkt bleibt eng, das spricht gegen eine Zinspause."
         },
         {
           "zeit": "2026-11-25T14:30:00+01:00",
@@ -472,7 +481,9 @@
           "was": "Private Konsumausgaben Okt. (M/M)",
           "prognose": "0,4 %",
           "vorher": "0,5 %",
-          "ist": null
+          "ist": "0,3 %",
+          "abweichung": "tiefer",
+          "lesart": "Real stagnierte der Konsum."
         },
         {
           "zeit": "2026-11-25T16:00:00+01:00",
@@ -540,7 +551,7 @@
       ]
     },
     "unternehmenskalender": {
-      "stand": "25.11., 12:35 Uhr",
+      "stand": "25.11., 15:10 Uhr",
       "termine": [
         {
           "zeit": "2026-11-24T22:05:00+01:00",
@@ -563,8 +574,9 @@
           "was": "Deere: Zahlen Q4 GJ 2026",
           "prognose": "EPS 4,03 $",
           "vorher": "EPS 3,93 $",
-          "ist": null,
-          "lesart": "Entscheidend ist der erste Ausblick auf das Geschäftsjahr 2027 (Telefonkonferenz 16:00 Uhr); Konsens-Umsatz 10,4 Mrd. $."
+          "ist": "EPS 3,89 $",
+          "lesart": "Umsatz 12,1 Mrd. $ über Erwartung, aber Gewinn verfehlt; Ausblick 2027 mit 4,5–5,25 Mrd. $ Nettogewinn unter den erwarteten 5,91 Mrd. $, Aktie vorbörslich rund −2 bis −4 %.",
+          "abweichung": "tiefer"
         },
         {
           "zeit": "2026-11-26T12:00:00+01:00",
@@ -6010,31 +6022,37 @@
     "humanitaer_quelle": "UN-Menschenrechtsmission Ukraine (16.11.), OCHA, WFP, Al Jazeera (2. und 14.11.), CBS News (24.11.); Stand 25.11."
   },
   "briefing": {
-    "stand": "25.11., 12:35 Uhr",
+    "stand": "25.11., 15:10 Uhr",
     "saetze": [
       {
-        "tag": "Märkte",
-        "text": "Der Dax pendelt um 25.000 Punkte (Tief 24.951), weil die Huang-Rally verpufft: Nvidia vorbörslich rund −5 %, Nasdaq-Futures klar im Minus; Belastung droht zudem von neuen US-Zöllen gegen China, die EU und 14 weitere Länder.",
-        "quelle": "Handelsblatt",
-        "url": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-faellt-unter-25.000-marke-ams-osram-aktie-steigt-zweistellig/100272589.html"
-      },
-      {
         "tag": "Daten",
-        "text": "Um 14:30 Uhr kommen PCE-Inflation, US-BIP und Erstanträge gebündelt vor Thanksgiving – der Konsens erwartet eine Kernrate von 3,2 %, um 20:00 Uhr folgt das Beige Book."
+        "text": "Die PCE-Kerninflation steigt im Oktober auf 3,3 % (Konsens 3,2 %), das US-BIP wird auf 4,3 % hochrevidiert (erwartet 3,5 %) und die Erstanträge fallen auf 189.000 – ein heißes Gesamtbild für die Fed.",
+        "quelle": "Benzinga",
+        "url": "https://www.benzinga.com/markets/economic-data/26/11/63619838/pce-inflation-october-gdp-second-estimate"
       },
       {
         "tag": "Zinsen",
-        "text": "Eine Fed-Erhöhung am 9. Dezember ist laut CME FedWatch zu rund 96 % eingepreist; auch EZB und Bank of England sollen am 17. Dezember nachziehen."
+        "text": "Eine Fed-Erhöhung am 9. Dezember gilt laut CME FedWatch jetzt als zu rund 98 % sicher; um 20:00 Uhr folgt das Beige Book, EZB und Bank of England sollen am 17. Dezember nachziehen.",
+        "quelle": "Benzinga",
+        "url": "https://www.benzinga.com/markets/economic-data/26/11/63619838/pce-inflation-october-gdp-second-estimate"
+      },
+      {
+        "tag": "Märkte",
+        "text": "Nasdaq-Futures liegen vor der Eröffnung rund 3 % im Minus, Nvidia verliert weitere 6 %; der Dax hält sich dank Autowerten knapp über 25.000 Punkten, während Infineon auf ein Tief seit April fällt.",
+        "quelle": "dpa-AFX",
+        "url": "https://www.ariva.de/news/aktien-frankfurt-dax-kaum-bewegt-autowerte-stark-12220063"
       },
       {
         "tag": "Konflikte",
-        "text": "Iran meldet am Mittwoch zwei weitere Tanker auf Minen in Hormus und verlangt Abstimmung jeder Durchfahrt; der Verkehr dort ist binnen zwei Wochen um über 40 % gefallen – Brent hält sich trotzdem bei etwa 90 $.",
+        "text": "Iran meldet zwei weitere Tanker auf Minen in Hormus und verlangt Abstimmung jeder Durchfahrt; der Verkehr ist binnen zwei Wochen um über 40 % gefallen – Brent hält sich trotzdem bei etwa 90 $.",
         "quelle": "Arab News",
         "url": "https://www.arabnews.com/middle-east/iran-says-ships-hit-mines-in-hormuz-warns-vessels-to-coordinate-passage-3013942"
       },
       {
-        "tag": "Deutschland",
-        "text": "Destatis senkt das BIP-Wachstum im dritten Quartal auf +0,1 %, während der Bundestag diese Woche einen Rekordhaushalt für 2027 berät."
+        "tag": "Handel",
+        "text": "Washington plant neue Zölle von bis zu 20 % gegen China, die EU und weitere Partner zusätzlich zu bestehenden Sätzen; in Kraft treten könnten sie nach Anhörungen frühestens im Januar.",
+        "quelle": "AP",
+        "url": "https://www.ksat.com/news/politics/2026/11/25/us-ready-to-slap-tariffs-on-china-eu-and-others-over-subsidized-production-ap-sources-say/"
       }
     ],
     "details": [
@@ -6065,38 +6083,38 @@
       },
       {
         "tag": "Daten",
-        "titel": "14:30 Uhr: PCE, BIP und Arbeitsmarkt im Paket vor Thanksgiving",
-        "text": "Wegen des Feiertags am Donnerstag kommen die wichtigsten US-Daten gebündelt: Der Konsens erwartet bei der PCE-Kerninflation 3,2 % zum Vorjahr (Vormonat 3,1 %) und 0,3 % zum Vormonat, beim BIP für das dritte Quartal 3,5 % annualisiert und 201.000 Erstanträge auf Arbeitslosenhilfe.\n\nPCE ist das Inflationsmaß, auf das die Fed schaut. Es ist der letzte große Preisdatenpunkt vor der Sitzung am 9. Dezember.",
+        "titel": "Heiße US-Daten: Kern-PCE 3,3 %, BIP 4,3 %, Erstanträge 189.000",
+        "text": "Die PCE-Kerninflation stieg im Oktober um 0,3 % zum Vormonat (wie erwartet), zum Vorjahr aber auf 3,3 % (Konsens 3,2 %, Vormonat 3,1 %). Die Gesamtrate liegt bei 3,8 %, dem höchsten Stand seit 2023. Die Einkommen legten um 0,7 % zu, die Ausgaben um 0,3 %, real stagnierte der Konsum.\n\nDas BIP für das dritte Quartal wurde in der zweiten Schätzung von 3,4 % auf 4,3 % annualisiert angehoben (Konsens 3,5 %). Die Erstanträge auf Arbeitslosenhilfe fielen auf 189.000 (erwartet rund 200.000) und damit auf das Jahrestief. Starkes Wachstum, fester Arbeitsmarkt und steigende Kerninflation sprechen für weitere Erhöhungen auch 2027.",
         "wirkung": [
           {
             "markt": "US-Renditen 10 J.",
             "richtung": "unsicher",
-            "warum": "Kernrate über 3,2 %: Renditen steigen, weil weitere Erhöhungen 2027 wahrscheinlicher werden. Darunter: Renditen fallen."
+            "warum": "Die heißen Daten sprechen für steigende Renditen, die Flucht aus Tech-Aktien in sichere Anleihen drückt sie dagegen (vor den Daten rund 4,84 %)."
           },
           {
             "markt": "US-Dollar (EUR/USD)",
-            "richtung": "unsicher",
-            "warum": "Heißere Inflation stützt den Dollar, schwächere Daten drücken ihn."
-          },
-          {
-            "markt": "Gold",
-            "richtung": "unsicher",
-            "warum": "Gold reagiert gegenläufig zu Realzinsen: steigende Renditen belasten, fallende stützen."
+            "richtung": "steigt",
+            "warum": "Robustes Wachstum und höhere Kerninflation stützen den Dollar gegenüber dem Euro."
           },
           {
             "markt": "Fed-Erhöhung 9.12.",
-            "richtung": "seitwaerts",
-            "warum": "Mit rund 95 % schon fast voll eingepreist; die Daten bewegen eher die Erwartung für 2027."
+            "richtung": "steigt",
+            "warum": "Die Wahrscheinlichkeit kletterte auf rund 98 %; die Daten liefern keinen Grund zum Abwarten."
+          },
+          {
+            "markt": "Nasdaq / Wachstumswerte",
+            "richtung": "faellt",
+            "warum": "Höhere Zinsaussichten belasten hoch bewertete Tech-Aktien zusätzlich zum KI-Ausverkauf."
           }
         ],
-        "quelle": "Investing.com",
-        "url": "https://www.investing.com/news/stock-market-news/gdp-jobless-claims-and-pce-among-key-data-due-wednesday-93CH-5048884",
-        "zeit": "24.11."
+        "quelle": "Benzinga",
+        "url": "https://www.benzinga.com/markets/economic-data/26/11/63619838/pce-inflation-october-gdp-second-estimate",
+        "zeit": "25.11., 14:30"
       },
       {
         "tag": "Zinsen",
         "titel": "Notenbanken auf Erhöhungskurs",
-        "text": "Die Märkte rechnen im Dezember mit Zinserhöhungen bei Fed (rund 95 %), EZB (82 %) und Bank of England (80 %); bei der Bank of Japan sind die Signale gemischt. Hintergrund ist eine hartnäckige Inflation: Die PCE-Rate liegt nahe 3,6 %, die Fed hatte im September bereits auf 3,75–4,00 % erhöht.",
+        "text": "Die Märkte rechnen im Dezember mit Zinserhöhungen bei Fed (nach den PCE-Daten rund 98 %), EZB (82 %) und Bank of England (80 %); bei der Bank of Japan sind die Signale gemischt. Hintergrund ist eine hartnäckige Inflation: Die PCE-Rate liegt bei 3,8 %, die Kernrate bei 3,3 %, die Fed hatte im September bereits auf 3,75–4,00 % erhöht.",
         "wirkung": [
           {
             "markt": "Bund-Rendite 10 J.",
@@ -6126,7 +6144,7 @@
       {
         "tag": "Handel",
         "titel": "Neue US-Zölle gegen China, EU und 14 weitere Länder in Vorbereitung",
-        "text": "Über Section-301-Verfahren zu Industriesubventionen will Washington die vom Supreme Court gekippten Zölle ersetzen, zusätzlich zu den bestehenden 10 bis 12,5 %. Höhe und Termin sind offen.",
+        "text": "Über Section-301-Verfahren zu Industriesubventionen will Washington die vom Supreme Court gekippten Zölle ersetzen: geplant sind Sätze von bis zu 20 % gegen China, die EU und weitere Partner, zusätzlich zu den bestehenden 10 bis 12,5 %.\n\nVorher sind Anhörungen und eine Kommentarfrist vorgesehen, ein Inkrafttreten wäre damit frühestens im Januar möglich; der Handelsfrieden mit China läuft am 10. Januar aus.",
         "wirkung": [
           {
             "markt": "DAX-Exporteure (Autos, Maschinenbau)",
