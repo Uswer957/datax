@@ -1,0 +1,55 @@
+/* Handy-Ansicht: Tab-Leiste unten (wie eine App), kompakte Börsenuhren, größere Touch-Ziele.
+   Desktop bleibt unverändert: alles hier gilt erst unter 721 px Breite. */
+.tabs .ti{display:none}
+.updated-m{display:none}
+
+@media (max-width:720px){
+  body{padding-bottom:calc(66px + env(safe-area-inset-bottom,0px))}
+
+  /* Kopf: Uhren als 3×2-Raster statt sechs großer Kästen */
+  .top{padding:10px 0 8px;gap:8px}
+  .brand{width:100%;justify-content:space-between;gap:8px}
+  h1{font-size:18px}
+  .now{font-size:12px}
+  .clocks{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:4px;width:100%}
+  .clock{min-width:0;padding:3px 6px;gap:0 4px;border-radius:3px}
+  .clock .ex{font-size:10px;letter-spacing:.06em}
+  .clock .t{font-size:12px}
+  .clock .st{font-size:9.5px;letter-spacing:-.04em;gap:4px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:block}
+  .clock .st .dot{display:inline-block;vertical-align:1px;margin-right:4px}
+  .clock.open .dot{box-shadow:none}
+
+  /* Tab-Leiste unten, fest */
+  .tabs{position:fixed;left:0;right:0;bottom:0;z-index:50;margin:0;gap:0;overflow:visible;
+    display:grid;grid-template-columns:repeat(7,minmax(0,1fr));
+    padding:4px max(4px,env(safe-area-inset-right,0px)) calc(4px + env(safe-area-inset-bottom,0px)) max(4px,env(safe-area-inset-left,0px));
+    background:rgba(0,0,0,.88);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);
+    border-top:1px solid var(--line);border-bottom:0}
+  .tabs button{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;
+    min-height:52px;padding:6px 0 4px;border:0;border-radius:8px;
+    font:500 10px/1.1 var(--f-display);letter-spacing:0;text-transform:none;color:var(--muted);
+    -webkit-tap-highlight-color:transparent;touch-action:manipulation}
+  .tabs button .tl{max-width:100%;overflow:hidden;text-overflow:ellipsis}
+  .tabs .ti{display:block;width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+  .tabs button[aria-selected="true"]{color:var(--fg);border:0;background:var(--panel2)}
+  .tabs button[aria-selected="true"] .ti{stroke-width:2}
+  .tabs .updated{display:none}
+  .updated-m{display:block;font:11px var(--f-data);color:var(--muted);margin:8px 0 10px}
+
+  /* Touch-Ziele mindestens ~36 px */
+  .ktabs button{min-height:38px;padding:8px 12px}
+  .ktabs{overflow-x:auto;scrollbar-width:none}
+  .league-nav{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;margin-left:-12px;margin-right:-12px;padding:0 12px 2px}
+  .league-nav button{min-height:36px;padding:8px 12px;white-space:nowrap;flex:none}
+  .m-jump{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;margin-left:-12px;margin-right:-12px;padding:0 12px 2px}
+  .m-jump a{padding:9px 12px;white-space:nowrap;flex:none}
+  .ktabs::-webkit-scrollbar,.league-nav::-webkit-scrollbar,.m-jump::-webkit-scrollbar{display:none}
+  .info{position:relative}
+  .info::after{content:"";position:absolute;inset:-11px}
+}
+
+/* Sehr schmale Geräte (iPhone SE/mini): Uhren-Status kürzen */
+@media (max-width:360px){
+  .tabs button{font-size:9px}
+  .tabs .ti{width:20px;height:20px}
+}
