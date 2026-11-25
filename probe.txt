@@ -1,0 +1,57 @@
+Q .V2TX code=3 name=None last=None chg=None t=None
+Q V2X code=1 name=None last=None chg=None t=None
+Q .VSTOXX code=1 name=None last=None chg=None t=None
+Q .STOXX50E code=0 name=Euro STOXX 50 Index last=6,034.49 chg=+0.51% t=2026-11-25T08:46:00.000+0000
+Q .STOXX code=0 name=STOXX Europe 600 last=637.04 chg=+0.68% t=2026-11-25T08:46:00.000+0000
+Q IHYG-GB code=0 name=iShares   High Yield Corp Bd UCITS ETF EUR Dist last=88.17 chg=+0.01% t=2026-11-25T08:38:51.000+0000
+Q IHYG code=0 name=iShares   High Yield Corp Bd UCITS ETF EUR Dist last=88.17 chg=+0.01% t=2026-11-25T08:38:51.000+0000
+Q IEGA-GB code=1 name=None last=None chg=None t=None
+Q IBGL-GB code=0 name=iShares € Govt Bond 15-30yr UCITS ETF EUR (Dist) last=127.69 chg=+0.37% t=2026-11-25T08:47:56.000+0000
+Q HYLD-GB code=0 name=iShares Global High Yield Corp Bond UCITS ETF USD (Dist) last=84.17 chg=-0.07% t=2026-11-25T08:49:41.000+0000
+Q SHYG-GB code=0 name=iShares   High Yield Corp Bd UCITS ETF EUR Dist last=73.79 chg=UNCH t=2026-11-24
+Q EUNW-DE code=0 name=iShares   High Yield Corp Bd UCITS ETF EUR Dist last=88.24 chg=+0.08% t=2026-11-25T09:23:50.000+0100
+Q IS0R-DE code=0 name=iShares $ High Yield Corp Bond UCITS ETF USD (Dist) last=81.87 chg=+0.22% t=2026-11-25T09:45:12.000+0100
+Q .JNIV code=3 name=None last=None chg=None t=None
+Q .VHSI code=0 name=HSI VOLATILITY last=24.13 chg=+2.59% t=2026-11-25T16:00:00.000+0800
+Q .VXFXI code=0 name=Cboe China Large-Cap ETF Volatility Index last=27.31 chg=-14.60% t=2026-11-24
+Q VXFXI code=1 name=None last=None chg=None t=None
+Q .HSI code=0 name=Hang Seng Index last=21,966.01 chg=-1.14% t=2026-11-25T16:08:28.000+0800
+Q .N225 code=0 name=Nikkei 225 Index last=57,011.62 chg=-2.78% t=2026-11-25T15:45:03.000+0900
+Q EWJ code=0 name=iShares MSCI Japan ETF last=86.64 chg=-0.30% t=2026-11-24
+Q AAXJ code=0 name=iShares MSCI All Country Asia ex Japan ETF last=98.10 chg=-1.75% t=2026-11-24
+Q EMB code=0 name=iShares J.P. Morgan USD Emerging Markets Bond ETF last=90.39 chg=-0.34% t=2026-11-24
+Q HYEM code=0 name=VanEck Emerging Markets High Yield Bond ETF last=18.87 chg=-0.21% t=2026-11-24
+Q EMHY code=0 name=iShares J.P. Morgan EM High Yield Bond ETF last=37.86 chg=-0.47% t=2026-11-24
+Q BNDX code=0 name=Vanguard Total International Bond Index Fund ETF Shares last=47.52 chg=+0.02% t=2026-11-24
+Q IGOV code=0 name=iShares International Treasury Bond ETF last=39.65 chg=+0.56% t=2026-11-24
+Q FXI code=0 name=iShares China Large-Cap ETF last=31.43 chg=-0.63% t=2026-11-24
+Q JNK code=0 name=State Street SPDR Bloomberg High Yield Bond ETF last=91.69 chg=-0.12% t=2026-11-24
+Q IHY code=0 name=VanEck International High Yield Bond ETF last=20.35 chg=+0.27% t=2026-11-24
+Q BWX code=0 name=State Street SPDR Bloomberg Intl TB ETF last=21.13 chg=+0.33% t=2026-11-24
+Q EMLC code=0 name=VanEck J.P. Morgan EM Local Currency Bond ETF last=24.02 chg=-0.12% t=2026-11-24
+Q VWOB code=0 name=Vanguard Emerging Markets Government Bond Index Fund ETF Shares last=62.83 chg=-0.25% t=2026-11-24
+Q DE10Y-DE code=0 name=German 10 Year Bond last=3.2308% chg=+0.2894% t=2026-11-25T10:01:59.000+0100
+Q DE30Y-DE code=0 name=Germany 30 Year Bond last=3.6221% chg=+0.4342% t=2026-11-25T10:01:59.000+0100
+Q JP10Y-JP code=0 name=Japan 10 Year Bond last=2.626% chg=+0.2039% t=2026-11-25T18:01:33.000+0900
+Q CN10Y-CN code=0 name=China 10 Year Bond last=1.593% chg=-0.0717% t=2026-11-25T04:02:00.000-0500
+Q .VIX code=0 name=CBOE Volatility Index last=28.32 chg=+7.44% t=2026-11-25T04:01:46.000-0500
+Q VSTOXX code=1 name=None last=None chg=None t=None
+B .V2TX n=522 first=20241101000000 last=20261124000000 25.2271
+B .VHSI n=507 first=20241101000000 last=20261124000000 23.5200
+B .JNIV n=500 first=20241101000000 last=20261124000000 31.5100
+B IHYG-GB n=522 first=20241101000000 last=20261124000000 88.1600
+B IEGA-GB n=0 first=None last=None 
+B HYEM n=517 first=20241101000000 last=20261124000000 18.8700
+B EMB n=517 first=20241101000000 last=20261124000000 90.3900
+B AAXJ n=517 first=20241101000000 last=20261124000000 98.1000
+B IHY n=517 first=20241101000000 last=20261124000000 20.3549
+B .VXFXI n=517 first=20241101000000 last=20261124000000 27.3100
+B VXFXI n=0 first=None last=None 
+F BAMLHE00EHYIOAS rc=0 n=793 head=['observation_date,BAMLHE00EHYIOAS'] last=['2026-11-20,3.54', '2026-11-23,3.52'] err=
+F BAMLEMRACRPIASIAOAS rc=0 n=793 head=['observation_date,BAMLEMRACRPIASIAOAS'] last=['2026-11-20,1.15', '2026-11-23,1.16'] err=
+F BAMLEMHBHYCRPIOAS rc=0 n=793 head=['observation_date,BAMLEMHBHYCRPIOAS'] last=['2026-11-20,4.35', '2026-11-23,4.32'] err=
+F BAMLEMHYAOAS rc=0 n=552 head=['<!DOCTYPE html>'] last=['<script type="text/javascript"  src="/WEM7Nb/juO/yx0/kCWjcbxi/7w9YtfQbtmNLwr/PQ5m/DR0TJ3hG/Zhk"></script></body>', '</html>'] err=
+F BAMLEMRAHYCRPIASIAOAS rc=0 n=552 head=['<!DOCTYPE html>'] last=['<script type="text/javascript"  src="/WEM7Nb/juO/yx0/kCWjcbxi/7w9YtfQbtmNLwr/PQ5m/DR0TJ3hG/Zhk"></script></body>', '</html>'] err=
+F BAMLEMCBPIOAS rc=0 n=793 head=['observation_date,BAMLEMCBPIOAS'] last=['2026-11-20,1.98', '2026-11-23,1.96'] err=
+F BAMLEMHBHYCRPIASIAOAS rc=0 n=552 head=['<!DOCTYPE html>'] last=['<script type="text/javascript"  src="/WEM7Nb/juO/yx0/kCWjcbxi/7w9YtfQbtmNLwr/PQ5m/DR0TJ3hG/Zhk"></script></body>', '</html>'] err=
+F BAMLEMNSNFCRPIOAS rc=0 n=793 head=['observation_date,BAMLEMNSNFCRPIOAS'] last=['2026-11-20,2.57', '2026-11-23,2.56'] err=
