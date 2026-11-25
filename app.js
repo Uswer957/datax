@@ -67,16 +67,20 @@
   show(location.hash.slice(1));
 
   /* ---------- TradingView-Widgets (live) ---------- */
-  function widget(id, kind, config) {
+  const TVW = [];
+  document.addEventListener("datax:theme", () => TVW.forEach((w) => { const b = document.getElementById(w[0]); if (b) { b.innerHTML = ""; widget(w[0], w[1], w[2], true); } }));
+  function widget(id, kind, config, again) {
     const box = document.getElementById(id);
     if (!box) return;
+    if (!again) TVW.push([id, kind, config]);
+    const light = document.documentElement.dataset.theme === "light";
     const inner = document.createElement("div");
     inner.className = "tradingview-widget-container__widget";
     box.appendChild(inner);
     const s = document.createElement("script");
     s.src = "https://s3.tradingview.com/external-embedding/embed-widget-" + kind + ".js";
     s.async = true;
-    s.textContent = JSON.stringify(Object.assign({ colorTheme: "dark", isTransparent: false, backgroundColor: "#0c0c0c", locale: "de_DE" }, config));
+    s.textContent = JSON.stringify(Object.assign({ colorTheme: light ? "light" : "dark", isTransparent: false, backgroundColor: light ? "#fbf8f2" : "#0c0c0c", locale: "de_DE" }, config));
     s.onerror = () => { box.innerHTML = '<p class="fallback">Live-Kurse konnten nicht geladen werden.</p>'; };
     box.appendChild(s);
   }
