@@ -455,6 +455,216 @@
     $("t-q").textContent = t.frage || ""; $("t-a").textContent = t.antwort || ""; $("t-norm").textContent = t.norm || "";
   }
 
+  /* ---------- Markt-Kacheln (kacheln.json, von GitHub Action) ---------- */
+  // ?-Tooltips
+  let openTip = null;
+  function closeTip() { if (openTip) { openTip.tip.remove(); openTip.btn.setAttribute("aria-expanded", "false"); openTip = null; } }
+  document.querySelectorAll(".info[data-tip]").forEach((btn) => {
+    btn.setAttribute("aria-expanded", "false");
+    const show = () => {
+      if (openTip && openTip.btn === btn) return;
+      closeTip();
+      const tip = txt("div", "tip", ""); tip.setAttribute("role", "tooltip");
+      tip.appendChild(txt("b", "", btn.parentNode.firstChild.textContent));
+      tip.appendChild(document.createTextNode(btn.dataset.tip));
+      tip.addEventListener("click", (e) => e.stopPropagation());
+      btn.parentNode.appendChild(tip); btn.setAttribute("aria-expanded", "true");
+      openTip = { btn, tip };
+    };
+    btn.addEventListener("click", (e) => { e.stopPropagation(); if (openTip && openTip.btn === btn) closeTip(); else show(); });
+    btn.addEventListener("mouseenter", show);
+    btn.parentNode.addEventListener("mouseleave", () => { if (openTip && openTip.btn === btn) closeTip(); });
+  });
+  document.addEventListener("click", closeTip);
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeTip(); });
+  document.querySelectorAll("#k-zins .ktabs button").forEach((b) => b.addEventListener("click", () => {
+    document.querySelectorAll("#k-zins .ktabs button").forEach((x) => x.setAttribute("aria-selected", String(x === b)));
+    $("k-zins-us").hidden = b.dataset.k !== "us"; $("k-zins-ezb").hidden = b.dataset.k !== "ezb";
+  }));
+
+  const nf = (v, d) => (v == null || isNaN(v) ? "–" : Number(v).toLocaleString("de-DE", { minimumFractionDigits: d, maximumFractionDigits: d }));
+  const sg = (v, d) => (v == null ? "–" : (v > 0 ? "+" : v < 0 ? "−" : "±") + nf(Math.abs(v), d));
+  const dDE = (iso) => (iso ? iso.slice(8, 10) + "." + iso.slice(5, 7) + "." + iso.slice(2, 4) : "");
+  const GAIN = [63, 185, 80], LOSS = [248, 81, 73];
+  const empty = (id) => { const b = $(id); b.textContent = ""; b.appendChild(txt("p", "empty", "Wird beim nächsten Lauf gefüllt.")); };
+
+  // Linienchart: series [{pts:[[x,y]], color, dash, w}], x numerisch 0..n
+  function lineChart(series, o) {
+    const W = Math.max(280, Math.min(900, o.w || 560)), H = o.h || 200, L = 40, R = 10, T = 10, B = 22;
+    const xs = series.flatMap((s) => s.pts.map((p) => p[0])), ys = series.flatMap((s) => s.pts.map((p) => p[1])).filter((v) => v != null);
+    const x0 = o.xmin != null ? o.xmin : Math.min(...xs), x1 = o.xmax != null ? o.xmax : Math.max(...xs);
+    let y0 = o.ymin != null ? o.ymin : Math.min(...ys), y1 = o.ymax != null ? o.ymax : Math.max(...ys);
+    if (o.ymin == null) { const pad = (y1 - y0) * 0.12 || 0.5; y0 -= pad; y1 += pad; }
+    const X = (v) => L + ((v - x0) / (x1 - x0 || 1)) * (W - L - R), Y = (v) => T + (1 - (v - y0) / (y1 - y0 || 1)) * (H - T - B);
+    const svg = svgEl("svg", { viewBox: `0 0 ${W} ${H}`, role: "img" });
+    const ticks = o.yticks || niceTicks(y0, y1);
+    ticks.forEach((v) => {
+      svg.appendChild(svgEl("line", { x1: L, x2: W - R, y1: Y(v), y2: Y(v), stroke: "#222", "stroke-width": 1 }));
+      const t = svgEl("text", { x: L - 6, y: Y(v) + 3, "text-anchor": "end" }); t.textContent = (o.yfmt || ((x) => nf(x, 1)))(v); svg.appendChild(t);
+    });
+    if (o.zero && y0 < 0 && y1 > 0) svg.appendChild(svgEl("line", { x1: L, x2: W - R, y1: Y(0), y2: Y(0), stroke: "#555", "stroke-width": 1 }));
+    (o.xlabels || []).forEach(([x, lab]) => { const t = svgEl("text", { x: X(x), y: H - 6, "text-anchor": "middle" }); t.textContent = lab; svg.appendChild(t); });
+    series.forEach((s) => {
+      let d = "", pen = false;
+      s.pts.forEach(([x, y]) => { if (y == null) { pen = false; return; } d += (pen ? "L" : "M") + X(x).toFixed(1) + "," + Y(y).toFixed(1); pen = true; });
+      svg.appendChild(svgEl("path", { d, fill: "none", stroke: s.color, "stroke-width": s.w || 1.6, "stroke-dasharray": s.dash ? "4 3" : "none", "stroke-linejoin": "round" }));
+      if (s.dots) s.pts.forEach(([x, y]) => { if (y != null) svg.appendChild(svgEl("circle", { cx: X(x), cy: Y(y), r: 2.6, fill: s.color })); });
+    });
+    const box = txt("div", "chart", ""); box.appendChild(svg);
+    if (o.label) svg.setAttribute("aria-label", o.label);
+    return box;
+  }
+  function niceTicks(a, b) {
+    const raw = (b - a) / 4, mag = Math.pow(10, Math.floor(Math.log10(raw || 1))), st = [1, 2, 2.5, 5, 10].map((m) => m * mag).find((m) => m >= raw) || raw;
+    const out = []; for (let v = Math.ceil(a / st) * st; v <= b + 1e-9; v += st) out.push(+v.toFixed(6)); return out;
+  }
+  const CW = () => Math.max(280, ($("k-zins-us").clientWidth || $("k-breadth-body").clientWidth || 560));
+  const CWh = () => { const w = $("k-stress-body").clientWidth || 560; return w > 620 ? (w - 16) * 0.545 : w; };
+  function legend(items) {
+    const l = txt("div", "kleg", "");
+    items.forEach(([lab, c, dash]) => { const e = txt("span", "", ""); const i = document.createElement("i"); i.style.borderTopColor = c; if (dash) i.className = "d"; e.appendChild(i); e.appendChild(document.createTextNode(lab)); l.appendChild(e); });
+    return l;
+  }
+  function monthLabels(dates) {
+    const out = []; let last = "";
+    dates.forEach((d, i) => { const m = d.slice(0, 7); if (m !== last && i > 5) { if (Number(d.slice(5, 7)) % 2 === 1) out.push([i, ["Jan", "Feb", "Mär", "Apr", "Mai", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dez"][Number(d.slice(5, 7)) - 1]]); } last = m; });
+    return out;
+  }
+
+  function renderSek(s) {
+    const g = $("k-sek-grid"); g.textContent = "";
+    if (!s || !s.liste) { empty("k-sek-grid"); return; }
+    $("k-sek-stand").textContent = s.stand || "";
+    s.liste.forEach((x) => {
+      const t = txt("div", "t", ""), c = x.chg || 0, a = Math.min(1, Math.abs(c) / 2.5) * 0.55 + 0.06, rgb = c >= 0 ? GAIN : LOSS;
+      t.style.background = `rgba(${rgb.join(",")},${a.toFixed(2)})`;
+      t.title = `${x.name} (${x.sym}): ${nf(x.kurs, 2)} $, ${sg(x.chg, 2)} %`;
+      t.appendChild(txt("div", "s", x.sym));
+      t.appendChild(txt("div", "c " + (c >= 0 ? "up" : "dn"), sg(x.chg, 2) + "%"));
+      t.appendChild(txt("div", "n", x.name));
+      g.appendChild(t);
+    });
+    const p = s.spx || {};
+    if (p.chg != null) {
+      const t = txt("div", "t spx", ""); t.appendChild(txt("div", "s", "SPY")); t.appendChild(txt("div", "c " + (p.chg >= 0 ? "up" : "dn"), sg(p.chg, 2) + "%")); t.appendChild(txt("div", "n", "S&P 500 gesamt")); g.appendChild(t);
+    }
+    $("k-sek-src").textContent = `Handelstag ${dDE(p.datum)} · ${s.quelle === "Yahoo" ? "Yahoo Finance" : "Cboe"}, ca. 15 Min. verzögert`;
+  }
+
+  const LZX = { "1M": 1 / 12, "3M": 0.25, "6M": 0.5, "1J": 1, "2J": 2, "5J": 5, "10J": 10, "30J": 30 };
+  const lzPos = (lz) => Math.log2(LZX[lz] * 12); // logarithmische Laufzeitachse
+  const curvePts = (pts) => (pts || []).filter((p) => LZX[p.lz] != null).map((p) => [lzPos(p.lz), p.r]);
+  function renderZins(u, e) {
+    const us = $("k-zins-us"); us.textContent = "";
+    if (!u || !u.punkte) empty("k-zins-us");
+    else {
+      $("k-zins-stand").textContent = u.stand || "";
+      const st = txt("div", "kstat", "");
+      const col = u.status === "invers" ? "var(--loss)" : u.status === "flach" ? "var(--warn)" : "var(--gain)";
+      const b = txt("span", "badge", u.status || "–"); b.style.background = col; st.appendChild(b);
+      const sp = txt("span", "", "2J-10J-Spread: "); sp.appendChild(txt("b", u.spread_2_10 >= 0 ? "up" : "dn", sg(u.spread_2_10, 0) + " bp")); st.appendChild(sp);
+      st.appendChild(txt("span", "", "3M-10J: " + sg(u.spread_3m_10, 0) + " bp"));
+      us.appendChild(st);
+      const ser = [];
+      if (u.vorjahr && u.vorjahr.punkte) ser.push({ pts: curvePts(u.vorjahr.punkte), color: "#555", dash: true, w: 1.2 });
+      if (u.vormonat && u.vormonat.punkte) ser.push({ pts: curvePts(u.vormonat.punkte), color: "#9a9a9a", dash: true, w: 1.2 });
+      ser.push({ pts: curvePts(u.punkte), color: "#5b9cf5", dots: true, w: 2 });
+      us.appendChild(lineChart(ser, { w: CW(), h: 190, xlabels: Object.keys(LZX).map((k) => [lzPos(k), k]), yfmt: (v) => nf(v, 1) + "%", label: "US-Zinskurve" }));
+      us.appendChild(legend([["Heute " + dDE(u.datum), "#5b9cf5"], ["Vor 1 Monat", "#9a9a9a", 1], ["Vor 1 Jahr", "#555", 1]]));
+      const tb = document.createElement("table"); tb.className = "tbl compact";
+      const hr = document.createElement("tr"); const br = document.createElement("tr");
+      u.punkte.forEach((p) => { hr.appendChild(txt("th", "r", p.lz)); br.appendChild(txt("td", "r", nf(p.r, 2))); });
+      const th = document.createElement("thead"); th.appendChild(hr); tb.appendChild(th); const tbd = document.createElement("tbody"); tbd.appendChild(br); tb.appendChild(tbd);
+      const sc = txt("div", "scroll", ""); sc.appendChild(tb); us.appendChild(sc);
+      if (u.spread_verlauf && u.spread_verlauf.length > 20) {
+        us.appendChild(txt("h3", "sub", "2J-10J-Spread, 1 Jahr (bp)")).style.marginTop = "12px";
+        const sv = u.spread_verlauf;
+        us.appendChild(lineChart([{ pts: sv.map((x, i) => [i, x[1]]), color: "#d0d0d0", w: 1.4 }], { w: CW(), h: 120, zero: true, xlabels: monthLabels(sv.map((x) => x[0])), yfmt: (v) => nf(v, 0), label: "Spread-Verlauf" }));
+      }
+      us.appendChild(txt("p", "src", "Quelle: " + (u.quelle || "") + ", Stand " + dDE(u.datum)));
+    }
+    const ez = $("k-zins-ezb"); ez.textContent = "";
+    if (!e || !e.zinsen) { empty("k-zins-ezb"); return; }
+    const tb = document.createElement("table"); tb.className = "tbl";
+    const th = document.createElement("thead"); const hr = document.createElement("tr");
+    [["Satz"], ["Aktuell", "r"], ["Seit", "r"], ["Zuvor", "r"]].forEach(([t, c]) => hr.appendChild(txt("th", c || "", t))); th.appendChild(hr); tb.appendChild(th);
+    const body = document.createElement("tbody");
+    e.zinsen.forEach((z) => { const tr = document.createElement("tr"); tr.appendChild(txt("td", "", z.name)); tr.appendChild(txt("td", "r", nf(z.wert, 2) + " %")); tr.appendChild(txt("td", "r", z.vorher != null ? dDE(z.seit) : "–")); tr.appendChild(txt("td", "r", z.vorher != null ? nf(z.vorher, 2) + " %" : "–")); body.appendChild(tr); });
+    if (e.estr) { const tr = document.createElement("tr"); tr.appendChild(txt("td", "", "€STR (Tagesgeld)")); tr.appendChild(txt("td", "r", nf(e.estr.wert, 3) + " %")); tr.appendChild(txt("td", "r", dDE(e.estr.datum))); tr.appendChild(txt("td", "r", "")); body.appendChild(tr); }
+    tb.appendChild(body); ez.appendChild(tb);
+    if (e.kurve && e.kurve.punkte) {
+      ez.appendChild(txt("h3", "sub", "Zinskurve Euro-Staatsanleihen (AAA)")).style.marginTop = "14px";
+      const ser = [{ pts: curvePts(e.kurve.punkte), color: "#5fd08a", dots: true, w: 2 }];
+      if (u && u.punkte) ser.unshift({ pts: curvePts(u.punkte), color: "#5b9cf5", dash: true, w: 1.2 });
+      ez.appendChild(lineChart(ser, { w: CW(), h: 170, xlabels: Object.keys(LZX).map((k) => [lzPos(k), k]), yfmt: (v) => nf(v, 1) + "%", label: "Euro-Zinskurve" }));
+      ez.appendChild(legend([["Euro AAA " + dDE(e.kurve.datum), "#5fd08a"], ["USA zum Vergleich", "#5b9cf5", 1]]));
+    }
+    ez.appendChild(txt("p", "src", "Quelle: EZB Data Portal"));
+  }
+
+  function renderStress(s) {
+    const b = $("k-stress-body"); b.textContent = "";
+    if (!s || s.wert == null) { empty("k-stress-body"); return; }
+    $("k-stress-stand").textContent = s.stand || "";
+    const col = s.perzentil < 10 ? "var(--loss)" : s.perzentil < 30 ? "#f0883e" : s.perzentil < 70 ? "var(--warn)" : "var(--gain)";
+    const w = txt("div", "stress", ""), a = txt("div", "", "");
+    a.appendChild(txt("div", "note", "US Financial Stress"));
+    const big = txt("div", "big", nf(s.wert, 2)); big.style.color = col; a.appendChild(big);
+    const lv = txt("div", "lvl", s.stufe); lv.style.color = col; a.appendChild(lv);
+    const g = txt("div", "gauge", ""); const mk = txt("span", "mk", ""); mk.style.left = Math.max(0, Math.min(100, s.perzentil)) + "%"; g.appendChild(mk); a.appendChild(g);
+    const gl = txt("div", "gauge-l", ""); gl.appendChild(txt("span", "", "Hoher Stress")); gl.appendChild(txt("span", "", "Entspannt")); a.appendChild(gl);
+    a.appendChild(txt("p", "note", `Perzentil ${s.perzentil} der letzten 2 Jahre (Spanne ${nf(s.min, 2)} – ${nf(s.max, 2)}, Median ${nf(s.median, 2)})`));
+    w.appendChild(a);
+    const r = txt("div", "", ""), k = s.komponenten || {};
+    const tb = document.createElement("table"); tb.className = "tbl compact"; const body = document.createElement("tbody");
+    [["HYG (Hochzins-ETF)", nf(k.HYG, 2) + " $"], ["TLT (US-Anleihen 20J+)", nf(k.TLT, 2) + " $"], ["VIX", nf(k.VIX, 2)], ["HY-Spread (" + dDE(k.HY_datum) + ")", nf(k.HY, 2) + " %"]]
+      .forEach(([n, v]) => { const tr = document.createElement("tr"); tr.appendChild(txt("td", "", n)); tr.appendChild(txt("td", "r", v)); body.appendChild(tr); });
+    tb.appendChild(body); r.appendChild(tb);
+    if (s.verlauf && s.verlauf.length > 20) {
+      const v = s.verlauf;
+      r.appendChild(lineChart([{ pts: v.map((x, i) => [i, x[1]]), color: "#d0d0d0", w: 1.4 }], { w: CWh(), h: 130, xlabels: monthLabels(v.map((x) => x[0])), yfmt: (x) => nf(x, 1), label: "Verlauf 1 Jahr" }));
+      r.appendChild(txt("p", "src", "Verlauf 1 Jahr · Kurse Cboe/Yahoo, HY-Spread FRED (ICE BofA)"));
+    }
+    w.appendChild(r); b.appendChild(w);
+  }
+
+  const BCOL = { 20: "#5b9cf5", 50: "#f0a73a", 200: "#5fd08a" };
+  function renderBreadth(s) {
+    const b = $("k-breadth-body"); b.textContent = "";
+    if (!s || !s.aktuell) { empty("k-breadth-body"); return; }
+    $("k-breadth-stand").textContent = s.stand || "";
+    [20, 50, 200].forEach((w) => {
+      const v = s.aktuell[w], row = txt("div", "brow", "");
+      const d = txt("span", "ldot", ""); d.style.background = BCOL[w]; row.appendChild(d);
+      row.appendChild(txt("span", "", `Über ${w}-Tage-Linie`));
+      const c = v >= 70 ? GAIN : v <= 30 ? LOSS : [227, 163, 58];
+      const val = txt("span", "v", nf(v, 1) + " %"); val.style.color = `rgb(${c.join(",")})`; val.style.background = `rgba(${c.join(",")},.14)`; row.appendChild(val);
+      b.appendChild(row);
+    });
+    const V = s.verlauf || {};
+    if (V.d && V.d.length > 20) {
+      const ser = [200, 50, 20].map((w) => ({ pts: (V[w] || []).map((y, i) => [i, y]), color: BCOL[w], w: 1.3 }));
+      b.appendChild(lineChart(ser, { w: $("k-breadth-body").clientWidth || CW(), h: 180, ymin: 0, ymax: 100, yticks: [25, 50, 75, 100], yfmt: (x) => x + "%", xlabels: monthLabels(V.d), label: "Market-Breadth-Verlauf" }));
+      b.appendChild(legend([["20 Tage", BCOL[20]], ["50 Tage", BCOL[50]], ["200 Tage", BCOL[200]]]));
+    }
+    b.appendChild(txt("p", "src", `${s.titel} S&P-500-Werte · Schlusskurse bis ${dDE(s.datum)} · Cboe/Yahoo`));
+  }
+
+  let lastK = null, rz = 0;
+  window.addEventListener("resize", () => { clearTimeout(rz); rz = setTimeout(() => { if (lastK) renderKacheln(lastK); }, 200); });
+  function renderKacheln(k) {
+    lastK = k;
+    renderSek(k.sektoren); renderZins(k.us_kurve, k.ezb); renderStress(k.stress); renderBreadth(k.breadth);
+  }
+  function loadK() {
+    fetch("kacheln.json?ts=" + Date.now(), { cache: "no-store" })
+      .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(renderKacheln)
+      .catch(() => renderKacheln({}));
+  }
+  loadK();
+  setInterval(loadK, 5 * 60 * 1000);
+
   function load() {
     fetch("data.json?ts=" + Date.now(), { cache: "no-store" })
       .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })

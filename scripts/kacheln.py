@@ -33,7 +33,7 @@ def log(*a):
     print(*a, file=sys.stderr, flush=True)
 
 
-def get(url, tries=3, timeout=25):
+def get(url, tries=3, timeout=40):
     last = None
     for i in range(tries):
         try:
@@ -47,35 +47,80 @@ def get(url, tries=3, timeout=25):
 
 
 def yahoo(sym, rng="1y"):
-    """Tagesschlusskurse + aktueller Kurs/Vortagesschluss."""
-    hosts = ["query1", "query2"]
+    """Tagesschlusskurse + aktueller Kurs (Yahoo; von GitHub-Runnern oft 429)."""
     last = None
-    for h in hosts:
+    for h in ("query1", "query2"):
         try:
-            j = json.loads(get(f"https://{h}.finance.yahoo.com/v8/finance/chart/{sym}?range={rng}&interval=1d&includePrePost=false", tries=2))
+            j = json.loads(get(f"https://{h}.finance.yahoo.com/v8/finance/chart/{sym}?range={rng}&interval=1d&includePrePost=false", tries=1))
             res = j["chart"]["result"][0]
             meta = res["meta"]
             ts = res.get("timestamp") or []
             cl = res["indicators"]["quote"][0].get("close") or []
             tz = ZoneInfo(meta.get("exchangeTimezoneName") or "America/New_York")
             rows = [(dt.datetime.fromtimestamp(t, tz).date().isoformat(), c) for t, c in zip(ts, cl) if c is not None]
-            return {"meta": meta, "rows": rows}
+            px = meta.get("regularMarketPrice")
+            mdate = dt.datetime.fromtimestamp(meta["regularMarketTime"], tz).date().isoformat() if meta.get("regularMarketTime") else None
+            return {"rows": rows, "px": px, "pxdate": mdate}
         except Exception as e:  # noqa: BLE001
             last = e
     raise RuntimeError(f"Yahoo {sym}: {last}")
 
 
+CBOE_IDX = {"^VIX": "_VIX"}
+
+
+def cboe(sym, rng="1y", quote=True):
+    """Cboe-Delayed-Quotes (CDN, ca. 15 Min. verzögert)."""
+    cs = CBOE_IDX.get(sym, sym.replace("-", "."))
+    j = json.loads(get(f"https://cdn.cboe.com/api/global/delayed_quotes/charts/historical/{cs}.json", tries=2))
+    data = j.get("data") or []
+    rows = []
+    for r in data:
+        d, c = r.get("date"), r.get("close")
+        if d and c not in (None, ""):
+            rows.append((str(d)[:10], float(c)))
+    if not rows:
+        raise RuntimeError(f"Cboe {cs}: leer {str(j)[:200]}")
+    rows.sort()
+    keep = {"5d": 10, "1y": 260, "2y": 520}.get(rng, 520)
+    rows = rows[-keep:]
+    px, pxdate = None, None
+    if quote:
+        try:
+            q = json.loads(get(f"https://cdn.cboe.com/api/global/delayed_quotes/quotes/{cs}.json", tries=2)).get("data") or {}
+            px = q.get("current_price") or q.get("last_trade_price")
+            px = float(px) if px not in (None, "") else None
+            t = q.get("last_trade_time") or ""
+            pxdate = str(t)[:10] or None
+        except Exception as e:  # noqa: BLE001
+            log("Cboe-Quote", cs, e)
+    return {"rows": rows, "px": px, "pxdate": pxdate}
+
+
+QUELLEN = []
+
+
+def kurse(sym, rng="1y", quote=True):
+    try:
+        r = cboe(sym, rng, quote)
+        QUELLEN.append("Cboe")
+        return r
+    except Exception as e:  # noqa: BLE001
+        log("Cboe", sym, e)
+    r = yahoo(sym, rng)
+    QUELLEN.append("Yahoo")
+    return r
+
+
 def tageswechsel(y):
-    """Änderung ggü. Vortagesschluss in %, aus Kursreihe (robuster als meta.chartPreviousClose)."""
-    meta, rows = y["meta"], y["rows"]
-    px = meta.get("regularMarketPrice")
-    if px is None and rows:
-        px = rows[-1][1]
-    mdate = None
-    if meta.get("regularMarketTime"):
-        tz = ZoneInfo(meta.get("exchangeTimezoneName") or "America/New_York")
-        mdate = dt.datetime.fromtimestamp(meta["regularMarketTime"], tz).date().isoformat()
-    prev = [c for d, c in rows if mdate is None or d < mdate]
+    """Kurs, Änderung ggü. Vortagesschluss in %, Datum."""
+    rows = y["rows"]
+    px, mdate = y.get("px"), y.get("pxdate")
+    if px is None:
+        mdate, px = rows[-1]
+    if mdate is None:
+        mdate = rows[-1][0]
+    prev = [c for d, c in rows if d < mdate]
     if not prev:
         return px, None, mdate
     return px, (px / prev[-1] - 1) * 100, mdate
@@ -89,17 +134,17 @@ def now_str():
 def sektoren():
     out = []
     for sym, name in SEKTOREN + [("SPY", "S&P 500")]:
-        y = yahoo(sym, "5d")
+        y = kurse(sym, "5d")
         px, chg, d = tageswechsel(y)
         out.append({"sym": sym, "name": name, "kurs": round(px, 2), "chg": None if chg is None else round(chg, 2), "datum": d})
     spx = out.pop()
     out.sort(key=lambda x: -(x["chg"] if x["chg"] is not None else -99))
-    return {"stand": now_str(), "liste": out, "spx": spx}
+    return {"stand": now_str(), "liste": out, "spx": spx, "quelle": QUELLEN[-1] if QUELLEN else None}
 
 
 # ---------------- FRED ----------------
 def fred(ids, start):
-    txt = get(f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={','.join(ids)}&cosd={start}")
+    txt = get(f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={','.join(ids)}&cosd={start}", tries=4, timeout=90)
     rd = csv.reader(io.StringIO(txt))
     head = next(rd)
     out = {i: [] for i in ids}
@@ -114,7 +159,7 @@ def fred(ids, start):
 def stress():
     start = (dt.date.today() - dt.timedelta(days=760)).isoformat()
     hy = fred(["BAMLH0A0HYM2"], start)["BAMLH0A0HYM2"]
-    ys = {s: yahoo(s, "2y") for s in ("HYG", "TLT", "^VIX")}
+    ys = {s: kurse(s, "2y") for s in ("HYG", "TLT", "^VIX")}
     ser = {s: dict(y["rows"]) for s, y in ys.items()}
     hyd = dict(hy)
     dates = sorted(set(ser["HYG"]) & set(ser["TLT"]) & set(ser["^VIX"]))
@@ -169,10 +214,11 @@ def sp500():
 def breadth():
     syms = sp500()
     log("Breadth über", len(syms), "Titel")
+    kurse("AAPL", "5d", quote=False)  # schneller Abbruch, wenn keine Kursquelle erreichbar
 
     def one(s):
         try:
-            return yahoo(s, "2y")["rows"]
+            return kurse(s, "2y", quote=False)["rows"]
         except Exception as e:  # noqa: BLE001
             log("  fehlt", s, e)
             return None

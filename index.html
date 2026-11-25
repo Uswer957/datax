@@ -7,7 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preload" href="fonts/GeneralSans-Variable.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap">
-<link rel="stylesheet" href="style.css?v=11">
+<link rel="stylesheet" href="style.css?v=12">
 </head>
 <body>
 <header class="top">
@@ -38,6 +38,25 @@
           <div class="watch-list" id="m-watch"></div>
           <div class="tv tv-watch"><div class="tradingview-widget-container" id="w-watch"></div></div>
         </div>
+      </article>
+      <article class="card span2 kx" id="k-sek">
+        <h2><span class="kt">Sector Heatmap<button type="button" class="info" aria-label="Erklärung" data-tip="S&amp;P-500-Sektoren auf einen Blick, gemessen an den SPDR-Sektor-ETFs (XLK, XLF …). Angezeigt ist die Kursänderung seit dem letzten Schlusskurs. Je kräftiger die Farbe, desto größer die Bewegung: grün = Gewinn, rot = Verlust. Sortiert vom stärksten zum schwächsten Sektor.">?</button></span><span class="h2-note" id="k-sek-stand"></span></h2>
+        <div class="heat" id="k-sek-grid"></div>
+        <p class="src" id="k-sek-src"></p>
+      </article>
+      <article class="card span2 kx" id="k-stress">
+        <h2><span class="kt">Financial Stress Indicator<button type="button" class="info" aria-label="Erklärung" data-tip="Verhältnis von Hochzinsanleihen (HYG) zu langen US-Staatsanleihen (TLT), bereinigt um Aktienvolatilität (VIX) und den Hochzins-Risikoaufschlag (ICE BofA HY-Spread): (HYG / TLT) / (VIX × HY-Spread / 100). Niedriger Wert = mehr Stress: Anleger flüchten in sichere Anleihen, Volatilität und Spreads steigen. Die Skala ordnet den heutigen Wert in die letzten zwei Jahre ein (Perzentil). Eigener Indikator, nicht der offizielle Kansas City Fed Financial Stress Index.">?</button></span><span class="h2-note" id="k-stress-stand"></span></h2>
+        <div id="k-stress-body"></div>
+      </article>
+      <article class="card span2 kx" id="k-zins">
+        <h2><span class="kt">Zinskurve &amp; Leitzinsen<button type="button" class="info" aria-label="Erklärung" data-tip="US-Kurve: Renditen von US-Staatsanleihen nach Laufzeit (1 Monat bis 30 Jahre), dazu gestrichelt die Kurve von vor einem Monat und vor einem Jahr. Der 2J-10J-Spread ist die Differenz zwischen 10- und 2-jähriger Rendite in Basispunkten. Normal = lange Laufzeiten rentieren höher. Invers (negativer Spread) gilt historisch als Rezessionssignal. EZB: die drei Leitzinsen, der Tagesgeldsatz €STR und die Zinskurve für Euro-Staatsanleihen mit AAA-Rating.">?</button></span><span class="h2-note" id="k-zins-stand"></span></h2>
+        <div class="ktabs" role="tablist"><button type="button" role="tab" aria-selected="true" data-k="us">US-Kurve</button><button type="button" role="tab" aria-selected="false" data-k="ezb">EZB-Zinsen</button></div>
+        <div id="k-zins-us"></div>
+        <div id="k-zins-ezb" hidden></div>
+      </article>
+      <article class="card span2 kx" id="k-breadth">
+        <h2><span class="kt">Market Breadth<button type="button" class="info" aria-label="Erklärung" data-tip="Anteil der S&amp;P-500-Aktien, die über ihrem gleitenden Durchschnitt der letzten 20, 50 bzw. 200 Handelstage schließen. Zeigt, wie breit eine Bewegung getragen wird: Steigt der Index, aber immer weniger Aktien liegen über ihrem Schnitt, wird der Anstieg von wenigen Schwergewichten getragen. Über 70 % gilt als überkauft, unter 30 % als überverkauft. Grafik: letztes Jahr.">?</button></span><span class="h2-note" id="k-breadth-stand"></span></h2>
+        <div id="k-breadth-body"></div>
       </article>
       <article class="card span2">
         <h2 data-mehr="schlagzeilen">Top-Schlagzeilen heute</h2>
@@ -151,7 +170,7 @@
 </main>
 
 <footer class="foot">
-  Kurse: TradingView-Widgets, teils verzögert. Texte: von Claude recherchiert und mehrmals täglich aktualisiert, mit Quellen. Keine Anlageberatung. Börsenzeiten ohne Feiertage.
+  Kurse: TradingView-Widgets, teils verzögert. Sektoren, Stress, Breadth, Zinsen: Cboe, FRED, U.S. Treasury, EZB, automatisch alle 30 Min. zur US-Handelszeit. Texte: von Claude recherchiert und mehrmals täglich aktualisiert, mit Quellen. Keine Anlageberatung. Börsenzeiten ohne Feiertage.
 </footer>
 
 <dialog class="mehr" id="mehr" aria-labelledby="mehr-title">
@@ -161,6 +180,6 @@
   <p class="src" id="mehr-stand"></p>
 </dialog>
 
-<script src="app.js?v=11"></script>
+<script src="app.js?v=12"></script>
 </body>
 </html>
