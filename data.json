@@ -1,7 +1,20 @@
 {
-  "aktualisiert": "25.11.2026, 10:09 Uhr",
+  "aktualisiert": "25.11.2026, 12:15 Uhr",
   "maerkte": {
     "schlagzeilen": [
+      {
+        "tag": "Märkte",
+        "titel": "Nvidia vorbörslich −5 % – Huang-Rally weitgehend verpufft, Dax rutscht kurz unter 25.000",
+        "warum": "Der zweite Verlusttag in Folge zeigt, wie nervös der Markt bei KI-Werten ist; Infineon und ASML stehen in Europa mit unter Druck.",
+        "quelle": "Investing.com",
+        "url": "https://www.investing.com/news/stock-market-news/nvidia-shares-fall-5-premarket-after-huang-return-rally-wanes-5050114",
+        "zeit": "25.11.",
+        "medien": [
+          "Investing.com",
+          "Seeking Alpha",
+          "Handelsblatt"
+        ]
+      },
       {
         "tag": "Märkte",
         "titel": "Asiens Börsen brechen ein: Kospi über −6 %, Taiex zeitweise −7,9 %, Nikkei −3,6 %",
@@ -49,18 +62,6 @@
         "zeit": "24.11.",
         "medien": [
           "Reuters",
-          "CNBC"
-        ]
-      },
-      {
-        "tag": "Unternehmen",
-        "titel": "Dell nachbörslich +4 %, HP +9 % nach starken Zahlen",
-        "warum": "Dell mit 54,9 Mrd. $ Umsatz (erwartet 49,2) und Jahresprognose 202 Mrd. $; Workday und Autodesk trotz Beat rund −4 %.",
-        "quelle": "Investing.com",
-        "url": "https://www.investing.com/news/stock-market-news/afterhours-movers-dell-hpq-adsk-wday-ntnx-urbn-clsk-432SI-5049079",
-        "zeit": "24.11.",
-        "medien": [
-          "Investing.com",
           "CNBC"
         ]
       },
@@ -655,6 +656,18 @@
       }
     ],
     "deutschland": [
+      {
+        "tag": "Bundestag",
+        "titel": "Generaldebatte zum Haushalt 2027: Merz trifft auf Weidel",
+        "warum": "Weidel spricht von einem „Haushalt der Negativrekorde“, die AfD rechnet 560 Mrd. € und eine „Schuldenorgie“ vor; der Etat soll am Freitag beschlossen werden.",
+        "quelle": "ZDF",
+        "url": "https://www.zdfheute.de/video/zdfheute-live/bundestags-debatte-haushalt-2027-100.html",
+        "zeit": "25.11.",
+        "medien": [
+          "ZDF",
+          "NZZ"
+        ]
+      },
       {
         "titel": "Haushaltswoche: Bund will 2027 so viel ausgeben wie nie",
         "warum": "Kernhaushalt rund 560 Mrd. Euro (+36 Mrd.), Verteidigung rund 140 Mrd., insgesamt rund 210 Mrd. Euro neue Schulden inklusive Sondervermögen; Stromsteuersenkung für alle kostet 5,4 Mrd. Schlussabstimmung am Freitag.",
@@ -3618,6 +3631,18 @@
       "lage": "Nach dem historischen Nvidia-Tag schlägt das Pendel zurück: Chipwerte fallen weltweit, Asien erlebt einen KI-Ausverkauf. Dazu kehrt die Zollangst zurück, weil die USA neue Strafzölle gegen China, die EU und 14 weitere Länder vorbereiten. Eine Fed-Zinserhöhung im Dezember gilt als sicher; die PCE-Inflation heute um 14:30 Uhr entscheidet, ob der Markt noch mehr Straffung einpreist.",
       "meldungen": [
         {
+          "tag": "Unternehmen",
+          "titel": "Dell nachbörslich +4 %, HP +9 % nach starken Zahlen",
+          "warum": "Dell mit 54,9 Mrd. $ Umsatz (erwartet 49,2) und Jahresprognose 202 Mrd. $; Workday und Autodesk trotz Beat rund −4 %.",
+          "quelle": "Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/afterhours-movers-dell-hpq-adsk-wday-ntnx-urbn-clsk-432SI-5049079",
+          "zeit": "24.11.",
+          "medien": [
+            "Investing.com",
+            "CNBC"
+          ]
+        },
+        {
           "tag": "Konjunktur",
           "titel": "Ifo-Geschäftsklima steigt auf 90,6 – höchster Stand seit Frühjahr 2023",
           "warum": "Siebtes Plus in Folge, getragen von Dienstleistern und Handel; Industrie und Bau trüben sich dagegen ein.",
@@ -3697,17 +3722,6 @@
           "zeit": "23.11.",
           "medien": [
             "Reuters"
-          ]
-        },
-        {
-          "tag": "Konjunktur",
-          "titel": "Mexikos Wirtschaft wächst im 3. Quartal um 3,3 %",
-          "warum": "Bestes Jahreswachstum seit 2023 laut INEGI, trotz US-Zöllen.",
-          "quelle": "Mexico News Daily",
-          "url": "https://www.mexiconewsdaily.com/news/q3-growth-up-3-3-percent-over-2025/",
-          "zeit": "23.11., 23:57",
-          "medien": [
-            "Mexico News Daily"
           ]
         }
       ]
@@ -4589,6 +4603,29 @@
       "lage": "Drei Großkonflikte bestimmen die Lage: der Luft- und Raffineriekrieg zwischen Russland und der Ukraine, der Iran-Krieg mit Blockade und Tankerangriffen in Hormus und der Sudan-Krieg mit der weltweit größten Hungerkrise. Hinzu kommen Drohnenvorfälle an der NATO-Ostflanke.",
       "meldungen": [
         {
+          "tag": "Iran",
+          "titel": "Iran erwägt Tanker-Konvoi nach China, um die US-Blockade zu durchbrechen",
+          "warum": "Bei 88,7 % Inflation drängt die Wirtschaftslage Teheran zu riskanten Exportversuchen; das Staatsfernsehen dementiert, dass ein Konvoi schon ausgelaufen ist.",
+          "quelle": "The National",
+          "url": "https://www.thenationalnews.com/news/gulf/2026/11/24/is-iran-weighing-tanker-convoy-to-break-us-blockade/",
+          "zeit": "24.11., 11:05",
+          "medien": [
+            "The National"
+          ]
+        },
+        {
+          "tag": "Iran",
+          "titel": "Iran schließt Gespräche mit den USA bis zur Erfüllung von sieben Bedingungen aus",
+          "warum": "Parlamentschef Ghalibaf blockt Verhandlungen; Katar vermittelt, ein Ende der Blockade ist damit vorerst nicht in Sicht.",
+          "quelle": "Gulf News",
+          "url": "https://gulfnews.com/world/mena/middle-east-conflict-us-investigates-iran-over-cyberattacks-on-50-ships-as-fresh-sanctions-target-irans-shadow-banking-network-1.500758688",
+          "zeit": "24.11.",
+          "medien": [
+            "Gulf News",
+            "CBS News"
+          ]
+        },
+        {
           "tag": "Ukraine",
           "titel": "UN: Höchste Zahl ziviler Opfer in einem Oktober seit Kriegsbeginn",
           "warum": "372 Tote und 1.981 Verletzte im Oktober, 55 % durch Langstreckenraketen und Drohnen.",
@@ -5008,7 +5045,7 @@
     }
   },
   "konflikte": {
-    "stand": "Stand 25.11., 10:09 Uhr",
+    "stand": "Stand 25.11., 12:15 Uhr",
     "karte": [
       {
         "code": "UKR",
@@ -5197,6 +5234,31 @@
         "meldungen": [
           {
             "tag": "Hormus",
+            "titel": "Zwei weitere Tanker laufen auf Minen – Iran verlangt Abstimmung jeder Durchfahrt",
+            "warum": "Teheran öffnet die Meerenge erst, wenn die US-Seeblockade fällt; über Katar bietet es eine Öffnung binnen 48 Stunden an.",
+            "quelle": "Arab News",
+            "url": "https://www.arabnews.com/middle-east/iran-says-ships-hit-mines-in-hormuz-warns-vessels-to-coordinate-passage-3013942",
+            "zeit": "25.11., 05:54",
+            "medien": [
+              "Arab News",
+              "Reuters",
+              "Deccan Herald"
+            ]
+          },
+          {
+            "tag": "Iran",
+            "titel": "Iran: Blockade verkraftbar – Inflation steigt auf 88,7 %",
+            "warum": "Vizepräsident Aref verweist auf mehr Importe über Landgrenzen; Lebensmittel sind 112,6 % teurer als vor einem Jahr.",
+            "quelle": "TimesLIVE",
+            "url": "https://www.timeslive.co.za/news/world/2026-11-25-iran-says-it-can-withstand-us-blockade-as-inflation-soars/",
+            "zeit": "25.11.",
+            "medien": [
+              "TimesLIVE",
+              "Reuters"
+            ]
+          },
+          {
+            "tag": "Hormus",
             "titel": "Iran meldet Minentreffer: Mehrere Öltanker in der Straße von Hormus in Brand",
             "warum": "Teheran erklärt, die Meerenge bleibe zu, bis seine Bedingungen erfüllt sind – das verschärft das Risiko für ein Fünftel des seeweiten Ölhandels.",
             "quelle": "The Tribune",
@@ -5229,29 +5291,6 @@
             "medien": [
               "CBS News",
               "Reuters"
-            ]
-          },
-          {
-            "tag": "Iran",
-            "titel": "Iran erwägt Tanker-Konvoi nach China, um die US-Blockade zu durchbrechen",
-            "warum": "Bei 88,7 % Inflation drängt die Wirtschaftslage Teheran zu riskanten Exportversuchen; das Staatsfernsehen dementiert, dass ein Konvoi schon ausgelaufen ist.",
-            "quelle": "The National",
-            "url": "https://www.thenationalnews.com/news/gulf/2026/11/24/is-iran-weighing-tanker-convoy-to-break-us-blockade/",
-            "zeit": "24.11., 11:05",
-            "medien": [
-              "The National"
-            ]
-          },
-          {
-            "tag": "Iran",
-            "titel": "Iran schließt Gespräche mit den USA bis zur Erfüllung von sieben Bedingungen aus",
-            "warum": "Parlamentschef Ghalibaf blockt Verhandlungen; Katar vermittelt, ein Ende der Blockade ist damit vorerst nicht in Sicht.",
-            "quelle": "Gulf News",
-            "url": "https://gulfnews.com/world/mena/middle-east-conflict-us-investigates-iran-over-cyberattacks-on-50-ships-as-fresh-sanctions-target-irans-shadow-banking-network-1.500758688",
-            "zeit": "24.11.",
-            "medien": [
-              "Gulf News",
-              "CBS News"
             ]
           }
         ]
@@ -5682,11 +5721,13 @@
     "humanitaer_quelle": "UN-Menschenrechtsmission Ukraine (16.11.), OCHA, WFP, Al Jazeera (2. und 14.11.), CBS News (24.11.); Stand 25.11."
   },
   "briefing": {
-    "stand": "25.11., 10:09 Uhr",
+    "stand": "25.11., 12:15 Uhr",
     "saetze": [
       {
         "tag": "Märkte",
-        "text": "Nach dem Chip-Einbruch in Asien (Kospi über −6 %, Tokyo Electron −13,5 %) startet der Dax kaum bewegt bei rund 25.010 Punkten; Belastung droht von neuen US-Zöllen gegen China, die EU und 14 weitere Länder."
+        "text": "Der Dax pendelt um 25.000 Punkte (Tief 24.951), weil die Huang-Rally verpufft: Nvidia vorbörslich rund −5 %, Nasdaq-Futures klar im Minus; Belastung droht zudem von neuen US-Zöllen gegen China, die EU und 14 weitere Länder.",
+        "quelle": "Handelsblatt",
+        "url": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-faellt-unter-25.000-marke-ams-osram-aktie-steigt-zweistellig/100272589.html"
       },
       {
         "tag": "Daten",
@@ -5698,7 +5739,9 @@
       },
       {
         "tag": "Konflikte",
-        "text": "Iran meldet brennende Tanker nach Minentreffern in Hormus, der Verkehr dort ist binnen zwei Wochen um über 40 % gefallen – Brent hält sich trotzdem bei etwa 90 $."
+        "text": "Iran meldet am Mittwoch zwei weitere Tanker auf Minen in Hormus und verlangt Abstimmung jeder Durchfahrt; der Verkehr dort ist binnen zwei Wochen um über 40 % gefallen – Brent hält sich trotzdem bei etwa 90 $.",
+        "quelle": "Arab News",
+        "url": "https://www.arabnews.com/middle-east/iran-says-ships-hit-mines-in-hormuz-warns-vessels-to-coordinate-passage-3013942"
       },
       {
         "tag": "Deutschland",
@@ -5709,7 +5752,7 @@
       {
         "tag": "Märkte",
         "titel": "KI-Rally kippt: Chipwerte weltweit unter Druck",
-        "text": "Einen Tag nach dem Nvidia-Rekordsprung verlor der US-Halbleiterindex 7,9 %, heute folgen Asiens Chipwerte: Kospi über −6 %, Tokyo Electron −13,5 %, Advantest −14,5 %, TSMC und Samsung rund −9 %. Auslöser sind Zweifel, ob Big Tech die Billionen-Investitionen in KI-Rechenzentren durchhält.\n\nGleichzeitig schichten Anleger in Standardwerte um: Der Dow schloss erstmals über 50.000 Punkten. Das ist typisch für eine Rotation, nicht für einen breiten Ausverkauf.",
+        "text": "Einen Tag nach dem Nvidia-Rekordsprung verlor der US-Halbleiterindex 7,9 %, heute folgen Asiens Chipwerte: Kospi über −6 %, Tokyo Electron −13,5 %, Advantest −14,5 %, TSMC und Samsung rund −9 %. Auslöser sind Zweifel, ob Big Tech die Billionen-Investitionen in KI-Rechenzentren durchhält.\n\nGleichzeitig schichten Anleger in Standardwerte um: Der Dow schloss erstmals über 50.000 Punkten. Das ist typisch für eine Rotation, nicht für einen breiten Ausverkauf.\n\nAm Mittwochmittag setzt sich der Rückzug fort: Der Dax fiel kurz unter 25.000 Punkte, Nvidia verliert vorbörslich rund 5 %, die Gewinne nach Jensen Huangs Rückkehr sind damit größtenteils aufgezehrt. Gegen den Trend legt AMS-Osram zweistellig zu.",
         "wirkung": [
           {
             "markt": "Halbleiter (Nasdaq, Infineon, ASML)",
@@ -5729,7 +5772,7 @@
         ],
         "quelle": "Al Jazeera",
         "url": "https://www.aljazeera.com/news/2026/11/25/asias-stock-markets-dive-as-doubts-to-swirl-over-ai-boom",
-        "zeit": "25.11."
+        "zeit": "25.11., 10:32"
       },
       {
         "tag": "Daten",
@@ -5819,7 +5862,7 @@
       {
         "tag": "Konflikte",
         "titel": "Hormus: Minentreffer, Verkehr −40 %, Öl bleibt gelassen",
-        "text": "Irans Marine meldet, dass Tanker östlich der Straße von Hormus nach Minentreffern in Brand geraten sind; Teheran erklärt, die Meerenge bleibe geschlossen, bis seine Bedingungen erfüllt sind. Laut MarineTraffic passierten vom 17. bis 23.11. nur noch 125 Schiffe nach 226 in der ersten Novemberwoche.\n\nTrotzdem fiel Brent über Nacht um rund 1,5 % auf etwa 90 $. Der Markt gewichtet schwache Nachfrage und Zinsangst derzeit stärker als das Angebotsrisiko – vom Kriegshoch über 120 $ ist Öl weit entfernt.",
+        "text": "Irans Marine meldet, dass Tanker östlich der Straße von Hormus nach Minentreffern in Brand geraten sind; Teheran erklärt, die Meerenge bleibe geschlossen, bis seine Bedingungen erfüllt sind. Laut MarineTraffic passierten vom 17. bis 23.11. nur noch 125 Schiffe nach 226 in der ersten Novemberwoche.\n\nTrotzdem fiel Brent über Nacht um rund 1,5 % auf etwa 90 $. Der Markt gewichtet schwache Nachfrage und Zinsangst derzeit stärker als das Angebotsrisiko – vom Kriegshoch über 120 $ ist Öl weit entfernt.\n\nAm Mittwoch meldeten die Revolutionsgarden zwei weitere Tanker, die auf einer „nicht genehmigten Route“ auf Minen liefen. Teheran will die Meerenge erst normalisieren, wenn die US-Seeblockade fällt, und bietet über Katar eine Öffnung binnen 48 Stunden an.",
         "wirkung": [
           {
             "markt": "Brent / WTI",
@@ -5915,7 +5958,7 @@
     ]
   },
   "energie": {
-    "stand": "25.11. 10:15",
+    "stand": "25.11. 12:15",
     "oel": {
       "lage": "Die Straße von Hormus ist seit Kriegsbeginn am 28.2. nur eingeschränkt passierbar, Minen trafen zuletzt einen vierten Tanker. Trotzdem fällt Brent auf rund 88–91 $, weil die Förderung außerhalb des Golfs steigt und die IEA für dieses Quartal ein Überangebot erwartet.",
       "foerderung": [
