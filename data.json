@@ -4024,6 +4024,90 @@
           ]
         }
       ]
+    },
+    "energie_oel": {
+      "lage": "Die Straße von Hormus ist seit Kriegsbeginn am 28.2. nur eingeschränkt passierbar, Minen trafen zuletzt einen vierten Tanker. Trotzdem fällt Brent auf rund 88–91 $, weil die Förderung außerhalb des Golfs steigt und die IEA für dieses Quartal ein Überangebot erwartet.",
+      "meldungen": [
+        {
+          "tag": "Öl",
+          "titel": "Brent fällt unter 91 $ trotz neuer Angriffe in Hormus",
+          "warum": "Mehr Angebot außerhalb des Golfs wiegt schwerer als die Minen-Angriffe; WTI bei rund 81,65 $.",
+          "quelle": "Free Press Journal",
+          "url": "https://www.freepressjournal.in/business/crude-oil-prices-slip-as-brent-falls-below-91-amid-rising-supply-strait-of-hormuz-attacks-and-us-iran-tensions",
+          "zeit": "25.11."
+        }
+      ]
+    },
+    "energie_opec": {
+      "lage": "Die sieben Länder mit monatlichen Quoten lassen die Förderung im Dezember unverändert (3. Monat in Folge). Am 29.11. legt die Ministerkonferenz aller 21 Mitglieder die Basismengen für 2027 fest; nach dem 31.12. gibt es bisher keinen Förderrahmen. Die VAE sind seit 1.5.2026 nicht mehr dabei.",
+      "meldungen": [
+        {
+          "tag": "OPEC+",
+          "titel": "OPEC+ hält Dezember-Quoten stabil, Fokus auf 2027",
+          "warum": "Sieben Länder bleiben bei zusammen 31,01 Mio. b/d; am 29.11. geht es um neue Basismengen.",
+          "quelle": "World Oil (Bloomberg)",
+          "url": "https://www.worldoil.com/news/2026/11/1/opec-subgroup-keeps-oil-production-quotas-unchanged-for-december",
+          "zeit": "01.11.",
+          "medien": [
+            "Bloomberg"
+          ]
+        }
+      ]
+    },
+    "energie_gas": {
+      "lage": "Die EU-Speicher sind so leer wie seit über zehn Jahren nicht zu dieser Jahreszeit; Kälte ab dieser Woche und die Force Majeure von QatarEnergy (bis Ende Dezember) treiben TTF. Ab Januar gilt das EU-Importverbot für russisches Gas.",
+      "meldungen": [
+        {
+          "tag": "Gas",
+          "titel": "TTF springt um 8,6 % auf 96 €/MWh",
+          "warum": "Kälteprognosen treffen auf die niedrigsten Speicherstände seit über zehn Jahren; Preis fast dreimal so hoch wie vor einem Jahr.",
+          "quelle": "Bloomberg",
+          "url": "https://leprivatebanker.com/2026/11/24/european-gas-jumps-8-6-to-e96-a-megawatt-hour-as-cold-forecasts-meet-the-lowest-storage-levels-in-a-decade/",
+          "zeit": "24.11.",
+          "medien": [
+            "Bloomberg"
+          ]
+        }
+      ]
+    },
+    "energie_co2": {
+      "lage": "",
+      "meldungen": [
+        {
+          "tag": "CO₂",
+          "titel": "EU-CO₂-Preis wieder über 90 €/t",
+          "warum": "Kälte, Wechsel zu Kohle und weniger Zertifikate stützen; ABN Amro erwartet im 4. Quartal Ø 86 €.",
+          "quelle": "GMK Center",
+          "url": "https://gmk.center/en/news/european-carbon-prices-exceeded-e90-t-in-november/",
+          "zeit": "13.11."
+        }
+      ]
+    },
+    "energie_klima": {
+      "lage": "Die COP31 in Antalya (9.–20.11.) endete nach Rekordlänge ohne großen Durchbruch. Erneuerbare haben 2025 weltweit erstmals mehr Strom erzeugt als Kohle.",
+      "meldungen": [
+        {
+          "tag": "Klima",
+          "titel": "COP31 in Antalya endet ohne großen Durchbruch",
+          "warum": "Längste Klimakonferenz bisher; Gastgeber Türkei, Verhandlungsführung Australien.",
+          "quelle": "Energy News Beat",
+          "url": "https://energynewsbeat.co/climate-crisis-op-ed/cop31-in-antalya-ended-without-a-major-deal-after-the-longest-climate-summit-on-record/",
+          "zeit": "Nov."
+        }
+      ]
+    },
+    "energie_strom": {
+      "lage": "",
+      "meldungen": [
+        {
+          "tag": "Strom",
+          "titel": "Erneuerbare decken 58 % des deutschen Stroms im ersten Halbjahr",
+          "warum": "Rekord: Offshore-Wind +28 %, Onshore +7 %, Solar +4 %.",
+          "quelle": "Clean Energy Wire",
+          "url": "https://www.cleanenergywire.org/news/renewables-covered-record-58-german-electricity-consumption-first-half-2026",
+          "zeit": "01.07."
+        }
+      ]
     }
   },
   "konflikte": {
@@ -4930,6 +5014,339 @@
         "autor": "CME Group",
         "url": "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html",
         "warum": "Hier entstehen die Fed-Wahrscheinlichkeiten der Notenbank-Uhr."
+      }
+    ]
+  },
+  "energie": {
+    "stand": "25.11. 10:15",
+    "oel": {
+      "lage": "Die Straße von Hormus ist seit Kriegsbeginn am 28.2. nur eingeschränkt passierbar, Minen trafen zuletzt einen vierten Tanker. Trotzdem fällt Brent auf rund 88–91 $, weil die Förderung außerhalb des Golfs steigt und die IEA für dieses Quartal ein Überangebot erwartet.",
+      "foerderung": [
+        {
+          "land": "USA",
+          "mbd": 13.6,
+          "anteil": 16.1
+        },
+        {
+          "land": "Russland",
+          "mbd": 9.9,
+          "anteil": 11.7
+        },
+        {
+          "land": "Saudi-Arabien",
+          "mbd": 9.6,
+          "anteil": 11.4
+        },
+        {
+          "land": "Kanada",
+          "mbd": 5.0,
+          "anteil": 5.9
+        },
+        {
+          "land": "Irak",
+          "mbd": 4.4,
+          "anteil": 5.2
+        },
+        {
+          "land": "China",
+          "mbd": 4.3,
+          "anteil": 5.1
+        }
+      ],
+      "verbrauch": [
+        {
+          "land": "USA",
+          "mbd": 20.5,
+          "anteil": null
+        },
+        {
+          "land": "China",
+          "mbd": 16.4,
+          "anteil": null
+        },
+        {
+          "land": "Indien",
+          "mbd": 5.6,
+          "anteil": null
+        },
+        {
+          "land": "Russland",
+          "mbd": 3.8,
+          "anteil": null
+        },
+        {
+          "land": "Saudi-Arabien",
+          "mbd": 3.7,
+          "anteil": null
+        },
+        {
+          "land": "Brasilien",
+          "mbd": 3.3,
+          "anteil": null
+        },
+        {
+          "land": "Japan",
+          "mbd": 3.2,
+          "anteil": null
+        }
+      ],
+      "quelle": "Förderung: Rohöl 2025, Welt 84,4 Mio. b/d; Verbrauch: 2024 (EIA, Energy Institute Statistical Review 2026)",
+      "opec": {
+        "stand": "Beschluss 1.11.",
+        "lage": "Die sieben Länder mit monatlichen Quoten lassen die Förderung im Dezember unverändert (3. Monat in Folge). Am 29.11. legt die Ministerkonferenz aller 21 Mitglieder die Basismengen für 2027 fest; nach dem 31.12. gibt es bisher keinen Förderrahmen. Die VAE sind seit 1.5.2026 nicht mehr dabei.",
+        "quoten": [
+          {
+            "land": "Saudi-Arabien",
+            "quote": 10478
+          },
+          {
+            "land": "Russland",
+            "quote": 9949
+          },
+          {
+            "land": "Irak",
+            "quote": 4431
+          },
+          {
+            "land": "Kuwait",
+            "quote": 2676
+          },
+          {
+            "land": "Kasachstan",
+            "quote": 1628
+          },
+          {
+            "land": "Algerien",
+            "quote": 1007
+          },
+          {
+            "land": "Oman",
+            "quote": 841
+          }
+        ],
+        "summe": 31010
+      }
+    },
+    "gas": {
+      "lage": "Die EU-Speicher sind so leer wie seit über zehn Jahren nicht zu dieser Jahreszeit; Kälte ab dieser Woche und die Force Majeure von QatarEnergy (bis Ende Dezember) treiben TTF. Ab Januar gilt das EU-Importverbot für russisches Gas.",
+      "ttf": {
+        "wert": 96.08,
+        "datum": "24.11.",
+        "veraenderung": 8.6
+      },
+      "speicher": {
+        "eu": 68.4,
+        "de": 55.9,
+        "datum": "23.11."
+      },
+      "lng": [],
+      "quelle": "TTF: ICE Endex Frontmonat (Bloomberg)"
+    },
+    "strom": {
+      "welt": [
+        {
+          "name": "Welt",
+          "jahr": 2025,
+          "ee": 33.8,
+          "hinweis": "Ember Global Electricity Review 2026: Erneuerbare erstmals vor Kohle (33,0 %)"
+        },
+        {
+          "name": "EU",
+          "jahr": 2025,
+          "ee": 47.7,
+          "hinweis": "Ember European Electricity Review 2026: Wind und Solar (30,1 %) erstmals vor fossilen (29,0 %)"
+        },
+        {
+          "name": "Deutschland",
+          "jahr": "H1 2026",
+          "ee": 58.0,
+          "hinweis": "BDEW/ZSW, Anteil am Stromverbrauch, Rekord"
+        }
+      ],
+      "quelle": "Ember, BDEW/ZSW"
+    },
+    "routen": {
+      "stand": "Mitte Nov.",
+      "quelle": "EIA (Normalwerte H1 2025), Kpler, IMF PortWatch",
+      "liste": [
+        {
+          "route": "Straße von Hormus",
+          "normal": "20,9 Mio. b/d",
+          "lage": "Stark eingeschränkt: ca. 8–10 Mio. b/d (ohne Iran), US-Blockade iranischer Häfen, Minen",
+          "status": "rot"
+        },
+        {
+          "route": "Bab el-Mandeb / Rotes Meer",
+          "normal": "ca. 5 Mio. b/d",
+          "lage": "Mehr Verkehr (saudische Exporte über Yanbu), aber Houthi-Angriffe; Tankerverkehr −36 % ggü. Vorjahr",
+          "status": "gelb"
+        },
+        {
+          "route": "Suezkanal",
+          "normal": "5,8 Mio. b/d",
+          "lage": "Tankerverkehr etwa auf Vorjahresniveau",
+          "status": "gruen"
+        },
+        {
+          "route": "Kap der Guten Hoffnung",
+          "normal": "9,4 Mio. b/d",
+          "lage": "Ausweichroute, Tanker +10 % ggü. Vorjahr",
+          "status": "gelb"
+        },
+        {
+          "route": "Straße von Malakka",
+          "normal": "16,6 Mio. b/d",
+          "lage": "Normal, wichtigster Weg nach China/Japan",
+          "status": "gruen"
+        },
+        {
+          "route": "Saudische Ost-West-Pipeline",
+          "normal": "umgeht Hormus",
+          "lage": "Ca. 5,8 Mio. b/d (Okt.), mehrfach von Drohnen getroffen",
+          "status": "gelb"
+        }
+      ]
+    },
+    "klima": {
+      "stand": "Nov. 2026",
+      "lage": "Die COP31 in Antalya (9.–20.11.) endete nach Rekordlänge ohne großen Durchbruch. Erneuerbare haben 2025 weltweit erstmals mehr Strom erzeugt als Kohle.",
+      "ziele": [
+        {
+          "land": "Deutschland",
+          "ziel": "−65 % (1990)",
+          "stand": "ca. −49 % (2025, ~640 Mt)",
+          "netto_null": "2045",
+          "kurs": "knapp",
+          "hinweis": "UBA-Projektion: ca. −63 % bis 2030"
+        },
+        {
+          "land": "EU",
+          "ziel": "−55 % (1990)",
+          "stand": "ca. −37 % (2023)",
+          "netto_null": "2050",
+          "kurs": "knapp",
+          "hinweis": "2040-Ziel: −90 %"
+        },
+        {
+          "land": "USA",
+          "ziel": "kein Ziel mehr",
+          "stand": "Paris-Austritt wirksam seit Jan. 2026",
+          "netto_null": "–",
+          "kurs": "nein",
+          "hinweis": "Frühere Zusage −50–52 % (2005) aufgegeben"
+        },
+        {
+          "land": "China",
+          "ziel": "Emissionsspitze vor 2030",
+          "stand": "Emissionen stagnieren, Solar/Wind 22 % des Stroms",
+          "netto_null": "2060",
+          "kurs": "ok",
+          "hinweis": "NDC 2035: −7–10 % ggü. Höchststand"
+        },
+        {
+          "land": "Indien",
+          "ziel": "−45 % Emissionsintensität (2005)",
+          "stand": "Fossile Stromerzeugung 2025 −3,3 %",
+          "netto_null": "2070",
+          "kurs": "ok"
+        },
+        {
+          "land": "Japan",
+          "ziel": "−46 % (2013)",
+          "stand": "ca. −23 % (2023)",
+          "netto_null": "2050",
+          "kurs": "knapp"
+        },
+        {
+          "land": "Großbritannien",
+          "ziel": "−68 % (1990)",
+          "stand": "ca. −53 % (2024)",
+          "netto_null": "2050",
+          "kurs": "knapp"
+        }
+      ],
+      "quelle": "UBA, EEA, UNFCCC-NDCs, Climate Action Tracker; Stände gerundet"
+    },
+    "eua": {
+      "wert": null,
+      "datum": null
+    },
+    "termine": [
+      {
+        "datum": "26.11.",
+        "was": "EIA-Wochenbericht US-Öllager (wegen Thanksgiving)"
+      },
+      {
+        "datum": "29.11.",
+        "was": "OPEC+-Ministerkonferenz: Quoten 2027, Kapazitätsprüfung"
+      },
+      {
+        "datum": "31.12.",
+        "was": "Ende Force Majeure QatarEnergy (LNG), Ende OPEC+-Förderrahmen"
+      },
+      {
+        "datum": "01.01.",
+        "was": "EU-Importverbot für russisches Gas tritt in Kraft"
+      },
+      {
+        "datum": "2027",
+        "was": "COP32 in Addis Abeba"
+      }
+    ],
+    "news": [
+      {
+        "tag": "Öl",
+        "titel": "Brent fällt unter 91 $ trotz neuer Angriffe in Hormus",
+        "warum": "Mehr Angebot außerhalb des Golfs wiegt schwerer als die Minen-Angriffe; WTI bei rund 81,65 $.",
+        "quelle": "Free Press Journal",
+        "url": "https://www.freepressjournal.in/business/crude-oil-prices-slip-as-brent-falls-below-91-amid-rising-supply-strait-of-hormuz-attacks-and-us-iran-tensions",
+        "zeit": "25.11."
+      },
+      {
+        "tag": "Gas",
+        "titel": "TTF springt um 8,6 % auf 96 €/MWh",
+        "warum": "Kälteprognosen treffen auf die niedrigsten Speicherstände seit über zehn Jahren; Preis fast dreimal so hoch wie vor einem Jahr.",
+        "quelle": "Bloomberg",
+        "url": "https://leprivatebanker.com/2026/11/24/european-gas-jumps-8-6-to-e96-a-megawatt-hour-as-cold-forecasts-meet-the-lowest-storage-levels-in-a-decade/",
+        "zeit": "24.11.",
+        "medien": [
+          "Bloomberg"
+        ]
+      },
+      {
+        "tag": "OPEC+",
+        "titel": "OPEC+ hält Dezember-Quoten stabil, Fokus auf 2027",
+        "warum": "Sieben Länder bleiben bei zusammen 31,01 Mio. b/d; am 29.11. geht es um neue Basismengen.",
+        "quelle": "World Oil (Bloomberg)",
+        "url": "https://www.worldoil.com/news/2026/11/1/opec-subgroup-keeps-oil-production-quotas-unchanged-for-december",
+        "zeit": "01.11.",
+        "medien": [
+          "Bloomberg"
+        ]
+      },
+      {
+        "tag": "CO₂",
+        "titel": "EU-CO₂-Preis wieder über 90 €/t",
+        "warum": "Kälte, Wechsel zu Kohle und weniger Zertifikate stützen; ABN Amro erwartet im 4. Quartal Ø 86 €.",
+        "quelle": "GMK Center",
+        "url": "https://gmk.center/en/news/european-carbon-prices-exceeded-e90-t-in-november/",
+        "zeit": "13.11."
+      },
+      {
+        "tag": "Klima",
+        "titel": "COP31 in Antalya endet ohne großen Durchbruch",
+        "warum": "Längste Klimakonferenz bisher; Gastgeber Türkei, Verhandlungsführung Australien.",
+        "quelle": "Energy News Beat",
+        "url": "https://energynewsbeat.co/climate-crisis-op-ed/cop31-in-antalya-ended-without-a-major-deal-after-the-longest-climate-summit-on-record/",
+        "zeit": "Nov."
+      },
+      {
+        "tag": "Strom",
+        "titel": "Erneuerbare decken 58 % des deutschen Stroms im ersten Halbjahr",
+        "warum": "Rekord: Offshore-Wind +28 %, Onshore +7 %, Solar +4 %.",
+        "quelle": "Clean Energy Wire",
+        "url": "https://www.cleanenergywire.org/news/renewables-covered-record-58-german-electricity-consumption-first-half-2026",
+        "zeit": "01.07."
       }
     ]
   }
