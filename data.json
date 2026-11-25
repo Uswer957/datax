@@ -1,5 +1,5 @@
 {
-  "aktualisiert": "25.11.2026, 07:05 Uhr",
+  "aktualisiert": "25.11.2026, 08:15 Uhr",
   "maerkte": {
     "schlagzeilen": [
       {
@@ -12,6 +12,19 @@
         "medien": [
           "Al Jazeera",
           "Reuters"
+        ]
+      },
+      {
+        "tag": "Handel",
+        "titel": "USA bereiten neue Zölle gegen China, EU und 14 weitere Volkswirtschaften vor",
+        "warum": "Über Section-301-Verfahren zu Industriesubventionen will Washington die vom Supreme Court gekippten Zölle ersetzen – zusätzlich zu den bestehenden 10–12,5 %; Höhe und Termin noch offen.",
+        "quelle": "AP",
+        "url": "https://www.ksat.com/news/politics/2026/11/25/us-ready-to-slap-tariffs-on-china-eu-and-others-over-subsidized-production-ap-sources-say/",
+        "zeit": "25.11., 01:52",
+        "medien": [
+          "AP",
+          "Bloomberg",
+          "Wall Street Journal"
         ]
       },
       {
@@ -36,18 +49,6 @@
         "medien": [
           "Investing.com",
           "CNBC"
-        ]
-      },
-      {
-        "tag": "Unternehmen",
-        "titel": "Nvidia gibt 240 Mrd. $ Börsenwert wieder ab",
-        "warum": "−5,9 % auf 155,38 $ nach dem +31-%-Tag; Bernstein stuft auf Outperform hoch (Ziel 200 $).",
-        "quelle": "Motley Fool",
-        "url": "https://www.fool.com/coverage/stock-market-today/2026/11/24/stock-market-today-nov-24-nvidia-gives-back-usd240-billion-in-market-value-despite-wall-street-upgrade-signaling-29-upside/",
-        "zeit": "24.11., 22:29",
-        "medien": [
-          "Motley Fool",
-          "Reuters"
         ]
       },
       {
@@ -2481,7 +2482,7 @@
   },
   "mehr": {
     "schlagzeilen": {
-      "lage": "Nach dem historischen Nvidia-Tag schlägt das Pendel zurück: Chipwerte fallen weltweit, Asien erlebt einen KI-Ausverkauf. Gleichzeitig gilt eine Fed-Zinserhöhung im Dezember als sicher; die PCE-Inflation heute entscheidet, ob der Markt noch mehr Straffung einpreist.",
+      "lage": "Nach dem historischen Nvidia-Tag schlägt das Pendel zurück: Chipwerte fallen weltweit, Asien erlebt einen KI-Ausverkauf. Dazu kehrt die Zollangst zurück, weil die USA neue Strafzölle gegen China, die EU und 14 weitere Länder vorbereiten. Eine Fed-Zinserhöhung im Dezember gilt als sicher; die PCE-Inflation heute um 14:30 Uhr entscheidet, ob der Markt noch mehr Straffung einpreist.",
       "meldungen": [
         {
           "tag": "Unternehmen",
@@ -2866,7 +2867,7 @@
       ]
     },
     "indizes": {
-      "lage": "Der KI-Handel dreht: Nach Nvidias Rekordtag fiel die Nasdaq um 1,5 %, während der Dow erstmals über 50.000 Punkte schloss. Heute früh brechen Kospi, Taiex und Nikkei ein; für den DAX droht ein schwacher Start, die PCE-Daten am Nachmittag geben die Richtung vor.",
+      "lage": "Der KI-Handel dreht: Nach Nvidias Rekordtag fiel die Nasdaq um 1,5 %, während der Dow erstmals über 50.000 Punkte schloss. Heute früh brechen Kospi, Taiex und Nikkei ein, der DAX hält sich vorbörslich dennoch stabil (IG-Indikation 25.070 Punkte, +0,2 %); neue US-Zollpläne und die PCE-Daten am Nachmittag geben die Richtung vor.",
       "meldungen": [
         {
           "tag": "Asien",
