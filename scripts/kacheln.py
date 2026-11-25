@@ -66,7 +66,7 @@ def yahoo(sym, rng="1y"):
     raise RuntimeError(f"Yahoo {sym}: {last}")
 
 
-CNBC_SYM = {"^VIX": ".VIX", "^V2TX": ".V2TX", "^VHSI": ".VHSI"}
+CNBC_SYM = {"^VIX": ".VIX", "^V2TX": ".V2TX", "^VHSI": ".VHSI", "^V1XI": ".V1XI"}
 
 
 def csym(s):
@@ -206,6 +206,8 @@ REGIONEN = {
            "vol": ("^VIX", "VIX (S&P 500)"), "spread": ("BAMLH0A0HYM2", "US-HY-Spread")},
     "eu": {"risk": ("IHYG-GB", "IHYG (Euro-Hochzins-ETF)"), "safe": ("IBGL-GB", "IBGL (Euro-Staatsanl. 15–30J)"),
            "vol": ("^V2TX", "VSTOXX (Euro Stoxx 50)"), "spread": ("BAMLHE00EHYIOAS", "Euro-HY-Spread")},
+    "de": {"risk": ("EUNW-DE", "EUNW (Euro-Hochzins-ETF, Xetra)"), "safe": ("EXX6-DE", "EXX6 (Bundesanleihen 10,5J+)"),
+           "vol": ("^V1XI", "VDAX-New (DAX)"), "spread": ("BAMLHE00EHYIOAS", "Euro-HY-Spread")},
     "asien": {"risk": ("HYEM", "HYEM (EM-Hochzins-ETF)"), "safe": ("BWX", "BWX (int. Staatsanleihen)"),
               "vol": ("^VHSI", "VHSI (Hang Seng)"), "spread": ("BAMLEMRACRPIASIAOAS", "Asien-Unternehmens-Spread")},
 }

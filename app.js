@@ -885,8 +885,8 @@
     ez.appendChild(txt("p", "src", "Quelle: EZB Data Portal"));
   }
 
-  const REG = [["us", "USA"], ["eu", "Europa"], ["asien", "Asien"]];
-  const SKEY = { us: "stress", eu: "stress_eu", asien: "stress_asien" };
+  const REG = [["us", "USA"], ["eu", "Europa"], ["de", "Deutschland"], ["asien", "Asien"]];
+  const SKEY = { us: "stress", eu: "stress_eu", de: "stress_de", asien: "stress_asien" };
   const stressCol = (p) => (p < 10 ? "var(--loss)" : p < 30 ? "#f0883e" : p < 70 ? "var(--warn)" : "var(--gain)");
   let stressReg = "us";
   try { const r = localStorage.getItem("stressReg"); if (SKEY[r]) stressReg = r; } catch (e) {}
@@ -965,10 +965,10 @@
   function renderKacheln(k) {
     lastK = k;
     document.dispatchEvent(new CustomEvent("datax:kacheln", { detail: k }));
-    renderSek(k.sektoren); renderZins(k.us_kurve, k.ezb); renderStress({ us: k.stress, eu: k.stress_eu, asien: k.stress_asien }); renderBreadth(k.breadth);
+    renderSek(k.sektoren); renderZins(k.us_kurve, k.ezb); renderStress({ us: k.stress, eu: k.stress_eu, de: k.stress_de, asien: k.stress_asien }); renderBreadth(k.breadth);
   }
   // Live-Kurse direkt im Browser (CNBC erlaubt CORS); Datei-Stand bleibt Rückfallebene
-  const LIVE_SYMS = ["XLK", "XLF", "XLV", "XLY", "XLC", "XLI", "XLP", "XLE", "XLU", "XLRE", "XLB", "SPY", "HYG", "TLT", ".VIX", "IHYG-GB", "IBGL-GB", "HYEM", "BWX", ".VHSI"];
+  const LIVE_SYMS = ["XLK", "XLF", "XLV", "XLY", "XLC", "XLI", "XLP", "XLE", "XLU", "XLRE", "XLB", "SPY", "HYG", "TLT", ".VIX", "IHYG-GB", "IBGL-GB", "HYEM", "BWX", ".VHSI", "EUNW-DE", "EXX6-DE"];
   const pnum = (v) => { const n = parseFloat(String(v == null ? "" : v).replace(/[,%+]/g, "")); return isNaN(n) ? null : n; };
   function applyLive(k, q) {
     const now = new Intl.DateTimeFormat("de-DE", { timeZone: "Europe/Berlin", day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit" }).format(new Date()).replace(" ", " ");
