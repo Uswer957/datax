@@ -849,28 +849,55 @@
     ez.appendChild(txt("p", "src", "Quelle: EZB Data Portal"));
   }
 
-  function renderStress(s) {
+  const REG = [["us", "USA"], ["eu", "Europa"], ["asien", "Asien"]];
+  const SKEY = { us: "stress", eu: "stress_eu", asien: "stress_asien" };
+  const stressCol = (p) => (p < 10 ? "var(--loss)" : p < 30 ? "#f0883e" : p < 70 ? "var(--warn)" : "var(--gain)");
+  let stressReg = "us";
+  try { const r = localStorage.getItem("stressReg"); if (SKEY[r]) stressReg = r; } catch (e) {}
+  function teileOf(s) {
+    if (s.teile) return s.teile;
+    const k = s.komponenten || {};
+    return [{ rolle: "risk", name: "HYG (US-Hochzins-ETF)", wert: k.HYG }, { rolle: "safe", name: "TLT (US-Staatsanl. 20J+)", wert: k.TLT },
+      { rolle: "vol", name: "VIX (S&P 500)", wert: k.VIX }, { rolle: "spread", name: "US-HY-Spread", wert: k.HY, datum: k.HY_datum }];
+  }
+  function renderStress(all) {
     const b = $("k-stress-body"); b.textContent = "";
-    if (!s || s.wert == null) { empty("k-stress-body"); return; }
+    if (!all || !all.us || all.us.wert == null) { empty("k-stress-body"); return; }
+    if (!all[stressReg] || all[stressReg].wert == null) stressReg = "us";
+    const tabs = txt("div", "ktabs", ""); tabs.setAttribute("role", "tablist");
+    REG.forEach(([key, lab]) => {
+      const x = all[key];
+      const bt = txt("button", "", ""); bt.type = "button"; bt.setAttribute("role", "tab"); bt.setAttribute("aria-selected", String(key === stressReg));
+      if (x && x.wert != null) { const d = txt("span", "ldot rdot", ""); d.style.background = stressCol(x.perzentil); bt.appendChild(d); bt.title = lab + ": " + x.stufe; }
+      bt.appendChild(document.createTextNode(lab));
+      if (!x || x.wert == null) bt.disabled = true;
+      bt.addEventListener("click", () => { stressReg = key; try { localStorage.setItem("stressReg", key); } catch (e) {} renderStress(all); });
+      tabs.appendChild(bt);
+    });
+    b.appendChild(tabs);
+    const s = all[stressReg];
     $("k-stress-stand").textContent = s.stand || "";
-    const col = s.perzentil < 10 ? "var(--loss)" : s.perzentil < 30 ? "#f0883e" : s.perzentil < 70 ? "var(--warn)" : "var(--gain)";
+    const col = stressCol(s.perzentil);
     const w = txt("div", "stress", ""), a = txt("div", "", "");
-    a.appendChild(txt("div", "note", "US Financial Stress"));
+    a.appendChild(txt("div", "note", (REG.find((r) => r[0] === stressReg) || [])[1] + " · Financial Stress"));
     const big = txt("div", "big", nf(s.wert, 2)); big.style.color = col; a.appendChild(big);
     const lv = txt("div", "slvl", s.stufe); lv.style.color = col; a.appendChild(lv);
     const g = txt("div", "gauge", ""); const mk = txt("span", "mk", ""); mk.style.left = Math.max(0, Math.min(100, s.perzentil)) + "%"; g.appendChild(mk); a.appendChild(g);
     const gl = txt("div", "gauge-l", ""); gl.appendChild(txt("span", "", "Hoher Stress")); gl.appendChild(txt("span", "", "Entspannt")); a.appendChild(gl);
-    a.appendChild(txt("p", "note", `Perzentil ${s.perzentil} der letzten 2 Jahre (Spanne ${nf(s.min, 2)} – ${nf(s.max, 2)}, Median ${nf(s.median, 2)})`));
+    a.appendChild(txt("p", "note", `Perzentil ${s.perzentil} der letzten 2 Jahre (Spanne ${nf(s.min, 2)} – ${nf(s.max, 2)}, Median ${nf(s.median, 2)}). Werte je Region nur mit der eigenen Historie vergleichbar.`));
     w.appendChild(a);
-    const r = txt("div", "", ""), k = s.komponenten || {};
+    const r = txt("div", "", "");
     const tb = document.createElement("table"); tb.className = "tbl compact"; const body = document.createElement("tbody");
-    [["HYG (Hochzins-ETF)", nf(k.HYG, 2) + " $"], ["TLT (US-Anleihen 20J+)", nf(k.TLT, 2) + " $"], ["VIX", nf(k.VIX, 2)], ["HY-Spread (" + dDE(k.HY_datum) + ")", nf(k.HY, 2) + " %"]]
-      .forEach(([n, v]) => { const tr = document.createElement("tr"); tr.appendChild(txt("td", "", n)); tr.appendChild(txt("td", "r", v)); body.appendChild(tr); });
+    teileOf(s).forEach((t) => {
+      const tr = document.createElement("tr");
+      tr.appendChild(txt("td", "", t.rolle === "spread" ? `${t.name} (${dDE(t.datum)})` : t.name));
+      tr.appendChild(txt("td", "r", nf(t.wert, 2) + (t.rolle === "spread" ? " %" : ""))); body.appendChild(tr);
+    });
     tb.appendChild(body); r.appendChild(tb);
     if (s.verlauf && s.verlauf.length > 20) {
       const v = s.verlauf.slice(-252);
       r.appendChild(lineChart([{ pts: v.map((x, i) => [i, x[1]]), color: "#d0d0d0", w: 1.4 }], { w: CWh(), h: 130, xlabels: monthLabels(v.map((x) => x[0])), yfmt: (x) => nf(x, 1), label: "Verlauf 1 Jahr" }));
-      r.appendChild(txt("p", "src", "Verlauf 1 Jahr · Kurse CNBC, HY-Spread FRED (ICE BofA, Vortag)"));
+      r.appendChild(txt("p", "src", "Verlauf 1 Jahr · Kurse CNBC, Spread FRED (ICE BofA, Vortag)"));
     }
     w.appendChild(r); b.appendChild(w);
   }
@@ -901,10 +928,10 @@
   window.addEventListener("resize", () => { clearTimeout(rz); rz = setTimeout(() => { if (lastK) renderKacheln(lastK); }, 200); });
   function renderKacheln(k) {
     lastK = k;
-    renderSek(k.sektoren); renderZins(k.us_kurve, k.ezb); renderStress(k.stress); renderBreadth(k.breadth);
+    renderSek(k.sektoren); renderZins(k.us_kurve, k.ezb); renderStress({ us: k.stress, eu: k.stress_eu, asien: k.stress_asien }); renderBreadth(k.breadth);
   }
   // Live-Kurse direkt im Browser (CNBC erlaubt CORS); Datei-Stand bleibt Rückfallebene
-  const LIVE_SYMS = ["XLK", "XLF", "XLV", "XLY", "XLC", "XLI", "XLP", "XLE", "XLU", "XLRE", "XLB", "SPY", "HYG", "TLT", ".VIX"];
+  const LIVE_SYMS = ["XLK", "XLF", "XLV", "XLY", "XLC", "XLI", "XLP", "XLE", "XLU", "XLRE", "XLB", "SPY", "HYG", "TLT", ".VIX", "IHYG-GB", "IBGL-GB", "HYEM", "BWX", ".VHSI"];
   const pnum = (v) => { const n = parseFloat(String(v == null ? "" : v).replace(/[,%+]/g, "")); return isNaN(n) ? null : n; };
   function applyLive(k, q) {
     const now = new Intl.DateTimeFormat("de-DE", { timeZone: "Europe/Berlin", day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit" }).format(new Date()).replace(" ", " ");
@@ -914,17 +941,19 @@
       S.liste.concat([S.spx]).forEach((x) => { const z = q[x.sym]; if (z && z.chg != null) { x.chg = z.chg; x.kurs = z.px; x.datum = z.datum || x.datum; n++; } });
       if (n) { S.liste.sort((a, b) => (b.chg ?? -99) - (a.chg ?? -99)); S.stand = "live · " + now; S.quelle = "CNBC"; k.sektoren = S; }
     }
-    const T = k.stress && k.stress.komponenten ? JSON.parse(JSON.stringify(k.stress)) : null;
-    if (T && q.HYG && q.TLT && q[".VIX"] && q.HYG.px && q.TLT.px && q[".VIX"].px) {
-      const K = T.komponenten; K.HYG = q.HYG.px; K.TLT = q.TLT.px; K.VIX = q[".VIX"].px;
-      T.wert = (K.HYG / K.TLT) / (K.VIX * K.HY / 100);
-      const hist = (T.verlauf || []).map((x) => x[1]);
-      if (hist.length) {
-        T.perzentil = Math.round((100 * hist.filter((v) => v < T.wert).length) / hist.length);
-        T.stufe = T.perzentil < 10 ? "Hoher Stress" : T.perzentil < 30 ? "Erhöhter Stress" : T.perzentil < 70 ? "Moderat" : "Entspannt";
-      }
-      T.stand = "live · " + now; k.stress = T;
-    }
+    Object.values(SKEY).forEach((key) => {
+      const src = k[key];
+      if (!src || !src.teile || !src.verlauf) return;
+      const T = JSON.parse(JSON.stringify(src)), P = {};
+      let live = 0;
+      T.teile.forEach((t) => { const z = q[t.sym]; if (t.rolle !== "spread" && z && z.px) { t.wert = z.px; live++; } P[t.rolle] = t.wert; });
+      if (!live || !P.risk || !P.safe || !P.vol || !P.spread) return;
+      T.wert = (P.risk / P.safe) / (P.vol * P.spread / 100);
+      const hist = T.verlauf.map((x) => x[1]);
+      T.perzentil = Math.round((100 * hist.filter((v) => v < T.wert).length) / hist.length);
+      T.stufe = T.perzentil < 10 ? "Hoher Stress" : T.perzentil < 30 ? "Erhöhter Stress" : T.perzentil < 70 ? "Moderat" : "Entspannt";
+      T.stand = "live · " + now; k[key] = T;
+    });
     return k;
   }
   let fileK = null, liveQ = null;

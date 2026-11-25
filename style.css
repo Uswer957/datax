@@ -255,3 +255,5 @@ dialog.mehr::backdrop{background:rgba(0,0,0,.72)}
 .wk-full summary{cursor:pointer;font:12px var(--f-data);color:var(--muted)}
 .wk-full summary:hover{color:var(--fg)}
 .wk-full .tv-cal{margin-top:8px}
+.ktabs .rdot{display:inline-block;width:7px;height:7px;margin-right:6px;vertical-align:1px}
+.ktabs button:disabled{opacity:.4;cursor:default}
