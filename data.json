@@ -1,5 +1,5 @@
 {
-  "aktualisiert": "25.11.2026, 08:15 Uhr",
+  "aktualisiert": "25.11.2026, 09:12 Uhr",
   "maerkte": {
     "schlagzeilen": [
       {
@@ -89,14 +89,14 @@
       },
       {
         "tag": "Konjunktur",
-        "titel": "Ifo-Geschäftsklima steigt auf 90,6 – höchster Stand seit Frühjahr 2023",
-        "warum": "Siebtes Plus in Folge, getragen von Dienstleistern und Handel; Industrie und Bau trüben sich dagegen ein.",
-        "quelle": "Handelsblatt",
-        "url": "https://www.handelsblatt.com/politik/deutschland/konjunktur-ifo-geschaeftsklima-steigt-auf-hoechststand-seit-fruehjahr-2023/100272331.html",
-        "zeit": "24.11., 11:22",
+        "titel": "Deutsches BIP im dritten Quartal nur +0,1 % – Destatis senkt Schnellschätzung",
+        "warum": "Zuvor waren +0,2 % gemeldet; Ausrüstungsinvestitionen (−3,5 %) und Exporte (−1,0 %) bremsen, nur der Staatskonsum (+0,3 %) stützt. Zum Vorjahr +1,1 % (kalenderbereinigt).",
+        "quelle": "Statistisches Bundesamt",
+        "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_409_811.html",
+        "zeit": "25.11., 08:00",
         "medien": [
-          "Handelsblatt",
-          "dpa"
+          "Statistisches Bundesamt",
+          "Dow Jones"
         ]
       }
     ],
@@ -2485,6 +2485,18 @@
       "lage": "Nach dem historischen Nvidia-Tag schlägt das Pendel zurück: Chipwerte fallen weltweit, Asien erlebt einen KI-Ausverkauf. Dazu kehrt die Zollangst zurück, weil die USA neue Strafzölle gegen China, die EU und 14 weitere Länder vorbereiten. Eine Fed-Zinserhöhung im Dezember gilt als sicher; die PCE-Inflation heute um 14:30 Uhr entscheidet, ob der Markt noch mehr Straffung einpreist.",
       "meldungen": [
         {
+          "tag": "Konjunktur",
+          "titel": "Ifo-Geschäftsklima steigt auf 90,6 – höchster Stand seit Frühjahr 2023",
+          "warum": "Siebtes Plus in Folge, getragen von Dienstleistern und Handel; Industrie und Bau trüben sich dagegen ein.",
+          "quelle": "Handelsblatt",
+          "url": "https://www.handelsblatt.com/politik/deutschland/konjunktur-ifo-geschaeftsklima-steigt-auf-hoechststand-seit-fruehjahr-2023/100272331.html",
+          "zeit": "24.11., 11:22",
+          "medien": [
+            "Handelsblatt",
+            "dpa"
+          ]
+        },
+        {
           "tag": "Unternehmen",
           "titel": "Sanofi kauft Insmed für 41 Mrd. Dollar (175 $ je Aktie in bar)",
           "warum": "Größter Pharma-Deal des Jahres: Sanofi sichert sich mit Brinsupri einen Blockbuster gegen das Dupixent-Patentende; Sanofi-Aktie in Paris rund +5,6 %.",
@@ -2563,17 +2575,6 @@
           "zeit": "23.11., 23:57",
           "medien": [
             "Mexico News Daily"
-          ]
-        },
-        {
-          "tag": "Schwellenländer",
-          "titel": "Brasiliens Analysten heben Zins- und Inflationsprognosen für 2027 erneut an",
-          "warum": "Schwellenländer spüren den Druck hoher US-Zinsen.",
-          "quelle": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-23/brazil-analysts-lift-2027-key-rate-and-inflation-forecasts-again",
-          "zeit": "23.11.",
-          "medien": [
-            "Bloomberg"
           ]
         }
       ]
