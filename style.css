@@ -144,3 +144,23 @@ dialog.mehr::backdrop{background:rgba(0,0,0,.72)}
 .mehr-x:hover{border-color:var(--fg)}
 .mehr-lage{margin:0 0 14px;color:var(--fg);font-size:14px;line-height:1.5}
 .src .zeit{color:var(--fg);opacity:.75}
+
+/* Konflikte */
+.wmap{max-width:none;margin:4px 0}
+.wmap path{stroke:#000;stroke-width:.5}
+.wmap path.hit{cursor:pointer}
+.k-nav{margin-bottom:12px}
+.k-head{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;margin-bottom:6px}
+.k-head h3{margin:0;font:600 15px var(--f-display)}
+.stufe{font:11px var(--f-data);border:1px solid;border-radius:3px;padding:0 6px}
+.k-seit{font:11px var(--f-data);color:var(--muted)}
+.k-lage{margin:0 0 12px;font-size:13.5px;line-height:1.5}
+.radar{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.radar li{display:grid;gap:2px}
+.radar .h{font-weight:500}
+.radar .why{color:var(--muted);font-size:13px}
+.lvl{display:inline-block;font:10.5px var(--f-data);text-transform:uppercase;letter-spacing:.06em;border:1px solid var(--line);border-radius:3px;padding:0 5px;margin-right:7px;color:var(--muted);vertical-align:1px}
+.lvl-hoch{color:#d64541;border-color:#d64541}
+.lvl-erhöht{color:#d08a4e;border-color:#a0522d}
+.tv-kmarkt{height:330px}
+#k-routen{margin-top:4px}

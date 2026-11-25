@@ -7,7 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preload" href="fonts/GeneralSans-Variable.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap">
-<link rel="stylesheet" href="style.css?v=11">
+<link rel="stylesheet" href="style.css?v=12">
 </head>
 <body>
 <header class="top">
@@ -21,6 +21,7 @@
 <nav class="tabs" role="tablist" aria-label="Bereiche">
   <button role="tab" id="tab-maerkte" aria-controls="p-maerkte" aria-selected="true">Märkte</button>
   <button role="tab" id="tab-politik" aria-controls="p-politik" aria-selected="false">Politik</button>
+  <button role="tab" id="tab-konflikte" aria-controls="p-konflikte" aria-selected="false">Konflikte</button>
   <button role="tab" id="tab-sport" aria-controls="p-sport" aria-selected="false">Sport</button>
   <button role="tab" id="tab-sonstiges" aria-controls="p-sonstiges" aria-selected="false">Sonstiges</button>
   <span class="updated" id="updated"></span>
@@ -116,6 +117,51 @@
     <p class="src bias-note" id="bias-note"></p>
   </section>
 
+  <!-- KONFLIKTE -->
+  <section class="panel-set" id="p-konflikte" role="tabpanel" aria-labelledby="tab-konflikte" hidden>
+    <div class="grid g-three">
+      <article class="card span2">
+        <h2 data-mehr="konflikte"><span>Konfliktkarte</span><span class="h2-note" id="k-stand"></span></h2>
+        <div class="map wmap" id="k-map"></div>
+        <div class="legend" id="k-map-leg"></div>
+      </article>
+      <article class="card">
+        <h2 data-mehr="radar">Eskalationsradar</h2>
+        <ol class="radar" id="k-radar"></ol>
+      </article>
+      <article class="card span2" id="k-lage-card">
+        <h2>Lage je Konflikt</h2>
+        <div class="league-nav k-nav" id="k-nav" role="group" aria-label="Konflikt wählen"></div>
+        <div id="k-lage"></div>
+      </article>
+      <article class="card">
+        <h2 data-mehr="front"><span>Frontverlauf Ukraine</span><span class="h2-note" id="k-front-stand"></span></h2>
+        <p class="k-lage" id="k-front-lage"></p>
+        <ol class="news" id="k-front"></ol>
+        <p class="src" id="k-front-src"></p>
+      </article>
+      <article class="card">
+        <h2 data-mehr="diplomatie">Diplomatie &amp; Verhandlungen</h2>
+        <ol class="news" id="k-dipl"></ol>
+      </article>
+      <article class="card">
+        <h2 data-mehr="ruestung">Militärhilfe &amp; Rüstung</h2>
+        <ol class="news" id="k-ruest"></ol>
+      </article>
+      <article class="card">
+        <h2 data-mehr="konfliktmarkt">Marktwirkung</h2>
+        <div class="tv tv-kmarkt"><div class="tradingview-widget-container" id="w-kmarkt"></div></div>
+        <p class="k-lage" id="k-markt-lage"></p>
+        <table class="tbl compact" id="k-routen"><thead><tr><th>Route</th><th>Lage</th></tr></thead><tbody></tbody></table>
+      </article>
+      <article class="card span3">
+        <h2 data-mehr="humanitaer">Humanitäre Lage</h2>
+        <div class="scroll"><table class="tbl" id="k-hum"><thead><tr><th>Konflikt</th><th>Tote</th><th>Vertriebene</th><th>Hilfszugang</th></tr></thead><tbody></tbody></table></div>
+        <p class="src" id="k-hum-src"></p>
+      </article>
+    </div>
+  </section>
+
   <!-- SPORT -->
   <section class="panel-set" id="p-sport" role="tabpanel" aria-labelledby="tab-sport" hidden>
     <div class="league-nav" id="league-nav" role="group" aria-label="Liga wählen"></div>
@@ -161,6 +207,6 @@
   <p class="src" id="mehr-stand"></p>
 </dialog>
 
-<script src="app.js?v=11"></script>
+<script src="app.js?v=12"></script>
 </body>
 </html>
