@@ -66,47 +66,63 @@ def yahoo(sym, rng="1y"):
     raise RuntimeError(f"Yahoo {sym}: {last}")
 
 
-CBOE_IDX = {"^VIX": "_VIX"}
+CNBC_SYM = {"^VIX": ".VIX"}
 
 
-def cboe(sym, rng="1y", quote=True):
-    """Cboe-Delayed-Quotes (CDN, ca. 15 Min. verzögert)."""
-    cs = CBOE_IDX.get(sym, sym.replace("-", "."))
-    j = json.loads(get(f"https://cdn.cboe.com/api/global/delayed_quotes/charts/historical/{cs}.json", tries=2))
-    data = j.get("data") or []
+def num(v):
+    try:
+        return float(str(v).replace(",", "").replace("%", "").replace("+", ""))
+    except (TypeError, ValueError):
+        return None
+
+
+def cnbc_quotes(syms):
+    """Aktuelle Kurse (CNBC, Echtzeit bzw. leicht verzögert)."""
+    cs = [CNBC_SYM.get(s, s.replace("-", ".")) for s in syms]
+    url = ("https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols="
+           + "%7C".join(cs) + "&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json")
+    q = json.loads(get(url))["FormattedQuoteResult"]["FormattedQuote"]
+    by = {x.get("symbol"): x for x in q}
+    out = {}
+    for s, c in zip(syms, cs):
+        x = by.get(c) or {}
+        lt = x.get("last_time") or ""
+        out[s] = {"px": num(x.get("last")), "prev": num(x.get("previous_day_closing")),
+                  "chg": num(x.get("change_pct")), "pxdate": lt[:10] or None, "zeit": lt}
+    return out
+
+
+def cnbc_bars(sym, tage):
+    cs = CNBC_SYM.get(sym, sym.replace("-", "."))
+    end = dt.date.today() + dt.timedelta(days=1)
+    start = end - dt.timedelta(days=int(tage * 1.5) + 10)
+    j = json.loads(get(f"https://ts-api.cnbc.com/harmony/app/bars/{cs}/1D/{start:%Y%m%d}000000/{end:%Y%m%d}000000/adjusted/EST5EDT.json", tries=2))
+    bars = (j.get("barData") or {}).get("priceBars") or []
     rows = []
-    for r in data:
-        d, c = r.get("date"), r.get("close")
-        if d and c not in (None, ""):
-            rows.append((str(d)[:10], float(c)))
+    for b in bars:
+        t, c = str(b.get("tradeTime") or ""), num(b.get("close"))
+        if len(t) >= 8 and c:
+            rows.append((f"{t[:4]}-{t[4:6]}-{t[6:8]}", c))
     if not rows:
-        raise RuntimeError(f"Cboe {cs}: leer {str(j)[:200]}")
-    rows.sort()
-    keep = {"5d": 10, "1y": 260, "2y": 520}.get(rng, 520)
-    rows = rows[-keep:]
-    px, pxdate = None, None
-    if quote:
-        try:
-            q = json.loads(get(f"https://cdn.cboe.com/api/global/delayed_quotes/quotes/{cs}.json", tries=2)).get("data") or {}
-            px = q.get("current_price") or q.get("last_trade_price")
-            px = float(px) if px not in (None, "") else None
-            t = q.get("last_trade_time") or ""
-            pxdate = str(t)[:10] or None
-        except Exception as e:  # noqa: BLE001
-            log("Cboe-Quote", cs, e)
-    return {"rows": rows, "px": px, "pxdate": pxdate}
+        raise RuntimeError(f"CNBC {cs}: leer")
+    return sorted(rows)
 
 
 QUELLEN = []
 
 
 def kurse(sym, rng="1y", quote=True):
+    tage = {"5d": 10, "1y": 370, "2y": 740}.get(rng, 740)
     try:
-        r = cboe(sym, rng, quote)
-        QUELLEN.append("Cboe")
-        return r
+        rows = cnbc_bars(sym, tage)
+        px = pxdate = None
+        if quote:
+            q = cnbc_quotes([sym])[sym]
+            px, pxdate = q["px"], q["pxdate"]
+        QUELLEN.append("CNBC")
+        return {"rows": rows, "px": px, "pxdate": pxdate}
     except Exception as e:  # noqa: BLE001
-        log("Cboe", sym, e)
+        log("CNBC", sym, e)
     r = yahoo(sym, rng)
     QUELLEN.append("Yahoo")
     return r
@@ -132,25 +148,45 @@ def now_str():
 
 # ---------------- Sektoren ----------------
 def sektoren():
+    syms = [x for x, _ in SEKTOREN] + ["SPY"]
+    names = dict(SEKTOREN + [("SPY", "S&P 500")])
+    q = cnbc_quotes(syms)
     out = []
-    for sym, name in SEKTOREN + [("SPY", "S&P 500")]:
-        y = kurse(sym, "5d")
-        px, chg, d = tageswechsel(y)
-        out.append({"sym": sym, "name": name, "kurs": round(px, 2), "chg": None if chg is None else round(chg, 2), "datum": d})
+    for sym in syms:
+        x = q[sym]
+        chg = x["chg"]
+        if chg is None and x["px"] and x["prev"]:
+            chg = (x["px"] / x["prev"] - 1) * 100
+        out.append({"sym": sym, "name": names[sym], "kurs": x["px"], "chg": None if chg is None else round(chg, 2), "datum": x["pxdate"]})
+    if all(o["chg"] is None for o in out):
+        raise RuntimeError("keine Kurse")
     spx = out.pop()
     out.sort(key=lambda x: -(x["chg"] if x["chg"] is not None else -99))
-    return {"stand": now_str(), "liste": out, "spx": spx, "quelle": QUELLEN[-1] if QUELLEN else None}
+    return {"stand": now_str(), "liste": out, "spx": spx, "quelle": "CNBC"}
 
 
 # ---------------- FRED ----------------
 def fred(ids, start):
-    txt = get(f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={','.join(ids)}&cosd={start}", tries=4, timeout=90)
+    # FRED antwortet GitHub-Runnern nur per curl/HTTP 1.1 und ohne cosd zuverlässig
+    import subprocess
+    txt = ""
+    for i in range(3):
+        r = subprocess.run(["curl", "-sS", "--http1.1", "-m", "90", "-A", UA,
+                            f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={','.join(ids)}"],
+                           capture_output=True, text=True)
+        if r.returncode == 0 and r.stdout.startswith("observation_date"):
+            txt = r.stdout
+            break
+        log("FRED", r.returncode, r.stderr[:200])
+        time.sleep(5 * (i + 1))
+    if not txt:
+        raise RuntimeError("FRED nicht erreichbar")
     rd = csv.reader(io.StringIO(txt))
     head = next(rd)
     out = {i: [] for i in ids}
     for row in rd:
         for k, v in zip(head[1:], row[1:]):
-            if k in out and v not in ("", "."):
+            if k in out and v not in ("", ".") and row[0] >= start:
                 out[k].append((row[0], float(v)))
     return out
 
@@ -223,7 +259,7 @@ def breadth():
             log("  fehlt", s, e)
             return None
 
-    with ThreadPoolExecutor(max_workers=8) as ex:
+    with ThreadPoolExecutor(max_workers=6) as ex:
         data = [r for r in ex.map(one, syms) if r and len(r) > 30]
     if len(data) < 0.8 * len(syms):
         raise RuntimeError(f"nur {len(data)} von {len(syms)} Titeln geladen")

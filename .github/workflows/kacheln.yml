@@ -14,7 +14,7 @@ on:
         default: true
   push:
     branches: [claude/project-thread-jjih0e]
-    paths: [scripts/kacheln.py, scripts/probe.sh, .github/workflows/kacheln.yml]
+    paths: [scripts/kacheln.py, .github/workflows/kacheln.yml]
 
 permissions:
   contents: write
@@ -32,11 +32,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Probe
-        if: github.event_name == 'push'
-        run: bash scripts/probe.sh
       - name: Daten laden
-        if: github.event_name != 'push'
         env:
           FULL: ${{ (github.event_name != 'schedule' && (github.event_name == 'push' || inputs.full)) && '1' || '0' }}
         run: python scripts/kacheln.py
