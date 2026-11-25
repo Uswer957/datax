@@ -120,7 +120,7 @@ QUELLEN = []
 
 
 def kurse(sym, rng="1y", quote=True):
-    tage = {"5d": 10, "1y": 370, "2y": 740}.get(rng, 740)
+    tage = {"5d": 10, "1y": 370, "2y": 740, "3y": 1110}.get(rng, 740)
     try:
         rows = cnbc_bars(sym, tage)
         px = pxdate = None
@@ -213,15 +213,68 @@ REGIONEN = {
 }
 
 
+def relstufe(pct):
+    """Eigenes Barometer: nur relativ zur eigenen Historie (ca. 3 Jahre)."""
+    if pct < 10:
+        return "Deutlich angespannter als üblich"
+    if pct < 30:
+        return "Angespannter als üblich"
+    if pct < 70:
+        return "Im üblichen Rahmen"
+    return "Ruhiger als üblich"
+
+
+# Offizielle Stressindizes als Eichung. Schwellen: (Niedrig bis, Normal bis, Erhöht bis), darüber Hoch.
+# STLFSI4/OFR: 0 = langjähriger Durchschnitt. CISS: 0..1, Krisenspitzen 2008 ~0,8, 2020 ~0,5, 2022 ~0,35.
+OFFIZIELL = {
+    "us": [("STLFSI4", "St. Louis Fed FSI", "fred", (-0.5, 0.5, 1.5)), ("OFR_US", "OFR FSI · USA", "ofr", (-0.5, 0.5, 1.5))],
+    "eu": [("CISS.D.U2.Z0Z.4F.EC.SS_CIN.IDX", "EZB-CISS · Euroraum", "ecb", (0.1, 0.2, 0.35)),
+           ("OFR_ADV", "OFR FSI · andere Industrieländer", "ofr", (-0.5, 0.5, 1.5))],
+    "de": [("CISS.D.DE.Z0Z.4F.EC.SS_CIN.IDX", "EZB-CISS · Deutschland", "ecb", (0.1, 0.2, 0.35))],
+    "asien": [("CISS.D.CN.Z0Z.4F.EC.SS_CIN.IDX", "EZB-CISS · China", "ecb", (0.1, 0.2, 0.35)),
+              ("OFR_EM", "OFR FSI · Schwellenländer", "ofr", (-0.5, 0.5, 1.5))],
+}
+_OFR = None
+
+
+def ofr():
+    global _OFR
+    if _OFR is None:
+        rows = list(csv.DictReader(io.StringIO(get("https://www.financialresearch.gov/financial-stress-index/data/fsi.csv"))))
+        cols = {"OFR_US": "United States", "OFR_ADV": "Other advanced economies", "OFR_EM": "Emerging markets"}
+        _OFR = {k: [(r["Date"], float(r[c])) for r in rows if r.get(c) not in (None, "")] for k, c in cols.items()}
+    return _OFR
+
+
+def referenz(region):
+    out = []
+    for key, name, src, (t1, t2, t3) in OFFIZIELL[region]:
+        try:
+            if src == "fred":
+                ser = fred([key], "1990-01-01")[key]
+            elif src == "ofr":
+                ser = ofr()[key]
+            else:
+                ser = sorted((d, v) for _, d, v in ecb("CISS/" + key.split(".", 1)[1], "startPeriod=2000-01-01"))
+            d, v = ser[-1]
+            vals = [x for _, x in ser]
+            stufe = "Niedrig" if v < t1 else "Normal" if v < t2 else "Erhöht" if v < t3 else "Hoch"
+            out.append({"name": name, "wert": round(v, 3), "datum": d, "stufe": stufe,
+                        "perz_lang": round(100 * sum(1 for x in vals if x < v) / len(vals)), "seit": ser[0][0][:4]})
+        except Exception as e:  # noqa: BLE001
+            log("Referenz", key, e)
+    return out
+
+
 def stress(region="us"):
     R = REGIONEN[region]
-    start = (dt.date.today() - dt.timedelta(days=760)).isoformat()
+    start = (dt.date.today() - dt.timedelta(days=1130)).isoformat()
     sid = R["spread"][0]
     hy = fred([sid], start)[sid]
     if not hy:
         raise RuntimeError(f"FRED {sid} leer")
     syms = {k: R[k][0] for k in ("risk", "safe", "vol")}
-    ys = {k: kurse(s, "2y") for k, s in syms.items()}
+    ys = {k: kurse(s, "3y") for k, s in syms.items()}
     ser = {k: dict(y["rows"]) for k, y in ys.items()}
     hyd = dict(hy)
     dates = sorted(set(ser["risk"]) & set(ser["safe"]) & set(ser["vol"]))
@@ -242,13 +295,19 @@ def stress(region="us"):
     wert = (cur["risk"] / cur["safe"]) / (cur["vol"] * hy_now / 100)
     hist = [v for _, v in verlauf]
     pct = 100 * sum(1 for v in hist if v < wert) / max(1, len(hist))
-    stufe = "Hoher Stress" if pct < 10 else "Erhöhter Stress" if pct < 30 else "Moderat" if pct < 70 else "Entspannt"
+    stufe = relstufe(pct)
+    try:
+        ref = referenz(region)
+    except Exception as e:  # noqa: BLE001
+        log("Referenz", region, e)
+        ref = []
     teile = [{"rolle": k, "sym": csym(R[k][0]), "name": R[k][1], "wert": round(cur[k], 2)} for k in ("risk", "safe", "vol")]
     teile.append({"rolle": "spread", "sym": sid, "name": R["spread"][1], "wert": round(hy_now, 2), "datum": hy[-1][0]})
     out = {
         "region": region, "stand": now_str(), "wert": round(wert, 3), "perzentil": round(pct), "stufe": stufe,
         "min": round(min(hist), 3), "max": round(max(hist), 3), "median": round(sorted(hist)[len(hist) // 2], 3),
-        "teile": teile, "verlauf": [(d, round(v, 3)) for d, v in verlauf],
+        "teile": teile, "referenz": ref, "jahre": round(len(hist) / 252, 1),
+        "verlauf": [(d, round(v, 3)) for d, v in verlauf],
     }
     if region == "us":  # alte Schlüssel für ältere Seitenstände
         out["komponenten"] = {"HYG": round(cur["risk"], 2), "TLT": round(cur["safe"], 2), "VIX": round(cur["vol"], 2),
