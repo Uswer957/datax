@@ -7,7 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preload" href="fonts/GeneralSans-Variable.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap">
-<link rel="stylesheet" href="style.css?v=14">
+<link rel="stylesheet" href="style.css?v=15">
 </head>
 <body>
 <header class="top">
@@ -17,6 +17,11 @@
   </div>
   <div class="clocks" id="clocks" aria-label="Weltbörsen"></div>
 </header>
+
+<section class="briefing" id="briefing" aria-labelledby="br-h" hidden>
+  <h2 id="br-h"><span>Briefing des Tages</span><span class="h2-note" id="br-stand"></span></h2>
+  <ol class="br-list" id="br-list"></ol>
+</section>
 
 <nav class="tabs" role="tablist" aria-label="Bereiche">
   <button role="tab" id="tab-maerkte" aria-controls="p-maerkte" aria-selected="true">Märkte</button>
@@ -39,6 +44,15 @@
           <div class="watch-list" id="m-watch"></div>
           <div class="tv tv-watch"><div class="tradingview-widget-container" id="w-watch"></div></div>
         </div>
+      </article>
+      <article class="card full" id="nb-card">
+        <h2><span class="kt">Notenbank-Uhr<button type="button" class="info" aria-label="Erklärung" data-tip="Nächste Zinsentscheidung von Fed, EZB, Bank of England und Bank of Japan mit Countdown (Berliner Zeit). Die Balken zeigen, mit welcher Wahrscheinlichkeit der Markt welches Ergebnis einpreist, abgeleitet aus Zinsfutures und Swaps (z. B. CME FedWatch). Das ist eine Markterwartung, keine Prognose der Notenbank. Werte werden bei den Läufen aktualisiert.">?</button></span><span class="h2-note" id="nb-stand"></span></h2>
+        <div class="nb-grid" id="nb-grid"></div>
+      </article>
+      <article class="card full" id="wk-card">
+        <h2><span class="kt">Wirtschaftskalender<button type="button" class="info" aria-label="Erklärung" data-tip="Die wichtigsten Konjunkturdaten der Woche mit Konsens (Erwartung der Analysten), Vorwert und tatsächlichem Ergebnis. Der Pfeil zeigt, ob das Ergebnis über oder unter dem Konsens lag; die Lesart sagt, was das für Zinsen und Märkte bedeutet. Zeiten in Berliner Zeit. Den vollständigen Kalender gibt es darunter zum Aufklappen.">?</button></span><span class="h2-note" id="wk-stand"></span></h2>
+        <div class="scroll"><table class="tbl wk" id="wk"><thead><tr><th>Zeit</th><th>Land</th><th>Termin</th><th class="r">Konsens</th><th class="r">Vorher</th><th class="r">Ist</th></tr></thead><tbody></tbody></table></div>
+        <details class="wk-full" id="wk-full"><summary>Vollständiger Kalender (TradingView)</summary><div class="tv tv-cal"><div class="tradingview-widget-container" id="w-cal"></div></div></details>
       </article>
       <article class="card span2 kx" id="k-sek">
         <h2><span class="kt">Sector Heatmap<button type="button" class="info" aria-label="Erklärung" data-tip="S&amp;P-500-Sektoren auf einen Blick, gemessen an den SPDR-Sektor-ETFs (XLK, XLF …). Angezeigt ist die Kursänderung seit dem letzten Schlusskurs. Je kräftiger die Farbe, desto größer die Bewegung: grün = Gewinn, rot = Verlust. Sortiert vom stärksten zum schwächsten Sektor.">?</button></span><span class="h2-note" id="k-sek-stand"></span></h2>
@@ -89,10 +103,6 @@
       <article class="card">
         <h2 data-mehr="unternehmen">Unternehmenstermine</h2>
         <table class="tbl" id="m-corp"><thead><tr><th>Datum</th><th>Termin</th></tr></thead><tbody></tbody></table>
-      </article>
-      <article class="card full">
-        <h2>Wirtschaftskalender</h2>
-        <div class="tv tv-cal"><div class="tradingview-widget-container" id="w-cal"></div></div>
       </article>
     </div>
   </section>
@@ -226,6 +236,6 @@
   <p class="src" id="mehr-stand"></p>
 </dialog>
 
-<script src="app.js?v=14"></script>
+<script src="app.js?v=15"></script>
 </body>
 </html>

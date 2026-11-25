@@ -98,7 +98,12 @@
   widget("w-bonds", "market-quotes", quotes("Anleihe-Kurse", [["OANDA:DE10YBEUR", "Bund 10J"], ["OANDA:USB10YUSD", "US T-Note 10J"], ["OANDA:UK10YBGBP", "UK Gilt 10J"]]));
   widget("w-idx", "market-quotes", quotes("Indizes", [["INDEX:DEU40", "DAX"], ["FOREXCOM:SPXUSD", "S&P 500"], ["FOREXCOM:NSXUSD", "Nasdaq 100"], ["INDEX:NKY", "Nikkei 225"], ["INDEX:HSI", "Hang Seng"], ["BITSTAMP:BTCUSD", "Bitcoin"], ["BITSTAMP:ETHUSD", "Ethereum"]]));
   widget("w-kmarkt", "market-quotes", quotes("Konflikt-Barometer", [["TVC:UKOIL", "Brent"], ["TVC:GOLD", "Gold"], ["XETR:RHM", "Rheinmetall"], ["XETR:HAG", "Hensoldt"], ["NYSE:LMT", "Lockheed Martin"], ["XETR:HLAG", "Hapag-Lloyd"], ["NYSE:FRO", "Frontline (Tanker)"]]));
-  widget("w-cal", "events", { width: "100%", height: "100%", importanceFilter: "0,1", countryFilter: "us,eu,de,cn,gb,jp" });
+  // Vollständiger Kalender erst beim Aufklappen laden
+  document.getElementById("wk-full").addEventListener("toggle", function once() {
+    if (!this.open) return;
+    this.removeEventListener("toggle", once);
+    widget("w-cal", "events", { width: "100%", height: "100%", importanceFilter: "0,1", countryFilter: "us,eu,de,cn,gb,jp" });
+  });
 
   /* ---------- Inhalte von Claude (data.json) ---------- */
   let watchSig = "";
@@ -556,6 +561,112 @@
   $("mehr-x").addEventListener("click", () => dlg.close());
   dlg.addEventListener("click", (ev) => { if (ev.target === dlg) dlg.close(); });
 
+
+  /* ---------- Briefing, Notenbank-Uhr, Wirtschaftskalender (data.json) ---------- */
+  const BER = "Europe/Berlin";
+  const fmtDay = new Intl.DateTimeFormat("de-DE", { timeZone: BER, weekday: "short", day: "2-digit", month: "2-digit" });
+  const fmtTime = new Intl.DateTimeFormat("de-DE", { timeZone: BER, hour: "2-digit", minute: "2-digit" });
+  const dayKey = (d) => new Intl.DateTimeFormat("en-CA", { timeZone: BER }).format(d);
+  function renderBriefing(b) {
+    const box = $("briefing");
+    const list = (b && b.saetze) || [];
+    box.hidden = !list.length;
+    const ol = $("br-list"); ol.textContent = "";
+    list.forEach((x) => {
+      const li = document.createElement("li");
+      if (typeof x === "string") li.textContent = x;
+      else {
+        if (x.tag) li.appendChild(txt("span", "br-tag", x.tag));
+        li.appendChild(document.createTextNode(x.text || ""));
+      }
+      ol.appendChild(li);
+    });
+    $("br-stand").textContent = (b && b.stand) || "";
+  }
+
+  let NB = [];
+  function countdown(ms) {
+    if (ms <= 0) return "jetzt";
+    const m = Math.floor(ms / 60000), d = Math.floor(m / 1440), h = Math.floor((m % 1440) / 60), mi = m % 60;
+    return d ? d + " T " + h + " Std" : h ? h + " Std " + mi + " Min" : mi + " Min";
+  }
+  function tickNB() {
+    const now = Date.now();
+    NB.forEach(({ t, el }) => { el.textContent = isNaN(t) ? "–" : (t - now < -6 * 3600e3 ? "entschieden" : "in " + countdown(t - now)); });
+  }
+  function renderNB(n) {
+    const g = $("nb-grid"); g.textContent = ""; NB = [];
+    const banken = (n && n.banken) || [];
+    $("nb-stand").textContent = (n && n.stand) || "";
+    if (!banken.length) { g.appendChild(txt("p", "empty", "Wird beim nächsten Lauf gefüllt.")); return; }
+    banken.forEach((b) => {
+      const c = txt("div", "nb", "");
+      const head = txt("div", "nb-h", "");
+      head.appendChild(txt("span", "nb-k", b.kuerzel || b.name));
+      head.appendChild(txt("span", "nb-z", b.zins || ""));
+      c.appendChild(head);
+      const t = Date.parse(b.termin);
+      const cd = txt("div", "nb-cd", "");
+      c.appendChild(cd); NB.push({ t, el: cd });
+      const when = isNaN(t) ? (b.termin || "") : fmtDay.format(t) + ", " + fmtTime.format(t) + " Uhr" + (b.zeit_ca ? " (ca.)" : "");
+      c.appendChild(txt("div", "nb-d", when));
+      const sz = txt("div", "nb-sz", "");
+      const top = Math.max(0, ...(b.szenarien || []).map((s) => +s.p || 0));
+      (b.szenarien || []).forEach((s) => {
+        const r = txt("div", "nb-r" + ((+s.p || 0) === top ? " top" : ""), "");
+        r.appendChild(txt("span", "nb-w", s.was));
+        const bar = txt("span", "nb-bar", ""); const fill = txt("i", "", ""); fill.style.width = Math.max(0, Math.min(100, +s.p || 0)) + "%"; bar.appendChild(fill);
+        r.appendChild(bar);
+        r.appendChild(txt("span", "nb-p", (Math.round((+s.p || 0) * 10) / 10).toLocaleString("de-DE") + " %"));
+        sz.appendChild(r);
+      });
+      c.appendChild(sz);
+      if (b.notiz) c.appendChild(txt("p", "nb-n", b.notiz));
+      if (b.quelle) c.appendChild(srcLine({ quelle: b.quelle, url: b.url }));
+      g.appendChild(c);
+    });
+    tickNB();
+  }
+  setInterval(tickNB, 30 * 1000);
+
+  function renderWK(k) {
+    const tb = $("wk").querySelector("tbody"); tb.textContent = "";
+    $("wk-stand").textContent = (k && k.stand) || "";
+    const list = ((k && k.termine) || []).slice().sort((a, b) => Date.parse(a.zeit) - Date.parse(b.zeit));
+    if (!list.length) { const tr = document.createElement("tr"); const td = txt("td", "empty", "Wird beim nächsten Lauf gefüllt."); td.colSpan = 6; tr.appendChild(td); tb.appendChild(tr); return; }
+    const today = dayKey(new Date());
+    let last = "";
+    list.forEach((e) => {
+      const t = Date.parse(e.zeit);
+      const dk = isNaN(t) ? "" : dayKey(t);
+      if (dk !== last) {
+        last = dk;
+        const tr = txt("tr", "wk-day" + (dk === today ? " today" : ""), "");
+        const td = txt("td", "", isNaN(t) ? "" : (dk === today ? "Heute · " : "") + fmtDay.format(t)); td.colSpan = 6; tr.appendChild(td); tb.appendChild(tr);
+      }
+      const done = e.ist != null && e.ist !== "";
+      const tr = txt("tr", done ? "done" : (!isNaN(t) && t < Date.now() ? "due" : ""), "");
+      tr.appendChild(txt("td", "date", isNaN(t) ? "" : fmtTime.format(t)));
+      tr.appendChild(txt("td", "wk-l", e.land || ""));
+      const w = txt("td", "wk-w", "");
+      const imp = Math.max(1, Math.min(3, +e.wichtig || 1));
+      w.appendChild(txt("span", "wk-imp", "●".repeat(imp) + "○".repeat(3 - imp)));
+      w.appendChild(document.createTextNode(e.was || ""));
+      if (e.lesart) w.appendChild(txt("span", "wk-les", e.lesart));
+      tr.appendChild(w);
+      tr.appendChild(txt("td", "r", e.prognose || "–"));
+      tr.appendChild(txt("td", "r muted", e.vorher || "–"));
+      const ist = txt("td", "r ist", done ? e.ist : "");
+      if (done && e.abweichung) {
+        const up = e.abweichung === "hoeher", dn = e.abweichung === "tiefer";
+        ist.appendChild(txt("span", "wk-a", up ? " ▲" : dn ? " ▼" : " ="));
+        ist.title = up ? "über Konsens" : dn ? "unter Konsens" : "wie erwartet";
+      }
+      tr.appendChild(ist);
+      tb.appendChild(tr);
+    });
+  }
+
   let lastData = null;
   function render(d) {
     lastData = d;
@@ -563,6 +674,9 @@
     const m = d.maerkte || {};
     newsList("m-headlines", m.schlagzeilen);
     renderWatch(m.watchlist);
+    renderBriefing(d.briefing);
+    renderNB(m.notenbanken);
+    renderWK(m.kalender);
     rows("m-debt", m.verschuldung, [["land"], ["quote", "r"], ["absolut", "r"]]);
     $("m-debt-src").textContent = m.verschuldung_quelle || "";
     rows("m-yields", m.renditen, [["land"], ["rendite", "r"]]);
