@@ -301,6 +301,241 @@
           ]
         }
       ]
+    },
+    "notenbanken": {
+      "stand": "Markterwartung 23.–24.11.",
+      "banken": [
+        {
+          "kuerzel": "Fed",
+          "name": "Federal Reserve",
+          "zins": "3,75–4,00 %",
+          "termin": "2026-12-09T20:00:00+01:00",
+          "szenarien": [
+            {
+              "was": "+25 bp",
+              "p": 95.3
+            },
+            {
+              "was": "Halten",
+              "p": 4.7
+            }
+          ],
+          "notiz": "PCE heute und der Arbeitsmarktbericht am 4.12. sind die letzten großen Daten vor der Sitzung; eine Erhöhung um 50 bp ist ausgepreist.",
+          "quelle": "CME FedWatch via TheStreet, 24.11.",
+          "url": "https://www.thestreet.com/fed/nvidia-rally-fed-rate-hike-bets-december-2026"
+        },
+        {
+          "kuerzel": "EZB",
+          "name": "Europäische Zentralbank",
+          "zins": "Einlagensatz 2,50 %",
+          "termin": "2026-12-17T14:15:00+01:00",
+          "szenarien": [
+            {
+              "was": "+25 bp",
+              "p": 82
+            },
+            {
+              "was": "Halten",
+              "p": 18
+            }
+          ],
+          "notiz": "Hike-Erwartung binnen vier Wochen von 47 % auf 82 % gestiegen; Reuters-Umfrage unter Ökonomen erwartet 2,75 %.",
+          "quelle": "WatchTower, 24.11.",
+          "url": "https://watchtowerterminal.com/ecb-preview-december-2026/"
+        },
+        {
+          "kuerzel": "BoE",
+          "name": "Bank of England",
+          "zins": "Bank Rate 4,00 %",
+          "termin": "2026-12-17T13:00:00+01:00",
+          "szenarien": [
+            {
+              "was": "+25 bp",
+              "p": 80.2
+            },
+            {
+              "was": "Halten",
+              "p": 19.8
+            }
+          ],
+          "notiz": "Am 5.11. mit 8:1 Stimmen auf 4 % erhöht; Mann wollte 50 bp.",
+          "quelle": "Central Bank Watch, 23.11.",
+          "url": "https://centralbank.watch/bank-of-england/"
+        },
+        {
+          "kuerzel": "BoJ",
+          "name": "Bank of Japan",
+          "zins": "1,25 %",
+          "termin": "2026-12-18T04:00:00+01:00",
+          "zeit_ca": true,
+          "szenarien": [
+            {
+              "was": "+25 bp",
+              "p": 51.5
+            },
+            {
+              "was": "Halten",
+              "p": 48.5
+            }
+          ],
+          "notiz": "Quellen gehen auseinander: TONA-Futures 52 %, OIS-Modell und Kalshi rund 85 % für eine Erhöhung. Uhrzeit nicht fest, meist gegen Mittag Tokio.",
+          "quelle": "Central Bank Watch, 23.11.",
+          "url": "https://centralbank.watch/bank-of-japan/"
+        }
+      ]
+    },
+    "kalender": {
+      "stand": "25.11., 10:00 Uhr",
+      "termine": [
+        {
+          "zeit": "2026-11-23T15:45:00+01:00",
+          "land": "US",
+          "wichtig": 2,
+          "was": "S&P Global Einkaufsmanager Industrie (Nov., vorl.)",
+          "prognose": "54,5",
+          "vorher": "54,9",
+          "ist": "54,5",
+          "abweichung": "gleich"
+        },
+        {
+          "zeit": "2026-11-23T15:45:00+01:00",
+          "land": "US",
+          "wichtig": 2,
+          "was": "S&P Global Einkaufsmanager Dienste (Nov., vorl.)",
+          "prognose": "55,6",
+          "vorher": "56,1",
+          "ist": "54,7",
+          "abweichung": "tiefer",
+          "lesart": "Dienstleister kühlen stärker ab als erwartet."
+        },
+        {
+          "zeit": "2026-11-25T14:30:00+01:00",
+          "land": "US",
+          "wichtig": 3,
+          "was": "PCE-Kerninflation Okt. (J/J)",
+          "prognose": "3,2 %",
+          "vorher": "3,1 %",
+          "ist": null,
+          "lesart": "Bevorzugtes Inflationsmaß der Fed – letzter Preisdatenpunkt vor dem 9.12."
+        },
+        {
+          "zeit": "2026-11-25T14:30:00+01:00",
+          "land": "US",
+          "wichtig": 3,
+          "was": "PCE-Kerninflation Okt. (M/M)",
+          "prognose": "0,3 %",
+          "vorher": "0,3 %",
+          "ist": null
+        },
+        {
+          "zeit": "2026-11-25T14:30:00+01:00",
+          "land": "US",
+          "wichtig": 2,
+          "was": "PCE-Inflation Okt. (J/J)",
+          "prognose": "3,8 %",
+          "vorher": "3,6 %",
+          "ist": null
+        },
+        {
+          "zeit": "2026-11-25T14:30:00+01:00",
+          "land": "US",
+          "wichtig": 3,
+          "was": "BIP Q3, 2. Schätzung (annualisiert)",
+          "prognose": "3,5 %",
+          "vorher": "3,4 %",
+          "ist": null
+        },
+        {
+          "zeit": "2026-11-25T14:30:00+01:00",
+          "land": "US",
+          "wichtig": 2,
+          "was": "Erstanträge Arbeitslosenhilfe",
+          "prognose": "201 Tsd.",
+          "vorher": "203 Tsd.",
+          "ist": null
+        },
+        {
+          "zeit": "2026-11-25T14:30:00+01:00",
+          "land": "US",
+          "wichtig": 2,
+          "was": "Auftragseingang langlebige Güter Okt. (M/M)",
+          "prognose": "0,7 %",
+          "vorher": "1,8 %",
+          "ist": null
+        },
+        {
+          "zeit": "2026-11-25T14:30:00+01:00",
+          "land": "US",
+          "wichtig": 1,
+          "was": "Private Konsumausgaben Okt. (M/M)",
+          "prognose": "0,4 %",
+          "vorher": "0,5 %",
+          "ist": null
+        },
+        {
+          "zeit": "2026-11-25T16:00:00+01:00",
+          "land": "US",
+          "wichtig": 1,
+          "was": "Neubauverkäufe Okt.",
+          "prognose": "650 Tsd.",
+          "vorher": "676 Tsd.",
+          "ist": null
+        },
+        {
+          "zeit": "2026-11-25T20:00:00+01:00",
+          "land": "US",
+          "wichtig": 2,
+          "was": "Beige Book der Fed",
+          "prognose": "–",
+          "vorher": "–",
+          "ist": null
+        },
+        {
+          "zeit": "2026-11-27T14:30:00+01:00",
+          "land": "US",
+          "wichtig": 1,
+          "was": "Handelsbilanz Waren Okt.",
+          "prognose": "−131 Mrd. $",
+          "vorher": "−135,1 Mrd. $",
+          "ist": null
+        },
+        {
+          "zeit": "2026-12-01T16:00:00+01:00",
+          "land": "US",
+          "wichtig": 3,
+          "was": "ISM Einkaufsmanager Industrie (Nov.)",
+          "prognose": null,
+          "vorher": "55,5",
+          "ist": null
+        },
+        {
+          "zeit": "2026-12-01T16:00:00+01:00",
+          "land": "US",
+          "wichtig": 2,
+          "was": "JOLTS offene Stellen (Okt.)",
+          "prognose": null,
+          "vorher": "7,52 Mio.",
+          "ist": null
+        },
+        {
+          "zeit": "2026-12-03T16:00:00+01:00",
+          "land": "US",
+          "wichtig": 2,
+          "was": "ISM Einkaufsmanager Dienste (Nov.)",
+          "prognose": null,
+          "vorher": "54,5",
+          "ist": null
+        },
+        {
+          "zeit": "2026-12-04T14:30:00+01:00",
+          "land": "US",
+          "wichtig": 3,
+          "was": "Arbeitsmarktbericht Nov. (neue Stellen)",
+          "prognose": null,
+          "vorher": "165 Tsd.",
+          "ist": null
+        }
+      ]
     }
   },
   "politik": {
@@ -3610,5 +3845,30 @@
     "markt": {},
     "humanitaer": [],
     "radar": []
+  },
+  "briefing": {
+    "stand": "25.11., 10:00 Uhr",
+    "saetze": [
+      {
+        "tag": "Märkte",
+        "text": "Die KI-Rally kippt: Asiens Chipwerte brechen ein (Kospi über −6 %, Tokyo Electron −13,5 %), nachdem schon der US-Chipindex −7,9 % verlor – der Dow hielt dagegen erstmals über 50.000."
+      },
+      {
+        "tag": "Daten",
+        "text": "Um 14:30 Uhr kommen PCE-Inflation, US-BIP und Arbeitsmarktdaten gebündelt vor Thanksgiving – der Konsens erwartet eine Kernrate von 3,2 %, jede Abweichung verschiebt die Zinswetten."
+      },
+      {
+        "tag": "Zinsen",
+        "text": "Die Fed-Erhöhung am 9. Dezember gilt mit rund 95 % als ausgemacht; auch EZB und Bank of England sollen am 17. Dezember nachziehen."
+      },
+      {
+        "tag": "Handel",
+        "text": "Washington bereitet neue Zölle gegen China, die EU und 14 weitere Länder vor, um die vom Supreme Court gekippten Zölle zu ersetzen – Höhe und Termin sind noch offen."
+      },
+      {
+        "tag": "Deutschland",
+        "text": "Destatis senkt das BIP-Wachstum im dritten Quartal auf +0,1 %, während der Bundestag diese Woche einen Rekordhaushalt für 2027 berät."
+      }
+    ]
   }
 }
