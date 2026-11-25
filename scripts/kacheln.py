@@ -66,7 +66,15 @@ def yahoo(sym, rng="1y"):
     raise RuntimeError(f"Yahoo {sym}: {last}")
 
 
-CNBC_SYM = {"^VIX": ".VIX"}
+CNBC_SYM = {"^VIX": ".VIX", "^V2TX": ".V2TX", "^VHSI": ".VHSI"}
+
+
+def csym(s):
+    """Yahoo-Schreibweise -> CNBC (BRK-B -> BRK.B, Börsenkürzel wie IHYG-GB bleiben)."""
+    if s in CNBC_SYM:
+        return CNBC_SYM[s]
+    a, _, b = s.partition("-")
+    return f"{a}.{b}" if b and len(b) == 1 else s
 
 
 def num(v):
@@ -78,7 +86,7 @@ def num(v):
 
 def cnbc_quotes(syms):
     """Aktuelle Kurse (CNBC, Echtzeit bzw. leicht verzögert)."""
-    cs = [CNBC_SYM.get(s, s.replace("-", ".")) for s in syms]
+    cs = [csym(s) for s in syms]
     url = ("https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols="
            + "%7C".join(cs) + "&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json")
     q = json.loads(get(url))["FormattedQuoteResult"]["FormattedQuote"]
@@ -93,7 +101,7 @@ def cnbc_quotes(syms):
 
 
 def cnbc_bars(sym, tage):
-    cs = CNBC_SYM.get(sym, sym.replace("-", "."))
+    cs = csym(sym)
     end = dt.date.today() + dt.timedelta(days=1)
     start = end - dt.timedelta(days=int(tage * 1.5) + 10)
     j = json.loads(get(f"https://ts-api.cnbc.com/harmony/app/bars/{cs}/1D/{start:%Y%m%d}000000/{end:%Y%m%d}000000/adjusted/EST5EDT.json", tries=2))
@@ -192,13 +200,29 @@ def fred(ids, start):
 
 
 # ---------------- Stress ----------------
-def stress():
+REGIONEN = {
+    # risk = Hochzins-ETF, safe = lange Staatsanleihen, vol = Volatilitätsindex, spread = ICE-BofA-OAS (FRED)
+    "us": {"risk": ("HYG", "HYG (US-Hochzins-ETF)"), "safe": ("TLT", "TLT (US-Staatsanl. 20J+)"),
+           "vol": ("^VIX", "VIX (S&P 500)"), "spread": ("BAMLH0A0HYM2", "US-HY-Spread")},
+    "eu": {"risk": ("IHYG-GB", "IHYG (Euro-Hochzins-ETF)"), "safe": ("IBGL-GB", "IBGL (Euro-Staatsanl. 15–30J)"),
+           "vol": ("^V2TX", "VSTOXX (Euro Stoxx 50)"), "spread": ("BAMLHE00EHYIOAS", "Euro-HY-Spread")},
+    "asien": {"risk": ("HYEM", "HYEM (EM-Hochzins-ETF)"), "safe": ("BWX", "BWX (int. Staatsanleihen)"),
+              "vol": ("^VHSI", "VHSI (Hang Seng)"), "spread": ("BAMLEMRACRPIASIAOAS", "Asien-Unternehmens-Spread")},
+}
+
+
+def stress(region="us"):
+    R = REGIONEN[region]
     start = (dt.date.today() - dt.timedelta(days=760)).isoformat()
-    hy = fred(["BAMLH0A0HYM2"], start)["BAMLH0A0HYM2"]
-    ys = {s: kurse(s, "2y") for s in ("HYG", "TLT", "^VIX")}
-    ser = {s: dict(y["rows"]) for s, y in ys.items()}
+    sid = R["spread"][0]
+    hy = fred([sid], start)[sid]
+    if not hy:
+        raise RuntimeError(f"FRED {sid} leer")
+    syms = {k: R[k][0] for k in ("risk", "safe", "vol")}
+    ys = {k: kurse(s, "2y") for k, s in syms.items()}
+    ser = {k: dict(y["rows"]) for k, y in ys.items()}
     hyd = dict(hy)
-    dates = sorted(set(ser["HYG"]) & set(ser["TLT"]) & set(ser["^VIX"]))
+    dates = sorted(set(ser["risk"]) & set(ser["safe"]) & set(ser["vol"]))
     verlauf, last_hy = [], None
     hy_dates = sorted(hyd)
     j = 0
@@ -208,30 +232,26 @@ def stress():
             j += 1
         if last_hy is None:
             continue
-        v = (ser["HYG"][d] / ser["TLT"][d]) / (ser["^VIX"][d] * last_hy / 100)
-        verlauf.append((d, v))
-    # aktueller Wert mit letzten Kursen
-    cur = {s: tageswechsel(y)[0] for s, y in ys.items()}
+        verlauf.append((d, (ser["risk"][d] / ser["safe"][d]) / (ser["vol"][d] * last_hy / 100)))
+    if len(verlauf) < 100:
+        raise RuntimeError(f"{region}: zu wenig Historie ({len(verlauf)})")
+    cur = {k: tageswechsel(y)[0] for k, y in ys.items()}
     hy_now = hy[-1][1]
-    wert = (cur["HYG"] / cur["TLT"]) / (cur["^VIX"] * hy_now / 100)
+    wert = (cur["risk"] / cur["safe"]) / (cur["vol"] * hy_now / 100)
     hist = [v for _, v in verlauf]
     pct = 100 * sum(1 for v in hist if v < wert) / max(1, len(hist))
-    if pct < 10:
-        stufe = "Hoher Stress"
-    elif pct < 30:
-        stufe = "Erhöhter Stress"
-    elif pct < 70:
-        stufe = "Moderat"
-    else:
-        stufe = "Entspannt"
-    last_year = [(d, round(v, 3)) for d, v in verlauf]
-    return {
-        "stand": now_str(), "wert": round(wert, 3), "perzentil": round(pct), "stufe": stufe,
+    stufe = "Hoher Stress" if pct < 10 else "Erhöhter Stress" if pct < 30 else "Moderat" if pct < 70 else "Entspannt"
+    teile = [{"rolle": k, "sym": csym(R[k][0]), "name": R[k][1], "wert": round(cur[k], 2)} for k in ("risk", "safe", "vol")]
+    teile.append({"rolle": "spread", "sym": sid, "name": R["spread"][1], "wert": round(hy_now, 2), "datum": hy[-1][0]})
+    out = {
+        "region": region, "stand": now_str(), "wert": round(wert, 3), "perzentil": round(pct), "stufe": stufe,
         "min": round(min(hist), 3), "max": round(max(hist), 3), "median": round(sorted(hist)[len(hist) // 2], 3),
-        "komponenten": {"HYG": round(cur["HYG"], 2), "TLT": round(cur["TLT"], 2), "VIX": round(cur["^VIX"], 2),
-                         "HY": round(hy_now, 2), "HY_datum": hy[-1][0]},
-        "verlauf": last_year,
+        "teile": teile, "verlauf": [(d, round(v, 3)) for d, v in verlauf],
     }
+    if region == "us":  # alte Schlüssel für ältere Seitenstände
+        out["komponenten"] = {"HYG": round(cur["risk"], 2), "TLT": round(cur["safe"], 2), "VIX": round(cur["vol"], 2),
+                              "HY": round(hy_now, 2), "HY_datum": hy[-1][0]}
+    return out
 
 
 # ---------------- Breadth ----------------
@@ -404,7 +424,8 @@ def main():
     except Exception:  # noqa: BLE001
         alt = {}
     full = os.environ.get("FULL") == "1" or dt.datetime.now(dt.timezone.utc).minute < 30 or "breadth" not in alt
-    jobs = [("sektoren", sektoren), ("stress", stress), ("us_kurve", us_kurve), ("ezb", ezb)]
+    jobs = [("sektoren", sektoren), ("stress", stress), ("stress_eu", lambda: stress("eu")),
+            ("stress_asien", lambda: stress("asien")), ("us_kurve", us_kurve), ("ezb", ezb)]
     if full:
         jobs.append(("breadth", breadth))
     neu = dict(alt)
