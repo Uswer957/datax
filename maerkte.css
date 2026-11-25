@@ -1,0 +1,58 @@
+/* Märkte-Tab: Abschnitte, Kurslisten, Anleihen & Verschuldung, Watchlist-Kurse */
+.m-jump{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 4px}
+.m-jump a{font:500 12px var(--f-data);color:var(--muted);text-decoration:none;border:1px solid var(--line);border-radius:3px;padding:4px 9px;background:var(--panel)}
+.m-jump a:hover{color:var(--fg);border-color:#555}
+.m-sec{display:flex;align-items:center;gap:10px;font:600 13px var(--f-display);letter-spacing:.14em;text-transform:uppercase;color:var(--fg);margin:26px 0 10px;padding-bottom:6px;border-bottom:1px solid var(--line);scroll-margin-top:12px}
+.m-sec span{font:500 11px var(--f-data);letter-spacing:0;color:var(--bg);background:var(--fg);border-radius:3px;padding:1px 6px}
+#p-maerkte .m-sec:first-of-type{margin-top:16px}
+
+/* Kurslisten */
+.ql{display:grid}
+.qr{display:grid;grid-template-columns:minmax(0,1fr) 96px 92px 70px 62px;gap:10px;align-items:center;padding:5px 0;border-bottom:1px solid var(--line);font-size:13px}
+.qr:last-child{border-bottom:0}
+.qr.qh{font:500 11px var(--f-data);color:var(--muted);padding-top:0}
+.qr .r{text-align:right}
+.qn{font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.qs svg{display:block}
+.qp,.qc,.q3{font:13px var(--f-data);font-variant-numeric:tabular-nums;white-space:nowrap}
+.qc{border-radius:3px;padding:1px 5px}
+.qc.up{background:rgba(63,185,80,.13)}.qc.dn{background:rgba(248,81,73,.13)}
+.q3{font-size:12px}
+.fl{color:var(--muted)}
+.g-three .qr{grid-template-columns:minmax(0,1fr) 64px 82px 66px;gap:8px}
+.g-three .qr .q3,.g-three .qr.qh span:last-child{display:none}
+.g-three .qs svg{width:64px}
+@media (max-width:1100px){.g-three{grid-template-columns:1fr 1fr}.g-three>.qcard:last-child{grid-column:1/-1}}
+@media (max-width:720px){.g-three{grid-template-columns:1fr}}
+@media (max-width:480px){.qr{grid-template-columns:minmax(0,1fr) 56px 80px 64px;gap:6px}.qr .q3,.qr.qh span:last-child{display:none}.qs svg{width:56px}}
+
+/* Anleihen & Verschuldung */
+.stt{display:grid;gap:2px}
+.stt-leg{display:flex;flex-wrap:wrap;gap:4px 16px;font:11px var(--f-data);color:var(--muted);margin-bottom:6px}
+.stt-leg i{display:inline-block;width:12px;height:8px;border-radius:2px;margin-right:6px;vertical-align:0}
+.b-y{background:#5b9cf5}.b-d{background:#b0b0b0}
+.stt-r{padding:7px 0 8px;border-bottom:1px solid var(--line)}
+.stt-r:last-child{border-bottom:0}
+.stt-h{display:flex;align-items:baseline;gap:8px;margin-bottom:4px}
+.stt-l{font-weight:600}
+.stt-c{font:11px var(--f-data);color:var(--muted)}
+.stt-sp{margin-left:auto;font:11px var(--f-data);color:var(--muted)}
+.stt-b{display:grid;grid-template-columns:62px minmax(0,1fr) 64px 58px 70px;gap:8px;align-items:center;font:12px var(--f-data);padding:1px 0}
+.stt-k{color:var(--muted);font-size:11px}
+.stt-t{height:8px;background:#1d1d1d;border-radius:2px;overflow:hidden}
+.stt-t i{display:block;height:100%;border-radius:2px}
+.stt-v{text-align:right;font-variant-numeric:tabular-nums;color:var(--fg)}
+.stt-d{text-align:right;font-size:11px}
+.stt-a{grid-column:span 2;text-align:right;font-size:11px;color:var(--muted);white-space:nowrap}
+.stt-s svg{display:block;margin-left:auto}
+@media (max-width:480px){.stt-b{grid-template-columns:56px minmax(0,1fr) 58px 52px}.stt-s{display:none}.stt-a{grid-column:2/-1}}
+
+/* Watchlist ohne Widget: Kurs neben dem Namen */
+.watch .watch-list{grid-template-columns:repeat(3,minmax(0,1fr))}
+@media (max-width:1100px){.watch .watch-list{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:620px){.watch .watch-list{grid-template-columns:1fr}}
+.wgroup li{grid-template-columns:minmax(0,1fr) auto;column-gap:10px}
+.wgroup li .g{grid-column:1/-1}
+.wq{display:flex;gap:6px;align-items:baseline;font:12px var(--f-data);font-variant-numeric:tabular-nums;white-space:nowrap}
+.wq-c{border-radius:3px;padding:0 4px}
+.wq-c.up{background:rgba(63,185,80,.13)}.wq-c.dn{background:rgba(248,81,73,.13)}

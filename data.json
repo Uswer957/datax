@@ -1,5 +1,5 @@
 {
-  "aktualisiert": "25.11.2026, 09:12 Uhr",
+  "aktualisiert": "25.11.2026, 10:09 Uhr",
   "maerkte": {
     "schlagzeilen": [
       {
@@ -12,6 +12,19 @@
         "medien": [
           "Al Jazeera",
           "Reuters"
+        ]
+      },
+      {
+        "tag": "Energie",
+        "titel": "Minentreffer und −40 % Tankerverkehr in Hormus – Brent dennoch nur bei rund 90 $",
+        "warum": "Iran meldet brennende Tanker nach Minentreffern; der Ölpreis fiel über Nacht trotzdem um etwa 1,5 %, weil der Markt mehr auf Nachfrage und Zinsen schaut.",
+        "quelle": "The Tribune",
+        "url": "https://www.tribuneindia.com/news/iran/four-oil-tankers-explode-catch-fire-after-hitting-naval-mines-in-hormuz-irans-navy",
+        "zeit": "24.11., 17:47",
+        "medien": [
+          "The Tribune",
+          "Al Jazeera",
+          "Middle East Monitor"
         ]
       },
       {
@@ -61,18 +74,6 @@
         "medien": [
           "Reuters",
           "CNBC"
-        ]
-      },
-      {
-        "tag": "Energie",
-        "titel": "Brent um 90 Dollar – tiefster Stand seit Ende August",
-        "warum": "Trotz Iran-Blockade fließt laut CENTCOM mehr Öl durch Hormus (108 Mio. Barrel letzte Woche); der November-Abverkauf beträgt rund 20 %.",
-        "quelle": "CBS News",
-        "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-blockade-strait-of-hormuz-ship-attacks/",
-        "zeit": "24.11., 19:42",
-        "medien": [
-          "CBS News",
-          "Reuters"
         ]
       },
       {
@@ -385,7 +386,7 @@
       ]
     },
     "kalender": {
-      "stand": "25.11., 10:00 Uhr",
+      "stand": "25.11., 10:09 Uhr",
       "termine": [
         {
           "zeit": "2026-11-23T15:45:00+01:00",
@@ -1327,7 +1328,118 @@
             ]
           }
         ],
-        "stand": "25.11.2026, Ligaphase während des 5. Spieltags (Dienstagsspiele vom 24.11. eingerechnet, Mittwochsspiele folgen; bei Gleichstand ohne Tore-Kriterium; Basis: Wikipedia, Ergebnisse: Dave.Sport)"
+        "stand": "25.11.2026, Ligaphase während des 5. Spieltags (Dienstagsspiele vom 24.11. eingerechnet, Mittwochsspiele folgen; bei Gleichstand ohne Tore-Kriterium; Basis: Wikipedia, Ergebnisse: Dave.Sport)",
+        "spiele": {
+          "naechste": [
+            {
+              "datum": "Mi 25.11.",
+              "zeit": "18:45",
+              "heim": "Sabah FK",
+              "gast": "FC Barcelona",
+              "info": "5. Spieltag"
+            },
+            {
+              "datum": "Mi 25.11.",
+              "zeit": "18:45",
+              "heim": "Slavia Prag",
+              "gast": "Villarreal",
+              "info": "5. Spieltag"
+            },
+            {
+              "datum": "Mi 25.11.",
+              "zeit": "21:00",
+              "heim": "Atlético Madrid",
+              "gast": "Viking FK",
+              "info": "5. Spieltag"
+            },
+            {
+              "datum": "Mi 25.11.",
+              "zeit": "21:00",
+              "heim": "Club Brügge",
+              "gast": "FC Liverpool",
+              "info": "5. Spieltag"
+            },
+            {
+              "datum": "Mi 25.11.",
+              "zeit": "21:00",
+              "heim": "Inter Mailand",
+              "gast": "VfB Stuttgart",
+              "info": "5. Spieltag"
+            },
+            {
+              "datum": "Mi 25.11.",
+              "zeit": "21:00",
+              "heim": "Lille",
+              "gast": "FC Bayern München",
+              "info": "5. Spieltag"
+            },
+            {
+              "datum": "Mi 25.11.",
+              "zeit": "21:00",
+              "heim": "Paris Saint-Germain",
+              "gast": "AS Rom",
+              "info": "5. Spieltag"
+            },
+            {
+              "datum": "Mi 25.11.",
+              "zeit": "21:00",
+              "heim": "Sporting CP",
+              "gast": "Manchester United",
+              "info": "5. Spieltag"
+            }
+          ],
+          "letzte": [
+            {
+              "datum": "Di 24.11.",
+              "heim": "Real Madrid",
+              "gast": "PSV Eindhoven",
+              "ergebnis": "5:1"
+            },
+            {
+              "datum": "Di 24.11.",
+              "heim": "Arsenal",
+              "gast": "Borussia Dortmund",
+              "ergebnis": "1:1"
+            },
+            {
+              "datum": "Di 24.11.",
+              "heim": "Manchester City",
+              "gast": "SSC Neapel",
+              "ergebnis": "2:2"
+            },
+            {
+              "datum": "Di 24.11.",
+              "heim": "RB Leipzig",
+              "gast": "RC Lens",
+              "ergebnis": "3:1"
+            },
+            {
+              "datum": "Di 24.11.",
+              "heim": "Galatasaray",
+              "gast": "Aston Villa",
+              "ergebnis": "1:0"
+            },
+            {
+              "datum": "Di 24.11.",
+              "heim": "Como",
+              "gast": "AEK Athen",
+              "ergebnis": "1:0"
+            },
+            {
+              "datum": "Di 24.11.",
+              "heim": "Feyenoord",
+              "gast": "FC Porto",
+              "ergebnis": "0:1"
+            },
+            {
+              "datum": "Di 24.11.",
+              "heim": "Slovan Bratislava",
+              "gast": "Real Betis",
+              "ergebnis": "0:2"
+            }
+          ],
+          "hinweis": "Mi 25.11. außerdem Schachtar Donezk – Fenerbahçe (21:00) · Di 24.11. außerdem Bodø/Glimt – LASK 1:0"
+        }
       },
       {
         "kurz": "BL",
@@ -1491,7 +1603,126 @@
             ]
           }
         ],
-        "stand": "22.11.2026, nach dem 10. Spieltag (Quelle: Sky Sport)"
+        "stand": "22.11.2026, nach dem 10. Spieltag (Quelle: Sky Sport)",
+        "spiele": {
+          "naechste": [
+            {
+              "datum": "Fr 27.11.",
+              "zeit": "20:30",
+              "heim": "Werder Bremen",
+              "gast": "Borussia Mönchengladbach",
+              "info": "11. Spieltag"
+            },
+            {
+              "datum": "Sa 28.11.",
+              "zeit": "15:30",
+              "heim": "Hamburger SV",
+              "gast": "FC Bayern München",
+              "info": "11. Spieltag"
+            },
+            {
+              "datum": "Sa 28.11.",
+              "zeit": "15:30",
+              "heim": "1. FSV Mainz 05",
+              "gast": "1. FC Union Berlin",
+              "info": "11. Spieltag"
+            },
+            {
+              "datum": "Sa 28.11.",
+              "zeit": "15:30",
+              "heim": "1. FC Köln",
+              "gast": "SV Elversberg",
+              "info": "11. Spieltag"
+            },
+            {
+              "datum": "Sa 28.11.",
+              "zeit": "15:30",
+              "heim": "SC Paderborn 07",
+              "gast": "FC Schalke 04",
+              "info": "11. Spieltag"
+            },
+            {
+              "datum": "Sa 28.11.",
+              "zeit": "18:30",
+              "heim": "VfB Stuttgart",
+              "gast": "Eintracht Frankfurt",
+              "info": "11. Spieltag"
+            },
+            {
+              "datum": "So 29.11.",
+              "zeit": "15:30",
+              "heim": "SC Freiburg",
+              "gast": "RB Leipzig",
+              "info": "11. Spieltag"
+            },
+            {
+              "datum": "So 29.11.",
+              "zeit": "19:30",
+              "heim": "Borussia Dortmund",
+              "gast": "Bayer 04 Leverkusen",
+              "info": "11. Spieltag"
+            }
+          ],
+          "letzte": [
+            {
+              "datum": "So 22.11.",
+              "heim": "Werder Bremen",
+              "gast": "Hamburger SV",
+              "ergebnis": "4:0",
+              "info": "10. Spieltag"
+            },
+            {
+              "datum": "So 22.11.",
+              "heim": "FC Augsburg",
+              "gast": "1. FSV Mainz 05",
+              "ergebnis": "3:1",
+              "info": "10. Spieltag"
+            },
+            {
+              "datum": "Sa 21.11.",
+              "heim": "Bayer 04 Leverkusen",
+              "gast": "SC Paderborn 07",
+              "ergebnis": "4:0",
+              "info": "10. Spieltag"
+            },
+            {
+              "datum": "Sa 21.11.",
+              "heim": "Eintracht Frankfurt",
+              "gast": "TSG Hoffenheim",
+              "ergebnis": "1:0",
+              "info": "10. Spieltag"
+            },
+            {
+              "datum": "Sa 21.11.",
+              "heim": "1. FC Union Berlin",
+              "gast": "RB Leipzig",
+              "ergebnis": "1:5",
+              "info": "10. Spieltag"
+            },
+            {
+              "datum": "Sa 21.11.",
+              "heim": "Borussia Mönchengladbach",
+              "gast": "Borussia Dortmund",
+              "ergebnis": "0:1",
+              "info": "10. Spieltag"
+            },
+            {
+              "datum": "Sa 21.11.",
+              "heim": "SV Elversberg",
+              "gast": "SC Freiburg",
+              "ergebnis": "0:1",
+              "info": "10. Spieltag"
+            },
+            {
+              "datum": "Sa 21.11.",
+              "heim": "FC Schalke 04",
+              "gast": "VfB Stuttgart",
+              "ergebnis": "0:0",
+              "info": "10. Spieltag"
+            }
+          ],
+          "hinweis": "Außerdem So 29.11., 17:30: TSG Hoffenheim – FC Augsburg"
+        }
       },
       {
         "kurz": "PL",
@@ -1669,7 +1900,126 @@
             ]
           }
         ],
-        "stand": "23.11.2026, 11. Spieltag (Everton – Brentford vom 23.11. noch nicht eingerechnet; Quelle: Standings Today)"
+        "stand": "23.11.2026, 11. Spieltag (Everton – Brentford vom 23.11. noch nicht eingerechnet; Quelle: Standings Today)",
+        "spiele": {
+          "naechste": [
+            {
+              "datum": "Fr 27.11.",
+              "zeit": "21:00",
+              "heim": "Nottingham Forest",
+              "gast": "FC Chelsea",
+              "info": "12. Spieltag"
+            },
+            {
+              "datum": "Sa 28.11.",
+              "zeit": "16:00",
+              "heim": "Manchester United",
+              "gast": "Brentford",
+              "info": "12. Spieltag"
+            },
+            {
+              "datum": "Sa 28.11.",
+              "zeit": "16:00",
+              "heim": "Leeds United",
+              "gast": "Coventry City",
+              "info": "12. Spieltag"
+            },
+            {
+              "datum": "Sa 28.11.",
+              "zeit": "18:30",
+              "heim": "Ipswich Town",
+              "gast": "Aston Villa",
+              "info": "12. Spieltag"
+            },
+            {
+              "datum": "So 29.11.",
+              "zeit": "13:00",
+              "heim": "FC Everton",
+              "gast": "FC Liverpool",
+              "info": "12. Spieltag"
+            },
+            {
+              "datum": "So 29.11.",
+              "zeit": "15:05",
+              "heim": "Sunderland",
+              "gast": "Tottenham Hotspur",
+              "info": "12. Spieltag"
+            },
+            {
+              "datum": "So 29.11.",
+              "zeit": "15:05",
+              "heim": "FC Fulham",
+              "gast": "AFC Bournemouth",
+              "info": "12. Spieltag"
+            },
+            {
+              "datum": "So 29.11.",
+              "zeit": "15:05",
+              "heim": "Crystal Palace",
+              "gast": "Hull City",
+              "info": "12. Spieltag"
+            }
+          ],
+          "letzte": [
+            {
+              "datum": "So 22.11.",
+              "heim": "FC Liverpool",
+              "gast": "Manchester United",
+              "ergebnis": "4:0",
+              "info": "11. Spieltag"
+            },
+            {
+              "datum": "So 22.11.",
+              "heim": "Hull City",
+              "gast": "Brighton & Hove Albion",
+              "ergebnis": "2:0",
+              "info": "11. Spieltag"
+            },
+            {
+              "datum": "Sa 21.11.",
+              "heim": "Newcastle United",
+              "gast": "FC Arsenal",
+              "ergebnis": "2:2",
+              "info": "11. Spieltag"
+            },
+            {
+              "datum": "Sa 21.11.",
+              "heim": "Tottenham Hotspur",
+              "gast": "Ipswich Town",
+              "ergebnis": "2:0",
+              "info": "11. Spieltag"
+            },
+            {
+              "datum": "Sa 21.11.",
+              "heim": "FC Chelsea",
+              "gast": "Leeds United",
+              "ergebnis": "1:4",
+              "info": "11. Spieltag"
+            },
+            {
+              "datum": "Sa 21.11.",
+              "heim": "Coventry City",
+              "gast": "Crystal Palace",
+              "ergebnis": "3:2",
+              "info": "11. Spieltag"
+            },
+            {
+              "datum": "Sa 21.11.",
+              "heim": "AFC Bournemouth",
+              "gast": "Nottingham Forest",
+              "ergebnis": "2:0",
+              "info": "11. Spieltag"
+            },
+            {
+              "datum": "Sa 21.11.",
+              "heim": "Manchester City",
+              "gast": "FC Fulham",
+              "ergebnis": "1:1",
+              "info": "11. Spieltag"
+            }
+          ],
+          "hinweis": "Everton – Brentford (Mo 23.11.) noch ohne bestätigtes Ergebnis."
+        }
       },
       {
         "kurz": "LaLiga",
@@ -1847,7 +2197,125 @@
             ]
           }
         ],
-        "stand": "23.11.2026, 13. Spieltag (Quelle: Fútbol Total)"
+        "stand": "23.11.2026, 13. Spieltag (Quelle: Fútbol Total)",
+        "spiele": {
+          "naechste": [
+            {
+              "datum": "Fr 27.11.",
+              "zeit": "21:00",
+              "heim": "Levante UD",
+              "gast": "Racing Santander",
+              "info": "14. Spieltag"
+            },
+            {
+              "datum": "Sa 28.11.",
+              "zeit": "14:00",
+              "heim": "Real Betis",
+              "gast": "Rayo Vallecano",
+              "info": "14. Spieltag"
+            },
+            {
+              "datum": "Sa 28.11.",
+              "zeit": "16:15",
+              "heim": "Málaga CF",
+              "gast": "Athletic Bilbao",
+              "info": "14. Spieltag"
+            },
+            {
+              "datum": "Sa 28.11.",
+              "zeit": "18:30",
+              "heim": "Elche CF",
+              "gast": "Atlético Madrid",
+              "info": "14. Spieltag"
+            },
+            {
+              "datum": "Sa 28.11.",
+              "zeit": "21:00",
+              "heim": "Real Madrid",
+              "gast": "Deportivo Alavés",
+              "info": "14. Spieltag"
+            },
+            {
+              "datum": "So 29.11.",
+              "zeit": "14:00",
+              "heim": "FC Valencia",
+              "gast": "CA Osasuna",
+              "info": "14. Spieltag"
+            },
+            {
+              "datum": "So 29.11.",
+              "zeit": "16:15",
+              "heim": "Deportivo La Coruña",
+              "gast": "FC Barcelona",
+              "info": "14. Spieltag"
+            },
+            {
+              "datum": "So 29.11.",
+              "zeit": "18:30",
+              "heim": "Celta Vigo",
+              "gast": "FC Villarreal",
+              "info": "14. Spieltag"
+            }
+          ],
+          "letzte": [
+            {
+              "datum": "Mo 23.11.",
+              "heim": "Levante UD",
+              "gast": "Elche CF",
+              "ergebnis": "1:1",
+              "info": "13. Spieltag"
+            },
+            {
+              "datum": "So 22.11.",
+              "heim": "Getafe CF",
+              "gast": "Atlético Madrid",
+              "ergebnis": "0:3",
+              "info": "13. Spieltag"
+            },
+            {
+              "datum": "So 22.11.",
+              "heim": "CA Osasuna",
+              "gast": "Málaga CF",
+              "ergebnis": "1:0",
+              "info": "13. Spieltag"
+            },
+            {
+              "datum": "So 22.11.",
+              "heim": "Racing Santander",
+              "gast": "Real Sociedad",
+              "ergebnis": "3:2",
+              "info": "13. Spieltag"
+            },
+            {
+              "datum": "So 22.11.",
+              "heim": "FC Barcelona",
+              "gast": "FC Villarreal",
+              "ergebnis": "3:2",
+              "info": "13. Spieltag"
+            },
+            {
+              "datum": "Sa 21.11.",
+              "heim": "Real Madrid",
+              "gast": "Celta Vigo",
+              "ergebnis": "2:1",
+              "info": "13. Spieltag"
+            },
+            {
+              "datum": "Sa 21.11.",
+              "heim": "Sevilla FC",
+              "gast": "Real Betis",
+              "ergebnis": "1:1",
+              "info": "13. Spieltag"
+            },
+            {
+              "datum": "Sa 21.11.",
+              "heim": "Rayo Vallecano",
+              "gast": "FC Valencia",
+              "ergebnis": "0:1",
+              "info": "13. Spieltag"
+            }
+          ]
+        }
       },
       {
         "kurz": "Serie A",
@@ -2025,7 +2493,125 @@
             ]
           }
         ],
-        "stand": "23.11.2026, nach dem 12. Spieltag"
+        "stand": "23.11.2026, nach dem 12. Spieltag",
+        "spiele": {
+          "naechste": [
+            {
+              "datum": "Fr 27.11.",
+              "zeit": "20:45",
+              "heim": "Venezia",
+              "gast": "Bologna",
+              "info": "13. Spieltag"
+            },
+            {
+              "datum": "Sa 28.11.",
+              "zeit": "15:00",
+              "heim": "Frosinone",
+              "gast": "Parma",
+              "info": "13. Spieltag"
+            },
+            {
+              "datum": "Sa 28.11.",
+              "zeit": "18:00",
+              "heim": "Torino",
+              "gast": "Lazio Rom",
+              "info": "13. Spieltag"
+            },
+            {
+              "datum": "Sa 28.11.",
+              "zeit": "20:45",
+              "heim": "Inter Mailand",
+              "gast": "CFC Genua",
+              "info": "13. Spieltag"
+            },
+            {
+              "datum": "So 29.11.",
+              "zeit": "12:30",
+              "heim": "Udinese",
+              "gast": "AC Florenz",
+              "info": "13. Spieltag"
+            },
+            {
+              "datum": "So 29.11.",
+              "zeit": "15:00",
+              "heim": "Sassuolo",
+              "gast": "SSC Neapel",
+              "info": "13. Spieltag"
+            },
+            {
+              "datum": "So 29.11.",
+              "zeit": "18:00",
+              "heim": "AS Rom",
+              "gast": "Monza",
+              "info": "13. Spieltag"
+            },
+            {
+              "datum": "So 29.11.",
+              "zeit": "20:45",
+              "heim": "Como",
+              "gast": "Juventus Turin",
+              "info": "13. Spieltag"
+            }
+          ],
+          "letzte": [
+            {
+              "datum": "Mo 23.11.",
+              "heim": "Monza",
+              "gast": "AC Florenz",
+              "ergebnis": "3:0",
+              "info": "12. Spieltag"
+            },
+            {
+              "datum": "So 22.11.",
+              "heim": "Atalanta Bergamo",
+              "gast": "Inter Mailand",
+              "ergebnis": "4:4",
+              "info": "12. Spieltag"
+            },
+            {
+              "datum": "So 22.11.",
+              "heim": "AC Mailand",
+              "gast": "Frosinone",
+              "ergebnis": "5:1",
+              "info": "12. Spieltag"
+            },
+            {
+              "datum": "So 22.11.",
+              "heim": "Sassuolo",
+              "gast": "CFC Genua",
+              "ergebnis": "0:2",
+              "info": "12. Spieltag"
+            },
+            {
+              "datum": "So 22.11.",
+              "heim": "Bologna",
+              "gast": "Udinese",
+              "ergebnis": "1:1",
+              "info": "12. Spieltag"
+            },
+            {
+              "datum": "So 22.11.",
+              "heim": "Juventus Turin",
+              "gast": "Venezia",
+              "ergebnis": "4:0",
+              "info": "12. Spieltag"
+            },
+            {
+              "datum": "Sa 21.11.",
+              "heim": "SSC Neapel",
+              "gast": "Torino",
+              "ergebnis": "1:0",
+              "info": "12. Spieltag"
+            },
+            {
+              "datum": "Sa 21.11.",
+              "heim": "Parma",
+              "gast": "AS Rom",
+              "ergebnis": "1:5",
+              "info": "12. Spieltag"
+            }
+          ]
+        }
       },
       {
         "kurz": "NFL",
@@ -2189,7 +2775,122 @@
             ]
           }
         ],
-        "stand": "23.11.2026, nach Woche 11 (Giants 6-3-1)"
+        "stand": "23.11.2026, nach Woche 11 (Giants 6-3-1)",
+        "spiele": {
+          "naechste": [
+            {
+              "datum": "Do 26.11.",
+              "zeit": "02:00",
+              "heim": "Los Angeles Rams",
+              "gast": "Green Bay Packers",
+              "info": "Week 12"
+            },
+            {
+              "datum": "Do 26.11.",
+              "zeit": "19:00",
+              "heim": "Detroit Lions",
+              "gast": "Chicago Bears",
+              "info": "Week 12, Thanksgiving"
+            },
+            {
+              "datum": "Do 26.11.",
+              "zeit": "22:30",
+              "heim": "Dallas Cowboys",
+              "gast": "Philadelphia Eagles",
+              "info": "Week 12, Thanksgiving"
+            },
+            {
+              "datum": "Fr 27.11.",
+              "zeit": "02:20",
+              "heim": "Buffalo Bills",
+              "gast": "Kansas City Chiefs",
+              "info": "Week 12, Thanksgiving"
+            },
+            {
+              "datum": "Fr 27.11.",
+              "zeit": "21:00",
+              "heim": "Pittsburgh Steelers",
+              "gast": "Denver Broncos",
+              "info": "Week 12, Black Friday"
+            },
+            {
+              "datum": "So 29.11.",
+              "heim": "Cincinnati Bengals",
+              "gast": "New Orleans Saints",
+              "info": "Week 12"
+            },
+            {
+              "datum": "So 29.11.",
+              "heim": "Indianapolis Colts",
+              "gast": "New York Giants",
+              "info": "Week 12"
+            },
+            {
+              "datum": "So 29.11.",
+              "heim": "Miami Dolphins",
+              "gast": "New York Jets",
+              "info": "Week 12"
+            }
+          ],
+          "letzte": [
+            {
+              "datum": "Di 24.11.",
+              "heim": "Washington Commanders",
+              "gast": "Cincinnati Bengals",
+              "ergebnis": "22:20",
+              "info": "Week 11, Monday Night"
+            },
+            {
+              "datum": "So 22.11.",
+              "heim": "Chicago Bears",
+              "gast": "New Orleans Saints",
+              "ergebnis": "21:13",
+              "info": "Week 11"
+            },
+            {
+              "datum": "So 22.11.",
+              "heim": "Detroit Lions",
+              "gast": "Tampa Bay Buccaneers",
+              "ergebnis": "31:21",
+              "info": "Week 11"
+            },
+            {
+              "datum": "So 22.11.",
+              "heim": "Dallas Cowboys",
+              "gast": "Tennessee Titans",
+              "ergebnis": "51:30",
+              "info": "Week 11"
+            },
+            {
+              "datum": "So 22.11.",
+              "heim": "Carolina Panthers",
+              "gast": "Baltimore Ravens",
+              "ergebnis": "35:33",
+              "info": "Week 11"
+            },
+            {
+              "datum": "So 22.11.",
+              "heim": "Buffalo Bills",
+              "gast": "Miami Dolphins",
+              "ergebnis": "26:9",
+              "info": "Week 11"
+            },
+            {
+              "datum": "So 22.11.",
+              "heim": "Kansas City Chiefs",
+              "gast": "Arizona Cardinals",
+              "ergebnis": "34:7",
+              "info": "Week 11"
+            },
+            {
+              "datum": "So 22.11.",
+              "heim": "Philadelphia Eagles",
+              "gast": "Pittsburgh Steelers",
+              "ergebnis": "19:16",
+              "info": "Week 11"
+            }
+          ]
+        }
       },
       {
         "kurz": "NBA",
@@ -2365,7 +3066,109 @@
             ]
           }
         ],
-        "stand": "25.11.2026 (Spiele bis 24.11.; Mavericks – Nuggets noch nicht eingerechnet)"
+        "stand": "25.11.2026 (Spiele bis 24.11.; Mavericks – Nuggets noch nicht eingerechnet)",
+        "spiele": {
+          "naechste": [
+            {
+              "datum": "Mi 25.11.",
+              "zeit": "23:00",
+              "heim": "76ers",
+              "gast": "Heat"
+            },
+            {
+              "datum": "Do 26.11.",
+              "zeit": "01:00",
+              "heim": "Hornets",
+              "gast": "Bulls"
+            },
+            {
+              "datum": "Do 26.11.",
+              "zeit": "01:30",
+              "heim": "Knicks",
+              "gast": "Cavaliers"
+            },
+            {
+              "datum": "Do 26.11.",
+              "zeit": "01:30",
+              "heim": "Thunder",
+              "gast": "Timberwolves"
+            },
+            {
+              "datum": "Do 26.11.",
+              "zeit": "02:00",
+              "heim": "Bucks",
+              "gast": "Nets"
+            },
+            {
+              "datum": "Do 26.11.",
+              "zeit": "02:00",
+              "heim": "Grizzlies",
+              "gast": "Clippers"
+            },
+            {
+              "datum": "Do 26.11.",
+              "zeit": "02:30",
+              "heim": "Rockets",
+              "gast": "Suns"
+            },
+            {
+              "datum": "Do 26.11.",
+              "zeit": "04:00",
+              "heim": "Warriors",
+              "gast": "Kings"
+            }
+          ],
+          "letzte": [
+            {
+              "datum": "Mi 25.11.",
+              "heim": "Wizards",
+              "gast": "Celtics",
+              "ergebnis": "116:131"
+            },
+            {
+              "datum": "Mi 25.11.",
+              "heim": "Nuggets",
+              "gast": "Mavericks",
+              "ergebnis": "101:120"
+            },
+            {
+              "datum": "Mi 25.11.",
+              "heim": "Magic",
+              "gast": "Pistons",
+              "ergebnis": "86:104"
+            },
+            {
+              "datum": "Di 24.11.",
+              "heim": "76ers",
+              "gast": "Trail Blazers",
+              "ergebnis": "111:128"
+            },
+            {
+              "datum": "Di 24.11.",
+              "heim": "Hornets",
+              "gast": "Grizzlies",
+              "ergebnis": "111:117"
+            },
+            {
+              "datum": "Di 24.11.",
+              "heim": "Pacers",
+              "gast": "Thunder",
+              "ergebnis": "125:120"
+            },
+            {
+              "datum": "Di 24.11.",
+              "heim": "Timberwolves",
+              "gast": "Nets",
+              "ergebnis": "142:116"
+            },
+            {
+              "datum": "Di 24.11.",
+              "heim": "Raptors",
+              "gast": "Bucks",
+              "ergebnis": "111:116"
+            }
+          ]
+        }
       },
       {
         "kurz": "NHL",
@@ -2511,7 +3314,61 @@
             ]
           }
         ],
-        "stand": "23.11.2026"
+        "stand": "23.11.2026",
+        "spiele": {
+          "naechste": [],
+          "letzte": [
+            {
+              "datum": "Mi 25.11.",
+              "heim": "Oilers",
+              "gast": "Golden Knights",
+              "ergebnis": "3:5"
+            },
+            {
+              "datum": "Di 24.11.",
+              "heim": "Canadiens",
+              "gast": "Kings",
+              "ergebnis": "1:2"
+            },
+            {
+              "datum": "Di 24.11.",
+              "heim": "Devils",
+              "gast": "Blue Jackets",
+              "ergebnis": "3:2"
+            },
+            {
+              "datum": "Di 24.11.",
+              "heim": "Islanders",
+              "gast": "Maple Leafs",
+              "ergebnis": "2:4"
+            },
+            {
+              "datum": "Di 24.11.",
+              "heim": "Senators",
+              "gast": "Flames",
+              "ergebnis": "2:1"
+            },
+            {
+              "datum": "Di 24.11.",
+              "heim": "Kraken",
+              "gast": "Ducks",
+              "ergebnis": "3:2"
+            },
+            {
+              "datum": "Di 24.11.",
+              "heim": "Sharks",
+              "gast": "Wild",
+              "ergebnis": "2:5"
+            },
+            {
+              "datum": "Di 24.11.",
+              "heim": "Jets",
+              "gast": "Mammoth",
+              "ergebnis": "4:2"
+            }
+          ],
+          "hinweis": "Heute Nacht (Mi 25.11., US-Zeit) 14 Spiele vor Thanksgiving; Ansetzungen folgen beim nächsten Lauf."
+        }
       },
       {
         "kurz": "MLB",
@@ -2675,7 +3532,48 @@
             ]
           }
         ],
-        "stand": "Saisonpause: Abschlusstabelle der regulären Saison 2026"
+        "stand": "Saisonpause: Abschlusstabelle der regulären Saison 2026",
+        "spiele": {
+          "naechste": [],
+          "letzte": [
+            {
+              "datum": "Do 29.10.",
+              "heim": "Tampa Bay Rays",
+              "gast": "Milwaukee Brewers",
+              "ergebnis": "1:4",
+              "info": "World Series, Spiel 5 – Brewers Champion (4:1)"
+            },
+            {
+              "datum": "Mi 28.10.",
+              "heim": "Tampa Bay Rays",
+              "gast": "Milwaukee Brewers",
+              "ergebnis": "4:3",
+              "info": "World Series, Spiel 4, Extra Innings"
+            },
+            {
+              "datum": "Di 27.10.",
+              "heim": "Tampa Bay Rays",
+              "gast": "Milwaukee Brewers",
+              "ergebnis": "1:10",
+              "info": "World Series, Spiel 3"
+            },
+            {
+              "datum": "So 25.10.",
+              "heim": "Milwaukee Brewers",
+              "gast": "Tampa Bay Rays",
+              "ergebnis": "5:4",
+              "info": "World Series, Spiel 2"
+            },
+            {
+              "datum": "Sa 24.10.",
+              "heim": "Milwaukee Brewers",
+              "gast": "Tampa Bay Rays",
+              "ergebnis": "3:2",
+              "info": "World Series, Spiel 1"
+            }
+          ],
+          "hinweis": "Saisonpause. Saisonstart 2027: Eröffnungsspiel Mi 24.03.2027, Opening Day Do 25.03.2027."
+        }
       }
     ]
   },
@@ -3686,10 +4584,431 @@
           ]
         }
       ]
+    },
+    "konflikte": {
+      "lage": "Drei Großkonflikte bestimmen die Lage: der Luft- und Raffineriekrieg zwischen Russland und der Ukraine, der Iran-Krieg mit Blockade und Tankerangriffen in Hormus und der Sudan-Krieg mit der weltweit größten Hungerkrise. Hinzu kommen Drohnenvorfälle an der NATO-Ostflanke.",
+      "meldungen": [
+        {
+          "tag": "Ukraine",
+          "titel": "UN: Höchste Zahl ziviler Opfer in einem Oktober seit Kriegsbeginn",
+          "warum": "372 Tote und 1.981 Verletzte im Oktober, 55 % durch Langstreckenraketen und Drohnen.",
+          "quelle": "OHCHR",
+          "url": "https://ukraine.ohchr.org/en/Protection-of-Civilians-in-Armed-Conflict-October-2026",
+          "zeit": "16.11.",
+          "medien": [
+            "OHCHR"
+          ]
+        },
+        {
+          "tag": "Sanktionen",
+          "titel": "USA verhängen neue Sanktionen gegen Irans Schattenbanken-Netz",
+          "warum": "OFAC listet 22 Firmen und acht Personen; FinCEN beziffert möglicherweise iranbezogene Finanzströme auf 14,7 Mrd. $. Zugleich prüft Washington Cyberangriffe auf bis zu 50 Schiffe.",
+          "quelle": "CBS News",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-blockade-strait-of-hormuz-ship-attacks/",
+          "zeit": "24.11., 13:00",
+          "medien": [
+            "CBS News",
+            "Gulf News",
+            "Wall Street Journal"
+          ]
+        },
+        {
+          "tag": "Ukraine",
+          "titel": "Online-Runde mit Witkoff, Kushner und Europäern bringt keinen Durchbruch",
+          "warum": "Russland lehnt eine Ausweitung der Gespräche und eine befristete Waffenruhe ab; die Runde in Abu Dhabi brachte nur einen Gefangenenaustausch.",
+          "quelle": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/17/ukraine-holds-peace-talks-with-us-europe-as-conflict-escalates",
+          "zeit": "17.11.",
+          "medien": [
+            "Al Jazeera",
+            "Reuters"
+          ]
+        },
+        {
+          "tag": "Ostsee",
+          "titel": "Explosionen am russischen Flottenstützpunkt Baltijsk gemeldet",
+          "warum": "Zugleich brannte das russische Containerschiff Sparta II nach Drohnentreffern im Finnischen Meerbusen.",
+          "quelle": "Euromaidan Press",
+          "url": "https://euromaidanpress.com/2026/11/22/explosions-reported-at-russias-baltic-fleet-base-in-kaliningrad/",
+          "zeit": "21.11., 23:47",
+          "medien": [
+            "Euromaidan Press",
+            "Yle"
+          ]
+        }
+      ]
+    },
+    "radar": {
+      "lage": "Die meisten Spannungsherde liegen an der NATO-Ostflanke, wo Drohnen regelmäßig Luftraum verletzen. In Asien testen China und Nordkorea mit Manövern und Raketen die Reaktion der USA.",
+      "meldungen": [
+        {
+          "tag": "Baltikum",
+          "titel": "NATO-Jets scheitern zweimal am Abschuss einer Drohne über Litauen",
+          "warum": "Estland, Lettland und Litauen gaben Schutzwarnungen aus – die Luftverteidigung im Baltikum zeigt Lücken.",
+          "quelle": "Defence Matters",
+          "url": "https://defencematters.eu/nato-baltic-air-defence-drone-interception-november-2026/",
+          "zeit": "12.11., 23:19",
+          "medien": [
+            "Defence Matters",
+            "Reuters",
+            "Euronews"
+          ]
+        },
+        {
+          "tag": "Ostsee",
+          "titel": "Explosionen am russischen Flottenstützpunkt Baltijsk gemeldet",
+          "warum": "Zugleich brannte das russische Containerschiff Sparta II nach Drohnentreffern im Finnischen Meerbusen.",
+          "quelle": "Euromaidan Press",
+          "url": "https://euromaidanpress.com/2026/11/22/explosions-reported-at-russias-baltic-fleet-base-in-kaliningrad/",
+          "zeit": "21.11., 23:47",
+          "medien": [
+            "Euromaidan Press",
+            "Yle"
+          ]
+        },
+        {
+          "tag": "Korea",
+          "titel": "Nordkorea: vierter Raketenstart binnen eines Monats",
+          "warum": "Kim Yo Jong schließt Gespräche mit den USA aus, solange Washington an seiner „feindseligen Politik“ festhält.",
+          "quelle": "Reuters",
+          "url": "https://www.thestar.com.my/news/world/2026/11/04/north-korea-fires-multiple-missiles-in-fourth-weapons-launch-in-a-month-seoul-says",
+          "zeit": "04.11., 06:39",
+          "medien": [
+            "Reuters",
+            "AP"
+          ]
+        },
+        {
+          "tag": "Venezuela",
+          "titel": "USA und Venezuela nehmen Militärkooperation nach 21 Jahren wieder auf",
+          "warum": "Hegseths Besuch in Caracas markiert die Wende vom Regimewechsel zur Partnerschaft.",
+          "quelle": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/19/why-is-pete-hegseth-strengthening-us-military-ties-with-venezuela",
+          "zeit": "19.11.",
+          "medien": [
+            "Al Jazeera",
+            "Washington Post"
+          ]
+        },
+        {
+          "tag": "Taiwan",
+          "titel": "Taipeh: Pekings Manöver sind „stille Einschüchterung“",
+          "warum": "Taiwan wertet die Übung als Test für eine Blockade, ohne dass China sie offiziell ankündigt.",
+          "quelle": "Taipei Times",
+          "url": "https://www.taipeitimes.com/News/front/archives/2026/11/14/2003867710",
+          "zeit": "14.11.",
+          "medien": [
+            "Taipei Times",
+            "Reuters"
+          ]
+        }
+      ]
+    },
+    "front": {
+      "lage": "Am Boden bewegt sich wenig, entscheidend ist der Luftkrieg: Russland zielt auf Energie und Städte, die Ukraine auf Raffinerien. Kiew fehlen Abfangraketen.",
+      "meldungen": [
+        {
+          "tag": "Ukraine",
+          "titel": "UN: Höchste Zahl ziviler Opfer in einem Oktober seit Kriegsbeginn",
+          "warum": "372 Tote und 1.981 Verletzte im Oktober, 55 % durch Langstreckenraketen und Drohnen.",
+          "quelle": "OHCHR",
+          "url": "https://ukraine.ohchr.org/en/Protection-of-Civilians-in-Armed-Conflict-October-2026",
+          "zeit": "16.11.",
+          "medien": [
+            "OHCHR"
+          ]
+        },
+        {
+          "tag": "Luftkrieg",
+          "titel": "Russland greift mit 96 Drohnen an, eine davon verletzt polnischen Luftraum",
+          "warum": "Auch Moldau meldet eine Luftraumverletzung – der Luftkrieg strahlt auf NATO-Gebiet aus.",
+          "quelle": "Kyiv Post",
+          "url": "https://www.kyivpost.com/post/91108",
+          "zeit": "25.11.",
+          "medien": [
+            "Kyiv Post"
+          ]
+        },
+        {
+          "tag": "Deutschland",
+          "titel": "Pistorius und Chmara einigen sich vorläufig auf weitere Abfangraketen",
+          "warum": "Aus eigenen Patriot-Beständen kann Deutschland nicht mehr liefern; besprochen wurde auch der Drohnenkauf für 2027.",
+          "quelle": "European Pravda",
+          "url": "https://www.eurointegration.com.ua/eng/news/2026/11/24/7250656/",
+          "zeit": "24.11.",
+          "medien": [
+            "European Pravda"
+          ]
+        }
+      ]
+    },
+    "diplomatie": {
+      "lage": "Bei der Ukraine drängen die US-Gesandten auf einen Deal bis Januar, Moskau lehnt eine Waffenruhe ab. Beim Iran setzt Washington auf Sanktionen und Blockade, Teheran stellt Vorbedingungen.",
+      "meldungen": [
+        {
+          "tag": "Deutschland",
+          "titel": "Pistorius und Chmara einigen sich vorläufig auf weitere Abfangraketen",
+          "warum": "Aus eigenen Patriot-Beständen kann Deutschland nicht mehr liefern; besprochen wurde auch der Drohnenkauf für 2027.",
+          "quelle": "European Pravda",
+          "url": "https://www.eurointegration.com.ua/eng/news/2026/11/24/7250656/",
+          "zeit": "24.11.",
+          "medien": [
+            "European Pravda"
+          ]
+        },
+        {
+          "tag": "Iran",
+          "titel": "Iran erwägt Tanker-Konvoi nach China, um die US-Blockade zu durchbrechen",
+          "warum": "Bei 88,7 % Inflation drängt die Wirtschaftslage Teheran zu riskanten Exportversuchen; das Staatsfernsehen dementiert, dass ein Konvoi schon ausgelaufen ist.",
+          "quelle": "The National",
+          "url": "https://www.thenationalnews.com/news/gulf/2026/11/24/is-iran-weighing-tanker-convoy-to-break-us-blockade/",
+          "zeit": "24.11., 11:05",
+          "medien": [
+            "The National"
+          ]
+        },
+        {
+          "tag": "Jemen",
+          "titel": "Houthis treffen Hochhaus in Riad, saudische Koalition fliegt Hunderte Angriffe im Jemen",
+          "warum": "Der Iran-Krieg greift endgültig auf die Arabische Halbinsel über; Houthi-Medien melden 25 Tote oder Vermisste in Lahj.",
+          "quelle": "CBS News",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-blockade-strait-of-hormuz-ship-attacks/",
+          "zeit": "24.11., 13:00",
+          "medien": [
+            "CBS News",
+            "Reuters"
+          ]
+        }
+      ]
+    },
+    "ruestung": {
+      "lage": "Europa finanziert über PURL US-Waffen für die Ukraine, kann aber kaum noch aus eigenen Beständen liefern. Rheinmetall leidet trotz Rekordumsätzen unter verzögerten Aufträgen.",
+      "meldungen": [
+        {
+          "tag": "Industrie",
+          "titel": "Rumänien bestellt bei Rheinmetall für 5,7 Mrd. € Lynx, Skyranger und Schiffe",
+          "warum": "Größter Auftrag aus dem EU-Programm SAFE; über die Hälfte soll in Rumänien gefertigt werden.",
+          "quelle": "Asia Pacific Defence Reporter",
+          "url": "https://asiapacificdefencereporter.com/rheinmetall-wins-5-7-billion-euro-order-for-multiple-defence-systems/",
+          "zeit": "08.06.",
+          "medien": [
+            "Asia Pacific Defence Reporter",
+            "Reuters"
+          ]
+        },
+        {
+          "tag": "Militärhilfe",
+          "titel": "Selenskyj: 48 bereits bezahlte Patriot-Raketen liegen ungezeichnet im Pentagon",
+          "warum": "Die über die NATO-Initiative PURL finanzierten Abfangraketen fehlen, während Russland die Luftangriffe ausweitet; Lizenzen zur eigenen Fertigung gibt es weiter nicht.",
+          "quelle": "Kyiv Post",
+          "url": "https://kyivpost.com/post/91107",
+          "zeit": "25.11.",
+          "medien": [
+            "Kyiv Post"
+          ]
+        }
+      ]
+    },
+    "konfliktmarkt": {
+      "lage": "Öl reagiert erstaunlich gelassen auf Hormus: Brent liegt um 90 $, weit unter dem Kriegshoch. Rüstungsaktien sind nach der Rally stark gefallen.",
+      "meldungen": [
+        {
+          "tag": "Hormus",
+          "titel": "Hormus-Verkehr binnen zwei Wochen um mehr als 40 % eingebrochen",
+          "warum": "Laut MarineTraffic passierten vom 17. bis 23.11. nur 125 Schiffe die Meerenge nach 226 in der ersten Novemberwoche; vor dem Krieg waren es 125 bis 140 pro Tag.",
+          "quelle": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/24/hormuz-oil-traffic-is-down-40-percent-are-irans-tanker-attacks-working",
+          "zeit": "24.11.",
+          "medien": [
+            "Al Jazeera"
+          ]
+        },
+        {
+          "tag": "Hormus",
+          "titel": "Iran meldet Minentreffer: Mehrere Öltanker in der Straße von Hormus in Brand",
+          "warum": "Teheran erklärt, die Meerenge bleibe zu, bis seine Bedingungen erfüllt sind – das verschärft das Risiko für ein Fünftel des seeweiten Ölhandels.",
+          "quelle": "The Tribune",
+          "url": "https://www.tribuneindia.com/news/iran/four-oil-tankers-explode-catch-fire-after-hitting-naval-mines-in-hormuz-irans-navy",
+          "zeit": "24.11., 17:47",
+          "medien": [
+            "The Tribune",
+            "Middle East Monitor",
+            "Epoch Times"
+          ]
+        },
+        {
+          "tag": "Iran",
+          "titel": "Iran erwägt Tanker-Konvoi nach China, um die US-Blockade zu durchbrechen",
+          "warum": "Bei 88,7 % Inflation drängt die Wirtschaftslage Teheran zu riskanten Exportversuchen; das Staatsfernsehen dementiert, dass ein Konvoi schon ausgelaufen ist.",
+          "quelle": "The National",
+          "url": "https://www.thenationalnews.com/news/gulf/2026/11/24/is-iran-weighing-tanker-convoy-to-break-us-blockade/",
+          "zeit": "24.11., 11:05",
+          "medien": [
+            "The National"
+          ]
+        },
+        {
+          "tag": "Luftkrieg",
+          "titel": "Ukrainische Drohnen treffen zwei Rosneft-Raffinerien in Samara",
+          "warum": "Syzran und Kuibyshew brennen; seit Anfang November wurden 16 russische Raffinerien getroffen, die Verarbeitung soll um 45 % gefallen sein.",
+          "quelle": "Kyiv Post",
+          "url": "https://kyivpost.com/post/91110",
+          "zeit": "25.11.",
+          "medien": [
+            "Kyiv Post"
+          ]
+        },
+        {
+          "tag": "Börse",
+          "titel": "Dax startet kaum bewegt bei rund 25.010 Punkten",
+          "warum": "Europa hält sich trotz Chip-Ausverkauf in Asien und neuer US-Zolldrohungen; Anleger warten auf die US-Daten um 14:30 Uhr.",
+          "quelle": "dpa",
+          "url": "https://www.onvista.de/news/2026/11-25-aktien-frankfurt-eroeffnung-dax-startet-kaum-bewegt-0-10-26580303",
+          "zeit": "25.11., 08:16",
+          "medien": [
+            "dpa",
+            "Handelsblatt"
+          ]
+        }
+      ]
+    },
+    "humanitaer": {
+      "lage": "Sudan bleibt die größte humanitäre Krise der Welt, Hilfsprogramme schrumpfen wegen fehlender Mittel. In der Ukraine steigt die Zahl ziviler Opfer durch Luftangriffe vor dem Winter.",
+      "meldungen": [
+        {
+          "tag": "Ukraine",
+          "titel": "UN: Höchste Zahl ziviler Opfer in einem Oktober seit Kriegsbeginn",
+          "warum": "372 Tote und 1.981 Verletzte im Oktober, 55 % durch Langstreckenraketen und Drohnen.",
+          "quelle": "OHCHR",
+          "url": "https://ukraine.ohchr.org/en/Protection-of-Civilians-in-Armed-Conflict-October-2026",
+          "zeit": "16.11.",
+          "medien": [
+            "OHCHR"
+          ]
+        },
+        {
+          "tag": "Hunger",
+          "titel": "WFP kürzt Nahrungshilfe für 900.000 Vertriebene, 19,5 Mio. Menschen hungern",
+          "warum": "Fünf Millionen Menschen sind auf Notfallstufe; Finanzierungslücken verschärfen die Hungersnot.",
+          "quelle": "Al Jazeera",
+          "url": "https://www.aljazeera.com/features/2026/11/2/as-aid-situation-worsens-displaced-sudanese-worry-about-warnings-of-famine",
+          "zeit": "02.11.",
+          "medien": [
+            "Al Jazeera"
+          ]
+        },
+        {
+          "tag": "Sudan",
+          "titel": "Drohnenangriffe töten vier Menschen in Khartum und beschädigen UN-Gebäude",
+          "warum": "Die Armee macht die RSF verantwortlich und sagt, die Drohnen seien aus Äthiopien gestartet; laut OHCHR starben 2026 bis Ende Oktober über 1.630 Zivilisten durch Drohnen.",
+          "quelle": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-11-23/deadly-drone-strikes-in-khartoum-sudan-war/107415908",
+          "zeit": "23.11., 01:46",
+          "medien": [
+            "ABC Australia",
+            "Al Jazeera"
+          ]
+        },
+        {
+          "tag": "Libanon",
+          "titel": "Libanon: Mehr als 4.300 Tote durch israelische Angriffe seit März",
+          "warum": "Die Zahl des libanesischen Gesundheitsministeriums zeigt, dass der Nebenkriegsschauplatz des Iran-Kriegs nicht zur Ruhe kommt.",
+          "quelle": "CBS News",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-blockade-strait-of-hormuz-ship-attacks/",
+          "zeit": "24.11., 13:00",
+          "medien": [
+            "CBS News"
+          ]
+        }
+      ]
+    },
+    "energie_oel": {
+      "lage": "Die Straße von Hormus ist seit Kriegsbeginn am 28.2. nur eingeschränkt passierbar, Minen trafen zuletzt einen vierten Tanker. Trotzdem fällt Brent auf rund 88–91 $, weil die Förderung außerhalb des Golfs steigt und die IEA für dieses Quartal ein Überangebot erwartet.",
+      "meldungen": [
+        {
+          "tag": "Öl",
+          "titel": "Brent fällt unter 91 $ trotz neuer Angriffe in Hormus",
+          "warum": "Mehr Angebot außerhalb des Golfs wiegt schwerer als die Minen-Angriffe; WTI bei rund 81,65 $.",
+          "quelle": "Free Press Journal",
+          "url": "https://www.freepressjournal.in/business/crude-oil-prices-slip-as-brent-falls-below-91-amid-rising-supply-strait-of-hormuz-attacks-and-us-iran-tensions",
+          "zeit": "25.11."
+        }
+      ]
+    },
+    "energie_opec": {
+      "lage": "Die sieben Länder mit monatlichen Quoten lassen die Förderung im Dezember unverändert (3. Monat in Folge). Am 29.11. legt die Ministerkonferenz aller 21 Mitglieder die Basismengen für 2027 fest; nach dem 31.12. gibt es bisher keinen Förderrahmen. Die VAE sind seit 1.5.2026 nicht mehr dabei.",
+      "meldungen": [
+        {
+          "tag": "OPEC+",
+          "titel": "OPEC+ hält Dezember-Quoten stabil, Fokus auf 2027",
+          "warum": "Sieben Länder bleiben bei zusammen 31,01 Mio. b/d; am 29.11. geht es um neue Basismengen.",
+          "quelle": "World Oil (Bloomberg)",
+          "url": "https://www.worldoil.com/news/2026/11/1/opec-subgroup-keeps-oil-production-quotas-unchanged-for-december",
+          "zeit": "01.11.",
+          "medien": [
+            "Bloomberg"
+          ]
+        }
+      ]
+    },
+    "energie_gas": {
+      "lage": "Die EU-Speicher sind so leer wie seit über zehn Jahren nicht zu dieser Jahreszeit; Kälte ab dieser Woche und die Force Majeure von QatarEnergy (bis Ende Dezember) treiben TTF. Ab Januar gilt das EU-Importverbot für russisches Gas.",
+      "meldungen": [
+        {
+          "tag": "Gas",
+          "titel": "TTF springt um 8,6 % auf 96 €/MWh",
+          "warum": "Kälteprognosen treffen auf die niedrigsten Speicherstände seit über zehn Jahren; Preis fast dreimal so hoch wie vor einem Jahr.",
+          "quelle": "Bloomberg",
+          "url": "https://leprivatebanker.com/2026/11/24/european-gas-jumps-8-6-to-e96-a-megawatt-hour-as-cold-forecasts-meet-the-lowest-storage-levels-in-a-decade/",
+          "zeit": "24.11.",
+          "medien": [
+            "Bloomberg"
+          ]
+        }
+      ]
+    },
+    "energie_co2": {
+      "lage": "",
+      "meldungen": [
+        {
+          "tag": "CO₂",
+          "titel": "EU-CO₂-Preis wieder über 90 €/t",
+          "warum": "Kälte, Wechsel zu Kohle und weniger Zertifikate stützen; ABN Amro erwartet im 4. Quartal Ø 86 €.",
+          "quelle": "GMK Center",
+          "url": "https://gmk.center/en/news/european-carbon-prices-exceeded-e90-t-in-november/",
+          "zeit": "13.11."
+        }
+      ]
+    },
+    "energie_klima": {
+      "lage": "Die COP31 in Antalya (9.–20.11.) endete nach Rekordlänge ohne großen Durchbruch. Erneuerbare haben 2025 weltweit erstmals mehr Strom erzeugt als Kohle.",
+      "meldungen": [
+        {
+          "tag": "Klima",
+          "titel": "COP31 in Antalya endet ohne großen Durchbruch",
+          "warum": "Längste Klimakonferenz bisher; Gastgeber Türkei, Verhandlungsführung Australien.",
+          "quelle": "Energy News Beat",
+          "url": "https://energynewsbeat.co/climate-crisis-op-ed/cop31-in-antalya-ended-without-a-major-deal-after-the-longest-climate-summit-on-record/",
+          "zeit": "Nov."
+        }
+      ]
+    },
+    "energie_strom": {
+      "lage": "",
+      "meldungen": [
+        {
+          "tag": "Strom",
+          "titel": "Erneuerbare decken 58 % des deutschen Stroms im ersten Halbjahr",
+          "warum": "Rekord: Offshore-Wind +28 %, Onshore +7 %, Solar +4 %.",
+          "quelle": "Clean Energy Wire",
+          "url": "https://www.cleanenergywire.org/news/renewables-covered-record-58-german-electricity-consumption-first-half-2026",
+          "zeit": "01.07."
+        }
+      ]
     }
   },
   "konflikte": {
-    "stand": "Stand 25.11., 09:50 Uhr",
+    "stand": "Stand 25.11., 10:09 Uhr",
     "karte": [
       {
         "code": "UKR",
@@ -3792,12 +5111,14 @@
       {
         "code": "LBN",
         "stufe": 2,
-        "hinweis": "Hisbollah, israelische Angriffe"
+        "hinweis": "Hisbollah, israelische Angriffe",
+        "konflikt": "libanon"
       },
       {
         "code": "TWN",
         "stufe": 1,
-        "hinweis": "Chinesischer Druck"
+        "hinweis": "Chinesischer Druck",
+        "konflikt": "taiwan"
       },
       {
         "code": "PRK",
@@ -3817,8 +5138,54 @@
         "name": "Russland – Ukraine",
         "stufe": 3,
         "seit": "24.02.2022",
-        "lage": "",
-        "meldungen": []
+        "lage": "Russland setzt auf massive Drohnen- und Raketenangriffe auf Energie und Städte; im Oktober starben laut UN 372 Zivilisten, so viele wie in keinem Oktober seit 2022. Die Ukraine trifft im Gegenzug russische Raffinerien in Serie. Gespräche unter US-Vermittlung stocken, Washington will bis Januar einen Deal.",
+        "meldungen": [
+          {
+            "tag": "Luftkrieg",
+            "titel": "Ukrainische Drohnen treffen zwei Rosneft-Raffinerien in Samara",
+            "warum": "Syzran und Kuibyshew brennen; seit Anfang November wurden 16 russische Raffinerien getroffen, die Verarbeitung soll um 45 % gefallen sein.",
+            "quelle": "Kyiv Post",
+            "url": "https://kyivpost.com/post/91110",
+            "zeit": "25.11.",
+            "medien": [
+              "Kyiv Post"
+            ]
+          },
+          {
+            "tag": "Lage",
+            "titel": "ISW: Keine Geländegewinne am 24.11., Putin räumt Kosten der Raffinerie-Angriffe ein",
+            "warum": "Russland griff in der Nacht mit 96 Drohnen an; ein russischer Gouverneur (Murmansk) wurde erstmals seit Kriegsbeginn im Amt verhaftet.",
+            "quelle": "Kyiv Post",
+            "url": "https://www.kyivpost.com/post/91108",
+            "zeit": "25.11.",
+            "medien": [
+              "Kyiv Post",
+              "ISW"
+            ]
+          },
+          {
+            "tag": "Militärhilfe",
+            "titel": "Selenskyj: 48 bereits bezahlte Patriot-Raketen liegen ungezeichnet im Pentagon",
+            "warum": "Die über die NATO-Initiative PURL finanzierten Abfangraketen fehlen, während Russland die Luftangriffe ausweitet; Lizenzen zur eigenen Fertigung gibt es weiter nicht.",
+            "quelle": "Kyiv Post",
+            "url": "https://kyivpost.com/post/91107",
+            "zeit": "25.11.",
+            "medien": [
+              "Kyiv Post"
+            ]
+          },
+          {
+            "tag": "Ukraine",
+            "titel": "US-Gesandte wollen bis Januar einen Ukraine-Deal, Kiew setzt sonst auf neuen Kongress",
+            "warum": "Selenskyj will im Januar oder Februar ein großes Hilfspaket und härtere Sanktionen beim neuen Kongress suchen, falls Trumps Diplomatie scheitert.",
+            "quelle": "Kyiv Post",
+            "url": "https://kyivpost.com/post/91107",
+            "zeit": "25.11.",
+            "medien": [
+              "Kyiv Post"
+            ]
+          }
+        ]
       },
       {
         "id": "iran",
@@ -3826,8 +5193,68 @@
         "name": "Iran-Krieg und Straße von Hormus",
         "stufe": 3,
         "seit": "2026",
-        "lage": "",
-        "meldungen": []
+        "lage": "Seit dem Zusammenbruch der Waffenruhe im Juli blockieren die USA Irans Häfen, Iran greift Tanker an und meldet nun Minentreffer in der Straße von Hormus. Der Verkehr durch die Meerenge ist binnen zwei Wochen um über 40 % gefallen. Teheran lehnt Gespräche ab, die Houthis tragen den Krieg nach Saudi-Arabien.",
+        "meldungen": [
+          {
+            "tag": "Hormus",
+            "titel": "Iran meldet Minentreffer: Mehrere Öltanker in der Straße von Hormus in Brand",
+            "warum": "Teheran erklärt, die Meerenge bleibe zu, bis seine Bedingungen erfüllt sind – das verschärft das Risiko für ein Fünftel des seeweiten Ölhandels.",
+            "quelle": "The Tribune",
+            "url": "https://www.tribuneindia.com/news/iran/four-oil-tankers-explode-catch-fire-after-hitting-naval-mines-in-hormuz-irans-navy",
+            "zeit": "24.11., 17:47",
+            "medien": [
+              "The Tribune",
+              "Middle East Monitor",
+              "Epoch Times"
+            ]
+          },
+          {
+            "tag": "Hormus",
+            "titel": "Hormus-Verkehr binnen zwei Wochen um mehr als 40 % eingebrochen",
+            "warum": "Laut MarineTraffic passierten vom 17. bis 23.11. nur 125 Schiffe die Meerenge nach 226 in der ersten Novemberwoche; vor dem Krieg waren es 125 bis 140 pro Tag.",
+            "quelle": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/24/hormuz-oil-traffic-is-down-40-percent-are-irans-tanker-attacks-working",
+            "zeit": "24.11.",
+            "medien": [
+              "Al Jazeera"
+            ]
+          },
+          {
+            "tag": "Jemen",
+            "titel": "Houthis treffen Hochhaus in Riad, saudische Koalition fliegt Hunderte Angriffe im Jemen",
+            "warum": "Der Iran-Krieg greift endgültig auf die Arabische Halbinsel über; Houthi-Medien melden 25 Tote oder Vermisste in Lahj.",
+            "quelle": "CBS News",
+            "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-blockade-strait-of-hormuz-ship-attacks/",
+            "zeit": "24.11., 13:00",
+            "medien": [
+              "CBS News",
+              "Reuters"
+            ]
+          },
+          {
+            "tag": "Iran",
+            "titel": "Iran erwägt Tanker-Konvoi nach China, um die US-Blockade zu durchbrechen",
+            "warum": "Bei 88,7 % Inflation drängt die Wirtschaftslage Teheran zu riskanten Exportversuchen; das Staatsfernsehen dementiert, dass ein Konvoi schon ausgelaufen ist.",
+            "quelle": "The National",
+            "url": "https://www.thenationalnews.com/news/gulf/2026/11/24/is-iran-weighing-tanker-convoy-to-break-us-blockade/",
+            "zeit": "24.11., 11:05",
+            "medien": [
+              "The National"
+            ]
+          },
+          {
+            "tag": "Iran",
+            "titel": "Iran schließt Gespräche mit den USA bis zur Erfüllung von sieben Bedingungen aus",
+            "warum": "Parlamentschef Ghalibaf blockt Verhandlungen; Katar vermittelt, ein Ende der Blockade ist damit vorerst nicht in Sicht.",
+            "quelle": "Gulf News",
+            "url": "https://gulfnews.com/world/mena/middle-east-conflict-us-investigates-iran-over-cyberattacks-on-50-ships-as-fresh-sanctions-target-irans-shadow-banking-network-1.500758688",
+            "zeit": "24.11.",
+            "medien": [
+              "Gulf News",
+              "CBS News"
+            ]
+          }
+        ]
       },
       {
         "id": "sudan",
@@ -3835,39 +5262,988 @@
         "name": "Sudan: Armee gegen RSF",
         "stufe": 3,
         "seit": "15.04.2023",
-        "lage": "",
-        "meldungen": []
+        "lage": "Die Armee gewinnt in Kordofan an Boden und hat die Belagerung von al-Obeid gebrochen, mehrere RSF-Kommandeure sind übergelaufen. Die RSF hält Darfur und greift Khartum mit Drohnen an. Rund 19,5 Mio. Menschen hungern, das WFP muss Hilfe kürzen.",
+        "meldungen": [
+          {
+            "tag": "Sudan",
+            "titel": "Drohnenangriffe töten vier Menschen in Khartum und beschädigen UN-Gebäude",
+            "warum": "Die Armee macht die RSF verantwortlich und sagt, die Drohnen seien aus Äthiopien gestartet; laut OHCHR starben 2026 bis Ende Oktober über 1.630 Zivilisten durch Drohnen.",
+            "quelle": "ABC Australia",
+            "url": "https://www.abc.net.au/news/2026-11-23/deadly-drone-strikes-in-khartoum-sudan-war/107415908",
+            "zeit": "23.11., 01:46",
+            "medien": [
+              "ABC Australia",
+              "Al Jazeera"
+            ]
+          },
+          {
+            "tag": "Sudan",
+            "titel": "RSF-Generalmajor läuft mit acht Kommandeuren zur Armee über",
+            "warum": "Es ist bereits der vierte große Überläufer in diesem Monat – ein Zeichen, dass die RSF in Kordofan unter Druck gerät.",
+            "quelle": "The New Arab",
+            "url": "https://www.newarab.com/news/sudan-rsf-commander-defects-says-israelis-training-militia",
+            "zeit": "24.11., 15:54",
+            "medien": [
+              "The New Arab"
+            ]
+          },
+          {
+            "tag": "Sudan",
+            "titel": "Armee durchbricht Belagerung von al-Obeid und nimmt al-Khuwai ein",
+            "warum": "Die Erfolge in Kordofan könnten den Krieg wenden; die RSF hält aber Darfur und Teile Süd-Kordofans, wo 90 % des Öls gefördert werden.",
+            "quelle": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/14/how-saf-successes-in-sudans-kordofan-could-turn-tide-against-the-rsf",
+            "zeit": "14.11.",
+            "medien": [
+              "Al Jazeera"
+            ]
+          },
+          {
+            "tag": "Hunger",
+            "titel": "WFP kürzt Nahrungshilfe für 900.000 Vertriebene, 19,5 Mio. Menschen hungern",
+            "warum": "Fünf Millionen Menschen sind auf Notfallstufe; Finanzierungslücken verschärfen die Hungersnot.",
+            "quelle": "Al Jazeera",
+            "url": "https://www.aljazeera.com/features/2026/11/2/as-aid-situation-worsens-displaced-sudanese-worry-about-warnings-of-famine",
+            "zeit": "02.11.",
+            "medien": [
+              "Al Jazeera"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "libanon",
+        "kurz": "Libanon",
+        "name": "Israel – Hisbollah (Libanon)",
+        "stufe": 2,
+        "seit": "02.03.2026",
+        "lage": "Seit April gilt formal eine Waffenruhe, doch Israel hält eine rund 10 km tiefe Pufferzone im Südlibanon und greift weiter an. Libanon zählt seit März mehr als 4.300 Tote.",
+        "meldungen": [
+          {
+            "tag": "Libanon",
+            "titel": "Israelische Angriffe in der Pufferzone im Südlibanon",
+            "warum": "Libanesische Medien melden Explosionen in mehreren Dörfern der rund 10 km tiefen Zone, trotz formaler Waffenruhe seit April.",
+            "quelle": "Times of Israel",
+            "url": "https://www.timesofisrael.com/liveblog-november-24-2026/",
+            "zeit": "24.11.",
+            "medien": [
+              "Times of Israel"
+            ]
+          },
+          {
+            "tag": "Libanon",
+            "titel": "Libanon: Mehr als 4.300 Tote durch israelische Angriffe seit März",
+            "warum": "Die Zahl des libanesischen Gesundheitsministeriums zeigt, dass der Nebenkriegsschauplatz des Iran-Kriegs nicht zur Ruhe kommt.",
+            "quelle": "CBS News",
+            "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-blockade-strait-of-hormuz-ship-attacks/",
+            "zeit": "24.11., 13:00",
+            "medien": [
+              "CBS News"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "taiwan",
+        "kurz": "Taiwan",
+        "name": "Taiwanstraße",
+        "stufe": 1,
+        "seit": "1949",
+        "lage": "China hat Anfang November mehr als 100 Marine- und Küstenwachschiffe rund um Taiwan und im Westpazifik zusammengezogen, ohne Manöver anzukündigen. Taipeh wertet das als Blockade-Probe vor seinen Kommunalwahlen Ende November.",
+        "meldungen": [
+          {
+            "tag": "Taiwan",
+            "titel": "Taiwan: China übt mit über 100 Schiffen „Gebietsverweigerung“ im Westpazifik",
+            "warum": "Verteidigungsminister Koo nennt die Liaoning-Trägergruppe; die Manöver liegen vor dem APEC-Gipfel in Shenzhen und Taiwans Kommunalwahlen Ende November.",
+            "quelle": "ThePrint",
+            "url": "https://theprint.in/world/taiwan-says-china-is-conducting-area-denial-drills-in-western-pacific/3094717/",
+            "zeit": "10.11., 03:30",
+            "medien": [
+              "Reuters",
+              "ThePrint"
+            ]
+          },
+          {
+            "tag": "Taiwan",
+            "titel": "„Stille Einschüchterung“: Unangekündigte chinesische Manöver größer als 2025",
+            "warum": "Rund 70 Schiffe blieben in der ersten Inselkette; ein Sicherheitsbeamter spricht von einem U-Boot-Raketentest im Gelben Meer (unbestätigt).",
+            "quelle": "LBC",
+            "url": "https://www.lbc.co.uk/world-news/china-taiwan-pacific-drills/",
+            "zeit": "13.11., 08:21",
+            "medien": [
+              "LBC",
+              "Reuters",
+              "Taipei Times"
+            ]
+          },
+          {
+            "tag": "Taiwan",
+            "titel": "Taipeh: Pekings Manöver sind „stille Einschüchterung“",
+            "warum": "Taiwan wertet die Übung als Test für eine Blockade, ohne dass China sie offiziell ankündigt.",
+            "quelle": "Taipei Times",
+            "url": "https://www.taipeitimes.com/News/front/archives/2026/11/14/2003867710",
+            "zeit": "14.11.",
+            "medien": [
+              "Taipei Times",
+              "Reuters"
+            ]
+          }
+        ]
       }
     ],
-    "front": {},
-    "diplomatie": [],
-    "ruestung": [],
-    "markt": {},
-    "humanitaer": [],
-    "radar": []
+    "front": {
+      "stand": "ISW-Bewertung vom 24.11.",
+      "lage": "Laut ISW gab es am 24.11. weder russische noch ukrainische Geländegewinne; der Krieg verlagert sich in die Luft. Russland greift nachts mit Dutzenden Drohnen an, die Ukraine trifft systematisch russische Raffinerien (16 seit Anfang November).",
+      "punkte": [
+        {
+          "tag": "Lage",
+          "titel": "ISW: Keine Geländegewinne am 24.11., Putin räumt Kosten der Raffinerie-Angriffe ein",
+          "warum": "Russland griff in der Nacht mit 96 Drohnen an; ein russischer Gouverneur (Murmansk) wurde erstmals seit Kriegsbeginn im Amt verhaftet.",
+          "quelle": "Kyiv Post",
+          "url": "https://www.kyivpost.com/post/91108",
+          "zeit": "25.11.",
+          "medien": [
+            "Kyiv Post",
+            "ISW"
+          ]
+        },
+        {
+          "tag": "Luftkrieg",
+          "titel": "Ukrainische Drohnen treffen zwei Rosneft-Raffinerien in Samara",
+          "warum": "Syzran und Kuibyshew brennen; seit Anfang November wurden 16 russische Raffinerien getroffen, die Verarbeitung soll um 45 % gefallen sein.",
+          "quelle": "Kyiv Post",
+          "url": "https://kyivpost.com/post/91110",
+          "zeit": "25.11.",
+          "medien": [
+            "Kyiv Post"
+          ]
+        },
+        {
+          "tag": "Luftkrieg",
+          "titel": "Russland greift mit 96 Drohnen an, eine davon verletzt polnischen Luftraum",
+          "warum": "Auch Moldau meldet eine Luftraumverletzung – der Luftkrieg strahlt auf NATO-Gebiet aus.",
+          "quelle": "Kyiv Post",
+          "url": "https://www.kyivpost.com/post/91108",
+          "zeit": "25.11.",
+          "medien": [
+            "Kyiv Post"
+          ]
+        },
+        {
+          "tag": "Militärhilfe",
+          "titel": "Selenskyj: 48 bereits bezahlte Patriot-Raketen liegen ungezeichnet im Pentagon",
+          "warum": "Die über die NATO-Initiative PURL finanzierten Abfangraketen fehlen, während Russland die Luftangriffe ausweitet; Lizenzen zur eigenen Fertigung gibt es weiter nicht.",
+          "quelle": "Kyiv Post",
+          "url": "https://kyivpost.com/post/91107",
+          "zeit": "25.11.",
+          "medien": [
+            "Kyiv Post"
+          ]
+        }
+      ],
+      "karten": [
+        {
+          "name": "ISW-Karte",
+          "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-november-24-2026/"
+        },
+        {
+          "name": "DeepStateMap",
+          "url": "https://deepstatemap.live/en"
+        }
+      ]
+    },
+    "diplomatie": [
+      {
+        "tag": "Ukraine",
+        "titel": "US-Gesandte wollen bis Januar einen Ukraine-Deal, Kiew setzt sonst auf neuen Kongress",
+        "warum": "Selenskyj will im Januar oder Februar ein großes Hilfspaket und härtere Sanktionen beim neuen Kongress suchen, falls Trumps Diplomatie scheitert.",
+        "quelle": "Kyiv Post",
+        "url": "https://kyivpost.com/post/91107",
+        "zeit": "25.11.",
+        "medien": [
+          "Kyiv Post"
+        ]
+      },
+      {
+        "tag": "Ukraine",
+        "titel": "Online-Runde mit Witkoff, Kushner und Europäern bringt keinen Durchbruch",
+        "warum": "Russland lehnt eine Ausweitung der Gespräche und eine befristete Waffenruhe ab; die Runde in Abu Dhabi brachte nur einen Gefangenenaustausch.",
+        "quelle": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/11/17/ukraine-holds-peace-talks-with-us-europe-as-conflict-escalates",
+        "zeit": "17.11.",
+        "medien": [
+          "Al Jazeera",
+          "Reuters"
+        ]
+      },
+      {
+        "tag": "Iran",
+        "titel": "Iran schließt Gespräche mit den USA bis zur Erfüllung von sieben Bedingungen aus",
+        "warum": "Parlamentschef Ghalibaf blockt Verhandlungen; Katar vermittelt, ein Ende der Blockade ist damit vorerst nicht in Sicht.",
+        "quelle": "Gulf News",
+        "url": "https://gulfnews.com/world/mena/middle-east-conflict-us-investigates-iran-over-cyberattacks-on-50-ships-as-fresh-sanctions-target-irans-shadow-banking-network-1.500758688",
+        "zeit": "24.11.",
+        "medien": [
+          "Gulf News",
+          "CBS News"
+        ]
+      },
+      {
+        "tag": "Sanktionen",
+        "titel": "USA verhängen neue Sanktionen gegen Irans Schattenbanken-Netz",
+        "warum": "OFAC listet 22 Firmen und acht Personen; FinCEN beziffert möglicherweise iranbezogene Finanzströme auf 14,7 Mrd. $. Zugleich prüft Washington Cyberangriffe auf bis zu 50 Schiffe.",
+        "quelle": "CBS News",
+        "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-blockade-strait-of-hormuz-ship-attacks/",
+        "zeit": "24.11., 13:00",
+        "medien": [
+          "CBS News",
+          "Gulf News",
+          "Wall Street Journal"
+        ]
+      },
+      {
+        "tag": "Iran",
+        "titel": "Iran erwägt Tanker-Konvoi nach China, um die US-Blockade zu durchbrechen",
+        "warum": "Bei 88,7 % Inflation drängt die Wirtschaftslage Teheran zu riskanten Exportversuchen; das Staatsfernsehen dementiert, dass ein Konvoi schon ausgelaufen ist.",
+        "quelle": "The National",
+        "url": "https://www.thenationalnews.com/news/gulf/2026/11/24/is-iran-weighing-tanker-convoy-to-break-us-blockade/",
+        "zeit": "24.11., 11:05",
+        "medien": [
+          "The National"
+        ]
+      }
+    ],
+    "ruestung": [
+      {
+        "tag": "Deutschland",
+        "titel": "Pistorius und Chmara einigen sich vorläufig auf weitere Abfangraketen",
+        "warum": "Aus eigenen Patriot-Beständen kann Deutschland nicht mehr liefern; besprochen wurde auch der Drohnenkauf für 2027.",
+        "quelle": "European Pravda",
+        "url": "https://www.eurointegration.com.ua/eng/news/2026/11/24/7250656/",
+        "zeit": "24.11.",
+        "medien": [
+          "European Pravda"
+        ]
+      },
+      {
+        "tag": "Ukraine",
+        "titel": "Deutschland und Norwegen finanzieren Patriot-Raketen für die Ukraine",
+        "warum": "Berlin gibt 300 Mio. $ für PAC-2/PAC-3 über die NATO-Initiative PURL – das fünfte deutsche PURL-Paket.",
+        "quelle": "Ukrainska Pravda",
+        "url": "https://www.pravda.com.ua/eng/news/2026/11/17/8063227/",
+        "zeit": "17.11.",
+        "medien": [
+          "Ukrainska Pravda",
+          "European Pravda"
+        ]
+      },
+      {
+        "tag": "Ukraine",
+        "titel": "Ramstein: Zehn F-16 aus Belgien und zwei Mirage aus Frankreich bis Jahresende",
+        "warum": "Dänemark legt 645 Mio. € nach, Norwegen rund 800 Mio. $, Großbritannien 240 Mio. £ für Luftabwehr.",
+        "quelle": "Ukrainska Pravda",
+        "url": "https://www.pravda.com.ua/eng/news/2026/11/18/8063389/",
+        "zeit": "18.11.",
+        "medien": [
+          "Ukrainska Pravda"
+        ]
+      },
+      {
+        "tag": "Industrie",
+        "titel": "Rheinmetall senkt Prognose, Aktie bricht um 17 % ein",
+        "warum": "Der Boxer-Großauftrag „Arminius“ rutscht wohl nach 2027; seit Jahresbeginn hat die Aktie fast die Hälfte verloren.",
+        "quelle": "Euronews",
+        "url": "https://www.euronews.com/2026/11/05/rheinmetall-shares-plunge-more-than-17-after-profit-warning-over-order-delays",
+        "zeit": "05.11., 11:21",
+        "medien": [
+          "Euronews",
+          "Reuters"
+        ]
+      },
+      {
+        "tag": "Deutschland",
+        "titel": "Haushaltsausschuss: Sieben neue 25-Mio.-Vorlagen, u. a. Eurofighter und SPIKE-Raketen",
+        "warum": "Bis Jahresende sollen noch 38 weitere Beschaffungsvorlagen folgen – Tempo der Zeitenwende-Beschaffung.",
+        "quelle": "ESUT",
+        "url": "https://esut.de/2026/11/meldungen/76427/bundeswehr-7-ruestungsvorhaben-ent/",
+        "zeit": "01.11., 21:15",
+        "medien": [
+          "ESUT"
+        ]
+      }
+    ],
+    "markt": {
+      "lage": "Brent fiel über Nacht um rund 1,5 % auf etwa 90 $ – trotz der Minentreffer in Hormus, weil der Markt auf schwache Nachfrage und Waffenruhe-Hoffnungen schaut; vom Kriegshoch über 120 $ ist Öl weit entfernt. Gold verlor am Dienstag rund 2 % auf 3.557 $, Rheinmetall liegt seit Jahresbeginn rund 48 % im Minus.",
+      "routen": [
+        {
+          "route": "Straße von Hormus",
+          "status": "Verkehr −40 % (17.–23.11. ggü. Anfang Nov.), US-Blockade, Iran meldet Minen"
+        },
+        {
+          "route": "Rotes Meer / Bab al-Mandab",
+          "status": "Houthis im Krieg mit Saudi-Arabien, Schifffahrt meidet die Route weitgehend"
+        },
+        {
+          "route": "Suezkanal",
+          "status": "weiter deutlich unter Vorkrisenniveau"
+        },
+        {
+          "route": "Ostsee / Schwarzes Meer",
+          "status": "ukrainische Drohnenangriffe auf russische Schiffe, Containerschiff Sparta II brannte im Finnischen Meerbusen"
+        },
+        {
+          "route": "Taiwanstraße",
+          "status": "über 100 chinesische Schiffe Anfang Nov., unangekündigte Manöver"
+        }
+      ]
+    },
+    "humanitaer": [
+      {
+        "konflikt": "Ukraine",
+        "tote": "2.957 Zivilisten 2026 (Jan.–Okt., UN), 372 allein im Oktober",
+        "vertriebene": "keine aktuelle UN-Zahl geprüft",
+        "zugang": "Angriffe auf Energienetz vor dem Winter"
+      },
+      {
+        "konflikt": "Iran / Golf",
+        "tote": "über 3.400 Zivilisten in Iran (OCHA); Iran nennt 3.528 Tote",
+        "vertriebene": "keine belastbare Zahl",
+        "zugang": "US-Seeblockade, Inflation 88,7 %"
+      },
+      {
+        "konflikt": "Sudan",
+        "tote": "ca. 150.000 (Schätzung)",
+        "vertriebene": "über 14 Mio., davon ca. 4,5 Mio. im Ausland",
+        "zugang": "stark eingeschränkt, 19,5 Mio. in akuter Hungersnot, WFP kürzt Hilfe"
+      },
+      {
+        "konflikt": "Libanon",
+        "tote": "über 4.300 seit März (libanes. Gesundheitsministerium)",
+        "vertriebene": "über 1 Mio. (Stand Frühjahr)",
+        "zugang": "israelische Pufferzone im Süden"
+      },
+      {
+        "konflikt": "Taiwan",
+        "tote": "–",
+        "vertriebene": "–",
+        "zugang": "keine Kämpfe"
+      }
+    ],
+    "radar": [
+      {
+        "ort": "Baltikum / Ostsee",
+        "stufe": "hoch",
+        "warum": "Drohnen drangen am 10./11.11. in den baltischen Luftraum ein, NATO-Jets scheiterten beim Abschuss; dazu Explosionen am Flottenstützpunkt Baltijsk.",
+        "quelle": "Defence Matters",
+        "url": "https://defencematters.eu/nato-baltic-air-defence-drone-interception-november-2026/",
+        "zeit": "12.11., 23:19"
+      },
+      {
+        "ort": "Polen / Moldau",
+        "stufe": "erhöht",
+        "warum": "Am 23.11. verletzten russische Drohnen polnischen und moldauischen Luftraum.",
+        "quelle": "Kyiv Post",
+        "url": "https://www.kyivpost.com/post/91108",
+        "zeit": "25.11."
+      },
+      {
+        "ort": "Kaliningrad",
+        "stufe": "erhöht",
+        "warum": "Erstmals mutmaßlicher Drohnenangriff auf den Stützpunkt der Baltischen Flotte, Schäden unbestätigt.",
+        "quelle": "Euromaidan Press",
+        "url": "https://euromaidanpress.com/2026/11/22/explosions-reported-at-russias-baltic-fleet-base-in-kaliningrad/",
+        "zeit": "21.11., 23:47"
+      },
+      {
+        "ort": "Taiwanstraße",
+        "stufe": "erhöht",
+        "warum": "Über 100 chinesische Schiffe in unangekündigten Manövern vor Taiwans Kommunalwahlen.",
+        "quelle": "LBC",
+        "url": "https://www.lbc.co.uk/world-news/china-taiwan-pacific-drills/",
+        "zeit": "13.11., 08:21"
+      },
+      {
+        "ort": "Korea",
+        "stufe": "beobachten",
+        "warum": "Nordkorea feuerte am 4.11. zum vierten Mal binnen eines Monats Raketen ab und lehnt Gespräche mit Washington ab.",
+        "quelle": "Reuters",
+        "url": "https://www.thestar.com.my/news/world/2026/11/04/north-korea-fires-multiple-missiles-in-fourth-weapons-launch-in-a-month-seoul-says",
+        "zeit": "04.11., 06:39"
+      },
+      {
+        "ort": "Venezuela",
+        "stufe": "beobachten",
+        "warum": "Hegseth schloss am 18.11. in Caracas ein Militärabkommen; die USA kontrollieren Venezuelas Öleinnahmen.",
+        "quelle": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/11/19/why-is-pete-hegseth-strengthening-us-military-ties-with-venezuela",
+        "zeit": "19.11."
+      }
+    ],
+    "humanitaer_quelle": "UN-Menschenrechtsmission Ukraine (16.11.), OCHA, WFP, Al Jazeera (2. und 14.11.), CBS News (24.11.); Stand 25.11."
   },
   "briefing": {
-    "stand": "25.11., 10:00 Uhr",
+    "stand": "25.11., 10:09 Uhr",
     "saetze": [
       {
         "tag": "Märkte",
-        "text": "Die KI-Rally kippt: Asiens Chipwerte brechen ein (Kospi über −6 %, Tokyo Electron −13,5 %), nachdem schon der US-Chipindex −7,9 % verlor – der Dow hielt dagegen erstmals über 50.000."
+        "text": "Nach dem Chip-Einbruch in Asien (Kospi über −6 %, Tokyo Electron −13,5 %) startet der Dax kaum bewegt bei rund 25.010 Punkten; Belastung droht von neuen US-Zöllen gegen China, die EU und 14 weitere Länder."
       },
       {
         "tag": "Daten",
-        "text": "Um 14:30 Uhr kommen PCE-Inflation, US-BIP und Arbeitsmarktdaten gebündelt vor Thanksgiving – der Konsens erwartet eine Kernrate von 3,2 %, jede Abweichung verschiebt die Zinswetten."
+        "text": "Um 14:30 Uhr kommen PCE-Inflation, US-BIP und Erstanträge gebündelt vor Thanksgiving – der Konsens erwartet eine Kernrate von 3,2 %, um 20:00 Uhr folgt das Beige Book."
       },
       {
         "tag": "Zinsen",
-        "text": "Die Fed-Erhöhung am 9. Dezember gilt mit rund 95 % als ausgemacht; auch EZB und Bank of England sollen am 17. Dezember nachziehen."
+        "text": "Eine Fed-Erhöhung am 9. Dezember ist laut CME FedWatch zu rund 96 % eingepreist; auch EZB und Bank of England sollen am 17. Dezember nachziehen."
       },
       {
-        "tag": "Handel",
-        "text": "Washington bereitet neue Zölle gegen China, die EU und 14 weitere Länder vor, um die vom Supreme Court gekippten Zölle zu ersetzen – Höhe und Termin sind noch offen."
+        "tag": "Konflikte",
+        "text": "Iran meldet brennende Tanker nach Minentreffern in Hormus, der Verkehr dort ist binnen zwei Wochen um über 40 % gefallen – Brent hält sich trotzdem bei etwa 90 $."
       },
       {
         "tag": "Deutschland",
         "text": "Destatis senkt das BIP-Wachstum im dritten Quartal auf +0,1 %, während der Bundestag diese Woche einen Rekordhaushalt für 2027 berät."
+      }
+    ],
+    "details": [
+      {
+        "tag": "Märkte",
+        "titel": "KI-Rally kippt: Chipwerte weltweit unter Druck",
+        "text": "Einen Tag nach dem Nvidia-Rekordsprung verlor der US-Halbleiterindex 7,9 %, heute folgen Asiens Chipwerte: Kospi über −6 %, Tokyo Electron −13,5 %, Advantest −14,5 %, TSMC und Samsung rund −9 %. Auslöser sind Zweifel, ob Big Tech die Billionen-Investitionen in KI-Rechenzentren durchhält.\n\nGleichzeitig schichten Anleger in Standardwerte um: Der Dow schloss erstmals über 50.000 Punkten. Das ist typisch für eine Rotation, nicht für einen breiten Ausverkauf.",
+        "wirkung": [
+          {
+            "markt": "Halbleiter (Nasdaq, Infineon, ASML)",
+            "richtung": "faellt",
+            "warum": "Der Druck aus Asien dürfte zum Handelsstart in Europa und den USA nachwirken; Infineon und ASML sind direkt betroffen."
+          },
+          {
+            "markt": "Dow, Value-Werte",
+            "richtung": "seitwaerts",
+            "warum": "Profitieren von der Umschichtung, solange der Ausverkauf auf Tech begrenzt bleibt."
+          },
+          {
+            "markt": "VIX (Volatilität)",
+            "richtung": "steigt",
+            "warum": "Schwankungen bei Schwergewichten heben die Absicherungskosten; der VIX lag zuletzt um 28."
+          }
+        ],
+        "quelle": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/11/25/asias-stock-markets-dive-as-doubts-to-swirl-over-ai-boom",
+        "zeit": "25.11."
+      },
+      {
+        "tag": "Daten",
+        "titel": "14:30 Uhr: PCE, BIP und Arbeitsmarkt im Paket vor Thanksgiving",
+        "text": "Wegen des Feiertags am Donnerstag kommen die wichtigsten US-Daten gebündelt: Der Konsens erwartet bei der PCE-Kerninflation 3,2 % zum Vorjahr (Vormonat 3,1 %) und 0,3 % zum Vormonat, beim BIP für das dritte Quartal 3,5 % annualisiert und 201.000 Erstanträge auf Arbeitslosenhilfe.\n\nPCE ist das Inflationsmaß, auf das die Fed schaut. Es ist der letzte große Preisdatenpunkt vor der Sitzung am 9. Dezember.",
+        "wirkung": [
+          {
+            "markt": "US-Renditen 10 J.",
+            "richtung": "unsicher",
+            "warum": "Kernrate über 3,2 %: Renditen steigen, weil weitere Erhöhungen 2027 wahrscheinlicher werden. Darunter: Renditen fallen."
+          },
+          {
+            "markt": "US-Dollar (EUR/USD)",
+            "richtung": "unsicher",
+            "warum": "Heißere Inflation stützt den Dollar, schwächere Daten drücken ihn."
+          },
+          {
+            "markt": "Gold",
+            "richtung": "unsicher",
+            "warum": "Gold reagiert gegenläufig zu Realzinsen: steigende Renditen belasten, fallende stützen."
+          },
+          {
+            "markt": "Fed-Erhöhung 9.12.",
+            "richtung": "seitwaerts",
+            "warum": "Mit rund 95 % schon fast voll eingepreist; die Daten bewegen eher die Erwartung für 2027."
+          }
+        ],
+        "quelle": "Investing.com",
+        "url": "https://www.investing.com/news/stock-market-news/gdp-jobless-claims-and-pce-among-key-data-due-wednesday-93CH-5048884",
+        "zeit": "24.11."
+      },
+      {
+        "tag": "Zinsen",
+        "titel": "Notenbanken auf Erhöhungskurs",
+        "text": "Die Märkte rechnen im Dezember mit Zinserhöhungen bei Fed (rund 95 %), EZB (82 %) und Bank of England (80 %); bei der Bank of Japan sind die Signale gemischt. Hintergrund ist eine hartnäckige Inflation: Die PCE-Rate liegt nahe 3,6 %, die Fed hatte im September bereits auf 3,75–4,00 % erhöht.",
+        "wirkung": [
+          {
+            "markt": "Bund-Rendite 10 J.",
+            "richtung": "steigt",
+            "warum": "Eine EZB-Erhöhung auf 2,75 % zieht auch lange Laufzeiten nach oben."
+          },
+          {
+            "markt": "EUR/USD",
+            "richtung": "seitwaerts",
+            "warum": "Beide Notenbanken erhöhen, der Zinsabstand bleibt ähnlich."
+          },
+          {
+            "markt": "Banken (Deutsche Bank, Commerzbank)",
+            "richtung": "steigt",
+            "warum": "Höhere Zinsen verbessern die Zinsmarge."
+          },
+          {
+            "markt": "Immobilienaktien (Vonovia)",
+            "richtung": "faellt",
+            "warum": "Höhere Finanzierungskosten belasten Bewertung und Refinanzierung."
+          }
+        ],
+        "quelle": "TheStreet",
+        "url": "https://www.thestreet.com/fed/nvidia-rally-fed-rate-hike-bets-december-2026",
+        "zeit": "24.11."
+      },
+      {
+        "tag": "Handel",
+        "titel": "Neue US-Zölle gegen China, EU und 14 weitere Länder in Vorbereitung",
+        "text": "Über Section-301-Verfahren zu Industriesubventionen will Washington die vom Supreme Court gekippten Zölle ersetzen, zusätzlich zu den bestehenden 10 bis 12,5 %. Höhe und Termin sind offen.",
+        "wirkung": [
+          {
+            "markt": "DAX-Exporteure (Autos, Maschinenbau)",
+            "richtung": "faellt",
+            "warum": "Die EU ist ausdrücklich betroffen; Autobauer reagieren auf Zollmeldungen besonders stark."
+          },
+          {
+            "markt": "Euro",
+            "richtung": "faellt",
+            "warum": "Handelsrisiken für die Eurozone belasten die Währung leicht."
+          },
+          {
+            "markt": "Chinesische Aktien (Hang Seng)",
+            "richtung": "unsicher",
+            "warum": "Hongkong hielt sich heute stabil; konkrete Zollsätze stehen noch aus."
+          }
+        ],
+        "quelle": "AP",
+        "url": "https://www.ksat.com/news/politics/2026/11/25/us-ready-to-slap-tariffs-on-china-eu-and-others-over-subsidized-production-ap-sources-say/",
+        "zeit": "25.11., 01:52"
+      },
+      {
+        "tag": "Konflikte",
+        "titel": "Hormus: Minentreffer, Verkehr −40 %, Öl bleibt gelassen",
+        "text": "Irans Marine meldet, dass Tanker östlich der Straße von Hormus nach Minentreffern in Brand geraten sind; Teheran erklärt, die Meerenge bleibe geschlossen, bis seine Bedingungen erfüllt sind. Laut MarineTraffic passierten vom 17. bis 23.11. nur noch 125 Schiffe nach 226 in der ersten Novemberwoche.\n\nTrotzdem fiel Brent über Nacht um rund 1,5 % auf etwa 90 $. Der Markt gewichtet schwache Nachfrage und Zinsangst derzeit stärker als das Angebotsrisiko – vom Kriegshoch über 120 $ ist Öl weit entfernt.",
+        "wirkung": [
+          {
+            "markt": "Brent / WTI",
+            "richtung": "unsicher",
+            "warum": "Bestätigte Minen oder ein Tanker-Konvoi Irans würden die Risikoprämie schnell zurückbringen; sonst dominiert die Nachfrageschwäche."
+          },
+          {
+            "markt": "Tankerraten, Versicherer",
+            "richtung": "steigt",
+            "warum": "Weniger Passagen und Minengefahr verteuern Fracht und Kriegsrisiko-Prämien im Golf."
+          }
+        ],
+        "quelle": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/11/24/hormuz-oil-traffic-is-down-40-percent-are-irans-tanker-attacks-working",
+        "zeit": "24.11."
+      },
+      {
+        "tag": "Deutschland",
+        "titel": "Wachstum fast bei null: BIP im dritten Quartal nur +0,1 %",
+        "text": "Destatis senkt die Schnellschätzung von +0,2 % auf +0,1 %. Ausrüstungsinvestitionen (−3,5 %) und Exporte (−1,0 %) bremsen, nur der Staatskonsum (+0,3 %) stützt. Parallel berät der Bundestag den Haushalt 2027 mit Rekordausgaben.",
+        "wirkung": [
+          {
+            "markt": "Bund-Renditen kurz",
+            "richtung": "unsicher",
+            "warum": "Schwaches Wachstum spricht gegen schnelle EZB-Erhöhungen, die Inflation dafür."
+          },
+          {
+            "markt": "DAX-Binnenwerte",
+            "richtung": "faellt",
+            "warum": "Schwache Investitionen dämpfen die Gewinnerwartungen."
+          }
+        ]
+      }
+    ],
+    "begriffe": [
+      {
+        "begriff": "PCE-Preisindex",
+        "erklaerung": "Inflationsmaß aus den privaten Konsumausgaben (Personal Consumption Expenditures). Die Fed bevorzugt es gegenüber dem CPI, weil es mehr Güter erfasst und Ausweichreaktionen der Verbraucher berücksichtigt."
+      },
+      {
+        "begriff": "Kernrate",
+        "erklaerung": "Inflation ohne die schwankenden Preise für Energie und Lebensmittel. Zeigt den zugrunde liegenden Preistrend und ist für Notenbanken aussagekräftiger."
+      },
+      {
+        "begriff": "Konsens",
+        "erklaerung": "Durchschnitt der Prognosen von Analysten für einen Datenpunkt. Märkte reagieren nicht auf die Zahl selbst, sondern auf die Abweichung vom Konsens."
+      },
+      {
+        "begriff": "Basispunkt (bp)",
+        "erklaerung": "Ein Hundertstel Prozentpunkt. 25 bp = 0,25 Prozentpunkte, der übliche Schritt bei Zinsentscheidungen."
+      },
+      {
+        "begriff": "Eingepreist",
+        "erklaerung": "Eine Erwartung steckt schon in den Kursen. Aus Zinsfutures (z. B. CME FedWatch) lässt sich ablesen, mit welcher Wahrscheinlichkeit der Markt einen Zinsschritt erwartet. Ist ein Schritt voll eingepreist, bewegt erst eine Überraschung die Kurse."
+      },
+      {
+        "begriff": "Section 301",
+        "erklaerung": "Vorschrift im US-Handelsgesetz von 1974, mit der der Handelsbeauftragte unfaire Praktiken anderer Länder untersuchen und Zölle verhängen kann, ohne dass der Kongress zustimmen muss."
+      },
+      {
+        "begriff": "Rotation",
+        "erklaerung": "Anleger schichten Geld von einer Branche oder einem Stil in einen anderen um, etwa von Tech-Wachstumswerten in Value-Aktien. Der Gesamtmarkt kann dabei stabil bleiben."
+      }
+    ],
+    "literatur": [
+      {
+        "titel": "21st Century Monetary Policy",
+        "autor": "Ben S. Bernanke (2022)",
+        "warum": "Der frühere Fed-Chef erklärt, wie die Fed Inflation und Zinsen steuert, von Volcker bis zur Pandemie."
+      },
+      {
+        "titel": "Chip War",
+        "autor": "Chris Miller (2022)",
+        "warum": "Warum Halbleiter das Öl des 21. Jahrhunderts sind und wie TSMC, ASML und Nvidia zusammenhängen."
+      },
+      {
+        "titel": "Makroökonomik",
+        "autor": "N. Gregory Mankiw",
+        "warum": "Standardlehrbuch zu Inflation, Geldpolitik und Konjunktur, auch auf Deutsch; passt zum RSW-Studium."
+      },
+      {
+        "titel": "PCE-Preisindex: Erklärung und Daten",
+        "autor": "U.S. Bureau of Economic Analysis",
+        "url": "https://www.bea.gov/data/personal-consumption-expenditures-price-index",
+        "warum": "Offizielle Quelle für die heutigen Zahlen."
+      },
+      {
+        "titel": "CME FedWatch Tool",
+        "autor": "CME Group",
+        "url": "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html",
+        "warum": "Hier entstehen die Fed-Wahrscheinlichkeiten der Notenbank-Uhr."
+      }
+    ]
+  },
+  "energie": {
+    "stand": "25.11. 10:15",
+    "oel": {
+      "lage": "Die Straße von Hormus ist seit Kriegsbeginn am 28.2. nur eingeschränkt passierbar, Minen trafen zuletzt einen vierten Tanker. Trotzdem fällt Brent auf rund 88–91 $, weil die Förderung außerhalb des Golfs steigt und die IEA für dieses Quartal ein Überangebot erwartet.",
+      "foerderung": [
+        {
+          "land": "USA",
+          "mbd": 13.6,
+          "anteil": 16.1
+        },
+        {
+          "land": "Russland",
+          "mbd": 9.9,
+          "anteil": 11.7
+        },
+        {
+          "land": "Saudi-Arabien",
+          "mbd": 9.6,
+          "anteil": 11.4
+        },
+        {
+          "land": "Kanada",
+          "mbd": 5.0,
+          "anteil": 5.9
+        },
+        {
+          "land": "Irak",
+          "mbd": 4.4,
+          "anteil": 5.2
+        },
+        {
+          "land": "China",
+          "mbd": 4.3,
+          "anteil": 5.1
+        }
+      ],
+      "verbrauch": [
+        {
+          "land": "USA",
+          "mbd": 20.5,
+          "anteil": null
+        },
+        {
+          "land": "China",
+          "mbd": 16.4,
+          "anteil": null
+        },
+        {
+          "land": "Indien",
+          "mbd": 5.6,
+          "anteil": null
+        },
+        {
+          "land": "Russland",
+          "mbd": 3.8,
+          "anteil": null
+        },
+        {
+          "land": "Saudi-Arabien",
+          "mbd": 3.7,
+          "anteil": null
+        },
+        {
+          "land": "Brasilien",
+          "mbd": 3.3,
+          "anteil": null
+        },
+        {
+          "land": "Japan",
+          "mbd": 3.2,
+          "anteil": null
+        }
+      ],
+      "quelle": "Förderung: Rohöl 2025, Welt 84,4 Mio. b/d; Verbrauch: 2024 (EIA, Energy Institute Statistical Review 2026)",
+      "opec": {
+        "stand": "Beschluss 1.11.",
+        "lage": "Die sieben Länder mit monatlichen Quoten lassen die Förderung im Dezember unverändert (3. Monat in Folge). Am 29.11. legt die Ministerkonferenz aller 21 Mitglieder die Basismengen für 2027 fest; nach dem 31.12. gibt es bisher keinen Förderrahmen. Die VAE sind seit 1.5.2026 nicht mehr dabei.",
+        "quoten": [
+          {
+            "land": "Saudi-Arabien",
+            "quote": 10478
+          },
+          {
+            "land": "Russland",
+            "quote": 9949
+          },
+          {
+            "land": "Irak",
+            "quote": 4431
+          },
+          {
+            "land": "Kuwait",
+            "quote": 2676
+          },
+          {
+            "land": "Kasachstan",
+            "quote": 1628
+          },
+          {
+            "land": "Algerien",
+            "quote": 1007
+          },
+          {
+            "land": "Oman",
+            "quote": 841
+          }
+        ],
+        "summe": 31010
+      }
+    },
+    "gas": {
+      "lage": "Die EU-Speicher sind so leer wie seit über zehn Jahren nicht zu dieser Jahreszeit; Kälte ab dieser Woche und die Force Majeure von QatarEnergy (bis Ende Dezember) treiben TTF. Ab Januar gilt das EU-Importverbot für russisches Gas.",
+      "ttf": {
+        "wert": 96.08,
+        "datum": "24.11.",
+        "veraenderung": 8.6
+      },
+      "speicher": {
+        "eu": 68.4,
+        "de": 55.9,
+        "datum": "23.11."
+      },
+      "lng": [],
+      "quelle": "TTF: ICE Endex Frontmonat (Bloomberg)"
+    },
+    "strom": {
+      "welt": [
+        {
+          "name": "Welt",
+          "jahr": 2025,
+          "ee": 33.8,
+          "hinweis": "Ember Global Electricity Review 2026: Erneuerbare erstmals vor Kohle (33,0 %)"
+        },
+        {
+          "name": "EU",
+          "jahr": 2025,
+          "ee": 47.7,
+          "hinweis": "Ember European Electricity Review 2026: Wind und Solar (30,1 %) erstmals vor fossilen (29,0 %)"
+        },
+        {
+          "name": "Deutschland",
+          "jahr": "H1 2026",
+          "ee": 58.0,
+          "hinweis": "BDEW/ZSW, Anteil am Stromverbrauch, Rekord"
+        }
+      ],
+      "quelle": "Ember, BDEW/ZSW"
+    },
+    "routen": {
+      "stand": "Mitte Nov.",
+      "quelle": "EIA (Normalwerte H1 2025), Kpler, IMF PortWatch",
+      "liste": [
+        {
+          "route": "Straße von Hormus",
+          "normal": "20,9 Mio. b/d",
+          "lage": "Stark eingeschränkt: ca. 8–10 Mio. b/d (ohne Iran), US-Blockade iranischer Häfen, Minen",
+          "status": "rot"
+        },
+        {
+          "route": "Bab el-Mandeb / Rotes Meer",
+          "normal": "ca. 5 Mio. b/d",
+          "lage": "Mehr Verkehr (saudische Exporte über Yanbu), aber Houthi-Angriffe; Tankerverkehr −36 % ggü. Vorjahr",
+          "status": "gelb"
+        },
+        {
+          "route": "Suezkanal",
+          "normal": "5,8 Mio. b/d",
+          "lage": "Tankerverkehr etwa auf Vorjahresniveau",
+          "status": "gruen"
+        },
+        {
+          "route": "Kap der Guten Hoffnung",
+          "normal": "9,4 Mio. b/d",
+          "lage": "Ausweichroute, Tanker +10 % ggü. Vorjahr",
+          "status": "gelb"
+        },
+        {
+          "route": "Straße von Malakka",
+          "normal": "16,6 Mio. b/d",
+          "lage": "Normal, wichtigster Weg nach China/Japan",
+          "status": "gruen"
+        },
+        {
+          "route": "Saudische Ost-West-Pipeline",
+          "normal": "umgeht Hormus",
+          "lage": "Ca. 5,8 Mio. b/d (Okt.), mehrfach von Drohnen getroffen",
+          "status": "gelb"
+        }
+      ]
+    },
+    "klima": {
+      "stand": "Nov. 2026",
+      "lage": "Die COP31 in Antalya (9.–20.11.) endete nach Rekordlänge ohne großen Durchbruch. Erneuerbare haben 2025 weltweit erstmals mehr Strom erzeugt als Kohle.",
+      "ziele": [
+        {
+          "land": "Deutschland",
+          "ziel": "−65 % (1990)",
+          "stand": "ca. −49 % (2025, ~640 Mt)",
+          "netto_null": "2045",
+          "kurs": "knapp",
+          "hinweis": "UBA-Projektion: ca. −63 % bis 2030"
+        },
+        {
+          "land": "EU",
+          "ziel": "−55 % (1990)",
+          "stand": "ca. −37 % (2023)",
+          "netto_null": "2050",
+          "kurs": "knapp",
+          "hinweis": "2040-Ziel: −90 %"
+        },
+        {
+          "land": "USA",
+          "ziel": "kein Ziel mehr",
+          "stand": "Paris-Austritt wirksam seit Jan. 2026",
+          "netto_null": "–",
+          "kurs": "nein",
+          "hinweis": "Frühere Zusage −50–52 % (2005) aufgegeben"
+        },
+        {
+          "land": "China",
+          "ziel": "Emissionsspitze vor 2030",
+          "stand": "Emissionen stagnieren, Solar/Wind 22 % des Stroms",
+          "netto_null": "2060",
+          "kurs": "ok",
+          "hinweis": "NDC 2035: −7–10 % ggü. Höchststand"
+        },
+        {
+          "land": "Indien",
+          "ziel": "−45 % Emissionsintensität (2005)",
+          "stand": "Fossile Stromerzeugung 2025 −3,3 %",
+          "netto_null": "2070",
+          "kurs": "ok"
+        },
+        {
+          "land": "Japan",
+          "ziel": "−46 % (2013)",
+          "stand": "ca. −23 % (2023)",
+          "netto_null": "2050",
+          "kurs": "knapp"
+        },
+        {
+          "land": "Großbritannien",
+          "ziel": "−68 % (1990)",
+          "stand": "ca. −53 % (2024)",
+          "netto_null": "2050",
+          "kurs": "knapp"
+        }
+      ],
+      "quelle": "UBA, EEA, UNFCCC-NDCs, Climate Action Tracker; Stände gerundet"
+    },
+    "eua": {
+      "wert": null,
+      "datum": null
+    },
+    "termine": [
+      {
+        "datum": "26.11.",
+        "was": "EIA-Wochenbericht US-Öllager (wegen Thanksgiving)"
+      },
+      {
+        "datum": "29.11.",
+        "was": "OPEC+-Ministerkonferenz: Quoten 2027, Kapazitätsprüfung"
+      },
+      {
+        "datum": "31.12.",
+        "was": "Ende Force Majeure QatarEnergy (LNG), Ende OPEC+-Förderrahmen"
+      },
+      {
+        "datum": "01.01.",
+        "was": "EU-Importverbot für russisches Gas tritt in Kraft"
+      },
+      {
+        "datum": "2027",
+        "was": "COP32 in Addis Abeba"
+      }
+    ],
+    "news": [
+      {
+        "tag": "Öl",
+        "titel": "Brent fällt unter 91 $ trotz neuer Angriffe in Hormus",
+        "warum": "Mehr Angebot außerhalb des Golfs wiegt schwerer als die Minen-Angriffe; WTI bei rund 81,65 $.",
+        "quelle": "Free Press Journal",
+        "url": "https://www.freepressjournal.in/business/crude-oil-prices-slip-as-brent-falls-below-91-amid-rising-supply-strait-of-hormuz-attacks-and-us-iran-tensions",
+        "zeit": "25.11."
+      },
+      {
+        "tag": "Gas",
+        "titel": "TTF springt um 8,6 % auf 96 €/MWh",
+        "warum": "Kälteprognosen treffen auf die niedrigsten Speicherstände seit über zehn Jahren; Preis fast dreimal so hoch wie vor einem Jahr.",
+        "quelle": "Bloomberg",
+        "url": "https://leprivatebanker.com/2026/11/24/european-gas-jumps-8-6-to-e96-a-megawatt-hour-as-cold-forecasts-meet-the-lowest-storage-levels-in-a-decade/",
+        "zeit": "24.11.",
+        "medien": [
+          "Bloomberg"
+        ]
+      },
+      {
+        "tag": "OPEC+",
+        "titel": "OPEC+ hält Dezember-Quoten stabil, Fokus auf 2027",
+        "warum": "Sieben Länder bleiben bei zusammen 31,01 Mio. b/d; am 29.11. geht es um neue Basismengen.",
+        "quelle": "World Oil (Bloomberg)",
+        "url": "https://www.worldoil.com/news/2026/11/1/opec-subgroup-keeps-oil-production-quotas-unchanged-for-december",
+        "zeit": "01.11.",
+        "medien": [
+          "Bloomberg"
+        ]
+      },
+      {
+        "tag": "CO₂",
+        "titel": "EU-CO₂-Preis wieder über 90 €/t",
+        "warum": "Kälte, Wechsel zu Kohle und weniger Zertifikate stützen; ABN Amro erwartet im 4. Quartal Ø 86 €.",
+        "quelle": "GMK Center",
+        "url": "https://gmk.center/en/news/european-carbon-prices-exceeded-e90-t-in-november/",
+        "zeit": "13.11."
+      },
+      {
+        "tag": "Klima",
+        "titel": "COP31 in Antalya endet ohne großen Durchbruch",
+        "warum": "Längste Klimakonferenz bisher; Gastgeber Türkei, Verhandlungsführung Australien.",
+        "quelle": "Energy News Beat",
+        "url": "https://energynewsbeat.co/climate-crisis-op-ed/cop31-in-antalya-ended-without-a-major-deal-after-the-longest-climate-summit-on-record/",
+        "zeit": "Nov."
+      },
+      {
+        "tag": "Strom",
+        "titel": "Erneuerbare decken 58 % des deutschen Stroms im ersten Halbjahr",
+        "warum": "Rekord: Offshore-Wind +28 %, Onshore +7 %, Solar +4 %.",
+        "quelle": "Clean Energy Wire",
+        "url": "https://www.cleanenergywire.org/news/renewables-covered-record-58-german-electricity-consumption-first-half-2026",
+        "zeit": "01.07."
       }
     ]
   }

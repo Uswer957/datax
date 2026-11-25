@@ -1,0 +1,35 @@
+/* Energie-Tab */
+.e-oel-top{display:grid;grid-template-columns:minmax(360px,1fr) minmax(0,1.3fr);gap:12px;align-items:start;margin-bottom:10px}
+.tv-energy{height:260px}
+@media (max-width:1180px){.e-oel-top{grid-template-columns:1fr}.tv-energy{height:230px}}
+.e-two{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.e-gap{margin-top:18px}
+.e-kpis{display:flex;flex-wrap:wrap;gap:8px 22px;margin:2px 0 10px}
+.e-kpi .v{font:500 22px/1.1 var(--f-data);font-variant-numeric:tabular-nums;color:var(--fg)}
+.e-kpi .v small{font-size:12px;color:var(--muted);margin-left:3px}
+.e-kpi .l{font:11px var(--f-data);color:var(--muted)}
+.e-kpi .d{font:11px var(--f-data);margin-left:6px}
+.e-up{color:rgb(63,185,80)}.e-dn{color:rgb(248,81,73)}
+.e-bar{display:flex;height:22px;border-radius:3px;overflow:hidden;margin:4px 0 2px;background:var(--panel2)}
+.e-bar span{display:block;height:100%;min-width:1px}
+.legend i.sw{display:inline-block;width:9px;height:9px;border-radius:2px;margin-right:4px;vertical-align:-1px}
+.e-gauges{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:6px}
+.e-gauge .l{font:600 11px var(--f-display);letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.e-gauge .v{font:500 24px/1.15 var(--f-data);font-variant-numeric:tabular-nums}
+.e-gauge .track{position:relative;height:8px;background:var(--panel2);border-radius:4px;margin:5px 0 3px;overflow:visible}
+.e-gauge .fill{height:100%;border-radius:4px;background:var(--fg)}
+.e-gauge .vj{position:absolute;top:-3px;width:2px;height:14px;background:var(--muted)}
+.e-gauge .m{font:11px var(--f-data);color:var(--muted)}
+.e-welt{display:grid;gap:5px;margin-top:6px}
+.e-welt .row{display:grid;grid-template-columns:110px minmax(0,1fr) 52px;gap:8px;align-items:center;font-size:12.5px}
+.e-welt .row .t{height:10px;background:var(--panel2);border-radius:2px;overflow:hidden;display:flex}
+.e-welt .row .t span{display:block;height:100%}
+.e-welt .row .p{font:12px var(--f-data);text-align:right;font-variant-numeric:tabular-nums}
+.e-kurs{font:11px var(--f-data);border:1px solid var(--line);border-radius:3px;padding:0 5px;white-space:nowrap}
+.e-kurs.ok{color:rgb(63,185,80);border-color:rgba(63,185,80,.5)}
+.e-kurs.knapp{color:#e6c14a;border-color:rgba(230,193,74,.5)}
+.e-kurs.nein{color:rgb(248,81,73);border-color:rgba(248,81,73,.5)}
+.e-lage-dot{display:inline-block;width:7px;height:7px;border-radius:50%;margin-right:6px;vertical-align:1px;background:var(--muted)}
+.e-lage-dot.rot{background:rgb(248,81,73)}.e-lage-dot.gelb{background:#e6c14a}.e-lage-dot.gruen{background:rgb(63,185,80)}
+#e-zonen tr.de td{color:var(--accent);font-weight:500}
+@media (max-width:720px){.e-oel-top,.e-two{grid-template-columns:1fr}.e-welt .row{grid-template-columns:90px minmax(0,1fr) 48px}}

@@ -417,6 +417,87 @@ def ezb():
     return {"stand": now_str(), "zinsen": zinsen, "estr": estr, "kurve": kurve}
 
 
+# ---------------- Kurslisten Märkte-Tab ----------------
+# (Gruppe, CNBC-Symbol, Anzeigename, Nachkommastellen)
+MARKT = [
+    ("indizes", ".SPX", "S&P 500", 0), ("indizes", ".NDX", "Nasdaq 100", 0), ("indizes", ".DJI", "Dow Jones", 0),
+    ("indizes", ".GDAXI", "DAX", 0), ("indizes", ".STOXX50E", "Euro Stoxx 50", 0), ("indizes", ".FTSE", "FTSE 100", 0),
+    ("indizes", ".N225", "Nikkei 225", 0), ("indizes", ".HSI", "Hang Seng", 0), ("indizes", ".SSEC", "Shanghai Comp.", 0),
+    ("devisen", "EUR=", "EUR/USD", 4), ("devisen", "EURGBP=", "EUR/GBP", 4), ("devisen", "EURCHF=", "EUR/CHF", 4),
+    ("devisen", "EURJPY=", "EUR/JPY", 2), ("devisen", "JPY=", "USD/JPY", 2), ("devisen", "CNY=", "USD/CNY", 4),
+    ("devisen", ".DXY", "Dollar-Index", 2),
+    ("rohstoffe", "@LCO.1", "Brent", 2), ("rohstoffe", "@CL.1", "WTI", 2), ("rohstoffe", "@NG.1", "Erdgas (US)", 3),
+    ("rohstoffe", "@GC.1", "Gold", 0), ("rohstoffe", "@SI.1", "Silber", 2), ("rohstoffe", "@PL.1", "Platin", 0),
+    ("rohstoffe", "@HG.1", "Kupfer", 3),
+    ("krypto", "BTC.CM=", "Bitcoin", 0), ("krypto", "ETH.CM=", "Ethereum", 0), ("krypto", "SOL.CM=", "Solana", 2),
+    ("krypto", "XRP.CM=", "XRP", 3),
+    ("renditen", "US10Y", "USA", 3), ("renditen", "DE10Y-DE", "Deutschland", 3), ("renditen", "UK10Y-GB", "UK", 3),
+    ("renditen", "FR10Y-FR", "Frankreich", 3), ("renditen", "IT10Y-IT", "Italien", 3), ("renditen", "JP10Y-JP", "Japan", 3),
+    ("renditen", "CN10Y-CN", "China", 3),
+]
+
+
+def cnbc_raw(syms):
+    """Kurse ohne Symbol-Umschreibung (Anleihe-Symbole enthalten Bindestriche)."""
+    url = ("https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols="
+           + "%7C".join(urllib.request.quote(s, safe="") for s in syms)
+           + "&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json")
+    q = json.loads(get(url))["FormattedQuoteResult"]["FormattedQuote"]
+    return {x.get("symbol"): x for x in q}
+
+
+def bars_raw(cs, tage):
+    end = dt.date.today() + dt.timedelta(days=1)
+    start = end - dt.timedelta(days=int(tage * 1.5) + 10)
+    j = json.loads(get(f"https://ts-api.cnbc.com/harmony/app/bars/{urllib.request.quote(cs, safe='')}/1D/{start:%Y%m%d}000000/{end:%Y%m%d}000000/adjusted/EST5EDT.json", tries=2))
+    rows = {}
+    for b in (j.get("barData") or {}).get("priceBars") or []:
+        t, c = str(b.get("tradeTime") or ""), num(b.get("close"))
+        if len(t) >= 8 and c is not None:
+            rows[f"{t[:4]}-{t[4:6]}-{t[6:8]}"] = c
+    return sorted(rows.items())
+
+
+def markt():
+    """Kurslisten mit 3-Monats-Verlauf für Indizes, Devisen, Rohstoffe, Krypto, 10J-Renditen."""
+    syms = [m[1] for m in MARKT]
+    q = {}
+    for i in range(0, len(syms), 20):
+        q.update(cnbc_raw(syms[i:i + 20]))
+
+    def hist(cs):
+        try:
+            return cs, bars_raw(cs, 95)
+        except Exception as e:  # noqa: BLE001
+            log("Verlauf", cs, e)
+            return cs, []
+    with ThreadPoolExecutor(6) as ex:
+        H = dict(ex.map(hist, syms))
+    gruppen = {}
+    ok = 0
+    for g, cs, name, dez in MARKT:
+        x = q.get(cs) or {}
+        px = num(x.get("last"))
+        rows = H.get(cs) or []
+        if px is None and rows:
+            px = rows[-1][1]
+        if px is None:
+            log("Markt: kein Kurs", cs)
+            continue
+        ok += 1
+        prev = num(x.get("previous_day_closing"))
+        chg = num(x.get("change_pct"))
+        if chg is None and prev:
+            chg = (px / prev - 1) * 100
+        e = {"sym": cs, "name": name, "dez": dez, "px": px, "chg": chg, "abs": num(x.get("change")),
+             "zeit": (x.get("last_time") or "")[:16] or None, "verlauf": [round(c, 6) for _, c in rows[-66:]],
+             "von": rows[-66][0] if len(rows) >= 66 else (rows[0][0] if rows else None)}
+        gruppen.setdefault(g, []).append(e)
+    if not ok:
+        raise RuntimeError("keine Kurse")
+    return {"stand": now_str(), "quelle": "CNBC", "gruppen": gruppen}
+
+
 def main():
     try:
         with open(OUT) as f:
@@ -425,7 +506,12 @@ def main():
         alt = {}
     full = os.environ.get("FULL") == "1" or dt.datetime.now(dt.timezone.utc).minute < 30 or "breadth" not in alt
     jobs = [("sektoren", sektoren), ("stress", stress), ("stress_eu", lambda: stress("eu")),
-            ("stress_asien", lambda: stress("asien")), ("us_kurve", us_kurve), ("ezb", ezb)]
+            ("stress_de", lambda: stress("de")), ("stress_asien", lambda: stress("asien")),
+            ("us_kurve", us_kurve), ("ezb", ezb), ("markt", markt)]
+    nur = os.environ.get("NUR")
+    if nur:
+        jobs = [j for j in jobs if j[0] in nur.split(",")]
+        full = False
     if full:
         jobs.append(("breadth", breadth))
     neu = dict(alt)
