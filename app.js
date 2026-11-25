@@ -54,9 +54,9 @@
   setInterval(tick, 1000);
 
   /* ---------- Tabs ---------- */
-  const TABS = ["maerkte", "politik", "konflikte", "energie", "sport", "sonstiges"];
+  const TABS = ["briefing", "maerkte", "politik", "konflikte", "energie", "sport", "sonstiges"];
   function show(name) {
-    if (!TABS.includes(name)) name = "maerkte";
+    if (!TABS.includes(name)) name = "briefing";
     TABS.forEach((t) => {
       document.getElementById("tab-" + t).setAttribute("aria-selected", String(t === name));
       document.getElementById("p-" + t).hidden = t !== name;
@@ -567,11 +567,12 @@
   const fmtDay = new Intl.DateTimeFormat("de-DE", { timeZone: BER, weekday: "short", day: "2-digit", month: "2-digit" });
   const fmtTime = new Intl.DateTimeFormat("de-DE", { timeZone: BER, hour: "2-digit", minute: "2-digit" });
   const dayKey = (d) => new Intl.DateTimeFormat("en-CA", { timeZone: BER }).format(d);
+  const WIRK = { steigt: ["▲", "up"], faellt: ["▼", "dn"], "fällt": ["▼", "dn"], seitwaerts: ["▶", ""], unsicher: ["◆", ""] };
   function renderBriefing(b) {
-    const box = $("briefing");
-    const list = (b && b.saetze) || [];
-    box.hidden = !list.length;
+    b = b || {};
     const ol = $("br-list"); ol.textContent = "";
+    const list = b.saetze || [];
+    if (!list.length) ol.appendChild(txt("li", "empty", "Wird beim nächsten Lauf gefüllt."));
     list.forEach((x) => {
       const li = document.createElement("li");
       if (typeof x === "string") li.textContent = x;
@@ -581,7 +582,48 @@
       }
       ol.appendChild(li);
     });
-    $("br-stand").textContent = (b && b.stand) || "";
+    $("br-stand").textContent = b.stand || "";
+    // Ausführlich mit erwarteter Wirkung
+    const det = $("br-detail"); det.textContent = "";
+    (b.details || []).forEach((d) => {
+      const sec = txt("section", "br-d", "");
+      const h = txt("h3", "", "");
+      if (d.tag) h.appendChild(txt("span", "br-tag", d.tag));
+      h.appendChild(document.createTextNode(d.titel || ""));
+      sec.appendChild(h);
+      String(d.text || "").split(/\n\n+/).filter(Boolean).forEach((p) => sec.appendChild(txt("p", "", p)));
+      if (d.wirkung && d.wirkung.length) {
+        sec.appendChild(txt("div", "br-wh", "Erwartete Wirkung"));
+        const ul = txt("ul", "br-wirk", "");
+        d.wirkung.forEach((w) => {
+          const li = document.createElement("li");
+          const [sym, cls] = WIRK[w.richtung] || ["◆", ""];
+          li.appendChild(txt("span", "br-dir " + cls, sym));
+          li.appendChild(txt("span", "br-m", w.markt || ""));
+          li.appendChild(txt("span", "br-w", w.warum || ""));
+          ul.appendChild(li);
+        });
+        sec.appendChild(ul);
+      }
+      if (d.quelle) { const q = srcLine({ quelle: d.quelle, url: d.url, zeit: d.zeit }); sec.appendChild(q); }
+      det.appendChild(sec);
+    });
+    if (!det.childNodes.length) det.appendChild(txt("p", "empty", "Wird beim nächsten Lauf gefüllt."));
+    // Begriffe
+    const dl = $("br-wissen"); dl.textContent = "";
+    (b.begriffe || []).forEach((w) => { dl.appendChild(txt("dt", "", w.begriff)); dl.appendChild(txt("dd", "", w.erklaerung)); });
+    // Literatur
+    const ul = $("br-lit"); ul.textContent = "";
+    (b.literatur || []).forEach((l) => {
+      const li = document.createElement("li");
+      const u = safeUrl(l.url);
+      const t = txt(u ? "a" : "span", "br-lt", l.titel || "");
+      if (u) { t.href = u; t.target = "_blank"; t.rel = "noopener"; }
+      li.appendChild(t);
+      if (l.autor) li.appendChild(txt("span", "br-la", " · " + l.autor));
+      if (l.warum) li.appendChild(txt("span", "br-lw", l.warum));
+      ul.appendChild(li);
+    });
   }
 
   let NB = [];
