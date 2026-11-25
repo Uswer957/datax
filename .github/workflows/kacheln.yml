@@ -1,0 +1,50 @@
+name: Markt-Kacheln aktualisieren
+
+on:
+  schedule:
+    # UTC. US-Handelszeit alle 30 Min., dazu europäischer Vormittag
+    - cron: "5,35 13-21 * * 1-5"
+    - cron: "5 6,9,11 * * 1-5"
+    - cron: "5 9 * * 6"
+  workflow_dispatch:
+    inputs:
+      full:
+        description: "Market Breadth mitrechnen"
+        type: boolean
+        default: true
+  push:
+    branches: [claude/project-thread-jjih0e]
+    paths: [scripts/kacheln.py, .github/workflows/kacheln.yml]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: kacheln
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Daten laden
+        env:
+          FULL: ${{ (github.event_name != 'schedule' && (github.event_name == 'push' || inputs.full)) && '1' || '0' }}
+        run: python scripts/kacheln.py
+      - name: Committen
+        run: |
+          git config user.name "datax-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add kacheln.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Markt-Kacheln $(TZ=Europe/Berlin date '+%d.%m. %H:%M')"
+          for i in 1 2 3 4; do
+            git pull --rebase -X theirs origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}" && exit 0
+            sleep $((i*5))
+          done
+          exit 1
