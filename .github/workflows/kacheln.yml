@@ -12,9 +12,6 @@ on:
         description: "Market Breadth mitrechnen"
         type: boolean
         default: true
-  push:
-    branches: [claude/project-thread-jjih0e]
-    paths: [scripts/kacheln.py, .github/workflows/kacheln.yml]
 
 permissions:
   contents: write
