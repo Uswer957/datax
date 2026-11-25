@@ -93,10 +93,6 @@
       { proName: "OANDA:DE10YBEUR", title: "Bund" }, { proName: "BITSTAMP:BTCUSD", title: "Bitcoin" }
     ]
   });
-  widget("w-fx", "market-quotes", quotes("Devisen", [["FX:EURUSD", "EUR/USD"], ["FX:EURGBP", "EUR/GBP"], ["FX:EURCHF", "EUR/CHF"], ["FX:USDJPY", "USD/JPY"], ["FX_IDC:USDCNY", "USD/CNY"], ["FX_IDC:EURCNY", "EUR/CNY"]]));
-  widget("w-cmd", "market-quotes", quotes("Rohstoffe", [["TVC:UKOIL", "Brent"], ["TVC:USOIL", "WTI"], ["TVC:GOLD", "Gold"], ["TVC:SILVER", "Silber"], ["TVC:PLATINUM", "Platin"], ["CAPITALCOM:COPPER", "Kupfer"]]));
-  widget("w-bonds", "market-quotes", quotes("Anleihe-Kurse", [["OANDA:DE10YBEUR", "Bund 10J"], ["OANDA:USB10YUSD", "US T-Note 10J"], ["OANDA:UK10YBGBP", "UK Gilt 10J"]]));
-  widget("w-idx", "market-quotes", quotes("Indizes", [["INDEX:DEU40", "DAX"], ["FOREXCOM:SPXUSD", "S&P 500"], ["FOREXCOM:NSXUSD", "Nasdaq 100"], ["INDEX:NKY", "Nikkei 225"], ["INDEX:HSI", "Hang Seng"], ["BITSTAMP:BTCUSD", "Bitcoin"], ["BITSTAMP:ETHUSD", "Ethereum"]]));
   widget("w-kmarkt", "market-quotes", quotes("Konflikt-Barometer", [["TVC:UKOIL", "Brent"], ["TVC:GOLD", "Gold"], ["XETR:RHM", "Rheinmetall"], ["XETR:HAG", "Hensoldt"], ["NYSE:LMT", "Lockheed Martin"], ["XETR:HLAG", "Hapag-Lloyd"], ["NYSE:FRO", "Frontline (Tanker)"]]));
   // Vollständiger Kalender erst beim Aufklappen laden
   document.getElementById("wk-full").addEventListener("toggle", function once() {
@@ -106,19 +102,6 @@
   });
 
   /* ---------- Inhalte von Claude (data.json) ---------- */
-  let watchSig = "";
-  function watchWidget(groups) {
-    const valid = (groups || []).map((g) => ({
-      name: g.markt,
-      symbols: (g.titel || []).filter((t) => typeof t.symbol === "string" && /^[A-Z0-9_]+:[A-Z0-9._!-]+$/i.test(t.symbol))
-        .map((t) => ({ name: t.symbol, displayName: t.name }))
-    })).filter((g) => g.symbols.length);
-    const sig = JSON.stringify(valid);
-    if (!valid.length || sig === watchSig) return;
-    watchSig = sig;
-    $("w-watch").textContent = "";
-    widget("w-watch", "market-quotes", { width: "100%", height: "100%", showSymbolLogo: false, symbolsGroups: valid });
-  }
   function renderWatch(w) {
     const box = $("m-watch"); box.textContent = "";
     w = w || {};
@@ -133,16 +116,17 @@
       const ul = document.createElement("ul");
       (g.titel || []).forEach((t) => {
         const li = document.createElement("li");
+        if (t.symbol) li.dataset.sym = t.symbol;
         const n = txt("span", "n", t.name);
         if (t.symbol) n.appendChild(txt("span", "sym", String(t.symbol).split(":").pop()));
         li.appendChild(n);
+        li.appendChild(txt("span", "wq", ""));
         if (t.grund) li.appendChild(txt("span", "g", t.grund));
         ul.appendChild(li);
       });
       sec.appendChild(ul);
       box.appendChild(sec);
     });
-    watchWidget(groups);
   }
   const $ = (id) => document.getElementById(id);
   const txt = (tag, cls, t) => { const e = document.createElement(tag); if (cls) e.className = cls; e.textContent = t == null ? "" : String(t); return e; };
@@ -671,9 +655,10 @@
   }
   setInterval(tickNB, 30 * 1000);
 
-  function renderWK(k) {
-    const tb = $("wk").querySelector("tbody"); tb.textContent = "";
-    $("wk-stand").textContent = (k && k.stand) || "";
+  function renderWK(k, tid, sid) {
+    tid = tid || "wk"; sid = sid || "wk-stand";
+    const tb = $(tid).querySelector("tbody"); tb.textContent = "";
+    $(sid).textContent = (k && k.stand) || "";
     const list = ((k && k.termine) || []).slice().sort((a, b) => Date.parse(a.zeit) - Date.parse(b.zeit));
     if (!list.length) { const tr = document.createElement("tr"); const td = txt("td", "empty", "Wird beim nächsten Lauf gefüllt."); td.colSpan = 6; tr.appendChild(td); tb.appendChild(tr); return; }
     const today = dayKey(new Date());
@@ -687,8 +672,8 @@
         const td = txt("td", "", isNaN(t) ? "" : (dk === today ? "Heute · " : "") + fmtDay.format(t)); td.colSpan = 6; tr.appendChild(td); tb.appendChild(tr);
       }
       const done = e.ist != null && e.ist !== "";
-      const tr = txt("tr", done ? "done" : (!isNaN(t) && t < Date.now() ? "due" : ""), "");
-      tr.appendChild(txt("td", "date", isNaN(t) ? "" : fmtTime.format(t)));
+      const tr = txt("tr", done ? "done" : (!isNaN(t) && !e.ohne_zeit && t < Date.now() ? "due" : ""), "");
+      tr.appendChild(txt("td", "date", isNaN(t) ? "" : e.ohne_zeit ? (e.zeit_text || "–") : fmtTime.format(t) + (e.zeit_text ? " " + e.zeit_text : "")));
       tr.appendChild(txt("td", "wk-l", e.land || ""));
       const w = txt("td", "wk-w", "");
       const imp = Math.max(1, Math.min(3, +e.wichtig || 1));
@@ -709,10 +694,22 @@
     });
   }
 
+  function unternehmenskalender(m) {
+    const u = m.unternehmenskalender;
+    if (u && u.termine && u.termine.length) return u;
+    const now = new Date(), y = now.getFullYear();
+    return { stand: "", termine: (m.termine || []).map((x) => {
+      const mm = /^(\d{1,2})\.(\d{1,2})\./.exec(x.datum || "");
+      if (!mm) return null;
+      let yy = y; if (+mm[2] < now.getMonth() + 1 - 2) yy++;
+      const iso = yy + "-" + String(mm[2]).padStart(2, "0") + "-" + String(mm[1]).padStart(2, "0") + "T12:00:00+01:00";
+      return { zeit: iso, ohne_zeit: true, was: x.was, wichtig: 2 };
+    }).filter(Boolean) };
+  }
   let lastData = null;
   function render(d) {
     lastData = d;
-    if (window.DataX) { window.DataX.data = d; document.dispatchEvent(new CustomEvent("datax:data", { detail: d })); }
+    if (window.DataX) { window.DataX.data = d; setTimeout(() => document.dispatchEvent(new CustomEvent("datax:data", { detail: d }))); }
     if (d.aktualisiert) $("updated").textContent = "Inhalte: " + d.aktualisiert;
     const m = d.maerkte || {};
     newsList("m-headlines", m.schlagzeilen);
@@ -720,11 +717,7 @@
     renderBriefing(d.briefing);
     renderNB(m.notenbanken);
     renderWK(m.kalender);
-    rows("m-debt", m.verschuldung, [["land"], ["quote", "r"], ["absolut", "r"]]);
-    $("m-debt-src").textContent = m.verschuldung_quelle || "";
-    rows("m-yields", m.renditen, [["land"], ["rendite", "r"]]);
-    $("m-yields-src").textContent = m.renditen_stand || "";
-    rows("m-corp", m.termine, [["datum", "date"], ["was"]]);
+    renderWK(unternehmenskalender(m), "uk", "uk-stand");
     const p = d.politik || {};
     newsList("p-welt", p.welt); newsList("p-usa", p.usa, true); newsList("p-de", p.deutschland);
     rows("p-termine", p.termine, [["datum", "date"], ["was"], ["art"]]);
@@ -944,6 +937,7 @@
   window.addEventListener("resize", () => { clearTimeout(rz); rz = setTimeout(() => { if (lastK) renderKacheln(lastK); }, 200); });
   function renderKacheln(k) {
     lastK = k;
+    document.dispatchEvent(new CustomEvent("datax:kacheln", { detail: k }));
     renderSek(k.sektoren); renderZins(k.us_kurve, k.ezb); renderStress(k.stress); renderBreadth(k.breadth);
   }
   // Live-Kurse direkt im Browser (CNBC erlaubt CORS); Datei-Stand bleibt Rückfallebene
@@ -1000,7 +994,7 @@
       .catch(() => { $("updated").textContent = "Inhalte konnten nicht geladen werden"; });
   }
   // Helfer für energie.js
-  window.DataX = { widget, txt, svgEl, newsList, lineChart, niceTicks, legend, monthLabels, rows, nf, sg, dDE, $, data: lastData };
+  window.DataX = { renderWK, fmtDay, fmtTime, widget, txt, svgEl, newsList, lineChart, niceTicks, legend, monthLabels, rows, nf, sg, dDE, $, data: lastData };
   load();
   setInterval(load, 10 * 60 * 1000);
 })();
