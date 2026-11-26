@@ -1,7 +1,18 @@
 {
-  "aktualisiert": "26.11.2026, 12:03 Uhr",
+  "aktualisiert": "26.11.2026, 15:03 Uhr",
   "maerkte": {
     "schlagzeilen": [
+      {
+        "tag": "Geldpolitik",
+        "titel": "EZB-Protokoll: Große Mehrheit war schon im Oktober für eine Zinserhöhung offen",
+        "warum": "Bestätigt die fast sichere Anhebung des Einlagensatzes auf 2,75 % am 17.12.; Investoren rechnen wegen hoher Energiepreise mit weiteren Schritten 2027.",
+        "quelle": "Reuters",
+        "url": "https://www.investing.com/news/economy-news/ecb-already-had-large-support-for-rate-hike-in-oct-accounts-show-5052492",
+        "zeit": "26.11., 13:44",
+        "medien": [
+          "Reuters"
+        ]
+      },
       {
         "tag": "Unternehmen",
         "titel": "Rheinmetall steigt um rund 5 % zum Kapitalmarkttag – gekappte 2030-Ziele erwartet",
@@ -88,19 +99,6 @@
           "Al Jazeera",
           "Washington Post",
           "AP"
-        ]
-      },
-      {
-        "tag": "Märkte",
-        "titel": "DAX schließt 1,26 % tiefer bei 24.702 Punkten – tiefster Schluss seit Juli",
-        "warum": "Infineon (−6,5 %) und Siemens Energy (−4,6 %) leiden unter dem KI-Ausverkauf, Autowerte wie VW (+4,6 %) und BMW (+3,7 %) stemmen sich dagegen.",
-        "quelle": "Dow Jones",
-        "url": "https://www.finanzen.at/nachrichten/aktien/xetra-schluss-schwach-dax-rutscht-wieder-unter-25-000-punkte-1036800435",
-        "zeit": "25.11., 17:54",
-        "medien": [
-          "Dow Jones",
-          "Handelsblatt",
-          "dpa"
         ]
       }
     ],
@@ -343,7 +341,7 @@
               "p": 18
             }
           ],
-          "notiz": "Hike-Erwartung binnen vier Wochen von 47 % auf 82 % gestiegen; Reuters-Umfrage unter Ökonomen erwartet 2,75 %.",
+          "notiz": "Protokoll vom 26.11.: Schon im Oktober hätte eine große Zahl der Ratsmitglieder eine Erhöhung mitgetragen; die Anhebung am 17.12. gilt als so gut wie sicher. Reuters-Umfrage erwartet 2,75 %.",
           "quelle": "WatchTower, 24.11.",
           "url": "https://watchtowerterminal.com/ecb-preview-december-2026/"
         },
@@ -6565,19 +6563,19 @@
     "humanitaer_quelle": "UN-Menschenrechtsmission Ukraine (via ISW 25.11.), OCHA, WFP, Al Jazeera (14.11.), CBS News (24.11.); Stand 26.11."
   },
   "briefing": {
-    "stand": "26.11., 12:03 Uhr",
+    "stand": "26.11., 15:03 Uhr",
     "saetze": [
       {
         "tag": "Märkte",
-        "text": "Nach dem Wall-Street-Turnaround (Nasdaq-100 nach zeitweise fast −5 % nur −0,64 %) erholt sich der DAX um rund 2 % auf gut 25.150 Punkte; Rheinmetall führt am Mittag mit +4,6 % auf 769,80 € (Kapitalmarkttag, neue Ziele für 2030 kommen Freitag), dahinter Infineon und Siemens Energy – die US-Börsen sind wegen Thanksgiving zu.",
+        "text": "Nach dem Wall-Street-Turnaround (Nasdaq-100 nach zeitweise fast −5 % nur −0,64 %) erholt sich der DAX um gut 2 % auf rund 25.200 Punkte; Rheinmetall (+5 %, Kapitalmarkttag, neue Ziele für 2030 kommen Freitag), Infineon und Siemens Energy führen – die Deutsche Bank sieht den DAX Ende 2027 bei 28.800, die US-Börsen sind wegen Thanksgiving zu.",
         "quelle": "dpa-AFX",
         "url": "https://www.ariva.de/news/aktie-im-fokus-rheinmetall-weiter-erholt-warten-auf-12221186"
       },
       {
         "tag": "Zinsen",
-        "text": "Das Beige Book zeigt Wachstum in 8 von 12 Bezirken, schneller steigende Löhne und Kostendruck – die Fed-Erhöhung am 9.12. bleibt zu rund 98 % eingepreist; Südkorea hat heute Nacht bereits auf 3,25 % erhöht.",
-        "quelle": "Federal Reserve",
-        "url": "https://www.federalreserve.gov/monetarypolicy/beigebook202611-summary.htm"
+        "text": "Das EZB-Protokoll zeigt: Schon im Oktober hätte eine große Zahl der Ratsmitglieder eine Erhöhung mitgetragen – die Anhebung am 17.12. auf 2,75 % gilt als so gut wie sicher, in den USA bleibt die Fed-Erhöhung am 9.12. nach dem Beige Book zu rund 98 % eingepreist.",
+        "quelle": "Reuters",
+        "url": "https://www.investing.com/news/economy-news/ecb-already-had-large-support-for-rate-hike-in-oct-accounts-show-5052492"
       },
       {
         "tag": "Konflikte",
@@ -6593,7 +6591,7 @@
       },
       {
         "tag": "Deutschland",
-        "text": "Das GfK-Konsumklima steigt nur auf −30,2 Punkte (Konsens −30,0, vor einem Jahr −24,2) und bleibt vor dem Weihnachtsgeschäft schwach; 13:30 Uhr kommt das EZB-Protokoll, am Freitag stimmt der Bundestag über den Rekordhaushalt 2027 (560 Mrd. €, 210 Mrd. € Kredite) ab – die Koalition hat nur 12 Stimmen Mehrheit.",
+        "text": "Das GfK-Konsumklima steigt nur auf −30,2 Punkte (Konsens −30,0, vor einem Jahr −24,2) und bleibt vor dem Weihnachtsgeschäft schwach, am Freitag stimmt der Bundestag über den Rekordhaushalt 2027 (560 Mrd. €, 210 Mrd. € Kredite) ab – die Koalition hat nur 12 Stimmen Mehrheit.",
         "quelle": "Wirtschaftswoche",
         "url": "https://www.wiwo.de/politik/deutschland/generaldebatte-um-haushalt-bundeskanzler-merz-verteidigt-haushaltsaufstellung/100272260.html"
       }
@@ -6626,8 +6624,8 @@
       },
       {
         "tag": "Zinsen",
-        "titel": "Beige Book und heiße Daten: Fed-Erhöhung am 9.12. fast sicher",
-        "text": "Nach Kern-PCE von 3,3 % (Konsens 3,2 %), einem auf 4,3 % hochrevidierten BIP und nur 189.000 Erstanträgen lieferte das Beige Book am Abend keine Entlastung: Acht von zwölf Fed-Bezirken melden leichtes bis moderates Wachstum, Löhne und Zusatzleistungen stiegen stärker als im Vorbericht, Einkaufspreise schneller als Verkaufspreise. Unternehmen erwarten weiter steigende Kosten und Preise.\n\nAuch die Neubauverkäufe überraschten mit 701.000 (Konsens 650.000). Der Markt preist die Erhöhung auf 4,00–4,25 % zu rund 98 % ein. Weltweit drehen Notenbanken nach oben: Südkorea erhöhte heute Nacht auf 3,25 %, für EZB und Bank of England (17.12.) gelten Erhöhungen als wahrscheinlich.",
+        "titel": "EZB-Protokoll und Beige Book: Zinserhöhungen im Dezember fast sicher",
+        "text": "Das um 13:30 Uhr veröffentlichte Protokoll der EZB-Sitzung vom 28./29. Oktober zeigt, dass schon damals „eine große Zahl“ der Ratsmitglieder eine Erhöhung hätte mittragen können; sie hätte die nötige Straffung nur vorgezogen. Seitdem haben die meisten Notenbanker eine Anhebung um 25 Basispunkte am 17. Dezember signalisiert. Investoren erwarten, dass es nicht bei einem Schritt bleibt, weil Öl und Gas deutlich über den Annahmen der Projektionen liegen und die Gasspeicher relativ leer sind.\n\nNach Kern-PCE von 3,3 % (Konsens 3,2 %), einem auf 4,3 % hochrevidierten BIP und nur 189.000 Erstanträgen lieferte das Beige Book am Abend keine Entlastung: Acht von zwölf Fed-Bezirken melden leichtes bis moderates Wachstum, Löhne und Zusatzleistungen stiegen stärker als im Vorbericht, Einkaufspreise schneller als Verkaufspreise. Unternehmen erwarten weiter steigende Kosten und Preise.\n\nAuch die Neubauverkäufe überraschten mit 701.000 (Konsens 650.000). Der Markt preist die Erhöhung auf 4,00–4,25 % zu rund 98 % ein. Weltweit drehen Notenbanken nach oben: Südkorea erhöhte heute Nacht auf 3,25 %, für EZB und Bank of England (17.12.) gelten Erhöhungen als wahrscheinlich.",
         "wirkung": [
           {
             "markt": "US-Renditen 10 J.",
@@ -6635,9 +6633,9 @@
             "warum": "Die Daten sprechen für höhere Renditen (Schluss rund 4,85 %); Flucht in Sicherheit bei neuen Tech-Verlusten drückt sie dagegen."
           },
           {
-            "markt": "US-Dollar (EUR/USD)",
-            "richtung": "steigt",
-            "warum": "Starkes Wachstum und steigende Löhne stützen den Dollar."
+            "markt": "Euro (EUR/USD)",
+            "richtung": "unsicher",
+            "warum": "EZB- und Fed-Erhöhung im Dezember gleichen sich aus: Signalisiert die EZB weitere Schritte 2027, stützt das den Euro, sonst überwiegt der Dollar."
           },
           {
             "markt": "Fed-Erhöhung 9.12.",
@@ -6647,12 +6645,12 @@
           {
             "markt": "Bund-Rendite 10 J.",
             "richtung": "steigt",
-            "warum": "Der globale Zinsanstieg und die erwartete EZB-Erhöhung ziehen auch deutsche Renditen nach oben."
+            "warum": "Das Protokoll bestätigt den Straffungskurs der EZB; zusammen mit dem globalen Zinsanstieg zieht das deutsche Renditen nach oben."
           }
         ],
-        "quelle": "Federal Reserve",
-        "url": "https://www.federalreserve.gov/monetarypolicy/beigebook202611-summary.htm",
-        "zeit": "25.11., 20:00"
+        "quelle": "Reuters",
+        "url": "https://www.investing.com/news/economy-news/ecb-already-had-large-support-for-rate-hike-in-oct-accounts-show-5052492",
+        "zeit": "26.11., 13:44"
       },
       {
         "tag": "Konflikte",
