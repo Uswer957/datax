@@ -1,7 +1,30 @@
 {
-  "aktualisiert": "26.11.2026, 15:03 Uhr",
+  "aktualisiert": "26.11.2026, 17:03 Uhr",
   "maerkte": {
     "schlagzeilen": [
+      {
+        "tag": "Banken",
+        "titel": "UniCredit will Orcel an die Spitze des Commerzbank-Aufsichtsrats setzen – Bund gibt Widerstand auf",
+        "warum": "Mit knapp 50 % der Aktien beantragt UniCredit eine außerordentliche HV (wohl Anfang Januar), will neun von zehn Kapitalvertretern abberufen und rund 7.000 Stellen streichen.",
+        "quelle": "dpa-AFX",
+        "url": "https://www.ariva.de/news/roundup-5-unicredit-chef-soll-aufsichtsrat-der-commerzbank-12221768",
+        "zeit": "26.11., 16:09",
+        "medien": [
+          "dpa",
+          "t-online"
+        ]
+      },
+      {
+        "tag": "Börse",
+        "titel": "DAX erholt sich um gut 2 % – Deutsche Bank sieht 2027 Rekord bei 28.800 Punkten",
+        "warum": "Infineon, Siemens Energy und Rheinmetall führen die Erholung vom Juli-Tief an; die Prognose liegt gut 14 % über dem aktuellen Stand.",
+        "quelle": "dpa-AFX",
+        "url": "https://www.ariva.de/news/aktien-frankfurt-kurse-erholt-deutsche-bank-2027-12221595",
+        "zeit": "26.11., 14:52",
+        "medien": [
+          "dpa"
+        ]
+      },
       {
         "tag": "Geldpolitik",
         "titel": "EZB-Protokoll: Große Mehrheit war schon im Oktober für eine Zinserhöhung offen",
@@ -35,18 +58,6 @@
         "medien": [
           "dpa-AFX",
           "finanzen.at"
-        ]
-      },
-      {
-        "tag": "Märkte",
-        "titel": "DAX startet 1,8 % fester bei rund 25.150 Punkten – Rheinmetall, Siemens Energy und Infineon vorn",
-        "warum": "Nach dem Schluss auf Juli-Tief (24.702) holt der DAX die Wochenverluste auf; Chip- und Rüstungswerte erholen sich, ohne US-Impulse bleibt der Handel wegen Thanksgiving dünn.",
-        "quelle": "finanzen.at",
-        "url": "https://www.finanzen.at/nachrichten/aktien/boerse-frankfurt-dax-liegt-zum-start-im-plus-1036802427",
-        "zeit": "26.11., 09:12",
-        "medien": [
-          "finanzen.at",
-          "dpa-AFX"
         ]
       },
       {
@@ -86,19 +97,6 @@
           "Federal Reserve",
           "TheStreet",
           "Yahoo Finance"
-        ]
-      },
-      {
-        "tag": "Handel",
-        "titel": "USA schlagen Section-301-Zölle gegen 14 Partner vor, China bis zu 20 % zusätzlich",
-        "warum": "Betroffen sind u. a. die EU, Japan, Südkorea, Taiwan, Indien und die Schweiz; für EU, Japan und Südkorea gelten die Deckel aus den Handelsabkommen (15 %). Kommentarfrist bis 5.1.",
-        "quelle": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/11/25/trump-announces-new-trade-tariffs-which-countries-will-they-target",
-        "zeit": "25.11.",
-        "medien": [
-          "Al Jazeera",
-          "Washington Post",
-          "AP"
         ]
       }
     ],
@@ -3989,6 +3987,19 @@
       "lage": "Nach dem schärfsten Tech-Einbruch seit Monaten drehte die Wall Street am Mittwoch: Der Dow schloss über 50.000, der Nasdaq machte den Großteil seines Minus von bis zu 4,6 % wett. Heute ruhen die US-Börsen (Thanksgiving), Freitag ist nur bis 19 Uhr Handel – die Volatilität dürfte bei dünnen Umsätzen hoch bleiben.",
       "meldungen": [
         {
+          "tag": "Handel",
+          "titel": "USA schlagen Section-301-Zölle gegen 14 Partner vor, China bis zu 20 % zusätzlich",
+          "warum": "Betroffen sind u. a. die EU, Japan, Südkorea, Taiwan, Indien und die Schweiz; für EU, Japan und Südkorea gelten die Deckel aus den Handelsabkommen (15 %). Kommentarfrist bis 5.1.",
+          "quelle": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/25/trump-announces-new-trade-tariffs-which-countries-will-they-target",
+          "zeit": "25.11.",
+          "medien": [
+            "Al Jazeera",
+            "Washington Post",
+            "AP"
+          ]
+        },
+        {
           "tag": "Energie",
           "titel": "Houthis greifen Saudi-Arabiens größte Raffinerie Ras Tanura an",
           "warum": "Die Koalition meldet vier abgefangene Drohnen, Satellitenbilder zeigen dichten Rauch über der Anlage (550.000 Barrel/Tag); Brent stieg am Mittwoch um knapp 2 % auf gut 90 $.",
@@ -4075,18 +4086,6 @@
             "Investing.com",
             "Seeking Alpha",
             "Handelsblatt"
-          ]
-        },
-        {
-          "tag": "Unternehmen",
-          "titel": "Dell nachbörslich +4 %, HP +9 % nach starken Zahlen",
-          "warum": "Dell mit 54,9 Mrd. $ Umsatz (erwartet 49,2) und Jahresprognose 202 Mrd. $; Workday und Autodesk trotz Beat rund −4 %.",
-          "quelle": "Investing.com",
-          "url": "https://www.investing.com/news/stock-market-news/afterhours-movers-dell-hpq-adsk-wday-ntnx-urbn-clsk-432SI-5049079",
-          "zeit": "24.11.",
-          "medien": [
-            "Investing.com",
-            "CNBC"
           ]
         }
       ]
@@ -6563,13 +6562,13 @@
     "humanitaer_quelle": "UN-Menschenrechtsmission Ukraine (via ISW 25.11.), OCHA, WFP, Al Jazeera (14.11.), CBS News (24.11.); Stand 26.11."
   },
   "briefing": {
-    "stand": "26.11., 15:03 Uhr",
+    "stand": "26.11., 17:03 Uhr",
     "saetze": [
       {
         "tag": "Märkte",
-        "text": "Nach dem Wall-Street-Turnaround (Nasdaq-100 nach zeitweise fast −5 % nur −0,64 %) erholt sich der DAX um gut 2 % auf rund 25.200 Punkte; Rheinmetall (+5 %, Kapitalmarkttag, neue Ziele für 2030 kommen Freitag), Infineon und Siemens Energy führen – die Deutsche Bank sieht den DAX Ende 2027 bei 28.800, die US-Börsen sind wegen Thanksgiving zu.",
+        "text": "Nach dem Wall-Street-Turnaround erholt sich der DAX um gut 2 % auf rund 25.250 Punkte (MDAX +2,3 %), angeführt von Rheinmetall, Infineon und Siemens Energy; die Deutsche Bank traut dem DAX bis Ende 2027 einen Rekord bei 28.800 Punkten zu.",
         "quelle": "dpa-AFX",
-        "url": "https://www.ariva.de/news/aktie-im-fokus-rheinmetall-weiter-erholt-warten-auf-12221186"
+        "url": "https://www.ariva.de/news/aktien-frankfurt-kurse-erholt-deutsche-bank-2027-12221595"
       },
       {
         "tag": "Zinsen",
@@ -6584,10 +6583,10 @@
         "url": "https://www.ariva.de/news/oelpreise-kaum-veraendert-nach-deutlichen-vortagesgewinnen-12220922"
       },
       {
-        "tag": "Handel",
-        "text": "Die USA schlagen neue Section-301-Zölle gegen 14 Partner vor: China bis zu 20 % zusätzlich, EU, Japan und Südkorea gedeckelt bei 15 %; Kommentarfrist bis 5. Januar.",
-        "quelle": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/11/25/trump-announces-new-trade-tariffs-which-countries-will-they-target"
+        "tag": "Unternehmen",
+        "text": "UniCredit greift nach der Commerzbank: Mit knapp 50 % der Aktien will sie per außerordentlicher HV (wohl Anfang Januar) Orcel zum Aufsichtsratschef machen, neun von zehn Kapitalvertretern abberufen und rund 7.000 Stellen streichen – der Bund gibt seinen Widerstand auf.",
+        "quelle": "dpa-AFX",
+        "url": "https://www.ariva.de/news/roundup-5-unicredit-chef-soll-aufsichtsrat-der-commerzbank-12221768"
       },
       {
         "tag": "Deutschland",
@@ -6600,7 +6599,7 @@
       {
         "tag": "Märkte",
         "titel": "Rebound nach dem Fast-Bärenmarkt: Wall Street fängt den Chip-Crash ab",
-        "text": "Am Mittwoch fiel der Nasdaq zeitweise um 4,6 %, der Nasdaq-100 notierte im Tief exakt 20 % unter seinem Oktoberhoch – die Schwelle zum Bärenmarkt. Dann griffen Schnäppchenjäger zu: Der Dow drehte von −1.100 Punkten auf +0,33 % (50.183), der S&P 500 schloss nur −0,25 % (7.183), der Nasdaq −0,62 % (23.586). Rund drei Viertel der S&P-Werte stiegen, nur das Tech-Schwergewicht drückte den Index.\n\nNvidia verlor 3,9 % auf 149,30 $ (zeitweise −9 %). S&P Global setzte das AA-Rating auf CreditWatch negativ und verweist auf Governance- und Schlüsselpersonen-Risiken nach Huangs Rücktritt und Rückkehr. Oracle fiel auf ein 52-Wochen-Tief, Micron −4,5 %. S&P 500 und Nasdaq steuern auf den schwächsten November seit 2008 zu.\n\nHeute ist die Wall Street wegen Thanksgiving geschlossen, am Freitag wird nur bis 19 Uhr gehandelt. In Asien erholen sich die Chipwerte: Der Nikkei stieg im frühen Handel um rund 1,3 % auf etwa 57.700 Punkte, der Kospi nach dem Einbruch von über 6 % am Mittwoch um 1,2 % auf rund 4.750; die US-Futures auf den S&P 500 legten 0,3 % zu, der Yen notiert nahe 159 je Dollar (investingLive).\n\nAm Donnerstagmittag liegt der DAX rund 2 % im Plus. Rheinmetall (+4,6 % auf 769,80 €) führt zum Start des Kapitalmarkttags in Hamburg; erwartet wird, dass das Ziel von rund 50 Mrd. € Umsatz 2030 gekappt wird (Konsens 35,6 Mrd. €), die Zahlen kommen am Freitag.",
+        "text": "Am Mittwoch fiel der Nasdaq zeitweise um 4,6 %, der Nasdaq-100 notierte im Tief exakt 20 % unter seinem Oktoberhoch – die Schwelle zum Bärenmarkt. Dann griffen Schnäppchenjäger zu: Der Dow drehte von −1.100 Punkten auf +0,33 % (50.183), der S&P 500 schloss nur −0,25 % (7.183), der Nasdaq −0,62 % (23.586). Rund drei Viertel der S&P-Werte stiegen, nur das Tech-Schwergewicht drückte den Index.\n\nNvidia verlor 3,9 % auf 149,30 $ (zeitweise −9 %). S&P Global setzte das AA-Rating auf CreditWatch negativ und verweist auf Governance- und Schlüsselpersonen-Risiken nach Huangs Rücktritt und Rückkehr. Oracle fiel auf ein 52-Wochen-Tief, Micron −4,5 %. S&P 500 und Nasdaq steuern auf den schwächsten November seit 2008 zu.\n\nHeute ist die Wall Street wegen Thanksgiving geschlossen, am Freitag wird nur bis 19 Uhr gehandelt. In Asien erholen sich die Chipwerte: Der Nikkei stieg im frühen Handel um rund 1,3 % auf etwa 57.700 Punkte, der Kospi nach dem Einbruch von über 6 % am Mittwoch um 1,2 % auf rund 4.750; die US-Futures auf den S&P 500 legten 0,3 % zu, der Yen notiert nahe 159 je Dollar (investingLive).\n\nAm Donnerstagmittag liegt der DAX rund 2 % im Plus. Rheinmetall (+4,6 % auf 769,80 €) führt zum Start des Kapitalmarkttags in Hamburg; erwartet wird, dass das Ziel von rund 50 Mrd. € Umsatz 2030 gekappt wird (Konsens 35,6 Mrd. €), die Zahlen kommen am Freitag.\n\nAm Donnerstag zog der DAX ohne US-Impulse (Thanksgiving) um gut 2 % auf rund 25.250 Punkte an, der MDAX um 2,3 %. Die Deutsche Bank hält 2027 Rekorde in Deutschland, der Eurozone und den USA für möglich und nennt als DAX-Ziel für Ende 2027 28.800 Punkte, gut 14 % über dem aktuellen Stand.",
         "wirkung": [
           {
             "markt": "DAX / Infineon, ASML",
@@ -6728,29 +6727,29 @@
         "zeit": "25.11., 11:54"
       },
       {
-        "tag": "Daten",
-        "titel": "Heute: EZB-Protokoll, deutsches Konsumklima, US-Feiertag",
-        "text": "Um 8:00 Uhr kommen der Nominal- und Reallohnindex für Q3 sowie das NIM-Konsumklima für Dezember, um 10:00 Uhr die Geldmenge M3 der Eurozone. Um 13:30 Uhr veröffentlicht die EZB das Protokoll ihrer Sitzung vom 28./29. Oktober – Märkte suchen darin Hinweise auf die Erhöhung im Dezember. In Brüssel beraten die EU-Staaten auf einem Sondergipfel über den langfristigen Haushalt und die Ukraine-Hilfe.\n\nIn den USA ruht der Handel (Thanksgiving). Am Freitag folgen Inflationsdaten aus Frankreich und Spanien, die deutschen Arbeitsmarktdaten und in Tokio die Verbraucherpreise.",
+        "tag": "Unternehmen",
+        "titel": "UniCredit übernimmt die Kontrolle bei der Commerzbank",
+        "text": "UniCredit hat sich mit dem Übernahmeangebot knapp 50 % der Commerzbank-Aktien gesichert; als letzte Behörde stimmte die polnische Finanzaufsicht zu, zuvor EU-Kommission, EZB und Fed. Nun verlangt UniCredit eine außerordentliche Hauptversammlung, die dem Vernehmen nach Anfang Januar stattfinden soll: Vorstandschef Andrea Orcel soll Jens Weidmann als Aufsichtsratschef ablösen, neun von zehn Vertretern der Kapitalseite sollen gehen, gegen einzelne Vorstände um Bettina Orlopp droht ein Vertrauensentzug.\n\nDie Bundesregierung (gut 13 % Anteil) hat ihren Widerstand aufgegeben: Sie verzichtet auf zwei Aufsichtsratssitze, die Commerzbank bleibt eine börsennotierte AG mit Sitz in Frankfurt. Orcel plant den Abbau von rund 7.000 Stellen und ein kleineres Auslandsnetz, erwartet wird eine Verschmelzung mit der Hypovereinsbank. Die Commerzbank-Aktie verlor am Donnerstag gut 2 %, die neuen UniCredit-Aktien für angediente Papiere kommen bis 7. Dezember.",
         "wirkung": [
           {
-            "markt": "EUR/USD",
-            "richtung": "unsicher",
-            "warum": "Ein falkenhaftes EZB-Protokoll stützt den Euro; Hinweise auf Zögern im Rat schwächen ihn."
+            "markt": "Commerzbank-Aktie",
+            "richtung": "faellt",
+            "warum": "Mit knapp 50 % in UniCredit-Hand fehlt die Fantasie auf ein höheres Gegenangebot, der Streubesitz schrumpft."
           },
           {
-            "markt": "EZB-Erhöhung 17.12.",
+            "markt": "UniCredit-Aktie",
             "richtung": "unsicher",
-            "warum": "Das Protokoll zeigt, wie breit die Mehrheit für eine Erhöhung ist; HVPI-Schnellschätzung am 1.12. entscheidet mit."
+            "warum": "Kostensynergien durch 7.000 Stellen stützen; Integrationsrisiken und Widerstand der Belegschaft belasten."
           },
           {
-            "markt": "Europäische Banken",
-            "richtung": "seitwaerts",
-            "warum": "Klare Zinssignale stützen Margen; Konjunktursorgen bremsen."
+            "markt": "Europäische Bankenkonsolidierung",
+            "richtung": "steigt",
+            "warum": "Der erste große grenzüberschreitende Bankendeal in Deutschland kann weitere Fusionen in der Eurozone anstoßen."
           }
         ],
-        "quelle": "finanzen.net",
-        "url": "https://www.finanzen.net/nachricht/aktien/tagesvorschau-termine-am-26-november-2026-16086829",
-        "zeit": "25.11., 17:38"
+        "quelle": "dpa-AFX",
+        "url": "https://www.ariva.de/news/roundup-5-unicredit-chef-soll-aufsichtsrat-der-commerzbank-12221768",
+        "zeit": "26.11., 16:09"
       }
     ],
     "begriffe": [
