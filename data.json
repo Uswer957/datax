@@ -1,5 +1,5 @@
 {
-  "aktualisiert": "26.11.2026, 17:03 Uhr",
+  "aktualisiert": "26.11.2026, 18:03 Uhr",
   "maerkte": {
     "schlagzeilen": [
       {
@@ -16,11 +16,11 @@
       },
       {
         "tag": "Börse",
-        "titel": "DAX erholt sich um gut 2 % – Deutsche Bank sieht 2027 Rekord bei 28.800 Punkten",
-        "warum": "Infineon, Siemens Energy und Rheinmetall führen die Erholung vom Juli-Tief an; die Prognose liegt gut 14 % über dem aktuellen Stand.",
-        "quelle": "dpa-AFX",
-        "url": "https://www.ariva.de/news/aktien-frankfurt-kurse-erholt-deutsche-bank-2027-12221595",
-        "zeit": "26.11., 14:52",
+        "titel": "Xetra-Schluss: DAX +2,1 % auf 25.231 Punkte – Autos und Rüstung vorn, Commerzbank −2,6 %",
+        "warum": "Schaeffler, VW, BMW und Rheinmetall (+4 % zum Kapitalmarkttag) führen die Erholung an; die Deutsche Bank sieht den DAX Ende 2027 bei 28.800 Punkten, gut 14 % höher.",
+        "quelle": "Dow Jones Newswires",
+        "url": "https://www.finanzen.net/nachricht/aktien/xetra-schluss-deutliche-erholung-schiebt-dax-wieder-klar-ueber-25-000-punkte-16088948",
+        "zeit": "26.11., 17:49",
         "medien": [
           "dpa"
         ]
@@ -6562,13 +6562,13 @@
     "humanitaer_quelle": "UN-Menschenrechtsmission Ukraine (via ISW 25.11.), OCHA, WFP, Al Jazeera (14.11.), CBS News (24.11.); Stand 26.11."
   },
   "briefing": {
-    "stand": "26.11., 17:03 Uhr",
+    "stand": "26.11., 18:03 Uhr",
     "saetze": [
       {
         "tag": "Märkte",
-        "text": "Nach dem Wall-Street-Turnaround erholt sich der DAX um gut 2 % auf rund 25.250 Punkte (MDAX +2,3 %), angeführt von Rheinmetall, Infineon und Siemens Energy; die Deutsche Bank traut dem DAX bis Ende 2027 einen Rekord bei 28.800 Punkten zu.",
-        "quelle": "dpa-AFX",
-        "url": "https://www.ariva.de/news/aktien-frankfurt-kurse-erholt-deutsche-bank-2027-12221595"
+        "text": "Nach dem Wall-Street-Turnaround schließt der DAX 2,1 % höher bei 25.231 Punkten (MDAX +2,3 %), angeführt von Autowerten und Rheinmetall (+4 % zum Kapitalmarkttag), Commerzbank −2,6 %; die Deutsche Bank traut dem DAX bis Ende 2027 einen Rekord bei 28.800 Punkten zu.",
+        "quelle": "Dow Jones Newswires",
+        "url": "https://www.finanzen.net/nachricht/aktien/xetra-schluss-deutliche-erholung-schiebt-dax-wieder-klar-ueber-25-000-punkte-16088948"
       },
       {
         "tag": "Zinsen",
