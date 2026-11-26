@@ -1,7 +1,31 @@
 {
-  "aktualisiert": "26.11.2026, 10:03 Uhr",
+  "aktualisiert": "26.11.2026, 12:03 Uhr",
   "maerkte": {
     "schlagzeilen": [
+      {
+        "tag": "Unternehmen",
+        "titel": "Rheinmetall steigt um rund 5 % zum Kapitalmarkttag – gekappte 2030-Ziele erwartet",
+        "warum": "Der Markt erwartet statt rund 50 Mrd. € Umsatz 2030 eher 35 bis 40 Mrd. €; RBC sieht die Senkung im Kurs (−60 % vom Rekord) bereits mehr als eingepreist, die Ziele kommen am Freitag.",
+        "quelle": "dpa-AFX",
+        "url": "https://www.ariva.de/news/aktie-im-fokus-rheinmetall-weiter-erholt-warten-auf-12221186",
+        "zeit": "26.11., 10:25",
+        "medien": [
+          "dpa-AFX",
+          "finanzen.at"
+        ]
+      },
+      {
+        "tag": "Konjunktur",
+        "titel": "GfK-Konsumklima: −30,2 Punkte, Kauflaune bleibt vor Weihnachten schwach",
+        "warum": "Nur minimal besser als im Vormonat (−30,9) und knapp unter Konsens (−30,0): der private Konsum fällt als Stütze der Konjunktur weiter aus.",
+        "quelle": "dpa-AFX",
+        "url": "https://www.finanzen.at/nachrichten/aktien/deutschland-kauflaune-bleibt-vor-dem-weihnachtsgeschaft-schwach-1036802260",
+        "zeit": "26.11., 08:12",
+        "medien": [
+          "dpa-AFX",
+          "finanzen.at"
+        ]
+      },
       {
         "tag": "Märkte",
         "titel": "DAX startet 1,8 % fester bei rund 25.150 Punkten – Rheinmetall, Siemens Energy und Infineon vorn",
@@ -77,32 +101,6 @@
           "Dow Jones",
           "Handelsblatt",
           "dpa"
-        ]
-      },
-      {
-        "tag": "Energie",
-        "titel": "Houthis greifen Saudi-Arabiens größte Raffinerie Ras Tanura an",
-        "warum": "Die Koalition meldet vier abgefangene Drohnen, Satellitenbilder zeigen dichten Rauch über der Anlage (550.000 Barrel/Tag); Brent stieg am Mittwoch um knapp 2 % auf gut 90 $.",
-        "quelle": "Reuters",
-        "url": "https://www.brecorder.com/news/40450708/yemens-houthis-say-they-attacked-saudi-arabias-ras-tanura-refinery",
-        "zeit": "25.11., 15:18",
-        "medien": [
-          "Reuters",
-          "The National",
-          "Al-Monitor"
-        ]
-      },
-      {
-        "tag": "Geldpolitik",
-        "titel": "Bank of Korea erhöht den Leitzins auf 3,25 %",
-        "warum": "Höchster Stand seit zwei Jahren; der Chipboom treibt Wachstum und Inflation. Ein weiteres Signal für die weltweite Zinswende nach oben.",
-        "quelle": "Korea Herald",
-        "url": "https://www.koreaherald.com/article/10949940",
-        "zeit": "26.11.",
-        "medien": [
-          "Korea Herald",
-          "CNBC",
-          "SBS"
         ]
       }
     ],
@@ -391,7 +389,7 @@
       ]
     },
     "kalender": {
-      "stand": "26.11., 05:10 Uhr",
+      "stand": "26.11., 12:03 Uhr",
       "termine": [
         {
           "zeit": "2026-11-25T14:30:00+01:00",
@@ -489,6 +487,17 @@
           "vorher": "–",
           "ist": "veröffentlicht",
           "lesart": "8 von 12 Bezirken wachsen, Löhne steigen schneller, Einkaufspreise übertreffen Verkaufspreise: stützt die Fed-Erhöhung am 9.12."
+        },
+        {
+          "zeit": "2026-11-26T08:00:00+01:00",
+          "land": "DE",
+          "wichtig": 1,
+          "was": "GfK-Konsumklima Dez.",
+          "prognose": "−30,0",
+          "vorher": "−30,9",
+          "ist": "−30,2",
+          "abweichung": "tiefer",
+          "lesart": "Kaum Erholung, Sparneigung sinkt nur leicht: kein Rückenwind für den Konsum im Winterhalbjahr, für die EZB ohne Belang."
         },
         {
           "zeit": "2026-11-27T09:55:00+01:00",
@@ -3982,6 +3991,32 @@
       "lage": "Nach dem schärfsten Tech-Einbruch seit Monaten drehte die Wall Street am Mittwoch: Der Dow schloss über 50.000, der Nasdaq machte den Großteil seines Minus von bis zu 4,6 % wett. Heute ruhen die US-Börsen (Thanksgiving), Freitag ist nur bis 19 Uhr Handel – die Volatilität dürfte bei dünnen Umsätzen hoch bleiben.",
       "meldungen": [
         {
+          "tag": "Energie",
+          "titel": "Houthis greifen Saudi-Arabiens größte Raffinerie Ras Tanura an",
+          "warum": "Die Koalition meldet vier abgefangene Drohnen, Satellitenbilder zeigen dichten Rauch über der Anlage (550.000 Barrel/Tag); Brent stieg am Mittwoch um knapp 2 % auf gut 90 $.",
+          "quelle": "Reuters",
+          "url": "https://www.brecorder.com/news/40450708/yemens-houthis-say-they-attacked-saudi-arabias-ras-tanura-refinery",
+          "zeit": "25.11., 15:18",
+          "medien": [
+            "Reuters",
+            "The National",
+            "Al-Monitor"
+          ]
+        },
+        {
+          "tag": "Geldpolitik",
+          "titel": "Bank of Korea erhöht den Leitzins auf 3,25 %",
+          "warum": "Höchster Stand seit zwei Jahren; der Chipboom treibt Wachstum und Inflation. Ein weiteres Signal für die weltweite Zinswende nach oben.",
+          "quelle": "Korea Herald",
+          "url": "https://www.koreaherald.com/article/10949940",
+          "zeit": "26.11.",
+          "medien": [
+            "Korea Herald",
+            "CNBC",
+            "SBS"
+          ]
+        },
+        {
           "tag": "Konjunktur",
           "titel": "US-Kerninflation PCE steigt auf 3,3 %, BIP auf 4,3 % hochrevidiert",
           "warum": "Heiße Inflation plus starkes Wachstum zementieren die Fed-Erhöhung im Dezember und erhöhen das Risiko weiterer Schritte 2027.",
@@ -4054,30 +4089,6 @@
           "medien": [
             "Investing.com",
             "CNBC"
-          ]
-        },
-        {
-          "tag": "Konjunktur",
-          "titel": "Ifo-Geschäftsklima steigt auf 90,6 – höchster Stand seit Frühjahr 2023",
-          "warum": "Siebtes Plus in Folge, getragen von Dienstleistern und Handel; Industrie und Bau trüben sich dagegen ein.",
-          "quelle": "Handelsblatt",
-          "url": "https://www.handelsblatt.com/politik/deutschland/konjunktur-ifo-geschaeftsklima-steigt-auf-hoechststand-seit-fruehjahr-2023/100272331.html",
-          "zeit": "24.11., 11:22",
-          "medien": [
-            "Handelsblatt",
-            "dpa"
-          ]
-        },
-        {
-          "tag": "Unternehmen",
-          "titel": "Sanofi kauft Insmed für 41 Mrd. Dollar (175 $ je Aktie in bar)",
-          "warum": "Größter Pharma-Deal des Jahres: Sanofi sichert sich mit Brinsupri einen Blockbuster gegen das Dupixent-Patentende; Sanofi-Aktie in Paris rund +5,6 %.",
-          "quelle": "Reuters",
-          "url": "https://www.investing.com/news/stock-market-news/europes-stoxx-600-subdued-after-aidriven-rally-5047331",
-          "zeit": "24.11.",
-          "medien": [
-            "Reuters",
-            "Bloomberg"
           ]
         }
       ]
@@ -6554,13 +6565,13 @@
     "humanitaer_quelle": "UN-Menschenrechtsmission Ukraine (via ISW 25.11.), OCHA, WFP, Al Jazeera (14.11.), CBS News (24.11.); Stand 26.11."
   },
   "briefing": {
-    "stand": "26.11., 10:03 Uhr",
+    "stand": "26.11., 12:03 Uhr",
     "saetze": [
       {
         "tag": "Märkte",
-        "text": "Nach dem Wall-Street-Turnaround (Nasdaq-100 nach zeitweise fast −5 % nur −0,64 %, Dow +0,33 %) springt der DAX zum Start um 1,8 % auf rund 25.150 Punkte und damit zurück über 25.000 und die 200-Tage-Linie; Rheinmetall (+4,5 %, Kapitalmarkttag), Siemens Energy und Infineon (je gut +4 %) führen, die US-Börsen sind heute wegen Thanksgiving zu.",
-        "quelle": "finanzen.at",
-        "url": "https://www.finanzen.at/nachrichten/aktien/boerse-frankfurt-dax-liegt-zum-start-im-plus-1036802427"
+        "text": "Nach dem Wall-Street-Turnaround (Nasdaq-100 nach zeitweise fast −5 % nur −0,64 %) erholt sich der DAX um rund 2 % auf gut 25.150 Punkte; Rheinmetall führt am Mittag mit +4,6 % auf 769,80 € (Kapitalmarkttag, neue Ziele für 2030 kommen Freitag), dahinter Infineon und Siemens Energy – die US-Börsen sind wegen Thanksgiving zu.",
+        "quelle": "dpa-AFX",
+        "url": "https://www.ariva.de/news/aktie-im-fokus-rheinmetall-weiter-erholt-warten-auf-12221186"
       },
       {
         "tag": "Zinsen",
@@ -6570,9 +6581,9 @@
       },
       {
         "tag": "Konflikte",
-        "text": "Die Houthis greifen Saudi-Arabiens größte Raffinerie Ras Tanura an, Iran meldet weitere Minentreffer in Hormus – Brent steigt den dritten Tag in Folge und kostet am Morgen gut 95 $ (WTI gut 84 $).",
-        "quelle": "The National",
-        "url": "https://www.thenationalnews.com/business/energy/2026/11/26/oil-rebounds-to-95-per-barrel-after-saudi-refinery-attack/"
+        "text": "Die Houthis greifen Saudi-Arabiens größte Raffinerie Ras Tanura an, Iran meldet weitere Minentreffer in Hormus – Brent hält sich nach dem Vortagesplus von rund 3 $ bei knapp 95 $, der Handel ist wegen Thanksgiving dünn.",
+        "quelle": "dpa-AFX",
+        "url": "https://www.ariva.de/news/oelpreise-kaum-veraendert-nach-deutlichen-vortagesgewinnen-12220922"
       },
       {
         "tag": "Handel",
@@ -6582,7 +6593,7 @@
       },
       {
         "tag": "Deutschland",
-        "text": "Der DAX schloss mit 24.702 Punkten auf Juli-Tief; heute 13:30 Uhr kommt das EZB-Protokoll, am Freitag stimmt der Bundestag über den Rekordhaushalt 2027 (560 Mrd. €, 210 Mrd. € Kredite) ab – die Koalition hat nur 12 Stimmen Mehrheit.",
+        "text": "Das GfK-Konsumklima steigt nur auf −30,2 Punkte (Konsens −30,0, vor einem Jahr −24,2) und bleibt vor dem Weihnachtsgeschäft schwach; 13:30 Uhr kommt das EZB-Protokoll, am Freitag stimmt der Bundestag über den Rekordhaushalt 2027 (560 Mrd. €, 210 Mrd. € Kredite) ab – die Koalition hat nur 12 Stimmen Mehrheit.",
         "quelle": "Wirtschaftswoche",
         "url": "https://www.wiwo.de/politik/deutschland/generaldebatte-um-haushalt-bundeskanzler-merz-verteidigt-haushaltsaufstellung/100272260.html"
       }
@@ -6591,7 +6602,7 @@
       {
         "tag": "Märkte",
         "titel": "Rebound nach dem Fast-Bärenmarkt: Wall Street fängt den Chip-Crash ab",
-        "text": "Am Mittwoch fiel der Nasdaq zeitweise um 4,6 %, der Nasdaq-100 notierte im Tief exakt 20 % unter seinem Oktoberhoch – die Schwelle zum Bärenmarkt. Dann griffen Schnäppchenjäger zu: Der Dow drehte von −1.100 Punkten auf +0,33 % (50.183), der S&P 500 schloss nur −0,25 % (7.183), der Nasdaq −0,62 % (23.586). Rund drei Viertel der S&P-Werte stiegen, nur das Tech-Schwergewicht drückte den Index.\n\nNvidia verlor 3,9 % auf 149,30 $ (zeitweise −9 %). S&P Global setzte das AA-Rating auf CreditWatch negativ und verweist auf Governance- und Schlüsselpersonen-Risiken nach Huangs Rücktritt und Rückkehr. Oracle fiel auf ein 52-Wochen-Tief, Micron −4,5 %. S&P 500 und Nasdaq steuern auf den schwächsten November seit 2008 zu.\n\nHeute ist die Wall Street wegen Thanksgiving geschlossen, am Freitag wird nur bis 19 Uhr gehandelt. In Asien erholen sich die Chipwerte: Der Nikkei stieg im frühen Handel um rund 1,3 % auf etwa 57.700 Punkte, der Kospi nach dem Einbruch von über 6 % am Mittwoch um 1,2 % auf rund 4.750; die US-Futures auf den S&P 500 legten 0,3 % zu, der Yen notiert nahe 159 je Dollar (investingLive).",
+        "text": "Am Mittwoch fiel der Nasdaq zeitweise um 4,6 %, der Nasdaq-100 notierte im Tief exakt 20 % unter seinem Oktoberhoch – die Schwelle zum Bärenmarkt. Dann griffen Schnäppchenjäger zu: Der Dow drehte von −1.100 Punkten auf +0,33 % (50.183), der S&P 500 schloss nur −0,25 % (7.183), der Nasdaq −0,62 % (23.586). Rund drei Viertel der S&P-Werte stiegen, nur das Tech-Schwergewicht drückte den Index.\n\nNvidia verlor 3,9 % auf 149,30 $ (zeitweise −9 %). S&P Global setzte das AA-Rating auf CreditWatch negativ und verweist auf Governance- und Schlüsselpersonen-Risiken nach Huangs Rücktritt und Rückkehr. Oracle fiel auf ein 52-Wochen-Tief, Micron −4,5 %. S&P 500 und Nasdaq steuern auf den schwächsten November seit 2008 zu.\n\nHeute ist die Wall Street wegen Thanksgiving geschlossen, am Freitag wird nur bis 19 Uhr gehandelt. In Asien erholen sich die Chipwerte: Der Nikkei stieg im frühen Handel um rund 1,3 % auf etwa 57.700 Punkte, der Kospi nach dem Einbruch von über 6 % am Mittwoch um 1,2 % auf rund 4.750; die US-Futures auf den S&P 500 legten 0,3 % zu, der Yen notiert nahe 159 je Dollar (investingLive).\n\nAm Donnerstagmittag liegt der DAX rund 2 % im Plus. Rheinmetall (+4,6 % auf 769,80 €) führt zum Start des Kapitalmarkttags in Hamburg; erwartet wird, dass das Ziel von rund 50 Mrd. € Umsatz 2030 gekappt wird (Konsens 35,6 Mrd. €), die Zahlen kommen am Freitag.",
         "wirkung": [
           {
             "markt": "DAX / Infineon, ASML",
@@ -6696,7 +6707,7 @@
       {
         "tag": "Deutschland",
         "titel": "DAX auf Juli-Tief, Bundestag beschließt Freitag Rekordhaushalt",
-        "text": "Der DAX schloss am Mittwoch 1,26 % tiefer bei 24.702 Punkten, dem tiefsten Schluss seit Juli; seit Jahresbeginn liegt er nur noch rund 1 % im Plus. Infineon (−6,5 %), Suss (−7,5 %) und Siemens Energy (−4,6 %) litten unter dem KI-Ausverkauf, VW (+4,6 %) und BMW (+3,7 %) legten zu.\n\nIn der Generaldebatte verteidigte Kanzler Merz den Haushalt 2027 mit 560 Mrd. € Ausgaben und 210 Mrd. € neuen Krediten als „vertretbar“ („Wir haben das Geld nicht mehr für alles“); die AfD sprach von einer „Schuldenorgie“. Am Freitag folgt die Schlussabstimmung, die Koalition hat nur zwölf Stimmen Mehrheit, bei einer Probeabstimmung der Union gab es drei Gegenstimmen. Heute stehen das Konsumklima (8:00 Uhr) und das EZB-Protokoll (13:30 Uhr) an.",
+        "text": "Der DAX schloss am Mittwoch 1,26 % tiefer bei 24.702 Punkten, dem tiefsten Schluss seit Juli; seit Jahresbeginn liegt er nur noch rund 1 % im Plus. Infineon (−6,5 %), Suss (−7,5 %) und Siemens Energy (−4,6 %) litten unter dem KI-Ausverkauf, VW (+4,6 %) und BMW (+3,7 %) legten zu.\n\nIn der Generaldebatte verteidigte Kanzler Merz den Haushalt 2027 mit 560 Mrd. € Ausgaben und 210 Mrd. € neuen Krediten als „vertretbar“ („Wir haben das Geld nicht mehr für alles“); die AfD sprach von einer „Schuldenorgie“. Am Freitag folgt die Schlussabstimmung, die Koalition hat nur zwölf Stimmen Mehrheit, bei einer Probeabstimmung der Union gab es drei Gegenstimmen. Das GfK-Konsumklima stieg nur leicht auf −30,2 Punkte (Vormonat −30,9, Konsens −30,0); die Einkommenserwartung legte um 1,8 Punkte zu, die Preiserwartung aber trotz Tankrabatt ebenfalls. Um 13:30 Uhr folgt das EZB-Protokoll.",
         "wirkung": [
           {
             "markt": "Bund-Renditen 10 J.",
@@ -6805,7 +6816,7 @@
     ]
   },
   "energie": {
-    "stand": "26.11. 10:03",
+    "stand": "26.11. 12:03",
     "oel": {
       "lage": "Brent steigt den dritten Tag in Folge auf gut 95 $ (WTI gut 84 $), nachdem die Houthis Saudi-Arabiens größte Raffinerie Ras Tanura angriffen und Iran weitere Minentreffer in Hormus meldete. Im November hat Brent dennoch deutlich verloren (Ende Oktober 117,64 $): Die IEA erwartet ein Überangebot, die US-Lager stiegen um 1,1 Mio. Barrel; am 29.11. berät OPEC+ über die Quoten 2027.",
       "foerderung": [
