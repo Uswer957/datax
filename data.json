@@ -1,5 +1,5 @@
 {
-  "aktualisiert": "26.11.2026, 05:11 Uhr",
+  "aktualisiert": "26.11.2026, 06:03 Uhr",
   "maerkte": {
     "schlagzeilen": [
       {
@@ -1649,7 +1649,64 @@
         ],
         "stand": "26.11.2026, Ligaphase nach dem 5. Spieltag (Quelle: ESPN)",
         "spiele": {
-          "naechste": [],
+          "naechste": [
+            {
+              "datum": "Di 08.12.",
+              "zeit": "20:00",
+              "heim": "FC Bayern München",
+              "gast": "Slavia Prag",
+              "info": "6. Spieltag"
+            },
+            {
+              "datum": "Di 08.12.",
+              "zeit": "20:00",
+              "heim": "Manchester United",
+              "gast": "RB Leipzig",
+              "info": "6. Spieltag"
+            },
+            {
+              "datum": "Di 08.12.",
+              "zeit": "20:00",
+              "heim": "FC Barcelona",
+              "gast": "Manchester City",
+              "info": "6. Spieltag"
+            },
+            {
+              "datum": "Di 08.12.",
+              "zeit": "20:00",
+              "heim": "Aston Villa",
+              "gast": "Paris Saint-Germain",
+              "info": "6. Spieltag"
+            },
+            {
+              "datum": "Mi 09.12.",
+              "zeit": "20:00",
+              "heim": "VfB Stuttgart",
+              "gast": "OSC Lille",
+              "info": "6. Spieltag"
+            },
+            {
+              "datum": "Mi 09.12.",
+              "zeit": "20:00",
+              "heim": "Borussia Dortmund",
+              "gast": "Inter Mailand",
+              "info": "6. Spieltag"
+            },
+            {
+              "datum": "Mi 09.12.",
+              "zeit": "20:00",
+              "heim": "Arsenal",
+              "gast": "Real Madrid",
+              "info": "6. Spieltag"
+            },
+            {
+              "datum": "Mi 09.12.",
+              "zeit": "20:00",
+              "heim": "FC Liverpool",
+              "gast": "FC Porto",
+              "info": "6. Spieltag"
+            }
+          ],
           "letzte": [
             {
               "datum": "Mi 25.11.",
@@ -1708,7 +1765,7 @@
               "info": "5. Spieltag"
             }
           ],
-          "hinweis": "5. Spieltag beendet; außerdem Mi 25.11. Schachtar Donezk – Fenerbahçe 0:1. Der 6. Spieltag folgt am 8./9.12. (u. a. FC Bayern – Slavia Prag); Ansetzungen mit Uhrzeit folgen."
+          "hinweis": "5. Spieltag beendet; außerdem Mi 25.11. Schachtar Donezk – Fenerbahçe 0:1. 6. Spieltag am 8./9.12.: hier die Topspiele und alle deutschen Klubs."
         }
       },
       {
