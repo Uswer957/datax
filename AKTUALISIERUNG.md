@@ -22,7 +22,6 @@ Meldungen, die im Schnelllauf aus einer Kachel verdrängt werden, dürfen statt 
 3. `"aktualisiert"` auf z. B. `"24.11.2026, 14:03 Uhr"` setzen.
 4. JSON prüfen (`python -m json.tool`), committen („Daten aktualisiert TT.MM. HH:MM“) und direkt auf main pushen (vorher `git pull --rebase`; bei Konflikt in data.json die neuere Fassung von main als Basis nehmen und die eigenen Änderungen erneut anwenden). Keine anderen Dateien ändern, keine Pull Requests. data.json ist mit indent=2, ohne Newline am Ende formatiert.
 5. Keine persönlichen Daten in die Datei schreiben, die Seite ist öffentlich.
-6. **Nur Morgenlauf:** Nach dem erfolgreichen Push das Morgen-Briefing in den Chat schicken (Abschnitt „Morgen-Briefing im Chat“ unten). Schnellläufe schicken nichts.
 
 ## Pflichtfelder jeder Meldung
 
@@ -198,11 +197,11 @@ Fehlt mehr oder ein Schlüssel, vollständig anlegen (auch im Schnelllauf). Im M
 
 ---
 
-## Morgen-Briefing im Chat — [Morgenlauf]
+## Morgen-Briefing im Chat — [Briefing-Lauf 6:27 Uhr]
 
-Tim bekommt jeden Morgen ein kurzes Briefing als Nachricht im Projekt-Chat und will danach direkt in diesem Thread mit Claude über die Ereignisse diskutieren. Das betrifft nur den Morgenlauf; nichts davon kommt in data.json.
+Tim bekommt jeden Morgen um ca. 6:30 Uhr ein kurzes Briefing als Nachricht im Projekt-Chat und will danach direkt in diesem Thread mit Claude über die Ereignisse diskutieren. Das erledigt die eigene geplante Aufgabe „DataX Morgen-Briefing“ (6:27 Uhr), nach Morgenlauf und 6-Uhr-Schnelllauf. Morgenlauf und Schnellläufe schicken nichts. Der Briefing-Lauf ändert keine Dateien und pusht nichts.
 
-1. Erst nach dem erfolgreichen Push von data.json. Inhalte nur aus der gerade gepushten data.json nehmen (briefing.saetze, briefing.details[].wirkung, maerkte.kalender, maerkte.unternehmenskalender, maerkte.notenbanken), nichts neu recherchieren und nichts erfinden.
+1. Repository klonen (main) und Inhalte nur aus der aktuellen data.json nehmen (briefing.saetze, briefing.details[].wirkung, maerkte.kalender, maerkte.unternehmenskalender, maerkte.notenbanken), nichts neu recherchieren und nichts erfinden. Ist `aktualisiert` nicht von heute, das im Briefing oben kurz sagen.
 2. Den Thread umbenennen in „Morgen-Briefing Wochentag TT.MM.“ (z. B. „Morgen-Briefing Fr 27.11.“).
 3. Das Briefing als normale Antwort im Thread posten (post_message), auf Deutsch, gut lesbar am Handy, insgesamt höchstens etwa 250 Wörter. Aufbau:
    - Erste Zeile fett: „Morgen-Briefing Wochentag TT.MM.“ und dahinter „Stand HH:MM Uhr“.
