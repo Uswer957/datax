@@ -1,17 +1,17 @@
 {
-  "aktualisiert": "26.11.2026, 09:03 Uhr",
+  "aktualisiert": "26.11.2026, 10:03 Uhr",
   "maerkte": {
     "schlagzeilen": [
       {
         "tag": "Märkte",
-        "titel": "DAX vorbörslich 2 % höher bei 25.200 Punkten erwartet – Tech-Erholung im Rücken",
-        "warum": "Nach dem Tief seit Juli wäre der DAX zurück über 25.000 Punkten und der 200-Tage-Linie; Asiens Techbörsen ziehen mit, ohne US-Impulse wegen Thanksgiving.",
-        "quelle": "dpa-AFX",
-        "url": "https://www.onvista.de/news/2026/11-26-dax-flash-gewinne-erwartet-mit-tech-erholung-im-ruecken-0-10-26580652",
-        "zeit": "26.11., 06:15",
+        "titel": "DAX startet 1,8 % fester bei rund 25.150 Punkten – Rheinmetall, Siemens Energy und Infineon vorn",
+        "warum": "Nach dem Schluss auf Juli-Tief (24.702) holt der DAX die Wochenverluste auf; Chip- und Rüstungswerte erholen sich, ohne US-Impulse bleibt der Handel wegen Thanksgiving dünn.",
+        "quelle": "finanzen.at",
+        "url": "https://www.finanzen.at/nachrichten/aktien/boerse-frankfurt-dax-liegt-zum-start-im-plus-1036802427",
+        "zeit": "26.11., 09:12",
         "medien": [
-          "dpa-AFX",
-          "Tagesspiegel"
+          "finanzen.at",
+          "dpa-AFX"
         ]
       },
       {
@@ -6554,13 +6554,13 @@
     "humanitaer_quelle": "UN-Menschenrechtsmission Ukraine (via ISW 25.11.), OCHA, WFP, Al Jazeera (14.11.), CBS News (24.11.); Stand 26.11."
   },
   "briefing": {
-    "stand": "26.11., 09:03 Uhr",
+    "stand": "26.11., 10:03 Uhr",
     "saetze": [
       {
         "tag": "Märkte",
-        "text": "Nach dem Wall-Street-Turnaround (Nasdaq-100 schließt nach zeitweise fast −5 % nur −0,64 %, Dow +0,33 % auf 50.183) notiert der DAX zum Handelsstart wieder über 25.000 Punkten und der 200-Tage-Linie (vorbörslich rund +2 %); Nikkei, Kospi und Taiwan steigen, die US-Börsen sind heute wegen Thanksgiving zu, der Handel dürfte dünn bleiben.",
-        "quelle": "dpa-AFX",
-        "url": "https://www.ariva.de/news/dpa-afx-boersentag-auf-einen-blick-dax-erholt-sich-12220891"
+        "text": "Nach dem Wall-Street-Turnaround (Nasdaq-100 nach zeitweise fast −5 % nur −0,64 %, Dow +0,33 %) springt der DAX zum Start um 1,8 % auf rund 25.150 Punkte und damit zurück über 25.000 und die 200-Tage-Linie; Rheinmetall (+4,5 %, Kapitalmarkttag), Siemens Energy und Infineon (je gut +4 %) führen, die US-Börsen sind heute wegen Thanksgiving zu.",
+        "quelle": "finanzen.at",
+        "url": "https://www.finanzen.at/nachrichten/aktien/boerse-frankfurt-dax-liegt-zum-start-im-plus-1036802427"
       },
       {
         "tag": "Zinsen",
@@ -6570,9 +6570,9 @@
       },
       {
         "tag": "Konflikte",
-        "text": "Die Houthis greifen Saudi-Arabiens größte Raffinerie Ras Tanura an, Iran meldet weitere Minentreffer in Hormus – Brent zieht um knapp 2 % auf gut 90 $ an.",
-        "quelle": "Reuters",
-        "url": "https://www.brecorder.com/news/40450708/yemens-houthis-say-they-attacked-saudi-arabias-ras-tanura-refinery"
+        "text": "Die Houthis greifen Saudi-Arabiens größte Raffinerie Ras Tanura an, Iran meldet weitere Minentreffer in Hormus – Brent steigt den dritten Tag in Folge und kostet am Morgen gut 95 $ (WTI gut 84 $).",
+        "quelle": "The National",
+        "url": "https://www.thenationalnews.com/business/energy/2026/11/26/oil-rebounds-to-95-per-barrel-after-saudi-refinery-attack/"
       },
       {
         "tag": "Handel",
@@ -6805,9 +6805,9 @@
     ]
   },
   "energie": {
-    "stand": "26.11. 05:10",
+    "stand": "26.11. 10:03",
     "oel": {
-      "lage": "Brent stieg am Mittwoch um knapp 2 % auf gut 90 $, nachdem die Houthis Saudi-Arabiens größte Raffinerie Ras Tanura angriffen und Iran weitere Minentreffer in Hormus meldete. Im November hat Brent dennoch rund ein Fünftel verloren (Ende Oktober 117,64 $): Die IEA erwartet ein Überangebot, die US-Lager stiegen um 1,1 Mio. Barrel; am 29.11. berät OPEC+ über die Quoten 2027.",
+      "lage": "Brent steigt den dritten Tag in Folge auf gut 95 $ (WTI gut 84 $), nachdem die Houthis Saudi-Arabiens größte Raffinerie Ras Tanura angriffen und Iran weitere Minentreffer in Hormus meldete. Im November hat Brent dennoch deutlich verloren (Ende Oktober 117,64 $): Die IEA erwartet ein Überangebot, die US-Lager stiegen um 1,1 Mio. Barrel; am 29.11. berät OPEC+ über die Quoten 2027.",
       "foerderung": [
         {
           "land": "USA",
@@ -7104,15 +7104,15 @@
     "news": [
       {
         "tag": "Öl",
-        "titel": "Houthis greifen Raffinerie Ras Tanura an – Brent wieder über 90 $",
-        "warum": "Die Anlage verarbeitet 550.000 Barrel pro Tag; Satellitenbilder zeigen dichten Rauch, die Koalition meldet abgefangene Drohnen.",
-        "quelle": "Reuters",
-        "url": "https://www.brecorder.com/news/40450708/yemens-houthis-say-they-attacked-saudi-arabias-ras-tanura-refinery",
-        "zeit": "25.11., 15:18",
+        "titel": "Ölpreis zieht nach Angriff auf Ras Tanura auf 95 $ an",
+        "warum": "Drohnen auf Saudi-Arabiens größte Raffinerie und Minentreffer in Hormus lassen den Risikoaufschlag zurückkehren – drei Tage vor dem OPEC+-Treffen.",
+        "quelle": "The National",
+        "url": "https://www.thenationalnews.com/business/energy/2026/11/26/oil-rebounds-to-95-per-barrel-after-saudi-refinery-attack/",
+        "zeit": "26.11.",
         "medien": [
-          "Reuters",
           "The National",
-          "Al-Monitor"
+          "Business Recorder",
+          "OilPrice"
         ]
       },
       {
