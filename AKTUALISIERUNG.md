@@ -22,6 +22,7 @@ Meldungen, die im Schnelllauf aus einer Kachel verdrängt werden, dürfen statt 
 3. `"aktualisiert"` auf z. B. `"24.11.2026, 14:03 Uhr"` setzen.
 4. JSON prüfen (`python -m json.tool`), committen („Daten aktualisiert TT.MM. HH:MM“) und direkt auf main pushen (vorher `git pull --rebase`; bei Konflikt in data.json die neuere Fassung von main als Basis nehmen und die eigenen Änderungen erneut anwenden). Keine anderen Dateien ändern, keine Pull Requests. data.json ist mit indent=2, ohne Newline am Ende formatiert.
 5. Keine persönlichen Daten in die Datei schreiben, die Seite ist öffentlich.
+6. **Nur Morgenlauf:** Nach dem erfolgreichen Push das Morgen-Briefing in den Chat schicken (Abschnitt „Morgen-Briefing im Chat“ unten). Schnellläufe schicken nichts.
 
 ## Pflichtfelder jeder Meldung
 
@@ -194,3 +195,19 @@ Jeder Eintrag: {"lage": "2 bis 3 Sätze, wie die Lage in diesem Thema gerade ist
 Themen: devisen: EUR/USD, USD/JPY, CNY usw. und Notenbanken; rohstoffe: Öl, Gas, Gold, Silber, Kupfer; anleihen: Renditen, Notenbanken, Haushalte, Staatsverschuldung (Klick auf die Kachel „Anleihen & Verschuldung“); indizes: DAX, S&P 500, Nasdaq, Nikkei, Bitcoin; verschuldung: Haushalts- und Schuldendebatten; unternehmen: anstehende Zahlen, HVs, Deals (Klick auf den Unternehmenskalender); watch: Hintergrund zu den Watchlist-Titeln; termine: Vorschau auf die anstehenden politischen Termine; konflikte: Gesamtlage und Analysen über alle Konflikte; radar: Hintergrund zu den Spannungsherden; front: Analysen zum Frontverlauf Ukraine (ISW, Kyiv Independent, Militärexperten); diplomatie: Hintergründe zu Verhandlungen und Sanktionen; ruestung: Rüstungsindustrie, Beschaffung, NATO-Ausgaben; konfliktmarkt: Öl, Gas, Gold, Rüstungsaktien, Fracht und Versicherungsprämien; humanitaer: UN-Berichte, Hunger, Hilfszugang; energie_oel: Ölmarkt-Analysen und Prognosen (IEA, OPEC, EIA); energie_opec: OPEC+ und Lagerdaten; energie_gas: Gasspeicher, LNG, TTF; energie_strom: Strommix, Netzausbau, Energiewende; energie_preise: Strompreise, Industriestrompreis, Netzentgelte; energie_routen: Seewege, Tanker, Pipelines; energie_klima: Klimapolitik, COP, Emissionen; energie_co2: Emissionshandel EU-ETS/ETS2, CO₂-Preis; energie_news: weitere Energiewende-Meldungen.
 
 Fehlt mehr oder ein Schlüssel, vollständig anlegen (auch im Schnelllauf). Im Morgenlauf alle Schlüssel aktualisieren, Unverändertes darf bleiben. Schnelllauf: siehe oben (verdrängte Kachel-Meldungen dürfen hierher wandern).
+
+---
+
+## Morgen-Briefing im Chat — [Morgenlauf]
+
+Tim bekommt jeden Morgen ein kurzes Briefing als Nachricht im Projekt-Chat und will danach direkt in diesem Thread mit Claude über die Ereignisse diskutieren. Das betrifft nur den Morgenlauf; nichts davon kommt in data.json.
+
+1. Erst nach dem erfolgreichen Push von data.json. Inhalte nur aus der gerade gepushten data.json nehmen (briefing.saetze, briefing.details[].wirkung, maerkte.kalender, maerkte.unternehmenskalender, maerkte.notenbanken), nichts neu recherchieren und nichts erfinden.
+2. Den Thread umbenennen in „Morgen-Briefing Wochentag TT.MM.“ (z. B. „Morgen-Briefing Fr 27.11.“).
+3. Das Briefing als normale Antwort im Thread posten (post_message), auf Deutsch, gut lesbar am Handy, insgesamt höchstens etwa 250 Wörter. Aufbau:
+   - Erste Zeile fett: „Morgen-Briefing Wochentag TT.MM.“ und dahinter „Stand HH:MM Uhr“.
+   - **Das Wichtigste**: 5 bis 7 nummerierte Punkte, wichtigster zuerst. Je Punkt: fettes Schlagwort (tag), ein kurzer Satz (aus saetze, gekürzt), darunter eine Zeile „Wirkung:“ mit 1 bis 3 Märkten und Pfeilen (↑ steigt, ↓ fällt, → seitwärts, ? unsicher), z. B. „Wirkung: Bund-Rendite ↑, DAX-Exporteure ?“, aus der wirkung des passenden details-Eintrags. Bis zu zwei weitere Punkte aus details nehmen, wenn sie nicht schon in saetze stecken.
+   - **Heute im Kalender**: alle Termine des Tages mit wichtig 2 oder 3 aus maerkte.kalender und maerkte.unternehmenskalender (Uhrzeit Berliner Zeit, Land, Was, Konsens), dazu eine Notenbank-Entscheidung, falls heute eine ansteht. Gibt es keine, „Keine großen Termine“ schreiben und den wichtigsten Termin der nächsten Tage nennen.
+   - Schluss: Link zur Seite (https://uswer957.github.io/datax/) und ein Satz, dass Tim einfach hier antworten kann, um über einen Punkt zu sprechen.
+   - Keine Tabellen, keine langen Absätze, keine Anlageempfehlung.
+4. Den Thread danach NICHT als erledigt markieren (nicht resolven), damit Tim darin antworten kann. Antwortet Tim, mit ihm über die Themen diskutieren: Hintergründe erklären, Zusammenhänge und mögliche Marktwirkungen einordnen, bei Bedarf mit Websuche nachrecherchieren und Quellen nennen. Auf Tims Antworten hin data.json nicht ändern, außer er bittet ausdrücklich darum.
