@@ -1,5 +1,5 @@
 {
-  "aktualisiert": "26.11.2026, 08:15 Uhr",
+  "aktualisiert": "26.11.2026, 09:03 Uhr",
   "maerkte": {
     "schlagzeilen": [
       {
@@ -3106,13 +3106,6 @@
           "naechste": [
             {
               "datum": "Do 26.11.",
-              "zeit": "02:00",
-              "heim": "Los Angeles Rams",
-              "gast": "Green Bay Packers",
-              "info": "Week 12"
-            },
-            {
-              "datum": "Do 26.11.",
               "zeit": "19:00",
               "heim": "Detroit Lions",
               "gast": "Chicago Bears",
@@ -3160,6 +3153,13 @@
           ],
           "letzte": [
             {
+              "datum": "Do 26.11.",
+              "heim": "Los Angeles Rams",
+              "gast": "Green Bay Packers",
+              "ergebnis": "26:13",
+              "info": "Week 12"
+            },
+            {
               "datum": "Di 24.11.",
               "heim": "Washington Commanders",
               "gast": "Cincinnati Bengals",
@@ -3206,13 +3206,6 @@
               "heim": "Kansas City Chiefs",
               "gast": "Arizona Cardinals",
               "ergebnis": "34:7",
-              "info": "Week 11"
-            },
-            {
-              "datum": "So 22.11.",
-              "heim": "Philadelphia Eagles",
-              "gast": "Pittsburgh Steelers",
-              "ergebnis": "19:16",
               "info": "Week 11"
             }
           ]
@@ -6561,13 +6554,13 @@
     "humanitaer_quelle": "UN-Menschenrechtsmission Ukraine (via ISW 25.11.), OCHA, WFP, Al Jazeera (14.11.), CBS News (24.11.); Stand 26.11."
   },
   "briefing": {
-    "stand": "26.11., 08:15 Uhr",
+    "stand": "26.11., 09:03 Uhr",
     "saetze": [
       {
         "tag": "Märkte",
-        "text": "Nach dem Wall-Street-Turnaround (Nasdaq-100 schließt nach zeitweise fast −5 % nur −0,64 %, Dow +0,33 % auf 50.183) wird der DAX vorbörslich rund 2 % höher bei 25.200 Punkten erwartet, zurück über der 200-Tage-Linie; Nikkei, Kospi und Taiwan steigen, die US-Börsen sind heute wegen Thanksgiving zu.",
+        "text": "Nach dem Wall-Street-Turnaround (Nasdaq-100 schließt nach zeitweise fast −5 % nur −0,64 %, Dow +0,33 % auf 50.183) notiert der DAX zum Handelsstart wieder über 25.000 Punkten und der 200-Tage-Linie (vorbörslich rund +2 %); Nikkei, Kospi und Taiwan steigen, die US-Börsen sind heute wegen Thanksgiving zu, der Handel dürfte dünn bleiben.",
         "quelle": "dpa-AFX",
-        "url": "https://www.onvista.de/news/2026/11-26-dax-flash-gewinne-erwartet-mit-tech-erholung-im-ruecken-0-10-26580652"
+        "url": "https://www.ariva.de/news/dpa-afx-boersentag-auf-einen-blick-dax-erholt-sich-12220891"
       },
       {
         "tag": "Zinsen",
