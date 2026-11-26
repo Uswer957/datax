@@ -209,9 +209,9 @@
         "rendite": "1,60 %"
       }
     ],
-    "renditen_stand": "Stand 26.11., 05:30 Uhr: USA Schluss 25.11. (GSM Global News), übrige Schlusskurse 24./25.11. (Trading Economics)",
+    "renditen_stand": "Stand 26.11., 05:10 Uhr: USA Schluss 25.11. (GSM Global News), übrige Schlusskurse 24./25.11. (Trading Economics)",
     "watchlist": {
-      "stand": "Stand 26.11., 05:30 Uhr (US-Börsen heute wegen Thanksgiving geschlossen)",
+      "stand": "Stand 26.11., 05:10 Uhr (US-Börsen heute wegen Thanksgiving geschlossen)",
       "maerkte": [
         {
           "markt": "USA",
@@ -392,7 +392,7 @@
       ]
     },
     "kalender": {
-      "stand": "26.11., 05:30 Uhr",
+      "stand": "26.11., 05:10 Uhr",
       "termine": [
         {
           "zeit": "2026-11-25T14:30:00+01:00",
@@ -594,7 +594,7 @@
       ]
     },
     "unternehmenskalender": {
-      "stand": "26.11., 05:30 Uhr",
+      "stand": "26.11., 05:10 Uhr",
       "termine": [
         {
           "zeit": "2026-11-25T12:00:00+01:00",
@@ -5809,7 +5809,7 @@
     }
   },
   "konflikte": {
-    "stand": "Stand 26.11., 05:40 Uhr",
+    "stand": "Stand 26.11., 05:10 Uhr",
     "karte": [
       {
         "code": "UKR",
@@ -6766,7 +6766,7 @@
     ]
   },
   "energie": {
-    "stand": "26.11. 05:40",
+    "stand": "26.11. 05:10",
     "oel": {
       "lage": "Brent stieg am Mittwoch um knapp 2 % auf gut 90 $, nachdem die Houthis Saudi-Arabiens größte Raffinerie Ras Tanura angriffen und Iran weitere Minentreffer in Hormus meldete. Im November hat Brent dennoch rund ein Fünftel verloren (Ende Oktober 117,64 $): Die IEA erwartet ein Überangebot, die US-Lager stiegen um 1,1 Mio. Barrel; am 29.11. berät OPEC+ über die Quoten 2027.",
       "foerderung": [
