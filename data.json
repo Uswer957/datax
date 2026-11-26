@@ -1,7 +1,19 @@
 {
-  "aktualisiert": "26.11.2026, 07:03 Uhr",
+  "aktualisiert": "26.11.2026, 08:15 Uhr",
   "maerkte": {
     "schlagzeilen": [
+      {
+        "tag": "Märkte",
+        "titel": "DAX vorbörslich 2 % höher bei 25.200 Punkten erwartet – Tech-Erholung im Rücken",
+        "warum": "Nach dem Tief seit Juli wäre der DAX zurück über 25.000 Punkten und der 200-Tage-Linie; Asiens Techbörsen ziehen mit, ohne US-Impulse wegen Thanksgiving.",
+        "quelle": "dpa-AFX",
+        "url": "https://www.onvista.de/news/2026/11-26-dax-flash-gewinne-erwartet-mit-tech-erholung-im-ruecken-0-10-26580652",
+        "zeit": "26.11., 06:15",
+        "medien": [
+          "dpa-AFX",
+          "Tagesspiegel"
+        ]
+      },
       {
         "tag": "Märkte",
         "titel": "Wall Street dreht nach Ausverkauf: Dow +0,33 %, Nasdaq nur −0,62 % nach zeitweise −4,6 %",
@@ -91,19 +103,6 @@
           "Korea Herald",
           "CNBC",
           "SBS"
-        ]
-      },
-      {
-        "tag": "Konjunktur",
-        "titel": "US-Kerninflation PCE steigt auf 3,3 %, BIP auf 4,3 % hochrevidiert",
-        "warum": "Heiße Inflation plus starkes Wachstum zementieren die Fed-Erhöhung im Dezember und erhöhen das Risiko weiterer Schritte 2027.",
-        "quelle": "Benzinga",
-        "url": "https://www.benzinga.com/markets/economic-data/26/11/63619838/pce-inflation-october-gdp-second-estimate",
-        "zeit": "25.11., 14:30",
-        "medien": [
-          "Benzinga",
-          "Seeking Alpha",
-          "Investing.com"
         ]
       }
     ],
@@ -3397,102 +3396,90 @@
         "spiele": {
           "naechste": [
             {
-              "datum": "Mi 25.11.",
-              "zeit": "23:00",
-              "heim": "76ers",
+              "datum": "Sa 28.11.",
+              "zeit": "01:00",
+              "heim": "Knicks",
               "gast": "Heat"
             },
             {
-              "datum": "Do 26.11.",
-              "zeit": "01:00",
-              "heim": "Hornets",
-              "gast": "Bulls"
-            },
-            {
-              "datum": "Do 26.11.",
+              "datum": "Sa 28.11.",
               "zeit": "01:30",
-              "heim": "Knicks",
-              "gast": "Cavaliers"
+              "heim": "Pacers",
+              "gast": "76ers"
             },
             {
-              "datum": "Do 26.11.",
+              "datum": "Sa 28.11.",
               "zeit": "01:30",
-              "heim": "Thunder",
-              "gast": "Timberwolves"
+              "heim": "Pistons",
+              "gast": "Bucks"
             },
             {
-              "datum": "Do 26.11.",
-              "zeit": "02:00",
-              "heim": "Bucks",
+              "datum": "Sa 28.11.",
+              "zeit": "01:30",
+              "heim": "Raptors",
               "gast": "Nets"
             },
             {
-              "datum": "Do 26.11.",
+              "datum": "Sa 28.11.",
               "zeit": "02:00",
-              "heim": "Grizzlies",
-              "gast": "Clippers"
+              "heim": "Celtics",
+              "gast": "Hawks"
             },
             {
-              "datum": "Do 26.11.",
+              "datum": "Sa 28.11.",
               "zeit": "02:30",
-              "heim": "Rockets",
-              "gast": "Suns"
-            },
-            {
-              "datum": "Do 26.11.",
-              "zeit": "04:00",
-              "heim": "Warriors",
-              "gast": "Kings"
+              "heim": "Timberwolves",
+              "gast": "Grizzlies"
             }
           ],
           "letzte": [
             {
-              "datum": "Mi 25.11.",
-              "heim": "Wizards",
-              "gast": "Celtics",
-              "ergebnis": "116:131"
+              "datum": "Do 26.11.",
+              "heim": "Warriors",
+              "gast": "Kings",
+              "ergebnis": "129:110"
             },
             {
-              "datum": "Mi 25.11.",
-              "heim": "Nuggets",
-              "gast": "Mavericks",
-              "ergebnis": "101:120"
+              "datum": "Do 26.11.",
+              "heim": "Rockets",
+              "gast": "Suns",
+              "ergebnis": "116:104"
             },
             {
-              "datum": "Mi 25.11.",
-              "heim": "Magic",
-              "gast": "Pistons",
-              "ergebnis": "86:104"
+              "datum": "Do 26.11.",
+              "heim": "Grizzlies",
+              "gast": "Clippers",
+              "ergebnis": "115:97"
             },
             {
-              "datum": "Di 24.11.",
-              "heim": "76ers",
-              "gast": "Trail Blazers",
-              "ergebnis": "111:128"
-            },
-            {
-              "datum": "Di 24.11.",
-              "heim": "Hornets",
-              "gast": "Grizzlies",
-              "ergebnis": "111:117"
-            },
-            {
-              "datum": "Di 24.11.",
-              "heim": "Pacers",
-              "gast": "Thunder",
-              "ergebnis": "125:120"
-            },
-            {
-              "datum": "Di 24.11.",
-              "heim": "Timberwolves",
+              "datum": "Do 26.11.",
+              "heim": "Bucks",
               "gast": "Nets",
-              "ergebnis": "142:116"
+              "ergebnis": "97:104"
             },
             {
-              "datum": "Di 24.11.",
-              "heim": "Raptors",
-              "gast": "Bucks",
-              "ergebnis": "111:116"
+              "datum": "Do 26.11.",
+              "heim": "Thunder",
+              "gast": "Timberwolves",
+              "ergebnis": "106:113"
+            },
+            {
+              "datum": "Do 26.11.",
+              "heim": "Knicks",
+              "gast": "Cavaliers",
+              "ergebnis": "121:102"
+            },
+            {
+              "datum": "Do 26.11.",
+              "heim": "Hornets",
+              "gast": "Bulls",
+              "ergebnis": "105:107"
+            },
+            {
+              "datum": "Mi 25.11.",
+              "heim": "76ers",
+              "gast": "Heat",
+              "ergebnis": "111:104"
             }
           ]
         }
@@ -4002,6 +3989,19 @@
       "lage": "Nach dem schärfsten Tech-Einbruch seit Monaten drehte die Wall Street am Mittwoch: Der Dow schloss über 50.000, der Nasdaq machte den Großteil seines Minus von bis zu 4,6 % wett. Heute ruhen die US-Börsen (Thanksgiving), Freitag ist nur bis 19 Uhr Handel – die Volatilität dürfte bei dünnen Umsätzen hoch bleiben.",
       "meldungen": [
         {
+          "tag": "Konjunktur",
+          "titel": "US-Kerninflation PCE steigt auf 3,3 %, BIP auf 4,3 % hochrevidiert",
+          "warum": "Heiße Inflation plus starkes Wachstum zementieren die Fed-Erhöhung im Dezember und erhöhen das Risiko weiterer Schritte 2027.",
+          "quelle": "Benzinga",
+          "url": "https://www.benzinga.com/markets/economic-data/26/11/63619838/pce-inflation-october-gdp-second-estimate",
+          "zeit": "25.11., 14:30",
+          "medien": [
+            "Benzinga",
+            "Seeking Alpha",
+            "Investing.com"
+          ]
+        },
+        {
           "tag": "Märkte",
           "titel": "Nvidia −8 %, Nasdaq rund −3,3 %: Nasdaq-100 vor dem Bärenmarkt",
           "warum": "Heiße PCE-Daten, neue Zolldrohungen und KI-Skepsis treffen die Chipwerte; der VIX steigt auf fast 34, die 10-jährige US-Rendite sinkt auf 4,82 % – Anleger flüchten in Anleihen.",
@@ -4085,17 +4085,6 @@
           "medien": [
             "Reuters",
             "Bloomberg"
-          ]
-        },
-        {
-          "tag": "Unternehmen",
-          "titel": "HPE bricht trotz Zahlen-Beat und höherer Prognose um rund 12 % ein",
-          "warum": "Für 2027 erwartet HPE nur noch rund 14 % Marge im Cloud- und KI-Geschäft (zuvor 18,4 %); ein Warnsignal für die Margen der KI-Server-Hersteller vor den Dell-Zahlen.",
-          "quelle": "Reuters",
-          "url": "https://1027wbow.com/2026/11/24/hpe-shares-fall-as-margin-worries-overshadow-raised-outlook/",
-          "zeit": "24.11., 13:45",
-          "medien": [
-            "Reuters"
           ]
         }
       ]
@@ -6572,13 +6561,13 @@
     "humanitaer_quelle": "UN-Menschenrechtsmission Ukraine (via ISW 25.11.), OCHA, WFP, Al Jazeera (14.11.), CBS News (24.11.); Stand 26.11."
   },
   "briefing": {
-    "stand": "26.11., 07:03 Uhr",
+    "stand": "26.11., 08:15 Uhr",
     "saetze": [
       {
         "tag": "Märkte",
-        "text": "Wall Street dreht nach dem Chip-Crash: Der Nasdaq schließt nach zeitweise −4,6 % nur −0,62 %, der Dow +0,33 % auf 50.183 – Nvidia (−3,9 %) bleibt belastet, S&P stellt sein AA-Rating auf CreditWatch negativ; heute sind die US-Börsen wegen Thanksgiving zu.",
-        "quelle": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html"
+        "text": "Nach dem Wall-Street-Turnaround (Nasdaq-100 schließt nach zeitweise fast −5 % nur −0,64 %, Dow +0,33 % auf 50.183) wird der DAX vorbörslich rund 2 % höher bei 25.200 Punkten erwartet, zurück über der 200-Tage-Linie; Nikkei, Kospi und Taiwan steigen, die US-Börsen sind heute wegen Thanksgiving zu.",
+        "quelle": "dpa-AFX",
+        "url": "https://www.onvista.de/news/2026/11-26-dax-flash-gewinne-erwartet-mit-tech-erholung-im-ruecken-0-10-26580652"
       },
       {
         "tag": "Zinsen",
