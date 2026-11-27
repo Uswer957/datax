@@ -1,7 +1,19 @@
 {
-  "aktualisiert": "27.11.2026, 07:03 Uhr",
+  "aktualisiert": "27.11.2026, 08:03 Uhr",
   "maerkte": {
     "schlagzeilen": [
+      {
+        "tag": "Märkte",
+        "titel": "DAX vorbörslich 0,7 % höher bei 25.397 Punkten – Wochenplus von 2,4 % in Reichweite",
+        "warum": "Die Erholung der Risikobereitschaft trägt in den letzten Handelstag der Woche, im Fokus stehen SAP und Rheinmetall mit erwarteter Ausblickssenkung.",
+        "quelle": "dpa-AFX",
+        "url": "https://www.onvista.de/news/2026/11-27-dax-flash-dax-weiter-erholt-zum-ausklang-einer-turbulenten-woche-0-10-26581148",
+        "zeit": "27.11., 06:16",
+        "medien": [
+          "dpa",
+          "onvista"
+        ]
+      },
       {
         "tag": "Geldpolitik",
         "titel": "EU-Gipfel: Pablo Hernández de Cos wird Nachfolger von EZB-Chefin Lagarde, Brunnermeier Chefvolkswirt",
@@ -82,17 +94,6 @@
         "medien": [
           "dpa-AFX",
           "Handelsblatt"
-        ]
-      },
-      {
-        "tag": "Banken",
-        "titel": "Bank of England senkt Kapitalanforderungen für britische Inlandsbanken",
-        "warum": "Mehr Spielraum für Kreditvergabe – Signal, dass die BoE Finanzstabilität trotz Zinserhöhungen lockerer reguliert.",
-        "quelle": "Reuters",
-        "url": "https://www.thestandard.com.hk/finance/article/349793/Bank-of-England-to-cut-capital-requirements-for-UK-focused-lenders",
-        "zeit": "26.11.",
-        "medien": [
-          "Reuters"
         ]
       }
     ],
@@ -527,7 +528,7 @@
       ]
     },
     "unternehmenskalender": {
-      "stand": "27.11., 05:30 Uhr",
+      "stand": "27.11., 08:03 Uhr",
       "termine": [
         {
           "zeit": "2026-11-26T12:00:00+01:00",
@@ -547,7 +548,8 @@
           "was": "Elia Group: Zahlen Q3",
           "prognose": null,
           "vorher": null,
-          "ist": null
+          "ist": null,
+          "lesart": "Morgan Stanley erwartet, dass Elia die Gewinnprognose 2026 von 690–740 Mio. € auf etwa 750–760 Mio. € anhebt, weil höhere Anleiherenditen die erlaubte Eigenkapitalrendite im Netz erhöhen."
         },
         {
           "zeit": "2026-11-27T10:00:00+01:00",
@@ -3930,6 +3932,17 @@
       "meldungen": [
         {
           "tag": "Banken",
+          "titel": "Bank of England senkt Kapitalanforderungen für britische Inlandsbanken",
+          "warum": "Mehr Spielraum für Kreditvergabe – Signal, dass die BoE Finanzstabilität trotz Zinserhöhungen lockerer reguliert.",
+          "quelle": "Reuters",
+          "url": "https://www.thestandard.com.hk/finance/article/349793/Bank-of-England-to-cut-capital-requirements-for-UK-focused-lenders",
+          "zeit": "26.11.",
+          "medien": [
+            "Reuters"
+          ]
+        },
+        {
+          "tag": "Banken",
           "titel": "UniCredit will Orcel an die Spitze des Commerzbank-Aufsichtsrats setzen – Bund gibt Widerstand auf",
           "warum": "Mit knapp 50 % der Aktien beantragt UniCredit eine außerordentliche HV (wohl Anfang Januar), will neun von zehn Kapitalvertretern abberufen und rund 7.000 Stellen streichen.",
           "quelle": "dpa-AFX",
@@ -4010,19 +4023,6 @@
             "Reuters",
             "Benzinga",
             "CNBC"
-          ]
-        },
-        {
-          "tag": "Geldpolitik",
-          "titel": "Beige Book: 8 von 12 Fed-Bezirken wachsen, Löhne ziehen an",
-          "warum": "Einkaufspreise steigen schneller als Verkaufspreise, Firmen erwarten weiter steigende Kosten – das liefert der Fed keinen Grund, die für 9.12. erwartete Erhöhung abzublasen.",
-          "quelle": "Federal Reserve",
-          "url": "https://www.federalreserve.gov/monetarypolicy/beigebook202611-summary.htm",
-          "zeit": "25.11., 20:00",
-          "medien": [
-            "Federal Reserve",
-            "TheStreet",
-            "Yahoo Finance"
           ]
         }
       ]
@@ -6593,7 +6593,7 @@
     "humanitaer_quelle": "UN-Menschenrechtsmission Ukraine (via ISW 25.11.), OCHA, WFP, Al Jazeera (14.11.), CBS News (24.11.); Stand 26.11."
   },
   "briefing": {
-    "stand": "27.11., 07:03 Uhr",
+    "stand": "27.11., 08:03 Uhr",
     "saetze": [
       {
         "tag": "Deutschland",
@@ -6621,9 +6621,9 @@
       },
       {
         "tag": "Märkte",
-        "text": "Nach dem DAX-Plus von 2,1 % auf 25.216 Punkte zieht Asien nach (Nikkei +1,2 % auf 58.172, Kospi +2,8 %), Tokios Kerninflation liegt mit 2,9 % knapp unter Konsens – die Wall Street öffnet nach Thanksgiving und handelt nur bis 19 Uhr.",
-        "quelle": "RTTNews",
-        "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70241350-asian-markets-trade-mostly-higher-020.htm"
+        "text": "Der DAX wird nach dem Plus von 2,1 % am Vortag vorbörslich weitere 0,7 % höher bei 25.397 Punkten taxiert (Wochenplus bisher 2,4 %), Asien zieht mit (Nikkei +1,2 %, Kospi +2,8 %) – die Wall Street öffnet nach Thanksgiving und handelt nur bis 19 Uhr.",
+        "quelle": "dpa-AFX",
+        "url": "https://www.onvista.de/news/2026/11-27-dax-flash-dax-weiter-erholt-zum-ausklang-einer-turbulenten-woche-0-10-26581148"
       }
     ],
     "details": [
@@ -6735,7 +6735,7 @@
       {
         "tag": "Märkte",
         "titel": "Asien folgt Europas Rallye, Wall Street nur mit halbem Tag",
-        "text": "Der DAX schloss am Donnerstag ohne US-Impulse 2,08 % höher bei 25.215,52 Punkten, der MDAX legte 2,3 % zu, der Euro Stoxx 50 rund 2 %. Am Freitag zieht Asien nach: Der Nikkei stieg bis zur Mittagspause um 1,2 % auf 58.172 Punkte, der Kospi um 2,8 %, der australische ASX 200 um 0,6 %. Tokyo Electron und SoftBank verloren dagegen rund 3 %.\n\nDie Wall Street öffnet nach Thanksgiving wieder, handelt aber nur bis 13 Uhr New Yorker Zeit (19 Uhr MEZ). Der Black Friday ist der Start des Weihnachtsgeschäfts; der Handel ist traditionell dünn. Belastend bleiben die neuen US-Exportbeschränkungen für KI-Chips nach Malaysia, Singapur, Thailand und Indonesien, die laut Handelsblatt zahlreiche Rechenzentrumsprojekte in Südostasien gefährden – ein weiteres Thema für Nvidia nach der CreditWatch-Warnung von S&P.\n\nAm Vormittag stehen die Inflation in Frankreich (8:45 Uhr, Konsens 3,2 %) und Spanien (9 Uhr) sowie die EU-Wirtschaftsstimmung (11 Uhr) an. S&P 500 und Nasdaq steuern trotz des Rebounds auf den schwächsten November seit 2008 zu.",
+        "text": "Der DAX schloss am Donnerstag ohne US-Impulse 2,08 % höher bei 25.215,52 Punkten, der MDAX legte 2,3 % zu, der Euro Stoxx 50 rund 2 %. Am Freitag zieht Asien nach: Der Nikkei stieg bis zur Mittagspause um 1,2 % auf 58.172 Punkte, der Kospi um 2,8 %, der australische ASX 200 um 0,6 %. Tokyo Electron und SoftBank verloren dagegen rund 3 %.\n\nDie Wall Street öffnet nach Thanksgiving wieder, handelt aber nur bis 13 Uhr New Yorker Zeit (19 Uhr MEZ). Der Black Friday ist der Start des Weihnachtsgeschäfts; der Handel ist traditionell dünn. Belastend bleiben die neuen US-Exportbeschränkungen für KI-Chips nach Malaysia, Singapur, Thailand und Indonesien, die laut Handelsblatt zahlreiche Rechenzentrumsprojekte in Südostasien gefährden – ein weiteres Thema für Nvidia nach der CreditWatch-Warnung von S&P.\n\nAm Vormittag stehen die Inflation in Frankreich (8:45 Uhr, Konsens 3,2 %) und Spanien (9 Uhr) sowie die EU-Wirtschaftsstimmung (11 Uhr) an. S&P 500 und Nasdaq steuern trotz des Rebounds auf den schwächsten November seit 2008 zu.\n\nVorbörslich taxierte der Broker IG den DAX um 6:16 Uhr 0,7 % höher bei 25.397 Punkten; die Commerzbank spricht von einer „Erholung der globalen Risikobereitschaft“ bei gedämpften Umsätzen. Im Blick stehen SAP nach dem Bericht über Stellenstreichungen und Rheinmetall, wo am zweiten Tag des Kapitalmarkttags eine Kürzung des mittelfristigen Ausblicks erwartet wird.",
         "wirkung": [
           {
             "markt": "DAX",
