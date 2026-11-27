@@ -1,5 +1,5 @@
 {
-  "aktualisiert": "27.11.2026, 06:03 Uhr",
+  "aktualisiert": "27.11.2026, 07:03 Uhr",
   "maerkte": {
     "schlagzeilen": [
       {
@@ -5882,7 +5882,7 @@
     }
   },
   "konflikte": {
-    "stand": "Stand 27.11., 05:30 Uhr",
+    "stand": "Stand 27.11., 07:03 Uhr",
     "karte": [
       {
         "code": "UKR",
@@ -6086,8 +6086,20 @@
         "name": "Iran-Krieg und Straße von Hormus",
         "stufe": 3,
         "seit": "2026",
-        "lage": "Seit dem Zusammenbruch der Waffenruhe im Juli blockieren die USA Irans Häfen, Iran verlangt für die Durchfahrt durch Hormus eine Genehmigung und meldet weitere Minentreffer. Die Houthis greifen Saudi-Arabien an (Ras Tanura, Jazan, Riad), in Kuwait starben zwei Italiener bei einem iranischen Drohnenangriff. Katar und Pakistan vermitteln, Kushner bestätigt Kontakte nach Teheran.",
+        "lage": "Seit dem Zusammenbruch der Waffenruhe im Juli blockieren die USA Irans Häfen, Iran verlangt für die Durchfahrt durch Hormus eine Genehmigung und meldet weitere Minentreffer. Die Houthis greifen Saudi-Arabien an (Ras Tanura, Jazan, Riad), in Kuwait starben zwei Italiener bei einem Drohnenangriff, den Iran bestreitet und Außenminister Araghchi „verdächtig“ nennt. Katar und Pakistan vermitteln, Kushner bestätigt Kontakte nach Teheran.",
         "meldungen": [
+          {
+            "tag": "Kuwait",
+            "titel": "Araghchi nennt tödlichen Angriff in Kuwait „verdächtig“ – Trump sieht „Sieg in Reichweite“",
+            "warum": "Irans Außenminister spricht von einem „vorgefertigten Rezept für Krieg“ und bietet Kuwait Zusammenarbeit an; Trump gibt Teheran nach eigenen Worten noch eine Chance auf einen Deal.",
+            "quelle": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/liveblog/2026/11/27/iran-war-live-irans-araghchi-calls-deadly-kuwait-attack-suspicious",
+            "zeit": "27.11.",
+            "medien": [
+              "Al Jazeera",
+              "Gulf News"
+            ]
+          },
           {
             "tag": "Kuwait",
             "titel": "Zwei italienische Techniker bei Drohnenangriff in Kuwait getötet",
@@ -6135,19 +6147,6 @@
             "medien": [
               "CBS News",
               "The New Arab"
-            ]
-          },
-          {
-            "tag": "Saudi-Arabien",
-            "titel": "Houthis greifen Raffinerie Ras Tanura an, Rauchwolke auf Satellitenbildern",
-            "warum": "Größte Raffinerie des Königreichs (550.000 b/d); die Koalition meldet vier abgefangene Drohnen und droht mit einem Angriff auf Hodeida.",
-            "quelle": "Reuters",
-            "url": "https://www.brecorder.com/news/40450708/yemens-houthis-say-they-attacked-saudi-arabias-ras-tanura-refinery",
-            "zeit": "25.11., 15:18",
-            "medien": [
-              "Reuters",
-              "The National",
-              "Al-Monitor"
             ]
           }
         ]
@@ -6594,7 +6593,7 @@
     "humanitaer_quelle": "UN-Menschenrechtsmission Ukraine (via ISW 25.11.), OCHA, WFP, Al Jazeera (14.11.), CBS News (24.11.); Stand 26.11."
   },
   "briefing": {
-    "stand": "27.11., 05:30 Uhr",
+    "stand": "27.11., 07:03 Uhr",
     "saetze": [
       {
         "tag": "Deutschland",
@@ -6610,7 +6609,7 @@
       },
       {
         "tag": "Konflikte",
-        "text": "Bei einem iranischen Drohnenangriff in Kuwait starben zwei italienische Techniker an einem Luftabwehrsystem (laut Handelsblatt Rheinmetall-Mitarbeiter), die Houthis trafen die saudische Raffinerie Jazan – Iran bestreitet den Angriff, Brent steht bei gut 96 $ und steuert auf das erste Wochenplus seit vier Wochen zu.",
+        "text": "Bei einem iranischen Drohnenangriff in Kuwait starben zwei italienische Techniker an einem Luftabwehrsystem (laut Handelsblatt Rheinmetall-Mitarbeiter), die Houthis trafen die saudische Raffinerie Jazan – Iran bestreitet den Angriff, Außenminister Araghchi nennt ihn „verdächtig“, Brent steht bei gut 96 $ und steuert auf das erste Wochenplus seit vier Wochen zu.",
         "quelle": "Handelsblatt",
         "url": "https://www.handelsblatt.com/politik/international/iran-krieg-israels-verteidigungsminister-droht-mit-grossoffensive-auf-gaza/100136895.html"
       },
