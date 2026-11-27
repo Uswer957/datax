@@ -1,5 +1,5 @@
 {
-  "aktualisiert": "27.11.2026, 08:03 Uhr",
+  "aktualisiert": "27.11.2026, 09:03 Uhr",
   "maerkte": {
     "schlagzeilen": [
       {
@@ -382,7 +382,7 @@
       ]
     },
     "kalender": {
-      "stand": "27.11., 05:30 Uhr",
+      "stand": "27.11., 09:03 Uhr",
       "termine": [
         {
           "zeit": "2026-11-26T08:00:00+01:00",
@@ -413,8 +413,9 @@
           "was": "Frankreich: Verbraucherpreise Nov. (vorl., J/J)",
           "prognose": "3,2 %",
           "vorher": "3,4 %",
-          "ist": null,
-          "lesart": "Erster großer Hinweis auf die Euro-Inflation vor der HVPI-Schnellschätzung am 1.12."
+          "ist": "2,9 %",
+          "lesart": "Deutlich unter Konsens (HVPI 3,2 % nach 3,7 %, erwartet 3,6 %): stützt die Hoffnung auf eine schwächere Euro-HVPI am 1.12. und dämpft EZB-Zinserhöhungsdruck, Renditen eher leichter.",
+          "abweichung": "tiefer"
         },
         {
           "zeit": "2026-11-27T09:55:00+01:00",
@@ -6593,7 +6594,7 @@
     "humanitaer_quelle": "UN-Menschenrechtsmission Ukraine (via ISW 25.11.), OCHA, WFP, Al Jazeera (14.11.), CBS News (24.11.); Stand 26.11."
   },
   "briefing": {
-    "stand": "27.11., 08:03 Uhr",
+    "stand": "27.11., 09:03 Uhr",
     "saetze": [
       {
         "tag": "Deutschland",
@@ -6621,7 +6622,7 @@
       },
       {
         "tag": "Märkte",
-        "text": "Der DAX wird nach dem Plus von 2,1 % am Vortag vorbörslich weitere 0,7 % höher bei 25.397 Punkten taxiert (Wochenplus bisher 2,4 %), Asien zieht mit (Nikkei +1,2 %, Kospi +2,8 %) – die Wall Street öffnet nach Thanksgiving und handelt nur bis 19 Uhr.",
+        "text": "Der DAX eröffnet nach dem Plus von 2,1 % am Vortag rund 0,5 % höher bei etwa 25.350 Punkten (SAP +0,6 %), Frankreichs Inflation fiel im November überraschend auf 2,9 % (Konsens 3,2 %) – die Wall Street öffnet nach Thanksgiving und handelt nur bis 19 Uhr.",
         "quelle": "dpa-AFX",
         "url": "https://www.onvista.de/news/2026/11-27-dax-flash-dax-weiter-erholt-zum-ausklang-einer-turbulenten-woche-0-10-26581148"
       }
