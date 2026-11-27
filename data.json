@@ -1,7 +1,19 @@
 {
-  "aktualisiert": "27.11.2026, 12:05 Uhr",
+  "aktualisiert": "27.11.2026, 15:08 Uhr",
   "maerkte": {
     "schlagzeilen": [
+      {
+        "tag": "Konjunktur",
+        "titel": "US-Warenhandelsdefizit springt im Oktober auf 149,5 Mrd. $ – Importe +6,1 %",
+        "warum": "KI-Kapitalgüter treiben die Importe; das drückt das US-Wachstum im 4. Quartal und trifft Trumps Zollversprechen.",
+        "quelle": "ANI",
+        "url": "https://www.tribuneindia.com/news/economic-growth/us-goods-trade-deficit-widens-10-7-to-usd-149-5-billion-in-october-as-imports-surge",
+        "zeit": "27.11., 14:52",
+        "medien": [
+          "ANI",
+          "Anadolu"
+        ]
+      },
       {
         "tag": "Unternehmen",
         "titel": "Rheinmetall senkt Umsatzziel 2030 auf 33 bis 37 Mrd. € – Aktie trotzdem rund 3 % im Plus",
@@ -84,18 +96,6 @@
         "medien": [
           "RTTNews",
           "AP"
-        ]
-      },
-      {
-        "tag": "Energie",
-        "titel": "Brent über 96 $: erstes Wochenplus seit vier Wochen nach Angriffen auf Jazan",
-        "warum": "Angriffe auf saudische Raffinerien und Minen in Hormus treiben den Risikoaufschlag vor dem OPEC+-Treffen am Sonntag.",
-        "quelle": "Trading Economics",
-        "url": "https://tradingeconomics.com/commodity/brent-crude-oil",
-        "zeit": "27.11.",
-        "medien": [
-          "Trading Economics",
-          "Khaleej Times"
         ]
       }
     ],
@@ -384,7 +384,7 @@
       ]
     },
     "kalender": {
-      "stand": "27.11., 12:05 Uhr",
+      "stand": "27.11., 15:08 Uhr",
       "termine": [
         {
           "zeit": "2026-11-26T08:00:00+01:00",
@@ -448,7 +448,9 @@
           "was": "Handelsbilanz Waren Okt.",
           "prognose": "−131 Mrd. $",
           "vorher": "−135,1 Mrd. $",
-          "ist": null
+          "ist": "−149,5 Mrd. $",
+          "abweichung": "hoeher",
+          "lesart": "Defizit deutlich größer als erwartet (Sept. −135,1 Mrd. $): Importe +6,1 % vor allem durch KI-Kapitalgüter – belastet die BIP-Schätzung fürs 4. Quartal und spricht gegen den Erfolg der Zollpolitik."
         },
         {
           "zeit": "2026-11-30T02:30:00+01:00",
@@ -829,14 +831,14 @@
     "deutschland": [
       {
         "tag": "Bundestag",
-        "titel": "Bundestag stimmt heute über Rekordhaushalt 2027 ab",
-        "warum": "Rund 561 Mrd. € Ausgaben und 123 Mrd. € Nettokredit im Kernhaushalt; die Koalition hat nur eine knappe Mehrheit.",
-        "quelle": "Deutscher Bundestag",
-        "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw48-de-haushaltsgesetz-2027-dritte-lesung-1232350",
-        "zeit": "26.11.",
+        "titel": "Bundestag beschließt Rekordhaushalt 2027",
+        "warum": "556 Mrd. € Ausgaben im Kernhaushalt, 123 Mrd. € Schulden, fast 140 Mrd. € Verteidigung – jeder dritte Euro ist kreditfinanziert.",
+        "quelle": "ZDFheute",
+        "url": "https://www.zdfheute.de/politik/deutschland/haushalt-2027-beschlossen-abstimmung-bundestag-100.html",
+        "zeit": "27.11., 14:50",
         "medien": [
-          "Berliner Zeitung",
-          "Handelsblatt"
+          "ZDFheute",
+          "t-online"
         ]
       },
       {
@@ -6591,13 +6593,13 @@
     "humanitaer_quelle": "UN-Menschenrechtsmission Ukraine (via ISW 25.11.), OCHA, WFP, Al Jazeera (14.11.), CBS News (24.11.); Stand 26.11."
   },
   "briefing": {
-    "stand": "27.11., 12:05 Uhr",
+    "stand": "27.11., 15:08 Uhr",
     "saetze": [
       {
         "tag": "Deutschland",
-        "text": "Heute stimmt der Bundestag nach der dritten Lesung (Übertragung ab 12:40 Uhr) über den Haushalt 2027 ab: rund 561 Mrd. € Ausgaben, 123 Mrd. € Nettokredit im Kernhaushalt und mit den Sondervermögen rund 210 Mrd. € neue Schulden – die Arbeitslosigkeit stieg im November saisonbereinigt um 9.000 (Konsens +4.000), unbereinigt sind es 2,936 Mio. (Quote 6,2 %).",
-        "quelle": "Deutscher Bundestag",
-        "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw48-de-haushaltsgesetz-2027-dritte-lesung-1232350"
+        "text": "Der Bundestag hat am Mittag den Rekordhaushalt 2027 beschlossen: rund 556 Mrd. € Ausgaben im Kernhaushalt, davon 123 Mrd. € auf Pump (jeder dritte Euro), fast 140 Mrd. € für Verteidigung – mit Sondervermögen kommen rund 210 Mrd. € neue Schulden zusammen; die Arbeitslosigkeit stieg im November saisonbereinigt um 9.000 (Konsens +4.000).",
+        "quelle": "ZDFheute",
+        "url": "https://www.zdfheute.de/politik/deutschland/haushalt-2027-beschlossen-abstimmung-bundestag-100.html"
       },
       {
         "tag": "Zinsen",
@@ -6619,7 +6621,7 @@
       },
       {
         "tag": "Märkte",
-        "text": "Der DAX liegt am Mittag rund 0,8 % im Plus bei etwa 25.430 Punkten und steuert auf ein Wochenplus zu; die EU-Wirtschaftsstimmung fiel im November dagegen auf 95,8 (Konsens 97,2), den tiefsten Stand seit Juni – die Wall Street handelt nach Thanksgiving nur bis 19 Uhr.",
+        "text": "Der DAX liegt am Mittag rund 0,8 % im Plus bei etwa 25.430 Punkten und steuert auf ein Wochenplus zu; die EU-Wirtschaftsstimmung fiel im November dagegen auf 95,8 (Konsens 97,2), den tiefsten Stand seit Juni – die Wall Street handelt nach Thanksgiving nur bis 19 Uhr, das US-Warenhandelsdefizit sprang im Oktober auf 149,5 Mrd. $ (erwartet −131 Mrd. $).",
         "quelle": "dpa-AFX",
         "url": "https://www.finanzen.at/nachrichten/aktien/aktie-im-fokus-2-rheinmetall-ziele-erfuellen-die-erwartungen-kurs-im-plus-1036805153"
       }
@@ -6627,8 +6629,8 @@
     "details": [
       {
         "tag": "Deutschland",
-        "titel": "Rekordhaushalt 2027 vor der Schlussabstimmung, Koalition ringt um die Rente",
-        "text": "Der Bundestag beendet heute die Haushaltswoche: Nach 90 Minuten dritter Lesung (Übertragung ab 12:40 Uhr) wird über das Haushaltsgesetz 2027, das Haushaltsbegleitgesetz und den Finanzplan bis 2030 abgestimmt. Der Haushaltsausschuss hatte die Ausgaben auf rund 560,9 Mrd. € erhöht (Bundestag nennt im Titel 555,94 Mrd. €), die Nettokreditaufnahme im Kernhaushalt liegt bei knapp 123 Mrd. €. Zusammen mit 57,8 Mrd. € aus dem Infrastruktur-Sondervermögen und 29,6 Mrd. € für die Bundeswehr sind es rund 210 Mrd. € neue Schulden. Die Schuldenbremse gilt trotzdem als eingehalten, weil Sondervermögen und Verteidigungsausgaben über 1 % des BIP ausgenommen sind; offen blieb zuletzt die Gegenfinanzierung der Stromsteuersenkung für alle Haushalte (rund 5,4 Mrd. €).\n\nParallel verhandelten CDU, CSU und SPD am Donnerstagabend im Kanzleramt über die Rentenreform, die das Handelsblatt als Existenzfrage der Koalition beschreibt. Streitpunkt ist die abschlagsfreie Rente nach 45 Beitragsjahren: Unions-Abgeordnete wollen sie nur noch für Geringverdiener erhalten, die SPD lehnt das ab. Ein Ergebnis war bis zum frühen Morgen nicht bekannt.\n\nUm 9:55 Uhr veröffentlicht die Bundesagentur die Arbeitsmarktdaten für November; erwartet werden 4.000 Arbeitslose mehr bei einer unveränderten Quote von 6,4 % (Vormonat 3,016 Mio.).\n\nDer Arbeitsmarkt bleibt schwach: Im November stieg die Zahl der Arbeitslosen saisonbereinigt um 9.000 und damit stärker als die erwarteten 4.000; unbereinigt sank sie saisonüblich um 19.000 auf 2,936 Mio. (51.000 mehr als vor einem Jahr, Quote 6,2 %). BA-Vorstand Daniel Terzenbach: „Die leichte konjunkturelle Erholung führt auch im November nicht zu einer Belebung am Arbeitsmarkt.“",
+        "titel": "Rekordhaushalt 2027 beschlossen, Koalition ringt um die Rente",
+        "text": "Der Bundestag hat den Haushalt 2027 am 27.11. verabschiedet: rund 556 Mrd. € Ausgaben im Kernhaushalt, 123 Mrd. € davon kreditfinanziert, fast 140 Mrd. € für Verteidigung und 12 Mrd. € Ukraine-Hilfe; mehr als ein Drittel geht an Arbeit und Soziales. Mit den Sondervermögen summiert sich die Neuverschuldung auf rund 210 Mrd. €.\n\nParallel verhandelten CDU, CSU und SPD am Donnerstagabend im Kanzleramt über die Rentenreform, die das Handelsblatt als Existenzfrage der Koalition beschreibt. Streitpunkt ist die abschlagsfreie Rente nach 45 Beitragsjahren: Unions-Abgeordnete wollen sie nur noch für Geringverdiener erhalten, die SPD lehnt das ab. Ein Ergebnis war bis zum frühen Morgen nicht bekannt.\n\nUm 9:55 Uhr veröffentlicht die Bundesagentur die Arbeitsmarktdaten für November; erwartet werden 4.000 Arbeitslose mehr bei einer unveränderten Quote von 6,4 % (Vormonat 3,016 Mio.).\n\nDer Arbeitsmarkt bleibt schwach: Im November stieg die Zahl der Arbeitslosen saisonbereinigt um 9.000 und damit stärker als die erwarteten 4.000; unbereinigt sank sie saisonüblich um 19.000 auf 2,936 Mio. (51.000 mehr als vor einem Jahr, Quote 6,2 %). BA-Vorstand Daniel Terzenbach: „Die leichte konjunkturelle Erholung führt auch im November nicht zu einer Belebung am Arbeitsmarkt.“",
         "wirkung": [
           {
             "markt": "Bund-Renditen 10 J.",
@@ -6646,9 +6648,9 @@
             "warum": "Ein schwacher Arbeitsmarkt ist erwartet; für den Euro zählt eher die HVPI-Schnellschätzung am 1.12."
           }
         ],
-        "quelle": "Deutscher Bundestag",
-        "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw48-de-haushaltsgesetz-2027-dritte-lesung-1232350",
-        "zeit": "26.11."
+        "quelle": "ZDFheute",
+        "url": "https://www.zdfheute.de/politik/deutschland/haushalt-2027-beschlossen-abstimmung-bundestag-100.html",
+        "zeit": "27.11., 14:50"
       },
       {
         "tag": "Zinsen",
@@ -6852,7 +6854,7 @@
     ]
   },
   "energie": {
-    "stand": "27.11. 05:30",
+    "stand": "27.11. 15:08",
     "oel": {
       "lage": "Brent notiert am Freitagmorgen bei gut 96 $ (WTI um 84–85 $) und steuert auf das erste Wochenplus seit vier Wochen zu, nachdem die Houthis nach Ras Tanura auch die Raffinerie Jazan trafen und Iran neue Minentreffer in Hormus meldet. Im November steht dennoch ein Minus von knapp 20 %, weil die IEA ein Überangebot erwartet; am Sonntag (29.11.) entscheidet OPEC+ über die Quoten 2027.",
       "foerderung": [
@@ -7150,6 +7152,17 @@
     ],
     "news": [
       {
+        "tag": "Hormus",
+        "titel": "Iran meldet erneut Minentreffer an Öltanker nördlich der VAE",
+        "warum": "Laut Revolutionsgarden lief ein Tanker auf eine Mine, ein zweiter kehrte um – unabhängig nicht bestätigt, hält aber die Risikoprämie im Ölpreis hoch.",
+        "quelle": "dpa-AFX",
+        "url": "https://www.finanzen.at/nachrichten/aktien/iran-meldet-explosion-an-oeltanker-1036805295",
+        "zeit": "27.11., 13:16",
+        "medien": [
+          "dpa"
+        ]
+      },
+      {
         "tag": "Öl",
         "titel": "Brent über 96 $: erstes Wochenplus seit vier Wochen",
         "warum": "Angriffe auf Jazan und Tanker in Hormus treiben den Preis, im November bleibt ein Minus von fast 20 %.",
@@ -7219,18 +7232,6 @@
           "The National",
           "Business Recorder",
           "OilPrice"
-        ]
-      },
-      {
-        "tag": "Öl",
-        "titel": "US-Öllager steigen um 1,1 Mio. Barrel, WTI-Kurve dreht ins Contango",
-        "warum": "WTI notiert um 83,65 $; die Terminkurve zeigt erstmals seit Monaten ein Überangebot an (Contango rund 1,20 $).",
-        "quelle": "FXStreet",
-        "url": "https://finscans.com/news/2026/11/26/wti-crude-oil-trades-near-8365-amid-middle-east-tensions",
-        "zeit": "26.11., 01:33",
-        "medien": [
-          "FXStreet",
-          "Trading Economics"
         ]
       }
     ]
