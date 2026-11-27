@@ -1,7 +1,21 @@
 {
-  "aktualisiert": "27.11.2026, 09:03 Uhr",
+  "aktualisiert": "27.11.2026, 10:03 Uhr",
   "maerkte": {
     "schlagzeilen": [
+      {
+        "tag": "Konjunktur",
+        "titel": "Arbeitslosenzahl fällt leicht auf 2,936 Millionen – saisonbereinigt aber +9.000",
+        "warum": "Der Anstieg liegt über dem Konsens von +4.000 und zeigt, dass die leichte Erholung den Arbeitsmarkt noch nicht erreicht.",
+        "quelle": "Handelsblatt",
+        "url": "https://www.handelsblatt.com/politik/deutschland/arbeitsagentur-deutsche-arbeitslosenzahl-faellt-leicht-auf-293-millionen/100273230.html",
+        "zeit": "27.11., 09:59",
+        "medien": [
+          "Handelsblatt",
+          "Reuters",
+          "ZDF",
+          "t-online"
+        ]
+      },
       {
         "tag": "Märkte",
         "titel": "DAX vorbörslich 0,7 % höher bei 25.397 Punkten – Wochenplus von 2,4 % in Reichweite",
@@ -82,18 +96,6 @@
         "medien": [
           "Handelsblatt",
           "Fortune"
-        ]
-      },
-      {
-        "tag": "Märkte",
-        "titel": "DAX schließt 2,08 % höher bei 25.215,52 Punkten, MDAX +2,3 %",
-        "warum": "Rallye ohne US-Impulse; heute folgt ein verkürzter Black-Friday-Handel in New York bis 19 Uhr.",
-        "quelle": "dpa-AFX",
-        "url": "https://aktiencheck.de/artikel/boersentermine-morgen-black-friday-rheinmetall-showdown-inflation-aus-frankreich",
-        "zeit": "26.11., 21:37",
-        "medien": [
-          "dpa-AFX",
-          "Handelsblatt"
         ]
       }
     ],
@@ -382,7 +384,7 @@
       ]
     },
     "kalender": {
-      "stand": "27.11., 09:03 Uhr",
+      "stand": "27.11., 10:03 Uhr",
       "termine": [
         {
           "zeit": "2026-11-26T08:00:00+01:00",
@@ -424,7 +426,9 @@
           "was": "Arbeitsmarktdaten Nov.",
           "prognose": "+4 Tsd. Arbeitslose (Quote 6,4 %)",
           "vorher": "3,016 Mio. (6,4 %)",
-          "ist": null
+          "ist": "+9 Tsd. Arbeitslose (saisonbereinigt)",
+          "abweichung": "hoeher",
+          "lesart": "Mehr Arbeitslose als erwartet (2,936 Mio. unbereinigt, Quote 6,2 %): Der Arbeitsmarkt profitiert nicht von der leichten Erholung, das stützt eher Bund-Anleihen und dämpft den Konsum-Ausblick."
         },
         {
           "zeit": "2026-11-27T11:00:00+01:00",
@@ -3932,6 +3936,18 @@
       "lage": "Nach dem Fast-Bärenmarkt am Mittwoch hat Europa am Donnerstag kräftig aufgeholt (DAX +2,1 %), Asien folgt am Freitag. Im Fokus stehen die neue EZB-Spitze, SAPs möglicher Stellenabbau und der moderate Metall-Tarif; in New York zählt der verkürzte Black-Friday-Handel.",
       "meldungen": [
         {
+          "tag": "Märkte",
+          "titel": "DAX schließt 2,08 % höher bei 25.215,52 Punkten, MDAX +2,3 %",
+          "warum": "Rallye ohne US-Impulse; heute folgt ein verkürzter Black-Friday-Handel in New York bis 19 Uhr.",
+          "quelle": "dpa-AFX",
+          "url": "https://aktiencheck.de/artikel/boersentermine-morgen-black-friday-rheinmetall-showdown-inflation-aus-frankreich",
+          "zeit": "26.11., 21:37",
+          "medien": [
+            "dpa-AFX",
+            "Handelsblatt"
+          ]
+        },
+        {
           "tag": "Banken",
           "titel": "Bank of England senkt Kapitalanforderungen für britische Inlandsbanken",
           "warum": "Mehr Spielraum für Kreditvergabe – Signal, dass die BoE Finanzstabilität trotz Zinserhöhungen lockerer reguliert.",
@@ -4011,19 +4027,6 @@
             "Yahoo Finance",
             "Reuters",
             "Korea Times"
-          ]
-        },
-        {
-          "tag": "Unternehmen",
-          "titel": "S&P setzt Nvidias AA-Rating auf CreditWatch negativ",
-          "warum": "Die Ratingagentur sieht nach dem Rücktritt und der Rückkehr von Jensen Huang Risiken bei Management und Unternehmensführung; die Aktie schloss −3,9 % bei 149,30 $.",
-          "quelle": "Reuters",
-          "url": "https://za.investing.com/news/stock-market-news/sp-global-places-nvidia-rating-on-creditwatch-negative-on-rising-management-and-governance-risks-4597377",
-          "zeit": "25.11.",
-          "medien": [
-            "Reuters",
-            "Benzinga",
-            "CNBC"
           ]
         }
       ]
@@ -6594,11 +6597,11 @@
     "humanitaer_quelle": "UN-Menschenrechtsmission Ukraine (via ISW 25.11.), OCHA, WFP, Al Jazeera (14.11.), CBS News (24.11.); Stand 26.11."
   },
   "briefing": {
-    "stand": "27.11., 09:03 Uhr",
+    "stand": "27.11., 10:03 Uhr",
     "saetze": [
       {
         "tag": "Deutschland",
-        "text": "Heute stimmt der Bundestag nach der dritten Lesung (Übertragung ab 12:40 Uhr) über den Haushalt 2027 ab: rund 561 Mrd. € Ausgaben, 123 Mrd. € Nettokredit im Kernhaushalt und mit den Sondervermögen rund 210 Mrd. € neue Schulden – um 9:55 Uhr kommen die Arbeitsmarktdaten (Konsens +4.000 Arbeitslose, Quote 6,4 %).",
+        "text": "Heute stimmt der Bundestag nach der dritten Lesung (Übertragung ab 12:40 Uhr) über den Haushalt 2027 ab: rund 561 Mrd. € Ausgaben, 123 Mrd. € Nettokredit im Kernhaushalt und mit den Sondervermögen rund 210 Mrd. € neue Schulden – die Arbeitslosigkeit stieg im November saisonbereinigt um 9.000 (Konsens +4.000), unbereinigt sind es 2,936 Mio. (Quote 6,2 %).",
         "quelle": "Deutscher Bundestag",
         "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw48-de-haushaltsgesetz-2027-dritte-lesung-1232350"
       },
@@ -6631,7 +6634,7 @@
       {
         "tag": "Deutschland",
         "titel": "Rekordhaushalt 2027 vor der Schlussabstimmung, Koalition ringt um die Rente",
-        "text": "Der Bundestag beendet heute die Haushaltswoche: Nach 90 Minuten dritter Lesung (Übertragung ab 12:40 Uhr) wird über das Haushaltsgesetz 2027, das Haushaltsbegleitgesetz und den Finanzplan bis 2030 abgestimmt. Der Haushaltsausschuss hatte die Ausgaben auf rund 560,9 Mrd. € erhöht (Bundestag nennt im Titel 555,94 Mrd. €), die Nettokreditaufnahme im Kernhaushalt liegt bei knapp 123 Mrd. €. Zusammen mit 57,8 Mrd. € aus dem Infrastruktur-Sondervermögen und 29,6 Mrd. € für die Bundeswehr sind es rund 210 Mrd. € neue Schulden. Die Schuldenbremse gilt trotzdem als eingehalten, weil Sondervermögen und Verteidigungsausgaben über 1 % des BIP ausgenommen sind; offen blieb zuletzt die Gegenfinanzierung der Stromsteuersenkung für alle Haushalte (rund 5,4 Mrd. €).\n\nParallel verhandelten CDU, CSU und SPD am Donnerstagabend im Kanzleramt über die Rentenreform, die das Handelsblatt als Existenzfrage der Koalition beschreibt. Streitpunkt ist die abschlagsfreie Rente nach 45 Beitragsjahren: Unions-Abgeordnete wollen sie nur noch für Geringverdiener erhalten, die SPD lehnt das ab. Ein Ergebnis war bis zum frühen Morgen nicht bekannt.\n\nUm 9:55 Uhr veröffentlicht die Bundesagentur die Arbeitsmarktdaten für November; erwartet werden 4.000 Arbeitslose mehr bei einer unveränderten Quote von 6,4 % (Vormonat 3,016 Mio.).",
+        "text": "Der Bundestag beendet heute die Haushaltswoche: Nach 90 Minuten dritter Lesung (Übertragung ab 12:40 Uhr) wird über das Haushaltsgesetz 2027, das Haushaltsbegleitgesetz und den Finanzplan bis 2030 abgestimmt. Der Haushaltsausschuss hatte die Ausgaben auf rund 560,9 Mrd. € erhöht (Bundestag nennt im Titel 555,94 Mrd. €), die Nettokreditaufnahme im Kernhaushalt liegt bei knapp 123 Mrd. €. Zusammen mit 57,8 Mrd. € aus dem Infrastruktur-Sondervermögen und 29,6 Mrd. € für die Bundeswehr sind es rund 210 Mrd. € neue Schulden. Die Schuldenbremse gilt trotzdem als eingehalten, weil Sondervermögen und Verteidigungsausgaben über 1 % des BIP ausgenommen sind; offen blieb zuletzt die Gegenfinanzierung der Stromsteuersenkung für alle Haushalte (rund 5,4 Mrd. €).\n\nParallel verhandelten CDU, CSU und SPD am Donnerstagabend im Kanzleramt über die Rentenreform, die das Handelsblatt als Existenzfrage der Koalition beschreibt. Streitpunkt ist die abschlagsfreie Rente nach 45 Beitragsjahren: Unions-Abgeordnete wollen sie nur noch für Geringverdiener erhalten, die SPD lehnt das ab. Ein Ergebnis war bis zum frühen Morgen nicht bekannt.\n\nUm 9:55 Uhr veröffentlicht die Bundesagentur die Arbeitsmarktdaten für November; erwartet werden 4.000 Arbeitslose mehr bei einer unveränderten Quote von 6,4 % (Vormonat 3,016 Mio.).\n\nDer Arbeitsmarkt bleibt schwach: Im November stieg die Zahl der Arbeitslosen saisonbereinigt um 9.000 und damit stärker als die erwarteten 4.000; unbereinigt sank sie saisonüblich um 19.000 auf 2,936 Mio. (51.000 mehr als vor einem Jahr, Quote 6,2 %). BA-Vorstand Daniel Terzenbach: „Die leichte konjunkturelle Erholung führt auch im November nicht zu einer Belebung am Arbeitsmarkt.“",
         "wirkung": [
           {
             "markt": "Bund-Renditen 10 J.",
