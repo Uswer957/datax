@@ -1,7 +1,19 @@
 {
-  "aktualisiert": "27.11.2026, 10:03 Uhr",
+  "aktualisiert": "27.11.2026, 12:05 Uhr",
   "maerkte": {
     "schlagzeilen": [
+      {
+        "tag": "Unternehmen",
+        "titel": "Rheinmetall senkt Umsatzziel 2030 auf 33 bis 37 Mrd. € – Aktie trotzdem rund 3 % im Plus",
+        "warum": "Die Kürzung vom bisherigen 50-Mrd.-Ziel war erwartet, die Bestätigung der Prognose 2026 beruhigt Anleger nach dem Kurssturz Anfang November.",
+        "quelle": "Handelsblatt",
+        "url": "https://www.handelsblatt.com/unternehmen/industrie/rheinmetall-umsatzziel-fuer-2030-sinkt-auf-33-bis-37-milliarden-euro/100273257.html",
+        "zeit": "27.11.",
+        "medien": [
+          "Handelsblatt",
+          "dpa"
+        ]
+      },
       {
         "tag": "Konjunktur",
         "titel": "Arbeitslosenzahl fällt leicht auf 2,936 Millionen – saisonbereinigt aber +9.000",
@@ -84,18 +96,6 @@
         "medien": [
           "Trading Economics",
           "Khaleej Times"
-        ]
-      },
-      {
-        "tag": "Chips",
-        "titel": "Neue US-Exportregeln für KI-Chips erschüttern Südostasiens Rechenzentrumsboom",
-        "warum": "Malaysia, Singapur, Thailand und Indonesien betroffen – Risiko für Nvidia-Absatz und Investitionsprojekte.",
-        "quelle": "Handelsblatt",
-        "url": "https://www.handelsblatt.com/unternehmen/industrie/nvidia-neue-us-exportbeschraenkungen-erschuettern-suedostasiens-ki-boom/100272882.html",
-        "zeit": "26.11., 14:25",
-        "medien": [
-          "Handelsblatt",
-          "Fortune"
         ]
       }
     ],
@@ -384,7 +384,7 @@
       ]
     },
     "kalender": {
-      "stand": "27.11., 10:03 Uhr",
+      "stand": "27.11., 12:05 Uhr",
       "termine": [
         {
           "zeit": "2026-11-26T08:00:00+01:00",
@@ -437,7 +437,9 @@
           "was": "Wirtschaftsstimmung Nov. (ESI)",
           "prognose": "97,2",
           "vorher": "96,9",
-          "ist": null
+          "ist": "95,8",
+          "abweichung": "tiefer",
+          "lesart": "Tiefster Stand seit Juni, vor allem Industrie und Bau schwächer – stützt die Erwartung, dass die EZB nicht weiter strafft."
         },
         {
           "zeit": "2026-11-27T14:30:00+01:00",
@@ -533,7 +535,7 @@
       ]
     },
     "unternehmenskalender": {
-      "stand": "27.11., 08:03 Uhr",
+      "stand": "27.11., 12:05 Uhr",
       "termine": [
         {
           "zeit": "2026-11-26T12:00:00+01:00",
@@ -564,8 +566,8 @@
           "was": "Rheinmetall: Kapitalmarkttag, Tag 2 (neue Ziele 2030)",
           "prognose": null,
           "vorher": null,
-          "ist": null,
-          "lesart": "Bisher 50 Mrd. € Umsatz und über 20 % Marge für 2030; Analysten erwarten eine deutliche Kappung des Umsatzziels (Konsens rund 35,6 Mrd. €)."
+          "ist": "erledigt",
+          "lesart": "Umsatzziel 2030 auf 33–37 Mrd. € (bisher ~50 Mrd. €), Marge ~20 %, Prognose 2026 bestätigt; Aktie rund +3 %, da im Rahmen der Erwartungen (RBC)."
         },
         {
           "zeit": "2026-11-27T19:00:00+01:00",
@@ -3044,13 +3046,6 @@
           "naechste": [
             {
               "datum": "Fr 27.11.",
-              "zeit": "02:20",
-              "heim": "Buffalo Bills",
-              "gast": "Kansas City Chiefs",
-              "info": "Week 12, Thanksgiving"
-            },
-            {
-              "datum": "Fr 27.11.",
               "zeit": "21:00",
               "heim": "Pittsburgh Steelers",
               "gast": "Denver Broncos",
@@ -3094,6 +3089,13 @@
             }
           ],
           "letzte": [
+            {
+              "datum": "Fr 27.11.",
+              "heim": "Buffalo Bills",
+              "gast": "Kansas City Chiefs",
+              "ergebnis": "13:10",
+              "info": "Week 12, Thanksgiving"
+            },
             {
               "datum": "Do 26.11.",
               "heim": "Dallas Cowboys",
@@ -3141,13 +3143,6 @@
               "heim": "Dallas Cowboys",
               "gast": "Tennessee Titans",
               "ergebnis": "51:30",
-              "info": "Week 11"
-            },
-            {
-              "datum": "So 22.11.",
-              "heim": "Carolina Panthers",
-              "gast": "Baltimore Ravens",
-              "ergebnis": "35:33",
               "info": "Week 11"
             }
           ]
@@ -3936,6 +3931,18 @@
       "lage": "Nach dem Fast-Bärenmarkt am Mittwoch hat Europa am Donnerstag kräftig aufgeholt (DAX +2,1 %), Asien folgt am Freitag. Im Fokus stehen die neue EZB-Spitze, SAPs möglicher Stellenabbau und der moderate Metall-Tarif; in New York zählt der verkürzte Black-Friday-Handel.",
       "meldungen": [
         {
+          "tag": "Chips",
+          "titel": "Neue US-Exportregeln für KI-Chips erschüttern Südostasiens Rechenzentrumsboom",
+          "warum": "Malaysia, Singapur, Thailand und Indonesien betroffen – Risiko für Nvidia-Absatz und Investitionsprojekte.",
+          "quelle": "Handelsblatt",
+          "url": "https://www.handelsblatt.com/unternehmen/industrie/nvidia-neue-us-exportbeschraenkungen-erschuettern-suedostasiens-ki-boom/100272882.html",
+          "zeit": "26.11., 14:25",
+          "medien": [
+            "Handelsblatt",
+            "Fortune"
+          ]
+        },
+        {
           "tag": "Märkte",
           "titel": "DAX schließt 2,08 % höher bei 25.215,52 Punkten, MDAX +2,3 %",
           "warum": "Rallye ohne US-Impulse; heute folgt ein verkürzter Black-Friday-Handel in New York bis 19 Uhr.",
@@ -4014,19 +4021,6 @@
           "medien": [
             "dpa-AFX",
             "finanzen.at"
-          ]
-        },
-        {
-          "tag": "Märkte",
-          "titel": "Wall Street dreht nach Ausverkauf: Dow +0,33 %, Nasdaq nur −0,62 % nach zeitweise −4,6 %",
-          "warum": "Schnäppchenjäger fangen den Chip-Crash ab; der Nasdaq-100 berührte im Tief genau −20 % vom Oktoberhoch (Bärenmarkt-Schwelle). Heute bleibt die Wall Street wegen Thanksgiving geschlossen.",
-          "quelle": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html",
-          "zeit": "25.11., 22:32",
-          "medien": [
-            "Yahoo Finance",
-            "Reuters",
-            "Korea Times"
           ]
         }
       ]
@@ -6430,14 +6424,14 @@
     "ruestung": [
       {
         "tag": "Deutschland",
-        "titel": "Rheinmetall stellt auf Kapitalmarkttag neue Ziele vor",
-        "warum": "Nach der Prognosesenkung Anfang November (Aktie −17 %) soll das Treffen am 26./27.11. Vertrauen zurückholen.",
-        "quelle": "dpa",
-        "url": "https://www.finanzen.net/nachricht/aktien/tagesvorschau-termine-am-26-november-2026-16086829",
-        "zeit": "25.11., 17:38",
+        "titel": "Rheinmetall kappt Umsatzziel 2030 auf 33 bis 37 Mrd. €",
+        "warum": "Der größte deutsche Rüstungskonzern rechnet mit langsamerem Wachstum als im Rüstungsboom versprochen; die Marge soll bei etwa 20 % liegen.",
+        "quelle": "Handelsblatt",
+        "url": "https://www.handelsblatt.com/unternehmen/industrie/rheinmetall-umsatzziel-fuer-2030-sinkt-auf-33-bis-37-milliarden-euro/100273257.html",
+        "zeit": "27.11.",
         "medien": [
-          "dpa",
-          "Handelsblatt"
+          "Handelsblatt",
+          "dpa"
         ]
       },
       {
@@ -6597,7 +6591,7 @@
     "humanitaer_quelle": "UN-Menschenrechtsmission Ukraine (via ISW 25.11.), OCHA, WFP, Al Jazeera (14.11.), CBS News (24.11.); Stand 26.11."
   },
   "briefing": {
-    "stand": "27.11., 10:03 Uhr",
+    "stand": "27.11., 12:05 Uhr",
     "saetze": [
       {
         "tag": "Deutschland",
@@ -6619,15 +6613,15 @@
       },
       {
         "tag": "Unternehmen",
-        "text": "SAP erwägt laut Handelsblatt den Abbau von mehr als 10.000 Stellen wegen der KI-Umstellung, und die Metall- und Elektroindustrie hat sich nach 27 Stunden geeinigt: 2,0 % mehr ab Mai 2027, 2,3 % ab April 2028, Laufzeit 25 Monate für 3,7 Mio. Beschäftigte.",
+        "text": "Rheinmetall kappt sein Umsatzziel 2030 von rund 50 auf 33 bis 37 Mrd. € (Marge um 20 %) und bestätigt die Prognose 2026 – die Aktie steigt trotzdem rund 3 %, weil der Markt mit der Kürzung gerechnet hatte; SAP erwägt laut Handelsblatt den Abbau von mehr als 10.000 Stellen.",
         "quelle": "Handelsblatt",
-        "url": "https://www.handelsblatt.com/technik/ki/sap-dax-konzern-plant-massiven-stellenabbau/100273115.html"
+        "url": "https://www.handelsblatt.com/unternehmen/industrie/rheinmetall-umsatzziel-fuer-2030-sinkt-auf-33-bis-37-milliarden-euro/100273257.html"
       },
       {
         "tag": "Märkte",
-        "text": "Der DAX eröffnet nach dem Plus von 2,1 % am Vortag rund 0,5 % höher bei etwa 25.350 Punkten (SAP +0,6 %), Frankreichs Inflation fiel im November überraschend auf 2,9 % (Konsens 3,2 %) – die Wall Street öffnet nach Thanksgiving und handelt nur bis 19 Uhr.",
+        "text": "Der DAX liegt am Mittag rund 0,8 % im Plus bei etwa 25.430 Punkten und steuert auf ein Wochenplus zu; die EU-Wirtschaftsstimmung fiel im November dagegen auf 95,8 (Konsens 97,2), den tiefsten Stand seit Juni – die Wall Street handelt nach Thanksgiving nur bis 19 Uhr.",
         "quelle": "dpa-AFX",
-        "url": "https://www.onvista.de/news/2026/11-27-dax-flash-dax-weiter-erholt-zum-ausklang-einer-turbulenten-woche-0-10-26581148"
+        "url": "https://www.finanzen.at/nachrichten/aktien/aktie-im-fokus-2-rheinmetall-ziele-erfuellen-die-erwartungen-kurs-im-plus-1036805153"
       }
     ],
     "details": [
@@ -6713,8 +6707,8 @@
       },
       {
         "tag": "Unternehmen",
-        "titel": "SAP erwägt großen Stellenabbau, Metall-Tarif mit moderaten Stufen",
-        "text": "Nach Informationen des Handelsblatts aus Unternehmenskreisen erwägt der SAP-Vorstand um Christian Klein den Abbau von mehr als 10.000 Stellen, verbunden mit der stärkeren Ausrichtung auf Künstliche Intelligenz. Offen ist, ob die Gesamtzahl der Beschäftigten danach wirklich sinkt, weil gleichzeitig in KI-Bereichen eingestellt werden könnte. Eine Bestätigung von SAP lag zunächst nicht vor.\n\nIn der Metall- und Elektroindustrie einigten sich IG Metall, Südwestmetall und Metall NRW nach rund 27 Stunden in Mannheim auf einen Pilotabschluss für 3,7 Mio. Beschäftigte: Einmalzahlungen von 150 bis 450 € je nach Umsatzrendite ab März 2027, dann 2,0 % mehr ab 1. Mai 2027 und 2,3 % ab 1. April 2028 bei 25 Monaten Laufzeit bis Ende November 2028. Dazu kommen ein „Tarifvertrag Investition und Beschäftigung“ und Abweichungsmöglichkeiten für Betriebe in der Krise. Die IG Metall hatte 5 % für zwölf Monate gefordert.\n\nDie Commerzbank bleibt nach dem Vorstoß von UniCredit (Orcel als Aufsichtsratschef, Abbau von rund 7.000 Stellen) im Fokus, Rheinmetall legt heute ab 10 Uhr am zweiten Tag des Kapitalmarkttags die neuen Ziele für 2030 vor.",
+        "titel": "Rheinmetall kappt 2030-Ziel, SAP erwägt Stellenabbau, Metall-Tarif moderat",
+        "text": "Nach Informationen des Handelsblatts aus Unternehmenskreisen erwägt der SAP-Vorstand um Christian Klein den Abbau von mehr als 10.000 Stellen, verbunden mit der stärkeren Ausrichtung auf Künstliche Intelligenz. Offen ist, ob die Gesamtzahl der Beschäftigten danach wirklich sinkt, weil gleichzeitig in KI-Bereichen eingestellt werden könnte. Eine Bestätigung von SAP lag zunächst nicht vor.\n\nIn der Metall- und Elektroindustrie einigten sich IG Metall, Südwestmetall und Metall NRW nach rund 27 Stunden in Mannheim auf einen Pilotabschluss für 3,7 Mio. Beschäftigte: Einmalzahlungen von 150 bis 450 € je nach Umsatzrendite ab März 2027, dann 2,0 % mehr ab 1. Mai 2027 und 2,3 % ab 1. April 2028 bei 25 Monaten Laufzeit bis Ende November 2028. Dazu kommen ein „Tarifvertrag Investition und Beschäftigung“ und Abweichungsmöglichkeiten für Betriebe in der Krise. Die IG Metall hatte 5 % für zwölf Monate gefordert.\n\nDie Commerzbank bleibt nach dem Vorstoß von UniCredit (Orcel als Aufsichtsratschef, Abbau von rund 7.000 Stellen) im Fokus, Rheinmetall hat am zweiten Tag des Kapitalmarkttags das Umsatzziel 2030 von rund 50 Mrd. € auf 33 bis 37 Mrd. € gesenkt, die operative Marge soll bei etwa 20 % liegen (bisher „über 20 %“); die Prognose 2026 wurde bestätigt. Weil Analysten mit rund 35,6 Mrd. € gerechnet hatten, legte die Aktie nach Schwankungen rund 3 % zu und stieß bei 800 € auf Widerstand; RBC sieht die Erwartungen erfüllt, JPMorgan zweifelt an der Margenvorgabe.",
         "wirkung": [
           {
             "markt": "SAP",
@@ -6730,16 +6724,21 @@
             "markt": "EZB-Lohnsorgen",
             "richtung": "faellt",
             "warum": "Moderate Stufen im größten deutschen Industrietarif sprechen gegen eine Lohn-Preis-Spirale."
+          },
+          {
+            "markt": "Rheinmetall / Rüstungswerte",
+            "richtung": "seitwaerts",
+            "warum": "Die Kürzung war eingepreist und nimmt Unsicherheit heraus; Friedensgespräche zur Ukraine und die Margenzweifel bremsen weitere Gewinne."
           }
         ],
         "quelle": "Handelsblatt",
         "url": "https://www.handelsblatt.com/technik/ki/sap-dax-konzern-plant-massiven-stellenabbau/100273115.html",
-        "zeit": "26.11., 19:02"
+        "zeit": "27.11., 11:46"
       },
       {
         "tag": "Märkte",
         "titel": "Asien folgt Europas Rallye, Wall Street nur mit halbem Tag",
-        "text": "Der DAX schloss am Donnerstag ohne US-Impulse 2,08 % höher bei 25.215,52 Punkten, der MDAX legte 2,3 % zu, der Euro Stoxx 50 rund 2 %. Am Freitag zieht Asien nach: Der Nikkei stieg bis zur Mittagspause um 1,2 % auf 58.172 Punkte, der Kospi um 2,8 %, der australische ASX 200 um 0,6 %. Tokyo Electron und SoftBank verloren dagegen rund 3 %.\n\nDie Wall Street öffnet nach Thanksgiving wieder, handelt aber nur bis 13 Uhr New Yorker Zeit (19 Uhr MEZ). Der Black Friday ist der Start des Weihnachtsgeschäfts; der Handel ist traditionell dünn. Belastend bleiben die neuen US-Exportbeschränkungen für KI-Chips nach Malaysia, Singapur, Thailand und Indonesien, die laut Handelsblatt zahlreiche Rechenzentrumsprojekte in Südostasien gefährden – ein weiteres Thema für Nvidia nach der CreditWatch-Warnung von S&P.\n\nAm Vormittag stehen die Inflation in Frankreich (8:45 Uhr, Konsens 3,2 %) und Spanien (9 Uhr) sowie die EU-Wirtschaftsstimmung (11 Uhr) an. S&P 500 und Nasdaq steuern trotz des Rebounds auf den schwächsten November seit 2008 zu.\n\nVorbörslich taxierte der Broker IG den DAX um 6:16 Uhr 0,7 % höher bei 25.397 Punkten; die Commerzbank spricht von einer „Erholung der globalen Risikobereitschaft“ bei gedämpften Umsätzen. Im Blick stehen SAP nach dem Bericht über Stellenstreichungen und Rheinmetall, wo am zweiten Tag des Kapitalmarkttags eine Kürzung des mittelfristigen Ausblicks erwartet wird.",
+        "text": "Der DAX schloss am Donnerstag ohne US-Impulse 2,08 % höher bei 25.215,52 Punkten, der MDAX legte 2,3 % zu, der Euro Stoxx 50 rund 2 %. Am Freitag zieht Asien nach: Der Nikkei stieg bis zur Mittagspause um 1,2 % auf 58.172 Punkte, der Kospi um 2,8 %, der australische ASX 200 um 0,6 %. Tokyo Electron und SoftBank verloren dagegen rund 3 %.\n\nDie Wall Street öffnet nach Thanksgiving wieder, handelt aber nur bis 13 Uhr New Yorker Zeit (19 Uhr MEZ). Der Black Friday ist der Start des Weihnachtsgeschäfts; der Handel ist traditionell dünn. Belastend bleiben die neuen US-Exportbeschränkungen für KI-Chips nach Malaysia, Singapur, Thailand und Indonesien, die laut Handelsblatt zahlreiche Rechenzentrumsprojekte in Südostasien gefährden – ein weiteres Thema für Nvidia nach der CreditWatch-Warnung von S&P.\n\nAm Vormittag stehen die Inflation in Frankreich (8:45 Uhr, Konsens 3,2 %) und Spanien (9 Uhr) sowie die EU-Wirtschaftsstimmung (11 Uhr) an. S&P 500 und Nasdaq steuern trotz des Rebounds auf den schwächsten November seit 2008 zu.\n\nVorbörslich taxierte der Broker IG den DAX um 6:16 Uhr 0,7 % höher bei 25.397 Punkten; die Commerzbank spricht von einer „Erholung der globalen Risikobereitschaft“ bei gedämpften Umsätzen. Im Blick stehen SAP nach dem Bericht über Stellenstreichungen und Rheinmetall, wo am zweiten Tag des Kapitalmarkttags eine Kürzung des mittelfristigen Ausblicks erwartet wird.\n\nUpdate Mittag: Der DAX notierte gegen 11:40 Uhr 0,8 % höher bei rund 25.427 Punkten. Die EU-Wirtschaftsstimmung (ESI) fiel im November auf 95,8 von 96,5 und lag damit klar unter dem Konsens von 97,2 – dritter Rückgang in Folge, vor allem wegen Industrie (−5,1) und Bau; das Verbrauchervertrauen verbesserte sich leicht auf −16,9. Frankreichs Inflation fiel auf 2,9 % und damit deutlich unter die Erwartung.",
         "wirkung": [
           {
             "markt": "DAX",
@@ -6753,8 +6752,8 @@
           },
           {
             "markt": "Euro-Renditen",
-            "richtung": "unsicher",
-            "warum": "Französische Inflation über 3,2 %: Renditen steigen. Darunter: leichte Entlastung vor der HVPI-Schätzung am 1.12."
+            "richtung": "faellt",
+            "warum": "Französische Inflation unter Konsens und schwächere EU-Stimmung dämpfen Zinsängste vor der HVPI-Schätzung am 1.12."
           }
         ],
         "quelle": "RTTNews",
