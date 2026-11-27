@@ -1,5 +1,5 @@
 {
-  "aktualisiert": "27.11.2026, 17:12 Uhr",
+  "aktualisiert": "27.11.2026, 18:05 Uhr",
   "maerkte": {
     "schlagzeilen": [
       {
@@ -42,11 +42,11 @@
       },
       {
         "tag": "Märkte",
-        "titel": "DAX vorbörslich 0,7 % höher bei 25.397 Punkten – Wochenplus von 2,4 % in Reichweite",
-        "warum": "Die Erholung der Risikobereitschaft trägt in den letzten Handelstag der Woche, im Fokus stehen SAP und Rheinmetall mit erwarteter Ausblickssenkung.",
+        "titel": "DAX schließt 0,9 % höher bei 25.441 Punkten – Wochenplus 2,6 %, MDax +1,5 %",
+        "warum": "Die KI-Erholung an der Wall Street zieht Halbleiter- und Rüstungswerte mit; der DAX liegt wieder über der 200-Tage-Linie, aber noch gut 1.500 Punkte unter dem Rekord von Anfang November.",
         "quelle": "dpa-AFX",
-        "url": "https://www.onvista.de/news/2026/11-27-dax-flash-dax-weiter-erholt-zum-ausklang-einer-turbulenten-woche-0-10-26581148",
-        "zeit": "27.11., 06:16",
+        "url": "https://www.finanzen.net/nachricht/aktien/aktien-frankfurt-schluss-ki-erholung-zieht-auch-dax-weiter-nach-oben-16090883",
+        "zeit": "27.11., 17:50",
         "medien": [
           "dpa",
           "onvista"
@@ -6593,7 +6593,7 @@
     "humanitaer_quelle": "UN-Menschenrechtsmission Ukraine (via ISW 25.11.), OCHA, WFP, Al Jazeera (14.11.), CBS News (24.11.); Stand 26.11."
   },
   "briefing": {
-    "stand": "27.11., 17:12 Uhr",
+    "stand": "27.11., 18:05 Uhr",
     "saetze": [
       {
         "tag": "Deutschland",
@@ -6621,9 +6621,9 @@
       },
       {
         "tag": "Märkte",
-        "text": "Der DAX liegt am Mittag rund 0,8 % im Plus bei etwa 25.430 Punkten und steuert auf ein Wochenplus zu; die EU-Wirtschaftsstimmung fiel im November dagegen auf 95,8 (Konsens 97,2), den tiefsten Stand seit Juni – die Wall Street handelt nach Thanksgiving nur bis 19 Uhr, das US-Warenhandelsdefizit sprang im Oktober auf 149,5 Mrd. $ (erwartet −131 Mrd. $).",
+        "text": "Der DAX schloss 0,9 % höher bei 25.441 Punkten und beendet die Woche mit 2,6 % Plus (MDax +1,5 %), getragen von KI- und Rüstungswerten; die EU-Wirtschaftsstimmung fiel im November dagegen auf 95,8 (Konsens 97,2) – die Wall Street handelt nach Thanksgiving nur bis 19 Uhr, das US-Warenhandelsdefizit sprang im Oktober auf 149,5 Mrd. $.",
         "quelle": "dpa-AFX",
-        "url": "https://www.finanzen.at/nachrichten/aktien/aktie-im-fokus-2-rheinmetall-ziele-erfuellen-die-erwartungen-kurs-im-plus-1036805153"
+        "url": "https://www.finanzen.net/nachricht/aktien/aktien-frankfurt-schluss-ki-erholung-zieht-auch-dax-weiter-nach-oben-16090883"
       }
     ],
     "details": [
