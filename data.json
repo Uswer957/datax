@@ -1,5 +1,5 @@
 {
-  "aktualisiert": "28.11.2026, 05:40 Uhr",
+  "aktualisiert": "28.11.2026, 06:03 Uhr",
   "maerkte": {
     "schlagzeilen": [
       {
@@ -3322,7 +3322,56 @@
         ],
         "stand": "25.11.2026 (Spiele bis 24.11.; Mavericks – Nuggets noch nicht eingerechnet)",
         "spiele": {
-          "naechste": [],
+          "naechste": [
+            {
+              "datum": "Sa 28.11.",
+              "zeit": "23:00",
+              "heim": "Wizards",
+              "gast": "Magic"
+            },
+            {
+              "datum": "So 29.11.",
+              "zeit": "00:00",
+              "heim": "Hornets",
+              "gast": "Nets"
+            },
+            {
+              "datum": "So 29.11.",
+              "zeit": "02:00",
+              "heim": "Bulls",
+              "gast": "Pacers"
+            },
+            {
+              "datum": "So 29.11.",
+              "zeit": "02:00",
+              "heim": "Bucks",
+              "gast": "Thunder"
+            },
+            {
+              "datum": "So 29.11.",
+              "zeit": "02:30",
+              "heim": "Rockets",
+              "gast": "76ers"
+            },
+            {
+              "datum": "So 29.11.",
+              "zeit": "22:00",
+              "heim": "Grizzlies",
+              "gast": "Lakers"
+            },
+            {
+              "datum": "So 29.11.",
+              "zeit": "22:00",
+              "heim": "Spurs",
+              "gast": "Celtics"
+            },
+            {
+              "datum": "So 29.11.",
+              "zeit": "23:00",
+              "heim": "Jazz",
+              "gast": "Suns"
+            }
+          ],
           "letzte": [
             {
               "datum": "Fr 27.11.",
