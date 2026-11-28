@@ -1,5 +1,5 @@
 {
-  "aktualisiert": "28.11.2026, 10:03 Uhr",
+  "aktualisiert": "28.11.2026, 12:03 Uhr",
   "maerkte": {
     "schlagzeilen": [
       {
@@ -6010,7 +6010,7 @@
     }
   },
   "konflikte": {
-    "stand": "Stand 28.11., 05:40 Uhr",
+    "stand": "Stand 28.11., 12:03 Uhr",
     "karte": [
       {
         "code": "UKR",
@@ -6150,6 +6150,18 @@
         "meldungen": [
           {
             "tag": "Luftkrieg",
+            "titel": "Ukraine greift Region Moskau laut Sobjanin mit 460 Drohnen an – Flughäfen Wnukowo und Domodedowo eingeschränkt",
+            "warum": "Russland meldet 1.246 abgefangene Drohnen über 14 Regionen und der Krim; zugleich feuerte Russland 162 Drohnen auf die Ukraine, 141 wurden abgewehrt, binnen eines Tages starben laut Behörden 10 Menschen.",
+            "quelle": "Kyiv Independent",
+            "url": "https://kyivindependent.com/ukraine-reportedly-launches-massive-attack-on-moscow-oblast-with-460-drones/",
+            "zeit": "28.11., 11:05",
+            "medien": [
+              "Kyiv Independent",
+              "Ukrinform"
+            ]
+          },
+          {
+            "tag": "Luftkrieg",
             "titel": "Ukraine trifft Kautschukwerk in Jefremow, das laut Generalstab Iskander-Treibstoff herstellt",
             "warum": "Dazu Angriffe auf die Raffinerie Slawjansk-Eko und eine Transneft-Station in Baschkortostan; Russland verschärft die Zensur über Schäden.",
             "quelle": "ISW",
@@ -6193,18 +6205,6 @@
             "zeit": "26.11., 10:25",
             "medien": [
               "Kyiv Independent"
-            ]
-          },
-          {
-            "tag": "Verbündete",
-            "titel": "Nordkorea pausiert laut HUR Militärhilfe für Russland",
-            "warum": "Kein KN-23 und keine Granaten mehr, Truppenaufstockung auf Eis – nicht unabhängig bestätigt.",
-            "quelle": "Kyiv Independent",
-            "url": "https://kyivindependent.com/north-korea-pauses-military-aid-to-russia-ukrainian-intelligence-says/",
-            "zeit": "26.11., 10:56",
-            "medien": [
-              "Kyiv Independent",
-              "Handelsblatt"
             ]
           }
         ]
