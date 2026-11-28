@@ -1,17 +1,75 @@
 {
-  "aktualisiert": "27.11.2026, 18:05 Uhr",
+  "aktualisiert": "28.11.2026, 05:40 Uhr",
   "maerkte": {
     "schlagzeilen": [
       {
-        "tag": "Konjunktur",
-        "titel": "US-Warenhandelsdefizit springt im Oktober auf 149,5 Mrd. $ – Importe +6,1 %",
-        "warum": "KI-Kapitalgüter treiben die Importe; das drückt das US-Wachstum im 4. Quartal und trifft Trumps Zollversprechen.",
-        "quelle": "ANI",
-        "url": "https://www.tribuneindia.com/news/economic-growth/us-goods-trade-deficit-widens-10-7-to-usd-149-5-billion-in-october-as-imports-surge",
-        "zeit": "27.11., 14:52",
+        "tag": "Märkte",
+        "titel": "Wall Street mit bester Woche seit 2022: Dow +1,2 %, S&P 500 +1,6 %, Nasdaq +2,3 % am Black Friday",
+        "warum": "Im verkürzten Handel kauften Anleger die im November abgestraften Tech- und Chipwerte zurück; auf Wochensicht S&P 500 +5,6 %, Nasdaq +6,7 % – trotz fest eingepreister Fed-Erhöhung im Dezember.",
+        "quelle": "JBizNews",
+        "url": "https://jbiznews.com/u-s-stocks-close-sharply-higher-in-shortened-black-friday-session-and-post-big-weekly-gains-dow-jones-industrial-average-up-1-18-sp-500-up-1-60-nasdaq-composite-up-2-31/",
+        "zeit": "27.11., 19:29",
         "medien": [
-          "ANI",
-          "Anadolu"
+          "Reuters",
+          "JBizNews"
+        ]
+      },
+      {
+        "tag": "Unternehmen",
+        "titel": "Chipwerte haussieren: Halbleiterindex SOX +4,7 %, SanDisk +16 %, Micron +7,6 % – Anthropic-Aktie +11 %",
+        "warum": "Speicherhersteller profitieren von knappen Kapazitäten; Anthropic legte nach Angaben zu deutlich effizienterer Claude-Infrastruktur zu.",
+        "quelle": "TradingKey",
+        "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262325775-nasdaq-leads-black-friday-rally-dow-posts-best-week-since-2022-tradingkey",
+        "zeit": "27.11.",
+        "medien": [
+          "TradingKey"
+        ]
+      },
+      {
+        "tag": "Energie",
+        "titel": "Brent fällt am Freitag 1,2 % auf 95,44 $, schafft aber das erste Wochenplus im November",
+        "warum": "Angriffe auf Tanker und saudische Anlagen stützen, das erwartete Überangebot 2027 bremst; am Sonntag entscheidet OPEC+ über die Quoten.",
+        "quelle": "Reuters",
+        "url": "https://www.asiaone.com/money/oil-notches-first-weekly-gain-november-supply-fears",
+        "zeit": "28.11., 04:48",
+        "medien": [
+          "Reuters",
+          "The National"
+        ]
+      },
+      {
+        "tag": "Zinsen",
+        "titel": "US-Rendite 10 J. steigt auf 4,94 %, Zinskurve so flach wie seit Februar nicht",
+        "warum": "Zweijährige bei 4,72 % (+7 bp in der Woche): Der Markt preist zwei Fed-Erhöhungen bis März voll ein; Dollar-Index 104,0.",
+        "quelle": "Stocktwits",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/weekly-spread-shaped-us-treasury-235226152.html",
+        "zeit": "28.11., 00:52",
+        "medien": [
+          "Stocktwits",
+          "Reuters"
+        ]
+      },
+      {
+        "tag": "Rohstoffe",
+        "titel": "Gold steigt um fast 2 % auf rund 3.636 $ und steuert auf erstes Wochenplus seit drei Wochen zu",
+        "warum": "Sichere Häfen sind trotz Dollar nahe 22-Monats-Hoch gefragt; Zinserhöhungsrisiken der Fed deckeln den Anstieg.",
+        "quelle": "Reuters",
+        "url": "https://www.kitco.com/news/off-the-wire/2026-11-27/gold-pares-gains-fed-hike-risks-linger-eyes-first-weekly-rise-three",
+        "zeit": "27.11., 16:03",
+        "medien": [
+          "Reuters",
+          "Kitco"
+        ]
+      },
+      {
+        "tag": "Technologie",
+        "titel": "Nvidia stoppt laut Bericht Serverlieferungen nach Malaysia, Singapur, Thailand und Indonesien",
+        "warum": "Grund sind neue US-Exportregeln gegen die Umleitung von KI-Chips nach China; Goldman erwartet zudem weitere Verkäufe systematischer Fonds von rund 100 Mrd. $.",
+        "quelle": "TradingKey",
+        "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262325775-nasdaq-leads-black-friday-rally-dow-posts-best-week-since-2022-tradingkey",
+        "zeit": "27.11.",
+        "medien": [
+          "TradingKey"
         ]
       },
       {
@@ -27,20 +85,6 @@
         ]
       },
       {
-        "tag": "Konjunktur",
-        "titel": "Arbeitslosenzahl fällt leicht auf 2,936 Millionen – saisonbereinigt aber +9.000",
-        "warum": "Der Anstieg liegt über dem Konsens von +4.000 und zeigt, dass die leichte Erholung den Arbeitsmarkt noch nicht erreicht.",
-        "quelle": "Handelsblatt",
-        "url": "https://www.handelsblatt.com/politik/deutschland/arbeitsagentur-deutsche-arbeitslosenzahl-faellt-leicht-auf-293-millionen/100273230.html",
-        "zeit": "27.11., 09:59",
-        "medien": [
-          "Handelsblatt",
-          "Reuters",
-          "ZDF",
-          "t-online"
-        ]
-      },
-      {
         "tag": "Märkte",
         "titel": "DAX schließt 0,9 % höher bei 25.441 Punkten – Wochenplus 2,6 %, MDax +1,5 %",
         "warum": "Die KI-Erholung an der Wall Street zieht Halbleiter- und Rüstungswerte mit; der DAX liegt wieder über der 200-Tage-Linie, aber noch gut 1.500 Punkte unter dem Rekord von Anfang November.",
@@ -50,52 +94,6 @@
         "medien": [
           "dpa",
           "onvista"
-        ]
-      },
-      {
-        "tag": "Geldpolitik",
-        "titel": "EU-Gipfel: Pablo Hernández de Cos wird Nachfolger von EZB-Chefin Lagarde, Brunnermeier Chefvolkswirt",
-        "warum": "Kontinuität an der EZB-Spitze ab Februar; der BIZ-Chef gilt als pragmatisch und stabilitätsorientiert.",
-        "quelle": "Handelsblatt",
-        "url": "https://www.handelsblatt.com/finanzen/geldpolitik/ezb-pablo-hernandez-de-cos-wird-neuer-chef-der-euro-notenbank/100272970.html",
-        "zeit": "26.11., 14:48",
-        "medien": [
-          "Handelsblatt",
-          "Euronews"
-        ]
-      },
-      {
-        "tag": "Unternehmen",
-        "titel": "SAP erwägt Abbau von mehr als 10.000 Stellen wegen KI-Umbau",
-        "warum": "Größter Software-Konzern Europas würde damit weiter auf Effizienz setzen; eine Bestätigung steht aus.",
-        "quelle": "Handelsblatt",
-        "url": "https://www.handelsblatt.com/technik/ki/sap-dax-konzern-plant-massiven-stellenabbau/100273115.html",
-        "zeit": "26.11., 19:02",
-        "medien": [
-          "Handelsblatt"
-        ]
-      },
-      {
-        "tag": "Tarife",
-        "titel": "Metall-Tarifabschluss: 2,0 % ab Mai 2027, 2,3 % ab April 2028, 25 Monate Laufzeit",
-        "warum": "Moderater Pilotabschluss für 3,7 Mio. Beschäftigte senkt Lohnkostenrisiken für Industrie und EZB-Sorgen.",
-        "quelle": "Handelsblatt",
-        "url": "https://www.handelsblatt.com/politik/deutschland/tarifabschluss-mehr-geld-fuer-metaller-mehr-flexibilitaet-fuer-unternehmen/100272604.html",
-        "zeit": "26.11., 16:26",
-        "medien": [
-          "Handelsblatt"
-        ]
-      },
-      {
-        "tag": "Asien",
-        "titel": "Nikkei +1,2 % auf 58.172 Punkte, Kospi +2,8 % – Tokioter Kerninflation 2,9 % unter Konsens",
-        "warum": "Asien holt die europäische Rallye nach; schwächere Inflation dämpft BoJ-Wetten leicht.",
-        "quelle": "RTTNews",
-        "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70241350-asian-markets-trade-mostly-higher-020.htm",
-        "zeit": "27.11., 04:42",
-        "medien": [
-          "RTTNews",
-          "AP"
         ]
       }
     ],
@@ -139,10 +137,6 @@
     "verschuldung_quelle": "Quote: IWF Fiscal Monitor April 2026 (Stand 2025), via Analysis Atlas. Absolut: Destatis (DE, Q1 2026), US-Treasury (Sept. 2026), Japan Zentralregierung (Juni 2026), INSEE (März 2026).",
     "termine": [
       {
-        "datum": "27.11.",
-        "was": "Rheinmetall: Kapitalmarkttag, Tag 2 mit neuen Zielen 2030"
-      },
-      {
         "datum": "30.11.",
         "was": "MTU Aero Engines: Kapitalmarkttag"
       },
@@ -151,12 +145,16 @@
         "was": "KWS Saat: Hauptversammlung (Ex-Dividende 1,30 € am 02.12.)"
       },
       {
+        "datum": "01.12.",
+        "was": "CrowdStrike: Zahlen zum 3. Geschäftsquartal (nachbörslich)"
+      },
+      {
         "datum": "02.12.",
         "was": "Inditex: Neunmonatszahlen; Aurubis: Jahreszahlen"
       },
       {
         "datum": "02.12.",
-        "was": "Salesforce: Zahlen zum 3. Geschäftsquartal"
+        "was": "Salesforce und Snowflake: Zahlen zum 3. Geschäftsquartal"
       },
       {
         "datum": "03.12.",
@@ -178,7 +176,7 @@
       },
       {
         "land": "USA",
-        "rendite": "4,85 %"
+        "rendite": "4,94 %"
       },
       {
         "land": "UK",
@@ -201,9 +199,9 @@
         "rendite": "1,60 %"
       }
     ],
-    "renditen_stand": "Stand 26.11., 05:10 Uhr: USA Schluss 25.11. (GSM Global News), übrige Schlusskurse 24./25.11. (Trading Economics)",
+    "renditen_stand": "Stand 28.11., 05:40 Uhr: USA Schluss 27.11. (Stocktwits/Yahoo Finance), übrige Schlusskurse 24./25.11. (Trading Economics)",
     "watchlist": {
-      "stand": "Stand 27.11., 05:30 Uhr (US-Börsen heute verkürzt bis 19 Uhr)",
+      "stand": "Stand 28.11., 05:40 Uhr (Wochenende; nächster Handelstag Mo 30.11.)",
       "maerkte": [
         {
           "markt": "USA",
@@ -212,32 +210,32 @@
             {
               "name": "Nvidia",
               "symbol": "NASDAQ:NVDA",
-              "grund": "Neue US-Exportregeln für KI-Chips nach Malaysia, Singapur, Thailand und Indonesien gefährden Rechenzentrumsprojekte; dazu die CreditWatch-Warnung von S&P."
+              "grund": "Stoppt laut Bericht Serverlieferungen nach Südostasien wegen neuer US-Exportregeln – Belastungsprobe nach der Chip-Rally."
             },
             {
-              "name": "Amazon",
-              "symbol": "NASDAQ:AMZN",
-              "grund": "Black Friday eröffnet das Weihnachtsgeschäft; größter Onlinehändler und Index-Schwergewicht im verkürzten Handel."
+              "name": "Micron",
+              "symbol": "NASDAQ:MU",
+              "grund": "Speicherwerte führten die Black-Friday-Rally an (+7,6 %), Halbleiterindex +4,7 % mit allen 30 Werten im Plus."
             },
             {
-              "name": "Walmart",
-              "symbol": "NYSE:WMT",
-              "grund": "Größter US-Einzelhändler am Black Friday – Gradmesser für die Konsumlaune nach Zöllen und hoher Inflation."
+              "name": "SanDisk",
+              "symbol": "NASDAQ:SNDK",
+              "grund": "Stärkster Speicherwert am Freitag mit fast +16 %."
             },
             {
-              "name": "Oracle",
-              "symbol": "NYSE:ORCL",
-              "grund": "Nach dem 52-Wochen-Tief am Mittwoch Symbol für die Zweifel an kreditfinanzierten KI-Rechenzentren."
+              "name": "CrowdStrike",
+              "symbol": "NASDAQ:CRWD",
+              "grund": "Legt am Di 1.12. nachbörslich Zahlen zum 3. Quartal vor."
             },
             {
-              "name": "Apple",
-              "symbol": "NASDAQ:AAPL",
-              "grund": "Größtes Gewicht im S&P 500; Weihnachtsquartal und Asien-Lieferketten im Blick."
+              "name": "Salesforce",
+              "symbol": "NYSE:CRM",
+              "grund": "Zahlen am Mi 2.12. nachbörslich – Gradmesser für KI-Software nach dem Abverkauf im November."
             },
             {
-              "name": "Microsoft",
-              "symbol": "NASDAQ:MSFT",
-              "grund": "Index-Schwergewicht und größter KI-Cloud-Anbieter; Gradmesser, ob sich die Tech-Erholung hält."
+              "name": "Tesla",
+              "symbol": "NASDAQ:TSLA",
+              "grund": "Hauptversammlung am Do 3.12., an der Börse wird über eine Fusion mit SpaceX spekuliert."
             }
           ]
         },
@@ -248,22 +246,22 @@
             {
               "name": "Rheinmetall",
               "symbol": "XETR:RHM",
-              "grund": "Kapitalmarkttag Tag 2 ab 10 Uhr mit neuen 2030-Zielen (erwartet: Kappung des 50-Mrd.-€-Umsatzziels); zwei Techniker laut Handelsblatt in Kuwait getötet."
+              "grund": "Neues Umsatzziel 2030 von 33 bis 37 Mrd. € und Tod zweier Techniker der Tochter in Kuwait."
             },
             {
               "name": "SAP",
               "symbol": "XETR:SAP",
-              "grund": "Handelsblatt: Vorstand erwägt Abbau von mehr als 10.000 Stellen im Zuge der KI-Ausrichtung."
+              "grund": "Berichte über möglichen Abbau von mehr als 10.000 Stellen und einen IT-Sicherheitsvorfall."
             },
             {
-              "name": "Commerzbank",
-              "symbol": "XETR:CBK",
-              "grund": "−2,6 % am Donnerstag, nachdem UniCredit Orcel als Aufsichtsratschef und rund 7.000 Stellenstreichungen anstrebt."
+              "name": "MTU Aero Engines",
+              "symbol": "XETR:MTX",
+              "grund": "Kapitalmarkttag am Mo 30.11.; Airlines leiden unter dem Kerosinpreis-Schock des Iran-Kriegs."
             },
             {
-              "name": "Mercedes-Benz",
-              "symbol": "XETR:MBG",
-              "grund": "Moderater Metall-Tarifabschluss (2,0 % ab Mai 2027, 2,3 % ab April 2028, 25 Monate) schafft Kostenplanbarkeit."
+              "name": "Aurubis",
+              "symbol": "XETR:NDA",
+              "grund": "Jahreszahlen 2025/26 am Mi 2.12."
             }
           ]
         },
@@ -274,12 +272,12 @@
             {
               "name": "Toyota",
               "symbol": "NYSE:TM",
-              "grund": "Größter Wert Japans; Nikkei steigt am Freitag um 1,2 % auf über 58.000 Punkte."
+              "grund": "Größter Wert Japans; reagiert auf den Yen, der gegenüber dem Dollar zuletzt nachgab."
             },
             {
               "name": "Mitsubishi UFJ",
               "symbol": "NYSE:MUFG",
-              "grund": "Größte Bank Japans; Tokio-Kerninflation unter Konsens (2,9 %) dämpft die Wetten auf eine BoJ-Erhöhung am 18.12."
+              "grund": "Größte Bank Japans, profitiert von einer BoJ-Erhöhung am 18.12. (Markt rund 50:50)."
             }
           ]
         },
@@ -290,19 +288,19 @@
             {
               "name": "TSMC",
               "symbol": "NYSE:TSM",
-              "grund": "Neue US-Exportregeln für KI-Chips in Südostasien betreffen die Lieferkette des größten Auftragsfertigers."
+              "grund": "Profitiert von der Chip-Rally; Taiwan wählt am Samstag Bürgermeister und Kreischefs."
             },
             {
               "name": "Alibaba",
               "symbol": "NYSE:BABA",
-              "grund": "Chinas größter Cloud-Anbieter und Schwergewicht im Hang Seng (+0,4 % am Freitagmorgen)."
+              "grund": "Schwergewicht Chinas; am Montag früh kommen die offiziellen Einkaufsmanagerindizes (Konsens 49,4)."
             }
           ]
         }
       ]
     },
     "notenbanken": {
-      "stand": "Markterwartung 26.11., 22:00 Uhr",
+      "stand": "Markterwartung 27.11., 22:00 Uhr",
       "banken": [
         {
           "kuerzel": "Fed",
@@ -319,7 +317,7 @@
               "p": 2
             }
           ],
-          "notiz": "Nach Kern-PCE 3,3 %, BIP 4,3 % und einem Beige Book mit steigenden Löhnen und Kosten ist die Erhöhung fast voll eingepreist; letzter großer Datenpunkt ist der Arbeitsmarktbericht am 4.12.",
+          "notiz": "Die Erhöhung am 9.12. ist laut CME FedWatch klar eingepreist; Terminmärkte erwarten bis März zwei Schritte. Nächster großer Datenpunkt ist der Arbeitsmarktbericht am Fr 4.12. (Konsens +90.000 Stellen).",
           "quelle": "CME FedWatch via Yahoo Finance, 25.11.",
           "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html"
         },
@@ -384,19 +382,8 @@
       ]
     },
     "kalender": {
-      "stand": "27.11., 15:08 Uhr",
+      "stand": "28.11., 05:40 Uhr",
       "termine": [
-        {
-          "zeit": "2026-11-26T08:00:00+01:00",
-          "land": "DE",
-          "wichtig": 1,
-          "was": "GfK-Konsumklima Dez.",
-          "prognose": "−30,0",
-          "vorher": "−30,9",
-          "ist": "−30,2",
-          "abweichung": "tiefer",
-          "lesart": "Kaum Erholung, Sparneigung sinkt nur leicht: kein Rückenwind für den Konsum im Winterhalbjahr, für die EZB ohne Belang."
-        },
         {
           "zeit": "2026-11-27T00:30:00+01:00",
           "land": "JP",
@@ -457,8 +444,17 @@
           "land": "CN",
           "wichtig": 2,
           "was": "Einkaufsmanager Industrie Nov. (NBS)",
-          "prognose": null,
-          "vorher": null,
+          "prognose": "49,4",
+          "vorher": "49,3",
+          "ist": null
+        },
+        {
+          "zeit": "2026-11-30T08:00:00+01:00",
+          "land": "DE",
+          "wichtig": 1,
+          "was": "Einzelhandelsumsatz Okt. (M/M)",
+          "prognose": "+1,6 %",
+          "vorher": "−2,0 %",
           "ist": null
         },
         {
@@ -467,7 +463,25 @@
           "wichtig": 2,
           "was": "Verbraucherpreise Nov. (vorl., J/J)",
           "prognose": null,
-          "vorher": null,
+          "vorher": "2,8 %",
+          "ist": null
+        },
+        {
+          "zeit": "2026-11-30T15:45:00+01:00",
+          "land": "US",
+          "wichtig": 1,
+          "was": "Chicago-Einkaufsmanagerindex Nov.",
+          "prognose": "54,6",
+          "vorher": "55,3",
+          "ist": null
+        },
+        {
+          "zeit": "2026-12-01T10:00:00+01:00",
+          "land": "EZ",
+          "wichtig": 1,
+          "was": "Einkaufsmanager Industrie Nov. (endg.)",
+          "prognose": "52,9",
+          "vorher": "52,9",
           "ist": null
         },
         {
@@ -485,7 +499,7 @@
           "land": "US",
           "wichtig": 3,
           "was": "ISM Einkaufsmanager Industrie (Nov.)",
-          "prognose": null,
+          "prognose": "55,2",
           "vorher": "55,5",
           "ist": null
         },
@@ -494,8 +508,17 @@
           "land": "US",
           "wichtig": 2,
           "was": "JOLTS offene Stellen (Okt.)",
-          "prognose": null,
+          "prognose": "7,45 Mio.",
           "vorher": "7,52 Mio.",
+          "ist": null
+        },
+        {
+          "zeit": "2026-12-02T11:00:00+01:00",
+          "land": "EZ",
+          "wichtig": 1,
+          "was": "Arbeitslosenquote Okt.",
+          "prognose": "6,5 %",
+          "vorher": "6,5 %",
           "ist": null
         },
         {
@@ -503,8 +526,8 @@
           "land": "US",
           "wichtig": 2,
           "was": "ADP-Beschäftigung Nov.",
-          "prognose": null,
-          "vorher": null,
+          "prognose": "80 Tsd.",
+          "vorher": "86 Tsd.",
           "ist": null
         },
         {
@@ -512,7 +535,7 @@
           "land": "US",
           "wichtig": 2,
           "was": "Erstanträge Arbeitslosenhilfe",
-          "prognose": null,
+          "prognose": "193 Tsd.",
           "vorher": "189 Tsd.",
           "ist": null
         },
@@ -521,7 +544,7 @@
           "land": "US",
           "wichtig": 2,
           "was": "ISM Einkaufsmanager Dienste (Nov.)",
-          "prognose": null,
+          "prognose": "54,5",
           "vorher": "54,5",
           "ist": null
         },
@@ -530,26 +553,42 @@
           "land": "US",
           "wichtig": 3,
           "was": "Arbeitsmarktbericht Nov. (neue Stellen)",
-          "prognose": null,
+          "prognose": "90 Tsd.",
           "vorher": "165 Tsd.",
+          "ist": null
+        },
+        {
+          "zeit": "2026-12-04T14:30:00+01:00",
+          "land": "US",
+          "wichtig": 3,
+          "was": "Arbeitslosenquote Nov.",
+          "prognose": "4,1 %",
+          "vorher": "4,1 %",
+          "ist": null
+        },
+        {
+          "zeit": "2026-12-04T14:30:00+01:00",
+          "land": "US",
+          "wichtig": 2,
+          "was": "Stundenlöhne Nov. (M/M)",
+          "prognose": "+0,3 %",
+          "vorher": "+0,4 %",
+          "ist": null
+        },
+        {
+          "zeit": "2026-12-04T16:00:00+01:00",
+          "land": "US",
+          "wichtig": 1,
+          "was": "Uni Michigan Verbraucherstimmung Dez. (vorl.)",
+          "prognose": "52,5",
+          "vorher": "51,5",
           "ist": null
         }
       ]
     },
     "unternehmenskalender": {
-      "stand": "27.11., 12:05 Uhr",
+      "stand": "28.11., 05:40 Uhr",
       "termine": [
-        {
-          "zeit": "2026-11-26T12:00:00+01:00",
-          "ohne_zeit": true,
-          "zeit_text": "ganztägig",
-          "land": "US",
-          "wichtig": 2,
-          "was": "US-Börsen: Thanksgiving, geschlossen",
-          "prognose": null,
-          "vorher": null,
-          "ist": "erledigt"
-        },
         {
           "zeit": "2026-11-27T07:00:00+01:00",
           "land": "BE",
@@ -578,7 +617,8 @@
           "was": "US-Börsen: Black Friday, verkürzter Handel bis 19:00 Uhr",
           "prognose": null,
           "vorher": null,
-          "ist": null
+          "ist": "erledigt",
+          "lesart": "Bester Wochenschluss seit Okt. 2022: Dow +1,18 %, S&P 500 +1,60 %, Nasdaq +2,31 %, Chipwerte vorn."
         },
         {
           "zeit": "2026-11-30T10:30:00+01:00",
@@ -707,6 +747,42 @@
   "politik": {
     "welt": [
       {
+        "tag": "Golf",
+        "titel": "Kuwait bestellt Irans Botschafter ein und übergibt Protestnote",
+        "warum": "Nach dem Drohnenangriff mit zwei toten italienischen Rheinmetall-Technikern verschärft sich der Ton am Golf, obwohl Teheran jede Beteiligung bestreitet.",
+        "quelle": "Khaleej Times",
+        "url": "https://www.khaleejtimes.com/world/mena/us-israel-iran-saudi-arabia-yemen-war-live-updates-november-27-2026",
+        "zeit": "27.11., 15:52",
+        "medien": [
+          "Khaleej Times",
+          "Gulf News"
+        ]
+      },
+      {
+        "tag": "Europa",
+        "titel": "Polen plant 30 bis 40 km breite Flugverbotszone an der Grenze zur Ukraine und zu Belarus",
+        "warum": "Nach russischen Raketen auf polnischem Gebiet sollen Objekte in der Zone künftig leichter abgeschossen werden können; Start Ende Dezember oder Anfang Januar.",
+        "quelle": "Kyiv Post",
+        "url": "https://www.kyivpost.com/post/91383",
+        "zeit": "27.11.",
+        "medien": [
+          "Kyiv Post",
+          "TVP World"
+        ]
+      },
+      {
+        "tag": "Nahost",
+        "titel": "Türkei, Pakistan und Saudi-Arabien einigen sich auf Regeln für neue Mitglieder ihres Verteidigungspakts",
+        "warum": "Die im August gegründete „Mekka-Allianz“ könnte wachsen; Thema in Islamabad war auch der Krieg im Jemen.",
+        "quelle": "Khaleej Times",
+        "url": "https://www.khaleejtimes.com/world/mena/us-israel-iran-saudi-arabia-yemen-war-live-updates-november-27-2026",
+        "zeit": "27.11., 19:56",
+        "medien": [
+          "Khaleej Times",
+          "AFP"
+        ]
+      },
+      {
         "tag": "EU",
         "titel": "EU-Gipfel endet ohne Einigung über Haushalt 2028–2034 und 45-Mrd.-€-Kredit für die Ukraine",
         "warum": "Merz lehnt neue Gemeinschaftsschulden ab, vier Staaten blockieren den Kredit; nächster Anlauf am 17./18.12.",
@@ -720,31 +796,6 @@
         ]
       },
       {
-        "tag": "EU",
-        "titel": "Hernández de Cos wird EZB-Präsident",
-        "warum": "Die Chefs einigten sich beim Gipfel auf den BIZ-Chef als Nachfolger Lagardes ab Februar.",
-        "quelle": "Handelsblatt",
-        "url": "https://www.handelsblatt.com/finanzen/geldpolitik/ezb-pablo-hernandez-de-cos-wird-neuer-chef-der-euro-notenbank/100272970.html",
-        "zeit": "26.11., 14:48",
-        "medien": [
-          "Handelsblatt",
-          "Euronews"
-        ]
-      },
-      {
-        "tag": "Golf",
-        "titel": "Zwei Italiener bei iranischem Drohnenangriff in Kuwait getötet – Iran bestreitet",
-        "warum": "Die Techniker arbeiteten an einem Luftabwehrsystem; laut Handelsblatt waren es Rheinmetall-Mitarbeiter.",
-        "quelle": "The New Arab",
-        "url": "https://www.newarab.com/news/iran-denies-deadly-kuwait-attack-houthis-target-saudi-refinery",
-        "zeit": "26.11., 17:55",
-        "medien": [
-          "Handelsblatt",
-          "CBS News",
-          "Khaleej Times"
-        ]
-      },
-      {
         "tag": "Russland",
         "titel": "Nordkorea setzt Militärhilfe für Russland laut ukrainischem Geheimdienst aus",
         "warum": "Laut HUR stoppt Pjöngjang KN-23-Raketen und Granaten nach einem diplomatischen Streit; unabhängig nicht bestätigt.",
@@ -755,20 +806,43 @@
           "Kyiv Independent",
           "Handelsblatt"
         ]
-      },
-      {
-        "tag": "Ukraine",
-        "titel": "Trump: Habe Putin aufgefordert, Aggression gegen Gebiete in ganz Europa zurückzufahren",
-        "warum": "Trump nennt keine Details; Putin wolle laut Trump „einen Deal“ – Europa fürchtet eine Ausweitung des Krieges.",
-        "quelle": "Reuters",
-        "url": "https://www.thestandard.com.hk/world/article/349801/Trump-says-he-asked-Putin-to-pull-back-military-aggression-throughout-Europe",
-        "zeit": "26.11.",
-        "medien": [
-          "Reuters"
-        ]
       }
     ],
     "usa": [
+      {
+        "tag": "Iran",
+        "titel": "Trump spielt Unterstützung Russlands und Chinas für Iran herunter",
+        "warum": "Vor US-Soldaten in Mar-a-Lago betonte Trump an Thanksgiving, die Hilfe aus Moskau und Peking ändere am Kriegsverlauf nichts.",
+        "quelle": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/11/27/trump-downplays-russia-china-support-for-iran-during-talks-with-us-troops",
+        "zeit": "27.11.",
+        "medien": [
+          "Al Jazeera",
+          "Khaleej Times"
+        ]
+      },
+      {
+        "tag": "Justiz",
+        "titel": "Trump will 548 Todeskandidaten begnadigen – Streit mit Newsom über Begnadigungspraxis",
+        "warum": "Kaliforniens Gouverneur wirft Trump vor, Begnadigungen zu „verkaufen“; die Republikaner werfen ihm Doppelmoral vor.",
+        "quelle": "Fox News",
+        "url": "https://www.foxnews.com/politics/newsom-shredded-hypocritical-claim-trump-sells-pardons-after-moving-spare-548-death-row-inmates",
+        "zeit": "27.11.",
+        "medien": [
+          "Fox News"
+        ]
+      },
+      {
+        "tag": "Migration",
+        "titel": "Justizministerium muss rund 97.000 Klagen von ICE-Häftlingen bearbeiten",
+        "warum": "Die Klagewelle bindet Anwälte des Ministeriums und zeigt das Ausmaß der Abschiebehaft unter Trump.",
+        "quelle": "Fox News",
+        "url": "https://www.foxnews.com/politics/doj-lawyers-ordered-swarm-frivolous-97000-lawsuit-wave-ice-detainees",
+        "zeit": "27.11.",
+        "medien": [
+          "Fox News"
+        ]
+      },
       {
         "tag": "Weißes Haus",
         "titel": "Trump greift an Thanksgiving Statistikbehörde BEA an und fordert Untersuchung der BIP-Revision",
@@ -791,65 +865,32 @@
           "CBS News",
           "Khaleej Times"
         ]
-      },
-      {
-        "tag": "Ukraine",
-        "titel": "Trump: Putin „würde gern einen Deal machen“",
-        "warum": "Trump betont, ihm gehe es darum, das Töten zu beenden; zugleich fordert er Russland auf, die Aggression in Europa zu stoppen.",
-        "quelle": "Reuters",
-        "url": "https://www.thestandard.com.hk/world/article/349801/Trump-says-he-asked-Putin-to-pull-back-military-aggression-throughout-Europe",
-        "zeit": "26.11.",
-        "medien": [
-          "Reuters"
-        ]
-      },
-      {
-        "tag": "Wetter",
-        "titel": "Thanksgiving-Sturm legt an der Ostküste Strom und Flüge lahm",
-        "warum": "Stromausfälle und Flugstörungen zum Reisehöhepunkt des Jahres.",
-        "quelle": "Reuters",
-        "url": "https://www.thestandard.com.hk/world/article/349800/Thanksgiving-storm-knocks-out-power-disrupts-flights-on-US-East-Coast",
-        "zeit": "26.11.",
-        "medien": [
-          "Reuters"
-        ]
-      },
-      {
-        "tag": "Handel",
-        "titel": "USTR schlägt Zölle gegen 14 Länder vor – China bis 20 % zusätzlich",
-        "warum": "Ersatz für die vom Supreme Court gekippten Notstandszölle; Experten erwarten Klagen. Kommentarfrist bis 5. Januar.",
-        "quelle": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/11/25/trump-announces-new-trade-tariffs-which-countries-will-they-target",
-        "zeit": "25.11.",
-        "medien": [
-          "Al Jazeera",
-          "Washington Post",
-          "AP"
-        ]
       }
     ],
     "deutschland": [
       {
-        "tag": "Bundestag",
-        "titel": "Bundestag beschließt Rekordhaushalt 2027",
-        "warum": "556 Mrd. € Ausgaben im Kernhaushalt, 123 Mrd. € Schulden, fast 140 Mrd. € Verteidigung – jeder dritte Euro ist kreditfinanziert.",
+        "tag": "Haushalt",
+        "titel": "Bundestag beschließt Rekordhaushalt 2027 mit 317 zu 260 Stimmen",
+        "warum": "Rund 556 Mrd. € Ausgaben, 123 Mrd. € neue Schulden im Kernhaushalt und über 210 Mrd. € mit Sondervermögen; zugleich beschlossen: niedrigere Stromsteuer ab 2027 und Zuckersteuer ab 2028.",
         "quelle": "ZDFheute",
         "url": "https://www.zdfheute.de/politik/deutschland/haushalt-2027-beschlossen-abstimmung-bundestag-100.html",
-        "zeit": "27.11., 14:50",
+        "zeit": "27.11., 17:23",
         "medien": [
           "ZDFheute",
-          "t-online"
+          "Handelsblatt",
+          "Reuters"
         ]
       },
       {
-        "tag": "Koalition",
-        "titel": "Rentenreform: Koalitionsspitzen verhandeln im Kanzleramt über Rente nach 45 Jahren",
-        "warum": "Unions-Abgeordnete wollen die abschlagsfreie Rente nur für Geringverdiener erhalten, die SPD lehnt ab – Existenzfrage für Schwarz-Rot.",
+        "tag": "Rente",
+        "titel": "Arbeitsminister Schweitzer legt eigenen Entwurf zur „Rente mit 63“ vor – Union spricht von Eskalation",
+        "warum": "Der 287-Seiten-Entwurf erhält die Rente nach 45 Jahren, verschärft aber den Zugang ab 2029 und koppelt das Rentenalter an die Lebenserwartung; das Kanzleramt sieht keine Einigung.",
         "quelle": "Handelsblatt",
-        "url": "https://www.handelsblatt.com/politik/deutschland/rentenreform-warum-diese-reform-zur-existenzfrage-fuer-die-koalition-wird/100272907.html",
-        "zeit": "26.11., 13:49",
+        "url": "https://www.handelsblatt.com/politik/deutschland/rentenreform-schweitzer-legt-neuen-gesetzentwurf-vor-union-laeuft-sturm/100273340.html",
+        "zeit": "27.11., 15:35",
         "medien": [
-          "Handelsblatt"
+          "Handelsblatt",
+          "ZDFheute"
         ]
       },
       {
@@ -873,26 +914,9 @@
         "medien": [
           "Handelsblatt"
         ]
-      },
-      {
-        "tag": "Steuern",
-        "titel": "Klingbeil will Steuerschlupfloch bei Share Deals schließen",
-        "warum": "Ab Juli 2027 soll Grunderwerbsteuer schon ab 90 % Anteilserwerb mehrerer Käufer fällig werden.",
-        "quelle": "Reuters",
-        "url": "https://www.handelsblatt.com/finanzen/immobilien/immobilien-klingbeil-will-steuerschlupfloch-beim-hauskauf-schliessen/100272430.html",
-        "zeit": "24.11., 14:34",
-        "medien": [
-          "Reuters",
-          "Handelsblatt"
-        ]
       }
     ],
     "termine": [
-      {
-        "datum": "27.11.",
-        "was": "Bundestag: Schlussabstimmung Bundeshaushalt 2027",
-        "art": "Abstimmung"
-      },
       {
         "datum": "28.11.",
         "was": "Taiwan: Kommunalwahlen (Nine-in-One)",
@@ -1711,6 +1735,12 @@
         "name": "Bundesliga",
         "schlagzeilen": [
           {
+            "titel": "Wahnsinn in Bremen: Füllkrug rettet Werder in der Nachspielzeit ein 3:3 gegen Gladbach",
+            "quelle": "t-online",
+            "url": "https://www.t-online.de/sport/fussball/bundesliga/id_101550464/bundesliga-wahnsinn-in-bremen-fuellkrug-rettet-werder-gegen-gladbach.html",
+            "zeit": "27.11., 22:30"
+          },
+          {
             "titel": "Werder Bremen gewinnt Nordderby 4:0 gegen den HSV",
             "warum": "Bremen klettert auf Rang 6, der HSV rutscht ins untere Mittelfeld.",
             "quelle": "Sky Sport",
@@ -1721,12 +1751,6 @@
             "warum": "Sieg im direkten Duell, Mainz fällt auf Platz 13.",
             "quelle": "Sky Sport",
             "url": "https://sport.sky.de/fussball/augsburg-vs-mainz/spielbericht/563394"
-          },
-          {
-            "titel": "Torwart-Patzer macht Dortmund zum Spitzenreiter",
-            "warum": "Der BVB führt mit 24 Punkten zwei Zähler vor Bayern und Freiburg.",
-            "quelle": "Sky Sport",
-            "url": "https://sport.sky.de/fussball/artikel/highlights-kompakt-torwart-patzer-macht-dortmund-zum-spitzenreiter/13614841/34828"
           }
         ],
         "tabellen": [
@@ -1872,13 +1896,6 @@
         "spiele": {
           "naechste": [
             {
-              "datum": "Fr 27.11.",
-              "zeit": "20:30",
-              "heim": "Werder Bremen",
-              "gast": "Borussia Mönchengladbach",
-              "info": "11. Spieltag"
-            },
-            {
               "datum": "Sa 28.11.",
               "zeit": "15:30",
               "heim": "Hamburger SV",
@@ -1930,6 +1947,13 @@
           ],
           "letzte": [
             {
+              "datum": "Fr 27.11.",
+              "heim": "Werder Bremen",
+              "gast": "Borussia Mönchengladbach",
+              "ergebnis": "3:3",
+              "info": "11. Spieltag"
+            },
+            {
               "datum": "So 22.11.",
               "heim": "Werder Bremen",
               "gast": "Hamburger SV",
@@ -1977,13 +2001,6 @@
               "gast": "SC Freiburg",
               "ergebnis": "0:1",
               "info": "10. Spieltag"
-            },
-            {
-              "datum": "Sa 21.11.",
-              "heim": "FC Schalke 04",
-              "gast": "VfB Stuttgart",
-              "ergebnis": "0:0",
-              "info": "10. Spieltag"
             }
           ],
           "hinweis": "Außerdem So 29.11., 17:30: TSG Hoffenheim – FC Augsburg"
@@ -1993,6 +2010,12 @@
         "kurz": "PL",
         "name": "Premier League",
         "schlagzeilen": [
+          {
+            "titel": "Gibbs-White trifft doppelt: Forest schlägt Chelsea 3:2, Druck auf Xabi Alonso wächst",
+            "quelle": "Sky Sports",
+            "url": "https://www.skysports.com/football/nottingham-forest-vs-chelsea/report/559562",
+            "zeit": "27.11., 23:16"
+          },
           {
             "titel": "Liverpool schlägt Manchester United 4:0",
             "warum": "Bitteres Debüt für Pochettino, United auf Rang 19.",
@@ -2004,12 +2027,6 @@
             "warum": "Arsenal baut die Führung auf sechs Punkte aus.",
             "quelle": "Sky Sport",
             "url": "https://sport.sky.de/fussball/artikel/fabian-huerzeler-und-brighton-verlieren-ueberraschend-bei-hull-city/13615320/34130"
-          },
-          {
-            "titel": "Leeds demontiert Chelsea",
-            "warum": "Aufsteiger-Erfolg bringt Leeds auf Rang 6.",
-            "quelle": "Sky Sport",
-            "url": "https://sport.sky.de/fussball/artikel/leeds-demontiert-chelsea/13614932/34357"
           }
         ],
         "tabellen": [
@@ -2169,13 +2186,6 @@
         "spiele": {
           "naechste": [
             {
-              "datum": "Fr 27.11.",
-              "zeit": "21:00",
-              "heim": "Nottingham Forest",
-              "gast": "FC Chelsea",
-              "info": "12. Spieltag"
-            },
-            {
               "datum": "Sa 28.11.",
               "zeit": "16:00",
               "heim": "Manchester United",
@@ -2227,6 +2237,13 @@
           ],
           "letzte": [
             {
+              "datum": "Fr 27.11.",
+              "heim": "Nottingham Forest",
+              "gast": "FC Chelsea",
+              "ergebnis": "3:2",
+              "info": "12. Spieltag"
+            },
+            {
               "datum": "So 22.11.",
               "heim": "FC Liverpool",
               "gast": "Manchester United",
@@ -2274,13 +2291,6 @@
               "gast": "Nottingham Forest",
               "ergebnis": "2:0",
               "info": "11. Spieltag"
-            },
-            {
-              "datum": "Sa 21.11.",
-              "heim": "Manchester City",
-              "gast": "FC Fulham",
-              "ergebnis": "1:1",
-              "info": "11. Spieltag"
             }
           ],
           "hinweis": "Everton – Brentford (Mo 23.11.) noch ohne bestätigtes Ergebnis."
@@ -2291,6 +2301,12 @@
         "name": "LaLiga",
         "schlagzeilen": [
           {
+            "titel": "Racing Santander gewinnt 3:1 bei Levante",
+            "quelle": "ESPN",
+            "url": "https://africa.espn.com/football/match/_/gameId/401882791",
+            "zeit": "27.11."
+          },
+          {
             "titel": "Barcelona schlägt Villarreal 3:2",
             "warum": "Barça bleibt mit drei Punkten Vorsprung Tabellenführer; Raphinha führt mit 15 Toren die Torjägerliste an.",
             "quelle": "Fútbol Total",
@@ -2299,12 +2315,6 @@
           {
             "titel": "Real Madrid gewinnt 2:1 gegen Celta Vigo",
             "warum": "Real bleibt erster Verfolger.",
-            "quelle": "Fútbol Total",
-            "url": "https://futboltotal.futbol/league/la-liga"
-          },
-          {
-            "titel": "Atlético siegt 3:0 in Getafe",
-            "warum": "Atlético hält Anschluss an die Spitze, Platz 3.",
             "quelle": "Fútbol Total",
             "url": "https://futboltotal.futbol/league/la-liga"
           }
@@ -2466,13 +2476,6 @@
         "spiele": {
           "naechste": [
             {
-              "datum": "Fr 27.11.",
-              "zeit": "21:00",
-              "heim": "Levante UD",
-              "gast": "Racing Santander",
-              "info": "14. Spieltag"
-            },
-            {
               "datum": "Sa 28.11.",
               "zeit": "14:00",
               "heim": "Real Betis",
@@ -2524,6 +2527,13 @@
           ],
           "letzte": [
             {
+              "datum": "Fr 27.11.",
+              "heim": "Levante UD",
+              "gast": "Racing Santander",
+              "ergebnis": "1:3",
+              "info": "14. Spieltag"
+            },
+            {
               "datum": "Mo 23.11.",
               "heim": "Levante UD",
               "gast": "Elche CF",
@@ -2571,13 +2581,6 @@
               "gast": "Real Betis",
               "ergebnis": "1:1",
               "info": "13. Spieltag"
-            },
-            {
-              "datum": "Sa 21.11.",
-              "heim": "Rayo Vallecano",
-              "gast": "FC Valencia",
-              "ergebnis": "0:1",
-              "info": "13. Spieltag"
             }
           ]
         }
@@ -2587,6 +2590,12 @@
         "name": "Serie A",
         "schlagzeilen": [
           {
+            "titel": "Venezia und Bologna trennen sich 0:0 – Tor aberkannt, Pfostentreffer",
+            "quelle": "Diretta",
+            "url": "https://www.diretta.it/news/serie-a-live-venezia-bologna-27-novembre-2026/z3z8IQ0d/",
+            "zeit": "27.11."
+          },
+          {
             "titel": "Spektakel in Bergamo: Atalanta – Inter 4:4",
             "warum": "Inter verliert Boden auf Tabellenführer Lazio.",
             "quelle": "bloooog.it",
@@ -2595,12 +2604,6 @@
           {
             "titel": "Milan fertigt Frosinone 5:1 ab",
             "warum": "Milan rückt auf Rang 4 vor.",
-            "quelle": "bloooog.it",
-            "url": "https://www.bloooog.it/2026/11/21/serie-a-2026-27-12a-giornata-risultati-classifica-tabellini-e-statistiche/"
-          },
-          {
-            "titel": "Juventus schlägt Venezia 4:0",
-            "warum": "Venezia bleibt Tabellenletzter.",
             "quelle": "bloooog.it",
             "url": "https://www.bloooog.it/2026/11/21/serie-a-2026-27-12a-giornata-risultati-classifica-tabellini-e-statistiche/"
           }
@@ -2762,13 +2765,6 @@
         "spiele": {
           "naechste": [
             {
-              "datum": "Fr 27.11.",
-              "zeit": "20:45",
-              "heim": "Venezia",
-              "gast": "Bologna",
-              "info": "13. Spieltag"
-            },
-            {
               "datum": "Sa 28.11.",
               "zeit": "15:00",
               "heim": "Frosinone",
@@ -2820,6 +2816,13 @@
           ],
           "letzte": [
             {
+              "datum": "Fr 27.11.",
+              "heim": "Venezia",
+              "gast": "Bologna",
+              "ergebnis": "0:0",
+              "info": "13. Spieltag"
+            },
+            {
               "datum": "Mo 23.11.",
               "heim": "Monza",
               "gast": "AC Florenz",
@@ -2867,13 +2870,6 @@
               "gast": "Torino",
               "ergebnis": "1:0",
               "info": "12. Spieltag"
-            },
-            {
-              "datum": "Sa 21.11.",
-              "heim": "Parma",
-              "gast": "AS Rom",
-              "ergebnis": "1:5",
-              "info": "12. Spieltag"
             }
           ]
         }
@@ -2883,6 +2879,12 @@
         "name": "NFL",
         "us": true,
         "schlagzeilen": [
+          {
+            "titel": "Ohne Aaron Rodgers: Steelers deklassieren Broncos 27:5 am Black Friday – erstes 27:5 der NFL-Geschichte",
+            "quelle": "ESPN",
+            "url": "https://www.espn.com/nfl/recap?gameId=401873083",
+            "zeit": "27.11."
+          },
           {
             "titel": "Bears schlagen Lions 39:35 mit Touchdown drei Sekunden vor Schluss",
             "warum": "Caleb Williams findet Rome Odunze; Chicago (9-2) übernimmt die Spitze der NFC North vor Detroit (8-3).",
@@ -2895,13 +2897,6 @@
             "warum": "Ex-Cowboys-Quarterback Joe Milton III führt Philadelphia zum Comeback an Thanksgiving.",
             "quelle": "CBS News",
             "url": "https://www.cbsnews.com/texas/news/cowboys-blow-21-point-lead-eagles-thanksgiving-november-2026/",
-            "zeit": "26.11."
-          },
-          {
-            "titel": "Rams schlagen Packers 26:13",
-            "warum": "Wichtiger Heimsieg für Los Angeles am Vorabend von Thanksgiving.",
-            "quelle": "ESPN",
-            "url": "https://www.espn.com/nfl/scoreboard",
             "zeit": "26.11."
           }
         ],
@@ -3047,13 +3042,6 @@
         "spiele": {
           "naechste": [
             {
-              "datum": "Fr 27.11.",
-              "zeit": "21:00",
-              "heim": "Pittsburgh Steelers",
-              "gast": "Denver Broncos",
-              "info": "Week 12, Black Friday"
-            },
-            {
               "datum": "So 29.11.",
               "heim": "Cincinnati Bengals",
               "gast": "New Orleans Saints",
@@ -3088,9 +3076,28 @@
               "heim": "Houston Texans",
               "gast": "Baltimore Ravens",
               "info": "Week 12"
+            },
+            {
+              "datum": "So 29.11.",
+              "heim": "Los Angeles Chargers",
+              "gast": "New England Patriots",
+              "info": "Week 12"
+            },
+            {
+              "datum": "So 29.11.",
+              "heim": "San Francisco 49ers",
+              "gast": "Seattle Seahawks",
+              "info": "Week 12"
             }
           ],
           "letzte": [
+            {
+              "datum": "Fr 27.11.",
+              "heim": "Pittsburgh Steelers",
+              "gast": "Denver Broncos",
+              "ergebnis": "27:5",
+              "info": "Week 12, Black Friday"
+            },
             {
               "datum": "Fr 27.11.",
               "heim": "Buffalo Bills",
@@ -3139,13 +3146,6 @@
               "gast": "Tampa Bay Buccaneers",
               "ergebnis": "31:21",
               "info": "Week 11"
-            },
-            {
-              "datum": "So 22.11.",
-              "heim": "Dallas Cowboys",
-              "gast": "Tennessee Titans",
-              "ergebnis": "51:30",
-              "info": "Week 11"
             }
           ]
         }
@@ -3155,6 +3155,12 @@
         "name": "NBA",
         "us": true,
         "schlagzeilen": [
+          {
+            "titel": "NBA Cup: Hawks gewinnen 87:86 in Boston, Heat siegen 108:105 bei den Knicks",
+            "quelle": "NBA.com",
+            "url": "https://www.nba.com/news/emirates-nba-cup-live-updates-november-27",
+            "zeit": "28.11."
+          },
           {
             "titel": "Tatum mit 41 Punkten: Celtics schlagen Wizards 131:116",
             "warum": "Boston ist im NBA Cup mit 3-0 Spitzenreiter der East Group C.",
@@ -3171,16 +3177,6 @@
             "quelle": "NBA.com",
             "url": "https://www.nba.com/news/emirates-nba-cup-2026-live-updates-november-24",
             "zeit": "25.11.",
-            "medien": [
-              "ESPN"
-            ]
-          },
-          {
-            "titel": "Spurs und Lakers teilen sich mit 15-3 die Spitze im Westen",
-            "warum": "San Antonio hat die beste Punktedifferenz der Liga.",
-            "quelle": "ESPN",
-            "url": "https://www.espn.com/nba/standings",
-            "zeit": "24.11.",
             "medien": [
               "ESPN"
             ]
@@ -3326,57 +3322,50 @@
         ],
         "stand": "25.11.2026 (Spiele bis 24.11.; Mavericks – Nuggets noch nicht eingerechnet)",
         "spiele": {
-          "naechste": [
-            {
-              "datum": "Sa 28.11.",
-              "zeit": "01:00",
-              "heim": "Knicks",
-              "gast": "Heat"
-            },
-            {
-              "datum": "Sa 28.11.",
-              "zeit": "01:30",
-              "heim": "Pacers",
-              "gast": "76ers"
-            },
-            {
-              "datum": "Sa 28.11.",
-              "zeit": "01:30",
-              "heim": "Pistons",
-              "gast": "Bucks"
-            },
-            {
-              "datum": "Sa 28.11.",
-              "zeit": "01:30",
-              "heim": "Raptors",
-              "gast": "Nets"
-            },
-            {
-              "datum": "Sa 28.11.",
-              "zeit": "02:00",
-              "heim": "Celtics",
-              "gast": "Hawks"
-            },
-            {
-              "datum": "Sa 28.11.",
-              "zeit": "02:30",
-              "heim": "Timberwolves",
-              "gast": "Grizzlies"
-            },
-            {
-              "datum": "Sa 28.11.",
-              "zeit": "03:00",
-              "heim": "Suns",
-              "gast": "Mavericks"
-            },
-            {
-              "datum": "Sa 28.11.",
-              "zeit": "03:30",
-              "heim": "Jazz",
-              "gast": "Nuggets"
-            }
-          ],
+          "naechste": [],
           "letzte": [
+            {
+              "datum": "Fr 27.11.",
+              "heim": "Timberwolves",
+              "gast": "Grizzlies",
+              "ergebnis": "109:114",
+              "info": "NBA Cup"
+            },
+            {
+              "datum": "Fr 27.11.",
+              "heim": "Celtics",
+              "gast": "Hawks",
+              "ergebnis": "86:87",
+              "info": "NBA Cup"
+            },
+            {
+              "datum": "Fr 27.11.",
+              "heim": "Raptors",
+              "gast": "Nets",
+              "ergebnis": "124:100",
+              "info": "NBA Cup"
+            },
+            {
+              "datum": "Fr 27.11.",
+              "heim": "Pistons",
+              "gast": "Bucks",
+              "ergebnis": "113:98",
+              "info": "NBA Cup"
+            },
+            {
+              "datum": "Fr 27.11.",
+              "heim": "Pacers",
+              "gast": "76ers",
+              "ergebnis": "87:111",
+              "info": "NBA Cup"
+            },
+            {
+              "datum": "Fr 27.11.",
+              "heim": "Knicks",
+              "gast": "Heat",
+              "ergebnis": "105:108",
+              "info": "NBA Cup"
+            },
             {
               "datum": "Do 26.11.",
               "heim": "Warriors",
@@ -3388,44 +3377,9 @@
               "heim": "Rockets",
               "gast": "Suns",
               "ergebnis": "116:104"
-            },
-            {
-              "datum": "Do 26.11.",
-              "heim": "Grizzlies",
-              "gast": "Clippers",
-              "ergebnis": "115:97"
-            },
-            {
-              "datum": "Do 26.11.",
-              "heim": "Bucks",
-              "gast": "Nets",
-              "ergebnis": "97:104"
-            },
-            {
-              "datum": "Do 26.11.",
-              "heim": "Thunder",
-              "gast": "Timberwolves",
-              "ergebnis": "106:113"
-            },
-            {
-              "datum": "Do 26.11.",
-              "heim": "Knicks",
-              "gast": "Cavaliers",
-              "ergebnis": "121:102"
-            },
-            {
-              "datum": "Do 26.11.",
-              "heim": "Hornets",
-              "gast": "Bulls",
-              "ergebnis": "105:107"
-            },
-            {
-              "datum": "Mi 25.11.",
-              "heim": "76ers",
-              "gast": "Heat",
-              "ergebnis": "111:104"
             }
-          ]
+          ],
+          "hinweis": "NBA Cup: Gruppenphase beendet; im Osten im Viertelfinale Pistons – Celtics und 76ers – Hawks. Ergebnisse der späten Freitagsspiele (u. a. Spurs – Lakers, Suns – Mavericks) folgen im nächsten Lauf."
         }
       },
       {
@@ -3433,6 +3387,12 @@
         "name": "NHL",
         "us": true,
         "schlagzeilen": [
+          {
+            "titel": "Maple Leafs gewinnen 3:1 in Boston",
+            "quelle": "NHL.com",
+            "url": "https://www.nhl.com/bruins/news/bruins-drop-game-3-1-to-maple-leafs-stay-positive-and-move-forward",
+            "zeit": "27.11."
+          },
           {
             "titel": "Minnesota Wild führen die Liga mit 41 Punkten an",
             "warum": "Drei Zähler vor Edmonton im Westen.",
@@ -3444,12 +3404,6 @@
             "warum": "39 Punkte aus 24 Spielen, vier vor Ottawa.",
             "quelle": "daily.hockey",
             "url": "https://daily.hockey/standings"
-          },
-          {
-            "titel": "Dylan Larkin wechselt von Detroit nach Montreal",
-            "warum": "Der Trade um den Red-Wings-Kapitän ist abgeschlossen.",
-            "quelle": "Bleacher Report",
-            "url": "https://bleacherreport.com/articles/25434044-dylan-larkin-traded-canadiens-red-wings-full-details-nhl-draft-picks-involved-revealed"
           }
         ],
         "tabellen": [
@@ -3576,63 +3530,62 @@
         "spiele": {
           "naechste": [
             {
-              "datum": "Fr 27.11.",
-              "zeit": "19:00",
-              "heim": "Bruins",
-              "gast": "Maple Leafs",
-              "info": "Black Friday"
+              "datum": "Sa 28.11.",
+              "zeit": "22:00",
+              "heim": "Golden Knights",
+              "gast": "Canadiens"
             },
             {
-              "datum": "Fr 27.11.",
-              "zeit": "19:00",
-              "heim": "Predators",
-              "gast": "Mammoth",
-              "info": "Black Friday"
+              "datum": "So 29.11.",
+              "zeit": "00:00",
+              "heim": "Panthers",
+              "gast": "Lightning"
             },
             {
-              "datum": "Fr 27.11.",
-              "zeit": "19:00",
-              "heim": "Devils",
-              "gast": "Flames",
-              "info": "Black Friday"
-            },
-            {
-              "datum": "Fr 27.11.",
-              "zeit": "20:00",
+              "datum": "So 29.11.",
+              "zeit": "01:00",
               "heim": "Blues",
-              "gast": "Stars",
-              "info": "Black Friday"
+              "gast": "Capitals"
             },
             {
-              "datum": "Fr 27.11.",
-              "zeit": "21:00",
-              "heim": "Blue Jackets",
-              "gast": "Red Wings",
-              "info": "Black Friday"
+              "datum": "So 29.11.",
+              "zeit": "01:00",
+              "heim": "Hurricanes",
+              "gast": "Senators"
             },
             {
-              "datum": "Fr 27.11.",
-              "zeit": "21:00",
-              "heim": "Flyers",
-              "gast": "Canucks",
-              "info": "Black Friday"
+              "datum": "So 29.11.",
+              "zeit": "01:00",
+              "heim": "Devils",
+              "gast": "Jets"
             },
             {
-              "datum": "Fr 27.11.",
-              "zeit": "21:00",
-              "heim": "Capitals",
-              "gast": "Panthers",
-              "info": "Black Friday"
+              "datum": "So 29.11.",
+              "zeit": "01:00",
+              "heim": "Red Wings",
+              "gast": "Predators"
             },
             {
-              "datum": "Fr 27.11.",
-              "zeit": "21:00",
-              "heim": "Lightning",
-              "gast": "Senators",
-              "info": "Black Friday"
+              "datum": "So 29.11.",
+              "zeit": "01:00",
+              "heim": "Penguins",
+              "gast": "Maple Leafs"
+            },
+            {
+              "datum": "So 29.11.",
+              "zeit": "01:00",
+              "heim": "Rangers",
+              "gast": "Flames"
             }
           ],
           "letzte": [
+            {
+              "datum": "Fr 27.11.",
+              "heim": "Bruins",
+              "gast": "Maple Leafs",
+              "ergebnis": "1:3",
+              "info": "Black Friday"
+            },
             {
               "datum": "Mi 25.11.",
               "heim": "Oilers",
@@ -3674,15 +3627,9 @@
               "heim": "Sharks",
               "gast": "Wild",
               "ergebnis": "2:5"
-            },
-            {
-              "datum": "Di 24.11.",
-              "heim": "Jets",
-              "gast": "Mammoth",
-              "ergebnis": "4:2"
             }
           ],
-          "hinweis": "Am Freitag (Black Friday) 15 Spiele, hier die ersten acht; Spiele der Nacht zu Donnerstag folgen beim nächsten Lauf."
+          "hinweis": "Samstag 13 Spiele, hier die ersten acht. Von Black Friday ist bisher nur Bruins – Maple Leafs 1:3 bestätigt; weitere Ergebnisse folgen im nächsten Lauf."
         }
       },
       {
@@ -3894,44 +3841,116 @@
   },
   "sonstiges": {
     "englisch": {
-      "wort": "pellucid",
-      "aussprache": "/pəˈluː.sɪd/",
+      "wort": "ineluctable",
+      "aussprache": "/ˌɪn.ɪˈlʌk.tə.bəl/",
       "wortart": "Adjektiv",
-      "bedeutung": "Glasklar, durchsichtig; übertragen: (Sprache, Stil) besonders klar und mühelos verständlich.",
-      "beispiel": "Her pellucid explanation of how central banks steer interest rates made the topic accessible to the whole seminar."
+      "bedeutung": "Unausweichlich, unentrinnbar; etwas, dem man sich nicht entziehen kann.",
+      "beispiel": "With storage below 68 %, a tighter gas market this winter seemed all but ineluctable."
     },
     "chinesisch": {
-      "zeichen": "未雨绸缪",
-      "pinyin": "wèi yǔ chóu móu",
+      "zeichen": "水涨船高",
+      "pinyin": "shuǐ zhǎng chuán gāo",
       "wortart": "Chengyu (Redewendung)",
-      "bedeutung": "Das Dach ausbessern, bevor es regnet: rechtzeitig Vorsorge treffen.",
-      "beispiel": "欧洲国家未雨绸缪，在冬天之前储备天然气。 (Die europäischen Länder sorgen vor und legen vor dem Winter Gasvorräte an.)"
+      "bedeutung": "Steigt das Wasser, steigt das Boot: Wenn sich die Grundlage verbessert, hebt das alles, was davon abhängt.",
+      "beispiel": "油价上涨，航空公司的成本也水涨船高。 (Steigt der Ölpreis, steigen auch die Kosten der Fluggesellschaften.)"
     },
-    "funfact": "Der Begriff „Black Friday“ stammt vermutlich von der Polizei in Philadelphia, die in den 1950er- und 1960er-Jahren so das Verkehrschaos am Tag nach Thanksgiving nannte. Die bekannte Erklärung, Händler kämen an diesem Tag „in die schwarzen Zahlen“, wurde erst später populär.",
+    "funfact": "Nancy Astor wurde am 28. November 1919 als erste Frau gewählt, die tatsächlich einen Sitz im britischen Unterhaus einnahm – geboren war sie in den USA, in Virginia.",
     "wissen": [
       {
         "bereich": "Geschichte",
-        "fakt": "Am 27. November 1095 rief Papst Urban II. auf der Synode von Clermont zum Ersten Kreuzzug auf; 1099 eroberten die Kreuzfahrer Jerusalem."
+        "fakt": "Am 28. November 1943 begann die Konferenz von Teheran, auf der sich Roosevelt, Churchill und Stalin erstmals gemeinsam trafen und die Landung in der Normandie vereinbarten."
       },
       {
         "bereich": "Wirtschaft",
-        "fakt": "Die Schuldenbremse (Art. 115 GG) erlaubt dem Bund eine strukturelle Neuverschuldung von höchstens 0,35 % des BIP; seit der Grundgesetzänderung 2025 sind Verteidigungsausgaben über 1 % des BIP und das Sondervermögen Infrastruktur davon ausgenommen. Deshalb kann der Haushalt 2027 trotz Rekordkrediten die Regel einhalten."
+        "fakt": "Die OPEC wurde am 14. September 1960 in Bagdad von Iran, Irak, Kuwait, Saudi-Arabien und Venezuela gegründet; OPEC+ mit Russland und weiteren Förderländern entstand erst Ende 2016."
       },
       {
         "bereich": "Allgemeinwissen",
-        "fakt": "Alfred Nobel unterzeichnete am 27. November 1895 in Paris sein Testament, mit dem er den Großteil seines Vermögens für die Nobelpreise bestimmte; sie wurden erstmals 1901 verliehen."
+        "fakt": "Friedrich Engels, Mitautor des Kommunistischen Manifests, wurde am 28. November 1820 in Barmen (heute Wuppertal) als Sohn eines Textilfabrikanten geboren."
       }
     ],
     "steuerrecht": {
-      "frage": "Wie hoch ist der Sparer-Pauschbetrag, und was bewirkt ein Freistellungsauftrag?",
-      "antwort": "Kapitalerträge bleiben bis 1.000 € im Jahr steuerfrei (bei Zusammenveranlagung 2.000 €); tatsächliche Werbungskosten können darüber hinaus nicht abgezogen werden. Mit einem Freistellungsauftrag bei der Bank wird die Abgeltungsteuer von 25 % (plus Soli, ggf. Kirchensteuer) bis zu dieser Höhe gar nicht erst einbehalten.",
-      "norm": "§ 20 Abs. 9 EStG, § 44a EStG"
+      "frage": "Welcher Teil der gesetzlichen Rente ist einkommensteuerpflichtig?",
+      "antwort": "Das hängt vom Jahr des Rentenbeginns ab: Seit 2023 steigt der steuerpflichtige Anteil nur noch um 0,5 Prozentpunkte pro Jahr; bei Rentenbeginn 2026 sind es 84 %. Der steuerfreie Teil wird als fester Eurobetrag für die gesamte Rentenlaufzeit festgeschrieben, volle Besteuerung gilt erst für Neurentner ab 2058.",
+      "norm": "§ 22 Nr. 1 Satz 3 Buchst. a Doppelbuchst. aa EStG"
     }
   },
   "mehr": {
     "schlagzeilen": {
       "lage": "Nach dem Fast-Bärenmarkt am Mittwoch hat Europa am Donnerstag kräftig aufgeholt (DAX +2,1 %), Asien folgt am Freitag. Im Fokus stehen die neue EZB-Spitze, SAPs möglicher Stellenabbau und der moderate Metall-Tarif; in New York zählt der verkürzte Black-Friday-Handel.",
       "meldungen": [
+        {
+          "tag": "Konjunktur",
+          "titel": "US-Warenhandelsdefizit springt im Oktober auf 149,5 Mrd. $ – Importe +6,1 %",
+          "warum": "KI-Kapitalgüter treiben die Importe; das drückt das US-Wachstum im 4. Quartal und trifft Trumps Zollversprechen.",
+          "quelle": "ANI",
+          "url": "https://www.tribuneindia.com/news/economic-growth/us-goods-trade-deficit-widens-10-7-to-usd-149-5-billion-in-october-as-imports-surge",
+          "zeit": "27.11., 14:52",
+          "medien": [
+            "ANI",
+            "Anadolu"
+          ]
+        },
+        {
+          "tag": "Konjunktur",
+          "titel": "Arbeitslosenzahl fällt leicht auf 2,936 Millionen – saisonbereinigt aber +9.000",
+          "warum": "Der Anstieg liegt über dem Konsens von +4.000 und zeigt, dass die leichte Erholung den Arbeitsmarkt noch nicht erreicht.",
+          "quelle": "Handelsblatt",
+          "url": "https://www.handelsblatt.com/politik/deutschland/arbeitsagentur-deutsche-arbeitslosenzahl-faellt-leicht-auf-293-millionen/100273230.html",
+          "zeit": "27.11., 09:59",
+          "medien": [
+            "Handelsblatt",
+            "Reuters",
+            "ZDF",
+            "t-online"
+          ]
+        },
+        {
+          "tag": "Geldpolitik",
+          "titel": "EU-Gipfel: Pablo Hernández de Cos wird Nachfolger von EZB-Chefin Lagarde, Brunnermeier Chefvolkswirt",
+          "warum": "Kontinuität an der EZB-Spitze ab Februar; der BIZ-Chef gilt als pragmatisch und stabilitätsorientiert.",
+          "quelle": "Handelsblatt",
+          "url": "https://www.handelsblatt.com/finanzen/geldpolitik/ezb-pablo-hernandez-de-cos-wird-neuer-chef-der-euro-notenbank/100272970.html",
+          "zeit": "26.11., 14:48",
+          "medien": [
+            "Handelsblatt",
+            "Euronews"
+          ]
+        },
+        {
+          "tag": "Unternehmen",
+          "titel": "SAP erwägt Abbau von mehr als 10.000 Stellen wegen KI-Umbau",
+          "warum": "Größter Software-Konzern Europas würde damit weiter auf Effizienz setzen; eine Bestätigung steht aus.",
+          "quelle": "Handelsblatt",
+          "url": "https://www.handelsblatt.com/technik/ki/sap-dax-konzern-plant-massiven-stellenabbau/100273115.html",
+          "zeit": "26.11., 19:02",
+          "medien": [
+            "Handelsblatt"
+          ]
+        },
+        {
+          "tag": "Tarife",
+          "titel": "Metall-Tarifabschluss: 2,0 % ab Mai 2027, 2,3 % ab April 2028, 25 Monate Laufzeit",
+          "warum": "Moderater Pilotabschluss für 3,7 Mio. Beschäftigte senkt Lohnkostenrisiken für Industrie und EZB-Sorgen.",
+          "quelle": "Handelsblatt",
+          "url": "https://www.handelsblatt.com/politik/deutschland/tarifabschluss-mehr-geld-fuer-metaller-mehr-flexibilitaet-fuer-unternehmen/100272604.html",
+          "zeit": "26.11., 16:26",
+          "medien": [
+            "Handelsblatt"
+          ]
+        },
+        {
+          "tag": "Asien",
+          "titel": "Nikkei +1,2 % auf 58.172 Punkte, Kospi +2,8 % – Tokioter Kerninflation 2,9 % unter Konsens",
+          "warum": "Asien holt die europäische Rallye nach; schwächere Inflation dämpft BoJ-Wetten leicht.",
+          "quelle": "RTTNews",
+          "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70241350-asian-markets-trade-mostly-higher-020.htm",
+          "zeit": "27.11., 04:42",
+          "medien": [
+            "RTTNews",
+            "AP"
+          ]
+        },
         {
           "tag": "Chips",
           "titel": "Neue US-Exportregeln für KI-Chips erschüttern Südostasiens Rechenzentrumsboom",
@@ -3955,81 +3974,23 @@
             "dpa-AFX",
             "Handelsblatt"
           ]
-        },
-        {
-          "tag": "Banken",
-          "titel": "Bank of England senkt Kapitalanforderungen für britische Inlandsbanken",
-          "warum": "Mehr Spielraum für Kreditvergabe – Signal, dass die BoE Finanzstabilität trotz Zinserhöhungen lockerer reguliert.",
-          "quelle": "Reuters",
-          "url": "https://www.thestandard.com.hk/finance/article/349793/Bank-of-England-to-cut-capital-requirements-for-UK-focused-lenders",
-          "zeit": "26.11.",
-          "medien": [
-            "Reuters"
-          ]
-        },
-        {
-          "tag": "Banken",
-          "titel": "UniCredit will Orcel an die Spitze des Commerzbank-Aufsichtsrats setzen – Bund gibt Widerstand auf",
-          "warum": "Mit knapp 50 % der Aktien beantragt UniCredit eine außerordentliche HV (wohl Anfang Januar), will neun von zehn Kapitalvertretern abberufen und rund 7.000 Stellen streichen.",
-          "quelle": "dpa-AFX",
-          "url": "https://www.ariva.de/news/roundup-5-unicredit-chef-soll-aufsichtsrat-der-commerzbank-12221768",
-          "zeit": "26.11., 16:09",
-          "medien": [
-            "dpa",
-            "t-online"
-          ]
-        },
-        {
-          "tag": "Börse",
-          "titel": "Xetra-Schluss: DAX +2,1 % auf 25.231 Punkte – Autos und Rüstung vorn, Commerzbank −2,6 %",
-          "warum": "Schaeffler, VW, BMW und Rheinmetall (+4 % zum Kapitalmarkttag) führen die Erholung an; die Deutsche Bank sieht den DAX Ende 2027 bei 28.800 Punkten, gut 14 % höher.",
-          "quelle": "Dow Jones Newswires",
-          "url": "https://www.finanzen.net/nachricht/aktien/xetra-schluss-deutliche-erholung-schiebt-dax-wieder-klar-ueber-25-000-punkte-16088948",
-          "zeit": "26.11., 17:49",
-          "medien": [
-            "dpa"
-          ]
-        },
-        {
-          "tag": "Geldpolitik",
-          "titel": "EZB-Protokoll: Große Mehrheit war schon im Oktober für eine Zinserhöhung offen",
-          "warum": "Bestätigt die fast sichere Anhebung des Einlagensatzes auf 2,75 % am 17.12.; Investoren rechnen wegen hoher Energiepreise mit weiteren Schritten 2027.",
-          "quelle": "Reuters",
-          "url": "https://www.investing.com/news/economy-news/ecb-already-had-large-support-for-rate-hike-in-oct-accounts-show-5052492",
-          "zeit": "26.11., 13:44",
-          "medien": [
-            "Reuters"
-          ]
-        },
-        {
-          "tag": "Unternehmen",
-          "titel": "Rheinmetall steigt um rund 5 % zum Kapitalmarkttag – gekappte 2030-Ziele erwartet",
-          "warum": "Der Markt erwartet statt rund 50 Mrd. € Umsatz 2030 eher 35 bis 40 Mrd. €; RBC sieht die Senkung im Kurs (−60 % vom Rekord) bereits mehr als eingepreist, die Ziele kommen am Freitag.",
-          "quelle": "dpa-AFX",
-          "url": "https://www.ariva.de/news/aktie-im-fokus-rheinmetall-weiter-erholt-warten-auf-12221186",
-          "zeit": "26.11., 10:25",
-          "medien": [
-            "dpa-AFX",
-            "finanzen.at"
-          ]
-        },
-        {
-          "tag": "Konjunktur",
-          "titel": "GfK-Konsumklima: −30,2 Punkte, Kauflaune bleibt vor Weihnachten schwach",
-          "warum": "Nur minimal besser als im Vormonat (−30,9) und knapp unter Konsens (−30,0): der private Konsum fällt als Stütze der Konjunktur weiter aus.",
-          "quelle": "dpa-AFX",
-          "url": "https://www.finanzen.at/nachrichten/aktien/deutschland-kauflaune-bleibt-vor-dem-weihnachtsgeschaft-schwach-1036802260",
-          "zeit": "26.11., 08:12",
-          "medien": [
-            "dpa-AFX",
-            "finanzen.at"
-          ]
         }
       ]
     },
     "watch": {
-      "lage": "Die Watchlist steht im Zeichen der Rotation: KI- und Chipwerte bleiben nach dem Einbruch nervös, Standardwerte und Konsumtitel profitieren. Heute handelt nur Europa und Asien, die US-Börsen ruhen.",
+      "lage": "Nach der Chip-Rally vom Freitag stehen Speicher- und Halbleiterwerte im Fokus, Nvidia muss neue US-Exportregeln verkraften. In der neuen Woche testen CrowdStrike, Salesforce und die Tesla-Hauptversammlung die Stimmung, in Europa Rheinmetall, SAP und MTU.",
       "meldungen": [
+        {
+          "tag": "Technologie",
+          "titel": "Nvidia stoppt laut Bericht Serverlieferungen nach Malaysia, Singapur, Thailand und Indonesien",
+          "warum": "Grund sind neue US-Exportregeln gegen die Umleitung von KI-Chips nach China; Goldman erwartet zudem weitere Verkäufe systematischer Fonds von rund 100 Mrd. $.",
+          "quelle": "TradingKey",
+          "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262325775-nasdaq-leads-black-friday-rally-dow-posts-best-week-since-2022-tradingkey",
+          "zeit": "27.11.",
+          "medien": [
+            "TradingKey"
+          ]
+        },
         {
           "tag": "Unternehmen",
           "titel": "Nvidia: S&P droht mit Herabstufung des AA-Ratings",
@@ -4111,17 +4072,6 @@
             "New York Times",
             "Axios"
           ]
-        },
-        {
-          "titel": "Vance spielte laut Vertrauten zentrale Rolle bei Huangs Rückkehr",
-          "warum": "Das Weiße Haus mischt sich ungewöhnlich direkt in die Führung des wertvollsten Konzerns ein.",
-          "quelle": "Politico",
-          "url": "https://www.politico.com/news/2026/11/23/white-house-allies-credit-vance-not-just-trump-for-huangs-return-01180872",
-          "zeit": "23.11.",
-          "medien": [
-            "Politico",
-            "Axios"
-          ]
         }
       ]
     },
@@ -4194,8 +4144,32 @@
       ]
     },
     "rohstoffe": {
-      "lage": "Öl fällt trotz geschlossener Straße von Hormus, weil das Angebot anderswo steigt; Brent liegt auf Drei-Monats-Tief. Gold leidet unter den Zinserhöhungserwartungen und notiert nahe einem Jahrestief.",
+      "lage": "Öl schloss die Woche erstmals im November im Plus (Brent 95,44 $), Gold stieg auf rund 3.636 $ und damit erstmals seit drei Wochen. Am Sonntag entscheidet OPEC+, gleichzeitig halten Angriffe am Golf das Risiko hoch.",
       "meldungen": [
+        {
+          "tag": "Energie",
+          "titel": "Brent fällt am Freitag 1,2 % auf 95,44 $, schafft aber das erste Wochenplus im November",
+          "warum": "Angriffe auf Tanker und saudische Anlagen stützen, das erwartete Überangebot 2027 bremst; am Sonntag entscheidet OPEC+ über die Quoten.",
+          "quelle": "Reuters",
+          "url": "https://www.asiaone.com/money/oil-notches-first-weekly-gain-november-supply-fears",
+          "zeit": "28.11., 04:48",
+          "medien": [
+            "Reuters",
+            "The National"
+          ]
+        },
+        {
+          "tag": "Rohstoffe",
+          "titel": "Gold steigt um fast 2 % auf rund 3.636 $ und steuert auf erstes Wochenplus seit drei Wochen zu",
+          "warum": "Sichere Häfen sind trotz Dollar nahe 22-Monats-Hoch gefragt; Zinserhöhungsrisiken der Fed deckeln den Anstieg.",
+          "quelle": "Reuters",
+          "url": "https://www.kitco.com/news/off-the-wire/2026-11-27/gold-pares-gains-fed-hike-risks-linger-eyes-first-weekly-rise-three",
+          "zeit": "27.11., 16:03",
+          "medien": [
+            "Reuters",
+            "Kitco"
+          ]
+        },
         {
           "tag": "Öl",
           "titel": "Brent verliert im November rund ein Fünftel – trotz Angriffen in Hormus",
@@ -4262,32 +4236,24 @@
           "medien": [
             "Reuters"
           ]
-        },
-        {
-          "titel": "Gold erholt sich leicht von Jahrestief, Fed-Ausblick bremst",
-          "warum": "Spotpreis um 3.870 Dollar je Unze; Zinserhöhungen belasten das zinslose Metall.",
-          "quelle": "Khaleej Times (Reuters)",
-          "url": "https://www.khaleejtimes.com/gold-inches-up-from-over-one-year-low-fed-outlook-caps-gains",
-          "zeit": "17.11.",
-          "medien": [
-            "Reuters"
-          ]
-        },
-        {
-          "titel": "Minenwerte brechen in Europa ein",
-          "warum": "Anglo American und Antofagasta verlieren über 5 % bei fallenden Metallpreisen.",
-          "quelle": "Reuters",
-          "url": "https://www.investing.com/news/stock-market-news/europes-stoxx-600-subdued-after-aidriven-rally-5047331",
-          "zeit": "24.11.",
-          "medien": [
-            "Reuters"
-          ]
         }
       ]
     },
     "anleihen": {
-      "lage": "Die Renditen bleiben hoch: US-Zehnjährige nahe 4,9 %, Bund bei rund 3,3 %. Der Markt rechnet mit weiteren Fed-Erhöhungen; Deutschland finanziert 2027 eine Rekord-Neuverschuldung nahe 210 Mrd. Euro.",
+      "lage": "US-Renditen bleiben hoch: Zehnjährige bei 4,94 %, Zweijährige 4,72 %, die Kurve ist so flach wie seit Februar nicht. Der Markt preist die Fed-Erhöhung am 9.12. und eine weitere bis März ein; der Bundestag hat den Haushalt 2027 mit 123 Mrd. € neuen Schulden beschlossen.",
       "meldungen": [
+        {
+          "tag": "Zinsen",
+          "titel": "US-Rendite 10 J. steigt auf 4,94 %, Zinskurve so flach wie seit Februar nicht",
+          "warum": "Zweijährige bei 4,72 % (+7 bp in der Woche): Der Markt preist zwei Fed-Erhöhungen bis März voll ein; Dollar-Index 104,0.",
+          "quelle": "Stocktwits",
+          "url": "https://finance.yahoo.com/markets/currencies/articles/weekly-spread-shaped-us-treasury-235226152.html",
+          "zeit": "28.11., 00:52",
+          "medien": [
+            "Stocktwits",
+            "Reuters"
+          ]
+        },
         {
           "tag": "Anleihen",
           "titel": "Beige Book: Löhne steigen schneller, Kostendruck hält an",
@@ -4366,8 +4332,31 @@
       ]
     },
     "indizes": {
-      "lage": "Der KI-Handel dreht: Nach Nvidias Rekordtag fiel die Nasdaq um 1,5 %, während der Dow erstmals über 50.000 Punkte schloss. Heute früh brechen Kospi, Taiex und Nikkei ein, der DAX hält sich vorbörslich dennoch stabil (IG-Indikation 25.070 Punkte, +0,2 %); neue US-Zollpläne und die PCE-Daten am Nachmittag geben die Richtung vor.",
+      "lage": "Die Wall Street erholt sich kräftig vom November-Abverkauf: S&P 500 (+5,6 %) und Nasdaq (+6,7 %) hatten ihre beste Woche seit Frühjahr 2025, der Dow die beste seit Oktober 2022; auch der DAX schloss die Woche 2,6 % höher. Goldman warnt aber vor weiteren Verkäufen systematischer Fonds von rund 100 Mrd. $.",
       "meldungen": [
+        {
+          "tag": "Märkte",
+          "titel": "Wall Street mit bester Woche seit 2022: Dow +1,2 %, S&P 500 +1,6 %, Nasdaq +2,3 % am Black Friday",
+          "warum": "Im verkürzten Handel kauften Anleger die im November abgestraften Tech- und Chipwerte zurück; auf Wochensicht S&P 500 +5,6 %, Nasdaq +6,7 % – trotz fest eingepreister Fed-Erhöhung im Dezember.",
+          "quelle": "JBizNews",
+          "url": "https://jbiznews.com/u-s-stocks-close-sharply-higher-in-shortened-black-friday-session-and-post-big-weekly-gains-dow-jones-industrial-average-up-1-18-sp-500-up-1-60-nasdaq-composite-up-2-31/",
+          "zeit": "27.11., 19:29",
+          "medien": [
+            "Reuters",
+            "JBizNews"
+          ]
+        },
+        {
+          "tag": "Unternehmen",
+          "titel": "Chipwerte haussieren: Halbleiterindex SOX +4,7 %, SanDisk +16 %, Micron +7,6 % – Anthropic-Aktie +11 %",
+          "warum": "Speicherhersteller profitieren von knappen Kapazitäten; Anthropic legte nach Angaben zu deutlich effizienterer Claude-Infrastruktur zu.",
+          "quelle": "TradingKey",
+          "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262325775-nasdaq-leads-black-friday-rally-dow-posts-best-week-since-2022-tradingkey",
+          "zeit": "27.11.",
+          "medien": [
+            "TradingKey"
+          ]
+        },
         {
           "tag": "Indizes",
           "titel": "DAX 24.702 (−1,26 %), EuroStoxx 50 auf Tief seit Mai",
@@ -4434,27 +4423,6 @@
           "zeit": "24.11.",
           "medien": [
             "Reuters"
-          ]
-        },
-        {
-          "titel": "Nvidia-Aktie springt nach Huangs Rückkehr",
-          "warum": "Treiber der globalen Tech-Rally vom Montag.",
-          "quelle": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
-          "zeit": "23.11.",
-          "medien": [
-            "CNBC",
-            "AP"
-          ]
-        },
-        {
-          "titel": "Wall Street stürzt wegen KI-Sorgen ab",
-          "warum": "Der Einbruch vom 16.11. leitete die Korrektur ein.",
-          "quelle": "AP (Star-Advertiser)",
-          "url": "https://www.staradvertiser.com/2026/11/16/breaking-news/wall-street-tumbles-as-ai-jitters-hit-tech-stocks/",
-          "zeit": "16.11.",
-          "medien": [
-            "AP"
           ]
         }
       ]
@@ -4637,6 +4605,42 @@
       "lage": "Europa ringt um Geld und Sicherheit: Der EU-Gipfel scheiterte beim Haushalt 2028–2034 und beim Ukraine-Kredit, einigte sich aber auf die neue EZB-Spitze. Am Golf weitet sich der Krieg aus – mit Toten in Kuwait und Angriffen auf saudische Raffinerien.",
       "meldungen": [
         {
+          "tag": "EU",
+          "titel": "Hernández de Cos wird EZB-Präsident",
+          "warum": "Die Chefs einigten sich beim Gipfel auf den BIZ-Chef als Nachfolger Lagardes ab Februar.",
+          "quelle": "Handelsblatt",
+          "url": "https://www.handelsblatt.com/finanzen/geldpolitik/ezb-pablo-hernandez-de-cos-wird-neuer-chef-der-euro-notenbank/100272970.html",
+          "zeit": "26.11., 14:48",
+          "medien": [
+            "Handelsblatt",
+            "Euronews"
+          ]
+        },
+        {
+          "tag": "Golf",
+          "titel": "Zwei Italiener bei iranischem Drohnenangriff in Kuwait getötet – Iran bestreitet",
+          "warum": "Die Techniker arbeiteten an einem Luftabwehrsystem; laut Handelsblatt waren es Rheinmetall-Mitarbeiter.",
+          "quelle": "The New Arab",
+          "url": "https://www.newarab.com/news/iran-denies-deadly-kuwait-attack-houthis-target-saudi-refinery",
+          "zeit": "26.11., 17:55",
+          "medien": [
+            "Handelsblatt",
+            "CBS News",
+            "Khaleej Times"
+          ]
+        },
+        {
+          "tag": "Ukraine",
+          "titel": "Trump: Habe Putin aufgefordert, Aggression gegen Gebiete in ganz Europa zurückzufahren",
+          "warum": "Trump nennt keine Details; Putin wolle laut Trump „einen Deal“ – Europa fürchtet eine Ausweitung des Krieges.",
+          "quelle": "Reuters",
+          "url": "https://www.thestandard.com.hk/world/article/349801/Trump-says-he-asked-Putin-to-pull-back-military-aggression-throughout-Europe",
+          "zeit": "26.11.",
+          "medien": [
+            "Reuters"
+          ]
+        },
+        {
           "tag": "Golf",
           "titel": "Houthis greifen Saudi-Arabiens größte Raffinerie Ras Tanura an",
           "warum": "Die Koalition meldet vier abgefangene Drohnen, droht mit einem Angriff auf Hodeida; die Houthis drohen Dschidda und allen saudischen Häfen am Roten Meer.",
@@ -4694,45 +4698,47 @@
             "Reuters",
             "Euronews"
           ]
-        },
-        {
-          "titel": "Houthi-Angriff auf Hochhaus im Finanzviertel von Riad, 11 Verletzte",
-          "warum": "Der Krieg greift auf Saudi-Arabien über; die saudische Koalition reagiert mit Angriffen auf Hodeida, Rubio verurteilt die Houthi-Attacken.",
-          "quelle": "CBS News",
-          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-blockade-strait-of-hormuz-ship-attacks/",
-          "zeit": "24.11., 16:55",
-          "medien": [
-            "CBS News",
-            "Reuters"
-          ]
-        },
-        {
-          "titel": "Israels Verteidigungsminister: Iran entwickelt Chemiewaffen",
-          "warum": "Katz bringt einen Präventivschlag ins Spiel; Teheran will die Straße von Hormus weiter abriegeln.",
-          "quelle": "CBS News",
-          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-blockade-strait-of-hormuz-ship-attacks/",
-          "zeit": "24.11., 19:20",
-          "medien": [
-            "CBS News",
-            "Reuters"
-          ]
-        },
-        {
-          "titel": "Russischer Angriff auf Saporischschja: 2 Tote, Dutzende Verletzte",
-          "warum": "Lettlands Präsident Rinkēvičs sieht 2027 einen möglichen Wendepunkt im Krieg.",
-          "quelle": "Reuters",
-          "url": "https://www.reuters.com/world/russian-attack-kills-2-people-wounds-22-ukraines-zaporizhzhia-official-says-2026-11-24/",
-          "zeit": "24.11.",
-          "medien": [
-            "Reuters",
-            "Politico Europe"
-          ]
         }
       ]
     },
     "usa": {
       "lage": "Nach den verlorenen Midterms greift Trump Institutionen an, an Thanksgiving zuletzt die Statistikbehörde BEA. Außenpolitisch sucht Washington Deals mit Russland und Kontakte nach Teheran, während der Zollvorstoß gegen 14 Länder läuft.",
       "meldungen": [
+        {
+          "tag": "Ukraine",
+          "titel": "Trump: Putin „würde gern einen Deal machen“",
+          "warum": "Trump betont, ihm gehe es darum, das Töten zu beenden; zugleich fordert er Russland auf, die Aggression in Europa zu stoppen.",
+          "quelle": "Reuters",
+          "url": "https://www.thestandard.com.hk/world/article/349801/Trump-says-he-asked-Putin-to-pull-back-military-aggression-throughout-Europe",
+          "zeit": "26.11.",
+          "medien": [
+            "Reuters"
+          ]
+        },
+        {
+          "tag": "Wetter",
+          "titel": "Thanksgiving-Sturm legt an der Ostküste Strom und Flüge lahm",
+          "warum": "Stromausfälle und Flugstörungen zum Reisehöhepunkt des Jahres.",
+          "quelle": "Reuters",
+          "url": "https://www.thestandard.com.hk/world/article/349800/Thanksgiving-storm-knocks-out-power-disrupts-flights-on-US-East-Coast",
+          "zeit": "26.11.",
+          "medien": [
+            "Reuters"
+          ]
+        },
+        {
+          "tag": "Handel",
+          "titel": "USTR schlägt Zölle gegen 14 Länder vor – China bis 20 % zusätzlich",
+          "warum": "Ersatz für die vom Supreme Court gekippten Notstandszölle; Experten erwarten Klagen. Kommentarfrist bis 5. Januar.",
+          "quelle": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/25/trump-announces-new-trade-tariffs-which-countries-will-they-target",
+          "zeit": "25.11.",
+          "medien": [
+            "Al Jazeera",
+            "Washington Post",
+            "AP"
+          ]
+        },
         {
           "tag": "Kongress",
           "titel": "Trump will Demokraten El-Sayed treffen – „Trumpcare“ statt Medicare for All?",
@@ -4789,44 +4795,71 @@
             "Politico",
             "BBC"
           ]
-        },
-        {
-          "titel": "Berufungsgericht öffnet Trump Weg zur Tilgung der Schweigegeld-Verurteilung",
-          "warum": "Das Bundesberufungsgericht ermöglicht die Verlagerung des Falls an ein Bundesgericht, wo Trump sich auf Immunität berufen kann.",
-          "quelle": "New York Times",
-          "url": "https://www.nytimes.com/2026/11/23/nyregion/trump-conviction-appeal-federal-court.html",
-          "zeit": "23.11.",
-          "medien": [
-            "New York Times",
-            "AP"
-          ]
-        },
-        {
-          "titel": "Republikaner erwägen Deal: Geld fürs Militär, Grenzen für den Iran-Krieg",
-          "warum": "Nach den verlorenen Midterms wächst in der eigenen Partei der Druck, Trumps Iran-Einsatz zu begrenzen.",
-          "quelle": "CNN",
-          "url": "https://www.cnn.com/2026/11/23/politics/republicans-deal-iran-war",
-          "zeit": "23.11.",
-          "medien": [
-            "CNN"
-          ]
-        },
-        {
-          "titel": "Abgeordneter Gomez tritt nach Ethikbericht zurück",
-          "warum": "Der kalifornische Demokrat zieht Konsequenzen aus einem Bericht über sexuelles Fehlverhalten.",
-          "quelle": "NPR",
-          "url": "https://www.npr.org/2026/11/23/g-s1-155142/california-democrat-rep-gomez-resigns-following-ethics-report-on-sexual-misconduct-allegations",
-          "zeit": "23.11.",
-          "medien": [
-            "NPR",
-            "New York Times"
-          ]
         }
       ]
     },
     "deutschland": {
-      "lage": "Heute ist Haushaltstag im Bundestag, parallel ringt die Koalition um die Rentenreform. Wirtschaftlich setzen der Metall-Tarif und Berichte über einen Stellenabbau bei SAP die Themen.",
+      "lage": "Nach dem Haushaltsbeschluss rückt die Rente ins Zentrum: Arbeitsminister Schweitzer hat einen eigenen Entwurf vorgelegt, die Union reagiert empört, das Kanzleramt sieht keine Einigung. Am Wochenende tagen BSW und Jusos, der Kabinettsbeschluss zur Rente war für Mitte Dezember geplant.",
       "meldungen": [
+        {
+          "tag": "Haushalt",
+          "titel": "Haushalt 2027: Neuverschuldung steigt von 98 auf 123 Mrd. €",
+          "warum": "Reuters-Bericht zu Details der Schlussabstimmung, inklusive Verteidigung (rund 140 Mrd. €) und Ukraine-Hilfe (12 Mrd. €).",
+          "quelle": "Handelsblatt",
+          "url": "https://www.handelsblatt.com/politik/deutschland/neuverschuldung-bundestag-beschliesst-haushalt-fuer-2027/100273330.html",
+          "zeit": "27.11., 15:01",
+          "medien": [
+            "Handelsblatt",
+            "Reuters"
+          ]
+        },
+        {
+          "tag": "Rente",
+          "titel": "Schweitzer: Rund 27 % der heute Berechtigten fielen künftig aus der Rente nach 45 Jahren",
+          "warum": "Zeiten der Arbeitslosigkeit und Krankheit sollen nicht mehr zählen; Kabinettsbeschluss war für den 9. oder 16.12. geplant.",
+          "quelle": "ZDFheute",
+          "url": "https://www.zdfheute.de/politik/rente-mit-63-koalition-schweitzer-vorschlag-100.html",
+          "zeit": "27.11., 15:30",
+          "medien": [
+            "ZDFheute",
+            "Handelsblatt"
+          ]
+        },
+        {
+          "tag": "Bundestag",
+          "titel": "Bundestag beschließt Rekordhaushalt 2027",
+          "warum": "556 Mrd. € Ausgaben im Kernhaushalt, 123 Mrd. € Schulden, fast 140 Mrd. € Verteidigung – jeder dritte Euro ist kreditfinanziert.",
+          "quelle": "ZDFheute",
+          "url": "https://www.zdfheute.de/politik/deutschland/haushalt-2027-beschlossen-abstimmung-bundestag-100.html",
+          "zeit": "27.11., 14:50",
+          "medien": [
+            "ZDFheute",
+            "t-online"
+          ]
+        },
+        {
+          "tag": "Koalition",
+          "titel": "Rentenreform: Koalitionsspitzen verhandeln im Kanzleramt über Rente nach 45 Jahren",
+          "warum": "Unions-Abgeordnete wollen die abschlagsfreie Rente nur für Geringverdiener erhalten, die SPD lehnt ab – Existenzfrage für Schwarz-Rot.",
+          "quelle": "Handelsblatt",
+          "url": "https://www.handelsblatt.com/politik/deutschland/rentenreform-warum-diese-reform-zur-existenzfrage-fuer-die-koalition-wird/100272907.html",
+          "zeit": "26.11., 13:49",
+          "medien": [
+            "Handelsblatt"
+          ]
+        },
+        {
+          "tag": "Steuern",
+          "titel": "Klingbeil will Steuerschlupfloch bei Share Deals schließen",
+          "warum": "Ab Juli 2027 soll Grunderwerbsteuer schon ab 90 % Anteilserwerb mehrerer Käufer fällig werden.",
+          "quelle": "Reuters",
+          "url": "https://www.handelsblatt.com/finanzen/immobilien/immobilien-klingbeil-will-steuerschlupfloch-beim-hauskauf-schliessen/100272430.html",
+          "zeit": "24.11., 14:34",
+          "medien": [
+            "Reuters",
+            "Handelsblatt"
+          ]
+        },
         {
           "tag": "Bundestag",
           "titel": "Merz verteidigt Rekordhaushalt: „Wir haben das Geld nicht mehr für alles“",
@@ -4863,62 +4896,6 @@
             "ZDFheute",
             "t-online",
             "dpa"
-          ]
-        },
-        {
-          "titel": "Merz: Verzicht auf NATO-Beitritt der Ukraine 2008 war schwerer Fehler",
-          "warum": "Mit einem Beitritt wäre Russlands Großangriff wohl verhindert worden, so der Kanzler; Rutte nennt eine Mitgliedschaft eine ferne Perspektive.",
-          "quelle": "Euronews",
-          "url": "https://de.euronews.com/2026/11/24/merz-verzicht-auf-nato-beitritt-der-ukraine-2008-war-schwerer-fehler",
-          "zeit": "24.11., 06:38",
-          "medien": [
-            "Euronews",
-            "dpa"
-          ]
-        },
-        {
-          "titel": "Ifo-Index auf höchstem Stand seit Frühjahr 2023",
-          "warum": "Siebtes Plus in Folge: Dienstleister und Handel schöpfen Hoffnung, die Industrie bleibt skeptisch.",
-          "quelle": "Handelsblatt",
-          "url": "https://www.handelsblatt.com/politik/deutschland/konjunktur-ifo-geschaeftsklima-steigt-auf-hoechststand-seit-fruehjahr-2023/100272331.html",
-          "zeit": "24.11., 11:22",
-          "medien": [
-            "Handelsblatt",
-            "dpa"
-          ]
-        },
-        {
-          "tag": "Bundestag",
-          "titel": "Generaldebatte zum Haushalt 2027: Merz trifft auf Weidel",
-          "warum": "Weidel spricht von einem „Haushalt der Negativrekorde“, die AfD rechnet 560 Mrd. € und eine „Schuldenorgie“ vor; der Etat soll am Freitag beschlossen werden.",
-          "quelle": "ZDF",
-          "url": "https://www.zdfheute.de/video/zdfheute-live/bundestags-debatte-haushalt-2027-100.html",
-          "zeit": "25.11.",
-          "medien": [
-            "ZDF",
-            "NZZ"
-          ]
-        },
-        {
-          "titel": "Berliner Linke stimmt über Ausschluss von Vanessa Emde ab",
-          "warum": "Die Fraktionsspitze beantragt den Rauswurf der Neuköllner Abgeordneten; nötig ist eine Zweidrittelmehrheit, der Streit belastet die rot-grün-roten Koalitionsverhandlungen.",
-          "quelle": "Stuttgarter Zeitung",
-          "url": "https://www.stuttgarter-zeitung.de/politik/regierungsbildung-in-berlin-berliner-linke-fraktionsspitze-beantragt-ausschluss-emdes-79714088.html",
-          "zeit": "17.11., 17:21",
-          "medien": [
-            "Stuttgarter Zeitung",
-            "dpa"
-          ]
-        },
-        {
-          "titel": "Bundestag beschließt diese Woche den Haushalt 2027",
-          "warum": "Kernhaushalt 560,9 Mrd. Euro, rund 123 Mrd. Euro neue Kernschulden; offen ist, ob die Koalition eine allgemeine Stromsteuersenkung finanzieren kann.",
-          "quelle": "ZDFheute",
-          "url": "https://www.zdfheute.de/politik/deutschland/haushalt-haushaltsausschuss-bundestag-union-spd-100.html",
-          "zeit": "13.11., 10:04",
-          "medien": [
-            "ZDFheute",
-            "Reuters"
           ]
         }
       ]
@@ -5066,6 +5043,17 @@
     "konflikte": {
       "lage": "Zwei Kriege bestimmen die Lage: In der Ukraine steht die Front fast still, beide Seiten führen einen Luftkrieg gegen Energie und Militärflugplätze. Am Golf weitet sich der Iran-Krieg über die Houthis nach Saudi-Arabien aus, während Washington parallel um Deals für die Ukraine und Gaza ringt.",
       "meldungen": [
+        {
+          "tag": "Russland",
+          "titel": "Russlands Kriegstote sollen laut Berichten 700.000 übersteigen",
+          "warum": "Moskau hat zunehmend Mühe, neue Rekruten zu gewinnen.",
+          "quelle": "Fox News",
+          "url": "https://www.foxnews.com/world/putins-war-death-toll-reportedly-tops-700000-russia-scrambles-recruits",
+          "zeit": "27.11.",
+          "medien": [
+            "Fox News"
+          ]
+        },
         {
           "titel": "Houthi-Angriff auf Hochhaus im Finanzviertel von Riad, 11 Verletzte",
           "warum": "Der Krieg greift auf Saudi-Arabien über; die saudische Koalition reagiert mit Angriffen auf Hodeida, Rubio verurteilt die Houthi-Attacken.",
@@ -5220,6 +5208,54 @@
       "lage": "ISW sieht die russischen Festungsgürtel-Pläne als militärisch gescheitert; Russland kommt fast nur noch bei Dobropillja voran, während die Ukraine im Raum Charkiw Gelände zurückholt. Entscheidend für den Winter sind Luftabwehr und Patriot-Nachschub.",
       "meldungen": [
         {
+          "tag": "RU-Vorstoß",
+          "titel": "Dobropillja: Russische Panzerkräfte rücken südöstlich der Stadt vor",
+          "warum": "Einziger von ISW bestätigter russischer Geländegewinn; Nebel und Wind erschweren der Ukraine den Drohneneinsatz.",
+          "quelle": "ISW",
+          "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-november-25-2026",
+          "zeit": "26.11., 00:00",
+          "medien": [
+            "ISW",
+            "Kyiv Post"
+          ]
+        },
+        {
+          "tag": "UA-Gegenangriff",
+          "titel": "Welykyj Burluk: Ukraine hat 204 km² und 14 Orte befreit",
+          "warum": "Die Gegenoffensive im Gebiet Charkiw ist der größte ukrainische Geländegewinn seit Monaten; Gegenangriffe auch nördlich von Sumy.",
+          "quelle": "ISW",
+          "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-november-25-2026",
+          "zeit": "26.11., 00:00",
+          "medien": [
+            "ISW",
+            "Kyiv Independent"
+          ]
+        },
+        {
+          "tag": "Luftkrieg",
+          "titel": "Ukraine trifft Raffinerien Kuibyschew und Sysran – knapp 6 % des russischen Durchsatzes",
+          "warum": "Vizepremier Nowak räumt einen stark angespannten Kraftstoffmarkt ein, Russland importiert Treibstoff.",
+          "quelle": "ISW",
+          "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-november-25-2026",
+          "zeit": "26.11., 00:00",
+          "medien": [
+            "ISW",
+            "Kyiv Post"
+          ]
+        },
+        {
+          "tag": "Lage",
+          "titel": "ISW: Keine Geländegewinne am 24.11., Putin räumt Kosten der Raffinerie-Angriffe ein",
+          "warum": "Russland griff in der Nacht mit 96 Drohnen an; ein russischer Gouverneur (Murmansk) wurde erstmals seit Kriegsbeginn im Amt verhaftet.",
+          "quelle": "Kyiv Post",
+          "url": "https://www.kyivpost.com/post/91108",
+          "zeit": "25.11.",
+          "medien": [
+            "Kyiv Post",
+            "ISW"
+          ]
+        },
+        {
           "tag": "Unklar",
           "titel": "Kupjansk-Wusliwyj: Beide Seiten beanspruchen den Ort",
           "warum": "ISW kann die Videos nicht verifizieren; die Lage bleibt unklar.",
@@ -5262,23 +5298,24 @@
           "medien": [
             "Kyiv Post"
           ]
-        },
-        {
-          "tag": "Deutschland",
-          "titel": "Pistorius und Chmara einigen sich vorläufig auf weitere Abfangraketen",
-          "warum": "Aus eigenen Patriot-Beständen kann Deutschland nicht mehr liefern; besprochen wurde auch der Drohnenkauf für 2027.",
-          "quelle": "European Pravda",
-          "url": "https://www.eurointegration.com.ua/eng/news/2026/11/24/7250656/",
-          "zeit": "24.11.",
-          "medien": [
-            "European Pravda"
-          ]
         }
       ]
     },
     "diplomatie": {
       "lage": "Washington verhandelt parallel an drei Fronten: Ukraine (Deal bis Januar, Russland verlangt den Donbas), Gaza (Kushner drängt Netanjahu) und Iran (Teheran stellt Bedingungen, Trump setzt Frist bis Ende Januar). In Brüssel berät heute ein EU-Sondergipfel über Geld für die Ukraine.",
       "meldungen": [
+        {
+          "tag": "Ukraine",
+          "titel": "ISW: Sicherheitsgarantien hängen am US-Kongress – Russland verlangt Donbas-Abzug",
+          "warum": "Kushner will Artikel-5-ähnliche Garantien, Trump muss sie aber über den Kongress absichern; Rutte schließt einen NATO-Rückzug auf 1997 aus.",
+          "quelle": "ISW",
+          "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-november-25-2026",
+          "zeit": "26.11., 00:00",
+          "medien": [
+            "ISW",
+            "Wall Street Journal"
+          ]
+        },
         {
           "tag": "EU",
           "titel": "EU-Sondergipfel in Brüssel zu Finanzrahmen und Ukraine-Hilfe",
@@ -5359,17 +5396,6 @@
           "zeit": "24.11.",
           "medien": [
             "European Pravda"
-          ]
-        },
-        {
-          "tag": "Iran",
-          "titel": "Iran erwägt Tanker-Konvoi nach China, um die US-Blockade zu durchbrechen",
-          "warum": "Bei 88,7 % Inflation drängt die Wirtschaftslage Teheran zu riskanten Exportversuchen; das Staatsfernsehen dementiert, dass ein Konvoi schon ausgelaufen ist.",
-          "quelle": "The National",
-          "url": "https://www.thenationalnews.com/news/gulf/2026/11/24/is-iran-weighing-tanker-convoy-to-break-us-blockade/",
-          "zeit": "24.11., 11:05",
-          "medien": [
-            "The National"
           ]
         }
       ]
@@ -5563,8 +5589,32 @@
       ]
     },
     "energie_oel": {
-      "lage": "Die Straße von Hormus ist seit Kriegsbeginn am 28.2. nur eingeschränkt passierbar, Minen trafen zuletzt einen vierten Tanker. Trotzdem fällt Brent auf rund 88–91 $, weil die Förderung außerhalb des Golfs steigt und die IEA für dieses Quartal ein Überangebot erwartet.",
+      "lage": "Der Ölmarkt schwankt zwischen akuten Lieferausfällen am Golf und einem für 2027 erwarteten Überangebot von 4 bis 5 Mio. b/d (IEA, Rystad). Brent liegt nach dem ersten Wochenplus im November bei gut 95 $; entscheidend sind OPEC+ am Sonntag und die Lage in Hormus.",
       "meldungen": [
+        {
+          "tag": "Öl",
+          "titel": "Brent fällt auf 95,44 $, verbucht aber erstes Wochenplus im November",
+          "warum": "Angriffe auf Tanker und saudische Anlagen überlagern die Sorge vor einem Überangebot 2027.",
+          "quelle": "Reuters",
+          "url": "https://www.asiaone.com/money/oil-notches-first-weekly-gain-november-supply-fears",
+          "zeit": "28.11., 04:48",
+          "medien": [
+            "Reuters",
+            "The National"
+          ]
+        },
+        {
+          "tag": "Hormus",
+          "titel": "Kpler: Durch Hormus fließen nur noch rund 54 % der Vorkriegsmenge",
+          "warum": "Im Schnitt 9,25 Mio. b/d in den sieben Tagen bis 24.11., vor dem Krieg waren es 17,1 Mio. b/d.",
+          "quelle": "The National",
+          "url": "https://www.thenationalnews.com/business/energy/2026/11/27/oil-set-to-post-weekly-gain-as-middle-east-attacks-stoke-supply-concerns/",
+          "zeit": "27.11., 08:47",
+          "medien": [
+            "The National",
+            "Reuters"
+          ]
+        },
         {
           "tag": "Öl",
           "titel": "Brent verliert im November rund ein Fünftel – trotz Angriffen in Hormus",
@@ -5588,8 +5638,32 @@
       ]
     },
     "energie_opec": {
-      "lage": "Die sieben Länder mit monatlichen Quoten lassen die Förderung im Dezember unverändert (3. Monat in Folge). Am 29.11. legt die Ministerkonferenz aller 21 Mitglieder die Basismengen für 2027 fest; nach dem 31.12. gibt es bisher keinen Förderrahmen. Die VAE sind seit 1.5.2026 nicht mehr dabei.",
+      "lage": "Vor der Ministerkonferenz am Sonntag zeichnet sich eine Verlängerung der Quoten bis März 2027 ab. Der eigentliche Streit über die Kapazitätsbasen für 2027 – vor allem mit Irak und Kasachstan – wird wohl vertagt; ohne Einigung gibt es nach dem 31.12. keinen gemeinsamen Förderrahmen.",
       "meldungen": [
+        {
+          "tag": "OPEC+",
+          "titel": "OPEC+ will Förderziele laut Insidern bis Ende März 2027 unverändert lassen",
+          "warum": "Der Streit über die neuen Kapazitätsbasen für 2027 soll am Sonntag vertagt werden.",
+          "quelle": "Reuters",
+          "url": "https://www.dawn.com/news/2047238/opec-likely-to-roll-over-oil-output-targets-for-q1-as-capacity-disputes-persist-sources-say",
+          "zeit": "26.11.",
+          "medien": [
+            "Reuters",
+            "Bloomberg"
+          ]
+        },
+        {
+          "tag": "OPEC+",
+          "titel": "Irak bestreitet seine Kapazitätsbewertung und will eine höhere Quote",
+          "warum": "Bagdad sieht sich bei 5,2 Mio. b/d, das unabhängige Audit liegt unter 5 Mio. b/d – Konfliktstoff für das Treffen.",
+          "quelle": "Forbes",
+          "url": "https://www.forbes.com/sites/guneyyildiz/2026/11/25/iraq-disputes-its-opec-capacity-assessment-can-it-use-a-bigger-quota/",
+          "zeit": "25.11.",
+          "medien": [
+            "Forbes",
+            "Reuters"
+          ]
+        },
         {
           "tag": "Öl",
           "titel": "US-Öllager steigen um 1,1 Mio. Barrel, WTI-Kurve dreht ins Contango",
@@ -5710,6 +5784,53 @@
       "meldungen": [
         {
           "tag": "Gas",
+          "titel": "TTF bei knapp 88 €/MWh – Kälte gegen volle Norwegen-Flüsse",
+          "warum": "Speicher unter 68 % machen den Markt anfällig für Kältewellen.",
+          "quelle": "Investing.com",
+          "url": "https://www.investing.com/news/commodities-news/europe-gas-prices-rangebound-as-markets-weigh-middle-east-tensions-5052229",
+          "zeit": "26.11.",
+          "medien": [
+            "Investing.com",
+            "Trading Economics"
+          ]
+        },
+        {
+          "tag": "Öl",
+          "titel": "US-Konsortium will Lukoil-Auslandsgeschäft übernehmen",
+          "warum": "Die Sanktionen zwingen Lukoil zum Verkauf seiner Beteiligungen außerhalb Russlands.",
+          "quelle": "Handelsblatt",
+          "url": "https://www.handelsblatt.com/politik/international/ukraine-usa-aendert-wohl-strategie-zu-geschaeftsabschluessen-mit-russland/27982126.html",
+          "zeit": "26.11., 15:35",
+          "medien": [
+            "Handelsblatt"
+          ]
+        },
+        {
+          "tag": "Russland",
+          "titel": "EU-Bericht: Trump-Politik gab Russlands Energiesektor wirtschaftlichen Rückenhalt",
+          "warum": "Trotz Sanktionen und Drohnenangriffen profitiere Moskau von US-Lockerungen.",
+          "quelle": "Kyiv Independent",
+          "url": "https://kyivindependent.com/exclusive-eu-report-confirms-trump-threw-russian-energy-sector-an-economic-lifeline-even-as-sanctions-ukrainian-drones-bite-hard/",
+          "zeit": "26.11., 06:00",
+          "medien": [
+            "Kyiv Independent"
+          ]
+        },
+        {
+          "tag": "Öl",
+          "titel": "Ölpreis zieht nach Angriff auf Ras Tanura auf 95 $ an",
+          "warum": "Drohnen auf Saudi-Arabiens größte Raffinerie und Minentreffer in Hormus lassen den Risikoaufschlag zurückkehren – drei Tage vor dem OPEC+-Treffen.",
+          "quelle": "The National",
+          "url": "https://www.thenationalnews.com/business/energy/2026/11/26/oil-rebounds-to-95-per-barrel-after-saudi-refinery-attack/",
+          "zeit": "26.11.",
+          "medien": [
+            "The National",
+            "Business Recorder",
+            "OilPrice"
+          ]
+        },
+        {
+          "tag": "Gas",
           "titel": "TTF fällt um 4,7 % auf 87,33 €/MWh – Speicher unter 69 %",
           "warum": "Milderes Wetter drückt die Preise, doch der Speicherstand liegt weit unter dem Fünfjahresmittel von 86 %.",
           "quelle": "Trading Economics",
@@ -5754,48 +5875,6 @@
             "Reuters",
             "CNBC"
           ]
-        },
-        {
-          "tag": "CO₂",
-          "titel": "CO₂-Preis mit größtem Wochenverlust seit Februar",
-          "warum": "Der EUA-Dezemberkontrakt fiel um 7,8 % auf 81,26 €/t (kurz 80,03 €, tiefster Stand seit Juli), bevor kältere Prognosen ihn am Montag auf 83,75 € hoben.",
-          "quelle": "Emba Power",
-          "url": "https://www.embapower.ro/2026/11/23/european-carbon-market-post-its-biggest-weekly-decline-in-9-months/",
-          "zeit": "23.11.",
-          "medien": [
-            "Emba Power",
-            "CBAM News"
-          ]
-        },
-        {
-          "tag": "Gas",
-          "titel": "TTF springt um 8,6 % auf 96 €/MWh",
-          "warum": "Kälteprognosen treffen auf die niedrigsten Speicherstände seit über zehn Jahren; Preis fast dreimal so hoch wie vor einem Jahr.",
-          "quelle": "Bloomberg",
-          "url": "https://leprivatebanker.com/2026/11/24/european-gas-jumps-8-6-to-e96-a-megawatt-hour-as-cold-forecasts-meet-the-lowest-storage-levels-in-a-decade/",
-          "zeit": "24.11.",
-          "medien": [
-            "Bloomberg"
-          ]
-        },
-        {
-          "tag": "OPEC+",
-          "titel": "OPEC+ hält Dezember-Quoten stabil, Fokus auf 2027",
-          "warum": "Sieben Länder bleiben bei zusammen 31,01 Mio. b/d; am 29.11. geht es um neue Basismengen.",
-          "quelle": "World Oil (Bloomberg)",
-          "url": "https://www.worldoil.com/news/2026/11/1/opec-subgroup-keeps-oil-production-quotas-unchanged-for-december",
-          "zeit": "01.11.",
-          "medien": [
-            "Bloomberg"
-          ]
-        },
-        {
-          "tag": "CO₂",
-          "titel": "EU-CO₂-Preis wieder über 90 €/t",
-          "warum": "Kälte, Wechsel zu Kohle und weniger Zertifikate stützen; ABN Amro erwartet im 4. Quartal Ø 86 €.",
-          "quelle": "GMK Center",
-          "url": "https://gmk.center/en/news/european-carbon-prices-exceeded-e90-t-in-november/",
-          "zeit": "13.11."
         }
       ]
     },
@@ -5882,7 +5961,7 @@
     }
   },
   "konflikte": {
-    "stand": "Stand 27.11., 07:03 Uhr",
+    "stand": "Stand 28.11., 05:40 Uhr",
     "karte": [
       {
         "code": "UKR",
@@ -6018,8 +6097,20 @@
         "name": "Russland – Ukraine",
         "stufe": 3,
         "seit": "24.02.2022",
-        "lage": "An der Front kaum Bewegung: Laut ISW gelang Russland zuletzt nur südöstlich von Dobropillja ein bestätigter Vorstoß, die Ukraine rückte nordöstlich von Borova vor. Russland schlägt mit ballistischen Raketen auf Kiew zurück und bereitet laut Selenskyj einen neuen Großangriff auf die Energieversorgung vor, die Ukraine trifft weiter Raffinerien und Flugplätze.",
+        "lage": "Laut ISW (27.11.) rückt Russland bei Huljajpole, Orichiw und in Kostjantyniwka vor, die Ukraine gewinnt bei Dobropillja und nordöstlich von Datschne Gelände; insgesamt bleibt die Front weitgehend stabil. Russland feuerte erstmals seit sechs Monaten Kalibr-Raketen von U-Booten, die Ukraine trifft Raffinerien und eine Fabrik für Iskander-Treibstoff in Tula.",
         "meldungen": [
+          {
+            "tag": "Luftkrieg",
+            "titel": "Ukraine trifft Kautschukwerk in Jefremow, das laut Generalstab Iskander-Treibstoff herstellt",
+            "warum": "Dazu Angriffe auf die Raffinerie Slawjansk-Eko und eine Transneft-Station in Baschkortostan; Russland verschärft die Zensur über Schäden.",
+            "quelle": "ISW",
+            "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-november-27-2026",
+            "zeit": "27.11.",
+            "medien": [
+              "ISW",
+              "Kyiv Post"
+            ]
+          },
           {
             "tag": "Energie",
             "titel": "Selenskyj: Russland bereitet neuen Großangriff auf Energieversorgung vor",
@@ -6066,17 +6157,6 @@
               "Kyiv Independent",
               "Handelsblatt"
             ]
-          },
-          {
-            "tag": "AKW",
-            "titel": "IAEA warnt nach 28. Stromausfall am AKW Saporischschja",
-            "warum": "Die Behörde bemüht sich um eine neue lokale Feuerpause für Reparaturen.",
-            "quelle": "Handelsblatt",
-            "url": "https://www.handelsblatt.com/politik/international/ukraine-usa-aendert-wohl-strategie-zu-geschaeftsabschluessen-mit-russland/27982126.html",
-            "zeit": "27.11., 02:01",
-            "medien": [
-              "Handelsblatt"
-            ]
           }
         ]
       },
@@ -6086,8 +6166,32 @@
         "name": "Iran-Krieg und Straße von Hormus",
         "stufe": 3,
         "seit": "2026",
-        "lage": "Seit dem Zusammenbruch der Waffenruhe im Juli blockieren die USA Irans Häfen, Iran verlangt für die Durchfahrt durch Hormus eine Genehmigung und meldet weitere Minentreffer. Die Houthis greifen Saudi-Arabien an (Ras Tanura, Jazan, Riad), in Kuwait starben zwei Italiener bei einem Drohnenangriff, den Iran bestreitet und Außenminister Araghchi „verdächtig“ nennt. Katar und Pakistan vermitteln, Kushner bestätigt Kontakte nach Teheran.",
+        "lage": "Seit dem Zusammenbruch der Waffenruhe im Juli blockieren die USA Irans Häfen (laut US-Angaben seit 130 Tagen), Iran kündigt an, die Blockade zu brechen, und meldet weitere Minentreffer in Hormus; durch die Meerenge fließen laut Kpler nur rund 54 % der Vorkriegsmenge. Kuwait bestellte nach dem tödlichen Drohnenangriff Irans Botschafter ein, die Houthis greifen weiter Saudi-Arabien an.",
         "meldungen": [
+          {
+            "tag": "Hormus",
+            "titel": "IRGC meldet erneuten Minentreffer an Tanker in Hormus, Iran feuert Warnschüsse auf US-F-16",
+            "warum": "Teheran droht, die US-Seeblockade zu brechen; Centcom meldet, ein Handelsschiff im Golf von Oman außer Gefecht gesetzt zu haben.",
+            "quelle": "Khaleej Times",
+            "url": "https://www.khaleejtimes.com/world/mena/us-israel-iran-saudi-arabia-yemen-war-live-updates-november-27-2026",
+            "zeit": "27.11., 12:21",
+            "medien": [
+              "Khaleej Times",
+              "Al Jazeera"
+            ]
+          },
+          {
+            "tag": "Kuwait",
+            "titel": "Kuwait bestellt Irans Botschafter ein und übergibt Protestnote",
+            "warum": "Iran bestreitet den Drohnenangriff, bei dem zwei italienische Rheinmetall-Techniker starben.",
+            "quelle": "Khaleej Times",
+            "url": "https://www.khaleejtimes.com/world/mena/us-israel-iran-saudi-arabia-yemen-war-live-updates-november-27-2026",
+            "zeit": "27.11., 15:52",
+            "medien": [
+              "Khaleej Times",
+              "Gulf News"
+            ]
+          },
           {
             "tag": "Kuwait",
             "titel": "Araghchi nennt tödlichen Angriff in Kuwait „verdächtig“ – Trump sieht „Sieg in Reichweite“",
@@ -6123,30 +6227,6 @@
             "medien": [
               "Bloomberg",
               "Khaleej Times"
-            ]
-          },
-          {
-            "tag": "Saudi-Arabien",
-            "titel": "Raketen auf Riad abgefangen, PIF-Turm erneut getroffen – 11 Verletzte",
-            "warum": "Die Houthis zielen zunehmend auf Finanz- und Ölinfrastruktur des Königreichs.",
-            "quelle": "The National",
-            "url": "https://www.thenationalnews.com/news/gulf/2026/11/26/saudi-arabia-intercepts-wave-of-retaliatory-houthi-attacks/",
-            "zeit": "26.11., 08:06",
-            "medien": [
-              "The National",
-              "CBS News"
-            ]
-          },
-          {
-            "tag": "Hormus",
-            "titel": "Iran verlangt Genehmigung für nördliche Fahrrinnen, meldet zwei brennende Tanker",
-            "warum": "Die USA halten die Routen für sicher; Adnoc bestätigt den Tod eines Seemanns.",
-            "quelle": "CBS News",
-            "url": "https://www.cbsnews.com/live-updates/iran-war-us-military-ai-weapons-oil/",
-            "zeit": "26.11., 09:24",
-            "medien": [
-              "CBS News",
-              "The New Arab"
             ]
           }
         ]
@@ -6244,7 +6324,7 @@
         "name": "Taiwanstraße",
         "stufe": 1,
         "seit": "1949",
-        "lage": "China hatte Anfang November mehr als 100 Marine- und Küstenwachschiffe rund um Taiwan zusammengezogen, ohne Manöver anzukündigen. Am Samstag (28.11.) wählt Taiwan seine Bürgermeister und Kreischefs – Taipeh wertet Pekings Druck als Einschüchterung vor der Wahl.",
+        "lage": "China hatte Anfang November mehr als 100 Marine- und Küstenwachschiffe rund um Taiwan zusammengezogen, ohne Manöver anzukündigen. Heute (28.11.) wählt Taiwan Bürgermeister und Kreischefs; die Wahl gilt als Stimmungstest für Präsident Lai vor 2028, Ergebnisse werden am Nachmittag deutscher Zeit erwartet.",
         "meldungen": [
           {
             "tag": "Wahl",
@@ -6299,54 +6379,52 @@
       }
     ],
     "front": {
-      "stand": "ISW-Bewertung vom 25.11.",
-      "lage": "Laut ISW griff Russland am 24./25.11. in den meisten Abschnitten an, bestätigt ist nur ein Vorstoß südöstlich von Dobropillja; in Kupjansk-Wusliwyj ist die Lage unklar. Die Ukraine hat mit der Operation bei Welykyj Burluk bis 20.11. 204 km² und 14 Orte befreit und kontert nördlich von Sumy und bei Slowjansk – über die Woche ist die Front damit weitgehend stabil.",
+      "stand": "ISW-Bewertung vom 27.11.",
+      "lage": "ISW meldet für den 25. bis 27.11. russische Vorstöße westlich von Huljajpole, südöstlich von Orichiw und im Osten von Kostjantyniwka, die Ukraine rückt südlich von Dobropillja und nordöstlich von Datschne vor. Bei Lyman und im Norden von Sumy kam Russland nicht voran; über die Woche bleibt die Front weitgehend stabil.",
       "punkte": [
         {
           "tag": "RU-Vorstoß",
-          "titel": "Dobropillja: Russische Panzerkräfte rücken südöstlich der Stadt vor",
-          "warum": "Einziger von ISW bestätigter russischer Geländegewinn; Nebel und Wind erschweren der Ukraine den Drohneneinsatz.",
+          "titel": "Kostjantyniwka: Russische Infiltration nördlich der Stadt, Vorstoß im Osten",
+          "warum": "Die Stadt ist ein Eckpfeiler des ukrainischen Verteidigungsgürtels vor Kramatorsk und Slowjansk.",
           "quelle": "ISW",
-          "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-november-25-2026",
-          "zeit": "26.11., 00:00",
+          "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-november-27-2026",
+          "zeit": "27.11.",
           "medien": [
             "ISW",
             "Kyiv Post"
+          ]
+        },
+        {
+          "tag": "RU-Vorstoß",
+          "titel": "Saporischschja: Mechanisierter Angriff westlich von Huljajpole, Infiltration bei Orichiw",
+          "warum": "Russland erhöht den Druck an der Südfront, wo die Ukraine Kräfte für den Osten abgezogen hat.",
+          "quelle": "ISW",
+          "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-november-27-2026",
+          "zeit": "27.11.",
+          "medien": [
+            "ISW"
           ]
         },
         {
           "tag": "UA-Gegenangriff",
-          "titel": "Welykyj Burluk: Ukraine hat 204 km² und 14 Orte befreit",
-          "warum": "Die Gegenoffensive im Gebiet Charkiw ist der größte ukrainische Geländegewinn seit Monaten; Gegenangriffe auch nördlich von Sumy.",
+          "titel": "Dobropillja und Datschne: Ukraine rückt südlich bzw. nordöstlich vor",
+          "warum": "Geolokalisierte Aufnahmen bestätigen die Gewinne, die den russischen Keil bei Dobropillja eindämmen.",
           "quelle": "ISW",
-          "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-november-25-2026",
-          "zeit": "26.11., 00:00",
-          "medien": [
-            "ISW",
-            "Kyiv Independent"
-          ]
-        },
-        {
-          "tag": "Luftkrieg",
-          "titel": "Ukraine trifft Raffinerien Kuibyschew und Sysran – knapp 6 % des russischen Durchsatzes",
-          "warum": "Vizepremier Nowak räumt einen stark angespannten Kraftstoffmarkt ein, Russland importiert Treibstoff.",
-          "quelle": "ISW",
-          "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-november-25-2026",
-          "zeit": "26.11., 00:00",
+          "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-november-27-2026",
+          "zeit": "27.11.",
           "medien": [
             "ISW",
             "Kyiv Post"
           ]
         },
         {
-          "tag": "Lage",
-          "titel": "ISW: Keine Geländegewinne am 24.11., Putin räumt Kosten der Raffinerie-Angriffe ein",
-          "warum": "Russland griff in der Nacht mit 96 Drohnen an; ein russischer Gouverneur (Murmansk) wurde erstmals seit Kriegsbeginn im Amt verhaftet.",
-          "quelle": "Kyiv Post",
-          "url": "https://www.kyivpost.com/post/91108",
-          "zeit": "25.11.",
+          "tag": "Luftkrieg",
+          "titel": "Russland feuert erstmals seit sechs Monaten Kalibr-Raketen von U-Booten im Schwarzen Meer",
+          "warum": "Dazu 113 bzw. 155 Drohnen in zwei Nächten auf Kryvyj Rih, Pawlohrad und Nikopol; die Ukraine kämpft mit Abfangraketen-Mangel.",
+          "quelle": "ISW",
+          "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-november-27-2026",
+          "zeit": "27.11.",
           "medien": [
-            "Kyiv Post",
             "ISW"
           ]
         }
@@ -6363,6 +6441,18 @@
       ]
     },
     "diplomatie": [
+      {
+        "tag": "Golf",
+        "titel": "Mekka-Allianz aus Türkei, Pakistan und Saudi-Arabien legt Regeln für neue Mitglieder fest",
+        "warum": "Der Verteidigungspakt sucht Erweiterung, während Saudi-Arabien Houthi-Angriffe abwehrt und Jemen bombardiert.",
+        "quelle": "Khaleej Times",
+        "url": "https://www.khaleejtimes.com/world/mena/us-israel-iran-saudi-arabia-yemen-war-live-updates-november-27-2026",
+        "zeit": "27.11., 19:56",
+        "medien": [
+          "Khaleej Times",
+          "AFP"
+        ]
+      },
       {
         "tag": "Ukraine",
         "titel": "EU-Gipfel ohne Einigung über 45-Mrd.-€-Kredit für die Ukraine",
@@ -6408,18 +6498,6 @@
         "zeit": "26.11.",
         "medien": [
           "Reuters"
-        ]
-      },
-      {
-        "tag": "Ukraine",
-        "titel": "ISW: Sicherheitsgarantien hängen am US-Kongress – Russland verlangt Donbas-Abzug",
-        "warum": "Kushner will Artikel-5-ähnliche Garantien, Trump muss sie aber über den Kongress absichern; Rutte schließt einen NATO-Rückzug auf 1997 aus.",
-        "quelle": "ISW",
-        "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-november-25-2026",
-        "zeit": "26.11., 00:00",
-        "medien": [
-          "ISW",
-          "Wall Street Journal"
         ]
       }
     ],
@@ -6484,11 +6562,11 @@
       }
     ],
     "markt": {
-      "lage": "Brent steigt nach den Angriffen auf Jazan und neuen Minentreffern in Hormus auf gut 96 $ und steuert auf das erste Wochenplus seit vier Wochen zu, liegt im November aber knapp 20 % im Minus. TTF hält sich um 88 €/MWh; Rheinmetall stellt heute nach dem Tod zweier Techniker in Kuwait seine 2030-Ziele vor.",
+      "lage": "Brent schloss am Freitag bei 95,44 $ (Woche rund +3 %), Gold stieg auf rund 3.636 $ und Rüstungswerte wie Rheinmetall legten zu. Durch Hormus fließen laut Kpler nur rund 9,3 Mio. b/d, gut die Hälfte der Vorkriegsmenge; am Sonntag entscheidet OPEC+ über die Quoten.",
       "routen": [
         {
           "route": "Straße von Hormus",
-          "status": "Verkehr rund −40 %, US-Blockade, Iran verlangt Genehmigung für nördliche Fahrrinnen, neue Minentreffer"
+          "status": "nur ca. 54 % der Vorkriegsmenge (Kpler, 7 Tage bis 24.11.), US-Blockade seit 130 Tagen, neue Minentreffer"
         },
         {
           "route": "Rotes Meer / Bab al-Mandab",
@@ -6593,270 +6671,257 @@
     "humanitaer_quelle": "UN-Menschenrechtsmission Ukraine (via ISW 25.11.), OCHA, WFP, Al Jazeera (14.11.), CBS News (24.11.); Stand 26.11."
   },
   "briefing": {
-    "stand": "27.11., 18:05 Uhr",
+    "stand": "28.11., 05:40 Uhr",
     "saetze": [
       {
-        "tag": "Deutschland",
-        "text": "Der Bundestag hat am Mittag den Rekordhaushalt 2027 beschlossen: rund 556 Mrd. € Ausgaben im Kernhaushalt, davon 123 Mrd. € auf Pump (jeder dritte Euro), fast 140 Mrd. € für Verteidigung – mit Sondervermögen kommen rund 210 Mrd. € neue Schulden zusammen; die Arbeitslosigkeit stieg im November saisonbereinigt um 9.000 (Konsens +4.000).",
-        "quelle": "ZDFheute",
-        "url": "https://www.zdfheute.de/politik/deutschland/haushalt-2027-beschlossen-abstimmung-bundestag-100.html"
+        "tag": "Märkte",
+        "text": "Die Wall Street feierte am Black Friday ihre beste Woche seit 2022: Dow +1,2 % auf 50.775, S&P 500 +1,6 % auf 7.297, Nasdaq +2,3 % – auf Wochensicht +5,5 bis +6,7 %, angeführt von Chipwerten (SOX +4,7 %).",
+        "quelle": "JBizNews",
+        "url": "https://jbiznews.com/u-s-stocks-close-sharply-higher-in-shortened-black-friday-session-and-post-big-weekly-gains-dow-jones-industrial-average-up-1-18-sp-500-up-1-60-nasdaq-composite-up-2-31/"
       },
       {
-        "tag": "Zinsen",
-        "text": "Die EU-Chefs haben Pablo Hernández de Cos (bisher BIZ-Chef) zum Nachfolger von EZB-Präsidentin Lagarde bestimmt, die im Februar abtritt; Markus Brunnermeier soll ab Mai Chefvolkswirt werden – an der erwarteten Zinserhöhung auf 2,75 % am 17.12. ändert das nichts.",
-        "quelle": "Handelsblatt",
-        "url": "https://www.handelsblatt.com/finanzen/geldpolitik/ezb-pablo-hernandez-de-cos-wird-neuer-chef-der-euro-notenbank/100272970.html"
+        "tag": "Energie",
+        "text": "Morgen (So) entscheidet OPEC+ über die Quoten: Erwartet wird eine Verlängerung bis März 2027, der Streit mit Irak über die Kapazitäten wird vertagt; Brent schloss bei 95,44 $ mit dem ersten Wochenplus im November.",
+        "quelle": "Reuters",
+        "url": "https://www.asiaone.com/money/oil-notches-first-weekly-gain-november-supply-fears"
       },
       {
         "tag": "Konflikte",
-        "text": "Bei einem iranischen Drohnenangriff in Kuwait starben zwei italienische Techniker an einem Luftabwehrsystem (laut Handelsblatt Rheinmetall-Mitarbeiter), die Houthis trafen die saudische Raffinerie Jazan – Iran bestreitet den Angriff, Außenminister Araghchi nennt ihn „verdächtig“, Brent steht bei gut 96 $ und steuert auf das erste Wochenplus seit vier Wochen zu.",
-        "quelle": "Handelsblatt",
-        "url": "https://www.handelsblatt.com/politik/international/iran-krieg-israels-verteidigungsminister-droht-mit-grossoffensive-auf-gaza/100136895.html"
+        "text": "Am Golf spitzt es sich zu: Kuwait bestellte Irans Botschafter ein, Iran meldet einen weiteren Minentreffer in Hormus und droht, die US-Blockade zu brechen – durch die Meerenge fließt nur gut die Hälfte der Vorkriegsmenge.",
+        "quelle": "Khaleej Times",
+        "url": "https://www.khaleejtimes.com/world/mena/us-israel-iran-saudi-arabia-yemen-war-live-updates-november-27-2026"
       },
       {
-        "tag": "Unternehmen",
-        "text": "Rheinmetall kappt sein Umsatzziel 2030 von rund 50 auf 33 bis 37 Mrd. € (Marge um 20 %) und bestätigt die Prognose 2026 – die Aktie steigt trotzdem rund 3 %, weil der Markt mit der Kürzung gerechnet hatte; SAP erwägt laut Handelsblatt den Abbau von mehr als 10.000 Stellen.",
-        "quelle": "Handelsblatt",
-        "url": "https://www.handelsblatt.com/unternehmen/industrie/rheinmetall-umsatzziel-fuer-2030-sinkt-auf-33-bis-37-milliarden-euro/100273257.html"
+        "tag": "Zinsen",
+        "text": "Die US-Rendite 10 J. stieg auf 4,94 %, die Zweijährige auf 4,72 %: Der Markt preist die Fed-Erhöhung am 9.12. voll ein – entscheidend wird der Arbeitsmarktbericht am Fr 4.12., 14:30 Uhr (Konsens +90.000).",
+        "quelle": "Stocktwits",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/weekly-spread-shaped-us-treasury-235226152.html"
       },
       {
-        "tag": "Märkte",
-        "text": "Der DAX schloss 0,9 % höher bei 25.441 Punkten und beendet die Woche mit 2,6 % Plus (MDax +1,5 %), getragen von KI- und Rüstungswerten; die EU-Wirtschaftsstimmung fiel im November dagegen auf 95,8 (Konsens 97,2) – die Wall Street handelt nach Thanksgiving nur bis 19 Uhr, das US-Warenhandelsdefizit sprang im Oktober auf 149,5 Mrd. $.",
-        "quelle": "dpa-AFX",
-        "url": "https://www.finanzen.net/nachricht/aktien/aktien-frankfurt-schluss-ki-erholung-zieht-auch-dax-weiter-nach-oben-16090883"
+        "tag": "Deutschland",
+        "text": "Nach dem Rekordhaushalt (317:260 Stimmen, 123 Mrd. € neue Schulden) eskaliert der Rentenstreit: Arbeitsminister Schweitzer legt einen eigenen Entwurf vor, der die Rente nach 45 Jahren ab 2029 verschärft – die Union läuft Sturm.",
+        "quelle": "Handelsblatt",
+        "url": "https://www.handelsblatt.com/politik/deutschland/rentenreform-schweitzer-legt-neuen-gesetzentwurf-vor-union-laeuft-sturm/100273340.html"
       }
     ],
     "details": [
       {
-        "tag": "Deutschland",
-        "titel": "Rekordhaushalt 2027 beschlossen, Koalition ringt um die Rente",
-        "text": "Der Bundestag hat den Haushalt 2027 am 27.11. verabschiedet: rund 556 Mrd. € Ausgaben im Kernhaushalt, 123 Mrd. € davon kreditfinanziert, fast 140 Mrd. € für Verteidigung und 12 Mrd. € Ukraine-Hilfe; mehr als ein Drittel geht an Arbeit und Soziales. Mit den Sondervermögen summiert sich die Neuverschuldung auf rund 210 Mrd. €.\n\nParallel verhandelten CDU, CSU und SPD am Donnerstagabend im Kanzleramt über die Rentenreform, die das Handelsblatt als Existenzfrage der Koalition beschreibt. Streitpunkt ist die abschlagsfreie Rente nach 45 Beitragsjahren: Unions-Abgeordnete wollen sie nur noch für Geringverdiener erhalten, die SPD lehnt das ab. Ein Ergebnis war bis zum frühen Morgen nicht bekannt.\n\nUm 9:55 Uhr veröffentlicht die Bundesagentur die Arbeitsmarktdaten für November; erwartet werden 4.000 Arbeitslose mehr bei einer unveränderten Quote von 6,4 % (Vormonat 3,016 Mio.).\n\nDer Arbeitsmarkt bleibt schwach: Im November stieg die Zahl der Arbeitslosen saisonbereinigt um 9.000 und damit stärker als die erwarteten 4.000; unbereinigt sank sie saisonüblich um 19.000 auf 2,936 Mio. (51.000 mehr als vor einem Jahr, Quote 6,2 %). BA-Vorstand Daniel Terzenbach: „Die leichte konjunkturelle Erholung führt auch im November nicht zu einer Belebung am Arbeitsmarkt.“",
+        "tag": "Märkte",
+        "titel": "Wall Street: Beste Woche seit 2022, Chips und KI zurück",
+        "text": "Im verkürzten Handel nach Thanksgiving stiegen Dow (+1,18 % auf 50.774,94), S&P 500 (+1,60 % auf 7.297,49) und Nasdaq (+2,31 % auf 24.129,50) kräftig. Auf Wochensicht legte der Dow 5,5 % zu – so viel wie seit Oktober 2022 nicht –, der S&P 500 5,6 % und die Nasdaq 6,7 %. Anleger kauften die im November stark gefallenen Tech- und Chipwerte zurück: Der Halbleiterindex SOX stieg 4,7 % mit allen 30 Werten im Plus, Speicherhersteller wie SanDisk (+16 %) und Micron (+7,6 %) führten.\n\nDie Rally steht auf dünnem Eis: Das Volumen war feiertagsbedingt gering, die Fed wird am 9.12. voraussichtlich erhöhen, und Goldman schätzt, dass systematische Fonds in der neuen Woche weitere rund 100 Mrd. $ an Aktien verkaufen könnten. Nvidia stoppt laut Bericht wegen neuer US-Exportregeln Serverlieferungen nach Südostasien.",
         "wirkung": [
           {
-            "markt": "Bund-Renditen 10 J.",
-            "richtung": "seitwaerts",
-            "warum": "Die Zahlen des Haushalts sind seit Wochen bekannt und eingepreist; Bewegung käme nur bei einer überraschenden Niederlage der Koalition."
-          },
-          {
-            "markt": "DAX-Bauwerte / Rüstung",
-            "richtung": "steigt",
-            "warum": "Der Beschluss sichert die Investitions- und Verteidigungsmittel für 2027 ab, wovon Bau-, Infrastruktur- und Rüstungswerte profitieren."
-          },
-          {
-            "markt": "EUR/USD",
-            "richtung": "seitwaerts",
-            "warum": "Ein schwacher Arbeitsmarkt ist erwartet; für den Euro zählt eher die HVPI-Schnellschätzung am 1.12."
-          }
-        ],
-        "quelle": "ZDFheute",
-        "url": "https://www.zdfheute.de/politik/deutschland/haushalt-2027-beschlossen-abstimmung-bundestag-100.html",
-        "zeit": "27.11., 14:50"
-      },
-      {
-        "tag": "Zinsen",
-        "titel": "Hernández de Cos wird EZB-Präsident, Brunnermeier Chefvolkswirt",
-        "text": "Die Staats- und Regierungschefs haben sich beim Brüsseler Gipfel darauf verständigt, dass der Spanier Pablo Hernández de Cos Christine Lagarde an der Spitze der EZB folgt; Lagarde tritt im Februar zurück, die Amtszeit beträgt acht Jahre. Hernández de Cos leitet derzeit die Bank für Internationalen Zahlungsausgleich (BIZ) und war von 2018 bis 2024 Gouverneur der spanischen Notenbank und Mitglied des EZB-Rats. Der Mitbewerber war der Niederländer Klaas Knot. Der deutsche Ökonom Markus Brunnermeier (Princeton) soll ab Mai als Chefvolkswirt ins Direktorium einziehen und Philip Lane ablösen.\n\nFür die Märkte ist die Personalie ein Signal der Kontinuität: Hernández de Cos gilt als pragmatischer Mitte-Kandidat, der Fokus auf Finanzstabilität legt. Kurzfristig bleibt die Zinserhöhung am 17.12. auf einen Einlagensatz von 2,75 % das Hauptszenario, nachdem schon im Oktober viele Ratsmitglieder eine Erhöhung mitgetragen hätten.\n\nIn Japan stieg die Kerninflation in Tokio im November auf 2,9 % (Konsens 3,0 %, Vormonat 2,6 %); ohne Energie und frische Lebensmittel waren es nur 2,5 %. Das spricht eher für eine geduldige Bank of Japan am 18.12., der Yen notiert weiter um 159 je Dollar.",
-        "wirkung": [
-          {
-            "markt": "EZB-Erhöhung 17.12.",
-            "richtung": "seitwaerts",
-            "warum": "Die Personalie betrifft die Zeit ab Februar; für Dezember bleiben Inflation und das EZB-Protokoll maßgeblich."
-          },
-          {
-            "markt": "Spread Italien/Spanien ggü. Bund",
-            "richtung": "seitwaerts",
-            "warum": "Ein Notenbankchef aus dem Süden mit Stabilitätsprofil gilt als neutral bis leicht positiv für Peripherieanleihen."
-          },
-          {
-            "markt": "USD/JPY",
+            "markt": "Nasdaq / Chipwerte",
             "richtung": "unsicher",
-            "warum": "Tokio-Kerninflation unter Konsens dämpft BoJ-Erwartungen und stützt den Dollar; eine Intervention des Finanzministeriums nahe 160 bleibt das Gegenrisiko."
+            "warum": "Hält die Erholung, folgen Anschlusskäufe; drücken Fondsverkäufe und starke Daten die Zinsen hoch, droht ein Rücksetzer."
+          },
+          {
+            "markt": "DAX-Techwerte (SAP, Infineon)",
+            "richtung": "steigt",
+            "warum": "Europa dürfte am Montag die späte US-Rally nachholen."
+          },
+          {
+            "markt": "Volatilität (VIX)",
+            "richtung": "faellt",
+            "warum": "Die starke Woche hat die Absicherungsnachfrage gesenkt."
           }
         ],
-        "quelle": "Handelsblatt",
-        "url": "https://www.handelsblatt.com/finanzen/geldpolitik/ezb-pablo-hernandez-de-cos-wird-neuer-chef-der-euro-notenbank/100272970.html",
-        "zeit": "26.11., 14:48"
+        "quelle": "JBizNews",
+        "url": "https://jbiznews.com/u-s-stocks-close-sharply-higher-in-shortened-black-friday-session-and-post-big-weekly-gains-dow-jones-industrial-average-up-1-18-sp-500-up-1-60-nasdaq-composite-up-2-31/",
+        "zeit": "27.11., 19:29"
       },
       {
-        "tag": "Konflikte",
-        "titel": "Golf: Tote in Kuwait, Houthis treffen Raffinerie Jazan",
-        "text": "Kuwait meldet zwei Tote durch Trümmer eines iranischen Drohnenangriffs: Nach Angaben des italienischen Außenministers arbeiteten die beiden Italiener als Techniker an einem Luftabwehrsystem, das Handelsblatt beschreibt sie als Rheinmetall-Mitarbeiter. Iran bestreitet den Angriff. Die Houthis griffen einen Tag nach Ras Tanura den Ölkomplex Jazan an; laut Bloomberg wurde ein Arbeiter getötet und ein Teil der Anlagen vorübergehend stillgelegt. Saudi-Arabien fing ballistische Raketen auf Riad ab, ein Turm des Staatsfonds PIF wurde zum zweiten Mal binnen einer Woche getroffen (11 Verletzte).\n\nIn der Straße von Hormus verlangt Iran, dass Schiffe die nördlichen Fahrrinnen nur mit Genehmigung nutzen; die Revolutionsgarden melden zwei weitere brennende Tanker nach Minentreffern, Adnoc bestätigte den Tod eines vermissten Besatzungsmitglieds. Diplomatisch vermitteln Katar und Pakistan, US-Gesandter Kushner bestätigt Treffen mit iranischen Vertretern im Rahmen der Bemühungen von Vizepräsident Vance.\n\nBrent notiert am Freitagmorgen bei gut 96 $ und steuert auf das erste Wochenplus seit vier Wochen zu, liegt im November aber noch knapp 20 % im Minus. Am Sonntag (29.11.) entscheidet OPEC+ über die Quoten 2027.",
+        "tag": "Energie",
+        "titel": "OPEC+ am Sonntag: Verlängern statt Streiten",
+        "text": "Die Ministerkonferenz am Sonntag (erste Sitzung laut Bericht um 14:00 Uhr) sollte eigentlich neue Basismengen für 2027 festlegen. Laut Reuters-Quellen ist man sich aber im Grundsatz einig, die Förderziele mindestens bis Ende März 2027 unverändert zu lassen. Irak lehnt die unabhängige Kapazitätsprüfung ab, die ihn unter 5 Mio. b/d sieht, und droht mit dem Austritt; auch Kasachstan will mehr.\n\nBrent fiel am Freitag um 1,2 % auf 95,44 $, beendete aber mit rund +3 % die erste Plus-Woche im November. Angriffe der Houthis auf Jazan und Ras Tanura sowie Minen in Hormus stehen einem für 2027 erwarteten Überangebot von rund 5 Mio. b/d (Rystad) gegenüber.",
         "wirkung": [
           {
             "markt": "Brent",
-            "richtung": "steigt",
-            "warum": "Angriffe auf saudische Raffinerien und neue Minentreffer erhöhen den Risikoaufschlag; das erwartete Überangebot begrenzt den Anstieg."
+            "richtung": "unsicher",
+            "warum": "Reine Verlängerung ist eingepreist: eher seitwärts. Eskaliert der Irak-Streit oder gibt es Überraschungen bei den Quoten: fällt. Neue Angriffe am Golf: steigt."
           },
           {
-            "markt": "Rheinmetall",
+            "markt": "Öl- und Raffineriewerte",
+            "richtung": "seitwaerts",
+            "warum": "Ohne neue Beschlüsse fehlt ein Impuls."
+          },
+          {
+            "markt": "Airlines (Lufthansa)",
             "richtung": "unsicher",
-            "warum": "Tote Mitarbeiter im Einsatzgebiet sind ein Reputations- und Sicherheitsthema, zugleich zeigt der Angriff den Bedarf an Flugabwehr; dazu kommen heute die neuen 2030-Ziele."
+            "warum": "Kerosin bleibt teuer; nur ein klarer Ölpreisrückgang würde entlasten."
+          }
+        ],
+        "quelle": "Reuters",
+        "url": "https://www.dawn.com/news/2047238/opec-likely-to-roll-over-oil-output-targets-for-q1-as-capacity-disputes-persist-sources-say",
+        "zeit": "26.11."
+      },
+      {
+        "tag": "Konflikte",
+        "titel": "Golf: Kuwait protestiert, Iran droht mit Blockadebruch",
+        "text": "Nach dem Drohnenangriff, bei dem zwei italienische Techniker der Rheinmetall-Tochter an einem Luftabwehrsystem in Kuwait starben, bestellte Kuwait Irans Botschafter ein. Teheran bestreitet jede Beteiligung. Die Revolutionsgarden melden einen weiteren Minentreffer an einem Tanker in Hormus, Iran will Warnschüsse auf eine US-F-16 abgegeben haben und droht, die seit 130 Tagen bestehende US-Seeblockade zu brechen.\n\nLaut Kpler fließen nur noch rund 9,3 Mio. b/d durch die Meerenge, gut die Hälfte der Vorkriegsmenge. Die Houthis feuern weiter auf Saudi-Arabien, das im Jemen zurückschlägt; Saudi-Arabien, Pakistan und die Türkei wollen ihre Verteidigungsallianz erweitern.",
+        "wirkung": [
+          {
+            "markt": "Öl und Tankerfrachten",
+            "richtung": "steigt",
+            "warum": "Jeder neue Zwischenfall erhöht Risikoprämien und Versicherungskosten."
           },
           {
             "markt": "Gold",
             "richtung": "steigt",
-            "warum": "Die Ausweitung auf Kuwait und Saudi-Arabien stützt die Nachfrage nach sicheren Häfen."
+            "warum": "Sichere Häfen bleiben gefragt, Gold stieg am Freitag fast 2 %."
           },
           {
-            "markt": "Tankerfrachtraten",
-            "richtung": "steigt",
-            "warum": "Genehmigungspflicht und Minen in Hormus verlängern Wartezeiten und treiben Versicherungsprämien."
+            "markt": "Rüstungswerte (Rheinmetall)",
+            "richtung": "seitwaerts",
+            "warum": "Hohe Nachfrage ist eingepreist, die gekappten 2030-Ziele bremsen."
           }
         ],
-        "quelle": "The New Arab",
-        "url": "https://www.newarab.com/news/iran-denies-deadly-kuwait-attack-houthis-target-saudi-refinery",
-        "zeit": "26.11., 17:55"
+        "quelle": "Khaleej Times",
+        "url": "https://www.khaleejtimes.com/world/mena/us-israel-iran-saudi-arabia-yemen-war-live-updates-november-27-2026",
+        "zeit": "27.11., 15:52"
       },
       {
-        "tag": "Unternehmen",
-        "titel": "Rheinmetall kappt 2030-Ziel, SAP erwägt Stellenabbau, Metall-Tarif moderat",
-        "text": "Nach Informationen des Handelsblatts aus Unternehmenskreisen erwägt der SAP-Vorstand um Christian Klein den Abbau von mehr als 10.000 Stellen, verbunden mit der stärkeren Ausrichtung auf Künstliche Intelligenz. Offen ist, ob die Gesamtzahl der Beschäftigten danach wirklich sinkt, weil gleichzeitig in KI-Bereichen eingestellt werden könnte. Eine Bestätigung von SAP lag zunächst nicht vor.\n\nIn der Metall- und Elektroindustrie einigten sich IG Metall, Südwestmetall und Metall NRW nach rund 27 Stunden in Mannheim auf einen Pilotabschluss für 3,7 Mio. Beschäftigte: Einmalzahlungen von 150 bis 450 € je nach Umsatzrendite ab März 2027, dann 2,0 % mehr ab 1. Mai 2027 und 2,3 % ab 1. April 2028 bei 25 Monaten Laufzeit bis Ende November 2028. Dazu kommen ein „Tarifvertrag Investition und Beschäftigung“ und Abweichungsmöglichkeiten für Betriebe in der Krise. Die IG Metall hatte 5 % für zwölf Monate gefordert.\n\nDie Commerzbank bleibt nach dem Vorstoß von UniCredit (Orcel als Aufsichtsratschef, Abbau von rund 7.000 Stellen) im Fokus, Rheinmetall hat am zweiten Tag des Kapitalmarkttags das Umsatzziel 2030 von rund 50 Mrd. € auf 33 bis 37 Mrd. € gesenkt, die operative Marge soll bei etwa 20 % liegen (bisher „über 20 %“); die Prognose 2026 wurde bestätigt. Weil Analysten mit rund 35,6 Mrd. € gerechnet hatten, legte die Aktie nach Schwankungen rund 3 % zu und stieß bei 800 € auf Widerstand; RBC sieht die Erwartungen erfüllt, JPMorgan zweifelt an der Margenvorgabe.",
+        "tag": "Zinsen",
+        "titel": "Fed-Erhöhung eingepreist – die Woche der Arbeitsmarktdaten",
+        "text": "Die Rendite zehnjähriger US-Anleihen stieg am Freitag auf 4,94 %, die zweijährige auf 4,72 % (+7 bp in der Woche); die Zinskurve ist so flach wie seit Februar nicht. Terminmärkte preisen die Erhöhung am 9.12. sowie eine weitere bis März voll ein. Der Dollar-Index liegt bei 104 und damit nahe einem 22-Monats-Hoch.\n\nDie kommende Woche entscheidet, ob es dabei bleibt: Di 16:00 Uhr ISM Industrie (Konsens 55,2) und JOLTS, Mi 14:15 Uhr ADP (80.000), Do 16:00 Uhr ISM Dienste (54,5) und Fr 14:30 Uhr der Arbeitsmarktbericht (Konsens +90.000 Stellen, Quote 4,1 %). In Europa kommt am Di 11:00 Uhr die HVPI-Schnellschätzung.",
         "wirkung": [
           {
-            "markt": "SAP",
+            "markt": "US-Renditen 2 J.",
             "richtung": "unsicher",
-            "warum": "Ein Sparprogramm stützt die Margen, wirft aber Fragen nach Wachstum und Restrukturierungskosten auf; ohne Bestätigung bleibt die Reaktion offen."
+            "warum": "Stellenplus deutlich über 90.000: Renditen steigen, eine dritte Erhöhung rückt näher. Darunter: fallen."
           },
           {
-            "markt": "DAX-Autowerte / Maschinenbau",
-            "richtung": "steigt",
-            "warum": "Ein Abschluss unter 2,5 % pro Jahr mit langer Laufzeit schafft Planbarkeit bei den Personalkosten."
-          },
-          {
-            "markt": "EZB-Lohnsorgen",
+            "markt": "EUR/USD",
             "richtung": "faellt",
-            "warum": "Moderate Stufen im größten deutschen Industrietarif sprechen gegen eine Lohn-Preis-Spirale."
+            "warum": "Der Zinsvorsprung der USA stützt den Dollar, solange die Daten robust bleiben."
           },
           {
-            "markt": "Rheinmetall / Rüstungswerte",
+            "markt": "Fed-Erhöhung 9.12.",
+            "richtung": "steigt",
+            "warum": "Nur ein sehr schwacher Arbeitsmarktbericht könnte die eingepreiste Erhöhung noch kippen."
+          }
+        ],
+        "quelle": "Stocktwits",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/weekly-spread-shaped-us-treasury-235226152.html",
+        "zeit": "28.11., 00:52"
+      },
+      {
+        "tag": "Deutschland",
+        "titel": "Rekordhaushalt beschlossen, Rentenstreit eskaliert",
+        "text": "Der Bundestag hat den Haushalt 2027 mit 317 zu 260 Stimmen verabschiedet: rund 556 Mrd. € Ausgaben, 123 Mrd. € neue Schulden im Kernhaushalt (Vorjahr 98 Mrd. €), mit Sondervermögen über 210 Mrd. €. Beschlossen wurden auch eine niedrigere Stromsteuer ab 2027, eine Zuckersteuer ab 2028 und eine höhere Branntweinsteuer.\n\nIm Rentenstreit legte Arbeitsminister Alexander Schweitzer (SPD) einen eigenen, 287 Seiten langen Entwurf vor: Die Rente nach 45 Jahren bleibt, ab 2029 zählen aber Zeiten der Arbeitslosigkeit und Krankheit nicht mehr, rund 27 % der heute Berechtigten fielen heraus; das Rentenalter soll an die Lebenserwartung gekoppelt werden. Die Union spricht von „maximaler Eskalation“, Kanzleramtschefin Warken sieht keine Einigung.",
+        "wirkung": [
+          {
+            "markt": "Bund-Renditen 10 J.",
             "richtung": "seitwaerts",
-            "warum": "Die Kürzung war eingepreist und nimmt Unsicherheit heraus; Friedensgespräche zur Ukraine und die Margenzweifel bremsen weitere Gewinne."
+            "warum": "Die Haushaltszahlen waren bekannt; neue Impulse kommen eher von EZB und US-Daten."
+          },
+          {
+            "markt": "Koalitionsstabilität",
+            "richtung": "unsicher",
+            "warum": "Einigung bis Mitte Dezember: Entspannung. Weiterer Streit: Risiko für Reformen und Investitionsklima."
+          },
+          {
+            "markt": "Versorger",
+            "richtung": "steigt",
+            "warum": "Die beschlossene Stromsteuersenkung entlastet Stromkunden ab 2027."
           }
         ],
         "quelle": "Handelsblatt",
-        "url": "https://www.handelsblatt.com/technik/ki/sap-dax-konzern-plant-massiven-stellenabbau/100273115.html",
-        "zeit": "27.11., 11:46"
-      },
-      {
-        "tag": "Märkte",
-        "titel": "Asien folgt Europas Rallye, Wall Street nur mit halbem Tag",
-        "text": "Der DAX schloss am Donnerstag ohne US-Impulse 2,08 % höher bei 25.215,52 Punkten, der MDAX legte 2,3 % zu, der Euro Stoxx 50 rund 2 %. Am Freitag zieht Asien nach: Der Nikkei stieg bis zur Mittagspause um 1,2 % auf 58.172 Punkte, der Kospi um 2,8 %, der australische ASX 200 um 0,6 %. Tokyo Electron und SoftBank verloren dagegen rund 3 %.\n\nDie Wall Street öffnet nach Thanksgiving wieder, handelt aber nur bis 13 Uhr New Yorker Zeit (19 Uhr MEZ). Der Black Friday ist der Start des Weihnachtsgeschäfts; der Handel ist traditionell dünn. Belastend bleiben die neuen US-Exportbeschränkungen für KI-Chips nach Malaysia, Singapur, Thailand und Indonesien, die laut Handelsblatt zahlreiche Rechenzentrumsprojekte in Südostasien gefährden – ein weiteres Thema für Nvidia nach der CreditWatch-Warnung von S&P.\n\nAm Vormittag stehen die Inflation in Frankreich (8:45 Uhr, Konsens 3,2 %) und Spanien (9 Uhr) sowie die EU-Wirtschaftsstimmung (11 Uhr) an. S&P 500 und Nasdaq steuern trotz des Rebounds auf den schwächsten November seit 2008 zu.\n\nVorbörslich taxierte der Broker IG den DAX um 6:16 Uhr 0,7 % höher bei 25.397 Punkten; die Commerzbank spricht von einer „Erholung der globalen Risikobereitschaft“ bei gedämpften Umsätzen. Im Blick stehen SAP nach dem Bericht über Stellenstreichungen und Rheinmetall, wo am zweiten Tag des Kapitalmarkttags eine Kürzung des mittelfristigen Ausblicks erwartet wird.\n\nUpdate Mittag: Der DAX notierte gegen 11:40 Uhr 0,8 % höher bei rund 25.427 Punkten. Die EU-Wirtschaftsstimmung (ESI) fiel im November auf 95,8 von 96,5 und lag damit klar unter dem Konsens von 97,2 – dritter Rückgang in Folge, vor allem wegen Industrie (−5,1) und Bau; das Verbrauchervertrauen verbesserte sich leicht auf −16,9. Frankreichs Inflation fiel auf 2,9 % und damit deutlich unter die Erwartung.",
-        "wirkung": [
-          {
-            "markt": "DAX",
-            "richtung": "seitwaerts",
-            "warum": "Nach +2 % am Donnerstag sind Gewinnmitnahmen vor dem Wochenende möglich, Asien gibt aber Rückenwind."
-          },
-          {
-            "markt": "Nvidia / Chipwerte",
-            "richtung": "unsicher",
-            "warum": "Exportregeln für Südostasien belasten, der Rebound vom Mittwoch und dünner Handel können Ausschläge in beide Richtungen verstärken."
-          },
-          {
-            "markt": "Euro-Renditen",
-            "richtung": "faellt",
-            "warum": "Französische Inflation unter Konsens und schwächere EU-Stimmung dämpfen Zinsängste vor der HVPI-Schätzung am 1.12."
-          }
-        ],
-        "quelle": "RTTNews",
-        "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70241350-asian-markets-trade-mostly-higher-020.htm",
-        "zeit": "27.11., 04:42"
+        "url": "https://www.handelsblatt.com/politik/deutschland/rentenreform-schweitzer-legt-neuen-gesetzentwurf-vor-union-laeuft-sturm/100273340.html",
+        "zeit": "27.11., 15:35"
       },
       {
         "tag": "Politik",
-        "titel": "EU-Gipfel ohne Einigung über Haushalt und Ukraine-Kredit",
-        "text": "Der Sondergipfel in Brüssel endete ohne Einigung über den Finanzrahmen 2028–2034 (Ratspräsident Costa schlägt rund 1,58 Bio. € vor) und einen neuen Kredit für die Ukraine von bis zu 45 Mrd. €. Kanzler Merz sagte, die EU könne und dürfe keine weiteren Schulden aufnehmen; Meloni sprach von „Lichtjahren“ bis zu einer Lösung. Gegen den Ukraine-Kredit stellen sich die Slowakei, Tschechien, Ungarn und Bulgarien. Diplomaten peilen nun den regulären Gipfel am 17./18.12. an, um vor der französischen Präsidentschaftswahl im Mai fertig zu sein.\n\nMerz erklärte am Abend, Europäer und USA seien sich über „Artikel-5-ähnliche“ Sicherheitsgarantien für die Ukraine einig. US-Präsident Trump schrieb, er habe Putin beim APEC-Treffen in Shenzhen aufgefordert, militärische Aggression gegen Gebiete in ganz Europa zurückzufahren. Selenskyj warnt vor einem neuen russischen Großangriff auf die Energieversorgung.",
+        "titel": "Taiwan wählt, Polen plant Flugverbotszone",
+        "text": "In Taiwan werden heute Bürgermeister und Kreischefs gewählt, Ergebnisse kommen am Nachmittag deutscher Zeit. Die Wahl gilt als Stimmungstest für Präsident Lai vor 2028, nachdem China Anfang November mehr als 100 Schiffe rund um die Insel zusammengezogen hatte.\n\nPolen will entlang der Grenze zur Ukraine und zu Belarus eine 30 bis 40 km breite Flugverbotszone einrichten, in der eindringende Objekte leichter abgeschossen werden können; sie soll Ende Dezember oder Anfang Januar gelten. Anlass sind russische Raketen, die zuletzt auf polnischem Gebiet niedergingen.",
         "wirkung": [
           {
-            "markt": "Euro-Staatsanleihen (Peripherie)",
-            "richtung": "seitwaerts",
-            "warum": "Der Streit über neue Gemeinschaftsschulden war erwartet; Druck entstünde erst bei einem Scheitern im Dezember."
+            "markt": "TSMC / Taiwan-Dollar",
+            "richtung": "unsicher",
+            "warum": "Ein klarer Sieg der chinakritischen Kräfte könnte Peking zu neuen Drohgebärden reizen; ein KMT-Erfolg eher beruhigen."
           },
           {
             "markt": "Europäische Rüstungswerte",
             "richtung": "steigt",
-            "warum": "Gespräche über Sicherheitsgarantien und die russische Bedrohung sprechen für anhaltend hohe Verteidigungsbudgets."
+            "warum": "Mehr Luftverteidigung an der Ostflanke stützt die Nachfrage."
           },
           {
-            "markt": "Ukraine-Anleihen",
-            "richtung": "unsicher",
-            "warum": "Ohne neuen EU-Kredit wächst die Finanzierungslücke 2027; eine Einigung im Dezember würde sie schließen."
+            "markt": "Polnischer Zloty",
+            "richtung": "seitwaerts",
+            "warum": "Die Maßnahme ist defensiv und erhöht das Risiko kaum."
           }
         ],
-        "quelle": "Al Jazeera",
-        "url": "https://www.aljazeera.com/economy/2026/11/26/eu-leaders-struggle-to-agree-on-long-term-budget-more-money-for-ukraine",
-        "zeit": "26.11."
+        "quelle": "Kyiv Post",
+        "url": "https://www.kyivpost.com/post/91383",
+        "zeit": "27.11."
       }
     ],
     "begriffe": [
       {
-        "begriff": "Nettokreditaufnahme",
-        "erklaerung": "Neue Schulden eines Haushaltsjahres abzüglich Tilgungen. Im Kernhaushalt 2027 sind es knapp 123 Mrd. €; zusammen mit den Sondervermögen leiht sich der Bund rund 210 Mrd. €."
+        "begriff": "Rollover (OPEC+)",
+        "erklaerung": "Verlängerung bestehender Förderquoten in den nächsten Zeitraum, ohne neue Mengen festzulegen. Er verschafft Zeit, wenn sich die Mitglieder über neue Basismengen nicht einigen können."
       },
       {
-        "begriff": "Sondervermögen",
-        "erklaerung": "Rechtlich vom Kernhaushalt getrennter Fonds mit eigener Kreditermächtigung, z. B. für Infrastruktur oder die Bundeswehr. Seine Kredite zählen nicht zur Schuldenbremse, erhöhen aber die Staatsverschuldung."
+        "begriff": "Basismenge (Baseline)",
+        "erklaerung": "Bezugsgröße, von der aus OPEC+-Kürzungen berechnet werden, meist an der geschätzten Förderkapazität orientiert. Wer eine höhere Basis bekommt, darf mehr fördern – deshalb ist sie politisch umkämpft."
       },
       {
-        "begriff": "Pilotabschluss",
-        "erklaerung": "Erster Tarifabschluss einer Branche in einem Bezirk (hier Baden-Württemberg/NRW), der anschließend von den übrigen Tarifgebieten weitgehend übernommen wird."
+        "begriff": "Nonfarm Payrolls",
+        "erklaerung": "Monatlicher Stellenzuwachs außerhalb der Landwirtschaft laut US-Arbeitsministerium (BLS), veröffentlicht meist am ersten Freitag des Monats um 14:30 Uhr deutscher Zeit. Er gilt als wichtigster Konjunkturdatenpunkt für die Fed."
       },
       {
-        "begriff": "Einmalzahlung",
-        "erklaerung": "Lohnbestandteil, der nur einmal gezahlt wird und die Tabellenentgelte nicht dauerhaft erhöht. Für Unternehmen und Notenbanken weniger inflationstreibend als eine prozentuale Erhöhung."
+        "begriff": "ISM-Einkaufsmanagerindex",
+        "erklaerung": "Umfrage unter Einkaufsleitern in Industrie bzw. Dienstleistungen. Werte über 50 signalisieren Wachstum; die Unterindizes für Preise und Beschäftigung geben früh Hinweise auf Inflation und Arbeitsmarkt."
       },
       {
-        "begriff": "EZB-Direktorium",
-        "erklaerung": "Sechsköpfiges Führungsgremium der EZB mit Präsident, Vizepräsident und vier Mitgliedern, ernannt vom Europäischen Rat für acht Jahre ohne Wiederwahl. Es führt die laufenden Geschäfte und bereitet die Sitzungen des EZB-Rats vor."
+        "begriff": "Flache Zinskurve (2s10s)",
+        "erklaerung": "Differenz zwischen zehn- und zweijährigen Renditen. Schrumpft sie, steigen die kurzen Zinsen wegen erwarteter Notenbank-Erhöhungen schneller als die langen – oft ein Zeichen, dass der Markt mit späterer Abkühlung rechnet."
       },
       {
-        "begriff": "Kerninflation",
-        "erklaerung": "Teuerung ohne schwankungsanfällige Komponenten wie Energie und Lebensmittel. In Japan meint „Core CPI“ nur ohne frische Lebensmittel; ohne Energie heißt es „Core-Core“."
+        "begriff": "Systematische Fonds (CTA)",
+        "erklaerung": "Fonds, die nach Regeln auf Trends und Volatilität handeln statt nach Fundamentaldaten. Steigt die Volatilität, verkaufen sie mechanisch – das kann Bewegungen verstärken."
       },
       {
-        "begriff": "Mehrjähriger Finanzrahmen (MFR)",
-        "erklaerung": "Siebenjähriger EU-Haushaltsplan, der die Obergrenzen der Ausgaben festlegt und einstimmig von den Mitgliedstaaten beschlossen werden muss; der nächste gilt für 2028–2034."
-      },
-      {
-        "begriff": "Share Deal",
-        "erklaerung": "Kauf von Anteilen an einer Gesellschaft, der eine Immobilie gehört, statt der Immobilie selbst. So lässt sich bisher die Grunderwerbsteuer vermeiden, was Finanzminister Klingbeil ab Juli 2027 erschweren will."
+        "begriff": "Rente für besonders langjährig Versicherte",
+        "erklaerung": "Abschlagsfreie Altersrente nach 45 Beitragsjahren (umgangssprachlich „Rente mit 63“), deren Altersgrenze schrittweise auf 65 steigt. Strittig ist, welche Zeiten – etwa Arbeitslosigkeit – auf die 45 Jahre angerechnet werden."
       }
     ],
     "literatur": [
       {
-        "titel": "Bundeshaushalt digital",
-        "autor": "Bundesministerium der Finanzen",
-        "url": "https://www.bundeshaushalt.de/",
-        "warum": "Interaktive Übersicht, wofür der Bund sein Geld ausgibt – passend zur heutigen Schlussabstimmung."
+        "titel": "The Employment Situation",
+        "autor": "U.S. Bureau of Labor Statistics (laufend)",
+        "url": "https://www.bls.gov/news.release/empsit.toc.htm",
+        "warum": "Primärquelle zum Arbeitsmarktbericht am 4.12. mit allen Tabellen und Revisionen."
       },
       {
-        "titel": "Die Europäische Zentralbank – Aufbau und Aufgaben",
-        "autor": "Europäische Zentralbank",
-        "url": "https://www.ecb.europa.eu/ecb/orga/decisions/html/index.de.html",
-        "warum": "Primärquelle zu Direktorium, EZB-Rat und Entscheidungsprozessen, die mit Hernández de Cos neu besetzt werden."
+        "titel": "ISM Report On Business",
+        "autor": "Institute for Supply Management (laufend)",
+        "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-report-on-business/",
+        "warum": "Originalberichte zu den Einkaufsmanagerindizes, die am 1. und 3.12. erscheinen."
       },
       {
-        "titel": "Tarifarchiv des WSI",
-        "autor": "WSI der Hans-Böckler-Stiftung",
-        "url": "https://www.wsi.de/de/tarifarchiv-15310.htm",
-        "warum": "Statistiken und Erklärungen zu Tarifabschlüssen, Laufzeiten und Einmalzahlungen."
-      },
-      {
-        "titel": "Makroökonomik",
-        "autor": "N. Gregory Mankiw",
-        "warum": "Standardlehrbuch zu Fiskalpolitik, Staatsverschuldung und Geldpolitik, auch auf Deutsch."
+        "titel": "Monthly Oil Market Report",
+        "autor": "OPEC (monatlich)",
+        "url": "https://www.opec.org/",
+        "warum": "Die Sicht des Kartells auf Angebot, Nachfrage und Förderung der Mitglieder – Hintergrund zum Treffen am Sonntag."
       },
       {
         "titel": "The Prize: The Epic Quest for Oil, Money & Power",
-        "autor": "Daniel Yergin (1991, Neuauflage 2008)",
-        "warum": "Pulitzer-Preis-Klassiker zur Geopolitik des Öls – Hintergrund zu Hormus, Saudi-Arabien und OPEC+ vor dem Treffen am Sonntag."
+        "autor": "Daniel Yergin, 1991",
+        "warum": "Standardwerk zur Geschichte des Ölmarkts und der OPEC."
+      },
+      {
+        "titel": "Altersrente für besonders langjährig Versicherte",
+        "autor": "Deutsche Rentenversicherung",
+        "url": "https://www.deutsche-rentenversicherung.de/",
+        "warum": "Offizielle Erklärung der Voraussetzungen, um den Entwurf von Schweitzer einordnen zu können."
       }
     ]
   },
   "energie": {
-    "stand": "27.11. 15:08",
+    "stand": "28.11. 05:40",
     "oel": {
-      "lage": "Brent notiert am Freitagmorgen bei gut 96 $ (WTI um 84–85 $) und steuert auf das erste Wochenplus seit vier Wochen zu, nachdem die Houthis nach Ras Tanura auch die Raffinerie Jazan trafen und Iran neue Minentreffer in Hormus meldet. Im November steht dennoch ein Minus von knapp 20 %, weil die IEA ein Überangebot erwartet; am Sonntag (29.11.) entscheidet OPEC+ über die Quoten 2027.",
+      "lage": "Brent fiel am Freitag um 1,2 % auf 95,44 $ (WTI 83,08 $), schaffte aber mit rund +3 % das erste Wochenplus im November, weil Angriffe auf Jazan, Ras Tanura und Tanker in Hormus das Angebot bedrohen; laut Kpler fließen durch Hormus nur gut 9 Mio. b/d. Am Sonntag (29.11.) verlängert OPEC+ laut Reuters-Quellen voraussichtlich die Quoten bis Ende März 2027, Rystad erwartet für 2027 ein Überangebot von rund 5 Mio. b/d.",
       "foerderung": [
         {
           "land": "USA",
@@ -6929,7 +6994,7 @@
       "quelle": "Förderung: Rohöl 2025, Welt 84,4 Mio. b/d; Verbrauch: 2024 (EIA, Energy Institute Statistical Review 2026)",
       "opec": {
         "stand": "Beschluss 1.11.",
-        "lage": "Die sieben Länder mit monatlichen Quoten lassen die Förderung im Dezember unverändert (3. Monat in Folge). Am 29.11. legt die Ministerkonferenz aller 21 Mitglieder die Basismengen für 2027 fest; nach dem 31.12. gibt es bisher keinen Förderrahmen. Die VAE sind seit 1.5.2026 nicht mehr dabei.",
+        "lage": "Die sieben Länder mit monatlichen Quoten ließen die Förderung im Dezember unverändert (3. Monat in Folge). Am Sonntag (29.11., erste Sitzung laut Bericht um 14:00 Uhr) tagt die Ministerkonferenz; laut Reuters-Quellen sollen die Ziele mindestens bis März 2027 unverändert bleiben, der Streit über die Kapazitätsprüfung (Irak droht mit Austritt, auch Kasachstan will mehr) wird vertagt. Die VAE sind seit 1.5.2026 nicht mehr dabei.",
         "quoten": [
           {
             "land": "Saudi-Arabien",
@@ -6964,7 +7029,7 @@
       }
     },
     "gas": {
-      "lage": "TTF stieg am Donnerstag um 0,8 % auf 87,75 €/MWh, weil für Nordwest- und Mitteleuropa bis Anfang Dezember Kälte erwartet wird. Die EU-Speicher liegen unter 68 % (Fünfjahresmittel 86 %), LNG aus dem Golf bleibt gestört; ab Januar gilt das EU-Importverbot für russisches Gas.",
+      "lage": "TTF schwankt um 87 bis 88 €/MWh: Für Nordwest- und Mitteleuropa wird bis Anfang Dezember Kälte erwartet, dagegen stehen hohe Flüsse aus Norwegen. Die EU-Speicher liegen unter 68 % (Fünfjahresmittel 86 %), LNG aus dem Golf bleibt gestört; ab Januar gilt das EU-Importverbot für russisches Gas.",
       "ttf": {
         "wert": 87.75,
         "datum": "26.11.",
@@ -7019,13 +7084,13 @@
       "quelle": "Ember, BDEW/ZSW"
     },
     "routen": {
-      "stand": "Mitte Nov.",
+      "stand": "24.11.",
       "quelle": "EIA (Normalwerte H1 2025), Kpler, IMF PortWatch",
       "liste": [
         {
           "route": "Straße von Hormus",
           "normal": "20,9 Mio. b/d",
-          "lage": "Stark eingeschränkt: ca. 8–10 Mio. b/d (ohne Iran), US-Blockade iranischer Häfen, Minen",
+          "lage": "Stark eingeschränkt: ca. 9,3 Mio. b/d (Kpler, 7 Tage bis 24.11., rund 54 % der Vorkriegsmenge), US-Blockade iranischer Häfen, Minen",
           "status": "rot"
         },
         {
@@ -7134,6 +7199,10 @@
         "was": "EIA-Wochenbericht US-Öllager"
       },
       {
+        "datum": "09.12.",
+        "was": "Fed-Zinsentscheid (Dollar und Ölnachfrage)"
+      },
+      {
         "datum": "17.12.",
         "was": "EZB- und BoE-Zinsentscheid (Einfluss auf Energiefinanzierung)"
       },
@@ -7151,6 +7220,54 @@
       }
     ],
     "news": [
+      {
+        "tag": "Öl",
+        "titel": "Brent fällt auf 95,44 $, verbucht aber erstes Wochenplus im November",
+        "warum": "Angriffe auf Tanker und saudische Anlagen überlagern die Sorge vor einem Überangebot 2027.",
+        "quelle": "Reuters",
+        "url": "https://www.asiaone.com/money/oil-notches-first-weekly-gain-november-supply-fears",
+        "zeit": "28.11., 04:48",
+        "medien": [
+          "Reuters",
+          "The National"
+        ]
+      },
+      {
+        "tag": "OPEC+",
+        "titel": "OPEC+ will Förderziele laut Insidern bis Ende März 2027 unverändert lassen",
+        "warum": "Der Streit über die neuen Kapazitätsbasen für 2027 soll am Sonntag vertagt werden.",
+        "quelle": "Reuters",
+        "url": "https://www.dawn.com/news/2047238/opec-likely-to-roll-over-oil-output-targets-for-q1-as-capacity-disputes-persist-sources-say",
+        "zeit": "26.11.",
+        "medien": [
+          "Reuters",
+          "Bloomberg"
+        ]
+      },
+      {
+        "tag": "OPEC+",
+        "titel": "Irak bestreitet seine Kapazitätsbewertung und will eine höhere Quote",
+        "warum": "Bagdad sieht sich bei 5,2 Mio. b/d, das unabhängige Audit liegt unter 5 Mio. b/d – Konfliktstoff für das Treffen.",
+        "quelle": "Forbes",
+        "url": "https://www.forbes.com/sites/guneyyildiz/2026/11/25/iraq-disputes-its-opec-capacity-assessment-can-it-use-a-bigger-quota/",
+        "zeit": "25.11.",
+        "medien": [
+          "Forbes",
+          "Reuters"
+        ]
+      },
+      {
+        "tag": "Hormus",
+        "titel": "Kpler: Durch Hormus fließen nur noch rund 54 % der Vorkriegsmenge",
+        "warum": "Im Schnitt 9,25 Mio. b/d in den sieben Tagen bis 24.11., vor dem Krieg waren es 17,1 Mio. b/d.",
+        "quelle": "The National",
+        "url": "https://www.thenationalnews.com/business/energy/2026/11/27/oil-set-to-post-weekly-gain-as-middle-east-attacks-stoke-supply-concerns/",
+        "zeit": "27.11., 08:47",
+        "medien": [
+          "The National",
+          "Reuters"
+        ]
+      },
       {
         "tag": "Hormus",
         "titel": "Iran meldet erneut Minentreffer an Öltanker nördlich der VAE",
@@ -7185,53 +7302,6 @@
           "Bloomberg",
           "Khaleej Times",
           "The National"
-        ]
-      },
-      {
-        "tag": "Gas",
-        "titel": "TTF bei knapp 88 €/MWh – Kälte gegen volle Norwegen-Flüsse",
-        "warum": "Speicher unter 68 % machen den Markt anfällig für Kältewellen.",
-        "quelle": "Investing.com",
-        "url": "https://www.investing.com/news/commodities-news/europe-gas-prices-rangebound-as-markets-weigh-middle-east-tensions-5052229",
-        "zeit": "26.11.",
-        "medien": [
-          "Investing.com",
-          "Trading Economics"
-        ]
-      },
-      {
-        "tag": "Öl",
-        "titel": "US-Konsortium will Lukoil-Auslandsgeschäft übernehmen",
-        "warum": "Die Sanktionen zwingen Lukoil zum Verkauf seiner Beteiligungen außerhalb Russlands.",
-        "quelle": "Handelsblatt",
-        "url": "https://www.handelsblatt.com/politik/international/ukraine-usa-aendert-wohl-strategie-zu-geschaeftsabschluessen-mit-russland/27982126.html",
-        "zeit": "26.11., 15:35",
-        "medien": [
-          "Handelsblatt"
-        ]
-      },
-      {
-        "tag": "Russland",
-        "titel": "EU-Bericht: Trump-Politik gab Russlands Energiesektor wirtschaftlichen Rückenhalt",
-        "warum": "Trotz Sanktionen und Drohnenangriffen profitiere Moskau von US-Lockerungen.",
-        "quelle": "Kyiv Independent",
-        "url": "https://kyivindependent.com/exclusive-eu-report-confirms-trump-threw-russian-energy-sector-an-economic-lifeline-even-as-sanctions-ukrainian-drones-bite-hard/",
-        "zeit": "26.11., 06:00",
-        "medien": [
-          "Kyiv Independent"
-        ]
-      },
-      {
-        "tag": "Öl",
-        "titel": "Ölpreis zieht nach Angriff auf Ras Tanura auf 95 $ an",
-        "warum": "Drohnen auf Saudi-Arabiens größte Raffinerie und Minentreffer in Hormus lassen den Risikoaufschlag zurückkehren – drei Tage vor dem OPEC+-Treffen.",
-        "quelle": "The National",
-        "url": "https://www.thenationalnews.com/business/energy/2026/11/26/oil-rebounds-to-95-per-barrel-after-saudi-refinery-attack/",
-        "zeit": "26.11.",
-        "medien": [
-          "The National",
-          "Business Recorder",
-          "OilPrice"
         ]
       }
     ]
